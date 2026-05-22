@@ -3,179 +3,187 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Flowtime — Focus without pressure</title>
+  <title>Flowtime. Focus, your way.</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="nav">
+  <header class="site-header" aria-label="Flowtime">
     <a class="brand" href="#">
       <img src="assets/logo.png" alt="Flowtime logo" />
-      <span>Flowtime°</span>
+      <span>Flowtime</span>
     </a>
-
-    <nav>
-      <a href="#features">Features</a>
-      <a href="#themes">Themes</a>
-      <a href="#pricing">Pricing</a>
-      <a href="support.html">Support</a>
-      <a class="nav-button" href="#download">Download</a>
-    </nav>
   </header>
 
   <main>
     <section class="hero">
-      <div class="hero-visual">
+      <div class="hero-copy">
+        <img class="app-icon" src="assets/logo.png" alt="" aria-hidden="true" />
+        <h1>Flowtime. Focus, your way.</h1>
+        <p>
+          A calm focus timer for Pomodoro sessions, open-ended flow, and work that
+          deserves your attention without turning productivity into pressure.
+        </p>
+
+        <div class="actions" aria-label="Download options">
+          <a class="button primary" href="#" aria-label="Download Flowtime on the App Store">
+            <span class="store-mark" aria-hidden="true"></span>
+            <span>App Store</span>
+          </a>
+          <a class="button secondary" href="#" aria-label="Join the Flowtime TestFlight">
+            <span class="testflight-mark" aria-hidden="true"></span>
+            <span>TestFlight</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Flowtime timer preview">
         <div class="timer-card">
           <div class="timer-ring">
             <div>
-              <div class="timer-time">00:24:55</div>
-              <div class="timer-sub">100% of 00:25:00</div>
+              <span class="timer-time">00:24:55</span>
+              <small>100% of 00:25:00</small>
             </div>
           </div>
         </div>
 
-        <div class="float-card float-one">
-          <span>◔</span>
+        <div class="float-card float-pomodoro">
+          <span class="mini-icon ring-icon"></span>
           <div>
             <strong>Pomodoro</strong>
-            <p>25 / 5</p>
+            <p>25 / 5 rhythm</p>
           </div>
         </div>
 
-        <div class="float-card float-two">
-          <span>≈</span>
+        <div class="float-card float-flow">
+          <span class="mini-icon wave-icon"></span>
           <div>
             <strong>Flow Session</strong>
-            <p>60 min</p>
+            <p>60 min target</p>
           </div>
         </div>
 
-        <div class="float-card float-three">
-          <span>●</span>
+        <div class="float-card float-project">
+          <span class="mini-icon dot-icon"></span>
           <div>
             <strong>Project</strong>
             <p>Design</p>
           </div>
         </div>
       </div>
-
-      <div class="hero-copy">
-        <img class="app-icon" src="assets/logo.png" alt="Flowtime app icon" />
-        <h1>Focus without pressure.</h1>
-        <p>
-          Flowtime helps you stay focused with beautifully designed timers,
-          flow sessions, and calm productivity tools.
-        </p>
-
-        <div class="buttons">
-          <a class="button primary" href="#">Download on the App Store</a>
-          <a class="button secondary" href="#">Join TestFlight</a>
-        </div>
-
-        <div class="trust">
-          <span>Designed for calm productivity</span>
-        </div>
-      </div>
     </section>
 
-    <section id="features" class="section features">
+    <section class="section focus-modes">
       <div class="section-title">
-        <h2>Three ways to focus.</h2>
+        <p class="eyebrow">Focus modes</p>
+        <h2>Three ways to settle in.</h2>
       </div>
 
-      <div class="cards three">
-        <article class="card">
-          <div class="icon">◔</div>
+      <div class="mode-grid">
+        <article class="feature-card">
+          <span class="feature-icon timer-icon"></span>
           <h3>Timer</h3>
-          <p>A clean and classic focus timer for everyday work sessions.</p>
+          <p>A simple count-up or count-down session for everyday focus.</p>
         </article>
 
-        <article class="card">
-          <div class="icon">◌</div>
+        <article class="feature-card">
+          <span class="feature-icon ring-icon"></span>
           <h3>Pomodoro</h3>
-          <p>Structured focus intervals with automatic breaks to keep your energy balanced.</p>
+          <p>Focused intervals and breaks that keep a steady rhythm.</p>
         </article>
 
-        <article class="card">
-          <div class="icon">≈</div>
+        <article class="feature-card">
+          <span class="feature-icon wave-icon"></span>
           <h3>Flow Session</h3>
-          <p>Flexible target-based sessions designed for immersive deep work.</p>
+          <p>Flexible target-based work for longer, more immersive sessions.</p>
         </article>
       </div>
     </section>
 
-    <section id="themes" class="section split-section">
+    <section class="section themes">
       <div class="section-title">
-        <h2>Two completely different moods.</h2>
+        <p class="eyebrow">Themes</p>
+        <h2>Choose the mood that fits your work.</h2>
       </div>
 
-      <div class="theme-row">
-        <div class="theme-card">
+      <div class="theme-grid">
+        <article class="theme-card">
           <div>
             <h3>Mono</h3>
-            <p>Minimal, monochrome, and distraction-free for pure focus.</p>
+            <p>Minimal, monochrome, and distraction-free.</p>
           </div>
-          <img src="assets/mono-placeholder.png" alt="Mono theme placeholder" />
-        </div>
+          <img src="assets/mono-placeholder.PNG" alt="Flowtime mono theme" />
+        </article>
 
-        <div class="theme-card">
+        <article class="theme-card classic">
           <div>
             <h3>Classic</h3>
-            <p>Colorful, expressive, and visually dynamic without sacrificing clarity.</p>
+            <p>Colorful without losing the quiet structure.</p>
           </div>
-          <img src="assets/classic-placeholder.png" alt="Classic theme placeholder" />
-        </div>
+          <img src="assets/classic-placeholder.PNG" alt="Flowtime classic theme" />
+        </article>
       </div>
     </section>
 
-    <section class="section work-grid">
-      <div class="text-block">
-        <h2>Organize your work naturally.</h2>
-        <p>Create projects, switch instantly between tasks, and keep every session connected to your workflow.</p>
-      </div>
+    <section class="section workflow">
+      <article class="text-panel">
+        <p class="eyebrow">Projects</p>
+        <h2>Organize work naturally.</h2>
+        <p>Create projects, switch context quickly, and keep each session attached to the work it belongs to.</p>
+      </article>
 
-      <div class="mini-screen">
-        <div class="sidebar">
-          <span>Projects</span>
-          <p>Design</p>
-          <p>Development</p>
-          <p>Writing</p>
-          <p>Marketing</p>
+      <article class="mock-panel project-preview" aria-label="Project timer preview">
+        <div class="project-list">
+          <strong>Projects</strong>
+          <span class="active">Design</span>
+          <span>Development</span>
+          <span>Writing</span>
+          <span>Marketing</span>
         </div>
-        <div class="mini-timer">00:24:55</div>
-      </div>
+        <div class="compact-timer">
+          <span>00:24:55</span>
+          <small>100% of 00:25:00</small>
+        </div>
+      </article>
 
-      <div class="text-block">
+      <article class="text-panel">
+        <p class="eyebrow">Reports</p>
         <h2>See where your time goes.</h2>
-        <p>Understand your habits with beautifully simple daily, weekly, and project-based reports.</p>
-      </div>
+        <p>Daily, weekly, and project-based reports make progress visible without turning it into noise.</p>
+      </article>
 
-      <div class="mini-chart">
+      <article class="mock-panel report-preview" aria-label="Weekly focus report preview">
         <strong>This Week</strong>
         <h3>18h 42m</h3>
-        <div class="bars">
-          <span></span><span></span><span></span><span></span><span></span>
+        <div class="bar-chart" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-      </div>
+      </article>
     </section>
 
-    <section class="philosophy">
-      <div class="icon large">♧</div>
-      <h2>Built for focus — not pressure.</h2>
+    <section class="principle">
+      <span class="feature-icon leaf-icon"></span>
+      <h2>Built for focus, not pressure.</h2>
       <p>
-        Most productivity apps try to push you harder. Flowtime takes a different approach:
-        calm design, intentional sessions, and tools that help you focus without feeling overwhelmed.
+        Flowtime favors calm controls, intentional sessions, and a clean visual system
+        that helps you begin, continue, and stop with less friction.
       </p>
     </section>
 
-    <section id="pricing" class="section pricing">
+    <section class="section pricing">
       <div class="section-title">
+        <p class="eyebrow">Pricing</p>
         <h2>Free to start. Pro when you need more.</h2>
         <p>Early supporter pricing available during launch.</p>
       </div>
 
-      <div class="cards two">
-        <article class="card price-card">
+      <div class="price-grid">
+        <article class="price-card">
           <h3>Free</h3>
           <p>Perfect for everyday focus tracking.</p>
           <ul>
@@ -187,8 +195,8 @@
           <strong>Forever free</strong>
         </article>
 
-        <article class="card price-card pro">
-          <span class="badge">Most Popular</span>
+        <article class="price-card pro">
+          <span class="badge">Popular</span>
           <h3>Pro</h3>
           <p>For deeper workflows and insights.</p>
           <ul>
@@ -202,13 +210,13 @@
       </div>
     </section>
 
-    <section id="download" class="download">
-      <img src="assets/logo.png" alt="Flowtime logo" />
+    <section class="download-panel">
+      <img src="assets/logo.png" alt="" aria-hidden="true" />
       <div>
         <h2>Ready to enter flow?</h2>
         <p>Download Flowtime and build a calmer way to focus.</p>
       </div>
-      <div class="buttons">
+      <div class="actions">
         <a class="button primary" href="#">App Store</a>
         <a class="button secondary" href="#">TestFlight</a>
       </div>
@@ -216,10 +224,10 @@
   </main>
 
   <footer>
-    <span>© 2026 Flowtime. All rights reserved.</span>
+    <span>Copyright 2026 Flowtime. All rights reserved.</span>
     <div>
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="support.html">Support</a>
+      <a href="docs/privacy-policy.html">Privacy Policy</a>
+      <a href="docs/support.html">Support</a>
     </div>
   </footer>
 </body>
