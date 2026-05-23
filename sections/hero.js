@@ -18,14 +18,14 @@ window.renderSection("hero", `
         <img class="logo-mono" src="assets/logo.png" alt="" />
         <img class="logo-classic" src="assets/logo-classic.png" alt="" />
       </span>
-      <h1>Focus. Your way.</h1>
-      <p class="hero-tagline">Tracks your time, your way.</p>
-      <p class="hero-description">Flowtime helps you stay focused with beautifully designed timers, projects, and calm productivity tools.</p>
+      <h1>Built to help you focus.</h1>
+      <p class="hero-tagline">Time tracking without clutter.</p>
+      <p class="hero-description">Flowtime gives you calm timers, simple projects, and clear focus history — without turning productivity into pressure.</p>
       <div class="actions" aria-label="Download options">
-        <a class="button primary" href="#" aria-label="Subscribe to Flowtime"><span>Subscribe</span></a>
+        <a class="button primary" href="#" aria-label="Download Flowtime"><span>Get Flowtime</span></a>
         <a class="button secondary" href="#" aria-label="Join the Flowtime TestFlight"><span>Join TestFlight</span></a>
       </div>
-      <p class="trustline">Flowtime - Focus. Your way.</p>
+      <p class="trustline">Minimal focus tracking for iPhone</p>
     </div>
   </section>
 `);

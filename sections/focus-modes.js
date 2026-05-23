@@ -4,21 +4,39 @@ window.renderSection("focus-modes", `
       <h2>Three ways to focus.</h2>
       <p>Choose the timer that fits your workflow.</p>
     </div>
-    <div class="mode-grid">
-      <article class="mode-item">
-        <h3>Flow Session</h3>
-        <p>Deep, distraction-free focus.</p>
-        <div class="mode-ring flow-ring"><div><strong>00:09:30</strong><small>38% of 00:25:00</small></div></div>
+
+    <div class="focus-phone-grid">
+      <article class="focus-phone-card">
+        <div class="focus-mode-label">
+          <span class="focus-mode-icon flow-icon"></span>
+          <div>
+            <h3>Flow Session</h3>
+            <p>Deep, distraction-free focus.</p>
+          </div>
+        </div>
+        <img src="assets/flow-session-mono.png" alt="Flow Session timer in Flowtime" />
       </article>
-      <article class="mode-item">
-        <h3>Pomodoro</h3>
-        <p>Stay structured with work intervals.</p>
-        <div class="mode-ring pomodoro-ring"><div><strong>00:09:24</strong><small>38% of 00:25:00</small></div></div>
+
+      <article class="focus-phone-card">
+        <div class="focus-mode-label">
+          <span class="focus-mode-icon pomodoro-icon"></span>
+          <div>
+            <h3>Pomodoro</h3>
+            <p>Stay structured with work intervals.</p>
+          </div>
+        </div>
+        <img src="assets/pomodoro-mono.png" alt="Pomodoro timer in Flowtime" />
       </article>
-      <article class="mode-item">
-        <h3>Classic Timer</h3>
-        <p>Simple, intuitive time tracking.</p>
-        <div class="mode-ring classic-ring"><div><strong>00:09:12</strong><small>38% of 00:25:00</small></div></div>
+
+      <article class="focus-phone-card">
+        <div class="focus-mode-label">
+          <span class="focus-mode-icon timer-icon"></span>
+          <div>
+            <h3>Classic Timer</h3>
+            <p>Simple, intuitive time tracking.</p>
+          </div>
+        </div>
+        <img src="assets/classic-timer-mono.png" alt="Classic timer in Flowtime" />
       </article>
     </div>
   </section>
