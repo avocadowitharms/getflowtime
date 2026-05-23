@@ -1,5 +1,9 @@
 .chrome-profile/
 .chrome-profile-mobile/
+.chrome-dark-profile/
 .edge-profile/
 flowtime-desktop.png
 flowtime-mobile.png
+flowtime-classic.png
+flowtime-dark.png
+flowtime-mono.png

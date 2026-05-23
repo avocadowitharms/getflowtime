@@ -3,232 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Flowtime. Focus, your way.</title>
+  <title>Flowtime - Focus. Your way.</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-  <header class="site-header" aria-label="Flowtime">
-    <a class="brand" href="#">
-      <img src="assets/logo.png" alt="Flowtime logo" />
-      <span>Flowtime</span>
-    </a>
-  </header>
+<body data-theme="mono">
+  <div id="site-header"></div>
 
   <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <img class="app-icon" src="assets/logo.png" alt="" aria-hidden="true" />
-        <h1>Flowtime. Focus, your way.</h1>
-        <p>
-          A calm focus timer for Pomodoro sessions, open-ended flow, and work that
-          deserves your attention without turning productivity into pressure.
-        </p>
-
-        <div class="actions" aria-label="Download options">
-          <a class="button primary" href="#" aria-label="Download Flowtime on the App Store">
-            <span class="store-mark" aria-hidden="true"></span>
-            <span>App Store</span>
-          </a>
-          <a class="button secondary" href="#" aria-label="Join the Flowtime TestFlight">
-            <span class="testflight-mark" aria-hidden="true"></span>
-            <span>TestFlight</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="hero-visual" aria-label="Flowtime timer preview">
-        <div class="timer-card">
-          <div class="timer-ring">
-            <div>
-              <span class="timer-time">00:24:55</span>
-              <small>100% of 00:25:00</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="float-card float-pomodoro">
-          <span class="mini-icon ring-icon"></span>
-          <div>
-            <strong>Pomodoro</strong>
-            <p>25 / 5 rhythm</p>
-          </div>
-        </div>
-
-        <div class="float-card float-flow">
-          <span class="mini-icon wave-icon"></span>
-          <div>
-            <strong>Flow Session</strong>
-            <p>60 min target</p>
-          </div>
-        </div>
-
-        <div class="float-card float-project">
-          <span class="mini-icon dot-icon"></span>
-          <div>
-            <strong>Project</strong>
-            <p>Design</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section focus-modes">
-      <div class="section-title">
-        <p class="eyebrow">Focus modes</p>
-        <h2>Three ways to settle in.</h2>
-      </div>
-
-      <div class="mode-grid">
-        <article class="feature-card">
-          <span class="feature-icon timer-icon"></span>
-          <h3>Timer</h3>
-          <p>A simple count-up or count-down session for everyday focus.</p>
-        </article>
-
-        <article class="feature-card">
-          <span class="feature-icon ring-icon"></span>
-          <h3>Pomodoro</h3>
-          <p>Focused intervals and breaks that keep a steady rhythm.</p>
-        </article>
-
-        <article class="feature-card">
-          <span class="feature-icon wave-icon"></span>
-          <h3>Flow Session</h3>
-          <p>Flexible target-based work for longer, more immersive sessions.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section themes">
-      <div class="section-title">
-        <p class="eyebrow">Themes</p>
-        <h2>Choose the mood that fits your work.</h2>
-      </div>
-
-      <div class="theme-grid">
-        <article class="theme-card">
-          <div>
-            <h3>Mono</h3>
-            <p>Minimal, monochrome, and distraction-free.</p>
-          </div>
-          <img src="assets/mono-placeholder.PNG" alt="Flowtime mono theme" />
-        </article>
-
-        <article class="theme-card classic">
-          <div>
-            <h3>Classic</h3>
-            <p>Colorful without losing the quiet structure.</p>
-          </div>
-          <img src="assets/classic-placeholder.PNG" alt="Flowtime classic theme" />
-        </article>
-      </div>
-    </section>
-
-    <section class="section workflow">
-      <article class="text-panel">
-        <p class="eyebrow">Projects</p>
-        <h2>Organize work naturally.</h2>
-        <p>Create projects, switch context quickly, and keep each session attached to the work it belongs to.</p>
-      </article>
-
-      <article class="mock-panel project-preview" aria-label="Project timer preview">
-        <div class="project-list">
-          <strong>Projects</strong>
-          <span class="active">Design</span>
-          <span>Development</span>
-          <span>Writing</span>
-          <span>Marketing</span>
-        </div>
-        <div class="compact-timer">
-          <span>00:24:55</span>
-          <small>100% of 00:25:00</small>
-        </div>
-      </article>
-
-      <article class="text-panel">
-        <p class="eyebrow">Reports</p>
-        <h2>See where your time goes.</h2>
-        <p>Daily, weekly, and project-based reports make progress visible without turning it into noise.</p>
-      </article>
-
-      <article class="mock-panel report-preview" aria-label="Weekly focus report preview">
-        <strong>This Week</strong>
-        <h3>18h 42m</h3>
-        <div class="bar-chart" aria-hidden="true">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </article>
-    </section>
-
-    <section class="principle">
-      <span class="feature-icon leaf-icon"></span>
-      <h2>Built for focus, not pressure.</h2>
-      <p>
-        Flowtime favors calm controls, intentional sessions, and a clean visual system
-        that helps you begin, continue, and stop with less friction.
-      </p>
-    </section>
-
-    <section class="section pricing">
-      <div class="section-title">
-        <p class="eyebrow">Pricing</p>
-        <h2>Free to start. Pro when you need more.</h2>
-        <p>Early supporter pricing available during launch.</p>
-      </div>
-
-      <div class="price-grid">
-        <article class="price-card">
-          <h3>Free</h3>
-          <p>Perfect for everyday focus tracking.</p>
-          <ul>
-            <li>Timer</li>
-            <li>Pomodoro</li>
-            <li>Basic history</li>
-            <li>Mono theme</li>
-          </ul>
-          <strong>Forever free</strong>
-        </article>
-
-        <article class="price-card pro">
-          <span class="badge">Popular</span>
-          <h3>Pro</h3>
-          <p>For deeper workflows and insights.</p>
-          <ul>
-            <li>Projects</li>
-            <li>Flow Sessions</li>
-            <li>Advanced reports</li>
-            <li>Extended history</li>
-          </ul>
-          <strong>Launch pricing soon</strong>
-        </article>
-      </div>
-    </section>
-
-    <section class="download-panel">
-      <img src="assets/logo.png" alt="" aria-hidden="true" />
-      <div>
-        <h2>Ready to enter flow?</h2>
-        <p>Download Flowtime and build a calmer way to focus.</p>
-      </div>
-      <div class="actions">
-        <a class="button primary" href="#">App Store</a>
-        <a class="button secondary" href="#">TestFlight</a>
-      </div>
-    </section>
+    <div id="hero"></div>
+    <div id="focus-modes"></div>
+    <div id="themes"></div>
+    <div id="onboarding"></div>
+    <div id="principle"></div>
+    <div id="pricing"></div>
+    <div id="download-panel"></div>
   </main>
 
-  <footer>
-    <span>Copyright 2026 Flowtime. All rights reserved.</span>
-    <div>
-      <a href="docs/privacy-policy.html">Privacy Policy</a>
-      <a href="docs/support.html">Support</a>
-    </div>
-  </footer>
+  <div id="site-footer"></div>
+
+  <script>
+    window.renderSection = function (id, markup) {
+      document.getElementById(id).outerHTML = markup;
+    };
+  </script>
+  <script src="sections/header.js"></script>
+  <script src="sections/hero.js"></script>
+  <script src="sections/focus-modes.js"></script>
+  <script src="sections/themes.js"></script>
+  <script src="sections/onboarding.js"></script>
+  <script src="sections/principle.js"></script>
+  <script src="sections/pricing.js"></script>
+  <script src="sections/download-panel.js"></script>
+  <script src="sections/footer.js"></script>
+  <script src="scripts/theme.js"></script>
 </body>
 </html>
