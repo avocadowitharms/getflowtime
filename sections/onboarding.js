@@ -10,7 +10,7 @@ window.renderSection("onboarding", `
         <div class="card-preview timer-preview" aria-hidden="true"><div class="preview-ring"></div></div>
         <div class="card-sheet">
           <div class="sheet-top">
-            <span class="material-symbols-rounded sheet-icon" aria-hidden="true">work</span>
+            <span class="sheet-icon" aria-hidden="true"><svg class="material-svg" viewBox="0 0 24 24"><path d="M14 6V4h-4v2H5v15h14V6h-5zm-3-1h2v1h-2V5zm6 14H7V8h10v11z"/></svg></span>
             <span class="skip-label">Skip</span>
           </div>
           <h3>Assign work from the timer</h3>
@@ -28,7 +28,7 @@ window.renderSection("onboarding", `
         </div>
         <div class="card-sheet">
           <div class="sheet-top">
-            <span class="material-symbols-rounded sheet-icon" aria-hidden="true">history</span>
+            <span class="sheet-icon" aria-hidden="true"><svg class="material-svg" viewBox="0 0 24 24"><path d="M13 3c-4.97 0-9 4.03-9 9H1l4 4 4-4H6c0-3.86 3.14-7 7-7s7 3.14 7 7-3.14 7-7 7c-1.93 0-3.68-.79-4.95-2.05l-1.42 1.42C8.27 20 10.51 21 13 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8H12z"/></svg></span>
             <span class="skip-label">Skip</span>
           </div>
           <h3>Your full history is here</h3>

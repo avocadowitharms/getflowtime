@@ -61,21 +61,12 @@ img {
   display: block;
 }
 
-.material-symbols-rounded {
-  font-family: "Material Symbols Rounded";
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 1;
-  letter-spacing: 0;
-  text-transform: none;
-  display: inline-block;
-  white-space: nowrap;
-  word-wrap: normal;
-  direction: ltr;
-  -webkit-font-feature-settings: "liga";
-  -webkit-font-smoothing: antialiased;
-  font-feature-settings: "liga";
+.material-svg {
+  width: 24px;
+  height: 24px;
+  display: block;
+  fill: currentColor;
+  flex: 0 0 auto;
 }
 
 .site-header,
@@ -348,8 +339,9 @@ body[data-theme="classic"] .primary {
   background: var(--surface);
 }
 
-.feature-icon.material-symbols-rounded {
-  font-size: 25px;
+.feature-icon .material-svg {
+  width: 25px;
+  height: 25px;
   color: var(--ring);
 }
 
@@ -720,7 +712,8 @@ body[data-theme="classic"] .primary {
 }
 
 .project-material {
-  font-size: 21px;
+  width: 21px;
+  height: 21px;
 }
 
 .project-color {
@@ -748,7 +741,11 @@ body[data-theme="classic"] .primary {
   display: grid;
   place-items: center;
   color: #111111;
-  font-size: 19px;
+}
+
+.icon-options .material-svg {
+  width: 19px;
+  height: 19px;
 }
 
 .icon-options .selected {
@@ -901,7 +898,11 @@ body[data-theme="classic"] .primary {
   place-items: center;
   background: rgba(108, 92, 231, 0.22);
   color: #6c5ce7;
-  font-size: 25px;
+}
+
+.sheet-icon .material-svg {
+  width: 25px;
+  height: 25px;
 }
 
 .skip-label {

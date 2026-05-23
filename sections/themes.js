@@ -1,5 +1,5 @@
 window.renderSection("themes", `
-  <section class="section themes">
+  <section id="themes" class="section themes">
     <div class="section-title">
       <p class="eyebrow">Themes</p>
       <h2>Two distinct ways to focus.</h2>
@@ -59,13 +59,13 @@ window.renderSection("themes", `
               <span>Icon only</span>
             </header>
             <div class="project-input">
-              <span class="material-symbols-rounded project-material" aria-hidden="true">work</span>
+              <svg class="material-svg project-material" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 6V4h-4v2H5v15h14V6h-5zm-3-1h2v1h-2V5zm6 14H7V8h10v11z"/></svg>
               <b>Work</b>
             </div>
             <div class="icon-options" aria-hidden="true">
-              <span class="material-symbols-rounded selected">work</span>
-              <span class="material-symbols-rounded">code</span>
-              <span class="material-symbols-rounded">spa</span>
+              <span class="selected"><svg class="material-svg" viewBox="0 0 24 24"><path d="M14 6V4h-4v2H5v15h14V6h-5zm-3-1h2v1h-2V5zm6 14H7V8h10v11z"/></svg></span>
+              <span><svg class="material-svg" viewBox="0 0 24 24"><path d="M9.4 16.6 4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0 4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg></span>
+              <span><svg class="material-svg" viewBox="0 0 24 24"><path d="M12 10.1c1.76-2.01 2.04-4.8 0-8.1-2.04 3.3-1.76 6.09 0 8.1zm0 2.45C9.86 9.35 5.64 8.14 2 8c.36 5.17 4.37 9.63 10 10 5.63-.37 9.64-4.83 10-10-3.64.14-7.86 1.35-10 4.55zM12 16c-2.27-.16-4.29-1.43-5.62-3.43 2.2.61 4.09 1.97 5.62 3.43 1.53-1.46 3.42-2.82 5.62-3.43C16.29 14.57 14.27 15.84 12 16z"/></svg></span>
             </div>
           </div>
           <div class="project-example classic-project">
@@ -74,7 +74,7 @@ window.renderSection("themes", `
               <span>Icon + color</span>
             </header>
             <div class="project-input">
-              <span class="material-symbols-rounded project-material" aria-hidden="true">work</span>
+              <svg class="material-svg project-material" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 6V4h-4v2H5v15h14V6h-5zm-3-1h2v1h-2V5zm6 14H7V8h10v11z"/></svg>
               <b>Work</b>
               <i class="project-color"></i>
             </div>
