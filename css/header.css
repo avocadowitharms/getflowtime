@@ -16,53 +16,9 @@
 }
 
 .brand-logo,
-.app-icon,
 .download-icon {
   width: 46px;
   height: 46px;
   border-radius: 10px;
   box-shadow: 0 12px 30px rgba(7, 7, 7, 0.08);
-}
-
-.theme-switch {
-  padding: 7px 9px 7px 14px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--panel);
-  color: var(--ink);
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  font: inherit;
-  font-size: 13px;
-  font-weight: 700;
-  cursor: pointer;
-  backdrop-filter: blur(18px);
-}
-
-.switch-track {
-  width: 42px;
-  height: 24px;
-  padding: 3px;
-  border-radius: 999px;
-  display: flex;
-  background: #d7d9dc;
-}
-
-.switch-thumb {
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: #fff;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
-  transition: transform 180ms ease, background-color 180ms ease;
-}
-
-body[data-theme="classic"] .switch-track {
-  background: #3e4760;
-}
-
-body[data-theme="classic"] .switch-thumb {
-  transform: translateX(18px);
-  background: #f5f6fa;
 }

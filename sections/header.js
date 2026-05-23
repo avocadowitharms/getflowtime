@@ -7,10 +7,5 @@ window.renderSection("site-header", `
       </span>
       <span>Flowtime&deg;</span>
     </a>
-    <button class="theme-switch" id="theme-switch" type="button" aria-label="Switch to Classic theme" aria-pressed="false">
-      <span>Mono</span>
-      <span class="switch-track" aria-hidden="true"><span class="switch-thumb"></span></span>
-      <span>Classic</span>
-    </button>
   </header>
 `);
