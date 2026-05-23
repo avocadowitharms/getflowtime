@@ -1,11 +1,9 @@
 @media (max-width: 980px) {
   .hero,
-  .focus-modes,
   .themes,
   .pricing,
   .principle,
-  .download-panel,
-  .mode-showcase {
+  .download-panel {
     grid-template-columns: 1fr;
   }
 
@@ -24,12 +22,31 @@
   }
 
   .theme-grid,
-  .price-grid {
+  .price-grid,
+  .onboarding-grid,
+  .project-compare,
+  .project-examples {
     grid-template-columns: 1fr;
   }
 
-  .onboarding-grid {
+  .focus-mode-row {
     grid-template-columns: 1fr;
+  }
+
+  .focus-mode {
+    min-height: auto;
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .focus-mode picture {
+    margin-top: 0;
+  }
+
+  .focus-mode img {
+    height: 420px;
   }
 
   .principle,
@@ -131,27 +148,26 @@
     font-size: 12px;
   }
 
-  .mode-hero {
-    min-height: 520px;
+  .focus-heading {
+    margin-bottom: 34px;
   }
 
-  .mode-hero .mode-ring {
-    width: min(330px, 88%);
+  .focus-heading h2 {
+    font-size: clamp(42px, 14vw, 58px);
   }
 
-  .mode-card {
-    min-height: 260px;
+  .focus-heading > p {
+    font-size: 17px;
   }
 
-  .mode-card .mode-ring {
-    width: 120px;
-    right: 20px;
-    top: 20px;
-  }
-
-  .project-compare,
-  .project-examples {
+  .focus-mode {
     grid-template-columns: 1fr;
+    padding: 26px 22px 0;
+    border-radius: 28px;
+  }
+
+  .focus-mode img {
+    height: 390px;
   }
 
   .onboarding-card {
