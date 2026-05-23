@@ -10,7 +10,7 @@ window.renderSection("onboarding", `
         <div class="card-preview timer-preview" aria-hidden="true"><div class="preview-ring"></div></div>
         <div class="card-sheet">
           <div class="sheet-top">
-            <span class="sheet-icon briefcase-icon"></span>
+            <span class="material-symbols-rounded sheet-icon" aria-hidden="true">work</span>
             <span class="skip-label">Skip</span>
           </div>
           <h3>Assign work from the timer</h3>
@@ -28,7 +28,7 @@ window.renderSection("onboarding", `
         </div>
         <div class="card-sheet">
           <div class="sheet-top">
-            <span class="sheet-icon history-icon"></span>
+            <span class="material-symbols-rounded sheet-icon" aria-hidden="true">history</span>
             <span class="skip-label">Skip</span>
           </div>
           <h3>Your full history is here</h3>

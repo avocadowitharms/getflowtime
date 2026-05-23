@@ -59,13 +59,13 @@ window.renderSection("themes", `
               <span>Icon only</span>
             </header>
             <div class="project-input">
-              <span class="project-briefcase" aria-hidden="true"></span>
+              <span class="material-symbols-rounded project-material" aria-hidden="true">work</span>
               <b>Work</b>
             </div>
             <div class="icon-options" aria-hidden="true">
-              <span class="option-work selected"></span>
-              <span class="option-code"></span>
-              <span class="option-leaf"></span>
+              <span class="material-symbols-rounded selected">work</span>
+              <span class="material-symbols-rounded">code</span>
+              <span class="material-symbols-rounded">spa</span>
             </div>
           </div>
           <div class="project-example classic-project">
@@ -74,7 +74,7 @@ window.renderSection("themes", `
               <span>Icon + color</span>
             </header>
             <div class="project-input">
-              <span class="project-briefcase" aria-hidden="true"></span>
+              <span class="material-symbols-rounded project-material" aria-hidden="true">work</span>
               <b>Work</b>
               <i class="project-color"></i>
             </div>
