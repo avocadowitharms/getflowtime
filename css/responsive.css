@@ -3,13 +3,20 @@
   .themes,
   .pricing,
   .principle,
-  .download-panel {
+  .download-panel,
+  .reports-section {
     grid-template-columns: 1fr;
   }
 
   .hero {
     min-height: auto;
     padding-bottom: 64px;
+  }
+
+  .theme-phone {
+    width: min(500px, 90vw);
+    border-width: 16px;
+    border-radius: 64px;
   }
 
   .hero-visual {
@@ -85,13 +92,43 @@
   }
 
   .hero-copy h1 {
-    font-size: clamp(48px, 14vw, 64px);
+    font-size: clamp(58px, 18vw, 92px);
   }
 
   .hero-copy p {
-    font-size: 17px;
+    font-size: 22px !important;
     max-width: 100%;
     overflow-wrap: break-word;
+  }
+
+  .theme-phone {
+    border-width: 12px;
+    border-radius: 48px;
+  }
+
+  .theme-phone::before {
+    width: 116px;
+    height: 26px;
+    top: 18px;
+  }
+
+  .theme-drag-handle span {
+    width: 58px;
+    height: 25px;
+    top: 18px;
+  }
+
+  .theme-drag-hint {
+    font-size: 14px;
+  }
+
+  .reports-demo {
+    padding: 14px;
+    border-radius: 28px;
+  }
+
+  .report-bars {
+    gap: 8px;
   }
 
   .hero-visual {

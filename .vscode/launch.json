@@ -5,8 +5,7 @@
       "type": "msedge",
       "request": "launch",
       "name": "Open Flowtime",
-      "url": "file:///${workspaceFolder}/index.html",
-      "webRoot": "${workspaceFolder}"
+      "file": "${workspaceFolder}/index.html"
     }
   ]
 }
