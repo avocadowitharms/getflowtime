@@ -1,10 +1,17 @@
 window.renderSection("principle", `
-  <section class="principle">
-    <span class="feature-icon" aria-hidden="true"><svg class="material-svg" viewBox="0 0 24 24"><path d="M12 10.1c1.76-2.01 2.04-4.8 0-8.1-2.04 3.3-1.76 6.09 0 8.1zm0 2.45C9.86 9.35 5.64 8.14 2 8c.36 5.17 4.37 9.63 10 10 5.63-.37 9.64-4.83 10-10-3.64.14-7.86 1.35-10 4.55zM12 16c-2.27-.16-4.29-1.43-5.62-3.43 2.2.61 4.09 1.97 5.62 3.43 1.53-1.46 3.42-2.82 5.62-3.43C16.29 14.57 14.27 15.84 12 16z"/></svg></span>
-    <h2>Built for focus, not pressure.</h2>
-    <p>
-      Flowtime favors calm controls, intentional sessions, and a clean visual system
-      that helps you begin, continue, and stop with less friction.
-    </p>
+  <section class="section why">
+    <h2>Why Flowtime?</h2>
+    <div class="why-layout">
+      <div class="why-points">
+        <p><svg class="material-svg" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-6-2h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg><strong>Calm timers</strong><span>Stay in the zone without distractions.</span></p>
+        <p><svg class="material-svg" viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm4 0h14v-2H7v2zM3 17h2v-2H3v2zm4 0h14v-2H7v2zM3 9h2V7H3v2zm4 0h14V7H7v2z"/></svg><strong>Simple projects</strong><span>Track time on what matters most.</span></p>
+        <p><svg class="material-svg" viewBox="0 0 24 24"><path d="M5 9h3v10H5V9zm6-5h3v15h-3V4zm6 8h3v7h-3v-7z"/></svg><strong>Clear history</strong><span>See how you spend your focus.</span></p>
+        <p><svg class="material-svg" viewBox="0 0 24 24"><path d="m11 21 1-7H7l6-11-1 7h5l-6 11z"/></svg><strong>Privacy first</strong><span>Your data stays yours.</span></p>
+      </div>
+      <div class="why-phone">
+        <img class="theme-shot-mono" src="assets/phone-mono.png" alt="Flowtime Mono phone preview" />
+        <img class="theme-shot-classic" src="assets/phone-classic.png" alt="Flowtime Classic phone preview" />
+      </div>
+    </div>
   </section>
 `);

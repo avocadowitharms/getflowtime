@@ -1,44 +1,22 @@
 window.renderSection("onboarding", `
-  <section class="section onboarding">
-    <div class="section-title onboarding-title">
-      <p class="eyebrow">Built in</p>
-      <h2>Guidance that feels like the app.</h2>
-      <p>Get oriented once, then focus with projects and history always within reach.</p>
+  <section class="section simplicity">
+    <div class="section-heading">
+      <p class="eyebrow">Simplicity</p>
+      <h2>Switch projects. One tap.</h2>
+      <p>Use quick selection to jump between projects instantly. No menus, no friction, just focus.</p>
     </div>
-    <div class="onboarding-grid">
-      <article class="onboarding-card">
-        <div class="card-preview timer-preview" aria-hidden="true"><div class="preview-ring"></div></div>
-        <div class="card-sheet">
-          <div class="sheet-top">
-            <span class="sheet-icon" aria-hidden="true"><svg class="material-svg" viewBox="0 0 24 24"><path d="M14 6V4h-4v2H5v15h14V6h-5zm-3-1h2v1h-2V5zm6 14H7V8h10v11z"/></svg></span>
-            <span class="skip-label">Skip</span>
-          </div>
-          <h3>Assign work from the timer</h3>
-          <p>Choose a project before you start, or switch projects while your focus keeps moving.</p>
-          <div class="sheet-actions">
-            <span class="pager"><i></i><i class="active"></i><i></i></span>
-            <span class="next-button">Next</span>
-          </div>
-        </div>
-      </article>
-      <article class="onboarding-card">
-        <div class="card-preview history-preview" aria-hidden="true">
-          <h3>History</h3>
-          <div class="preview-bars"><i></i><i></i><i></i><i></i><i></i></div>
-        </div>
-        <div class="card-sheet">
-          <div class="sheet-top">
-            <span class="sheet-icon" aria-hidden="true"><svg class="material-svg" viewBox="0 0 24 24"><path d="M13 3c-4.97 0-9 4.03-9 9H1l4 4 4-4H6c0-3.86 3.14-7 7-7s7 3.14 7 7-3.14 7-7 7c-1.93 0-3.68-.79-4.95-2.05l-1.42 1.42C8.27 20 10.51 21 13 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8H12z"/></svg></span>
-            <span class="skip-label">Skip</span>
-          </div>
-          <h3>Your full history is here</h3>
-          <p>Review sessions, filter by project or timer type, and see your focus over time.</p>
-          <div class="sheet-actions">
-            <span class="pager"><i></i><i></i><i class="active"></i></span>
-            <span class="next-button">Next</span>
-          </div>
-        </div>
-      </article>
-    </div>
+    <article class="quick-card">
+      <div class="quick-header">
+        <span class="accent-icon"><svg class="material-svg" viewBox="0 0 24 24"><path d="m11 21 1-7H7l6-11-1 7h5l-6 11z"/></svg></span>
+        <div><h3>Quick selection</h3><p>Tap the center button to open the selector and switch projects in a single tap.</p></div>
+      </div>
+      <div class="selector-visual" aria-hidden="true">
+        <span class="select-bubble top"><svg class="material-svg" viewBox="0 0 24 24"><path d="M14 6V4h-4v2H5v15h14V6h-5zm-3-1h2v1h-2V5zm6 14H7V8h10v11z"/></svg></span>
+        <span class="select-bubble left"><svg class="material-svg" viewBox="0 0 24 24"><path d="M12 10.1c1.76-2.01 2.04-4.8 0-8.1-2.04 3.3-1.76 6.09 0 8.1zm0 2.45C9.86 9.35 5.64 8.14 2 8c.36 5.17 4.37 9.63 10 10 5.63-.37 9.64-4.83 10-10-3.64.14-7.86 1.35-10 4.55z"/></svg></span>
+        <i></i>
+        <span class="select-bubble right"><svg class="material-svg" viewBox="0 0 24 24"><path d="M14 2H10v5h4V2zm0 15h-4v5h4v-5zm2-8H8v6h8V9z"/></svg></span>
+        <span class="select-bubble bottom"><svg class="material-svg" viewBox="0 0 24 24"><path d="M9.4 16.6 4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0 4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg></span>
+      </div>
+    </article>
   </section>
 `);

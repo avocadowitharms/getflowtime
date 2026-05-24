@@ -1,183 +1,55 @@
-@media (max-width: 980px) {
-  .hero,
-  .themes,
-  .pricing,
-  .principle,
-  .download-panel {
-    grid-template-columns: 1fr;
+@media (min-width: 540px) {
+  body {
+    background: var(--soft);
   }
 
-  .hero {
-    min-height: auto;
-    padding-bottom: 64px;
-  }
-
-  .hero-visual {
-    min-height: 600px;
-    order: -1;
-  }
-
-  .hero-phone {
-    height: min(500px, 64vw);
-  }
-
-  .theme-grid,
-  .price-grid,
-  .onboarding-grid,
-  .project-compare,
-  .project-examples {
-    grid-template-columns: 1fr;
-  }
-
-  .focus-mode-row {
-    grid-template-columns: 1fr;
-  }
-
-  .focus-mode {
-    min-height: auto;
-    display: grid;
-    grid-template-columns: 0.9fr 1.1fr;
-    align-items: center;
-    padding: 30px;
-  }
-
-  .focus-mode picture {
-    margin-top: 0;
-  }
-
-  .focus-mode img {
-    height: 420px;
-  }
-
-  .principle,
-  .download-panel {
-    padding: 30px;
-  }
-
-  .download-panel .actions {
-    margin-top: 6px;
-  }
-}
-
-@media (max-width: 640px) {
   .site-header,
   .hero,
   .section,
-  .principle,
   .download-panel,
   footer {
-    width: min(calc(100% - 28px), 1120px);
+    width: 430px;
+    padding-left: 22px;
+    padding-right: 22px;
+    background: var(--background);
   }
 
   .site-header {
-    min-height: 76px;
-    gap: 10px;
+    margin-top: 20px;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
   }
 
-  .brand {
-    gap: 8px;
-    font-size: 16px;
+  .hero {
+    padding-top: 39px;
   }
 
-  .brand-logo {
-    width: 42px;
-    height: 42px;
+  footer {
+    padding-bottom: 38px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    margin-bottom: 20px;
   }
+}
 
+@media (max-width: 360px) {
   .hero-copy h1 {
-    font-size: clamp(48px, 14vw, 64px);
+    font-size: 45px;
   }
 
-  .hero-copy p {
-    font-size: 17px;
-    max-width: 100%;
-    overflow-wrap: break-word;
+  .section-heading h2 {
+    font-size: 37px;
   }
 
-  .hero-visual {
-    min-height: auto;
-    display: block;
+  .benefit-strip {
+    padding-inline: 5px;
   }
 
-  .mobile-style-title {
-    display: block;
-    margin: 0 0 18px;
-    color: var(--ink);
-    font-size: 29px;
-    line-height: 1.08;
-    letter-spacing: -0.04em;
+  .palette-body {
+    grid-template-columns: 40% 60%;
   }
 
-  .phone-showcase {
-    min-height: 355px;
-    padding: 18px 24px 14px;
-    border-radius: 24px;
-    grid-template-columns: repeat(2, 142px);
-    gap: 0;
-  }
-
-  .phone-feature {
-    gap: 9px;
-  }
-
-  .phone-feature:first-child {
-    transform: translateX(18px) rotate(-2deg);
-  }
-
-  .phone-feature:last-child {
-    transform: translateX(-18px) rotate(2deg);
-  }
-
-  .hero-phone {
-    height: min(292px, 75vw);
-  }
-
-  .phone-label {
-    padding: 6px 11px;
-    font-size: 12px;
-  }
-
-  .focus-heading {
-    margin-bottom: 34px;
-  }
-
-  .focus-heading h2 {
-    font-size: clamp(42px, 14vw, 58px);
-  }
-
-  .focus-heading > p {
-    font-size: 17px;
-  }
-
-  .focus-mode {
-    grid-template-columns: 1fr;
-    padding: 26px 22px 0;
-    border-radius: 28px;
-  }
-
-  .focus-mode img {
-    height: 390px;
-  }
-
-  .onboarding-card {
-    min-height: auto;
-  }
-
-  .card-preview {
-    min-height: 245px;
-  }
-
-  .preview-ring {
-    width: min(220px, 68vw);
-  }
-
-  .actions,
-  footer,
-  footer div {
-    flex-direction: column;
-  }
-
-  .button {
-    width: 100%;
+  .price-card {
+    grid-template-columns: 62% 38%;
   }
 }
