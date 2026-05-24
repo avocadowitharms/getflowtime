@@ -4,14 +4,26 @@
   }
 
   .site-header,
-  .hero,
-  .section,
-  .download-panel,
+  main,
   footer {
     width: 430px;
+    margin-inline: auto;
+    background: var(--background);
+  }
+
+  .site-header,
+  footer {
     padding-left: 22px;
     padding-right: 22px;
-    background: var(--background);
+  }
+
+  .hero,
+  .section,
+  .download-panel {
+    width: auto;
+    margin-left: 22px;
+    margin-right: 22px;
+    background: transparent;
   }
 
   .site-header {
@@ -25,6 +37,7 @@
   }
 
   footer {
+    margin-top: 0;
     padding-bottom: 38px;
     border-bottom-left-radius: 28px;
     border-bottom-right-radius: 28px;

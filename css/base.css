@@ -40,6 +40,10 @@ body[data-theme="classic"] {
   --shadow: 0 14px 34px rgba(0, 0, 0, 0.22);
 }
 
+main {
+  display: flow-root;
+}
+
 a {
   color: inherit;
   text-decoration: none;

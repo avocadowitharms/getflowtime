@@ -16,7 +16,10 @@ window.renderSection("pricing", `
             <li>Basic statistics</li>
           </ul>
         </div>
-        <img src="assets/history-mono.png" alt="Flowtime Free experience in Mono" />
+        <div class="price-screen">
+          <img class="theme-shot-mono" src="assets/classic-timer-mono.png" alt="Classic Timer in the Flowtime Mono theme" />
+          <img class="theme-shot-classic" src="assets/classic-timer-classic.png" alt="Classic Timer in the Flowtime Classic theme" />
+        </div>
       </article>
       <article class="price-card pro-plan">
         <div class="price-copy">
@@ -28,7 +31,10 @@ window.renderSection("pricing", `
             <li>Reports, export, and future Pro tools</li>
           </ul>
         </div>
-        <img src="assets/history-classic.png" alt="Flowtime Pro experience in Classic" />
+        <div class="price-screen">
+          <img class="theme-shot-mono" src="assets/reports-mono.png" alt="Flowtime reports in the Mono theme" />
+          <img class="theme-shot-classic" src="assets/reports-classic.png" alt="Flowtime reports in the Classic theme" />
+        </div>
       </article>
     </div>
   </section>

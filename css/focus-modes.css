@@ -1,6 +1,10 @@
+.mode-showcase {
+  display: grid;
+  gap: 13px;
+}
+
 .featured-mode {
   min-height: 290px;
-  margin-bottom: 27px;
   padding: 26px 19px 22px 25px;
   position: relative;
   overflow: hidden;
@@ -86,47 +90,6 @@
   object-fit: contain;
   object-position: bottom center;
   filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.12));
-}
-
-.mode-list-title {
-  margin: 0 0 15px;
-  font-size: 23px;
-  line-height: 1;
-  letter-spacing: -0.045em;
-}
-
-.mode-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 9px;
-}
-
-.mode-grid article {
-  min-height: 143px;
-  padding: 17px 10px 14px;
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  background: var(--panel);
-  text-align: center;
-  box-shadow: var(--shadow);
-}
-
-.mode-grid .mode-ring {
-  margin: 0 auto 13px;
-}
-
-.mode-grid h3 {
-  margin: 0 0 7px;
-  font-size: 12px;
-  line-height: 1.3;
-  letter-spacing: -0.02em;
-}
-
-.mode-grid p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 10px;
-  line-height: 1.42;
 }
 
 body[data-theme="classic"] .pomodoro-ring {
