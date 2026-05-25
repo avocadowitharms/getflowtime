@@ -1,6 +1,6 @@
 window.renderSection("hero", `
   <section class="hero">
-    <h1>Built to help<br />you focus.</h1>
+    <h1>Built to focus.</h1>
     <div class="hero-showcase">
       <div class="hero-features" aria-label="Flowtime benefits">
         <div class="hero-feature">

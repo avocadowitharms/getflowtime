@@ -2,7 +2,7 @@ window.renderSection("reports", `
   <section id="reports" class="section reports">
     <div class="section-heading">
       <p class="eyebrow">History &amp; Reports</p>
-      <h2>Explore your focus patterns.</h2>
+      <h2>Explore your focus.</h2>
       <p>Review today&rsquo;s activity by project, then use reports to understand your focus over time.</p>
     </div>
 
@@ -14,14 +14,14 @@ window.renderSection("reports", `
         </div>
       </header>
       <div class="activity-chart" aria-label="Today's focus activity" data-history-chart>
-        <span class="all-focus" style="--bar:70%"><i></i><small>08</small></span>
-        <span class="all-focus" style="--bar:78%"><i></i><small>09</small></span>
+        <span class="all-focus" style="--bar:70%"><i></i><small>8 AM</small></span>
+        <span class="all-focus" style="--bar:78%"><i></i><small>9 AM</small></span>
         <span class="break" style="--bar:20%"><i></i><small>Break</small></span>
-        <span class="all-focus" style="--bar:92%"><i></i><small>11</small></span>
-        <span class="all-focus" style="--bar:86%"><i></i><small>13</small></span>
-        <span class="all-focus" style="--bar:64%"><i></i><small>14</small></span>
+        <span class="all-focus" style="--bar:92%"><i></i><small>11 AM</small></span>
+        <span class="all-focus" style="--bar:86%"><i></i><small>1 PM</small></span>
+        <span class="all-focus" style="--bar:64%"><i></i><small>2 PM</small></span>
         <span class="break" style="--bar:20%"><i></i><small>Break</small></span>
-        <span class="all-focus" style="--bar:54%"><i></i><small>18</small></span>
+        <span class="all-focus" style="--bar:54%"><i></i><small>6 PM</small></span>
       </div>
       <div class="activity-key" data-history-key>
         <span class="focus-gradient">Tracked focus</span>
@@ -31,6 +31,7 @@ window.renderSection("reports", `
 
     <article class="project-overview">
       <p class="eyebrow">Filter activity by project</p>
+      <p class="project-prompt">Tap a project to see its activity above.</p>
       <button class="project-line all-project is-active" type="button" data-history-project="all" aria-pressed="true">
         <span class="project-symbol all"><svg class="material-svg" viewBox="0 0 24 24"><path d="M4 5h16v3H4V5zm0 5h16v3H4v-3zm0 5h16v3H4v-3z"/></svg></span>
         <span class="project-copy"><strong>All projects</strong><i style="--fill:100%"></i></span>
@@ -81,22 +82,22 @@ window.renderSection("reports", `
     all: {
       total: "7h 15m",
       key: '<span class="focus-gradient">Tracked focus</span><span class="break-key">Break</span>',
-      bars: [["70%", "08", "all-focus"], ["78%", "09", "all-focus"], ["20%", "Break", "break"], ["92%", "11", "all-focus"], ["86%", "13", "all-focus"], ["64%", "14", "all-focus"], ["20%", "Break", "break"], ["54%", "18", "all-focus"]]
+      bars: [["70%", "8 AM", "all-focus"], ["78%", "9 AM", "all-focus"], ["20%", "Break", "break"], ["92%", "11 AM", "all-focus"], ["86%", "1 PM", "all-focus"], ["64%", "2 PM", "all-focus"], ["20%", "Break", "break"], ["54%", "6 PM", "all-focus"]]
     },
     flowtime: {
       total: "2h 00m",
       key: '<span class="flowtime-key">Flowtime</span><span class="break-key">Break</span>',
-      bars: [["70%", "08", "flowtime"], ["78%", "09", "flowtime"], ["20%", "Break", "break"], ["0%", "11", "idle"], ["0%", "13", "idle"], ["0%", "14", "idle"], ["0%", "Break", "idle"], ["0%", "18", "idle"]]
+      bars: [["70%", "8 AM", "flowtime"], ["78%", "9 AM", "flowtime"], ["20%", "Break", "break"], ["0%", "11 AM", "idle"], ["0%", "1 PM", "idle"], ["0%", "2 PM", "idle"], ["0%", "Break", "idle"], ["0%", "6 PM", "idle"]]
     },
     work: {
       total: "4h 00m",
       key: '<span class="work-key">Work</span><span class="break-key">Break</span>',
-      bars: [["0%", "08", "idle"], ["0%", "09", "idle"], ["20%", "Break", "break"], ["92%", "11", "work"], ["86%", "13", "work"], ["64%", "14", "work"], ["20%", "Break", "break"], ["0%", "18", "idle"]]
+      bars: [["0%", "8 AM", "idle"], ["0%", "9 AM", "idle"], ["20%", "Break", "break"], ["92%", "11 AM", "work"], ["86%", "1 PM", "work"], ["64%", "2 PM", "work"], ["20%", "Break", "break"], ["0%", "6 PM", "idle"]]
     },
     testing: {
       total: "1h 15m",
       key: '<span class="testing-key">Testing</span><span class="break-key">Break</span>',
-      bars: [["0%", "08", "idle"], ["0%", "09", "idle"], ["0%", "Break", "idle"], ["0%", "11", "idle"], ["0%", "13", "idle"], ["0%", "14", "idle"], ["20%", "Break", "break"], ["54%", "18", "testing"]]
+      bars: [["0%", "8 AM", "idle"], ["0%", "9 AM", "idle"], ["0%", "Break", "idle"], ["0%", "11 AM", "idle"], ["0%", "1 PM", "idle"], ["0%", "2 PM", "idle"], ["20%", "Break", "break"], ["54%", "6 PM", "testing"]]
     }
   };
 

@@ -8,12 +8,12 @@
 }
 
 .price-card {
-  min-height: 292px;
+  min-height: 302px;
   padding: 18px 15px 17px 19px;
   border: 1px solid var(--line);
   border-radius: 20px;
   display: grid;
-  grid-template-columns: 59% 41%;
+  grid-template-columns: minmax(0, 1fr) 136px;
   overflow: hidden;
   background: var(--panel);
   box-shadow: var(--shadow);
@@ -58,7 +58,7 @@
 
 .price-card li {
   margin-bottom: 12px;
-  padding-left: 25px;
+  padding-left: 17px;
   position: relative;
   color: var(--muted);
   font-size: 11px;
@@ -67,28 +67,29 @@
 
 .price-card li::before {
   content: "";
-  width: 15px;
-  height: 15px;
+  width: 7px;
+  height: 7px;
   position: absolute;
-  left: 0;
-  top: 0;
-  border: 1px solid var(--line);
+  left: 2px;
+  top: 5px;
   border-radius: 50%;
-  background:
-    linear-gradient(130deg, transparent 43%, var(--ink) 44% 54%, transparent 55%) 4px 7px / 5px 5px no-repeat,
-    linear-gradient(45deg, transparent 43%, var(--ink) 44% 54%, transparent 55%) 8px 5px / 6px 7px no-repeat;
+  background: var(--ink);
+}
+
+body[data-theme="classic"] .price-card li::before {
+  background: var(--accent);
 }
 
 .price-screen {
-  min-width: 0;
-  height: 270px;
+  width: 136px;
+  height: 284px;
   align-self: end;
   display: grid;
 }
 
 .price-screen img {
   width: 100%;
-  height: 270px;
+  height: 284px;
   object-fit: contain;
   object-position: bottom center;
   grid-area: 1 / 1;
@@ -121,7 +122,235 @@
 }
 
 .download-panel .button {
+  width: 100%;
   justify-content: space-between;
+}
+
+.android-modal[hidden] {
+  display: none;
+}
+
+.android-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  padding: 20px;
+  display: grid;
+  place-items: center;
+}
+
+.android-backdrop {
+  position: absolute;
+  inset: 0;
+  border: 0;
+  background: rgba(9, 12, 17, 0.48);
+}
+
+.android-card {
+  width: min(100%, 390px);
+  padding: 23px 16px 16px;
+  position: relative;
+  z-index: 1;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: 0 24px 72px rgba(9, 12, 17, 0.24);
+}
+
+.android-close {
+  width: 34px;
+  height: 34px;
+  padding: 8px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--ink);
+  background: var(--panel);
+  display: grid;
+  place-items: center;
+}
+
+.android-close svg {
+  width: 17px;
+  height: 17px;
+}
+
+.android-card .eyebrow {
+  margin-bottom: 13px;
+  padding-right: 38px;
+}
+
+.android-card h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  line-height: 1.18;
+  letter-spacing: -0.04em;
+}
+
+.android-card > p:not(.eyebrow) {
+  margin-bottom: 18px;
+  font-size: 13px;
+  line-height: 1.52;
+}
+
+.android-steps {
+  display: grid;
+  gap: 8px;
+}
+
+.android-step {
+  min-height: 58px;
+  padding: 8px 11px;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  display: grid;
+  grid-template-columns: 28px 1fr 20px;
+  align-items: center;
+  gap: 10px;
+  background: var(--panel);
+}
+
+.android-step b {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: var(--surface);
+  background: var(--ink);
+  font-size: 12px;
+}
+
+.android-step strong,
+.android-step small {
+  display: block;
+}
+
+.android-step strong {
+  font-size: 13px;
+  letter-spacing: -0.02em;
+}
+
+.android-step small {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.android-step i {
+  font-style: normal;
+  font-size: 18px;
+}
+
+.signup-card {
+  padding-bottom: 18px;
+}
+
+.waitlist-form {
+  display: grid;
+  gap: 10px;
+}
+
+.waitlist-form label {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.waitlist-form input {
+  width: 100%;
+  min-height: 54px;
+  padding: 0 15px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--ink);
+  background: var(--panel);
+  font: inherit;
+  font-size: 15px;
+  outline: none;
+}
+
+.waitlist-form input::placeholder {
+  color: var(--muted);
+}
+
+.waitlist-form input:focus {
+  border-color: var(--ink);
+}
+
+.waitlist-form .waitlist-privacy {
+  margin: 0 0 4px;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.waitlist-policy {
+  margin: -3px 0 4px;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.45;
+}
+
+.waitlist-policy a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+body[data-theme="classic"] .waitlist-form input:focus {
+  border-color: var(--accent);
+}
+
+.waitlist-form .button {
+  margin-top: 4px;
+  justify-content: space-between;
+}
+
+.ml-form-embedSubmitLoad {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.ml-form-embedSubmitLoad::after {
+  width: 11px;
+  height: 11px;
+  margin: 1px;
+  border: 4px solid #ffffff;
+  border-color: #ffffff #ffffff #ffffff transparent;
+  border-radius: 50%;
+  display: block;
+  content: "";
+  animation: waitlist-spin 1.2s linear infinite;
+}
+
+@keyframes waitlist-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sr-only {
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.waitlist-success {
+  margin: 6px 0 0 !important;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--ink);
+  background: var(--panel);
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 footer {
@@ -140,7 +369,37 @@ footer div {
 }
 
 .coffee-link {
-  padding: 7px 10px;
+  min-height: 39px;
+  padding: 5px 13px 5px 6px;
   border: 1px solid var(--line);
   border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ink);
+  background: var(--surface);
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.coffee-link svg {
+  width: 27px;
+  height: 27px;
+  padding: 6px;
+  border-radius: 50%;
+  color: var(--ink);
+  background: var(--soft);
+}
+
+.top-link {
+  padding: 9px 13px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.top-link span {
+  margin-left: 5px;
 }

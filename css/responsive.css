@@ -73,7 +73,4 @@
     grid-template-columns: 40% 60%;
   }
 
-  .price-card {
-    grid-template-columns: 62% 38%;
-  }
 }

@@ -56,6 +56,8 @@
   color: inherit;
   background: transparent;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 .style-classic {
