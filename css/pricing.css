@@ -308,6 +308,14 @@ body[data-theme="classic"] .waitlist-form input:focus {
   justify-content: space-between;
 }
 
+.ml-form-embedSubmit .loading {
+  display: none !important;
+}
+
+.ml-form-embedSubmit .button.primary {
+  width: 100%;
+}
+
 .ml-form-embedSubmitLoad {
   width: 20px;
   height: 20px;

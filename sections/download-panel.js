@@ -102,24 +102,14 @@ window.renderSection("download-panel", `
               <input type="hidden" name="ml-submit" value="1" />
 
               <div class="ml-form-embedSubmit">
-                <button class="button primary" type="submit">
-                  Join <span aria-hidden="true">&rarr;</span>
-                </button>
+  <button class="button primary" type="submit">
+    Notify me <span aria-hidden="true">&rarr;</span>
+  </button>
 
-                <button
-                  class="button primary loading"
-                  type="button"
-                  disabled
-                  style="display: none;"
-                >
-                  <span
-                    class="ml-form-embedSubmitLoad"
-                    aria-hidden="true"
-                  ></span>
-
-                  <span class="sr-only">Loading...</span>
-                </button>
-              </div>
+  <button class="loading" type="button" disabled aria-hidden="true">
+    <span class="ml-form-embedSubmitLoad"></span>
+  </button>
+</div>
 
               <input type="hidden" name="anticsrf" value="true" />
             </form>
