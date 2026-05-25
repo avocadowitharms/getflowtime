@@ -3,7 +3,7 @@ window.renderSection("onboarding", `
     <div class="section-heading">
       <p class="eyebrow">Simplicity</p>
       <h2>Switch projects. One tap.</h2>
-      <p>Use quick selection to jump between projects instantly. No menus, no friction, just focus.</p>
+      <p>Use Quick Selection to instantly jump between projects without menus or interruptions. Built to keep you in flow.</p>
     </div>
     <article class="quick-card">
       <div class="quick-header">

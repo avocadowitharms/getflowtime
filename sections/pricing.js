@@ -3,7 +3,7 @@ window.renderSection("pricing", `
     <div class="section-heading">
       <p class="eyebrow">Pricing</p>
       <h2>Adaptive UI.<br />Free or Pro.</h2>
-      <p>The interface adapts to your plan - simple and minimal on Free, powerful and flexible on Pro.</p>
+      <p>The interface adapts to your plan &mdash; simple and lightweight on Free, powerful and flexible on Pro.</p>
     </div>
     <div class="price-grid">
       <article class="price-card free-plan">

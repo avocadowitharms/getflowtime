@@ -1,112 +1,73 @@
 .hero {
-  padding: 39px 0 0;
+  padding: 47px 0 0;
 }
 
-.hero-copy h1 {
-  margin: 0 0 24px;
-  font-size: clamp(52px, 14.4vw, 64px);
-  line-height: 0.97;
+.hero h1 {
+  margin: 0 0 21px;
+  font-size: clamp(51px, 14.3vw, 61px);
+  line-height: 1.02;
   letter-spacing: -0.065em;
 }
 
-.hero-tagline {
-  margin: 0 0 20px;
+.hero-showcase {
+  height: 432px;
+  display: grid;
+  grid-template-columns: 48% 52%;
+  overflow: hidden;
+}
+
+.hero-features {
+  padding: 42px 0 0 19px;
   display: flex;
-  align-items: center;
-  gap: 14px;
-  font-size: 18px;
-  letter-spacing: -0.025em;
+  flex-direction: column;
+  gap: 43px;
 }
 
-.line-icon {
-  width: 40px;
-  height: 40px;
-  border: 1px solid var(--line);
-  border-radius: 9px;
-  display: grid;
-  place-items: center;
-}
-
-.line-icon svg {
-  width: 24px;
-  height: 24px;
-}
-
-.hero-description {
-  margin: 0 0 28px;
-  color: var(--muted);
-  font-size: 16px;
-  line-height: 1.62;
-}
-
-.hero-description strong {
-  color: var(--ink);
-  font-weight: 630;
-}
-
-.hero-actions {
-  margin: 0 0 25px;
-  display: grid;
-  gap: 10px;
-}
-
-.benefit-strip {
-  padding: 21px 12px;
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  box-shadow: var(--shadow);
-}
-
-.benefit-strip div {
+.hero-feature {
   min-width: 0;
-  padding: 0 8px;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap: 0 12px;
+  align-items: center;
+  text-align: left;
 }
 
-.benefit-strip div + div {
-  border-left: 1px solid var(--line);
+.hero-feature svg {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  grid-row: span 2;
 }
 
-.benefit-strip svg {
-  width: 30px;
-  height: 30px;
-  margin: 0 auto 14px;
-}
-
-.benefit-strip strong,
-.benefit-strip span {
+.hero-feature strong,
+.hero-feature span {
   display: block;
 }
 
-.benefit-strip strong {
-  margin-bottom: 6px;
-  font-size: 12px;
+.hero-feature strong {
+  margin-bottom: 7px;
+  font-size: 13px;
   line-height: 1.25;
+  letter-spacing: -0.02em;
 }
 
-.benefit-strip span {
+.hero-feature span {
   color: var(--muted);
   font-size: 11px;
   line-height: 1.35;
 }
 
-.trustline {
-  margin: 29px 0 0;
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  color: var(--muted);
-  font-size: 10px;
-  font-weight: 760;
-  letter-spacing: 0.19em;
-  text-align: center;
-  text-transform: uppercase;
+.hero-phone {
+  min-width: 0;
+  height: 100%;
+  position: relative;
 }
 
-.trustline span {
-  flex: 1;
-  height: 1px;
-  background: var(--line);
+.hero-phone img {
+  width: 232px;
+  max-width: none;
+  height: auto;
+  position: absolute;
+  top: -60px;
+  left: -17px;
 }

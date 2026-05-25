@@ -3,7 +3,7 @@ window.renderSection("focus-modes", `
     <div class="section-heading">
       <p class="eyebrow">Focus modes</p>
       <h2>Three ways to focus.</h2>
-      <p>Choose the timer that fits your workflow and the way you think.</p>
+      <p>Choose the timer that fits your workflow &mdash; classic tracking, structured Pomodoro sessions, or immersive Flow Sessions with a target duration.</p>
     </div>
     <div class="mode-showcase">
       <article class="featured-mode">

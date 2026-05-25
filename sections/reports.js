@@ -1,30 +1,121 @@
 window.renderSection("reports", `
-  <section class="section reports">
+  <section id="reports" class="section reports">
     <div class="section-heading">
-      <p class="eyebrow">Reports</p>
+      <p class="eyebrow">History &amp; Reports</p>
       <h2>Explore your focus patterns.</h2>
-      <p>Tap a range, review your rhythm, and see where your time goes.</p>
+      <p>Review today&rsquo;s activity by project, then use reports to understand your focus over time.</p>
     </div>
-    <article class="insight-card">
-      <div class="insight-tabs"><button class="is-active">Week</button><button>Month</button><button>Projects</button></div>
-      <div class="insight-summary">
-        <div><p class="eyebrow">Focused time</p><strong>12h 40m</strong><span>Your strongest focus day is Thursday.</span></div>
-        <div class="growth"><b>+18%</b><span>vs previous week</span></div>
+
+    <article class="history-card">
+      <header class="history-summary">
+        <div>
+          <p class="eyebrow">Today</p>
+          <strong data-history-total>7h 15m</strong>
+        </div>
+      </header>
+      <div class="activity-chart" aria-label="Today's focus activity" data-history-chart>
+        <span class="all-focus" style="--bar:70%"><i></i><small>08</small></span>
+        <span class="all-focus" style="--bar:78%"><i></i><small>09</small></span>
+        <span class="break" style="--bar:20%"><i></i><small>Break</small></span>
+        <span class="all-focus" style="--bar:92%"><i></i><small>11</small></span>
+        <span class="all-focus" style="--bar:86%"><i></i><small>13</small></span>
+        <span class="all-focus" style="--bar:64%"><i></i><small>14</small></span>
+        <span class="break" style="--bar:20%"><i></i><small>Break</small></span>
+        <span class="all-focus" style="--bar:54%"><i></i><small>18</small></span>
       </div>
-      <div class="bar-chart" aria-label="Weekly focus chart">
-        <span style="--bar:60%"><i></i><small>Mon</small></span>
-        <span style="--bar:82%"><i></i><small>Tue</small></span>
-        <span style="--bar:53%"><i></i><small>Wed</small></span>
-        <span style="--bar:100%"><i></i><small>Thu</small></span>
-        <span style="--bar:76%"><i></i><small>Fri</small></span>
-        <span style="--bar:59%"><i></i><small>Sat</small></span>
-        <span style="--bar:76%"><i></i><small>Sun</small></span>
+      <div class="activity-key" data-history-key>
+        <span class="focus-gradient">Tracked focus</span>
+        <span class="break-key">Break</span>
       </div>
     </article>
+
     <article class="project-overview">
-      <p class="eyebrow">Project overview</p>
-      <div class="project-line"><span class="project-symbol"><svg class="material-svg" viewBox="0 0 24 24"><path d="M4 6h16v10H4V6zm-2 12h20v2H2v-2z"/></svg></span><div><strong>Project One</strong><i style="--fill:71%"></i></div><b>12h<small>71%</small></b></div>
-      <div class="project-line"><span class="project-symbol soft"><svg class="material-svg" viewBox="0 0 24 24"><path d="M6 2h9l3 3v17H6V2zm8 1.5V7h3.5L14 3.5z"/></svg></span><div><strong>Project Two</strong><i style="--fill:29%"></i></div><b>5h<small>29%</small></b></div>
+      <p class="eyebrow">Filter activity by project</p>
+      <button class="project-line all-project is-active" type="button" data-history-project="all" aria-pressed="true">
+        <span class="project-symbol all"><svg class="material-svg" viewBox="0 0 24 24"><path d="M4 5h16v3H4V5zm0 5h16v3H4v-3zm0 5h16v3H4v-3z"/></svg></span>
+        <span class="project-copy"><strong>All projects</strong><i style="--fill:100%"></i></span>
+        <b>7h 15m<small>100%</small></b>
+      </button>
+      <button class="project-line flowtime-project" type="button" data-history-project="flowtime" aria-pressed="false">
+        <span class="project-symbol flowtime"><svg class="material-svg" viewBox="0 0 24 24"><path d="M14 2H10v5h4V2zm0 15h-4v5h4v-5zm2-8H8v6h8V9z"/></svg></span>
+        <span class="project-copy"><strong>Flowtime</strong><i style="--fill:28%"></i></span>
+        <b>2h 00m<small>28%</small></b>
+      </button>
+      <button class="project-line work-project" type="button" data-history-project="work" aria-pressed="false">
+        <span class="project-symbol work"><svg class="material-svg" viewBox="0 0 24 24"><path d="M14 6V4h-4v2H5v15h14V6h-5zm-3-1h2v1h-2V5zm6 14H7V8h10v11z"/></svg></span>
+        <span class="project-copy"><strong>Work</strong><i style="--fill:55%"></i></span>
+        <b>4h 00m<small>55%</small></b>
+      </button>
+      <button class="project-line testing-project" type="button" data-history-project="testing" aria-pressed="false">
+        <span class="project-symbol testing"><svg class="material-svg" viewBox="0 0 24 24"><path d="M9.4 16.6 4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0 4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg></span>
+        <span class="project-copy"><strong>Testing</strong><i style="--fill:17%"></i></span>
+        <b>1h 15m<small>17%</small></b>
+      </button>
+    </article>
+
+    <article class="reports-note">
+      <div class="reports-note-header">
+        <svg class="material-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9.2h3V19H5V9.2zm5.6-4.1h3V19h-3V5.1zm5.7 7.1h3V19h-3v-6.8z"/></svg>
+        <div>
+          <h3>Flexible reports</h3>
+          <p>Sort and compare focus by project, timer type, or time range.</p>
+        </div>
+      </div>
+      <div class="report-filters" aria-label="Report filters">
+        <span>Day</span>
+        <span>Week</span>
+        <span>Month</span>
+        <span>Project</span>
+        <span>Timer type</span>
+      </div>
     </article>
   </section>
 `);
+
+(function () {
+  var total = document.querySelector("[data-history-total]");
+  var chart = document.querySelector("[data-history-chart]");
+  var key = document.querySelector("[data-history-key]");
+  var projects = document.querySelectorAll("[data-history-project]");
+  var activity = {
+    all: {
+      total: "7h 15m",
+      key: '<span class="focus-gradient">Tracked focus</span><span class="break-key">Break</span>',
+      bars: [["70%", "08", "all-focus"], ["78%", "09", "all-focus"], ["20%", "Break", "break"], ["92%", "11", "all-focus"], ["86%", "13", "all-focus"], ["64%", "14", "all-focus"], ["20%", "Break", "break"], ["54%", "18", "all-focus"]]
+    },
+    flowtime: {
+      total: "2h 00m",
+      key: '<span class="flowtime-key">Flowtime</span><span class="break-key">Break</span>',
+      bars: [["70%", "08", "flowtime"], ["78%", "09", "flowtime"], ["20%", "Break", "break"], ["0%", "11", "idle"], ["0%", "13", "idle"], ["0%", "14", "idle"], ["0%", "Break", "idle"], ["0%", "18", "idle"]]
+    },
+    work: {
+      total: "4h 00m",
+      key: '<span class="work-key">Work</span><span class="break-key">Break</span>',
+      bars: [["0%", "08", "idle"], ["0%", "09", "idle"], ["20%", "Break", "break"], ["92%", "11", "work"], ["86%", "13", "work"], ["64%", "14", "work"], ["20%", "Break", "break"], ["0%", "18", "idle"]]
+    },
+    testing: {
+      total: "1h 15m",
+      key: '<span class="testing-key">Testing</span><span class="break-key">Break</span>',
+      bars: [["0%", "08", "idle"], ["0%", "09", "idle"], ["0%", "Break", "idle"], ["0%", "11", "idle"], ["0%", "13", "idle"], ["0%", "14", "idle"], ["20%", "Break", "break"], ["54%", "18", "testing"]]
+    }
+  };
+
+  projects.forEach(function (project) {
+    project.addEventListener("click", function () {
+      var selected = project.dataset.historyProject;
+      var view = activity[selected];
+
+      total.textContent = view.total;
+      key.innerHTML = view.key;
+      chart.innerHTML = view.bars.map(function (bar) {
+        return '<span class="' + bar[2] + '" style="--bar:' + bar[0] + '"><i></i><small>' + bar[1] + "</small></span>";
+      }).join("");
+
+      projects.forEach(function (option) {
+        var active = option === project;
+        option.classList.toggle("is-active", active);
+        option.setAttribute("aria-pressed", String(active));
+      });
+    });
+  });
+}());

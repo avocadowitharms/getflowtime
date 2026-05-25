@@ -33,7 +33,7 @@
   }
 
   .hero {
-    padding-top: 39px;
+    padding-top: 47px;
   }
 
   footer {
@@ -46,7 +46,7 @@
 }
 
 @media (max-width: 360px) {
-  .hero-copy h1 {
+  .hero h1 {
     font-size: 45px;
   }
 
@@ -54,8 +54,19 @@
     font-size: 37px;
   }
 
-  .benefit-strip {
-    padding-inline: 5px;
+  .hero-showcase {
+    height: 416px;
+  }
+
+  .hero-phone img {
+    width: 218px;
+    top: -53px;
+    left: -15px;
+  }
+
+  .hero-features {
+    padding: 39px 0 0 13px;
+    gap: 39px;
   }
 
   .palette-body {
