@@ -1,18 +1,18 @@
 window.renderSection("style-preview", `
-  <section class="section style-preview">
+  <section id="styles" class="section style-preview">
     <div class="section-heading">
-      <p class="eyebrow">Styles</p>
-      <h2>Your productivity.<br />Your style.</h2>
-      <p>Switch between Classic and Mono at any time.</p>
+      <p class="eyebrow">${window.t("styles.eyebrow")}</p>
+      <h2>${window.t("styles.title")}</h2>
+      <p>${window.t("styles.description")}</p>
     </div>
     <div class="style-device">
-      <p class="style-instruction">Tap a side to preview</p>
+      <p class="style-instruction">${window.t("styles.instruction")}</p>
       <div class="style-phone">
         <img src="assets/split-front.png" alt="Flowtime timer split between Classic and Mono styles" />
-        <button class="style-side style-classic" type="button" data-theme-preview="classic" aria-label="Preview Classic style" aria-pressed="false">
+        <button class="style-side style-classic" type="button" data-theme-preview="classic" aria-label="${window.t("styles.preview.classic")}" aria-pressed="false">
           <span>Classic</span>
         </button>
-        <button class="style-side style-mono" type="button" data-theme-preview="mono" aria-label="Preview Mono style" aria-pressed="true">
+        <button class="style-side style-mono" type="button" data-theme-preview="mono" aria-label="${window.t("styles.preview.mono")}" aria-pressed="true">
           <span>Mono</span>
         </button>
       </div>

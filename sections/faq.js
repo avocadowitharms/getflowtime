@@ -1,74 +1,74 @@
 window.renderSection("faq", `
-  <section class="section faq">
+  <section id="faq" class="section faq">
     <div class="section-heading">
       <p class="eyebrow">FAQ</p>
-      <h2>Frequently Asked Questions</h2>
+      <h2>${window.t("faq.title")}</h2>
     </div>
 
     <div class="faq-list">
       <details class="faq-item" open>
         <summary>
-          <span>Is Flowtime free?</span>
+          <span>${window.t("faq.free.q")}</span>
           <span class="faq-toggle" aria-hidden="true"></span>
         </summary>
-        <p>Yes. Flowtime includes all core timer modes for free, including Classic Timer, Pomodoro, and Flow Sessions. Pro unlocks advanced features like projects, reports, exports, and deeper focus history.</p>
+        <p>${window.t("faq.free.a")}</p>
       </details>
 
       <details class="faq-item">
         <summary>
-          <span>What platforms does Flowtime support?</span>
+          <span>${window.t("faq.platform.q")}</span>
           <span class="faq-toggle" aria-hidden="true"></span>
         </summary>
-        <p>Flowtime is available for iPhone and Android. The web experience is designed to match the app with the same calm and minimal design language.</p>
+        <p>${window.t("faq.platform.a")}</p>
       </details>
 
       <details class="faq-item">
         <summary>
-          <span>What is a Flow Session?</span>
+          <span>${window.t("faq.flow.q")}</span>
           <span class="faq-toggle" aria-hidden="true"></span>
         </summary>
-        <p>Flow Sessions let you set a target duration and stay immersed without rigid intervals. It&rsquo;s designed for deep focus and flexible work sessions.</p>
+        <p>${window.t("faq.flow.a")}</p>
       </details>
 
       <details class="faq-item">
         <summary>
-          <span>Does Flowtime use the Pomodoro technique?</span>
+          <span>${window.t("faq.pomodoro.q")}</span>
           <span class="faq-toggle" aria-hidden="true"></span>
         </summary>
-        <p>Yes. Flowtime includes a built-in Pomodoro mode for structured work and break intervals.</p>
+        <p>${window.t("faq.pomodoro.a")}</p>
       </details>
 
       <details class="faq-item">
         <summary>
-          <span>Is my data private?</span>
+          <span>${window.t("faq.privacy.q")}</span>
           <span class="faq-toggle" aria-hidden="true"></span>
         </summary>
-        <p>Yes. Your sessions and projects stay yours. Flowtime is built with a privacy-first mindset and avoids unnecessary tracking.</p>
+        <p>${window.t("faq.privacy.a")}</p>
       </details>
 
       <details class="faq-item">
         <summary>
-          <span>What does Flowtime Pro include?</span>
+          <span>${window.t("faq.pro.q")}</span>
           <span class="faq-toggle" aria-hidden="true"></span>
         </summary>
         <div class="faq-answer">
-          <p>Flowtime Pro unlocks:</p>
+          <p>${window.t("faq.pro.a")}</p>
           <ul>
-            <li>Projects</li>
-            <li>Advanced history</li>
-            <li>Interactive reports</li>
-            <li>Data export</li>
-            <li>Future Pro tools and insights</li>
+            <li>${window.t("faq.pro.projects")}</li>
+            <li>${window.t("faq.pro.history")}</li>
+            <li>${window.t("faq.pro.reports")}</li>
+            <li>${window.t("faq.pro.export")}</li>
+            <li>${window.t("faq.pro.future")}</li>
           </ul>
         </div>
       </details>
 
       <details class="faq-item">
         <summary>
-          <span>Can I try Flowtime before release?</span>
+          <span>${window.t("faq.beta.q")}</span>
           <span class="faq-toggle" aria-hidden="true"></span>
         </summary>
-        <p>Yes. You can join the TestFlight beta to test new features early and help shape the app before launch.</p>
+        <p>${window.t("faq.beta.a")}</p>
       </details>
     </div>
   </section>
