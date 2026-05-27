@@ -212,9 +212,9 @@
   }
 
   .hero-device {
-    width: auto;
-    max-width: calc(100% - 28px);
-    height: calc(100% - 42px);
+    width: min(257px, calc(100% - 28px));
+    max-width: none;
+    height: auto;
     top: auto;
     bottom: 62px;
     left: 50%;
@@ -428,12 +428,31 @@
     align-items: center;
   }
 
-  footer div {
+  .footer-links {
     order: 2;
   }
 
-  .top-link {
+  .footer-actions {
     order: 3;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1180px) {
+  .hero {
+    grid-template-columns: minmax(320px, 1fr) minmax(445px, 50%);
+    gap: 24px;
+  }
+
+  .hero h1 {
+    font-size: clamp(68px, 7.2vw, 82px);
+  }
+
+  .hero-showcase {
+    grid-template-columns: 38% 62%;
+  }
+
+  .hero-features {
+    padding-left: 26px;
   }
 }
 

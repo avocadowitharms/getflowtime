@@ -6,6 +6,7 @@
   var locale = supported.indexOf(requested) >= 0
     ? requested
     : (supported.indexOf(saved) >= 0 ? saved : "en");
+  window.localStorage.setItem(storageKey, locale);
   var copy = {
     en: {
       "meta.title": "Flowtime - Focus. Your way.",
@@ -151,7 +152,9 @@
       "android.download": "Download the app",
       "android.download.note": "Open in Google Play",
       "footer.copyright": "Copyright 2026 Flowtime. All rights reserved.",
+      "footer.links": "Legal and support",
       "footer.privacy": "Privacy Policy",
+      "footer.terms": "Terms of Use",
       "footer.support": "Support",
       "footer.coffee": "Buy me a coffee",
       "footer.top": "Back to top"
@@ -300,7 +303,9 @@
       "android.download": "App herunterladen",
       "android.download.note": "In Google Play öffnen",
       "footer.copyright": "Copyright 2026 Flowtime. Alle Rechte vorbehalten.",
+      "footer.links": "Rechtliches und Support",
       "footer.privacy": "Datenschutzerklärung",
+      "footer.terms": "Nutzungsbedingungen",
       "footer.support": "Support",
       "footer.coffee": "Kauf mir einen Kaffee",
       "footer.top": "Nach oben"
@@ -449,7 +454,9 @@
       "android.download": "Télécharger l'application",
       "android.download.note": "Ouvrir dans Google Play",
       "footer.copyright": "Copyright 2026 Flowtime. Tous droits réservés.",
+      "footer.links": "Mentions légales et assistance",
       "footer.privacy": "Politique de confidentialité",
+      "footer.terms": "Conditions d'utilisation",
       "footer.support": "Assistance",
       "footer.coffee": "M'offrir un café",
       "footer.top": "Retour en haut"
