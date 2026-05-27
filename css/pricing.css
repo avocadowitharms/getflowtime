@@ -370,10 +370,17 @@ footer {
   gap: 15px;
 }
 
-footer div {
+.footer-links,
+.footer-actions {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 16px;
+}
+
+.footer-actions {
+  gap: 9px;
 }
 
 .coffee-link {
