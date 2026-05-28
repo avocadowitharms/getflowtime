@@ -20,8 +20,8 @@ window.renderSection("hero", `
       <div class="hero-features" aria-label="${window.t("hero.benefits")}">
         <div class="hero-feature">
           <svg class="material-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 1H9v2h6V1zm-3 6a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm1 8h-2V9h2v6z"/></svg>
-          <strong>${window.t("hero.calm.title")}</strong>
-          <span>${window.t("hero.calm.text")}</span>
+          <strong>${window.t("hero.timerCard.title")}</strong>
+          <span>${window.t("hero.timerCard.text")}</span>
         </div>
         <div class="hero-feature">
           <svg class="material-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
