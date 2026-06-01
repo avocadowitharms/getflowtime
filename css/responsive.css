@@ -152,7 +152,14 @@
 
   .hero-eyebrow {
     display: block;
-    margin-bottom: 22px;
+    margin-bottom: 15px;
+  }
+
+  .hero-badge {
+    width: 230px;
+    max-width: 100%;
+    margin: 0 0 28px;
+    display: block;
   }
 
   .hero h1 {
