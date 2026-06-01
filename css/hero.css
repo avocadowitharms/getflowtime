@@ -4,7 +4,8 @@
 
 .hero-eyebrow,
 .hero-description,
-.hero-actions {
+.hero-actions,
+.launch-announcement {
   display: none;
 }
 

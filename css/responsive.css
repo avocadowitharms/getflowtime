@@ -179,7 +179,7 @@
   }
 
   .hero-actions {
-    margin-bottom: 55px;
+    margin-bottom: 18px;
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
@@ -188,6 +188,37 @@
   .hero-actions .button {
     min-width: 198px;
     justify-content: space-between;
+  }
+
+  .launch-announcement {
+    max-width: 420px;
+    padding: 16px 18px;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    display: grid;
+    gap: 6px;
+    background: var(--panel);
+    box-shadow: var(--shadow);
+  }
+
+  .launch-announcement span {
+    color: var(--muted);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  .launch-announcement strong {
+    font-size: 15px;
+    letter-spacing: -0.02em;
+  }
+
+  .launch-announcement p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.45;
   }
 
   .hero-showcase {

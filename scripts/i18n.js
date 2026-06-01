@@ -9,7 +9,7 @@
   window.localStorage.setItem(storageKey, locale);
   var copy = {
     en: {
-      "meta.title": "Flowtime - Focus. Your way.",
+      "meta.title": "Flowtime - Time Tracking for Focused Work",
       "a11y.home": "Flowtime home",
       "a11y.nav": "Main navigation",
       "language.label": "Language",
@@ -23,7 +23,7 @@
       "cta.android": "Join Android testing",
       "hero.eyebrow": "Focus. Your way.",
       "hero.title": "Built to focus.",
-      "hero.description": "Minimal timers, flexible projects and clear insights for focused work without distractions.",
+      "hero.description": "Minimal time tracking, flexible projects and clear insights for focused work without distractions.",
       "hero.benefits": "Flowtime benefits",
       "hero.timerCard.title": "Minimal timers",
       "hero.timerCard.text": "Start without clutter.",
@@ -42,6 +42,9 @@
       "hero.hint.reset": "Reset. Tap timer to start",
       "hero.hint.paused": "Paused. Tap to resume",
       "hero.hint.running": "Running. Tap to pause",
+      "launch.eyebrow": "Launch announcement",
+      "launch.title": "Coming to the app stores in July 2026",
+      "launch.description": "Join the waitlist for launch updates, early access and first-release pricing.",
       "focus.eyebrow": "Focus modes",
       "focus.title": "Three ways to focus.",
       "focus.description": "Choose the timer that fits your workflow - classic tracking, structured Pomodoro sessions, or Flow Sessions with a target duration.",
@@ -160,7 +163,7 @@
       "footer.top": "Back to top"
     },
     de: {
-      "meta.title": "Flowtime - Fokus. Auf deine Art.",
+      "meta.title": "Flowtime - Time Tracking fuer fokussiertes Arbeiten",
       "a11y.home": "Flowtime Startseite",
       "a11y.nav": "Hauptnavigation",
       "language.label": "Sprache",
@@ -174,7 +177,7 @@
       "cta.android": "Android-Test beitreten",
       "hero.eyebrow": "Fokus. Auf deine Art.",
       "hero.title": "Für Fokus gemacht.",
-      "hero.description": "Minimalistische Timer, flexible Projekte und klare Einblicke für konzentriertes Arbeiten ohne Ablenkung.",
+      "hero.description": "Minimalistisches Time Tracking, flexible Projekte und klare Einblicke fuer konzentriertes Arbeiten ohne Ablenkung.",
       "hero.benefits": "Vorteile von Flowtime",
       "hero.timerCard.title": "Minimalistische Timer",
       "hero.timerCard.text": "Ohne Ablenkung starten.",
@@ -193,6 +196,9 @@
       "hero.hint.reset": "Zurückgesetzt. Tippen zum Start",
       "hero.hint.paused": "Pausiert. Tippen zum Fortsetzen",
       "hero.hint.running": "Läuft. Tippen zum Pausieren",
+      "launch.eyebrow": "Launch-Ankuendigung",
+      "launch.title": "Kommt im Juli 2026 in die App Stores",
+      "launch.description": "Tritt der Warteliste fuer Launch-Updates, fruehen Zugang und Preise zum Start bei.",
       "focus.eyebrow": "Fokusmodi",
       "focus.title": "Drei Arten zu fokussieren.",
       "focus.description": "Wähle den Timer für deinen Arbeitsfluss - klassisches Tracking, strukturierte Pomodoro-Sessions oder Flow Sessions mit Zieldauer.",
@@ -311,7 +317,7 @@
       "footer.top": "Nach oben"
     },
     fr: {
-      "meta.title": "Flowtime - La concentration, à votre façon.",
+      "meta.title": "Flowtime - Time Tracking pour travailler concentre",
       "a11y.home": "Accueil Flowtime",
       "a11y.nav": "Navigation principale",
       "language.label": "Langue",
@@ -325,7 +331,7 @@
       "cta.android": "Rejoindre le test Android",
       "hero.eyebrow": "Concentrez-vous. À votre façon.",
       "hero.title": "Conçu pour se concentrer.",
-      "hero.description": "Des minuteurs minimalistes, des projets flexibles et des analyses claires pour travailler sans distraction.",
+      "hero.description": "Du time tracking minimaliste, des projets flexibles et des analyses claires pour travailler sans distraction.",
       "hero.benefits": "Avantages de Flowtime",
       "hero.timerCard.title": "Minuteurs minimalistes",
       "hero.timerCard.text": "Démarrez sans distraction.",
@@ -344,6 +350,9 @@
       "hero.hint.reset": "Réinitialisé. Touchez pour démarrer",
       "hero.hint.paused": "En pause. Touchez pour reprendre",
       "hero.hint.running": "En cours. Touchez pour mettre en pause",
+      "launch.eyebrow": "Annonce de lancement",
+      "launch.title": "Disponible sur les app stores en juillet 2026",
+      "launch.description": "Rejoignez la liste d'attente pour les nouvelles du lancement, un acces anticipe et le prix de premiere sortie.",
       "focus.eyebrow": "Modes de concentration",
       "focus.title": "Trois façons de se concentrer.",
       "focus.description": "Choisissez le minuteur adapté à votre rythme - suivi classique, sessions Pomodoro structurées ou Flow Sessions avec durée cible.",

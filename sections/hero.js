@@ -29,6 +29,11 @@ window.renderSection("hero", `
           ${window.t("cta.android")} <span aria-hidden="true">&rarr;</span>
         </button>
       </div>
+      <div class="launch-announcement" aria-label="${window.t("launch.eyebrow")}">
+        <span>${window.t("launch.eyebrow")}</span>
+        <strong>${window.t("launch.title")}</strong>
+        <p>${window.t("launch.description")}</p>
+      </div>
     </div>
     <div class="hero-showcase">
       <div class="hero-features" aria-label="${window.t("hero.benefits")}">
