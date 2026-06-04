@@ -179,6 +179,17 @@ body[data-theme="classic"] .theme-shot-classic {
   background: #ffffff;
 }
 
+.app-store-badge {
+  min-height: 54px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.app-store-badge img {
+  height: 44px;
+  width: auto;
+}
+
 body[data-theme="classic"] .button.primary {
   border-color: #6c5ce7;
   background: #6c5ce7;

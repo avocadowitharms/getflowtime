@@ -11,12 +11,17 @@ window.renderSection("download-panel", `
       </button>
 
       <a
-        class="button secondary"
-        href="https://testflight.apple.com/join/4E4S2cqM"
+        class="app-store-badge"
+        href="https://apps.apple.com/ch/app/flowtime/id6768056969"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="${window.t("cta.appstore")}"
       >
-        ${window.t("cta.testflight")} <span aria-hidden="true">&rarr;</span>
+        <img
+          src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+          alt="${window.t("cta.appstore")}"
+          loading="lazy"
+        />
       </a>
 
       <button class="button secondary" type="button" data-android-open>

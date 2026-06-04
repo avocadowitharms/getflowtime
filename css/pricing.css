@@ -126,6 +126,11 @@ body[data-theme="classic"] .price-card li::before {
   justify-content: space-between;
 }
 
+.download-panel .app-store-badge {
+  width: 100%;
+  justify-content: center;
+}
+
 .android-modal[hidden] {
   display: none;
 }

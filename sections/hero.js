@@ -22,8 +22,18 @@ window.renderSection("hero", `
         <button class="button primary" type="button" data-waitlist-open>
           ${window.t("cta.waitlist.long")} <span aria-hidden="true">&rarr;</span>
         </button>
-        <a class="button secondary" href="https://testflight.apple.com/join/4E4S2cqM" target="_blank" rel="noopener noreferrer">
-          ${window.t("cta.testflight")} <span aria-hidden="true">&rarr;</span>
+        <a
+          class="app-store-badge"
+          href="https://apps.apple.com/ch/app/flowtime/id6768056969"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="${window.t("cta.appstore")}"
+        >
+          <img
+            src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+            alt="${window.t("cta.appstore")}"
+            loading="lazy"
+          />
         </a>
         <button class="button secondary" type="button" data-android-open>
           ${window.t("cta.android")} <span aria-hidden="true">&rarr;</span>
