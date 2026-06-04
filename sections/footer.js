@@ -5,6 +5,7 @@ window.renderSection("site-footer", `
       <a href="docs/privacy-policy.html">${window.t("footer.privacy")}</a>
       <a href="docs/terms-of-use.html">${window.t("footer.terms")}</a>
       <a href="docs/support.html">${window.t("footer.support")}</a>
+      <a href="https://avathalheim.dev/" target="_blank" rel="noopener noreferrer">${window.t("footer.creator")}</a>
     </nav>
     <div class="footer-actions">
       <a class="coffee-link" href="https://buymeacoffee.com/avocadowita" target="_blank" rel="noopener noreferrer">

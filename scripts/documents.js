@@ -16,7 +16,8 @@
         privacy: "Privacy Policy",
         terms: "Terms of Use",
         support: "Support",
-        copyright: "Copyright 2026 Flowtime. All rights reserved.",
+        copyright: "&copy; 2026 Ava Thalheim",
+        creator: "avathalheim.dev",
         updated: "Last updated: May 25, 2026",
         email: "Email support"
       },
@@ -58,7 +59,8 @@
         privacy: "Datenschutzerklärung",
         terms: "Nutzungsbedingungen",
         support: "Support",
-        copyright: "Copyright 2026 Flowtime. Alle Rechte vorbehalten.",
+        copyright: "&copy; 2026 Ava Thalheim",
+        creator: "avathalheim.dev",
         updated: "Zuletzt aktualisiert: 25. Mai 2026",
         email: "Support kontaktieren"
       },
@@ -100,7 +102,8 @@
         privacy: "Politique de confidentialité",
         terms: "Conditions d'utilisation",
         support: "Assistance",
-        copyright: "Copyright 2026 Flowtime. Tous droits réservés.",
+        copyright: "&copy; 2026 Ava Thalheim",
+        creator: "avathalheim.dev",
         updated: "Dernière mise à jour : 25 mai 2026",
         email: "Contacter l'assistance"
       },
@@ -171,6 +174,7 @@
     pageLink("privacy-policy.html", language.common.privacy, "privacy"),
     pageLink("terms-of-use.html", language.common.terms, "terms"),
     pageLink("support.html", language.common.support, "support"),
+    '<a href="https://avathalheim.dev/" target="_blank" rel="noopener noreferrer">' + language.common.creator + "</a>",
     "</nav></footer>"
   ].join("");
 
