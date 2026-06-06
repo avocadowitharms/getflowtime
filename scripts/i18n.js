@@ -210,7 +210,7 @@
       "styles.preview.classic": "Classic-Stil anzeigen",
       "styles.preview.mono": "Mono-Stil anzeigen",
       "simplicity.eyebrow": "Einfachheit",
-      "simplicity.title": "Projekte wechseln. Ein Tipp.",
+      "simplicity.title": "Projekte wechseln. Ein Tap.",
       "simplicity.description": "Wechsle mit der Schnellauswahl sofort zwischen Projekten - ohne Menüs oder Unterbrechungen. Damit du im Flow bleibst.",
       "quick.title": "Schnellauswahl",
       "quick.description": "Tippe auf die mittlere Taste, öffne die Auswahl und wechsle sofort zu einem Projekt.",
