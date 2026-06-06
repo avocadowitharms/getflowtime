@@ -17,6 +17,7 @@
       "nav.reports": "Reports",
       "nav.pricing": "Pricing",
       "nav.faq": "FAQ",
+      "nav.blog": "Blog",
       "cta.waitlist": "Subscribe for news",
       "cta.waitlist.long": "Subscribe for news",
       "cta.appstore": "Download on the App Store",
@@ -164,6 +165,7 @@
       "nav.reports": "Berichte",
       "nav.pricing": "Preise",
       "nav.faq": "FAQ",
+      "nav.blog": "Blog",
       "cta.waitlist": "News abonnieren",
       "cta.waitlist.long": "News abonnieren",
       "cta.appstore": "Im App Store laden",
@@ -311,6 +313,7 @@
       "nav.reports": "Rapports",
       "nav.pricing": "Tarifs",
       "nav.faq": "FAQ",
+      "nav.blog": "Blog",
       "cta.waitlist": "S'abonner aux nouvelles",
       "cta.waitlist.long": "S'abonner aux nouvelles",
       "cta.appstore": "Telecharger dans l'App Store",
@@ -470,7 +473,9 @@
   }
 
   document.documentElement.lang = locale;
-  document.title = t("meta.title");
+  if (!window.flowtimePreserveTitle) {
+    document.title = t("meta.title");
+  }
   window.flowtimeLocale = locale;
   window.t = t;
   window.setFlowtimeLocale = setLocale;
