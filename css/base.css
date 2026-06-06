@@ -183,11 +183,16 @@ body[data-theme="classic"] .theme-shot-classic {
   min-height: 54px;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
 }
 
 .app-store-badge img {
-  height: 44px;
+  height: 36px;
   width: auto;
+}
+
+.google-play-badge img {
+  height: 47px;
 }
 
 body[data-theme="classic"] .button.primary {

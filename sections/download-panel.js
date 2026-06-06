@@ -6,10 +6,6 @@ window.renderSection("download-panel", `
     </div>
 
     <div class="actions">
-      <button class="button primary" type="button" data-waitlist-open>
-        ${window.t("cta.waitlist.long")} <span aria-hidden="true">&rarr;</span>
-      </button>
-
       <a
         class="app-store-badge"
         href="https://apps.apple.com/ch/app/flowtime/id6768056969"
@@ -24,8 +20,22 @@ window.renderSection("download-panel", `
         />
       </a>
 
-      <button class="button secondary" type="button" data-android-open>
-        ${window.t("cta.android")} <span aria-hidden="true">&rarr;</span>
+      <a
+        class="app-store-badge google-play-badge"
+        href="https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="${window.t("cta.playstore")}"
+      >
+        <img
+          src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+          alt="${window.t("cta.playstore")}"
+          loading="lazy"
+        />
+      </a>
+
+      <button class="button primary" type="button" data-waitlist-open>
+        ${window.t("cta.waitlist.long")} <span aria-hidden="true">&rarr;</span>
       </button>
     </div>
 
@@ -133,76 +143,6 @@ window.renderSection("download-panel", `
       </article>
     </div>
 
-    <!-- ANDROID MODAL -->
-    <div class="android-modal" data-android-modal hidden>
-      <button
-        class="android-backdrop"
-        type="button"
-        data-android-close
-        aria-label="${window.t("android.close")}"
-      ></button>
-
-      <article
-        class="android-card"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="android-title"
-        aria-describedby="android-description"
-      >
-        <button
-          class="android-close"
-          type="button"
-          data-android-close
-          aria-label="${window.t("modal.close")}"
-        >
-          <svg class="material-svg" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M18.3 5.7 12 12l6.3 6.3-1.4 1.4-6.3-6.3-6.3 6.3-1.4-1.4L9.2 12 2.9 5.7l1.4-1.4 6.3 6.3 6.3-6.3 1.4 1.4z"/>
-          </svg>
-        </button>
-
-        <p class="eyebrow">${window.t("android.eyebrow")}</p>
-
-        <h3 id="android-title">${window.t("android.title")}</h3>
-
-        <p id="android-description">
-          ${window.t("android.description")}
-        </p>
-
-        <div class="android-steps">
-          <a
-            class="android-step"
-            href="https://groups.google.com/u/1/g/flowtime_app_testers"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <b>1</b>
-
-            <span>
-              <strong>${window.t("android.group")}</strong>
-              <small>${window.t("android.group.note")}</small>
-            </span>
-
-            <i aria-hidden="true">&rarr;</i>
-          </a>
-
-          <a
-            class="android-step"
-            href="https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <b>2</b>
-
-            <span>
-              <strong>${window.t("android.download")}</strong>
-              <small>${window.t("android.download.note")}</small>
-            </span>
-
-            <i aria-hidden="true">&rarr;</i>
-          </a>
-        </div>
-      </article>
-    </div>
   </section>
 `);
 
@@ -211,11 +151,6 @@ window.renderSection("download-panel", `
   var waitlistModal = document.querySelector("[data-waitlist-modal]");
   var waitlistCloseButtons = waitlistModal.querySelectorAll("[data-waitlist-close]");
   var lastWaitlistTrigger = null;
-
-  var androidOpenButtons = document.querySelectorAll("[data-android-open]");
-  var modal = document.querySelector("[data-android-modal]");
-  var closeButtons = modal.querySelectorAll("[data-android-close]");
-  var lastAndroidTrigger = null;
 
   waitlistOpenButtons.forEach(function (button) {
     button.addEventListener("click", function () {
@@ -243,35 +178,9 @@ window.renderSection("download-panel", `
     button.addEventListener("click", closeWaitlist);
   });
 
-  androidOpenButtons.forEach(function (button) {
-    button.addEventListener("click", function () {
-      lastAndroidTrigger = button;
-      modal.hidden = false;
-      document.body.classList.add("has-modal");
-
-      modal.querySelector(".android-close").focus();
-    });
-  });
-
-  function closeModal() {
-    modal.hidden = true;
-    document.body.classList.remove("has-modal");
-    if (lastAndroidTrigger) {
-      lastAndroidTrigger.focus();
-    }
-  }
-
-  closeButtons.forEach(function (button) {
-    button.addEventListener("click", closeModal);
-  });
-
   document.addEventListener("keydown", function (event) {
-    if (event.key === "Escape") {
-      if (!waitlistModal.hidden) {
-        closeWaitlist();
-      } else if (!modal.hidden) {
-        closeModal();
-      }
+    if (event.key === "Escape" && !waitlistModal.hidden) {
+      closeWaitlist();
     }
   });
 }());

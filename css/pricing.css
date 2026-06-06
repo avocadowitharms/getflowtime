@@ -118,16 +118,21 @@ body[data-theme="classic"] .price-card li::before {
 
 .download-panel .actions {
   display: grid;
+  grid-template-columns: repeat(3, max-content);
+  align-items: center;
   gap: 9px;
 }
 
 .download-panel .button {
-  width: 100%;
+  width: auto;
+  min-height: 40px;
+  padding: 0 11px;
   justify-content: space-between;
+  gap: 18px;
+  font-size: 13px;
 }
 
 .download-panel .app-store-badge {
-  width: 100%;
   justify-content: center;
 }
 

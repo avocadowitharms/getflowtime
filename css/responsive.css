@@ -48,12 +48,22 @@
 @media (max-width: 1023px) {
   .hero-actions {
     margin: -4px 0 22px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    justify-content: start;
+    align-items: center;
+    gap: 9px;
   }
 
   .hero-actions .button {
-    display: none;
+    width: auto;
+    min-height: 40px;
+    padding: 0 11px;
+    justify-content: space-between;
+    gap: 18px;
+    font-size: 13px;
   }
+
 }
 
 @media (min-width: 1024px) {
@@ -191,14 +201,19 @@
 
   .hero-actions {
     margin-bottom: 18px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    align-items: center;
     gap: 12px;
   }
 
   .hero-actions .button {
-    min-width: 198px;
+    width: auto;
+    min-height: 40px;
+    padding: 0 11px;
     justify-content: space-between;
+    gap: 18px;
+    font-size: 13px;
   }
 
   .launch-announcement {
@@ -457,14 +472,17 @@
   }
 
   .download-panel .actions {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, max-content);
+    justify-content: end;
+    align-items: center;
   }
 
   .download-panel .button {
-    min-height: 62px;
-    padding: 0 16px;
-    gap: 8px;
-    font-size: 14px;
+    min-height: 40px;
+    width: auto;
+    padding: 0 11px;
+    gap: 18px;
+    font-size: 13px;
   }
 
   footer {
@@ -536,6 +554,17 @@
 }
 
 @media (max-width: 539px) {
+  .hero-actions,
+  .download-panel .actions {
+    grid-template-columns: repeat(2, max-content);
+  }
+
+  .hero-actions .button,
+  .download-panel .button {
+    grid-column: 1 / -1;
+    justify-self: start;
+  }
+
   .hero-showcase {
     height: 478px;
   }

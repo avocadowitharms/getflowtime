@@ -19,9 +19,6 @@ window.renderSection("hero", `
       <h1>${window.t("hero.title")}</h1>
       <p class="hero-description">${window.t("hero.description")}</p>
       <div class="hero-actions">
-        <button class="button primary" type="button" data-waitlist-open>
-          ${window.t("cta.waitlist.long")} <span aria-hidden="true">&rarr;</span>
-        </button>
         <a
           class="app-store-badge"
           href="https://apps.apple.com/ch/app/flowtime/id6768056969"
@@ -35,8 +32,21 @@ window.renderSection("hero", `
             loading="lazy"
           />
         </a>
-        <button class="button secondary" type="button" data-android-open>
-          ${window.t("cta.android")} <span aria-hidden="true">&rarr;</span>
+        <a
+          class="app-store-badge google-play-badge"
+          href="https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="${window.t("cta.playstore")}"
+        >
+          <img
+            src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+            alt="${window.t("cta.playstore")}"
+            loading="lazy"
+          />
+        </a>
+        <button class="button primary" type="button" data-waitlist-open>
+          ${window.t("cta.waitlist.long")} <span aria-hidden="true">&rarr;</span>
         </button>
       </div>
       <div class="launch-announcement" aria-label="${window.t("launch.eyebrow")}">
