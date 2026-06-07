@@ -1,4 +1,4 @@
-window.flowtimeBlogPosts = [
+﻿window.flowtimeBlogPosts = [
   {
     slug: "time-tracker-without-account",
     title: "Time Tracker Without an Account",
@@ -53,5 +53,17 @@ window.flowtimeBlogPosts = [
     tags: ["comparison", "productivity", "focus"],
     featuredImage: "",
     readingTime: "2 min read"
+  },
+  {
+    slug: "sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it",
+    title: "Sometimes the Problem Isn't Getting Into Flow. It's Getting Out of It.",
+    description: "Flowtime focus sessions are designed to create moments of awareness, helping you stay mindful of your time and avoid disappearing into hours of uninterrupted work.",
+    date: "2026-06-07",
+    author: "Ava Thalheim",
+    authorRole: "Developer of Flowtime",
+    tags: ["product design", "focus", "productivity"],
+    featuredImage: "",
+    readingTime: "2"
   }
 ];
+
