@@ -1,5 +1,8 @@
 (function () {
-  var posts = (window.flowtimeBlogPosts || []).slice().sort(function (a, b) {
+  var category = document.body.dataset.blogCategory;
+  var posts = (window.flowtimeBlogPosts || []).filter(function (post) {
+    return !category || post.category === category;
+  }).slice().sort(function (a, b) {
     return new Date(b.date) - new Date(a.date);
   });
 

@@ -6,70 +6,76 @@ window.renderSection("reports", `
       <p>${window.t("reports.description")}</p>
     </div>
 
-    <article class="history-card">
-      <header class="history-summary">
-        <div>
-          <p class="eyebrow">${window.t("reports.today")}</p>
-          <strong data-history-total>7h 15m</strong>
-        </div>
-      </header>
-      <div class="activity-chart" aria-label="${window.t("reports.activity")}" data-history-chart>
-        <span class="all-focus" style="--bar:70%"><i></i><small>${window.t("time.8")}</small></span>
-        <span class="all-focus" style="--bar:78%"><i></i><small>${window.t("time.9")}</small></span>
-        <span class="break" style="--bar:20%"><i></i><small>${window.t("reports.break")}</small></span>
-        <span class="all-focus" style="--bar:92%"><i></i><small>${window.t("time.11")}</small></span>
-        <span class="all-focus" style="--bar:86%"><i></i><small>${window.t("time.13")}</small></span>
-        <span class="all-focus" style="--bar:64%"><i></i><small>${window.t("time.14")}</small></span>
-        <span class="break" style="--bar:20%"><i></i><small>${window.t("reports.break")}</small></span>
-        <span class="all-focus" style="--bar:54%"><i></i><small>${window.t("time.18")}</small></span>
-      </div>
-      <div class="activity-key" data-history-key>
-        <span class="focus-gradient">${window.t("reports.tracked")}</span>
-        <span class="break-key">${window.t("reports.break")}</span>
-      </div>
-    </article>
+    <div class="reports-grid">
+      <div class="reports-left">
+        <article class="history-card">
+          <header class="history-summary">
+            <div>
+              <p class="eyebrow">${window.t("reports.today")}</p>
+              <strong data-history-total>7h 15m</strong>
+            </div>
+          </header>
+          <div class="activity-chart" aria-label="${window.t("reports.activity")}" data-history-chart>
+            <span class="all-focus" style="--bar:70%"><i></i><small>${window.t("time.8")}</small></span>
+            <span class="all-focus" style="--bar:78%"><i></i><small>${window.t("time.9")}</small></span>
+            <span class="break" style="--bar:20%"><i></i><small>${window.t("reports.break")}</small></span>
+            <span class="all-focus" style="--bar:92%"><i></i><small>${window.t("time.11")}</small></span>
+            <span class="all-focus" style="--bar:86%"><i></i><small>${window.t("time.13")}</small></span>
+            <span class="all-focus" style="--bar:64%"><i></i><small>${window.t("time.14")}</small></span>
+            <span class="break" style="--bar:20%"><i></i><small>${window.t("reports.break")}</small></span>
+            <span class="all-focus" style="--bar:54%"><i></i><small>${window.t("time.18")}</small></span>
+          </div>
+          <div class="activity-key" data-history-key>
+            <span class="focus-gradient">${window.t("reports.tracked")}</span>
+            <span class="break-key">${window.t("reports.break")}</span>
+          </div>
+        </article>
 
-    <article class="project-overview">
-      <p class="eyebrow">${window.t("reports.filter")}</p>
-      <p class="project-prompt">${window.t("reports.prompt")}</p>
-      <button class="project-line all-project is-active" type="button" data-history-project="all" aria-pressed="true">
-        <span class="project-symbol all"><svg class="material-svg" viewBox="0 0 24 24"><path d="M4 5h16v3H4V5zm0 5h16v3H4v-3zm0 5h16v3H4v-3z"/></svg></span>
-        <span class="project-copy"><strong>${window.t("reports.all")}</strong><i style="--fill:100%"></i></span>
-        <b>7h 15m<small>100%</small></b>
-      </button>
-      <button class="project-line flowtime-project" type="button" data-history-project="flowtime" aria-pressed="false">
-        <span class="project-symbol flowtime"><svg class="material-svg" viewBox="0 0 24 24"><path d="M14 2H10v5h4V2zm0 15h-4v5h4v-5zm2-8H8v6h8V9z"/></svg></span>
-        <span class="project-copy"><strong>${window.t("project.flowtime")}</strong><i style="--fill:28%"></i></span>
-        <b>2h 00m<small>28%</small></b>
-      </button>
-      <button class="project-line work-project" type="button" data-history-project="work" aria-pressed="false">
-        <span class="project-symbol work"><svg class="material-svg" viewBox="0 0 24 24"><path d="M14 6V4h-4v2H5v15h14V6h-5zm-3-1h2v1h-2V5zm6 14H7V8h10v11z"/></svg></span>
-        <span class="project-copy"><strong>${window.t("project.work")}</strong><i style="--fill:55%"></i></span>
-        <b>4h 00m<small>55%</small></b>
-      </button>
-      <button class="project-line testing-project" type="button" data-history-project="testing" aria-pressed="false">
-        <span class="project-symbol testing"><svg class="material-svg" viewBox="0 0 24 24"><path d="M9.4 16.6 4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0 4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg></span>
-        <span class="project-copy"><strong>${window.t("project.testing")}</strong><i style="--fill:17%"></i></span>
-        <b>1h 15m<small>17%</small></b>
-      </button>
-    </article>
+        <article class="reports-note">
+          <div class="reports-note-header">
+            <svg class="material-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9.2h3V19H5V9.2zm5.6-4.1h3V19h-3V5.1zm5.7 7.1h3V19h-3v-6.8z"/></svg>
+            <div>
+              <h3>${window.t("reports.flexible")}</h3>
+              <p>${window.t("reports.flexible.text")}</p>
+            </div>
+          </div>
+          <div class="report-filters" aria-label="${window.t("reports.filters")}">
+            <span>${window.t("reports.day")}</span>
+            <span>${window.t("reports.week")}</span>
+            <span>${window.t("reports.month")}</span>
+            <span>${window.t("reports.project")}</span>
+            <span>${window.t("reports.timer.type")}</span>
+          </div>
+        </article>
+      </div>
 
-    <article class="reports-note">
-      <div class="reports-note-header">
-        <svg class="material-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9.2h3V19H5V9.2zm5.6-4.1h3V19h-3V5.1zm5.7 7.1h3V19h-3v-6.8z"/></svg>
-        <div>
-          <h3>${window.t("reports.flexible")}</h3>
-          <p>${window.t("reports.flexible.text")}</p>
-        </div>
+      <div class="reports-right">
+        <article class="project-overview">
+          <p class="eyebrow">${window.t("reports.filter")}</p>
+          <p class="project-prompt">${window.t("reports.prompt")}</p>
+          <button class="project-line all-project is-active" type="button" data-history-project="all" aria-pressed="true">
+            <span class="project-symbol all"><svg class="material-svg" viewBox="0 0 24 24"><path d="M4 5h16v3H4V5zm0 5h16v3H4v-3zm0 5h16v3H4v-3z"/></svg></span>
+            <span class="project-copy"><strong>${window.t("reports.all")}</strong><i style="--fill:100%"></i></span>
+            <b>7h 15m<small>100%</small></b>
+          </button>
+          <button class="project-line flowtime-project" type="button" data-history-project="flowtime" aria-pressed="false">
+            <span class="project-symbol flowtime"><svg class="material-svg" viewBox="0 0 24 24"><path d="M14 2H10v5h4V2zm0 15h-4v5h4v-5zm2-8H8v6h8V9z"/></svg></span>
+            <span class="project-copy"><strong>${window.t("project.flowtime")}</strong><i style="--fill:28%"></i></span>
+            <b>2h 00m<small>28%</small></b>
+          </button>
+          <button class="project-line work-project" type="button" data-history-project="work" aria-pressed="false">
+            <span class="project-symbol work"><svg class="material-svg" viewBox="0 0 24 24"><path d="M14 6V4h-4v2H5v15h14V6h-5zm-3-1h2v1h-2V5zm6 14H7V8h10v11z"/></svg></span>
+            <span class="project-copy"><strong>${window.t("project.work")}</strong><i style="--fill:55%"></i></span>
+            <b>4h 00m<small>55%</small></b>
+          </button>
+          <button class="project-line testing-project" type="button" data-history-project="testing" aria-pressed="false">
+            <span class="project-symbol testing"><svg class="material-svg" viewBox="0 0 24 24"><path d="M9.4 16.6 4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0 4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg></span>
+            <span class="project-copy"><strong>${window.t("project.testing")}</strong><i style="--fill:17%"></i></span>
+            <b>1h 15m<small>17%</small></b>
+          </button>
+        </article>
       </div>
-      <div class="report-filters" aria-label="${window.t("reports.filters")}">
-        <span>${window.t("reports.day")}</span>
-        <span>${window.t("reports.week")}</span>
-        <span>${window.t("reports.month")}</span>
-        <span>${window.t("reports.project")}</span>
-        <span>${window.t("reports.timer.type")}</span>
-      </div>
-    </article>
+    </div>
   </section>
 `);
 

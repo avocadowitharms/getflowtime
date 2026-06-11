@@ -24,7 +24,7 @@ Flowtime and Toggl solve different problems. Flowtime is built for personal focu
 
 ## Choose Flowtime If
 
-You want a calm timer for focused work, Pomodoro sessions, Flow Sessions, projects, and history without turning time tracking into a management system.
+You want a minimalist timer for focused work, Pomodoro sessions, Flow Sessions, projects, and history without turning time tracking into a management system.
 
 ## Choose Toggl If
 

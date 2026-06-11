@@ -166,3 +166,186 @@ body[data-theme="classic"] .selector-visual[data-active-project="Testing"] .sele
   color: var(--ink);
   font-weight: 700;
 }
+
+/* --- Simplicity Multi-Card Grid --- */
+.simplicity-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+/* --- Timer Controls Card & Widget --- */
+.timer-visual-widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22px;
+  height: 238px;
+}
+
+.timer-circle-btn {
+  width: 130px;
+  height: 130px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  transition: transform 180ms ease, background 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.timer-circle-btn:hover {
+  border-color: var(--ink);
+}
+
+.timer-circle-btn:active {
+  transform: scale(0.96);
+}
+
+.timer-circle-btn.is-running {
+  border-color: var(--accent);
+  box-shadow: 0 0 12px rgba(108, 92, 231, 0.2);
+}
+
+body[data-theme="mono"] .timer-circle-btn.is-running {
+  border-color: var(--ink);
+  box-shadow: 0 0 12px rgba(17, 17, 17, 0.2);
+}
+
+.timer-circle-ring {
+  position: absolute;
+  inset: -1px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+}
+
+.timer-circle-btn.is-running .timer-circle-ring {
+  border-color: var(--accent);
+  animation: pulse-ring 2s infinite ease-in-out;
+}
+
+body[data-theme="mono"] .timer-circle-btn.is-running .timer-circle-ring {
+  border-color: var(--ink);
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.08); opacity: 0.3; }
+  100% { transform: scale(1); opacity: 0.8; }
+}
+
+.timer-digital-display {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.timer-status-hint {
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  text-align: center;
+}
+
+/* --- Swipe Switcher Card & Widget --- */
+.swipe-visual-widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22px;
+  height: 238px;
+}
+
+.swipe-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.swipe-arrow {
+  background: transparent;
+  border: 0;
+  color: var(--muted);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px;
+  transition: color 150ms ease;
+}
+
+.swipe-arrow:hover {
+  color: var(--ink);
+}
+
+.swipe-circle {
+  width: 130px;
+  height: 130px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  transition: border-color 180ms ease, background 180ms ease;
+}
+
+.swipe-circle:hover {
+  border-color: var(--ink);
+}
+
+.mode-icon-wrapper {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 220ms ease, transform 220ms ease;
+  pointer-events: none;
+  color: var(--muted);
+}
+
+.mode-icon-wrapper.is-active {
+  opacity: 1;
+  transform: scale(1);
+  color: var(--ink);
+}
+
+body[data-theme="classic"] .mode-icon-wrapper.is-active {
+  color: var(--accent);
+}
+
+.mode-icon-wrapper .mode-ring {
+  width: 64px;
+  height: 64px;
+  margin: 0;
+}
+
+.mode-icon-wrapper .pomodoro-ring::after {
+  background: var(--surface);
+}
+
+.swipe-status-text {
+  margin: 18px 0 0;
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.swipe-card .accent-icon svg {
+  transform: rotate(90deg);
+}

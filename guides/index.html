@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flowtime Guides & Blog - Focus, Time Tracking, and Privacy</title>
+  <meta
+    name="description"
+    content="Flowtime guides and blog articles about simple time tracking, focused work, offline productivity, privacy, and minimalist productivity software."
+  />
+  <link rel="canonical" href="https://flowtime-app.com/guides/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Flowtime" />
+  <meta property="og:title" content="Flowtime Guides & Blog - Focus, Time Tracking, and Privacy" />
+  <meta
+    property="og:description"
+    content="Guides and blog articles about simple time tracking, focused work, offline productivity, privacy, and minimalist productivity software."
+  />
+  <meta property="og:url" content="https://flowtime-app.com/guides/" />
+  <meta property="og:image" content="https://flowtime-app.com/assets/phone-classic.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Flowtime Guides & Blog - Focus, Time Tracking, and Privacy" />
+  <meta
+    property="twitter:description"
+    content="Guides and blog articles about simple time tracking, focused work, offline productivity, privacy, and minimalist productivity software."
+  />
+  <meta name="twitter:image" content="https://flowtime-app.com/assets/phone-classic.png" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../css/blog.css" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "Flowtime Guides & Blog",
+      "url": "https://flowtime-app.com/guides/",
+      "description": "Guides and blog articles about simple time tracking, focused work, offline productivity, privacy, and minimalist productivity software.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Flowtime",
+        "url": "https://flowtime-app.com/"
+      }
+    }
+  </script>
+</head>
+<body id="top" data-theme="mono" data-blog-category="guides">
+  <div id="site-header"></div>
+
+  <main class="blog-main">
+    <section class="blog-hero" aria-labelledby="blog-title">
+      <p class="eyebrow">Guides & Blog</p>
+      <h1 id="blog-title">Ideas for minimalistic time tracking.</h1>
+      <p>Notes on focused work, private productivity, offline time tracking, and building a timer that stays out of the way.</p>
+    </section>
+
+    <section class="blog-listing" aria-label="Blog articles">
+      <div class="blog-tools">
+        <label>
+          <span class="sr-only">Search articles</span>
+          <input class="blog-search" type="search" placeholder="Search articles" data-blog-search />
+        </label>
+        <label>
+          <span class="sr-only">Sort articles</span>
+          <select class="blog-sort" data-blog-sort>
+            <option value="newest">Newest first</option>
+            <option value="oldest">Oldest first</option>
+          </select>
+        </label>
+        <div class="blog-tags" data-blog-tags aria-label="Filter by tag"></div>
+      </div>
+
+      <p class="blog-count" data-blog-count></p>
+      <div class="blog-grid" data-blog-grid></div>
+      <p class="blog-empty" data-blog-empty hidden>No articles match your search.</p>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script>
+    window.flowtimeRoot = "../";
+    window.flowtimePreserveTitle = true;
+    window.flowtimeNoWaitlist = true;
+    window.renderSection = function (id, markup) {
+      document.getElementById(id).outerHTML = markup;
+    };
+  </script>
+  <script src="../scripts/i18n.js"></script>
+  <script src="../sections/header.js"></script>
+  <script src="../scripts/blog-posts.js"></script>
+  <script src="../scripts/blog.js"></script>
+  <script src="../sections/footer.js"></script>
+  <script src="../scripts/theme.js"></script>
+</body>
+</html>

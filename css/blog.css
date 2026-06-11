@@ -442,3 +442,231 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+/* Solutions & Comparisons Showcase */
+.comparison-showcase {
+  margin-top: 40px;
+  display: grid;
+  gap: 36px;
+  width: min(calc(100% - 38px), 760px);
+  margin-inline: auto;
+}
+
+.showcase-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.showcase-badge {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #10b981; /* green */
+  display: inline-block;
+  margin-bottom: 12px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.showcase-badge::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 1px;
+  background: currentColor;
+}
+
+body[data-theme="classic"] .showcase-badge {
+  color: #22d3ee; /* cyan in classic */
+}
+
+.showcase-title {
+  margin: 0 0 10px;
+  font-size: 28px;
+  line-height: 1.15;
+  letter-spacing: -0.04em;
+  font-weight: 750;
+}
+
+.showcase-desc {
+  color: var(--muted);
+  font-size: 14.5px;
+  line-height: 1.55;
+  margin-bottom: 24px;
+}
+
+.showcase-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.showcase-card {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--panel);
+  padding: 16px 20px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.showcase-card h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--ink);
+}
+
+.showcase-card .arrow {
+  transition: transform 0.2s ease;
+  color: var(--muted);
+}
+
+.showcase-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Hover effects for interactive links */
+.showcase-card.interactive {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.showcase-card.interactive:hover {
+  transform: translateY(-2px);
+  border-color: var(--muted);
+  box-shadow: 0 16px 36px rgba(17, 22, 32, 0.08);
+}
+
+.showcase-card.interactive:hover h3 {
+  color: var(--ink);
+}
+
+.showcase-card.interactive:hover .arrow {
+  transform: translateX(4px);
+  color: var(--accent);
+}
+
+/* Feature Matrix Section */
+.comparison-matrix-section {
+  margin-top: 64px;
+  padding-top: 48px;
+  border-top: 1px solid var(--line);
+  width: min(calc(100% - 38px), 760px);
+  margin-inline: auto;
+  margin-bottom: 60px;
+}
+
+.matrix-badge {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.comparison-matrix-section h2 {
+  font-size: 32px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  margin-bottom: 10px;
+}
+
+.matrix-desc {
+  color: var(--muted);
+  font-size: 14.5px;
+  line-height: 1.55;
+  margin-bottom: 30px;
+}
+
+.matrix-wrapper {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  background: var(--panel);
+}
+
+.matrix-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 13.5px;
+  min-width: 600px;
+}
+
+.matrix-table th,
+.matrix-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+}
+
+.matrix-table th:last-child,
+.matrix-table td:last-child {
+  border-right: 0;
+}
+
+.matrix-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.matrix-table th {
+  background: var(--soft);
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.matrix-table td {
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.matrix-table td strong {
+  color: var(--ink);
+}
+
+/* Highlight Flowtime Column */
+.matrix-table th.highlight,
+.matrix-table td.highlight {
+  background: rgba(16, 185, 129, 0.05); /* very subtle transparent green tint */
+  color: var(--ink);
+  font-weight: 600;
+}
+
+body[data-theme="classic"] .matrix-table th.highlight,
+body[data-theme="classic"] .matrix-table td.highlight {
+  background: rgba(34, 211, 238, 0.05); /* subtle cyan tint in classic */
+}
+
+@media (min-width: 1024px) {
+  .comparison-showcase {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 48px;
+  }
+
+  .comparison-matrix-section {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

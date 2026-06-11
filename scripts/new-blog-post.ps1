@@ -22,11 +22,17 @@ function Escape-Js($Value) {
 
 $title = Ask "Post title"
 $description = Ask "Description"
+$categoryInput = Ask "Category: comparison or guides (guides)"
 $tagsInput = Ask "Tags, comma separated"
 $readingTime = Ask "Reading time (4 min read)"
 $date = Ask "Date ($(Get-Date -Format 'yyyy-MM-dd'))"
 $featuredImage = Ask "Featured image, optional"
 $draftInput = Ask "Draft? yes/no (no)"
+
+$category = "guides"
+if ($categoryInput.ToLower() -eq "comparison" -or $categoryInput.ToLower() -eq "c") {
+  $category = "comparison"
+}
 
 if ([string]::IsNullOrWhiteSpace($readingTime)) {
   $readingTime = "4 min read"
@@ -45,8 +51,8 @@ if ([string]::IsNullOrWhiteSpace($title) -or [string]::IsNullOrWhiteSpace($descr
 
 $tags = $tagsInput.Split(",") | ForEach-Object { $_.Trim() } | Where-Object { $_ }
 
-$markdownDir = Join-Path (Get-Location) "content\blog"
-$blogDir = Join-Path (Get-Location) "blog\$slug"
+$markdownDir = Join-Path (Get-Location) "content\$category"
+$blogDir = Join-Path (Get-Location) "$category\$slug"
 $markdownPath = Join-Path $markdownDir "$slug.md"
 $htmlPath = Join-Path $blogDir "index.html"
 $postsPath = Join-Path (Get-Location) "scripts\blog-posts.js"
@@ -116,7 +122,7 @@ Answer two.
 
 Set-Content -Path $markdownPath -Value $markdown -Encoding UTF8
 
-$templatePath = Get-ChildItem -Path "blog" -Directory -ErrorAction SilentlyContinue |
+$templatePath = Get-ChildItem -Path $category -Directory -ErrorAction SilentlyContinue |
   Where-Object { $_.Name -ne $slug -and (Test-Path (Join-Path $_.FullName "index.html")) } |
   Select-Object -First 1 |
   ForEach-Object { Join-Path $_.FullName "index.html" }
@@ -125,7 +131,7 @@ if ($templatePath) {
   $html = Get-Content $templatePath -Raw
   $html = $html -replace '<title>.*?</title>', "<title>$title</title>"
   $html = $html -replace '<meta name="description" content=".*?">', "<meta name=`"description`" content=`"$description`">"
-  $html = $html -replace '<link rel="canonical" href=".*?">', "<link rel=`"canonical`" href=`"/blog/$slug/`">"
+  $html = $html -replace '<link rel="canonical" href=".*?">', "<link rel=`"canonical`" href=`"/$category/$slug/`">"
   $html = $html -replace '<h1[^>]*>.*?</h1>', "<h1>$title</h1>"
 } else {
   $html = @"
@@ -135,7 +141,7 @@ if ($templatePath) {
   <meta charset="utf-8">
   <title>$title</title>
   <meta name="description" content="$description">
-  <link rel="canonical" href="/blog/$slug/">
+  <link rel="canonical" href="/$category/$slug/">
 </head>
 <body>
   <main>
@@ -162,7 +168,7 @@ if ($templatePath) {
       </section>
 
       <nav>
-        <a href="/blog/">Back to blog</a>
+        <a href="/$category/">Back to $category</a>
       </nav>
     </article>
   </main>
@@ -182,6 +188,7 @@ if ($postsContent.Contains("slug: `"$slug`"")) {
 $newEntry = @"
   {
     slug: "$(Escape-Js $slug)",
+    category: "$category",
     title: "$(Escape-Js $title)",
     description: "$(Escape-Js $description)",
     date: "$(Escape-Js $date)",
@@ -205,15 +212,16 @@ Generate-Sitemap
 
 Write-Host ""
 Write-Host "Created new blog post:"
-Write-Host "content/blog/$slug.md"
-Write-Host "blog/$slug/index.html"
+Write-Host "content/$category/$slug.md"
+Write-Host "$category/$slug/index.html"
 Write-Host ""
-Write-Host "URL: /blog/$slug/"
+Write-Host "URL: /$category/$slug/"
 
 function Generate-Sitemap {
   $root = Get-Location
   $siteUrl = "https://flowtime-app.com"
-  $contentDir = Join-Path $root "content\blog"
+  $comparisonDir = Join-Path $root "content\comparison"
+  $guidesDir = Join-Path $root "content\guides"
   $urls = @()
 
   $urls += @{
@@ -224,38 +232,50 @@ function Generate-Sitemap {
   }
 
   $urls += @{
-    loc = "$siteUrl/blog/"
+    loc = "$siteUrl/comparison/"
     lastmod = "2026-06-06"
     changefreq = "weekly"
     priority = "0.8"
   }
 
-  if (Test-Path $contentDir) {
-    Get-ChildItem $contentDir -Filter "*.md" | ForEach-Object {
-      $markdown = Get-Content $_.FullName -Raw
-      $date = "2026-06-06"
-      $draft = "false"
+  $urls += @{
+    loc = "$siteUrl/guides/"
+    lastmod = "2026-06-06"
+    changefreq = "weekly"
+    priority = "0.8"
+  }
 
-      if ($markdown -match '(?m)^date:\s*"?([^"\r\n]+)"?') {
-        $date = $Matches[1].Trim()
-      }
+  function Add-UrlsFromDir($contentDir, $category) {
+    if (Test-Path $contentDir) {
+      Get-ChildItem $contentDir -Filter "*.md" | ForEach-Object {
+        $markdown = Get-Content $_.FullName -Raw
+        $date = "2026-06-06"
+        $draft = "false"
 
-      if ($markdown -match '(?m)^draft:\s*"?([^"\r\n]+)"?') {
-        $draft = $Matches[1].Trim()
-      }
+        if ($markdown -match '(?m)^date:\s*"?([^"\r\n]+)"?') {
+          $date = $Matches[1].Trim()
+        }
 
-      if ($draft -ne "true") {
-        $slug = [System.IO.Path]::GetFileNameWithoutExtension($_.Name)
+        if ($markdown -match '(?m)^draft:\s*"?([^"\r\n]+)"?') {
+          $draft = $Matches[1].Trim()
+        }
 
-        $urls += @{
-          loc = "$siteUrl/blog/$slug/"
-          lastmod = $date
-          changefreq = "monthly"
-          priority = "0.7"
+        if ($draft -ne "true") {
+          $slug = [System.IO.Path]::GetFileNameWithoutExtension($_.Name)
+
+          $script:urls += @{
+            loc = "$siteUrl/$category/$slug/"
+            lastmod = $date
+            changefreq = "monthly"
+            priority = "0.7"
+          }
         }
       }
     }
   }
+
+  Add-UrlsFromDir $comparisonDir "comparison"
+  Add-UrlsFromDir $guidesDir "guides"
 
   $urls += @{
     loc = "$siteUrl/docs/privacy-policy.html"
