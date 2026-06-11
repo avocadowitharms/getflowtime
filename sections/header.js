@@ -30,11 +30,11 @@
           </svg>
         </button>
         <div class="nav-dropdown-menu" id="dropdown-compare">
-          <a href="${root}comparison/flowtime-vs-toggl/index.html">vs Toggl Track</a>
-          <a href="${root}comparison/flowtime-vs-forest/index.html">vs Forest</a>
-          <a href="${root}comparison/flowtime-vs-session/index.html">vs Session</a>
-          <a href="${root}comparison/flowtime-vs-focus-todo/index.html">vs Focus To-Do</a>
-          <a href="${root}comparison/flowtime-vs-be-focused/index.html">vs Be Focused</a>
+          <a href="${root}comparison/flowtime-vs-toggl/index.html">${window.t("nav.compare.toggl")}</a>
+          <a href="${root}comparison/flowtime-vs-forest/index.html">${window.t("nav.compare.forest")}</a>
+          <a href="${root}comparison/flowtime-vs-session/index.html">${window.t("nav.compare.session")}</a>
+          <a href="${root}comparison/flowtime-vs-focus-todo/index.html">${window.t("nav.compare.todo")}</a>
+          <a href="${root}comparison/flowtime-vs-be-focused/index.html">${window.t("nav.compare.focused")}</a>
           <a class="all-link" href="${root}comparison/index.html">${window.t("nav.all")}</a>
         </div>
       </div>
@@ -48,10 +48,10 @@
           </svg>
         </button>
         <div class="nav-dropdown-menu" id="dropdown-guides">
-          <a href="${root}guides/time-tracker-without-account/index.html">Time Tracker Without an Account</a>
-          <a href="${root}guides/best-offline-time-trackers/index.html">Best Offline Time Trackers</a>
-          <a href="${root}guides/why-most-time-tracking-apps-feel-overengineered/index.html">Why Most Time Tracking Apps Feel Overengineered</a>
-          <a href="${root}guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/index.html">Sometimes the Problem Isn't Getting Into Flow</a>
+          <a href="${root}guides/time-tracker-without-account/index.html">${window.t("nav.guide.noAccount")}</a>
+          <a href="${root}guides/best-offline-time-trackers/index.html">${window.t("nav.guide.offline")}</a>
+          <a href="${root}guides/why-most-time-tracking-apps-feel-overengineered/index.html">${window.t("nav.guide.overengineered")}</a>
+          <a href="${root}guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/index.html">${window.t("nav.guide.flow")}</a>
           <a class="all-link" href="${root}guides/index.html">${window.t("nav.allGuides")}</a>
         </div>
       </div>
@@ -91,11 +91,11 @@
             </svg>
           </button>
           <div class="mobile-accordion-panel">
-            <a href="${root}comparison/flowtime-vs-toggl/index.html">vs Toggl Track</a>
-            <a href="${root}comparison/flowtime-vs-forest/index.html">vs Forest</a>
-            <a href="${root}comparison/flowtime-vs-session/index.html">vs Session</a>
-            <a href="${root}comparison/flowtime-vs-focus-todo/index.html">vs Focus To-Do</a>
-            <a href="${root}comparison/flowtime-vs-be-focused/index.html">vs Be Focused</a>
+            <a href="${root}comparison/flowtime-vs-toggl/index.html">${window.t("nav.compare.toggl")}</a>
+            <a href="${root}comparison/flowtime-vs-forest/index.html">${window.t("nav.compare.forest")}</a>
+            <a href="${root}comparison/flowtime-vs-session/index.html">${window.t("nav.compare.session")}</a>
+            <a href="${root}comparison/flowtime-vs-focus-todo/index.html">${window.t("nav.compare.todo")}</a>
+            <a href="${root}comparison/flowtime-vs-be-focused/index.html">${window.t("nav.compare.focused")}</a>
             <a class="all-link" href="${root}comparison/index.html">${window.t("nav.all")}</a>
           </div>
         </div>
@@ -109,10 +109,10 @@
             </svg>
           </button>
           <div class="mobile-accordion-panel">
-            <a href="${root}guides/time-tracker-without-account/index.html">Time Tracker Without an Account</a>
-            <a href="${root}guides/best-offline-time-trackers/index.html">Best Offline Time Trackers</a>
-            <a href="${root}guides/why-most-time-tracking-apps-feel-overengineered/index.html">Why Most Time Tracking Apps Feel Overengineered</a>
-            <a href="${root}guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/index.html">Sometimes the Problem Isn't Getting Into Flow</a>
+            <a href="${root}guides/time-tracker-without-account/index.html">${window.t("nav.guide.noAccount")}</a>
+            <a href="${root}guides/best-offline-time-trackers/index.html">${window.t("nav.guide.offline")}</a>
+            <a href="${root}guides/why-most-time-tracking-apps-feel-overengineered/index.html">${window.t("nav.guide.overengineered")}</a>
+            <a href="${root}guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/index.html">${window.t("nav.guide.flow")}</a>
             <a class="all-link" href="${root}guides/index.html">${window.t("nav.allGuides")}</a>
           </div>
         </div>

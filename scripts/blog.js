@@ -19,7 +19,8 @@
   }
 
   function formatDate(value) {
-    return new Intl.DateTimeFormat("en", {
+    var loc = window.flowtimeLocale || "en";
+    return new Intl.DateTimeFormat(loc, {
       month: "long",
       day: "numeric",
       year: "numeric"
@@ -41,28 +42,43 @@
   function renderTags() {
     var items = ["all"].concat(uniqueTags());
     tags.innerHTML = items.map(function (tag) {
-      var label = tag === "all" ? "All" : tag;
+      var label = tag === "all" ? (window.t("blog.tag.all") || "All") : (window.t("blog.tag." + tag) || tag);
       return '<button class="blog-tag-button" type="button" data-tag="' + tag + '" aria-pressed="' + (tag === activeTag) + '">' + label + "</button>";
     }).join("");
   }
 
   function matches(post, query) {
-    var haystack = [post.title, post.description].concat(post.tags).join(" ").toLowerCase();
+    var localizedTitle = window.t("blog.title." + post.slug) || post.title;
+    var localizedDesc = window.t("blog.desc." + post.slug) || post.description;
+    var haystack = [localizedTitle, localizedDesc].concat(post.tags).join(" ").toLowerCase();
     return haystack.indexOf(query) >= 0;
   }
 
   function card(post) {
     var primaryTag = post.tags[0] || "Flowtime";
+    var localizedTag = window.t("blog.tag." + primaryTag) || primaryTag;
+    var localizedTitle = window.t("blog.title." + post.slug) || post.title;
+    var localizedDesc = window.t("blog.desc." + post.slug) || post.description;
+    var readText = window.t("blog.read_article") || "Read article";
+    
+    var readingTimeText = post.readingTime;
+    if (readingTimeText && readingTimeText.indexOf("min read") >= 0) {
+      var mins = readingTimeText.split(" ")[0];
+      readingTimeText = window.t("blog.reading_time", { minutes: mins }) || readingTimeText;
+    } else if (readingTimeText) {
+      readingTimeText = window.t("blog.reading_time", { minutes: readingTimeText }) || (readingTimeText + " min read");
+    }
+
     return [
       '<article class="blog-card">',
       '<div class="blog-card-meta">',
       "<span>" + formatDate(post.date) + "</span>",
-      "<span>" + post.readingTime + "</span>",
-      '<span class="article-tag">' + primaryTag + "</span>",
+      "<span>" + readingTimeText + "</span>",
+      '<span class="article-tag">' + localizedTag + "</span>",
       "</div>",
-      '<h2><a href="' + post.slug + '/index.html">' + post.title + "</a></h2>",
-      "<p>" + post.description + "</p>",
-      '<a class="blog-card-link" href="' + post.slug + '/index.html">Read article <span aria-hidden="true">&rarr;</span></a>',
+      '<h2><a href="' + post.slug + '/index.html">' + localizedTitle + "</a></h2>",
+      "<p>" + localizedDesc + "</p>",
+      '<a class="blog-card-link" href="' + post.slug + '/index.html">' + readText + ' <span aria-hidden="true">&rarr;</span></a>',
       "</article>"
     ].join("");
   }
@@ -78,7 +94,14 @@
     });
 
     grid.innerHTML = visible.map(card).join("");
-    count.textContent = visible.length + (visible.length === 1 ? " article" : " articles");
+    
+    var countText = "";
+    if (visible.length === 1) {
+      countText = window.t("blog.count_single") || "1 article";
+    } else {
+      countText = (window.t("blog.count_multiple") || "{count} articles").replace("{count}", visible.length);
+    }
+    count.textContent = countText;
     empty.hidden = visible.length > 0;
   }
 
@@ -97,4 +120,9 @@
 
   search.addEventListener("input", renderPosts);
   sort.addEventListener("change", renderPosts);
+
+  window.flowtimeRenderPosts = function() {
+    renderTags();
+    renderPosts();
+  };
 }());

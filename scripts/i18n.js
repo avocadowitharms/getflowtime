@@ -23,6 +23,15 @@
       "nav.guides": "Guides",
       "nav.all": "All comparisons",
       "nav.allGuides": "All guides",
+      "nav.compare.toggl": "vs Toggl Track",
+      "nav.compare.forest": "vs Forest",
+      "nav.compare.session": "vs Session",
+      "nav.compare.todo": "vs Focus To-Do",
+      "nav.compare.focused": "vs Be Focused",
+      "nav.guide.noAccount": "Time Tracker Without an Account",
+      "nav.guide.offline": "Best Offline Time Trackers",
+      "nav.guide.overengineered": "Why Most Time Tracking Apps Feel Overengineered",
+      "nav.guide.flow": "Sometimes the Problem Isn't Getting Into Flow",
       "cta.waitlist": "Subscribe for news",
       "cta.waitlist.long": "Subscribe for news",
       "cta.appstore": "Download on the App Store",
@@ -180,6 +189,15 @@
       "nav.guides": "Ratgeber",
       "nav.all": "Alle Vergleiche",
       "nav.allGuides": "Alle Ratgeber",
+      "nav.compare.toggl": "vs Toggl Track",
+      "nav.compare.forest": "vs Forest",
+      "nav.compare.session": "vs Session",
+      "nav.compare.todo": "vs Focus To-Do",
+      "nav.compare.focused": "vs Be Focused",
+      "nav.guide.noAccount": "Zeiterfassung ohne Account",
+      "nav.guide.offline": "Die besten Offline-Zeiterfassungen",
+      "nav.guide.overengineered": "Warum Zeiterfassungs-Apps oft überladen wirken",
+      "nav.guide.flow": "Manchmal ist das Problem nicht der Flow, sondern das Herauskommen",
       "cta.waitlist": "News abonnieren",
       "cta.waitlist.long": "News abonnieren",
       "cta.appstore": "Im App Store laden",
@@ -337,6 +355,15 @@
       "nav.guides": "Guides",
       "nav.all": "Toutes les comparaisons",
       "nav.allGuides": "Tous les guides",
+      "nav.compare.toggl": "vs Toggl Track",
+      "nav.compare.forest": "vs Forest",
+      "nav.compare.session": "vs Session",
+      "nav.compare.todo": "vs Focus To-Do",
+      "nav.compare.focused": "vs Be Focused",
+      "nav.guide.noAccount": "Suivi du temps sans compte",
+      "nav.guide.offline": "Les meilleurs outils de suivi hors-ligne",
+      "nav.guide.overengineered": "Pourquoi les applications de suivi du temps semblent surchargées",
+      "nav.guide.flow": "Parfois, le problème n'est pas d'entrer dans le flow, c'est d'en sortir",
       "cta.waitlist": "S'abonner aux nouvelles",
       "cta.waitlist.long": "S'abonner aux nouvelles",
       "cta.appstore": "Telecharger dans l'App Store",
@@ -506,4 +533,23 @@
   window.flowtimeLocale = locale;
   window.t = t;
   window.setFlowtimeLocale = setLocale;
+  window.flowtimeAddTranslations = function(loc, dict) {
+    if (!copy[loc]) copy[loc] = {};
+    for (var k in dict) {
+      copy[loc][k] = dict[k];
+    }
+  };
+
+  // Dynamically load blog localization script if needed
+  var isBlogPage = !!(document.body.dataset.blogCategory || document.querySelector(".blog-article") || document.querySelector("[data-blog-grid]"));
+  if (isBlogPage && locale !== "en") {
+    var script = document.createElement("script");
+    script.src = (window.flowtimeRoot || "") + "scripts/blog-i18n-data.js";
+    script.onload = function() {
+      if (window.flowtimeTranslateBlog) {
+        window.flowtimeTranslateBlog(locale);
+      }
+    };
+    document.head.appendChild(script);
+  }
 }());
