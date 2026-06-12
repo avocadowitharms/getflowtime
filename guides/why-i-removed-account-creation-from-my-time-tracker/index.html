@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Why I Removed Account Creation From My Time Tracker</title>
+  <meta name="description" content="Why Flowtime works without account creation, and why a local-first time tracker can be better for personal focus." />
+  <link rel="canonical" href="https://flowtime-app.com/guides/why-i-removed-account-creation-from-my-time-tracker/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Flowtime" />
+  <meta property="og:title" content="Why I Removed Account Creation From My Time Tracker" />
+  <meta property="og:description" content="Why Flowtime works without account creation, and why a local-first time tracker can be better for personal focus." />
+  <meta property="og:url" content="https://flowtime-app.com/guides/why-i-removed-account-creation-from-my-time-tracker/" />
+  <meta property="og:image" content="https://flowtime-app.com/assets/phone-classic.png" />
+  <meta property="article:published_time" content="2026-06-04" />
+  <meta property="article:author" content="Ava Thalheim" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Why I Removed Account Creation From My Time Tracker" />
+  <meta name="twitter:description" content="Why Flowtime works without account creation, and why a local-first time tracker can be better for personal focus." />
+  <meta name="twitter:image" content="https://flowtime-app.com/assets/phone-classic.png" />
+  <link rel="stylesheet" href="../../style.css" />
+  <link rel="stylesheet" href="../../css/blog.css" />
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Article","headline":"Why I Removed Account Creation From My Time Tracker","description":"Why Flowtime works without account creation, and why a local-first time tracker can be better for personal focus.","datePublished":"2026-06-04","dateModified":"2026-06-04","author":{"@type":"Person","name":"Ava Thalheim","jobTitle":"Developer of Flowtime"},"publisher":{"@type":"Organization","name":"Flowtime","url":"https://flowtime-app.com"},"mainEntityOfPage":"https://flowtime-app.com/guides/why-i-removed-account-creation-from-my-time-tracker/"}
+  </script>
+</head>
+<body id="top" data-theme="mono" data-blog-category="guides">
+  <div id="site-header"></div>
+  <main class="blog-main">
+    <article class="blog-article">
+      <header class="article-header">
+        <p class="eyebrow">Guide</p>
+        <h1>Why I Removed Account Creation From My Time Tracker</h1>
+        <p class="article-description">The product thinking behind making Flowtime usable without account creation, and why lower friction matters for focus.</p>
+        <div class="article-meta"><span>By Ava Thalheim</span><time datetime="2026-06-04">June 4, 2026</time><span>4 min read</span></div>
+        <div class="article-tags"><span class="article-tag">privacy</span><span class="article-tag">product design</span><span class="article-tag">focus</span></div>
+      </header>
+      <div class="article-layout">
+        <aside class="article-aside" aria-label="Article details">
+          <div class="author-card"><img class="author-avatar" src="../../assets/ava-icon.png" alt="" loading="lazy" /><p><strong>Ava Thalheim</strong><span>Developer of Flowtime</span></p></div>
+          <nav class="article-toc" aria-label="Table of contents"><h2>Table of contents</h2><ol><li><a href="#summary">Summary</a></li><li><a href="#the-original-plan">The original plan</a></li><li><a href="#the-problem-with-starting-from-account-creation">The problem with starting from account creation</a></li><li><a href="#what-changed-when-accounts-disappeared">What changed when accounts disappeared</a></li><li><a href="#privacy-became-clearer">Privacy became clearer</a></li><li><a href="#what-this-approach-does-not-solve">What this approach does not solve</a></li><li><a href="#why-lower-friction-matters-for-focus">Why lower friction matters for focus</a></li></ol></nav>
+        </aside>
+        <div class="article-content">
+          <div class="article-body">
+<h2 id="summary">Summary</h2>
+<p>The original version of Flowtime could have become another account-based productivity app. Removing account creation made the product faster, simpler, and more aligned with the way many people actually use a personal focus timer.</p>
+<h2 id="the-original-plan">The original plan</h2>
+<p>The first version of the idea looked familiar. Users would create an account, log in, sync their data, and maybe access it from multiple devices later.</p>
+<p>That is the default path for many modern apps. It is also easy to justify. Accounts make analytics easier. They make sync easier. They make subscriptions and support workflows easier. They make the product feel more like a platform.</p>
+<p>But while building Flowtime, I kept returning to a simpler question: is an account necessary for the thing the user came here to do?</p>
+<p>For a personal time tracker, the answer was often no.</p>
+<h2 id="the-problem-with-starting-from-account-creation">The problem with starting from account creation</h2>
+<p>Account creation adds friction before the value appears. Before users can track one minute of work, they may need to choose a password, verify an email, accept terms, name a workspace, and configure settings.</p>
+<p>That might be acceptable for collaboration software. It feels strange for a timer.</p>
+<p>When someone opens a focus app, they are usually already trying to begin. The product should not create a new task before supporting the current one.</p>
+<h2 id="what-changed-when-accounts-disappeared">What changed when accounts disappeared</h2>
+<p>Removing account creation changed the shape of the app.</p>
+<p>The flow went from:</p>
+<ul><li>Create account</li><li>Configure workspace</li><li>Start timer</li></ul>
+<p>to:</p>
+<ul><li>Open app</li><li>Start timer</li></ul>
+<p>That looks like a small difference on paper. In use, it feels much larger. The app becomes less like a service you have joined and more like a tool you can pick up.</p>
+<h2 id="privacy-became-clearer">Privacy became clearer</h2>
+<p>Time tracking data is personal. It shows what you worked on, when you worked, how long you stayed with something, and where your attention went. For individual productivity, there is no obvious reason that history must start in the cloud.</p>
+<p>By keeping Flowtime local-first, the privacy model becomes easier to understand. Your timer history is primarily on your device. There is no account dashboard full of your sessions waiting somewhere else.</p>
+<p>That does not remove every responsibility. Local data still needs export and backup options. But it does make the default simpler.</p>
+<h2 id="what-this-approach-does-not-solve">What this approach does not solve</h2>
+<p>No-account design is not perfect for everyone. If you need automatic sync across devices, shared team reporting, manager visibility, or client billing workflows, an account-based system may be the right tool.</p>
+<p>This is one of the tradeoffs that matters. Flowtime is not trying to be a team time tracking platform. It is trying to be a personal focus tracker.</p>
+<h2 id="why-lower-friction-matters-for-focus">Why lower friction matters for focus</h2>
+<p>Focus is sensitive to interruptions. Even small setup steps can break momentum. If the app asks too much before the timer starts, it risks becoming another reason not to begin.</p>
+<p>Lower friction also helps when you are tired, distracted, or switching between tasks. The simpler the start action is, the more likely the tracking habit survives ordinary days.</p>
+<h2 id="what-i-would-still-add-carefully">What I would still add carefully</h2>
+<p>Removing accounts does not mean refusing every advanced feature forever. It means being careful about what a feature costs before it earns a place in the app.</p>
+<p>For example, export is worth supporting because local data should be portable. Reminders are worth supporting because they create awareness during long sessions. Reports are worth supporting when they help users understand patterns without turning the app into a management dashboard.</p>
+<p>The test is whether a feature helps the individual using the timer, or whether it mainly makes the product look more complete. Flowtime should stay useful on the first launch and still useful after months of ordinary use. That balance matters more than checking every possible feature box.</p>
+<h2 id="related-articles">Related articles</h2>
+<ul><li><a href="../time-tracker-without-account/">Time Tracker Without an Account</a></li><li><a href="../best-offline-time-trackers/">Best Offline Time Trackers</a></li><li><a href="../why-most-time-tracking-apps-feel-overengineered/">Why Most Time Tracking Apps Feel Overengineered</a></li><li><a href="../local-first-apps-explained/">Local-First Apps Explained</a></li></ul>
+<h2 id="faq">FAQ</h2>
+<h3 id="why-does-flowtime-not-require-an-account">Why does Flowtime not require an account?</h3>
+<p>Flowtime is built for personal focus tracking, so the core timer and history do not need a workspace or login before use.</p>
+<h3 id="does-no-account-mean-no-data-is-saved">Does no account mean no data is saved?</h3>
+<p>No. Sessions can still be saved locally on your device. The difference is that tracking does not begin with a cloud account.</p>
+<h3 id="is-account-free-design-always-better">Is account-free design always better?</h3>
+<p>No. Accounts are useful for sync, teams, collaboration, and billing. They are less necessary for simple personal time tracking.</p>
+<h3 id="can-local-first-apps-still-offer-exports">Can local-first apps still offer exports?</h3>
+<p>Yes. A local-first app can keep data on-device while still allowing manual export or backup.</p>
+<p>Flowtime keeps account creation out of the way so the first interaction can be the one that matters most: starting a focus session.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+    <section class="blog-related" aria-labelledby="related-title"><h2 id="related-title">Related articles</h2><div class="related-grid"><a class="related-card" href="../../guides/local-first-apps-explained/index.html"><strong>Local-First Apps Explained</strong><span>A clear explanation of local-first apps, how they differ from cloud-first tools, and why local storage matters for personal productivity.</span></a><a class="related-card" href="../../guides/the-best-productivity-system-is-the-one-you-forget-about/index.html"><strong>The Best Productivity System Is the One You Forget About</strong><span>A practical essay on why simple productivity systems often work better than elaborate workflows that require constant maintenance.</span></a><a class="related-card" href="../../guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/index.html"><strong>Sometimes the Problem Isn't Getting Into Flow. It's Getting Out of It.</strong><span>Flowtime focus sessions are designed to create moments of awareness, helping you stay mindful of your time and avoid disappearing into hours of uninterrupted work.</span></a></div></section>
+  </main>
+  <div id="site-footer"></div>
+  <script>window.flowtimeRoot = "../../"; window.flowtimePreserveTitle = true; window.flowtimeNoWaitlist = true; window.renderSection = function (id, markup) { document.getElementById(id).outerHTML = markup; };</script>
+  <script src="../../scripts/i18n.js"></script>
+  <script src="../../scripts/blog-i18n-data.js"></script>
+  <script src="../../sections/header.js"></script>
+  <script src="../../sections/footer.js"></script>
+  <script src="../../scripts/theme.js"></script>
+</body>
+</html>

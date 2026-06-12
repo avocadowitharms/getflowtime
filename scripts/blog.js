@@ -39,34 +39,39 @@
     return allTags.sort();
   }
 
+  function translate(key, fallback, values) {
+    var value = window.t(key, values);
+    return value && value !== key ? value : fallback;
+  }
+
   function renderTags() {
     var items = ["all"].concat(uniqueTags());
     tags.innerHTML = items.map(function (tag) {
-      var label = tag === "all" ? (window.t("blog.tag.all") || "All") : (window.t("blog.tag." + tag) || tag);
+      var label = tag === "all" ? translate("blog.tag.all", "All") : translate("blog.tag." + tag, tag);
       return '<button class="blog-tag-button" type="button" data-tag="' + tag + '" aria-pressed="' + (tag === activeTag) + '">' + label + "</button>";
     }).join("");
   }
 
   function matches(post, query) {
-    var localizedTitle = window.t("blog.title." + post.slug) || post.title;
-    var localizedDesc = window.t("blog.desc." + post.slug) || post.description;
+    var localizedTitle = translate("blog.title." + post.slug, post.title);
+    var localizedDesc = translate("blog.desc." + post.slug, post.description);
     var haystack = [localizedTitle, localizedDesc].concat(post.tags).join(" ").toLowerCase();
     return haystack.indexOf(query) >= 0;
   }
 
   function card(post) {
     var primaryTag = post.tags[0] || "Flowtime";
-    var localizedTag = window.t("blog.tag." + primaryTag) || primaryTag;
-    var localizedTitle = window.t("blog.title." + post.slug) || post.title;
-    var localizedDesc = window.t("blog.desc." + post.slug) || post.description;
-    var readText = window.t("blog.read_article") || "Read article";
+    var localizedTag = translate("blog.tag." + primaryTag, primaryTag);
+    var localizedTitle = translate("blog.title." + post.slug, post.title);
+    var localizedDesc = translate("blog.desc." + post.slug, post.description);
+    var readText = translate("blog.read_article", "Read article");
     
     var readingTimeText = post.readingTime;
     if (readingTimeText && readingTimeText.indexOf("min read") >= 0) {
       var mins = readingTimeText.split(" ")[0];
-      readingTimeText = window.t("blog.reading_time", { minutes: mins }) || readingTimeText;
+      readingTimeText = translate("blog.reading_time", readingTimeText, { minutes: mins });
     } else if (readingTimeText) {
-      readingTimeText = window.t("blog.reading_time", { minutes: readingTimeText }) || (readingTimeText + " min read");
+      readingTimeText = translate("blog.reading_time", readingTimeText + " min read", { minutes: readingTimeText });
     }
 
     return [
@@ -97,9 +102,9 @@
     
     var countText = "";
     if (visible.length === 1) {
-      countText = window.t("blog.count_single") || "1 article";
+      countText = translate("blog.count_single", "1 article");
     } else {
-      countText = (window.t("blog.count_multiple") || "{count} articles").replace("{count}", visible.length);
+      countText = translate("blog.count_multiple", "{count} articles").replace("{count}", visible.length);
     }
     count.textContent = countText;
     empty.hidden = visible.length > 0;

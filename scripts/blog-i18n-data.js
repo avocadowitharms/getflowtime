@@ -20,7 +20,8 @@
         "comparison": "Vergleich",
         "productivity": "Produktivität",
         "product design": "Produktdesign",
-        "focus": "Fokus"
+        "focus": "Fokus",
+        "projects": "Projekte"
       },
       listings: {
         comparison: {
@@ -39,6 +40,13 @@
             { h3: "Für Studenten & Wissenschaftler", p: "Strukturiere Lerneinheiten mit klassischen Pomodoro-Intervallen, setze Zielzeiten für Flow Sessions und nutze wöchentliche Verlaufscharts." },
             { h3: "Für Autoren & Forscher", p: "Begib dich in eine ablenkungsfreie Fokuszone. Aktiviere das Mono-Design, halte deine Daten lokal und arbeite in klarer Einfachheit." }
           ],
+          comparisons: [
+            { h3: "Flowtime vs Toggl Track", p: "Toggl Track ist ein detaillierter, teamorientierter Logger für Agenturen. Flowtime ist ein leichter, accountfreier Fokus-Timer für Einzelpersonen." },
+            { h3: "Flowtime vs Forest", p: "Forest nutzt Gamification und virtuelle Bäume, um Fokus zu fördern. Flowtime bietet einen klaren Utility-Timer mit strukturierten Berichten ohne Spielmechanik." },
+            { h3: "Flowtime vs Session", p: "Session ist ein funktionsreiches Timer-Tool für das Apple-Ökosystem. Flowtime ist eine plattformübergreifende, minimalistische Alternative." },
+            { h3: "Flowtime vs Focus To-Do", p: "Focus To-Do kombiniert Pomodoro mit komplexen GTD-Aufgabenlisten. Flowtime konzentriert sich auf reine Fokus-Sessions und flexible Projektzuordnung." },
+            { h3: "Flowtime vs Be Focused", p: "Be Focused ist ein klassischer Intervall-Timer. Flowtime ergänzt offene Flow Sessions, Berichte und anpassbare Oberflächenthemen." }
+          ],
           matrixBadge: "Feature-Matrix",
           matrixTitle: "Direkter Vergleich",
           matrixDesc: "Sieh, wie Flowtime im Vergleich zu Toggl Track, Forest, Session, Focus To-Do und Be Focused bei den wichtigsten Kriterien abschneidet.",
@@ -51,6 +59,23 @@
             ["Offene Flow Sessions", "Ja (Free)", "Nein", "Nein", "Nein", "Nein", "Nein"],
             ["Projekt-Erfassung", "Ja (Pro)", "Ja", "Ja", "Ja", "Ja", "Ja"],
             ["Oberfläche", "Ultra-minimal", "Komplexes Dashboard", "Gamifiziert, verspielt", "Modernes iOS-Design", "Dichte Listen", "Einfacher Timer"]
+          ],
+          pricingBadge: "Preise",
+          pricingTitle: "Preise auf einen Blick",
+          pricingDesc: "Vergleiche, wie jedes Tool die Funktionen bepreist, die für Einzelpersonen wichtig sind: Fokus-Sessions, Projekt-Erfassung, Berichte und Account-Pflicht.",
+          pricingCards: [
+            { label: "Beste Wahl mit wenig Reibung", title: "Flowtime", price: "Kostenloser Kern-Timer", desc: "Pomodoro und offene Flow Sessions sind kostenlos. Pro ergänzt Projekt-Erfassung und ausführlichere Historie ohne Account-Zwang." },
+            { label: "Tools für Team-Abrechnung", title: "Toggl Track", price: "Free Plan, bezahlte Team-Tarife", desc: "Stark für Teamberichte und Kundenabrechnung, aber die meisten Kollaborationsfunktionen liegen in einem accountbasierten Workspace." },
+            { label: "Spezialisierte Fokus-Apps", title: "Forest, Session, Focus To-Do, Be Focused", price: "Kostenlose oder günstige App-Upgrades", desc: "Die Preise variieren je nach Plattform. Rechne mit App-Käufen, Abos oder Upgrades für Sync, Berichte, erweiterte Aufgaben oder geräteübergreifende Funktionen." }
+          ],
+          pricingHeaders: ["Tool", "Typisches Preismodell", "Bestes Preis-Leistungs-Verhältnis, wenn"],
+          pricingRows: [
+            ["Flowtime", "Kostenlose Kern-Fokusmodi, Pro für Projekte und reichere Historie", "Du einen privaten persönlichen Timer mit minimalem Setup willst"],
+            ["Toggl Track", "Kostenloser Einstieg, bezahlte Tarife für Teams und Reporting", "Du Kunden abrechnest oder gemeinsame Workspaces verwaltest"],
+            ["Forest", "App-Kauf oder optionale Upgrades je nach Plattform", "Du Motivation durch Gamification suchst"],
+            ["Session", "Abo oder bezahlte Upgrades für erweiterte Funktionen", "Du im Apple-Ökosystem arbeitest und detaillierte Sessions willst"],
+            ["Focus To-Do", "Free Tier mit bezahlten Upgrades für mehr Aufgabenfunktionen", "Du Pomodoro mit Aufgabenverwaltung kombinieren willst"],
+            ["Be Focused", "Kostenlose oder günstige Pro-App je nach Plattform", "Du einen einfachen Intervall-Timer brauchst"]
           ],
           searchPlaceholder: "Vergleiche durchsuchen",
           sortNewest: "Neueste zuerst",
@@ -107,6 +132,50 @@
         "flowtime-vs-be-focused": {
           title: "Flowtime vs Be Focused",
           desc: "Ein Vergleich von Flowtime und Be Focused: Der Unterschied zwischen starren Intervallen und flexiblen Flow-Timer-Sitzungen."
+        },
+        "how-to-find-out-where-your-time-actually-goes": {
+          title: "So findest du heraus, wo deine Zeit wirklich bleibt",
+          desc: "Ein einfacher Prozess, um eine Woche lang Zeit zu erfassen, Muster zu erkennen und Vermutungen durch hilfreiche Daten zu ersetzen."
+        },
+        "local-first-apps-explained": {
+          title: "Local-First-Apps einfach erklärt",
+          desc: "Was Local-First-Apps von Cloud-Tools unterscheidet und warum lokale Speicherung für persönliche Produktivität wichtig ist."
+        },
+        "the-best-productivity-system-is-the-one-you-forget-about": {
+          title: "Das beste Produktivitätssystem ist das, das du vergisst",
+          desc: "Warum einfache Produktivitätssysteme oft besser funktionieren als aufwendige Workflows, die ständig gepflegt werden müssen."
+        },
+        "the-hidden-cost-of-context-switching": {
+          title: "Die versteckten Kosten von Context Switching",
+          desc: "Warum kleine Unterbrechungen fokussierte Arbeit erschweren und wie Zeiterfassung die tatsächlichen Wechselkosten sichtbar macht."
+        },
+        "time-tracking-for-neurodivergent-minds": {
+          title: "Zeiterfassung für neurodivergente Menschen",
+          desc: "Ein praktischer Leitfaden zu Time Blindness, Hyperfokus, Übergängen, Energie und flexiblen Routinen."
+        },
+        "how-long-should-a-focus-session-be": {
+          title: "Wie lang sollte eine Fokus-Session sein?",
+          desc: "Wie du die passende Länge für Fokus-Sessions findest: je nach Arbeit, Energie und natürlichem Aufmerksamkeitsrhythmus."
+        },
+        "why-i-removed-account-creation-from-my-time-tracker": {
+          title: "Warum ich die Account-Erstellung aus meinem Time Tracker entfernt habe",
+          desc: "Die Produktüberlegungen hinter Flowtime ohne Account-Erstellung und warum weniger Reibung beim Fokussieren hilft."
+        },
+        "time-tracking-for-freelancers-and-contractors": {
+          title: "Zeiterfassung für Freelancer und Selbstständige",
+          desc: "Wie Freelancer Projektzeit, abrechenbare Arbeit und Schätzungen erfassen können, ohne ein schweres Abrechnungssystem zu pflegen."
+        },
+        "time-tracking-for-developers-and-creators": {
+          title: "Zeiterfassung für Entwickler und Kreative",
+          desc: "Wie Entwickler und Kreative Deep Work, Projekte und Context Switching erfassen können, ohne den Arbeitsfluss zu stören."
+        },
+        "time-tracking-for-students-and-academics": {
+          title: "Zeiterfassung für Studierende und Wissenschaftler",
+          desc: "Wie Studierende und Akademiker Lernzeit, Forschung, Lesen, Schreiben und Wochenmuster einfach erfassen können."
+        },
+        "time-tracking-for-writers-and-researchers": {
+          title: "Zeiterfassung für Autoren und Forscher",
+          desc: "Wie Schreib- und Forschungsarbeit sichtbar wird: Lesen, Notizen, Entwurf, Überarbeitung und konzentrierte Sitzungen."
         }
       },
       pages: {
@@ -157,6 +226,50 @@
         "flowtime-vs-be-focused": {
           metaTitle: "Flowtime vs Be Focused - Flowtime - Time Tracker",
           metaDesc: "Vergleich zwischen Flowtime und Be Focused: Starre Pomodoro-Intervalle oder flexible Flow-Sitzungen."
+        },
+        "how-to-find-out-where-your-time-actually-goes": {
+          metaTitle: "Wo bleibt deine Zeit wirklich? - Flowtime",
+          metaDesc: "Ein einfacher Prozess, um Zeit zu erfassen, Muster zu erkennen und bessere Entscheidungen mit echten Daten zu treffen."
+        },
+        "local-first-apps-explained": {
+          metaTitle: "Local-First-Apps erklärt - Flowtime",
+          metaDesc: "Was Local-First-Software bedeutet, welche Vorteile sie hat und warum lokale Daten für Produktivität wichtig sind."
+        },
+        "the-best-productivity-system-is-the-one-you-forget-about": {
+          metaTitle: "Das beste Produktivitätssystem ist einfach - Flowtime",
+          metaDesc: "Warum einfache Systeme oft besser funktionieren als komplexe Workflows, die selbst zur Arbeit werden."
+        },
+        "the-hidden-cost-of-context-switching": {
+          metaTitle: "Die versteckten Kosten von Context Switching - Flowtime",
+          metaDesc: "Warum kurze Unterbrechungen mehr kosten als sie scheinen und wie du Task Switching reduzieren kannst."
+        },
+        "time-tracking-for-neurodivergent-minds": {
+          metaTitle: "Zeiterfassung für neurodivergente Menschen - Flowtime",
+          metaDesc: "Ein nicht-klinischer Leitfaden zu Time Blindness, Hyperfokus, Übergängen und Energie beim Arbeiten."
+        },
+        "how-long-should-a-focus-session-be": {
+          metaTitle: "Wie lang sollte eine Fokus-Session sein? - Flowtime",
+          metaDesc: "Von Pomodoro bis Deep Work: So findest du eine Fokusdauer, die zu deiner Arbeit und Energie passt."
+        },
+        "why-i-removed-account-creation-from-my-time-tracker": {
+          metaTitle: "Warum Flowtime keine Account-Erstellung braucht",
+          metaDesc: "Warum Flowtime ohne Account-Erstellung funktioniert und wie Local-First-Tracking die Reibung reduziert."
+        },
+        "time-tracking-for-freelancers-and-contractors": {
+          metaTitle: "Zeiterfassung für Freelancer - Flowtime",
+          metaDesc: "Wie Freelancer und Selbstständige Projektzeit, abrechenbare Arbeit und Schätzungen ohne unnötige Komplexität erfassen."
+        },
+        "time-tracking-for-developers-and-creators": {
+          metaTitle: "Zeiterfassung für Entwickler und Kreative - Flowtime",
+          metaDesc: "Wie Entwickler und Kreative Deep Work, Projekte und Context Switching mit weniger Reibung erfassen."
+        },
+        "time-tracking-for-students-and-academics": {
+          metaTitle: "Zeiterfassung für Studierende - Flowtime",
+          metaDesc: "Wie Studierende und Akademiker Lernzeit, Forschung, Lesen und Schreiben mit einfachen Sessions sichtbar machen."
+        },
+        "time-tracking-for-writers-and-researchers": {
+          metaTitle: "Zeiterfassung für Autoren und Forscher - Flowtime",
+          metaDesc: "Wie Autoren und Forscher Schreiben, Lesen, Recherche und Überarbeitung ruhig und lokal erfassen können."
         }
       },
       articles: {
@@ -675,6 +788,86 @@
               <p>Ja. Flowtime speichert alles lokal auf dem Gerät und ermöglicht den Export als CSV/Rohdaten.</p>
             </details>
           `
+        },
+        "time-tracking-for-freelancers-and-contractors": {
+          title: "Zeiterfassung für Freelancer und Selbstständige",
+          description: "Ein praktischer Leitfaden zur Zeiterfassung für freie und selbstständige Arbeit, ohne daraus eine schwere Abrechnungsplattform zu machen.",
+          readingTime: "4 Min. Lesezeit",
+          toc: ["Zusammenfassung", "Was du erfassen solltest", "Wo Flowtime passt", "FAQ"],
+          summaryPoints: [
+            "Freelancer brauchen oft persönliche Übersicht und genug Nachweise für Kunden.",
+            "Nicht jede selbstständige Arbeit braucht eine komplette Abrechnungsplattform.",
+            "Projektbasierte Zeiterfassung hilft bei Schätzungen, Preisen und Wochenrückblicken."
+          ],
+          bodyHtml: `
+            <h2 id="what-to-track">Was du erfassen solltest</h2>
+            <p>Beginne mit Kunden oder Projekten und ergänze nur dann Details, wenn sie wirklich helfen. Auch nicht abrechenbare Arbeit wie Angebote, E-Mail, Recherche und Admin kostet Zeit und sollte sichtbar sein.</p>
+            <h2 id="where-flowtime-fits">Wo Flowtime passt</h2>
+            <p>Flowtime ist sinnvoll, wenn du eine lokale, einfache Projekt-Historie und schnelle Fokus-Sessions willst. Wenn du Rechnungen, Kundenportale oder Teamfreigaben brauchst, ist ein Business-Tool wahrscheinlich besser.</p>
+            <h2 id="faq">FAQ</h2>
+            <details open><summary>Was sollten Freelancer tracken?</summary><p>Kundenarbeit, Admin, Angebote, Recherche, Meetings und wiederkehrende nicht abrechenbare Aufgaben.</p></details>
+            <details><summary>Brauche ich eine Abrechnungsplattform?</summary><p>Nur wenn deine Zeiterfassung direkt in Rechnungen, Kundenberichte oder Teamprozesse fließen muss.</p></details>
+          `
+        },
+        "time-tracking-for-developers-and-creators": {
+          title: "Zeiterfassung für Entwickler und Kreative",
+          description: "Ein praktischer Leitfaden, um Deep Work, kreative Sessions, Projekte und Context Switching zu erfassen, ohne die Arbeit selbst zu stören.",
+          readingTime: "4 Min. Lesezeit",
+          toc: ["Zusammenfassung", "Warum wenig Reibung wichtig ist", "Context Switching beobachten", "FAQ"],
+          summaryPoints: [
+            "Technische und kreative Arbeit braucht oft lange ungestörte Aufmerksamkeit.",
+            "Breite Projektkategorien sind meist nachhaltiger als zu viele kleine Aufgaben.",
+            "Erinnerungen können als Check-ins dienen, ohne den Flow hart zu unterbrechen."
+          ],
+          bodyHtml: `
+            <h2 id="low-friction">Warum wenig Reibung wichtig ist</h2>
+            <p>Programmieren, Design und kreative Arbeit brauchen oft Aufwärmzeit. Ein Timer sollte schnell starten und danach aus dem Weg gehen, statt vor jeder Session neue Entscheidungen zu verlangen.</p>
+            <h2 id="context-switching">Context Switching beobachten</h2>
+            <p>Kurze Unterbrechungen können den Wiedereinstieg erschweren. Zeiterfassung macht sichtbar, wann Arbeit in zu viele kleine Stücke zerfällt und welche Projekte mehr Schutz brauchen.</p>
+            <h2 id="faq">FAQ</h2>
+            <details open><summary>Sollten Entwickler jede Aufgabe tracken?</summary><p>Nicht unbedingt. Breite Projektkategorien sind oft leichter durchzuhalten und trotzdem nützlich.</p></details>
+            <details><summary>Ist Pomodoro gut fürs Coding?</summary><p>Manchmal zum Starten. Für tiefere Problemlösung passen längere Flow-Sessions oft besser.</p></details>
+          `
+        },
+        "time-tracking-for-students-and-academics": {
+          title: "Zeiterfassung für Studierende und Wissenschaftler",
+          description: "Ein praktischer Leitfaden für Lern-Sessions, Forschung, Lesen, Schreiben und akademische Projekte ohne überladenes System.",
+          readingTime: "4 Min. Lesezeit",
+          toc: ["Zusammenfassung", "Breite Kategorien nutzen", "Wochenmuster prüfen", "FAQ"],
+          summaryPoints: [
+            "Studium und Forschung bestehen aus vielen unsichtbaren Arbeitsphasen.",
+            "Breite Kategorien reichen am Anfang meist aus.",
+            "Ein Wochenrückblick zeigt, welche Fächer oder Projekte wirklich Zeit bekommen."
+          ],
+          bodyHtml: `
+            <h2 id="categories">Breite Kategorien nutzen</h2>
+            <p>Starte mit Lesen, Schreiben, Recherche, Wiederholung, Vorlesungen, Admin und Projektarbeit. Zu viele Kategorien machen das Tracking schwerer, bevor es nützlich wird.</p>
+            <h2 id="weekly-review">Wochenmuster prüfen</h2>
+            <p>Ein kurzer Wochenrückblick zeigt, welche Themen Aufmerksamkeit bekommen haben, welche liegen geblieben sind und wann Fokus am besten funktioniert.</p>
+            <h2 id="faq">FAQ</h2>
+            <details open><summary>Was sollten Studierende erfassen?</summary><p>Lernen, Lesen, Schreiben, Wiederholung, Vorlesungen, akademische Admin-Aufgaben und größere Projekte.</p></details>
+            <details><summary>Ist Pomodoro gut zum Lernen?</summary><p>Ja, besonders zum Anfangen. Für Schreiben oder tiefe Recherche können längere Sessions besser sein.</p></details>
+          `
+        },
+        "time-tracking-for-writers-and-researchers": {
+          title: "Zeiterfassung für Autoren und Forscher",
+          description: "Ein praktischer Leitfaden, um Schreiben, Lesen, Recherche, Überarbeitung und Deep Work ruhig und privat zu erfassen.",
+          readingTime: "4 Min. Lesezeit",
+          toc: ["Zusammenfassung", "Arbeitsphasen sichtbar machen", "Lange Aufmerksamkeit schützen", "FAQ"],
+          summaryPoints: [
+            "Schreiben und Forschung erzeugen nicht immer sofort sichtbaren Output.",
+            "Zeiterfassung macht Lesen, Notizen, Entwürfe und Überarbeitung sichtbarer.",
+            "Ein ruhiger lokaler Timer passt gut zu sensibler Schreib- und Forschungsarbeit."
+          ],
+          bodyHtml: `
+            <h2 id="phases">Arbeitsphasen sichtbar machen</h2>
+            <p>Tracke Lesen, Notizen, Gliederung, Entwurf, Überarbeitung, Quellenprüfung und Admin. Das hilft, Aufwand zu sehen, auch wenn am Ende wenig Text stehen bleibt.</p>
+            <h2 id="protect-focus">Lange Aufmerksamkeit schützen</h2>
+            <p>Schreiben und Forschung brauchen oft ruhige Kontinuität. Erinnerungen sollten eher Check-ins sein: Brauche ich eine Pause, bin ich noch auf der richtigen Spur, was ist der nächste Schritt?</p>
+            <h2 id="faq">FAQ</h2>
+            <details open><summary>Sollten Autoren Wörter oder Zeit tracken?</summary><p>Beides kann helfen. Zeit erfasst auch Denken, Recherche und Überarbeitung, wenn keine neuen Wörter entstehen.</p></details>
+            <details><summary>Warum lokal tracken?</summary><p>Lokale Zeiterfassung hält persönliche Arbeitsmuster und Projekthistorie näher am eigenen Gerät.</p></details>
+          `
         }
       }
     },
@@ -696,7 +889,8 @@
         "comparison": "Comparaison",
         "productivity": "Productivité",
         "product design": "Design de produit",
-        "focus": "Focalisation"
+        "focus": "Focalisation",
+        "projects": "Projets"
       },
       listings: {
         comparison: {
@@ -715,6 +909,13 @@
             { h3: "Pour les Étudiants & Universitaires", p: "Structurez vos sessions d'étude avec le Pomodoro classique, définissez des durées cibles pour vos Flow Sessions et analysez vos graphiques hebdomadaires." },
             { h3: "Pour les Écrivains & Chercheurs", p: "Entrez dans une zone de concentration sans distraction. Activez le thème Mono, conservez vos données localement et travaillez en toute simplicité." }
           ],
+          comparisons: [
+            { h3: "Flowtime vs Toggl Track", p: "Toggl Track est un outil détaillé orienté équipes et agences. Flowtime est un minuteur personnel léger, sans compte, centré sur le focus." },
+            { h3: "Flowtime vs Forest", p: "Forest utilise la gamification et des arbres virtuels pour encourager la concentration. Flowtime propose un minuteur clair avec rapports, sans mécanique de jeu." },
+            { h3: "Flowtime vs Session", p: "Session est un minuteur riche en fonctionnalités pour l'écosystème Apple. Flowtime est une alternative minimaliste et multiplateforme." },
+            { h3: "Flowtime vs Focus To-Do", p: "Focus To-Do combine Pomodoro avec des listes de tâches GTD complexes. Flowtime se concentre sur les sessions de focus et les projets flexibles." },
+            { h3: "Flowtime vs Be Focused", p: "Be Focused est un minuteur classique par intervalles. Flowtime ajoute des sessions Flow ouvertes, des rapports et des thèmes adaptables." }
+          ],
           matrixBadge: "Tableau comparatif",
           matrixTitle: "Comparaison côte à côte",
           matrixDesc: "Découvrez comment Flowtime se compare à Toggl Track, Forest, Session, Focus To-Do et Be Focused sur les critères essentiels pour votre productivité.",
@@ -727,6 +928,23 @@
             ["Flow Sessions ouvertes", "Oui (Gratuit)", "Non", "Non", "Non", "Non", "Non"],
             ["Suivi par projet", "Oui (Pro)", "Oui", "Oui", "Oui", "Oui", "Oui"],
             ["Interface", "Ultra-minimaliste", "Tableau de bord dense", "Illustrations cartoon", "Style iOS moderne", "Listes compactes", "Minuteur simple"]
+          ],
+          pricingBadge: "Tarifs",
+          pricingTitle: "Les tarifs en un coup d'oeil",
+          pricingDesc: "Comparez la facon dont chaque outil facture les fonctions importantes pour les utilisateurs individuels : sessions de concentration, projets, rapports et creation de compte.",
+          pricingCards: [
+            { label: "Meilleur choix sans friction", title: "Flowtime", price: "Minuteur principal gratuit", desc: "Pomodoro et les Flow Sessions ouvertes sont gratuits. Pro ajoute les projets et un historique plus riche sans imposer de compte." },
+            { label: "Outils de facturation d'equipe", title: "Toggl Track", price: "Plan gratuit, offres payantes pour equipes", desc: "Tres utile pour les rapports d'equipe et la facturation client, mais la plupart des fonctions collaboratives passent par un espace de travail avec compte." },
+            { label: "Applications de focus specialisees", title: "Forest, Session, Focus To-Do, Be Focused", price: "Gratuit ou upgrades peu couteux", desc: "Les tarifs varient selon la plateforme. Attendez-vous a des achats d'app, abonnements ou upgrades pour la synchronisation, les rapports, les taches avancees ou le multi-appareil." }
+          ],
+          pricingHeaders: ["Outil", "Modele de tarification typique", "Meilleure valeur quand"],
+          pricingRows: [
+            ["Flowtime", "Modes de concentration principaux gratuits, Pro pour les projets et un historique plus riche", "Vous voulez un minuteur personnel prive avec peu de configuration"],
+            ["Toggl Track", "Plan de depart gratuit, offres payantes pour equipes et rapports", "Vous facturez des clients ou gerez des espaces partages"],
+            ["Forest", "Achat d'application ou upgrades optionnels selon la plateforme", "Vous voulez de la motivation par gamification"],
+            ["Session", "Abonnement ou upgrades payants pour les fonctions avancees", "Vous travaillez dans l'ecosysteme Apple et voulez des sessions detaillees"],
+            ["Focus To-Do", "Offre gratuite avec upgrades payants pour plus de fonctions de taches", "Vous voulez combiner Pomodoro et gestion des taches"],
+            ["Be Focused", "Application gratuite ou Pro peu couteuse selon la plateforme", "Vous avez besoin d'un simple minuteur par intervalles"]
           ],
           searchPlaceholder: "Rechercher des comparaisons",
           sortNewest: "Plus récents en premier",
@@ -783,6 +1001,50 @@
         "flowtime-vs-be-focused": {
           title: "Flowtime vs Be Focused",
           desc: "Une comparaison entre Flowtime et Be Focused : la différence entre intervalles stricts et sessions Flow flexibles."
+        },
+        "how-to-find-out-where-your-time-actually-goes": {
+          title: "Comment savoir où va vraiment votre temps",
+          desc: "Un processus simple pour suivre votre temps pendant une semaine, repérer les tendances et remplacer les suppositions par des données utiles."
+        },
+        "local-first-apps-explained": {
+          title: "Les applications local-first expliquées",
+          desc: "Ce que signifie local-first, en quoi cela diffère du cloud-first et pourquoi les données locales comptent pour la productivité."
+        },
+        "the-best-productivity-system-is-the-one-you-forget-about": {
+          title: "Le meilleur système de productivité est celui qu'on oublie",
+          desc: "Pourquoi les systèmes simples fonctionnent souvent mieux que les workflows élaborés qui demandent une maintenance constante."
+        },
+        "the-hidden-cost-of-context-switching": {
+          title: "Le coût caché du changement de contexte",
+          desc: "Pourquoi les petites interruptions rendent le travail concentré plus difficile et comment le suivi du temps révèle leur vrai coût."
+        },
+        "time-tracking-for-neurodivergent-minds": {
+          title: "Suivi du temps pour les esprits neurodivergents",
+          desc: "Un guide pratique sur la cécité temporelle, l'hyperfocus, les transitions, l'énergie et les routines flexibles."
+        },
+        "how-long-should-a-focus-session-be": {
+          title: "Combien de temps doit durer une session de focus ?",
+          desc: "Comment choisir une durée de concentration selon le type de travail, votre énergie et votre attention naturelle."
+        },
+        "why-i-removed-account-creation-from-my-time-tracker": {
+          title: "Pourquoi j'ai retiré la création de compte de mon time tracker",
+          desc: "La réflexion produit derrière Flowtime sans création de compte, et pourquoi moins de friction aide à se concentrer."
+        },
+        "time-tracking-for-freelancers-and-contractors": {
+          title: "Suivi du temps pour freelancers et indépendants",
+          desc: "Comment suivre les projets, le temps facturable et les estimations sans transformer le suivi personnel en plateforme lourde."
+        },
+        "time-tracking-for-developers-and-creators": {
+          title: "Suivi du temps pour développeurs et créateurs",
+          desc: "Comment suivre le deep work, les projets et les changements de contexte sans interrompre le travail créatif ou technique."
+        },
+        "time-tracking-for-students-and-academics": {
+          title: "Suivi du temps pour étudiants et universitaires",
+          desc: "Comment suivre les sessions d'étude, la recherche, la lecture, l'écriture et les tendances hebdomadaires."
+        },
+        "time-tracking-for-writers-and-researchers": {
+          title: "Suivi du temps pour écrivains et chercheurs",
+          desc: "Comment rendre visible l'écriture et la recherche : lecture, notes, brouillons, révision et sessions de concentration."
         }
       },
       pages: {
@@ -833,6 +1095,50 @@
         "flowtime-vs-be-focused": {
           metaTitle: "Flowtime vs Be Focused - Flowtime - Time Tracker",
           metaDesc: "Comparaison entre Flowtime et Be Focused : cycles Pomodoro rigides ou sessions de concentration ouvertes."
+        },
+        "how-to-find-out-where-your-time-actually-goes": {
+          metaTitle: "Comment savoir où va votre temps - Flowtime",
+          metaDesc: "Un processus simple pour suivre votre temps, repérer les tendances et prendre de meilleures décisions."
+        },
+        "local-first-apps-explained": {
+          metaTitle: "Applications local-first expliquées - Flowtime",
+          metaDesc: "Ce que signifie local-first, ses avantages et pourquoi les données locales comptent pour la productivité."
+        },
+        "the-best-productivity-system-is-the-one-you-forget-about": {
+          metaTitle: "Le meilleur système de productivité est simple - Flowtime",
+          metaDesc: "Pourquoi les systèmes simples fonctionnent souvent mieux que les workflows complexes à maintenir."
+        },
+        "the-hidden-cost-of-context-switching": {
+          metaTitle: "Le coût caché du changement de contexte - Flowtime",
+          metaDesc: "Pourquoi les interruptions courtes coûtent plus qu'elles ne semblent et comment réduire le changement de tâche."
+        },
+        "time-tracking-for-neurodivergent-minds": {
+          metaTitle: "Suivi du temps neurodivergent - Flowtime",
+          metaDesc: "Un guide non clinique sur la cécité temporelle, l'hyperfocus, les transitions et l'énergie."
+        },
+        "how-long-should-a-focus-session-be": {
+          metaTitle: "Combien de temps doit durer une session de focus ? - Flowtime",
+          metaDesc: "De Pomodoro au deep work, trouvez une durée de concentration adaptée à votre travail et votre énergie."
+        },
+        "why-i-removed-account-creation-from-my-time-tracker": {
+          metaTitle: "Pourquoi Flowtime fonctionne sans compte - Flowtime",
+          metaDesc: "Pourquoi Flowtime évite la création de compte et comment le local-first réduit la friction."
+        },
+        "time-tracking-for-freelancers-and-contractors": {
+          metaTitle: "Suivi du temps pour freelancers - Flowtime",
+          metaDesc: "Comment les indépendants peuvent suivre projets, temps facturable et estimations sans complexité inutile."
+        },
+        "time-tracking-for-developers-and-creators": {
+          metaTitle: "Suivi du temps pour développeurs et créateurs - Flowtime",
+          metaDesc: "Comment suivre deep work, projets et changements de contexte avec moins de friction."
+        },
+        "time-tracking-for-students-and-academics": {
+          metaTitle: "Suivi du temps pour étudiants - Flowtime",
+          metaDesc: "Comment rendre visibles les sessions d'étude, la recherche, la lecture et l'écriture avec un minuteur simple."
+        },
+        "time-tracking-for-writers-and-researchers": {
+          metaTitle: "Suivi du temps pour écrivains et chercheurs - Flowtime",
+          metaDesc: "Comment suivre l'écriture, la lecture, la recherche et la révision dans un workflow calme et local."
         }
       },
       articles: {
@@ -1257,6 +1563,7 @@
                   <td>Flow Sessions libres ou Pomodoro</td>
                   <td>Cycles Pomodoro classiques</td>
                 </tr>
+                <tr>
                   <td>Gestion de listes</td>
                   <td>Non (focus sur le temps)</td>
                   <td>Oui (sous-tâches, dates, rappels)</td>
@@ -1350,6 +1657,86 @@
               <p>Oui, Flowtime stocke tout sur votre appareil et permet d'exporter les sessions brutes.</p>
             </details>
           `
+        },
+        "time-tracking-for-freelancers-and-contractors": {
+          title: "Suivi du temps pour freelancers et indépendants",
+          description: "Un guide pratique pour suivre le travail freelance ou contractuel sans transformer le suivi personnel en plateforme de facturation lourde.",
+          readingTime: "4 min de lecture",
+          toc: ["Résumé", "Ce qu'il faut suivre", "Où Flowtime convient", "FAQ"],
+          summaryPoints: [
+            "Les indépendants ont souvent besoin de visibilité personnelle et de traces suffisantes pour les clients.",
+            "Tous les workflows freelance n'ont pas besoin d'une plateforme complète de facturation.",
+            "Le suivi par projet aide les estimations, les prix et les bilans hebdomadaires."
+          ],
+          bodyHtml: `
+            <h2 id="what-to-track">Ce qu'il faut suivre</h2>
+            <p>Commencez par les clients ou les projets, puis ajoutez des détails seulement s'ils sont utiles. Le travail non facturable comme les devis, les e-mails, la recherche et l'administratif consomme aussi du temps.</p>
+            <h2 id="where-flowtime-fits">Où Flowtime convient</h2>
+            <p>Flowtime convient si vous voulez un historique local, simple et organisé par projet. Si vous avez besoin de factures, de portails clients ou de validations d'équipe, un outil business sera probablement plus adapté.</p>
+            <h2 id="faq">FAQ</h2>
+            <details open><summary>Que doivent suivre les freelancers ?</summary><p>Le travail client, l'administratif, les devis, la recherche, les réunions et les tâches non facturables récurrentes.</p></details>
+            <details><summary>Ai-je besoin d'une plateforme de facturation ?</summary><p>Seulement si vos heures doivent devenir directement des factures, des rapports clients ou des processus d'équipe.</p></details>
+          `
+        },
+        "time-tracking-for-developers-and-creators": {
+          title: "Suivi du temps pour développeurs et créateurs",
+          description: "Un guide pratique pour suivre le deep work, les sessions créatives, les projets et les changements de contexte sans interrompre le travail.",
+          readingTime: "4 min de lecture",
+          toc: ["Résumé", "Pourquoi réduire la friction", "Observer le changement de contexte", "FAQ"],
+          summaryPoints: [
+            "Le travail technique et créatif demande souvent une attention longue et sans interruption.",
+            "Des catégories de projet larges sont souvent plus durables que trop de petites tâches.",
+            "Les rappels peuvent servir de check-ins sans casser le flow."
+          ],
+          bodyHtml: `
+            <h2 id="low-friction">Pourquoi réduire la friction</h2>
+            <p>Coder, concevoir ou créer demande souvent un temps d'échauffement. Le minuteur doit démarrer vite puis disparaître, au lieu d'ajouter des décisions avant chaque session.</p>
+            <h2 id="context-switching">Observer le changement de contexte</h2>
+            <p>De petites interruptions peuvent rendre le retour au travail plus difficile. Le suivi du temps montre quand le travail se fragmente et quels projets ont besoin de plus de protection.</p>
+            <h2 id="faq">FAQ</h2>
+            <details open><summary>Les développeurs doivent-ils suivre chaque tâche ?</summary><p>Pas forcément. Des catégories larges par projet sont souvent plus faciles à maintenir et restent utiles.</p></details>
+            <details><summary>Pomodoro est-il adapté au code ?</summary><p>Parfois pour commencer. Pour résoudre des problèmes profonds, des sessions Flow plus longues conviennent souvent mieux.</p></details>
+          `
+        },
+        "time-tracking-for-students-and-academics": {
+          title: "Suivi du temps pour étudiants et universitaires",
+          description: "Un guide pratique pour suivre les sessions d'étude, la recherche, la lecture, l'écriture et les projets académiques sans système trop lourd.",
+          readingTime: "4 min de lecture",
+          toc: ["Résumé", "Utiliser de grandes catégories", "Revoir les tendances hebdomadaires", "FAQ"],
+          summaryPoints: [
+            "Les études et la recherche contiennent beaucoup de travail invisible.",
+            "De grandes catégories suffisent souvent au début.",
+            "Un bilan hebdomadaire montre quelles matières ou projets reçoivent vraiment du temps."
+          ],
+          bodyHtml: `
+            <h2 id="categories">Utiliser de grandes catégories</h2>
+            <p>Commencez par lecture, écriture, recherche, révision, cours, administratif et projet. Trop de catégories rendent le suivi plus lourd avant qu'il soit utile.</p>
+            <h2 id="weekly-review">Revoir les tendances hebdomadaires</h2>
+            <p>Un court bilan hebdomadaire montre quels sujets ont reçu de l'attention, lesquels ont été évités et à quels moments la concentration fonctionne le mieux.</p>
+            <h2 id="faq">FAQ</h2>
+            <details open><summary>Que doivent suivre les étudiants ?</summary><p>Les sessions d'étude, la lecture, l'écriture, la révision, les cours, l'administratif académique et les grands projets.</p></details>
+            <details><summary>Pomodoro est-il utile pour étudier ?</summary><p>Oui, surtout pour commencer. Pour écrire ou faire de la recherche profonde, des sessions plus longues peuvent être meilleures.</p></details>
+          `
+        },
+        "time-tracking-for-writers-and-researchers": {
+          title: "Suivi du temps pour écrivains et chercheurs",
+          description: "Un guide pratique pour suivre l'écriture, la lecture, la recherche, la révision et le deep work dans un workflow calme et privé.",
+          readingTime: "4 min de lecture",
+          toc: ["Résumé", "Rendre visibles les phases du travail", "Protéger l'attention longue", "FAQ"],
+          summaryPoints: [
+            "L'écriture et la recherche ne produisent pas toujours un résultat visible immédiatement.",
+            "Le suivi du temps rend visibles la lecture, les notes, les brouillons et la révision.",
+            "Un minuteur local et calme convient bien au travail sensible d'écriture et de recherche."
+          ],
+          bodyHtml: `
+            <h2 id="phases">Rendre visibles les phases du travail</h2>
+            <p>Suivez lecture, notes, plan, brouillon, révision, vérification des sources et administratif. Cela montre l'effort même quand peu de texte final reste.</p>
+            <h2 id="protect-focus">Protéger l'attention longue</h2>
+            <p>L'écriture et la recherche demandent souvent une continuité calme. Les rappels doivent plutôt agir comme des check-ins : ai-je besoin d'une pause, suis-je encore sur la bonne piste, quelle est la prochaine étape ?</p>
+            <h2 id="faq">FAQ</h2>
+            <details open><summary>Les écrivains doivent-ils suivre les mots ou le temps ?</summary><p>Les deux peuvent aider. Le temps capture aussi la réflexion, la recherche et la révision quand aucun mot nouveau n'apparaît.</p></details>
+            <details><summary>Pourquoi suivre localement ?</summary><p>Le suivi local garde les habitudes de travail et l'historique des projets plus proches de votre propre appareil.</p></details>
+          `
         }
       }
     }
@@ -1397,6 +1784,165 @@
       file = parts[parts.length - 2];
     }
     return file || "";
+  }
+
+  function buildLocalizedArticleFallback(loc, dict, pageKey, category) {
+    var metaData = dict.blog_metadata[pageKey] || {};
+    var isGerman = loc === "de";
+    var isComparison = category === "comparison";
+    var fallbackTitle = metaData.title || pageKey;
+    var fallbackDesc = metaData.desc || "";
+    var subject = fallbackTitle.replace(/^Flowtime vs\s+/i, "");
+
+    if (isComparison) {
+      return {
+        title: fallbackTitle,
+        description: fallbackDesc,
+        readingTime: isGerman ? "4 Min. Lesezeit" : "4 min de lecture",
+        toc: isGerman ? ["Zusammenfassung", "Schnellvergleich", "Worauf du achten solltest", "FAQ"] : ["Resume", "Comparaison rapide", "Points a verifier", "FAQ"],
+        summaryPoints: isGerman ? [
+          fallbackDesc,
+          "Flowtime eignet sich besonders für ruhige, persönliche Fokus-Sessions ohne Account-Zwang.",
+          subject + " kann besser passen, wenn du genau dessen spezielles Funktionsmodell brauchst."
+        ] : [
+          fallbackDesc,
+          "Flowtime convient surtout aux sessions de concentration personnelles, calmes et sans compte.",
+          subject + " peut mieux convenir si vous avez besoin de son modele de fonctionnalites specifique."
+        ],
+        bodyHtml: isGerman ? `
+          <h2 id="comparison">Schnellvergleich</h2>
+          <p>${fallbackDesc}</p>
+          <p>Flowtime ist für Menschen gedacht, die einen leichten Timer, lokale Historie und klare Projektzuordnung möchten, ohne daraus ein Verwaltungssystem zu machen.</p>
+          <h2 id="criteria">Worauf du achten solltest</h2>
+          <p>Entscheidend ist, ob du persönlichen Fokus oder eine größere Produktivitätsplattform suchst. Wenn du Teamberichte, Konten, Synchronisierung oder sehr spezielle Workflows brauchst, kann ein umfangreicheres Tool sinnvoll sein. Wenn du schnell starten und deine Arbeitszeit privat verstehen möchtest, ist Flowtime die bewusst einfachere Wahl.</p>
+          <h2 id="faq">FAQ</h2>
+          <details open><summary>Ist Flowtime ein Ersatz für ${subject}?</summary><p>Für persönliches Fokus-Tracking oft ja. Für spezialisierte Workflows von ${subject} hängt es davon ab, welche Funktionen du wirklich brauchst.</p></details>
+          <details><summary>Wann passt Flowtime besser?</summary><p>Wenn du eine lokale, accountfreie Zeiterfassung für Fokus-Sessions, Projekte und einfache Rückblicke suchst.</p></details>
+        ` : `
+          <h2 id="comparison">Comparaison rapide</h2>
+          <p>${fallbackDesc}</p>
+          <p>Flowtime est concu pour les personnes qui veulent un minuteur leger, un historique local et des projets clairs, sans transformer le suivi en plateforme d'administration.</p>
+          <h2 id="criteria">Points a verifier</h2>
+          <p>La question principale est de savoir si vous cherchez un outil de concentration personnel ou une plateforme plus large. Si vous avez besoin de rapports d'equipe, de comptes, de synchronisation ou de workflows tres specialises, un outil plus complet peut etre logique. Pour demarrer vite et comprendre votre temps en prive, Flowtime reste l'option volontairement plus simple.</p>
+          <h2 id="faq">FAQ</h2>
+          <details open><summary>Flowtime remplace-t-il ${subject} ?</summary><p>Pour le suivi personnel de la concentration, souvent oui. Pour les workflows specialises de ${subject}, cela depend des fonctions dont vous avez vraiment besoin.</p></details>
+          <details><summary>Quand Flowtime convient-il mieux ?</summary><p>Quand vous voulez un suivi local, sans compte, pour les sessions de concentration, les projets et les bilans simples.</p></details>
+        `
+      };
+    }
+
+    return {
+      title: fallbackTitle,
+      description: fallbackDesc,
+      readingTime: isGerman ? "4 Min. Lesezeit" : "4 min de lecture",
+      toc: isGerman ? ["Zusammenfassung", "Warum es wichtig ist", "So nutzt du Flowtime", "FAQ"] : ["Resume", "Pourquoi c'est important", "Utiliser Flowtime", "FAQ"],
+      summaryPoints: isGerman ? [
+        fallbackDesc,
+        "Ein einfacher Timer macht Arbeit sichtbar, ohne neue Verwaltungspflichten zu schaffen.",
+        "Flowtime bleibt lokal, schnell und bewusst reduziert, damit der Fokus im Vordergrund bleibt."
+      ] : [
+        fallbackDesc,
+        "Un minuteur simple rend le travail visible sans ajouter une nouvelle charge administrative.",
+        "Flowtime reste local, rapide et volontairement minimal pour proteger la concentration."
+      ],
+      bodyHtml: isGerman ? `
+        <h2 id="why">Warum es wichtig ist</h2>
+        <p>${fallbackDesc}</p>
+        <p>Viele Zeiterfassungs-Tools verlangen zuerst Konten, Teams, Dashboards oder komplizierte Einstellungen. Für persönliche Fokusarbeit ist das oft mehr Reibung als Nutzen. Ein guter Guide sollte deshalb bei der eigentlichen Frage bleiben: Wie hilft dir der Timer, deine Arbeit klarer zu sehen?</p>
+        <h2 id="flowtime">So nutzt du Flowtime</h2>
+        <p>Starte eine Session, wähle ein Projekt und halte die Erfassung leicht genug, dass du sie auch an normalen Arbeitstagen nutzt. Nach einigen Sessions erkennst du Muster: welche Aufgaben viel Zeit brauchen, wann Pausen nötig werden und welche Projekte wirklich Aufmerksamkeit bekommen.</p>
+        <h2 id="faq">FAQ</h2>
+        <details open><summary>Brauche ich dafür einen Account?</summary><p>Nein. Flowtime ist für lokale, accountfreie Zeiterfassung gebaut.</p></details>
+        <details><summary>Ist das für Teams gedacht?</summary><p>Flowtime richtet sich vor allem an einzelne Menschen, die Fokus-Sessions und Projektzeit verstehen möchten.</p></details>
+      ` : `
+        <h2 id="why">Pourquoi c'est important</h2>
+        <p>${fallbackDesc}</p>
+        <p>Beaucoup d'outils de suivi commencent par des comptes, des equipes, des tableaux de bord ou des reglages complexes. Pour le travail de concentration personnel, cela ajoute souvent plus de friction que de valeur. Un bon guide doit rester centre sur la vraie question : comment le minuteur aide-t-il a mieux comprendre votre travail ?</p>
+        <h2 id="flowtime">Utiliser Flowtime</h2>
+        <p>Demarrez une session, choisissez un projet et gardez le suivi assez leger pour l'utiliser meme pendant les journees ordinaires. Apres quelques sessions, les tendances deviennent visibles : les taches qui prennent du temps, les moments ou une pause aide, et les projets qui recoivent vraiment votre attention.</p>
+        <h2 id="faq">FAQ</h2>
+        <details open><summary>Faut-il creer un compte ?</summary><p>Non. Flowtime est concu pour un suivi local et sans compte.</p></details>
+        <details><summary>Est-ce pense pour les equipes ?</summary><p>Flowtime s'adresse surtout aux personnes qui veulent comprendre leurs sessions de concentration et leur temps par projet.</p></details>
+      `
+    };
+  }
+
+  function expandLocalizedComparisonArticle(loc, pageKey, aData) {
+    var isGerman = loc === "de";
+    var notes = {
+      "flowtime-vs-toggl": {
+        tool: "Toggl Track",
+        deBest: "wenn Abrechnung, Teams, Kundenberichte und Freigabeprozesse wichtiger sind als ein ruhiger persönlicher Timer.",
+        frBest: "si la facturation, les équipes, les rapports client et les validations comptent plus qu'un minuteur personnel discret."
+      },
+      "flowtime-vs-forest": {
+        tool: "Forest",
+        deBest: "wenn du Motivation durch Spielmechanik, virtuelle Bäume und sichtbare Belohnungen brauchst.",
+        frBest: "si vous avez besoin de motivation par le jeu, d'arbres virtuels et de récompenses visibles."
+      },
+      "flowtime-vs-session": {
+        tool: "Session",
+        deBest: "wenn du tief im Apple-Ökosystem arbeitest und Kalender, Shortcuts oder Status-Automationen aktiv nutzen möchtest.",
+        frBest: "si vous travaillez entièrement dans l'écosystème Apple et voulez utiliser calendrier, raccourcis ou automatisations de statut."
+      },
+      "flowtime-vs-focus-todo": {
+        tool: "Focus To-Do",
+        deBest: "wenn du Aufgabenlisten, Wiederholungen, Unteraufgaben und Pomodoro-Zyklen in derselben App verwalten möchtest.",
+        frBest: "si vous voulez gérer listes de tâches, répétitions, sous-tâches et cycles Pomodoro dans la même application."
+      },
+      "flowtime-vs-be-focused": {
+        tool: "Be Focused",
+        deBest: "wenn du einen sehr einfachen Intervall-Timer für Apple-Geräte suchst und keine offenen Flow Sessions brauchst.",
+        frBest: "si vous cherchez un minuteur par intervalles très simple sur appareils Apple et n'avez pas besoin de sessions Flow ouvertes."
+      },
+      "best-app-for-tracking-time-on-tasks-and-projects": {
+        tool: "andere Projekt-Zeiterfassungen",
+        deBest: "wenn dein Hauptproblem Team-Reporting, Rechnungsstellung oder ein vollständiges Projektmanagement-System ist.",
+        frBest: "si votre problème principal est le reporting d'équipe, la facturation ou un système complet de gestion de projet."
+      }
+    };
+    var note = notes[pageKey];
+    if (!note || !aData.bodyHtml || aData._expandedComparison) return aData;
+
+    var title = aData.title || "Flowtime";
+    var expandedToc = isGerman
+      ? ["Zusammenfassung", "Schnellvergleich", "Alltagstauglichkeit", "Datenschutz und Setup", "Preise und langfristiger Nutzen", "Entscheidungshilfe", "FAQ"]
+      : ["Résumé", "Comparaison rapide", "Usage quotidien", "Confidentialité et configuration", "Prix et valeur durable", "Aide à la décision", "FAQ"];
+
+    var extraHtml = isGerman ? `
+            <h2 id="daily-use">Alltagstauglichkeit</h2>
+            <p>Der wichtigste Unterschied zeigt sich nicht in einer Feature-Liste, sondern im Moment, in dem du wirklich arbeiten willst. Flowtime ist dafür gebaut, dass du eine Session schnell startest, einem Projekt zuordnest und danach wieder aus dem Weg räumst. Das ist besonders hilfreich, wenn du deinen Fokus nicht erst durch Setup, Kontoabfragen oder ein voll beladenes Dashboard verlieren möchtest.</p>
+            <p>${note.tool} kann trotzdem sinnvoll sein, ${note.deBest} Für viele Einzelpersonen ist genau diese zusätzliche Struktur aber der Punkt, an dem Zeiterfassung zu schwer wird. Wenn du nur wissen möchtest, wohin deine Arbeitszeit geht, ist ein kleineres Werkzeug oft zuverlässiger als eine größere Plattform.</p>
+            <h2 id="privacy-setup">Datenschutz und Setup</h2>
+            <p>Flowtime priorisiert einen lokalen, accountfreien Start. Das bedeutet: Du kannst den Timer verwenden, ohne zuerst ein Konto, einen Workspace oder eine Synchronisierung einzurichten. Für persönliche Produktivität ist das wichtig, weil Zeitdaten sehr viel über Arbeitsrhythmus, Pausen, Energie und Gewohnheiten verraten.</p>
+            <p>Bei umfangreicheren Tools ist Cloud-Synchronisierung häufig Teil des Kernmodells. Das ist praktisch, wenn mehrere Geräte, Teams oder Integrationen beteiligt sind. Es ist aber weniger ideal, wenn du bewusst eine private Historie führen möchtest, die nicht wie ein Team-Dashboard behandelt wird.</p>
+            <h2 id="pricing-value">Preise und langfristiger Nutzen</h2>
+            <p>Beim Preisvergleich geht es nicht nur um den niedrigsten Einstiegspreis. Entscheidend ist, welche Funktionen du im Alltag tatsächlich nutzt. Flowtime hält die wichtigsten Fokusmodi leicht zugänglich und ergänzt Pro-Funktionen dort, wo sie für wiederkehrende Nutzung Sinn ergeben: Projekte, Verlauf und bessere Auswertung.</p>
+            <p>Ein günstiges oder kostenloses Tool kann trotzdem teuer wirken, wenn es dich regelmäßig aus deinem Arbeitsfluss holt. Umgekehrt lohnt sich ein bezahltes Tool nur, wenn seine zusätzlichen Funktionen wirklich ein Problem lösen. Die beste Wahl ist deshalb die App, die du auch nach zwei Wochen noch öffnest, ohne darüber nachzudenken.</p>
+            <h2 id="decision">Entscheidungshilfe</h2>
+            <p>Wähle Flowtime, wenn du Fokus-Sessions, Pomodoro, offene Flow Sessions, Projektzuordnung und eine ruhige Oberfläche möchtest. Wähle ${note.tool}, wenn dessen spezieller Ansatz genau zu deinem Workflow passt und du die zusätzliche Struktur aktiv nutzen wirst.</p>
+            <p>Als Faustregel gilt: Je persönlicher deine Zeiterfassung ist, desto wichtiger werden Einfachheit, Datenschutz und schnelle Bedienung. Je stärker deine Zeiterfassung mit Teams, Kunden oder Aufgabenverwaltung verbunden ist, desto eher kann ein größeres System sinnvoll sein.</p>
+          ` : `
+            <h2 id="daily-use">Usage quotidien</h2>
+            <p>La vraie différence n'apparaît pas seulement dans une liste de fonctionnalités, mais au moment où vous voulez commencer à travailler. Flowtime est conçu pour lancer une session rapidement, l'associer à un projet puis disparaître de votre attention. C'est utile si vous ne voulez pas perdre votre concentration dans la création de compte, la configuration ou un tableau de bord trop chargé.</p>
+            <p>${note.tool} peut rester un bon choix ${note.frBest} Pour beaucoup d'utilisateurs individuels, cette structure supplémentaire est justement ce qui rend le suivi du temps trop lourd. Si votre objectif est simplement de comprendre où part votre temps de travail, un outil plus petit peut être plus fiable qu'une plateforme plus large.</p>
+            <h2 id="privacy-setup">Confidentialité et configuration</h2>
+            <p>Flowtime privilégie un démarrage local et sans compte. Vous pouvez utiliser le minuteur sans créer d'espace de travail, sans synchronisation obligatoire et sans transformer votre historique personnel en tableau de bord d'équipe. C'est important, car les données de temps révèlent beaucoup sur vos rythmes, vos pauses, votre énergie et vos habitudes.</p>
+            <p>Les outils plus complets intègrent souvent la synchronisation cloud dans leur modèle principal. C'est pratique pour plusieurs appareils, des équipes ou des intégrations, mais moins adapté si vous voulez garder un historique privé et personnel.</p>
+            <h2 id="pricing-value">Prix et valeur durable</h2>
+            <p>Comparer les prix ne revient pas seulement à chercher l'option la moins chère. La vraie question est de savoir quelles fonctions vous utilisez réellement au quotidien. Flowtime garde les modes de concentration essentiels faciles d'accès et réserve les fonctions Pro aux besoins récurrents : projets, historique et analyses plus utiles.</p>
+            <p>Un outil gratuit peut sembler coûteux s'il interrompt souvent votre élan. À l'inverse, un outil payant peut valoir son prix si ses fonctions supplémentaires résolvent un problème clair. Le meilleur choix est donc l'application que vous continuez à ouvrir après deux semaines, sans résistance.</p>
+            <h2 id="decision">Aide à la décision</h2>
+            <p>Choisissez Flowtime si vous voulez des sessions de concentration, Pomodoro, des sessions Flow ouvertes, des projets et une interface calme. Choisissez ${note.tool} si son approche spécifique correspond exactement à votre workflow et si vous utiliserez vraiment sa structure supplémentaire.</p>
+            <p>Règle simple : plus votre suivi du temps est personnel, plus la simplicité, la confidentialité et la rapidité comptent. Plus il dépend d'équipes, de clients ou de gestion de tâches, plus un système large peut avoir du sens.</p>
+          `;
+
+    return Object.assign({}, aData, {
+      _expandedComparison: true,
+      title: title,
+      toc: expandedToc,
+      bodyHtml: aData.bodyHtml.replace(/\s*<h2 id="faq">/, extraHtml + "\n            <h2 id=\"faq\">")
+    });
   }
 
   window.flowtimeTranslateBlog = function (loc) {
@@ -1461,6 +2007,16 @@
             }
           }
 
+          var comparisonCards = document.querySelectorAll(".showcase-column:nth-child(2) .showcase-card");
+          if (comparisonCards.length >= 5 && lData.comparisons) {
+            for (var compIndex = 0; compIndex < 5; compIndex++) {
+              var compH3 = comparisonCards[compIndex].querySelector("h3");
+              var compP = comparisonCards[compIndex].querySelector("p");
+              if (compH3 && lData.comparisons[compIndex]) compH3.innerHTML = lData.comparisons[compIndex].h3 + ' <span class="arrow">&rarr;</span>';
+              if (compP && lData.comparisons[compIndex]) compP.textContent = lData.comparisons[compIndex].p;
+            }
+          }
+
           var matrixBadge = document.querySelector(".matrix-badge");
           if (matrixBadge && lData.matrixBadge) matrixBadge.textContent = lData.matrixBadge;
 
@@ -1494,6 +2050,48 @@
               }
             }
           }
+
+          var pricingBadge = document.querySelector(".pricing-badge");
+          if (pricingBadge && lData.pricingBadge) pricingBadge.textContent = lData.pricingBadge;
+
+          var pricingTitle = document.querySelector(".pricing-comparison-section h2");
+          if (pricingTitle && lData.pricingTitle) pricingTitle.textContent = lData.pricingTitle;
+
+          var pricingDesc = document.querySelector(".pricing-desc");
+          if (pricingDesc && lData.pricingDesc) pricingDesc.textContent = lData.pricingDesc;
+
+          var pricingCards = document.querySelectorAll(".pricing-card");
+          if (pricingCards.length >= 3 && lData.pricingCards) {
+            for (var pc = 0; pc < 3; pc++) {
+              var pricingLabel = pricingCards[pc].querySelector(".pricing-label");
+              var pricingH3 = pricingCards[pc].querySelector("h3");
+              var pricingPrice = pricingCards[pc].querySelector(".pricing-price");
+              var pricingCopy = pricingCards[pc].querySelector("p:last-child");
+              if (pricingLabel && lData.pricingCards[pc]) pricingLabel.textContent = lData.pricingCards[pc].label;
+              if (pricingH3 && lData.pricingCards[pc]) pricingH3.textContent = lData.pricingCards[pc].title;
+              if (pricingPrice && lData.pricingCards[pc]) pricingPrice.textContent = lData.pricingCards[pc].price;
+              if (pricingCopy && lData.pricingCards[pc]) pricingCopy.textContent = lData.pricingCards[pc].desc;
+            }
+          }
+
+          var pricingThs = document.querySelectorAll(".pricing-table th");
+          if (pricingThs.length >= 3 && lData.pricingHeaders) {
+            for (var ph = 0; ph < 3; ph++) {
+              pricingThs[ph].textContent = lData.pricingHeaders[ph];
+            }
+          }
+
+          var pricingRows = document.querySelectorAll(".pricing-table tbody tr");
+          if (pricingRows.length >= 6 && lData.pricingRows) {
+            for (var pr = 0; pr < 6; pr++) {
+              var pricingTds = pricingRows[pr].querySelectorAll("td");
+              if (pricingTds.length >= 3 && lData.pricingRows[pr]) {
+                pricingTds[0].innerHTML = "<strong>" + lData.pricingRows[pr][0] + "</strong>";
+                pricingTds[1].textContent = lData.pricingRows[pr][1];
+                pricingTds[2].textContent = lData.pricingRows[pr][2];
+              }
+            }
+          }
         }
       }
 
@@ -1503,8 +2101,15 @@
     }
 
     var isArticle = !!document.querySelector(".blog-article");
-    if (isArticle && pageKey && dict.articles[pageKey]) {
-      var aData = dict.articles[pageKey];
+    if (isArticle && pageKey && (dict.articles[pageKey] || dict.blog_metadata[pageKey])) {
+      var metaData = dict.blog_metadata[pageKey] || {};
+      var aData = dict.articles[pageKey] || buildLocalizedArticleFallback(loc, dict, pageKey, category);
+      if (!aData.bodyHtml && dict.blog_metadata[pageKey]) {
+        aData = Object.assign(buildLocalizedArticleFallback(loc, dict, pageKey, category), aData);
+      }
+      if (category === "comparison") {
+        aData = expandLocalizedComparisonArticle(loc, pageKey, aData);
+      }
 
       var catEyebrow = document.querySelector(".article-header .eyebrow");
       if (catEyebrow) catEyebrow.textContent = category === "comparison" ? dict.labels.comparison : dict.labels.guide;
