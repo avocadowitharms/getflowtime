@@ -1906,40 +1906,61 @@
 
     var title = aData.title || "Flowtime";
     var expandedToc = isGerman
-      ? ["Zusammenfassung", "Schnellvergleich", "Alltagstauglichkeit", "Datenschutz und Setup", "Preise und langfristiger Nutzen", "Entscheidungshilfe", "FAQ"]
-      : ["Résumé", "Comparaison rapide", "Usage quotidien", "Confidentialité et configuration", "Prix et valeur durable", "Aide à la décision", "FAQ"];
+      ? ["Zusammenfassung", "Schnellvergleich", "Alltagstauglichkeit", "Datenschutz und Setup", "Preise und langfristiger Nutzen", "Entscheidungshilfe", "Praktischer Entscheidungstest", "Worauf du nach der Auswahl achten solltest", "FAQ"]
+      : ["Résumé", "Comparaison rapide", "Usage quotidien", "Confidentialité et configuration", "Prix et valeur durable", "Aide à la décision", "Test de décision pratique", "À vérifier après le choix", "FAQ"];
 
     var extraHtml = isGerman ? `
             <h2 id="daily-use">Alltagstauglichkeit</h2>
             <p>Der wichtigste Unterschied zeigt sich nicht in einer Feature-Liste, sondern im Moment, in dem du wirklich arbeiten willst. Flowtime ist dafür gebaut, dass du eine Session schnell startest, einem Projekt zuordnest und danach wieder aus dem Weg räumst. Das ist besonders hilfreich, wenn du deinen Fokus nicht erst durch Setup, Kontoabfragen oder ein voll beladenes Dashboard verlieren möchtest.</p>
             <p>${note.tool} kann trotzdem sinnvoll sein, ${note.deBest} Für viele Einzelpersonen ist genau diese zusätzliche Struktur aber der Punkt, an dem Zeiterfassung zu schwer wird. Wenn du nur wissen möchtest, wohin deine Arbeitszeit geht, ist ein kleineres Werkzeug oft zuverlässiger als eine größere Plattform.</p>
+            <p>Im Alltag zählt auch, wie oft du das Tool öffnest. Eine App kann viele Funktionen haben und trotzdem weniger brauchbare Daten erzeugen, wenn du sie wegen Reibung selten nutzt. Flowtime optimiert deshalb den Moment vor der Arbeit: Timer öffnen, Projekt wählen, starten. Die Auswertung kommt später, wenn sie hilfreich ist.</p>
             <h2 id="privacy-setup">Datenschutz und Setup</h2>
             <p>Flowtime priorisiert einen lokalen, accountfreien Start. Das bedeutet: Du kannst den Timer verwenden, ohne zuerst ein Konto, einen Workspace oder eine Synchronisierung einzurichten. Für persönliche Produktivität ist das wichtig, weil Zeitdaten sehr viel über Arbeitsrhythmus, Pausen, Energie und Gewohnheiten verraten.</p>
             <p>Bei umfangreicheren Tools ist Cloud-Synchronisierung häufig Teil des Kernmodells. Das ist praktisch, wenn mehrere Geräte, Teams oder Integrationen beteiligt sind. Es ist aber weniger ideal, wenn du bewusst eine private Historie führen möchtest, die nicht wie ein Team-Dashboard behandelt wird.</p>
+            <p>Wenn du ein Vergleichstool auswählst, prüfe deshalb nicht nur, welche Features existieren, sondern welche Daten du dafür preisgibst und welche Einrichtung nötig ist. Ein Konto, eine Cloud-Historie und gemeinsame Workspaces sind sinnvoll, wenn du sie wirklich brauchst. Für rein persönliche Fokusarbeit können sie unnötige Komplexität hinzufügen.</p>
             <h2 id="pricing-value">Preise und langfristiger Nutzen</h2>
             <p>Beim Preisvergleich geht es nicht nur um den niedrigsten Einstiegspreis. Entscheidend ist, welche Funktionen du im Alltag tatsächlich nutzt. Flowtime hält die wichtigsten Fokusmodi leicht zugänglich und ergänzt Pro-Funktionen dort, wo sie für wiederkehrende Nutzung Sinn ergeben: Projekte, Verlauf und bessere Auswertung.</p>
             <p>Ein günstiges oder kostenloses Tool kann trotzdem teuer wirken, wenn es dich regelmäßig aus deinem Arbeitsfluss holt. Umgekehrt lohnt sich ein bezahltes Tool nur, wenn seine zusätzlichen Funktionen wirklich ein Problem lösen. Die beste Wahl ist deshalb die App, die du auch nach zwei Wochen noch öffnest, ohne darüber nachzudenken.</p>
+            <p>Achte außerdem darauf, ob ein Upgrade Funktionen freischaltet, die du tatsächlich täglich nutzt. Für manche Workflows sind Integrationen, Teamberichte und Synchronisierung zentral. Für andere reicht ein ruhiger Timer mit klarer Historie. Der beste Preis ist nicht der mit der längsten Feature-Liste, sondern der mit dem geringsten Widerstand für deinen echten Arbeitsalltag.</p>
             <h2 id="decision">Entscheidungshilfe</h2>
             <p>Wähle Flowtime, wenn du Fokus-Sessions, Pomodoro, offene Flow Sessions, Projektzuordnung und eine ruhige Oberfläche möchtest. Wähle ${note.tool}, wenn dessen spezieller Ansatz genau zu deinem Workflow passt und du die zusätzliche Struktur aktiv nutzen wirst.</p>
             <p>Als Faustregel gilt: Je persönlicher deine Zeiterfassung ist, desto wichtiger werden Einfachheit, Datenschutz und schnelle Bedienung. Je stärker deine Zeiterfassung mit Teams, Kunden oder Aufgabenverwaltung verbunden ist, desto eher kann ein größeres System sinnvoll sein.</p>
+            <p>Wenn du unsicher bist, beginne nicht mit der mächtigsten Option, sondern mit der kleinsten Lösung, die dein Problem wirklich löst. Du kannst später immer noch zu einem größeren System wechseln, wenn Rechnungen, Teamabstimmung oder komplexe Aufgabenverwaltung wichtiger werden.</p>
+            <h2 id="decision-test">Praktischer Entscheidungstest</h2>
+            <p>Teste beide Richtungen eine Woche lang mit derselben Arbeit. Starte jede relevante Session, ordne sie einem Projekt zu und prüfe am Ende des Tages, ob die App dir geholfen oder dich ausgebremst hat. Notiere nicht nur, welche Reports verfügbar sind, sondern ob du die Erfassung wirklich konsequent genutzt hast.</p>
+            <p>Wenn deine Daten am Ende der Woche vor allem für dich selbst nützlich sind, spricht viel für Flowtime. Wenn andere Personen die Daten brauchen, etwa Kundinnen, Kunden, Teammitglieder oder Buchhaltung, ist ein stärker strukturiertes Tool wahrscheinlich sinnvoller. Die richtige Entscheidung hängt daran, wer die Zeitdaten später lesen und verwenden muss.</p>
+            <h2 id="after-choosing">Worauf du nach der Auswahl achten solltest</h2>
+            <p>Nach der Entscheidung lohnt sich ein kurzer Realitätscheck. Erzeugt das Tool bessere Entscheidungen, oder nur mehr Pflegeaufwand? Verstehst du schneller, welche Projekte Zeit verbrauchen? Erinnern dich Timer und Verlauf an Pausen, Fokuswechsel und realistische Planung?</p>
+            <p>Ein gutes Zeiterfassungs-Tool verschwindet während der Arbeit und ist danach klar genug, um Muster sichtbar zu machen. Wenn du ständig Einstellungen pflegst, Kategorien korrigierst oder Berichte baust, obwohl du nur persönlichen Fokus verstehen willst, ist das ein Zeichen, dass das Tool zu groß für den Job ist.</p>
           ` : `
             <h2 id="daily-use">Usage quotidien</h2>
             <p>La vraie différence n'apparaît pas seulement dans une liste de fonctionnalités, mais au moment où vous voulez commencer à travailler. Flowtime est conçu pour lancer une session rapidement, l'associer à un projet puis disparaître de votre attention. C'est utile si vous ne voulez pas perdre votre concentration dans la création de compte, la configuration ou un tableau de bord trop chargé.</p>
             <p>${note.tool} peut rester un bon choix ${note.frBest} Pour beaucoup d'utilisateurs individuels, cette structure supplémentaire est justement ce qui rend le suivi du temps trop lourd. Si votre objectif est simplement de comprendre où part votre temps de travail, un outil plus petit peut être plus fiable qu'une plateforme plus large.</p>
+            <p>Au quotidien, la fréquence d'utilisation compte autant que la richesse fonctionnelle. Une application peut offrir beaucoup de possibilités et produire peu de données utiles si vous l'évitez parce qu'elle demande trop d'effort. Flowtime optimise donc le moment avant le travail : ouvrir le minuteur, choisir un projet, démarrer.</p>
             <h2 id="privacy-setup">Confidentialité et configuration</h2>
             <p>Flowtime privilégie un démarrage local et sans compte. Vous pouvez utiliser le minuteur sans créer d'espace de travail, sans synchronisation obligatoire et sans transformer votre historique personnel en tableau de bord d'équipe. C'est important, car les données de temps révèlent beaucoup sur vos rythmes, vos pauses, votre énergie et vos habitudes.</p>
             <p>Les outils plus complets intègrent souvent la synchronisation cloud dans leur modèle principal. C'est pratique pour plusieurs appareils, des équipes ou des intégrations, mais moins adapté si vous voulez garder un historique privé et personnel.</p>
+            <p>Lorsque vous comparez deux outils, regardez donc aussi ce que chaque fonctionnalité exige : compte, cloud, espace partagé, configuration ou intégrations. Ces éléments sont utiles lorsqu'ils servent un besoin réel. Pour un suivi personnel de la concentration, ils peuvent ajouter une complexité qui n'améliore pas votre travail.</p>
             <h2 id="pricing-value">Prix et valeur durable</h2>
             <p>Comparer les prix ne revient pas seulement à chercher l'option la moins chère. La vraie question est de savoir quelles fonctions vous utilisez réellement au quotidien. Flowtime garde les modes de concentration essentiels faciles d'accès et réserve les fonctions Pro aux besoins récurrents : projets, historique et analyses plus utiles.</p>
             <p>Un outil gratuit peut sembler coûteux s'il interrompt souvent votre élan. À l'inverse, un outil payant peut valoir son prix si ses fonctions supplémentaires résolvent un problème clair. Le meilleur choix est donc l'application que vous continuez à ouvrir après deux semaines, sans résistance.</p>
+            <p>Vérifiez aussi si une offre payante débloque des fonctions que vous utiliserez vraiment. Certaines personnes ont besoin de rapports d'équipe, de facturation ou d'intégrations. D'autres ont surtout besoin d'un minuteur calme et d'un historique lisible. Le meilleur rapport qualité-prix dépend de votre usage réel, pas de la longueur de la fiche produit.</p>
             <h2 id="decision">Aide à la décision</h2>
             <p>Choisissez Flowtime si vous voulez des sessions de concentration, Pomodoro, des sessions Flow ouvertes, des projets et une interface calme. Choisissez ${note.tool} si son approche spécifique correspond exactement à votre workflow et si vous utiliserez vraiment sa structure supplémentaire.</p>
             <p>Règle simple : plus votre suivi du temps est personnel, plus la simplicité, la confidentialité et la rapidité comptent. Plus il dépend d'équipes, de clients ou de gestion de tâches, plus un système large peut avoir du sens.</p>
+            <p>Si vous hésitez, commencez par la plus petite solution qui répond au problème. Vous pourrez toujours passer à un système plus lourd si la facturation, la coordination d'équipe ou la gestion de tâches deviennent centrales.</p>
+            <h2 id="decision-test">Test de décision pratique</h2>
+            <p>Essayez les deux approches pendant une semaine avec le même type de travail. Lancez chaque session importante, associez-la à un projet et observez le soir si l'application vous a aidé ou ralenti. Ne regardez pas seulement les rapports disponibles : demandez-vous si vous avez réellement suivi votre temps de manière régulière.</p>
+            <p>Si les données servent surtout à votre propre compréhension, Flowtime est probablement plus adapté. Si elles doivent être partagées avec des clients, une équipe, un responsable ou la comptabilité, un outil plus structuré peut être le meilleur choix. La vraie question est de savoir qui doit utiliser ces données après la session.</p>
+            <h2 id="after-choosing">À vérifier après le choix</h2>
+            <p>Après quelques jours, faites un contrôle simple : l'outil améliore-t-il vos décisions, ou ajoute-t-il surtout de la maintenance ? Voyez-vous plus clairement quels projets prennent du temps ? Les minuteurs et l'historique vous aident-ils à prévoir, à faire des pauses et à réduire les changements de contexte ?</p>
+            <p>Un bon outil de suivi disparaît pendant le travail puis rend les tendances lisibles après coup. Si vous passez trop de temps à corriger des catégories, configurer des vues ou produire des rapports alors que votre besoin est personnel, l'outil est probablement trop grand pour le travail demandé.</p>
           `;
 
     return Object.assign({}, aData, {
       _expandedComparison: true,
       title: title,
+      readingTime: isGerman ? "5 Min. Lesezeit" : "5 min de lecture",
       toc: expandedToc,
       bodyHtml: aData.bodyHtml.replace(/\s*<h2 id="faq">/, extraHtml + "\n            <h2 id=\"faq\">")
     });
