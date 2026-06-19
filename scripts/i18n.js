@@ -9,7 +9,7 @@
   window.localStorage.setItem(storageKey, locale);
   var copy = {
     en: {
-      "meta.title": "Flowtime - Time Tracker & Pomodoro Focus Timer",
+      "meta.title": "Flowtime – Focus Better",
       "a11y.home": "Flowtime home",
       "a11y.nav": "Main navigation",
       "language.label": "Language",
@@ -175,7 +175,7 @@
       "footer.top": "Back to top"
     },
     de: {
-      "meta.title": "Flowtime - Time Tracker & Pomodoro Fokus-Timer",
+      "meta.title": "Flowtime – Focus Better",
       "a11y.home": "Flowtime Startseite",
       "a11y.nav": "Hauptnavigation",
       "language.label": "Sprache",
@@ -341,7 +341,7 @@
       "footer.top": "Nach oben"
     },
     fr: {
-      "meta.title": "Flowtime - Time Tracker & Minuteur Pomodoro",
+      "meta.title": "Flowtime – Focus Better",
       "a11y.home": "Accueil Flowtime",
       "a11y.nav": "Navigation principale",
       "language.label": "Langue",

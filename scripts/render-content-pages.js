@@ -3,6 +3,7 @@ const path = require("path");
 
 const root = path.resolve(__dirname, "..");
 const siteUrl = "https://flowtime-app.com";
+const socialImage = `${siteUrl}/og-image.png`;
 const categories = ["guides", "comparison"];
 
 function slugify(value) {
@@ -202,13 +203,15 @@ function renderPage(post, posts) {
   <meta property="og:title" content="${escapeHtml(post.data.title)}" />
   <meta property="og:description" content="${escapeHtml(description)}" />
   <meta property="og:url" content="${url}" />
-  <meta property="og:image" content="${siteUrl}/assets/phone-classic.png" />
+  <meta property="og:image" content="${socialImage}" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
   <meta property="article:published_time" content="${post.data.date}" />
   <meta property="article:author" content="${escapeHtml(post.data.author || "Ava Thalheim")}" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="${escapeHtml(post.data.title)}" />
   <meta name="twitter:description" content="${escapeHtml(description)}" />
-  <meta name="twitter:image" content="${siteUrl}/assets/phone-classic.png" />
+  <meta name="twitter:image" content="${socialImage}" />
   <link rel="stylesheet" href="../../style.css" />
   <link rel="stylesheet" href="../../css/blog.css" />
   <script type="application/ld+json">
