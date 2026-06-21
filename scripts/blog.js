@@ -44,11 +44,24 @@
     return value && value !== key ? value : fallback;
   }
 
+  function escapeHtml(value) {
+    return String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function safePathSegment(value) {
+    return /^[a-z0-9-]+$/.test(value) ? value + "/index.html" : "#";
+  }
+
   function renderTags() {
     var items = ["all"].concat(uniqueTags());
     tags.innerHTML = items.map(function (tag) {
       var label = tag === "all" ? translate("blog.tag.all", "All") : translate("blog.tag." + tag, tag);
-      return '<button class="blog-tag-button" type="button" data-tag="' + tag + '" aria-pressed="' + (tag === activeTag) + '">' + label + "</button>";
+      return '<button class="blog-tag-button" type="button" data-tag="' + escapeHtml(tag) + '" aria-pressed="' + (tag === activeTag) + '">' + escapeHtml(label) + "</button>";
     }).join("");
   }
 
@@ -65,6 +78,7 @@
     var localizedTitle = translate("blog.title." + post.slug, post.title);
     var localizedDesc = translate("blog.desc." + post.slug, post.description);
     var readText = translate("blog.read_article", "Read article");
+    var postPath = safePathSegment(post.slug);
     
     var readingTimeText = post.readingTime;
     if (readingTimeText && readingTimeText.indexOf("min read") >= 0) {
@@ -78,12 +92,12 @@
       '<article class="blog-card">',
       '<div class="blog-card-meta">',
       "<span>" + formatDate(post.date) + "</span>",
-      "<span>" + readingTimeText + "</span>",
-      '<span class="article-tag">' + localizedTag + "</span>",
+      "<span>" + escapeHtml(readingTimeText) + "</span>",
+      '<span class="article-tag">' + escapeHtml(localizedTag) + "</span>",
       "</div>",
-      '<h2><a href="' + post.slug + '/index.html">' + localizedTitle + "</a></h2>",
-      "<p>" + localizedDesc + "</p>",
-      '<a class="blog-card-link" href="' + post.slug + '/index.html">' + readText + ' <span aria-hidden="true">&rarr;</span></a>',
+      '<h2><a href="' + postPath + '">' + escapeHtml(localizedTitle) + "</a></h2>",
+      "<p>" + escapeHtml(localizedDesc) + "</p>",
+      '<a class="blog-card-link" href="' + postPath + '">' + escapeHtml(readText) + ' <span aria-hidden="true">&rarr;</span></a>',
       "</article>"
     ].join("");
   }

@@ -51,10 +51,45 @@ function escapeHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
+function escapeAttribute(value) {
+  return escapeHtml(value).replace(/'/g, "&#39;");
+}
+
+function isSafeHref(value) {
+  const normalized = String(value).trim().replace(/[\u0000-\u001f\u007f\s]+/g, "");
+  if (!normalized) {
+    return false;
+  }
+  if (/^(#|\/(?!\/)|\.{1,2}\/)/.test(normalized)) {
+    return true;
+  }
+  return /^(https?:|mailto:)/i.test(normalized);
+}
+
+function inlineText(value) {
+  return escapeHtml(value).replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+}
+
 function inlineMarkdown(value) {
-  return escapeHtml(value)
-    .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+  const source = String(value);
+  const linkPattern = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let output = "";
+  let lastIndex = 0;
+  let match;
+
+  while ((match = linkPattern.exec(source)) !== null) {
+    output += inlineText(source.slice(lastIndex, match.index));
+    output += isSafeHref(match[2])
+      ? `<a href="${escapeAttribute(match[2])}">${inlineText(match[1])}</a>`
+      : inlineText(match[1]);
+    lastIndex = linkPattern.lastIndex;
+  }
+
+  return output + inlineText(source.slice(lastIndex));
+}
+
+function safeJsonLd(data) {
+  return JSON.stringify(data).replace(/</g, "\\u003c");
 }
 
 function markdownToHtml(markdown) {
@@ -215,7 +250,7 @@ function renderPage(post, posts) {
   <link rel="stylesheet" href="../../style.css" />
   <link rel="stylesheet" href="../../css/blog.css" />
   <script type="application/ld+json">
-    ${JSON.stringify({
+    ${safeJsonLd({
       "@context": "https://schema.org",
       "@type": "Article",
       headline: post.data.title,
