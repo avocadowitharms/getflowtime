@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data: https://flowtime-app.com https://developer.apple.com https://play.google.com; script-src 'self' 'unsafe-inline' https://groot.mailerlite.com; style-src 'self' 'unsafe-inline'; connect-src 'self' https://assets.mailerlite.com; form-action 'self' https://assets.mailerlite.com; upgrade-insecure-requests" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()" />
   <title>Flowtime – Focus Better</title>
   <link rel="icon" type="image/png" href="assets/logo-classic.png" />
   <link rel="apple-touch-icon" href="assets/logo-classic.png" />
   <meta
     name="description"
-    content="A minimalist focus timer and time tracker."
+    content="Flowtime is a minimalist focus timer and time tracker for Pomodoro sessions, flow sessions, projects, reports, and privacy-first productivity."
   />
   <meta
     name="keywords"
@@ -22,7 +25,7 @@
   <meta property="og:title" content="Flowtime – Focus Better" />
   <meta
     property="og:description"
-    content="A minimalist focus timer and time tracker."
+    content="A minimalist focus timer and time tracker for Pomodoro sessions, flow sessions, projects, reports, and privacy-first productivity."
   />
   <meta property="og:url" content="https://flowtime-app.com" />
   <meta property="og:image" content="https://flowtime-app.com/og-image.png" />
@@ -33,9 +36,10 @@
   <meta name="twitter:title" content="Flowtime – Focus Better" />
   <meta
     name="twitter:description"
-    content="A minimalist focus timer and time tracker."
+    content="A minimalist focus timer and time tracker for Pomodoro sessions, flow sessions, projects, reports, and privacy-first productivity."
   />
   <meta name="twitter:image" content="https://flowtime-app.com/og-image.png" />
+  <meta name="twitter:image:alt" content="Flowtime focus timer and time tracker preview" />
   <link rel="stylesheet" href="style.css" />
   <script type="application/ld+json">
     {
@@ -88,9 +92,5 @@
   <script src="sections/download-panel.js"></script>
   <script src="sections/footer.js"></script>
   <script src="scripts/theme.js"></script>
-  <script src="https://groot.mailerlite.com/js/w/webforms.min.js?vb397d78ebaa8a0f631d35384c46d781b" type="text/javascript"></script>
-  <script>
-    fetch("https://assets.mailerlite.com/jsonp/2378130/forms/188442807544842085/takel").catch(function () {});
-  </script>
 </body>
 </html>

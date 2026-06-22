@@ -84,6 +84,7 @@ window.renderSection("download-panel", `
               action="https://assets.mailerlite.com/jsonp/2378130/forms/188442807544842085/subscribe"
               data-code=""
               method="post"
+              rel="noopener noreferrer"
               target="_blank"
             >
               <div class="ml-form-formContent">
@@ -207,10 +208,12 @@ function ml_webform_success_41744891() {
     "https://groot.mailerlite.com/js/w/webforms.min.js?vb397d78ebaa8a0f631d35384c46d781b";
 
   script.type = "text/javascript";
+  script.async = true;
+  script.referrerPolicy = "strict-origin-when-cross-origin";
 
   document.body.appendChild(script);
 
   fetch(
     "https://assets.mailerlite.com/jsonp/2378130/forms/188442807544842085/takel"
-  );
+  ).catch(function () {});
 }());

@@ -6,6 +6,14 @@ const siteUrl = "https://flowtime-app.com";
 const socialImage = `${siteUrl}/og-image.png`;
 const categories = ["guides", "comparison"];
 
+function securityMeta() {
+  return [
+    '<meta http-equiv="Content-Security-Policy" content="default-src \'self\'; base-uri \'self\'; object-src \'none\'; img-src \'self\' data: https://flowtime-app.com; script-src \'self\' \'unsafe-inline\'; style-src \'self\' \'unsafe-inline\'; connect-src \'self\'; form-action \'self\'; upgrade-insecure-requests" />',
+    '<meta name="referrer" content="strict-origin-when-cross-origin" />',
+    '<meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()" />'
+  ].join("\n  ");
+}
+
 function slugify(value) {
   return value
     .toLowerCase()
@@ -228,6 +236,7 @@ function renderPage(post, posts) {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  ${securityMeta()}
   <title>${escapeHtml(title)}</title>
   <link rel="icon" type="image/png" href="../../assets/logo-classic.png" />
   <link rel="apple-touch-icon" href="../../assets/logo-classic.png" />
@@ -241,12 +250,14 @@ function renderPage(post, posts) {
   <meta property="og:image" content="${socialImage}" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="${escapeHtml(post.data.title)} - Flowtime article preview" />
   <meta property="article:published_time" content="${post.data.date}" />
   <meta property="article:author" content="${escapeHtml(post.data.author || "Ava Thalheim")}" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="${escapeHtml(post.data.title)}" />
   <meta name="twitter:description" content="${escapeHtml(description)}" />
   <meta name="twitter:image" content="${socialImage}" />
+  <meta name="twitter:image:alt" content="${escapeHtml(post.data.title)} - Flowtime article preview" />
   <link rel="stylesheet" href="../../style.css" />
   <link rel="stylesheet" href="../../css/blog.css" />
   <script type="application/ld+json">
