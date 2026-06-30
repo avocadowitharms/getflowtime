@@ -18,14 +18,14 @@
         support: "Support",
         copyright: "&copy; 2026 Ava Thalheim",
         creator: "avathalheim.dev",
-        updated: "Last updated: May 25, 2026",
+        updated: "Last updated: June 30, 2026",
         email: "Email support"
       },
       privacy: {
         title: "Privacy Policy",
         intro: "Flowtime is designed for focused work without unnecessary tracking. Your timer and project data remain on your device.",
         sections: [
-          ["Privacy first", "<p>Flowtime respects your privacy. We do not sell your data, use it for advertising, or track you across apps or websites.</p>"],
+          ["Privacy First", "<p>Your tracking data stays on your device. Flowtime does not require an account, and purchases are handled securely through Google Play or the App Store. Accessibility data is only used to provide the optional App Blocking feature and is never used for advertising, analytics, or personal data collection.</p>"],
           ["Data stored locally", "<p>Flowtime may store the following information on your device:</p><ul><li>Projects you create</li><li>Time tracking sessions</li><li>Focus mode settings</li><li>App preferences</li><li>Flowtime Pro access status</li></ul><p>This data is stored locally on your device and is not sent to Flowtime servers.</p>"],
           ["Purchases", "<p>Flowtime may use Apple App Store or Google Play in-app purchase services to process Flowtime Pro purchases and subscriptions. Payment and transaction processing are handled by the store through which you make the purchase. Flowtime stores Pro access status locally so purchased features can be made available in the app.</p>"],
           ["Data sharing", "<p>Flowtime does not share your tracking data with third parties for advertising or tracking purposes. Apple and Google may process purchase information under their own privacy policies when you choose to make or restore a purchase.</p>"],
@@ -61,14 +61,14 @@
         support: "Support",
         copyright: "&copy; 2026 Ava Thalheim",
         creator: "avathalheim.dev",
-        updated: "Zuletzt aktualisiert: 25. Mai 2026",
+        updated: "Zuletzt aktualisiert: 30. Juni 2026",
         email: "Support kontaktieren"
       },
       privacy: {
         title: "Datenschutzerklärung",
         intro: "Flowtime ist für konzentriertes Arbeiten ohne unnötiges Tracking entwickelt. Deine Timer- und Projektdaten bleiben auf deinem Gerät.",
         sections: [
-          ["Datenschutz zuerst", "<p>Flowtime respektiert deine Privatsphäre. Wir verkaufen deine Daten nicht, nutzen sie nicht für Werbung und verfolgen dich nicht über Apps oder Websites hinweg.</p>"],
+          ["Datenschutz zuerst", "<p>Deine Tracking-Daten bleiben auf deinem Gerät. Flowtime erfordert kein Konto und Käufe werden sicher über Google Play oder den App Store abgewickelt. Bedienungshilfen-Daten werden nur zur Bereitstellung der optionalen App-Blockierung verwendet und werden niemals für Werbung, Analysen oder die Erfassung personenbezogener Daten genutzt.</p>"],
           ["Lokal gespeicherte Daten", "<p>Flowtime kann die folgenden Informationen auf deinem Gerät speichern:</p><ul><li>Von dir erstellte Projekte</li><li>Zeiterfassungs-Sessions</li><li>Einstellungen der Fokusmodi</li><li>App-Einstellungen</li><li>Status deines Flowtime Pro-Zugangs</li></ul><p>Diese Daten werden lokal auf deinem Gerät gespeichert und nicht an Flowtime-Server gesendet.</p>"],
           ["Käufe", "<p>Flowtime kann In-App-Kaufdienste des Apple App Store oder von Google Play verwenden, um Käufe und Abonnements von Flowtime Pro abzuwickeln. Zahlung und Transaktionsverarbeitung erfolgen über den Store, in dem du kaufst. Flowtime speichert deinen Pro-Zugangsstatus lokal, damit gekaufte Funktionen verfügbar sind.</p>"],
           ["Weitergabe von Daten", "<p>Flowtime gibt deine Tracking-Daten nicht zu Werbe- oder Trackingzwecken an Dritte weiter. Apple und Google können Kaufinformationen gemäß ihren eigenen Datenschutzrichtlinien verarbeiten, wenn du einen Kauf tätigst oder wiederherstellst.</p>"],
@@ -104,14 +104,14 @@
         support: "Assistance",
         copyright: "&copy; 2026 Ava Thalheim",
         creator: "avathalheim.dev",
-        updated: "Dernière mise à jour : 25 mai 2026",
+        updated: "Dernière mise à jour : 30 juin 2026",
         email: "Contacter l'assistance"
       },
       privacy: {
         title: "Politique de confidentialité",
         intro: "Flowtime est conçu pour vous aider à vous concentrer sans suivi superflu. Vos données de minuterie et de projets restent sur votre appareil.",
         sections: [
-          ["La confidentialité avant tout", "<p>Flowtime respecte votre vie privée. Nous ne vendons pas vos données, ne les utilisons pas à des fins publicitaires et ne vous suivons pas entre différentes applications ou sites web.</p>"],
+          ["La confidentialité avant tout", "<p>Vos données de suivi restent sur votre appareil. Flowtime ne requiert pas de compte et les achats sont traités de manière sécurisée via Google Play ou l'App Store. Les données d’accessibilité sont uniquement utilisées pour fournir la fonctionnalité facultative de blocage d’applications et ne sont jamais utilisées à des fins publicitaires, d’analyse ou de collecte de données personnelles.</p>"],
           ["Données stockées localement", "<p>Flowtime peut stocker les informations suivantes sur votre appareil :</p><ul><li>Les projets que vous créez</li><li>Les sessions de suivi du temps</li><li>Les réglages des modes de concentration</li><li>Les préférences de l'application</li><li>Le statut d'accès à Flowtime Pro</li></ul><p>Ces données sont stockées localement sur votre appareil et ne sont pas envoyées aux serveurs de Flowtime.</p>"],
           ["Achats", "<p>Flowtime peut utiliser les services d'achat intégré de l'Apple App Store ou de Google Play pour traiter les achats et abonnements Flowtime Pro. Le paiement et le traitement de la transaction sont gérés par la boutique utilisée pour l'achat. Flowtime stocke localement le statut d'accès Pro afin de rendre disponibles les fonctionnalités achetées.</p>"],
           ["Partage des données", "<p>Flowtime ne partage pas vos données de suivi avec des tiers à des fins publicitaires ou de suivi. Apple et Google peuvent traiter les informations d'achat selon leurs propres politiques de confidentialité lorsque vous effectuez ou restaurez un achat.</p>"],
