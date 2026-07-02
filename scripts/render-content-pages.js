@@ -252,6 +252,7 @@ function renderPage(post, posts) {
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="${escapeHtml(post.data.title)} - Flowtime article preview" />
   <meta property="article:published_time" content="${post.data.date}" />
+  <meta property="article:modified_time" content="${post.data.dateModified || post.data.updated || post.data.date}" />
   <meta property="article:author" content="${escapeHtml(post.data.author || "Ava Thalheim")}" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="${escapeHtml(post.data.title)}" />
@@ -263,14 +264,26 @@ function renderPage(post, posts) {
   <script type="application/ld+json">
     ${safeJsonLd({
       "@context": "https://schema.org",
-      "@type": "Article",
-      headline: post.data.title,
-      description,
-      datePublished: post.data.date,
-      dateModified: post.data.date,
-      author: { "@type": "Person", name: post.data.author || "Ava Thalheim", jobTitle: "Developer of Flowtime" },
-      publisher: { "@type": "Organization", name: "Flowtime", url: siteUrl },
-      mainEntityOfPage: url
+      "@graph": [
+        {
+          "@type": post.category === "guides" ? "BlogPosting" : "Article",
+          headline: post.data.title,
+          description,
+          datePublished: post.data.date,
+          dateModified: post.data.dateModified || post.data.updated || post.data.date,
+          author: { "@type": "Person", name: post.data.author || "Ava Thalheim", jobTitle: "Developer of Flowtime" },
+          publisher: { "@type": "Organization", name: "Flowtime", url: siteUrl, logo: `${siteUrl}/assets/logo-classic.png` },
+          mainEntityOfPage: url
+        },
+        {
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Flowtime", item: `${siteUrl}/` },
+            { "@type": "ListItem", position: 2, name: post.category === "guides" ? "Guides" : "Comparisons", item: `${siteUrl}/${post.category}/` },
+            { "@type": "ListItem", position: 3, name: post.data.title, item: url }
+          ]
+        }
+      ]
     })}
   </script>
   <script src="../../scripts/attribution.js"></script>

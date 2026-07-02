@@ -11,7 +11,7 @@
   <link rel="apple-touch-icon" href="assets/logo-classic.png" />
   <meta
     name="description"
-    content="Flowtime is a minimalist focus timer and time tracker for Pomodoro sessions, flow sessions, projects, reports, and privacy-first productivity."
+    content="Flowtime is a minimalist focus timer and time tracker for Pomodoro sessions, Flow Sessions, projects, reminders, analytics, and privacy-first productivity."
   />
   <meta
     name="keywords"
@@ -25,7 +25,7 @@
   <meta property="og:title" content="Flowtime – Focus Better" />
   <meta
     property="og:description"
-    content="A minimalist focus timer and time tracker for Pomodoro sessions, flow sessions, projects, reports, and privacy-first productivity."
+    content="Flowtime is a minimalist focus timer and time tracker for Pomodoro sessions, Flow Sessions, projects, reminders, analytics, and privacy-first productivity."
   />
   <meta property="og:url" content="https://flowtime-app.com" />
   <meta property="og:image" content="https://flowtime-app.com/og-image.png" />
@@ -36,26 +36,101 @@
   <meta name="twitter:title" content="Flowtime – Focus Better" />
   <meta
     name="twitter:description"
-    content="A minimalist focus timer and time tracker for Pomodoro sessions, flow sessions, projects, reports, and privacy-first productivity."
+    content="Flowtime is a minimalist focus timer and time tracker for Pomodoro sessions, Flow Sessions, projects, reminders, analytics, and privacy-first productivity."
   />
   <meta name="twitter:image" content="https://flowtime-app.com/og-image.png" />
   <meta name="twitter:image:alt" content="Flowtime focus timer and time tracker preview" />
   <link rel="stylesheet" href="style.css" />
-  <script type="application/ld+json">
+  <script type="application/ld+json" data-flowtime-schema>
     {
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Flowtime - Time Tracker",
-      "applicationCategory": "ProductivityApplication",
-      "operatingSystem": "iOS, Android",
-      "url": "https://flowtime-app.com/",
-      "description": "Flowtime is a minimal time tracking app and focus timer for Pomodoro, Flow Sessions, projects, history, reports, and privacy-first productivity tracking.",
-      "keywords": "time tracking, time tracking app, focus timer, Pomodoro timer, productivity app",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      }
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://flowtime-app.com/#organization",
+          "name": "Flowtime",
+          "url": "https://flowtime-app.com/",
+          "logo": "https://flowtime-app.com/assets/logo-classic.png"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://flowtime-app.com/#website",
+          "url": "https://flowtime-app.com/",
+          "name": "Flowtime",
+          "description": "Flowtime is a minimalist focus timer and time tracker for Pomodoro sessions, Flow Sessions, projects, reminders, analytics, and privacy-first productivity.",
+          "publisher": {
+            "@id": "https://flowtime-app.com/#organization"
+          }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://flowtime-app.com/#app",
+          "name": "Flowtime - Time Tracker",
+          "applicationCategory": "ProductivityApplication",
+          "operatingSystem": "iOS, Android",
+          "url": "https://flowtime-app.com/",
+          "downloadUrl": [
+            "https://apps.apple.com/ch/app/flowtime/id6768056969",
+            "https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"
+          ],
+          "description": "Flowtime is a minimalist focus timer and time tracker for Pomodoro sessions, Flow Sessions, projects, reminders, analytics, and privacy-first productivity.",
+          "keywords": "time tracking, time tracking app, focus timer, Pomodoro timer, productivity app, Flow Session",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "publisher": {
+            "@id": "https://flowtime-app.com/#organization"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://flowtime-app.com/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is Flowtime?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Flowtime is a minimalist focus timer and time tracker for iPhone and Android. It supports a standard timer, Flow Sessions, Pomodoro, projects, reminders, history, reports, and privacy-first personal productivity."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Who is Flowtime for?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Flowtime is for people who want to understand where focused time goes without managing a heavy workspace. It fits students, freelancers, developers, writers, researchers, and anyone who prefers simple personal time tracking."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Flowtime good for ADHD?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Flowtime can help people who benefit from external time cues, gentle reminders, visible sessions, and low-friction project switching. It is not a medical tool, but it is designed to keep focus tracking simple and non-punishing."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How is Flowtime different from Pomodoro?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Pomodoro is one structured interval method. Flowtime includes Pomodoro, but also supports open-ended Flow Sessions with target duration, standard time tracking, project selection, reminders, and reviewable focus history."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How is Flowtime different from Forest, Toggl, or Session?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Flowtime is less gamified than Forest, lighter than team-oriented tools like Toggl, and more cross-platform than Apple-first timers such as Session. It focuses on simple personal focus tracking without account-heavy setup."
+              }
+            }
+          ]
+        }
+      ]
     }
   </script>
   <script src="scripts/attribution.js"></script>
@@ -71,13 +146,34 @@
   <div id="site-header"></div>
 
   <main>
-    <div id="hero"></div>
+    <div id="hero">
+      <section class="hero">
+        <h1>Focus better.</h1>
+        <p>Flowtime is a minimalist focus timer and time tracker for Pomodoro sessions, Flow Sessions, projects, reminders, analytics, and privacy-first productivity.</p>
+        <p><a href="https://apps.apple.com/ch/app/flowtime/id6768056969">Download Flowtime on the App Store</a> or <a href="https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime">get Flowtime on Google Play</a>.</p>
+      </section>
+    </div>
     <div id="focus-modes"></div>
     <div id="style-preview"></div>
     <div id="onboarding"></div>
     <div id="reports"></div>
     <div id="pricing"></div>
-    <div id="faq"></div>
+    <div id="faq">
+      <section class="section faq">
+        <h2>Frequently Asked Questions</h2>
+        <h3>What is Flowtime?</h3>
+        <p>Flowtime is a minimalist focus timer and time tracker for iPhone and Android. It supports a standard timer, Flow Sessions, Pomodoro, projects, reminders, history, reports, and privacy-first personal productivity.</p>
+        <h3>Who is Flowtime for?</h3>
+        <p>Flowtime is for students, freelancers, developers, writers, researchers, and anyone who wants simple personal time tracking without managing a heavy workspace.</p>
+        <h3>Is Flowtime good for ADHD?</h3>
+        <p>Flowtime can help people who benefit from external time cues, gentle reminders, visible sessions, and low-friction project switching. It is not a medical tool.</p>
+        <h3>How is Flowtime different from Pomodoro?</h3>
+        <p>Flowtime includes Pomodoro, but also supports open-ended Flow Sessions, standard time tracking, project selection, reminders, and reviewable focus history.</p>
+        <h3>How is Flowtime different from Forest, Toggl, or Session?</h3>
+        <p>Flowtime is less gamified than Forest, lighter than team-oriented tools like Toggl, and more cross-platform than Apple-first timers such as Session.</p>
+        <p>Read more in the <a href="guides/index.html">Flowtime guides</a> and <a href="comparison/index.html">Flowtime comparisons</a>.</p>
+      </section>
+    </div>
     <div id="download-panel"></div>
   </main>
 

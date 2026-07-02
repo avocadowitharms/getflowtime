@@ -11,7 +11,10 @@
         summary: "Zusammenfassung",
         related: "Ähnliche Artikel",
         previous: "Zurück",
-        next: "Weiter"
+        next: "Weiter",
+        searchArticles: "Artikel suchen",
+        sortArticles: "Artikel sortieren",
+        filterByTag: "Nach Schlagwort filtern"
       },
       tags: {
         "privacy": "Datenschutz",
@@ -77,6 +80,9 @@
             ["Focus To-Do", "Free Tier mit bezahlten Upgrades für mehr Aufgabenfunktionen", "Du Pomodoro mit Aufgabenverwaltung kombinieren willst"],
             ["Be Focused", "Kostenlose oder günstige Pro-App je nach Plattform", "Du einen einfachen Intervall-Timer brauchst"]
           ],
+          articlesBadge: "Vergleichsartikel",
+          articlesTitle: "Ausführliche Analysen",
+          articlesLabel: "Ausführliche Vergleichsartikel",
           searchPlaceholder: "Vergleiche durchsuchen",
           sortNewest: "Neueste zuerst",
           sortOldest: "Älteste zuerst",
@@ -880,7 +886,10 @@
         summary: "Résumé",
         related: "Articles associés",
         previous: "Précédent",
-        next: "Suivant"
+        next: "Suivant",
+        searchArticles: "Rechercher des articles",
+        sortArticles: "Trier les articles",
+        filterByTag: "Filtrer par tag"
       },
       tags: {
         "privacy": "Confidentialité",
@@ -946,6 +955,9 @@
             ["Focus To-Do", "Offre gratuite avec upgrades payants pour plus de fonctions de taches", "Vous voulez combiner Pomodoro et gestion des taches"],
             ["Be Focused", "Application gratuite ou Pro peu couteuse selon la plateforme", "Vous avez besoin d'un simple minuteur par intervalles"]
           ],
+          articlesBadge: "Articles comparatifs",
+          articlesTitle: "Analyses détaillées",
+          articlesLabel: "Articles comparatifs détaillés",
           searchPlaceholder: "Rechercher des comparaisons",
           sortNewest: "Plus récents en premier",
           sortOldest: "Plus anciens en premier",
@@ -1786,6 +1798,50 @@
     return file || "";
   }
 
+  function setMeta(selector, attribute, value) {
+    var element = document.querySelector(selector);
+    if (element && value) {
+      element.setAttribute(attribute, value);
+    }
+  }
+
+  function localizeSocialMetadata(title, description) {
+    if (!title && !description) {
+      return;
+    }
+    if (title) {
+      setMeta('meta[property="og:title"]', "content", title);
+      setMeta('meta[name="twitter:title"]', "content", title);
+    }
+    if (description) {
+      setMeta('meta[name="description"]', "content", description);
+      setMeta('meta[property="og:description"]', "content", description);
+      setMeta('meta[name="twitter:description"]', "content", description);
+    }
+  }
+
+  function localizeJsonLd(title, description) {
+    var scripts = document.querySelectorAll('script[type="application/ld+json"]');
+    scripts.forEach(function (script) {
+      try {
+        var data = JSON.parse(script.textContent);
+        var graph = data["@graph"] || [data];
+        graph.forEach(function (node) {
+          if ((node["@type"] === "Blog" || node["@type"] === "BlogPosting" || node["@type"] === "Article") && title) {
+            node.name = node.name ? title : node.name;
+            node.headline = node.headline ? title : node.headline;
+          }
+          if ((node["@type"] === "Blog" || node["@type"] === "BlogPosting" || node["@type"] === "Article") && description) {
+            node.description = description;
+          }
+        });
+        script.textContent = JSON.stringify(data);
+      } catch (_error) {
+        // Keep static structured data if parsing fails.
+      }
+    });
+  }
+
   function buildLocalizedArticleFallback(loc, dict, pageKey, category) {
     var metaData = dict.blog_metadata[pageKey] || {};
     var isGerman = loc === "de";
@@ -1974,8 +2030,8 @@
     if (pageKey && dict.pages[pageKey]) {
       var pData = dict.pages[pageKey];
       if (pData.metaTitle) document.title = pData.metaTitle;
-      var metaDesc = document.querySelector('meta[name="description"]');
-      if (metaDesc && pData.metaDesc) metaDesc.setAttribute("content", pData.metaDesc);
+      localizeSocialMetadata(pData.metaTitle, pData.metaDesc);
+      localizeJsonLd(pData.metaTitle, pData.metaDesc);
     }
 
     var isList = !!document.querySelector("[data-blog-grid]");
@@ -1995,12 +2051,19 @@
 
         var searchInput = document.querySelector("[data-blog-search]");
         if (searchInput && lData.searchPlaceholder) searchInput.setAttribute("placeholder", lData.searchPlaceholder);
+        var searchLabel = document.querySelector('label .sr-only + [data-blog-search]');
+        if (searchLabel && dict.labels.searchArticles) searchLabel.previousElementSibling.textContent = dict.labels.searchArticles;
 
         var sortSelect = document.querySelector("[data-blog-sort]");
         if (sortSelect && lData.sortNewest) {
           sortSelect.options[0].text = lData.sortNewest;
           sortSelect.options[1].text = lData.sortOldest;
         }
+        var sortLabel = document.querySelector('label .sr-only + [data-blog-sort]');
+        if (sortLabel && dict.labels.sortArticles) sortLabel.previousElementSibling.textContent = dict.labels.sortArticles;
+
+        var tagFilters = document.querySelector("[data-blog-tags]");
+        if (tagFilters && dict.labels.filterByTag) tagFilters.setAttribute("aria-label", dict.labels.filterByTag);
 
         var emptyMsg = document.querySelector("[data-blog-empty]");
         if (emptyMsg && lData.emptyMsg) emptyMsg.textContent = lData.emptyMsg;
@@ -2038,8 +2101,8 @@
             }
           }
 
-          var matrixBadge = document.querySelector(".matrix-badge");
-          if (matrixBadge && lData.matrixBadge) matrixBadge.textContent = lData.matrixBadge;
+          var matrixBadges = document.querySelectorAll(".matrix-badge");
+          if (matrixBadges[0] && lData.matrixBadge) matrixBadges[0].textContent = lData.matrixBadge;
 
           var matrixTitle = document.querySelector(".comparison-matrix-section h2");
           if (matrixTitle && lData.matrixTitle) matrixTitle.textContent = lData.matrixTitle;
@@ -2113,6 +2176,13 @@
               }
             }
           }
+
+          var articlesSection = document.querySelector(".blog-listing");
+          if (articlesSection && lData.articlesLabel) articlesSection.setAttribute("aria-label", lData.articlesLabel);
+          if (matrixBadges[1] && lData.articlesBadge) matrixBadges[1].textContent = lData.articlesBadge;
+
+          var articlesTitle = document.querySelector(".blog-listing h2");
+          if (articlesTitle && lData.articlesTitle) articlesTitle.textContent = lData.articlesTitle;
         }
       }
 
@@ -2131,6 +2201,9 @@
       if (category === "comparison") {
         aData = expandLocalizedComparisonArticle(loc, pageKey, aData);
       }
+
+      localizeSocialMetadata(metaData.metaTitle || aData.title, metaData.metaDesc || aData.description);
+      localizeJsonLd(aData.title || metaData.title, aData.description || metaData.desc);
 
       var catEyebrow = document.querySelector(".article-header .eyebrow");
       if (catEyebrow) catEyebrow.textContent = category === "comparison" ? dict.labels.comparison : dict.labels.guide;

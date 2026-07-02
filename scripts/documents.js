@@ -156,8 +156,36 @@
     return '<a href="' + file + '?lang=' + locale + '"' + active + ">" + label + "</a>";
   }
 
+  function setMeta(selector, attribute, value) {
+    var element = document.querySelector(selector);
+    if (element && value) {
+      element.setAttribute(attribute, value);
+    }
+  }
+
+  function localizeMetadata(title, description) {
+    document.title = "Flowtime - " + title;
+    setMeta('meta[name="description"]', "content", description);
+    setMeta('meta[property="og:title"]', "content", "Flowtime - " + title);
+    setMeta('meta[property="og:description"]', "content", description);
+    setMeta('meta[name="twitter:title"]', "content", "Flowtime - " + title);
+    setMeta('meta[name="twitter:description"]', "content", description);
+
+    document.querySelectorAll('script[type="application/ld+json"]').forEach(function (script) {
+      try {
+        var data = JSON.parse(script.textContent);
+        if (data["@type"] === "BreadcrumbList" && data.itemListElement && data.itemListElement[1]) {
+          data.itemListElement[1].name = title;
+          script.textContent = JSON.stringify(data);
+        }
+      } catch (_error) {
+        // Keep static structured data if parsing fails.
+      }
+    });
+  }
+
   document.documentElement.lang = locale;
-  document.title = "Flowtime - " + content.title;
+  localizeMetadata(content.title, content.intro);
   root.innerHTML = [
     '<header class="site-header document-header" aria-label="Flowtime">',
     '<a class="brand" href="../index.html?lang=' + locale + '" aria-label="Flowtime">',

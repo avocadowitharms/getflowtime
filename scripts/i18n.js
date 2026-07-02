@@ -10,9 +10,12 @@
   var copy = {
     en: {
       "meta.title": "Flowtime – Focus Better",
+      "meta.description": "Flowtime is a minimalist focus timer and time tracker for Pomodoro sessions, Flow Sessions, projects, reminders, analytics, and privacy-first productivity.",
+      "meta.og.image.alt": "Flowtime focus timer and time tracker preview",
       "a11y.home": "Flowtime home",
       "a11y.nav": "Main navigation",
       "language.label": "Language",
+      "nav.toggle": "Toggle navigation menu",
       "nav.focus": "Focus modes",
       "nav.simplicity": "Simplicity",
       "nav.reports": "Reports",
@@ -142,7 +145,18 @@
       "pricing.break.tracking": "Break tracking",
       "pricing.pro.analytics": "Analytics",
       "pricing.timer.ring": "Timer ring color customization",
+      "faq.eyebrow": "FAQ",
       "faq.title": "Frequently Asked Questions",
+      "faq.what.q": "What is Flowtime?",
+      "faq.what.a": "Flowtime is a minimalist focus timer and time tracker for iPhone and Android. It supports a standard timer, Flow Sessions, Pomodoro, projects, reminders, history, reports, and privacy-first personal productivity.",
+      "faq.who.q": "Who is Flowtime for?",
+      "faq.who.a": "Flowtime is for people who want to understand where focused time goes without managing a heavy workspace. It fits students, freelancers, developers, writers, researchers, and anyone who prefers simple personal time tracking.",
+      "faq.adhd.q": "Is Flowtime good for ADHD?",
+      "faq.adhd.a": "Flowtime can help people who benefit from external time cues, gentle reminders, visible sessions, and low-friction project switching. It is not a medical tool, but it is designed to keep focus tracking simple and non-punishing.",
+      "faq.pomodoro.diff.q": "How is Flowtime different from Pomodoro?",
+      "faq.pomodoro.diff.a": "Pomodoro is one structured interval method. Flowtime includes Pomodoro, but also supports open-ended Flow Sessions with target duration, standard time tracking, project selection, reminders, and reviewable focus history.",
+      "faq.competitors.q": "How is Flowtime different from Forest, Toggl, or Session?",
+      "faq.competitors.a": "Flowtime is less gamified than Forest, lighter than team-oriented tools like Toggl, and more cross-platform than Apple-first timers such as Session. It focuses on simple personal focus tracking without account-heavy setup.",
       "faq.free.q": "Is Flowtime free?",
       "faq.free.a": "Yes. Free includes the standard timer, Flow Session, Pomodoro, 2 projects, and 2 Quick Start templates. Pro removes those limits and adds analytics and deeper timer controls.",
       "faq.platform.q": "What platforms does Flowtime support?",
@@ -189,9 +203,12 @@
     },
     de: {
       "meta.title": "Flowtime – Focus Better",
+      "meta.description": "Flowtime ist ein minimalistischer Fokus-Timer und Time Tracker für Pomodoro-Sessions, Flow Sessions, Projekte, Erinnerungen, Analytics und datenschutzfreundliche Produktivität.",
+      "meta.og.image.alt": "Flowtime Fokus-Timer und Time-Tracker-Vorschau",
       "a11y.home": "Flowtime Startseite",
       "a11y.nav": "Hauptnavigation",
       "language.label": "Sprache",
+      "nav.toggle": "Navigationsmenü umschalten",
       "nav.focus": "Fokusmodi",
       "nav.simplicity": "Einfachheit",
       "nav.reports": "Berichte",
@@ -321,7 +338,18 @@
       "pricing.break.tracking": "Pausen-Tracking",
       "pricing.pro.analytics": "Analytics",
       "pricing.timer.ring": "Timer-Ring-Farbe anpassen",
+      "faq.eyebrow": "FAQ",
       "faq.title": "Häufig gestellte Fragen",
+      "faq.what.q": "Was ist Flowtime?",
+      "faq.what.a": "Flowtime ist ein minimalistischer Fokus-Timer und Time Tracker für iPhone und Android. Die App unterstützt Standard-Timer, Flow Sessions, Pomodoro, Projekte, Erinnerungen, Historie, Berichte und datenschutzfreundliche persönliche Produktivität.",
+      "faq.who.q": "Für wen ist Flowtime gedacht?",
+      "faq.who.a": "Flowtime ist für Menschen gedacht, die verstehen möchten, wohin ihre Fokuszeit geht, ohne einen schweren Workspace zu verwalten. Es passt zu Studierenden, Freelancern, Entwicklern, Schreibenden, Forschenden und allen, die einfache persönliche Zeiterfassung bevorzugen.",
+      "faq.adhd.q": "Ist Flowtime gut bei ADHS?",
+      "faq.adhd.a": "Flowtime kann Menschen helfen, denen externe Zeitreize, sanfte Erinnerungen, sichtbare Sessions und schneller Projektwechsel guttun. Es ist kein medizinisches Tool, aber es hält Fokus-Tracking einfach und nicht strafend.",
+      "faq.pomodoro.diff.q": "Wie unterscheidet sich Flowtime von Pomodoro?",
+      "faq.pomodoro.diff.a": "Pomodoro ist eine strukturierte Intervallmethode. Flowtime enthält Pomodoro, unterstützt aber auch offene Flow Sessions mit Zieldauer, klassische Zeiterfassung, Projektauswahl, Erinnerungen und auswertbare Fokushistorie.",
+      "faq.competitors.q": "Wie unterscheidet sich Flowtime von Forest, Toggl oder Session?",
+      "faq.competitors.a": "Flowtime ist weniger spielerisch als Forest, leichter als teamorientierte Tools wie Toggl und plattformübergreifender als Apple-zentrierte Timer wie Session. Der Fokus liegt auf einfacher persönlicher Fokuserfassung ohne accountlastige Einrichtung.",
       "faq.free.q": "Ist Flowtime kostenlos?",
       "faq.free.a": "Ja. Free enthält den Standard-Timer, Flow Session, Pomodoro, 2 Projekte und 2 Quick-Start-Vorlagen. Pro hebt diese Limits auf und ergänzt Analytics und mehr Timer-Kontrolle.",
       "faq.platform.q": "Welche Plattformen unterstützt Flowtime?",
@@ -368,9 +396,12 @@
     },
     fr: {
       "meta.title": "Flowtime – Focus Better",
+      "meta.description": "Flowtime est un minuteur de concentration et un outil de time tracking minimaliste pour Pomodoro, Flow Sessions, projets, rappels, analytics et productivité respectueuse de la vie privée.",
+      "meta.og.image.alt": "Aperçu du minuteur de concentration et du time tracker Flowtime",
       "a11y.home": "Accueil Flowtime",
       "a11y.nav": "Navigation principale",
       "language.label": "Langue",
+      "nav.toggle": "Ouvrir ou fermer le menu de navigation",
       "nav.focus": "Modes de concentration",
       "nav.simplicity": "Simplicité",
       "nav.reports": "Rapports",
@@ -500,7 +531,18 @@
       "pricing.break.tracking": "Suivi des pauses",
       "pricing.pro.analytics": "Analytics",
       "pricing.timer.ring": "Personnalisation de la couleur de l'anneau du minuteur",
+      "faq.eyebrow": "FAQ",
       "faq.title": "Questions fréquentes",
+      "faq.what.q": "Qu'est-ce que Flowtime ?",
+      "faq.what.a": "Flowtime est un minuteur de concentration et un outil de time tracking minimaliste pour iPhone et Android. Il prend en charge le minuteur standard, les Flow Sessions, Pomodoro, les projets, les rappels, l'historique, les rapports et la productivité personnelle respectueuse de la vie privée.",
+      "faq.who.q": "À qui s'adresse Flowtime ?",
+      "faq.who.a": "Flowtime s'adresse aux personnes qui veulent comprendre où va leur temps de concentration sans gérer un espace de travail lourd. Il convient aux étudiants, freelances, développeurs, auteurs, chercheurs et à toute personne qui préfère un suivi personnel simple.",
+      "faq.adhd.q": "Flowtime est-il utile pour le TDAH ?",
+      "faq.adhd.a": "Flowtime peut aider les personnes qui bénéficient de repères temporels externes, de rappels doux, de sessions visibles et d'un changement de projet rapide. Ce n'est pas un outil médical, mais il garde le suivi de la concentration simple et non punitif.",
+      "faq.pomodoro.diff.q": "En quoi Flowtime diffère-t-il de Pomodoro ?",
+      "faq.pomodoro.diff.a": "Pomodoro est une méthode d'intervalles structurée. Flowtime inclut Pomodoro, mais prend aussi en charge les Flow Sessions ouvertes avec durée cible, le suivi classique du temps, la sélection de projets, les rappels et un historique de concentration consultable.",
+      "faq.competitors.q": "En quoi Flowtime diffère-t-il de Forest, Toggl ou Session ?",
+      "faq.competitors.a": "Flowtime est moins gamifié que Forest, plus léger que les outils d'équipe comme Toggl et plus multiplateforme que les minuteurs centrés sur Apple comme Session. Il se concentre sur le suivi personnel simple, sans configuration lourde basée sur un compte.",
       "faq.free.q": "Flowtime est-il gratuit ?",
       "faq.free.a": "Oui. Free inclut le minuteur standard, Flow Session, Pomodoro, 2 projets et 2 modèles Quick Start. Pro supprime ces limites et ajoute les analytics et plus de contrôle du minuteur.",
       "faq.platform.q": "Quelles plateformes sont compatibles avec Flowtime ?",
@@ -565,10 +607,69 @@
     window.location.assign(nextUrl.toString());
   }
 
-  document.documentElement.lang = locale;
-  if (!window.flowtimePreserveTitle) {
-    document.title = t("meta.title");
+  function setMeta(selector, attribute, value) {
+    var element = document.querySelector(selector);
+    if (element && value) {
+      element.setAttribute(attribute, value);
+    }
   }
+
+  function localizeMetadata() {
+    if (window.flowtimePreserveTitle) {
+      return;
+    }
+
+    var title = t("meta.title");
+    var description = t("meta.description");
+    var imageAlt = t("meta.og.image.alt");
+
+    document.title = title;
+    setMeta('meta[name="description"]', "content", description);
+    setMeta('meta[property="og:title"]', "content", title);
+    setMeta('meta[property="og:description"]', "content", description);
+    setMeta('meta[property="og:image:alt"]', "content", imageAlt);
+    setMeta('meta[name="twitter:title"]', "content", title);
+    setMeta('meta[name="twitter:description"]', "content", description);
+    setMeta('meta[name="twitter:image:alt"]', "content", imageAlt);
+
+    var jsonLd = document.querySelector('script[type="application/ld+json"][data-flowtime-schema]');
+    if (!jsonLd) {
+      return;
+    }
+
+    try {
+      var data = JSON.parse(jsonLd.textContent);
+      var graph = data && data["@graph"] ? data["@graph"] : [];
+      graph.forEach(function (node) {
+        if (node["@type"] === "SoftwareApplication" || node["@type"] === "WebSite") {
+          node.description = description;
+        }
+        if (node["@type"] === "FAQPage" && Array.isArray(node.mainEntity)) {
+          [
+            ["faq.what.q", "faq.what.a"],
+            ["faq.who.q", "faq.who.a"],
+            ["faq.adhd.q", "faq.adhd.a"],
+            ["faq.pomodoro.diff.q", "faq.pomodoro.diff.a"],
+            ["faq.competitors.q", "faq.competitors.a"]
+          ].forEach(function (keys, index) {
+            if (!node.mainEntity[index]) {
+              return;
+            }
+            node.mainEntity[index].name = t(keys[0]);
+            if (node.mainEntity[index].acceptedAnswer) {
+              node.mainEntity[index].acceptedAnswer.text = t(keys[1]);
+            }
+          });
+        }
+      });
+      jsonLd.textContent = JSON.stringify(data);
+    } catch (_error) {
+      // Keep static schema if parsing fails.
+    }
+  }
+
+  document.documentElement.lang = locale;
+  localizeMetadata();
   window.flowtimeLocale = locale;
   window.t = t;
   window.setFlowtimeLocale = setLocale;

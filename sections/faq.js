@@ -1,12 +1,52 @@
 window.renderSection("faq", `
   <section id="faq" class="section faq">
     <div class="section-heading">
-      <p class="eyebrow">FAQ</p>
+      <p class="eyebrow">${window.t("faq.eyebrow")}</p>
       <h2>${window.t("faq.title")}</h2>
     </div>
 
     <div class="faq-list">
       <details class="faq-item" open>
+        <summary>
+          <span>${window.t("faq.what.q")}</span>
+          <span class="faq-toggle" aria-hidden="true"></span>
+        </summary>
+        <p>${window.t("faq.what.a")}</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span>${window.t("faq.who.q")}</span>
+          <span class="faq-toggle" aria-hidden="true"></span>
+        </summary>
+        <p>${window.t("faq.who.a")}</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span>${window.t("faq.adhd.q")}</span>
+          <span class="faq-toggle" aria-hidden="true"></span>
+        </summary>
+        <p>${window.t("faq.adhd.a")}</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span>${window.t("faq.pomodoro.diff.q")}</span>
+          <span class="faq-toggle" aria-hidden="true"></span>
+        </summary>
+        <p>${window.t("faq.pomodoro.diff.a")}</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          <span>${window.t("faq.competitors.q")}</span>
+          <span class="faq-toggle" aria-hidden="true"></span>
+        </summary>
+        <p>${window.t("faq.competitors.a")}</p>
+      </details>
+
+      <details class="faq-item">
         <summary>
           <span>${window.t("faq.free.q")}</span>
           <span class="faq-toggle" aria-hidden="true"></span>

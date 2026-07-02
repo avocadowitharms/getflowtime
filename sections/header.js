@@ -66,7 +66,7 @@
       ${headerCta}
       
       <!-- Mobile menu hamburger toggle -->
-      <button class="mobile-menu-toggle" type="button" aria-expanded="false" data-menu-toggle aria-label="Toggle navigation menu">
+      <button class="mobile-menu-toggle" type="button" aria-expanded="false" data-menu-toggle aria-label="${window.t("nav.toggle")}">
         <span class="bar bar-top"></span>
         <span class="bar bar-middle"></span>
         <span class="bar bar-bottom"></span>

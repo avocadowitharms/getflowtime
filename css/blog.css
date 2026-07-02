@@ -462,7 +462,7 @@
   font-weight: 800;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #10b981; /* green */
+  color: var(--muted);
   display: inline-block;
   margin-bottom: 12px;
   position: relative;
@@ -478,10 +478,6 @@
   width: 14px;
   height: 1px;
   background: currentColor;
-}
-
-body[data-theme="classic"] .showcase-badge {
-  color: #22d3ee; /* cyan in classic */
 }
 
 .showcase-title {

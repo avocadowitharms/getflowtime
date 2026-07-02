@@ -7,7 +7,7 @@ const comparisonDir = path.join(root, "content", "comparison");
 const guidesDir = path.join(root, "content", "guides");
 
 function frontmatter(markdown) {
-  const match = markdown.match(/^---\n([\s\S]*?)\n---/);
+  const match = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---/);
   if (!match) {
     return {};
   }
@@ -25,6 +25,45 @@ function frontmatter(markdown) {
   }, {});
 }
 
+function formatDate(value) {
+  return value.toISOString().slice(0, 10);
+}
+
+function maxDateString(values) {
+  const dates = values
+    .filter(Boolean)
+    .map((value) => new Date(`${value}T00:00:00Z`))
+    .filter((value) => !Number.isNaN(value.getTime()));
+
+  if (!dates.length) {
+    return null;
+  }
+
+  return formatDate(new Date(Math.max(...dates.map((value) => value.getTime()))));
+}
+
+function fileLastmod(relativePath, fallback) {
+  const filePath = path.join(root, relativePath);
+
+  if (!fs.existsSync(filePath)) {
+    return fallback;
+  }
+
+  return formatDate(fs.statSync(filePath).mtime);
+}
+
+function contentLastmod(filePath, data, generatedRelativePath) {
+  return maxDateString([
+    data.dateModified,
+    data.updated,
+    data.date,
+    formatDate(fs.statSync(filePath).mtime),
+    fs.existsSync(path.join(root, generatedRelativePath))
+      ? formatDate(fs.statSync(path.join(root, generatedRelativePath)).mtime)
+      : null
+  ]) || "2026-06-06";
+}
+
 function getUrlsFromDir(dir, category) {
   if (!fs.existsSync(dir)) {
     return [];
@@ -33,11 +72,13 @@ function getUrlsFromDir(dir, category) {
   return fs.readdirSync(dir)
     .filter((file) => file.endsWith(".md"))
     .map((file) => {
-      const markdown = fs.readFileSync(path.join(dir, file), "utf8");
+      const filePath = path.join(dir, file);
+      const markdown = fs.readFileSync(filePath, "utf8");
       const data = frontmatter(markdown);
+      const slug = file.replace(/\.md$/, "");
       return {
-        loc: `${siteUrl}/${category}/${file.replace(/\.md$/, "")}/`,
-        lastmod: data.date || "2026-06-06",
+        loc: `${siteUrl}/${category}/${slug}/`,
+        lastmod: contentLastmod(filePath, data, `${category}/${slug}/index.html`),
         changefreq: "monthly",
         priority: "0.7",
         draft: data.draft === "true"
@@ -47,14 +88,14 @@ function getUrlsFromDir(dir, category) {
 }
 
 const urls = [
-  { loc: `${siteUrl}/`, lastmod: "2026-06-06", changefreq: "weekly", priority: "1.0" },
-  { loc: `${siteUrl}/comparison/`, lastmod: "2026-06-06", changefreq: "weekly", priority: "0.8" },
-  { loc: `${siteUrl}/guides/`, lastmod: "2026-06-06", changefreq: "weekly", priority: "0.8" },
+  { loc: `${siteUrl}/`, lastmod: fileLastmod("index.html", "2026-06-06"), changefreq: "weekly", priority: "1.0" },
+  { loc: `${siteUrl}/comparison/`, lastmod: fileLastmod("comparison/index.html", "2026-06-06"), changefreq: "weekly", priority: "0.8" },
+  { loc: `${siteUrl}/guides/`, lastmod: fileLastmod("guides/index.html", "2026-06-06"), changefreq: "weekly", priority: "0.8" },
   ...getUrlsFromDir(comparisonDir, "comparison"),
   ...getUrlsFromDir(guidesDir, "guides"),
-  { loc: `${siteUrl}/docs/privacy-policy.html`, lastmod: "2026-06-01", changefreq: "yearly", priority: "0.3" },
-  { loc: `${siteUrl}/docs/terms-of-use.html`, lastmod: "2026-06-01", changefreq: "yearly", priority: "0.3" },
-  { loc: `${siteUrl}/docs/support.html`, lastmod: "2026-06-01", changefreq: "monthly", priority: "0.4" }
+  { loc: `${siteUrl}/docs/privacy-policy.html`, lastmod: fileLastmod("docs/privacy-policy.html", "2026-06-01"), changefreq: "yearly", priority: "0.3" },
+  { loc: `${siteUrl}/docs/terms-of-use.html`, lastmod: fileLastmod("docs/terms-of-use.html", "2026-06-01"), changefreq: "yearly", priority: "0.3" },
+  { loc: `${siteUrl}/docs/support.html`, lastmod: fileLastmod("docs/support.html", "2026-06-01"), changefreq: "monthly", priority: "0.4" }
 ].sort((a, b) => a.loc.localeCompare(b.loc));
 
 const xml = [
