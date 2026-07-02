@@ -8,7 +8,7 @@ const categories = ["guides", "comparison"];
 
 function securityMeta() {
   return [
-    '<meta http-equiv="Content-Security-Policy" content="default-src \'self\'; base-uri \'self\'; object-src \'none\'; img-src \'self\' data: https://flowtime-app.com; script-src \'self\' \'unsafe-inline\'; style-src \'self\' \'unsafe-inline\'; connect-src \'self\'; form-action \'self\'; upgrade-insecure-requests" />',
+    '<meta http-equiv="Content-Security-Policy" content="default-src \'self\'; base-uri \'self\'; object-src \'none\'; img-src \'self\' data: https://flowtime-app.com; script-src \'self\' https://plausible.io \'unsafe-inline\'; style-src \'self\' \'unsafe-inline\'; connect-src \'self\' https://plausible.io; form-action \'self\'; upgrade-insecure-requests" />',
     '<meta name="referrer" content="strict-origin-when-cross-origin" />',
     '<meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()" />'
   ].join("\n  ");
@@ -273,6 +273,14 @@ function renderPage(post, posts) {
       mainEntityOfPage: url
     })}
   </script>
+  <script src="../../scripts/attribution.js"></script>
+  <!-- Privacy-friendly analytics by Plausible -->
+  <script async src="https://plausible.io/js/pa-0aTxMuaeWykhlYbR-knZ5.js"></script>
+  <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+    plausible.init()
+  </script>
+  <script src="../../scripts/conversion-analytics.js"></script>
 </head>
 <body id="top" data-theme="mono" data-blog-category="${post.category}">
   <div id="site-header"></div>

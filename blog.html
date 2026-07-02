@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="refresh" content="0; url=guides/index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data: https://flowtime-app.com; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self'; form-action 'self'; upgrade-insecure-requests" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data: https://flowtime-app.com; script-src 'self' https://plausible.io; style-src 'self' 'unsafe-inline'; connect-src 'self' https://plausible.io; form-action 'self'; upgrade-insecure-requests" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()" />
   <title>Flowtime Guides & Blog</title>
@@ -27,6 +27,14 @@
   <meta name="twitter:description" content="Guides and blog articles about simple time tracking, focused work, offline productivity, privacy, and minimalist productivity software." />
   <meta name="twitter:image" content="https://flowtime-app.com/og-image.png" />
   <meta name="twitter:image:alt" content="Flowtime guides and blog preview" />
+  <script src="scripts/attribution.js"></script>
+  <!-- Privacy-friendly analytics by Plausible -->
+  <script async src="https://plausible.io/js/pa-0aTxMuaeWykhlYbR-knZ5.js"></script>
+  <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+    plausible.init()
+  </script>
+  <script src="scripts/conversion-analytics.js"></script>
 </head>
 <body>
   <p><a href="guides/index.html">Open Flowtime Guides & Blog</a></p>
