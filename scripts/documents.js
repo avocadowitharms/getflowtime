@@ -189,7 +189,7 @@
   root.innerHTML = [
     '<header class="site-header document-header" aria-label="Flowtime">',
     '<a class="brand" href="../index.html?lang=' + locale + '" aria-label="Flowtime">',
-    '<span class="logo-swap brand-logo"><img class="logo-mono" src="../assets/logo.png" alt="" /><img class="logo-classic" src="../assets/logo-classic.png" alt="" /></span>',
+    '<span class="logo-swap brand-logo"><img class="logo-mono" src="../assets/logo.png" alt="" width="1024" height="1024" decoding="async" /><img class="logo-classic" src="../assets/logo-classic.png" alt="" width="1024" height="1024" decoding="async" /></span>',
     "<span>Flowtime&deg;</span></a>",
     '<a class="document-home" href="../index.html?lang=' + locale + '">' + language.common.home + "</a>",
     '<div class="locale-switch" role="group" aria-label="' + language.common.language + '">' + localeButton("en") + localeButton("de") + localeButton("fr") + "</div>",

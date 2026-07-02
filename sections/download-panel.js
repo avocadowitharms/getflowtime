@@ -20,6 +20,9 @@ window.renderSection("download-panel", `
           src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
           alt="${window.t("cta.appstore")}"
           loading="lazy"
+          decoding="async"
+          width="120"
+          height="40"
         />
       </a>
 
@@ -37,6 +40,9 @@ window.renderSection("download-panel", `
           src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
           alt="${window.t("cta.playstore")}"
           loading="lazy"
+          decoding="async"
+          width="646"
+          height="250"
         />
       </a>
 

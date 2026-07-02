@@ -23,8 +23,8 @@ window.renderSection("pricing", `
           </ul>
         </div>
         <div class="price-screen">
-          <img class="theme-shot-mono" src="assets/classic-timer-mono.png" alt="Classic Timer in the Flowtime Mono theme" />
-          <img class="theme-shot-classic" src="assets/classic-timer-classic.png" alt="Classic Timer in the Flowtime Classic theme" />
+          <img class="theme-shot-mono" src="assets/classic-timer-mono.jpg" alt="Classic Timer in the Flowtime Mono theme" width="1320" height="2868" loading="lazy" decoding="async" />
+          <img class="theme-shot-classic" src="assets/classic-timer-classic.jpg" alt="Classic Timer in the Flowtime Classic theme" width="1320" height="2868" loading="lazy" decoding="async" />
         </div>
       </article>
       <article class="price-card pro-plan">
@@ -46,8 +46,8 @@ window.renderSection("pricing", `
           </ul>
         </div>
         <div class="price-screen">
-          <img class="theme-shot-mono" src="assets/reports-mono.png" alt="Flowtime reports in the Mono theme" />
-          <img class="theme-shot-classic" src="assets/reports-classic.png" alt="Flowtime reports in the Classic theme" />
+          <img class="theme-shot-mono" src="assets/reports-mono.jpg" alt="Flowtime reports in the Mono theme" width="1320" height="2868" loading="lazy" decoding="async" />
+          <img class="theme-shot-classic" src="assets/reports-classic.jpg" alt="Flowtime reports in the Classic theme" width="1320" height="2868" loading="lazy" decoding="async" />
         </div>
       </article>
     </div>

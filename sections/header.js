@@ -8,8 +8,8 @@
   <header class="site-header" aria-label="Flowtime">
     <a class="brand" href="${root}index.html" aria-label="${window.t("a11y.home")}">
       <span class="logo-swap brand-logo">
-        <img class="logo-mono" src="${root}assets/logo.png" alt="" />
-        <img class="logo-classic" src="${root}assets/logo-classic.png" alt="" />
+        <img class="logo-mono" src="${root}assets/logo.png" alt="" width="1024" height="1024" decoding="async" />
+        <img class="logo-classic" src="${root}assets/logo-classic.png" alt="" width="1024" height="1024" decoding="async" />
       </span>
       <span>Flowtime&deg;</span>
     </a>

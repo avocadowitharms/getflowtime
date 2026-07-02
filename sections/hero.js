@@ -19,6 +19,9 @@ window.renderSection("hero", `
             src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
             alt="${window.t("cta.appstore")}"
             loading="lazy"
+            decoding="async"
+            width="120"
+            height="40"
           />
         </a>
         <a
@@ -35,6 +38,9 @@ window.renderSection("hero", `
             src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
             alt="${window.t("cta.playstore")}"
             loading="lazy"
+            decoding="async"
+            width="646"
+            height="250"
           />
         </a>
         <button class="button primary" type="button" data-waitlist-open data-analytics-event="newsletter_open" data-analytics-location="hero">
@@ -73,12 +79,12 @@ window.renderSection("hero", `
       <div class="hero-phone">
         <div class="hero-device" data-hero-device>
           <button class="hero-device-face hero-device-angle" type="button" data-hero-rotate aria-label="${window.t("hero.rotate")}">
-            <img class="theme-shot-mono" src="assets/phone-mono2.png" alt="Flowtime Classic Timer in Mono theme on iPhone" />
-            <img class="theme-shot-classic" src="assets/phone-classic.png" alt="Flowtime timer in Classic theme on iPhone" />
+            <img class="theme-shot-mono" src="assets/phone-mono2.jpg" alt="Flowtime Classic Timer in Mono theme on iPhone" width="1320" height="2868" decoding="async" fetchpriority="high" />
+            <img class="theme-shot-classic" src="assets/phone-classic.jpg" alt="Flowtime timer in Classic theme on iPhone" width="1320" height="2868" loading="lazy" decoding="async" />
           </button>
           <div class="hero-device-face hero-device-front" aria-hidden="true">
-            <img class="theme-shot-mono" src="assets/classic-timer-mono.png" alt="" />
-            <img class="theme-shot-classic" src="assets/classic-timer-classic.png" alt="" />
+            <img class="theme-shot-mono" src="assets/classic-timer-mono.jpg" alt="" width="1320" height="2868" loading="lazy" decoding="async" />
+            <img class="theme-shot-classic" src="assets/classic-timer-classic.jpg" alt="" width="1320" height="2868" loading="lazy" decoding="async" />
             <button class="hero-timer" type="button" data-hero-timer aria-label="${window.t("hero.timer.start")}" aria-pressed="false" tabindex="-1">
               <span class="hero-timer-ring" aria-hidden="true"></span>
               <span class="hero-timer-value" data-hero-timer-value>04:02:46</span>

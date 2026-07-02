@@ -308,7 +308,7 @@ function renderPage(post, posts) {
       </header>
       <div class="article-layout">
         <aside class="article-aside" aria-label="Article details">
-          <div class="author-card"><img class="author-avatar" src="../../assets/ava-icon.png" alt="" loading="lazy" /><p><strong>Ava Thalheim</strong><span>Developer of Flowtime</span></p></div>
+          <div class="author-card"><img class="author-avatar" src="../../assets/ava-icon.png" alt="" width="180" height="180" loading="lazy" decoding="async" /><p><strong>Ava Thalheim</strong><span>Developer of Flowtime</span></p></div>
           <nav class="article-toc" aria-label="Table of contents"><h2>Table of contents</h2><ol>${toc.map((item) => `<li><a href="#${item.id}">${escapeHtml(item.text)}</a></li>`).join("")}</ol></nav>
         </aside>
         <div class="article-content">

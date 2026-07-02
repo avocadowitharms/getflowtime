@@ -13,8 +13,8 @@ window.renderSection("focus-modes", `
           <p>${window.t("focus.classic.text")}</p>
         </div>
         <div class="featured-phone">
-          <img class="theme-shot-mono" src="assets/classic-timer-mono.png" alt="Classic Timer in Mono" />
-          <img class="theme-shot-classic" src="assets/classic-timer-classic.png" alt="Classic Timer in Classic" />
+          <img class="theme-shot-mono" src="assets/classic-timer-mono.jpg" alt="Classic Timer in Mono" width="1320" height="2868" loading="lazy" decoding="async" />
+          <img class="theme-shot-classic" src="assets/classic-timer-classic.jpg" alt="Classic Timer in Classic" width="1320" height="2868" loading="lazy" decoding="async" />
         </div>
       </article>
       <article class="featured-mode">
@@ -24,8 +24,8 @@ window.renderSection("focus-modes", `
           <p>${window.t("focus.pomodoro.text")}</p>
         </div>
         <div class="featured-phone">
-          <img class="theme-shot-mono" src="assets/pomodoro-mono.png" alt="Pomodoro timer in Mono" />
-          <img class="theme-shot-classic" src="assets/pomodoro-classic.png" alt="Pomodoro timer in Classic" />
+          <img class="theme-shot-mono" src="assets/pomodoro-mono.jpg" alt="Pomodoro timer in Mono" width="1320" height="2868" loading="lazy" decoding="async" />
+          <img class="theme-shot-classic" src="assets/pomodoro-classic.jpg" alt="Pomodoro timer in Classic" width="1320" height="2868" loading="lazy" decoding="async" />
         </div>
       </article>
       <article class="featured-mode">
@@ -35,8 +35,8 @@ window.renderSection("focus-modes", `
           <p>${window.t("focus.flow.text")}</p>
         </div>
         <div class="featured-phone">
-          <img class="theme-shot-mono" src="assets/flow-session-mono.png" alt="Flow Session in Mono" />
-          <img class="theme-shot-classic" src="assets/flow-session-classic.png" alt="Flow Session in Classic" />
+          <img class="theme-shot-mono" src="assets/flow-session-mono.jpg" alt="Flow Session in Mono" width="1320" height="2868" loading="lazy" decoding="async" />
+          <img class="theme-shot-classic" src="assets/flow-session-classic.jpg" alt="Flow Session in Classic" width="1320" height="2868" loading="lazy" decoding="async" />
         </div>
       </article>
     </div>
