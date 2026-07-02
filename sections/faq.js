@@ -55,10 +55,11 @@ window.renderSection("faq", `
           <p>${window.t("faq.pro.a")}</p>
           <ul>
             <li>${window.t("faq.pro.projects")}</li>
-            <li>${window.t("faq.pro.history")}</li>
-            <li>${window.t("faq.pro.reports")}</li>
-            <li>${window.t("faq.pro.export")}</li>
-            <li>${window.t("faq.pro.future")}</li>
+            <li>${window.t("faq.pro.templates")}</li>
+            <li>${window.t("faq.pro.reminders")}</li>
+            <li>${window.t("faq.pro.pomodoro")}</li>
+            <li>${window.t("faq.pro.analytics")}</li>
+            <li>${window.t("faq.pro.appearance")}</li>
           </ul>
         </div>
       </details>

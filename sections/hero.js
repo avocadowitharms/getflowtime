@@ -2,20 +2,6 @@ window.renderSection("hero", `
   <section class="hero">
     <div class="hero-intro">
       <p class="eyebrow hero-eyebrow">${window.t("hero.eyebrow")}</p>
-      <a
-        class="peepush-badge hero-badge"
-        href="https://peerpush.net/p/flowtime"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Flowtime on PeerPush"
-      >
-        <img
-          src="https://peerpush.net/p/flowtime/badge.png"
-          alt="Flowtime on PeerPush"
-          width="230"
-          loading="lazy"
-        />
-      </a>
       <h1>${window.t("hero.title")}</h1>
       <p class="hero-description">${window.t("hero.description")}</p>
       <div class="hero-actions">
