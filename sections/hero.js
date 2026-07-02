@@ -10,6 +10,9 @@ window.renderSection("hero", `
           href="https://apps.apple.com/ch/app/flowtime/id6768056969"
           target="_blank"
           rel="noopener noreferrer"
+          data-analytics-event="app_store_click"
+          data-analytics-platform="ios"
+          data-analytics-location="hero"
           aria-label="${window.t("cta.appstore")}"
         >
           <img
@@ -23,6 +26,9 @@ window.renderSection("hero", `
           href="https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"
           target="_blank"
           rel="noopener noreferrer"
+          data-analytics-event="google_play_click"
+          data-analytics-platform="android"
+          data-analytics-location="hero"
           aria-label="${window.t("cta.playstore")}"
         >
           <img
@@ -31,7 +37,7 @@ window.renderSection("hero", `
             loading="lazy"
           />
         </a>
-        <button class="button primary" type="button" data-waitlist-open>
+        <button class="button primary" type="button" data-waitlist-open data-analytics-event="newsletter_open" data-analytics-location="hero">
           ${window.t("cta.waitlist.long")} <span aria-hidden="true">&rarr;</span>
         </button>
       </div>

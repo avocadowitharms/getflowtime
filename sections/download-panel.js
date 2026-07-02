@@ -11,6 +11,9 @@ window.renderSection("download-panel", `
         href="https://apps.apple.com/ch/app/flowtime/id6768056969"
         target="_blank"
         rel="noopener noreferrer"
+        data-analytics-event="app_store_click"
+        data-analytics-platform="ios"
+        data-analytics-location="download_panel"
         aria-label="${window.t("cta.appstore")}"
       >
         <img
@@ -25,6 +28,9 @@ window.renderSection("download-panel", `
         href="https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"
         target="_blank"
         rel="noopener noreferrer"
+        data-analytics-event="google_play_click"
+        data-analytics-platform="android"
+        data-analytics-location="download_panel"
         aria-label="${window.t("cta.playstore")}"
       >
         <img
@@ -34,7 +40,7 @@ window.renderSection("download-panel", `
         />
       </a>
 
-      <button class="button primary" type="button" data-waitlist-open>
+      <button class="button primary" type="button" data-waitlist-open data-analytics-event="newsletter_open" data-analytics-location="download_panel">
         ${window.t("cta.waitlist.long")} <span aria-hidden="true">&rarr;</span>
       </button>
     </div>
@@ -83,6 +89,7 @@ window.renderSection("download-panel", `
               class="ml-block-form waitlist-form"
               action="https://assets.mailerlite.com/jsonp/2378130/forms/188442807544842085/subscribe"
               data-code=""
+              data-analytics-form="newsletter_signup"
               method="post"
               rel="noopener noreferrer"
               target="_blank"
@@ -198,6 +205,13 @@ function ml_webform_success_41744891() {
   if (form && success) {
     form.style.display = "none";
     success.style.display = "block";
+  }
+
+  if (window.FlowtimeAnalytics) {
+    window.FlowtimeAnalytics.trackConversion("newsletter_success", {
+      form: "newsletter_signup",
+      location: "download_panel",
+    });
   }
 }
 
