@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data: https://flowtime-app.com https://images.weserv.nl https://*.twitter.com https://*.twimg.com https://*.threads.net https://*.instagram.com https://*.cdninstagram.com https://*.bsky.app https://*.licdn.com; script-src 'self' https://plausible.io; style-src 'self' 'unsafe-inline'; connect-src 'self' https://plausible.io; frame-src 'self' https://platform.twitter.com https://syndication.twitter.com https://www.instagram.com https://www.threads.net https://embed.bsky.app https://www.linkedin.com; form-action 'self'; upgrade-insecure-requests" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()" />
+  <title>Admin - Social Library</title>
+  <link rel="icon" type="image/png" href="../../assets/logo-classic.png" />
+  <link rel="apple-touch-icon" href="../../assets/logo-classic.png" />
+  <meta name="robots" content="noindex, nofollow" />
+  
+  <link rel="stylesheet" href="../../style.css" />
+</head>
+<body id="top" data-theme="mono">
+  <div id="site-header"></div>
+  <!-- Dashboard Main View -->
+  <main class="admin-main" id="admin-dashboard-view">
+    <div class="admin-title-row">
+      <div>
+        <h1>Social Library Admin</h1>
+        <p class="admin-subtitle">Import, curate, and publish social media updates to the website.</p>
+      </div>
+      <div style="display: flex; gap: 8px; align-items: center;">
+        <a class="admin-btn small" href="../../updates/index.html" target="_blank">View Public Updates &rarr;</a>
+      </div>
+    </div>
+
+    <!-- Quick Import Box -->
+    <section class="admin-import-section">
+      <h2>Paste Social Media URL</h2>
+      <form class="admin-import-form" id="import-form">
+        <input 
+          class="admin-import-input" 
+          type="url" 
+          placeholder="https://bsky.app/profile/username/post/... or https://x.com/... or paste manual link" 
+          id="import-url-input" 
+          required 
+        />
+        <button class="admin-btn primary" type="submit" id="import-btn">
+          <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" style="display: inline-block; vertical-align: middle; margin-right: 4px;">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+          Import Draft
+        </button>
+      </form>
+    </section>
+
+    <!-- Toolbar Filters -->
+    <div class="admin-dashboard">
+      <div class="admin-toolbar">
+        <div class="admin-tabs" id="status-tabs" role="tablist">
+          <button class="admin-tab is-active" data-status="all" role="tab">All</button>
+          <button class="admin-tab" data-status="imported" role="tab">Imported</button>
+          <button class="admin-tab" data-status="draft" role="tab">Draft</button>
+          <button class="admin-tab" data-status="published" role="tab">Published</button>
+          <button class="admin-tab" data-status="hidden" role="tab">Hidden</button>
+        </div>
+        
+        <div class="admin-filters">
+          <input 
+            class="admin-search" 
+            type="search" 
+            placeholder="Search title, tag..." 
+            id="admin-search-input" 
+          />
+          <select class="admin-select" id="admin-platform-filter">
+            <option value="all">All Platforms</option>
+            <option value="x">X / Twitter</option>
+            <option value="threads">Threads</option>
+            <option value="instagram">Instagram</option>
+            <option value="bluesky">Bluesky</option>
+            <option value="linkedin">LinkedIn</option>
+            <option value="manual">Manual / Web</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Item List Container -->
+      <div class="admin-list" id="admin-items-list">
+        <!-- Rendered items go here -->
+      </div>
+      
+      <div class="admin-empty-state" id="admin-empty-state" hidden>
+        <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="8" y1="12" x2="16" y2="12"></line>
+        </svg>
+        <p>No updates found matching your filters.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Edit Post Modal Overlay -->
+  <div class="admin-modal" id="edit-modal">
+    <div class="admin-modal-content">
+      <div class="admin-modal-header">
+        <h3 id="modal-title-text">Edit Update</h3>
+        <button class="admin-modal-close" id="edit-modal-close" aria-label="Close dialog">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <form class="admin-form" id="edit-form">
+        <input type="hidden" id="edit-id" />
+        
+        <div class="admin-form-group">
+          <label for="edit-title">Title</label>
+          <input type="text" id="edit-title" />
+        </div>
+
+        <div class="admin-form-group admin-hidden-field">
+          <label for="edit-slug">Slug</label>
+          <div class="admin-slug-input-wrapper">
+            <input type="text" id="edit-slug" />
+            <button class="admin-btn small" type="button" id="btn-auto-slug">Auto-Gen</button>
+          </div>
+        </div>
+
+        <div class="admin-form-group">
+          <label for="edit-description">Description (Short summary)</label>
+          <input type="text" id="edit-description" />
+        </div>
+
+        <div class="admin-form-group">
+          <label for="edit-body">Content / Body (Markdown supported)</label>
+          <textarea id="edit-body"></textarea>
+        </div>
+
+        <div class="admin-form-row">
+          <div class="admin-form-group">
+            <label for="edit-platform">Platform</label>
+            <select id="edit-platform">
+              <option value="x">X / Twitter</option>
+              <option value="threads">Threads</option>
+              <option value="instagram">Instagram</option>
+              <option value="bluesky">Bluesky</option>
+              <option value="linkedin">LinkedIn</option>
+              <option value="manual">Manual / Web</option>
+            </select>
+          </div>
+          <div class="admin-form-group">
+            <label for="edit-status">Status</label>
+            <select id="edit-status">
+              <option value="imported">Imported</option>
+              <option value="draft">Draft</option>
+              <option value="published">Published</option>
+              <option value="hidden">Hidden</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="admin-form-group">
+          <label for="edit-original-url">Original Post URL</label>
+          <input type="url" id="edit-original-url" />
+        </div>
+
+        <div class="admin-form-row">
+          <div class="admin-form-group">
+            <label for="edit-external-id">External Post ID (Extracted)</label>
+            <input type="text" id="edit-external-id" />
+          </div>
+          <div class="admin-form-group">
+            <label for="edit-tags">Tags (Comma-separated)</label>
+            <input type="text" id="edit-tags" placeholder="launch, design, feature" />
+          </div>
+        </div>
+
+        <div class="admin-form-row">
+          <div class="admin-form-group">
+            <label for="edit-thumbnail">Thumbnail URL (Optional)</label>
+            <input type="url" id="edit-thumbnail" />
+          </div>
+          <div class="admin-form-group">
+            <label for="edit-published-at">Published Date & Time</label>
+            <input type="datetime-local" id="edit-published-at" />
+          </div>
+        </div>
+
+        <div class="admin-form-actions">
+          <button class="admin-btn" type="button" id="edit-cancel-btn">Cancel</button>
+          <button class="admin-btn primary" type="submit">Save Changes</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Preview Modal Overlay -->
+  <div class="admin-modal" id="preview-modal">
+    <div class="admin-modal-content" style="max-width: 800px;">
+      <div class="admin-modal-header">
+        <h3>Live Update Preview</h3>
+        <button class="admin-modal-close" id="preview-modal-close" aria-label="Close dialog">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="blog-main" style="padding: 0;">
+        <article class="blog-article" style="width: 100%; margin: 0;">
+          <header class="article-header">
+            <div class="updates-header-meta">
+              <span class="platform-badge" id="preview-platform-badge">Bluesky</span>
+              <time id="preview-date">July 2, 2026</time>
+            </div>
+            <h1 id="preview-title" style="font-size: 28px; line-height: 1.1;">Preview Title</h1>
+            <p class="article-description" id="preview-description">Short description goes here.</p>
+            <div class="article-tags" id="preview-tags"></div>
+          </header>
+          
+          <div class="article-layout" style="grid-template-columns: 1fr; gap: 20px;">
+            <div class="article-content" style="max-width: 100%;">
+              <div class="article-body" id="preview-body" style="font-size: 15px;">
+                <!-- Renders preview body -->
+              </div>
+              
+              <!-- Embed Frame Container -->
+              <div id="preview-embed-wrapper" class="embed-container" hidden></div>
+
+              <!-- Original Link -->
+              <div class="update-original-link-container" id="preview-original-link-wrapper" hidden>
+                <p>This update was curated from a social media post.</p>
+                <a href="#" id="preview-original-link" target="_blank" rel="noopener noreferrer">Read original post</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      
+      <div class="admin-form-actions" style="margin-top: 24px;">
+        <button class="admin-btn primary" id="preview-modal-close-btn">Close Preview</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="site-footer"></div>
+
+  <script src="../../scripts/page-config-admin.js"></script>
+  
+  <script src="../../scripts/i18n.js"></script>
+  <script src="../../sections/header.js"></script>
+  
+  <script src="../../scripts/social-importer.js"></script>
+  <script src="../../data/social-updates.js"></script>
+  <script src="../../scripts/updates-db.js"></script>
+  <script src="../../scripts/admin-social.js"></script>
+  
+  <script src="../../sections/footer.js"></script>
+  <script src="../../scripts/theme.js"></script>
+</body>
+</html>

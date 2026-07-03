@@ -390,7 +390,7 @@ footer {
 }
 
 .footer-actions {
-  gap: 9px;
+  gap: 8px;
 }
 
 .coffee-link {
@@ -405,6 +405,20 @@ footer {
   background: var(--surface);
   font-size: 12px;
   font-weight: 650;
+}
+
+.coffee-link,
+.top-link,
+.social-icon-link {
+  box-shadow: 0 8px 20px rgba(17, 22, 32, 0.035);
+  transition: border-color 150ms ease, transform 150ms ease, background-color 150ms ease;
+}
+
+.coffee-link:hover,
+.top-link:hover,
+.social-icon-link:hover {
+  border-color: var(--ink);
+  transform: translateY(-1px);
 }
 
 .coffee-link svg {
@@ -427,4 +441,26 @@ footer {
 
 .top-link span {
   margin-left: 5px;
+}
+
+.social-icon-link {
+  width: 39px;
+  height: 39px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  display: inline-grid;
+  place-items: center;
+  color: var(--ink);
+  background: var(--surface);
+}
+
+.social-icon-link svg {
+  width: 18px;
+  height: 18px;
+}
+
+.x-icon-link {
+  color: #ffffff;
+  border-color: #090909;
+  background: #090909;
 }

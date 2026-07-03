@@ -20,6 +20,7 @@
       <a href="${root}index.html#reports">${window.t("nav.reports")}</a>
       <a href="${root}index.html#pricing">${window.t("nav.pricing")}</a>
       <a href="${root}index.html#faq">${window.t("nav.faq")}</a>
+      <a href="${root}updates/index.html">${window.t("nav.social")}</a>
       
       <!-- Desktop Dropdown: Compare -->
       <div class="nav-dropdown">
@@ -81,6 +82,7 @@
         <a href="${root}index.html#reports">${window.t("nav.reports")}</a>
         <a href="${root}index.html#pricing">${window.t("nav.pricing")}</a>
         <a href="${root}index.html#faq">${window.t("nav.faq")}</a>
+        <a href="${root}updates/index.html">${window.t("nav.social")}</a>
         
         <!-- Mobile Accordion: Compare -->
         <div class="mobile-accordion">

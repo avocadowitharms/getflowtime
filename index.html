@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data: https://flowtime-app.com https://developer.apple.com https://play.google.com; script-src 'self' https://plausible.io 'unsafe-inline' https://groot.mailerlite.com; style-src 'self' 'unsafe-inline'; connect-src 'self' https://plausible.io https://assets.mailerlite.com; form-action 'self' https://assets.mailerlite.com; upgrade-insecure-requests" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data: https://flowtime-app.com https://images.weserv.nl https://*.twitter.com https://*.twimg.com https://*.threads.net https://*.instagram.com https://*.cdninstagram.com https://*.bsky.app https://*.licdn.com https://developer.apple.com https://play.google.com; script-src 'self' https://plausible.io 'unsafe-inline' https://groot.mailerlite.com; style-src 'self' 'unsafe-inline'; connect-src 'self' https://plausible.io https://assets.mailerlite.com; frame-src 'self' https://www.instagram.com; form-action 'self' https://assets.mailerlite.com; upgrade-insecure-requests" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()" />
   <title>Flowtime – Focus Better</title>
@@ -144,6 +144,7 @@
     plausible.init()
   </script>
   <script src="scripts/conversion-analytics.js"></script>
+  <script src="data/social-updates.js"></script>
 </head>
 <body id="top" data-theme="mono">
   <div id="site-header"></div>
@@ -161,6 +162,7 @@
     <div id="onboarding"></div>
     <div id="reports"></div>
     <div id="pricing"></div>
+    <div id="social"></div>
     <div id="faq">
       <section class="section faq">
         <h2>Frequently Asked Questions</h2>
@@ -195,6 +197,7 @@
   <script src="sections/onboarding.js"></script>
   <script src="sections/reports.js"></script>
   <script src="sections/pricing.js"></script>
+  <script src="sections/social.js"></script>
   <script src="sections/faq.js"></script>
   <script src="sections/download-panel.js"></script>
   <script src="sections/footer.js"></script>
