@@ -29,7 +29,7 @@ const SocialImporter = {
     if (this.hostnameMatches(hostname, ['x.com', 'twitter.com'])) {
       return 'x';
     }
-    if (this.hostnameMatches(hostname, ['threads.net'])) {
+    if (this.hostnameMatches(hostname, ['threads.com', 'threads.net'])) {
       return 'threads';
     }
     if (this.hostnameMatches(hostname, ['instagram.com'])) {
