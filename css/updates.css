@@ -146,6 +146,11 @@ body[data-theme="classic"] .platform-badge[data-platform="threads"] {
   display: block;
 }
 
+.embed-container img {
+  width: 100%;
+  display: block;
+}
+
 /* ==========================================================================
    Admin Social Library Dashboard Styles
    ========================================================================== */

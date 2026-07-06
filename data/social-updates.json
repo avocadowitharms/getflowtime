@@ -90,21 +90,39 @@
     "updatedAt": "2026-07-04T18:30:13.877Z"
   },
   {
-    "id": "update_1783323269043_zofs5llwx",
+    "id": "update_1783323497267_7ikxcp07m",
     "title": "Project Groups are coming to Flowtime.",
     "slug": "update-from-threads-daajnxocgpd",
     "description": "",
     "body": "Project Groups are coming to Flowtime.\nOrganize projects into categories and use ready-made templates to get started faster.\nStill in development.",
     "platform": "threads",
-    "status": "imported",
-    "originalUrl": "http://threads.com/@avadazina/post/DaajnxoCGPD",
+    "status": "published",
+    "originalUrl": "https://www.threads.com/@avadazina/post/DaajnxoCGPD",
     "externalPostId": "DaajnxoCGPD",
     "tags": [
       "threads"
     ],
     "thumbnailUrl": null,
-    "publishedAt": null,
-    "createdAt": "2026-07-06T07:34:29.043Z",
-    "updatedAt": "2026-07-06T07:34:51.483Z"
+    "publishedAt": "2026-07-05T07:48:00.000Z",
+    "createdAt": "2026-07-06T07:38:17.267Z",
+    "updatedAt": "2026-07-06T07:50:22.721Z"
+  },
+  {
+    "id": "update_1783324129969_w1kbjlni9",
+    "title": "Your focus deserves more than just a timer.",
+    "slug": "update-from-threads-datu3hnilde",
+    "description": "",
+    "body": "Your focus deserves more than just a timer.\nFlow Sessions combine customizable timers, app blocking, and reminders into a single workflow, helping you stay focused from start to finish. ",
+    "platform": "threads",
+    "status": "published",
+    "originalUrl": "https://www.threads.com/@avadazina/post/DaTU3hniLDE",
+    "externalPostId": "DaTU3hniLDE",
+    "tags": [
+      "threads"
+    ],
+    "thumbnailUrl": null,
+    "publishedAt": "2026-07-06T07:50:33.098Z",
+    "createdAt": "2026-07-06T07:48:49.969Z",
+    "updatedAt": "2026-07-06T07:50:33.098Z"
   }
 ]

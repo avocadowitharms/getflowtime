@@ -187,6 +187,21 @@
     }
   }
 
+  function getThreadsEmbedHtml(update) {
+    const safeOriginalUrl = getSafeHttpUrl(update.originalUrl);
+    if (!safeOriginalUrl || update.platform !== 'threads') return '';
+    return `<blockquote class="text-post-media" data-text-post-permalink="${escapeHtml(safeOriginalUrl)}" data-text-post-version="0"><a href="${escapeHtml(safeOriginalUrl)}" target="_blank" rel="noopener noreferrer"></a></blockquote>`;
+  }
+
+  function loadThreadsEmbed() {
+    document.querySelectorAll('script[data-flowtime-threads-embed]').forEach(script => script.remove());
+    const script = document.createElement('script');
+    script.async = true;
+    script.dataset.flowtimeThreadsEmbed = 'true';
+    script.src = `https://www.threads.com/embed.js?refresh=${Date.now()}`;
+    document.body.appendChild(script);
+  }
+
   // 4. Client-side Markdown-to-HTML parser (matches updates.js)
   function parseMarkdownToHtml(markdown) {
     if (!markdown) return '';
@@ -334,14 +349,36 @@
           break;
       }
 
+      const safeThumbnailUrl = getSafeHttpUrl(update.thumbnailUrl);
       if (iframeSrc) {
         previewEmbedWrapper.innerHTML = `<iframe src="${escapeHtml(iframeSrc)}" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" allowfullscreen loading="lazy" scrolling="no"></iframe>`;
         previewEmbedWrapper.hidden = false;
+      } else if (safeThumbnailUrl) {
+        previewEmbedWrapper.innerHTML = `<img src="${escapeHtml(safeThumbnailUrl)}" alt="" loading="lazy" decoding="async" />`;
+        previewEmbedWrapper.hidden = false;
+      } else if (update.platform === 'threads') {
+        const threadsEmbedHtml = getThreadsEmbedHtml(update);
+        previewEmbedWrapper.innerHTML = threadsEmbedHtml;
+        previewEmbedWrapper.hidden = !threadsEmbedHtml;
+        if (threadsEmbedHtml) loadThreadsEmbed();
       } else {
+        previewEmbedWrapper.innerHTML = '';
         previewEmbedWrapper.hidden = true;
       }
     } else {
-      previewEmbedWrapper.hidden = true;
+      const safeThumbnailUrl = getSafeHttpUrl(update.thumbnailUrl);
+      if (safeThumbnailUrl) {
+        previewEmbedWrapper.innerHTML = `<img src="${escapeHtml(safeThumbnailUrl)}" alt="" loading="lazy" decoding="async" />`;
+        previewEmbedWrapper.hidden = false;
+      } else if (update.platform === 'threads') {
+        const threadsEmbedHtml = getThreadsEmbedHtml(update);
+        previewEmbedWrapper.innerHTML = threadsEmbedHtml;
+        previewEmbedWrapper.hidden = !threadsEmbedHtml;
+        if (threadsEmbedHtml) loadThreadsEmbed();
+      } else {
+        previewEmbedWrapper.innerHTML = '';
+        previewEmbedWrapper.hidden = true;
+      }
     }
 
     // Original URL
