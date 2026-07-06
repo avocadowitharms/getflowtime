@@ -88,5 +88,23 @@
     "publishedAt": "2026-07-04T18:30:13.877Z",
     "createdAt": "2026-07-04T18:29:34.560Z",
     "updatedAt": "2026-07-04T18:30:13.877Z"
+  },
+  {
+    "id": "update_1783323269043_zofs5llwx",
+    "title": "Project Groups are coming to Flowtime.",
+    "slug": "update-from-threads-daajnxocgpd",
+    "description": "",
+    "body": "Project Groups are coming to Flowtime.\nOrganize projects into categories and use ready-made templates to get started faster.\nStill in development.",
+    "platform": "threads",
+    "status": "imported",
+    "originalUrl": "http://threads.com/@avadazina/post/DaajnxoCGPD",
+    "externalPostId": "DaajnxoCGPD",
+    "tags": [
+      "threads"
+    ],
+    "thumbnailUrl": null,
+    "publishedAt": null,
+    "createdAt": "2026-07-06T07:34:29.043Z",
+    "updatedAt": "2026-07-06T07:34:51.483Z"
   }
 ]

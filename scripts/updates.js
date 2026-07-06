@@ -473,9 +473,6 @@
         case 'instagram':
           iframeSrc = `https://www.instagram.com/p/${encodeURIComponent(update.externalPostId)}/embed/captioned/`;
           break;
-        case 'threads':
-          iframeSrc = `https://www.threads.net/embed/post/${encodeURIComponent(update.externalPostId)}`;
-          break;
         case 'linkedin':
           iframeSrc = `https://www.linkedin.com/embed/feed/update/urn:li:share:${encodeURIComponent(update.externalPostId)}`;
           break;
