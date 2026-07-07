@@ -124,5 +124,41 @@ window.FlowtimeUpdatesData = [
     "publishedAt": "2026-07-06T07:50:33.098Z",
     "createdAt": "2026-07-06T07:48:49.969Z",
     "updatedAt": "2026-07-06T07:50:33.098Z"
+  },
+  {
+    "id": "update_1783425598505_bnjny6txi",
+    "title": "Quick Templates!",
+    "slug": "update-from-threads-daevls7cadz",
+    "description": "",
+    "body": "Stop setting up the same timer every day.\nSave your favorite focus sessions as templates and start them with a single tap.",
+    "platform": "threads",
+    "status": "published",
+    "originalUrl": "https://www.threads.com/@avadazina/post/Daevls7CAdZ",
+    "externalPostId": "Daevls7CAdZ",
+    "tags": [
+      "threads"
+    ],
+    "thumbnailUrl": null,
+    "publishedAt": "2026-07-07T12:00:31.068Z",
+    "createdAt": "2026-07-07T11:59:58.505Z",
+    "updatedAt": "2026-07-07T12:00:31.068Z"
+  },
+  {
+    "id": "update_1783425646097_byvsph0vr",
+    "title": "Bugs? Bugs!",
+    "slug": "update-from-threads-dacv7xwiclz",
+    "description": "",
+    "body": "Yesterday's bug:\nWhen a Flow Session finished, instead of stopping at 00:00, the timer just kept counting. Could that be a feature? ",
+    "platform": "threads",
+    "status": "published",
+    "originalUrl": "https://www.threads.com/@avadazina/post/DacV7xWiCLZ",
+    "externalPostId": "DacV7xWiCLZ",
+    "tags": [
+      "threads"
+    ],
+    "thumbnailUrl": null,
+    "publishedAt": "2026-07-07T12:01:29.221Z",
+    "createdAt": "2026-07-07T12:00:46.097Z",
+    "updatedAt": "2026-07-07T12:01:29.221Z"
   }
 ];
