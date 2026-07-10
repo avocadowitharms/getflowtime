@@ -160,5 +160,23 @@ window.FlowtimeUpdatesData = [
     "publishedAt": "2026-07-07T12:01:29.221Z",
     "createdAt": "2026-07-07T12:00:46.097Z",
     "updatedAt": "2026-07-07T12:01:29.221Z"
+  },
+  {
+    "id": "update_1783670730917_ifj1f8kmx",
+    "title": "Make it yours!",
+    "slug": "update-from-instagram-damodaqtqz_",
+    "description": "",
+    "body": "More colors are coming to Flowtime, allowing for even more customization!\n\nThe next update lets you customize the app\u2019s accent color.\n(Available with the Classic Theme.)",
+    "platform": "instagram",
+    "status": "published",
+    "originalUrl": "https://www.instagram.com/p/DamoDAqtqz_/",
+    "externalPostId": "DamoDAqtqz_",
+    "tags": [
+      "instagram"
+    ],
+    "thumbnailUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FDamoDAqtqz_%2Fmedia%2F%3Fsize%3Dl",
+    "publishedAt": "2026-07-10T08:05:56.048Z",
+    "createdAt": "2026-07-10T08:05:30.917Z",
+    "updatedAt": "2026-07-10T08:05:56.048Z"
   }
 ];
