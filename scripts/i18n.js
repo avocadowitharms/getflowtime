@@ -9,8 +9,8 @@
   window.localStorage.setItem(storageKey, locale);
   var copy = {
     en: {
-      "meta.title": "Flowtime – Focus Better",
-      "meta.description": "Flowtime is a minimalist focus timer and time tracker for Pomodoro sessions, Flow Sessions, projects, reminders, analytics, and privacy-first productivity.",
+      "meta.title": "Flowtime - ADHD Focus Timer and Time Tracker",
+      "meta.description": "Flowtime is a flexible focus timer, time tracker, and app blocker for ADHD brains that lose track of time, plus work, study, Pomodoro, and deep focus sessions.",
       "meta.og.image.alt": "Flowtime focus timer and time tracker preview",
       "a11y.home": "Flowtime home",
       "a11y.nav": "Main navigation",
@@ -40,18 +40,19 @@
       "cta.waitlist.long": "Subscribe for news",
       "cta.appstore": "Download on the App Store",
       "cta.playstore": "Get it on Google Play",
-      "hero.eyebrow": "Focus. Your way.",
-      "hero.title": "Focus better.",
-      "hero.description": "Minimal time tracking, flexible projects and clear insights for focused work without distractions.",
+      "hero.eyebrow": "Time awareness for real focus",
+      "hero.title": "A focus timer for ADHD time blindness.",
+      "hero.description": "Start when you need to focus. Get gentle reminders when you've disappeared too deep. Block the apps that hijack your attention.",
+      "hero.category": "A flexible focus timer, time tracker, and app blocker for work, study, and intentional breaks.",
       "hero.benefits": "Flowtime benefits",
-      "hero.timerCard.title": "Minimal timers",
-      "hero.timerCard.text": "Start without clutter.",
-      "hero.projects.title": "Simple projects",
-      "hero.projects.text": "Keep it effortless.",
-      "hero.history.title": "Clear history",
-      "hero.history.text": "See your focus.",
-      "hero.privacy.title": "Privacy first",
-      "hero.privacy.text": "Your data stays yours.",
+      "hero.timerCard.title": "Time awareness",
+      "hero.timerCard.text": "Keep session time visible.",
+      "hero.projects.title": "Flexible boundaries",
+      "hero.projects.text": "Stop, continue, or switch.",
+      "hero.history.title": "Gentle reminders",
+      "hero.history.text": "Check in without a shove.",
+      "hero.privacy.title": "App blocking",
+      "hero.privacy.text": "Reduce attention hijacking.",
       "hero.rotate": "Rotate phone to try the timer",
       "hero.timer.start": "Start timer",
       "hero.timer.resume": "Resume timer",
@@ -65,14 +66,14 @@
       "launch.title": "Now available on the App Store and Google Play",
       "launch.description": "Flowtime is live for iPhone and Android. Thank you for being here at the start.",
       "focus.eyebrow": "Focus modes",
-      "focus.title": "Three ways to focus.",
-      "focus.description": "Choose the timer that fits your workflow - classic tracking, structured Pomodoro sessions, or Flow Sessions with a target duration.",
+      "focus.title": "Focus without one rigid rhythm.",
+      "focus.description": "Use a classic focus timer, Pomodoro timer, or flexible Flow Session for work, study, deep focus, and intentional breaks.",
       "focus.classic.title": "Classic Timer",
       "focus.classic.text": "Simple, intuitive time tracking.",
       "focus.pomodoro.title": "Pomodoro",
       "focus.pomodoro.text": "Stay structured with work intervals.",
       "focus.flow.title": "Flow Session",
-      "focus.flow.text": "Set a target duration and keep working.",
+      "focus.flow.text": "Set a target duration, get reminders, and decide when to stop.",
       "styles.eyebrow": "Styles",
       "styles.title": "Your productivity.<br />Your style.",
       "styles.description": "Switch between Classic and Mono at any time.",
@@ -155,9 +156,9 @@
       "faq.eyebrow": "FAQ",
       "faq.title": "Frequently Asked Questions",
       "faq.what.q": "What is Flowtime?",
-      "faq.what.a": "Flowtime is a minimalist focus timer and time tracker for iPhone and Android. It supports a standard timer, Flow Sessions, Pomodoro, projects, reminders, history, reports, and privacy-first personal productivity.",
+      "faq.what.a": "Flowtime is a flexible focus timer, time tracker, and app blocker for iPhone and Android. It supports a standard timer, Flow Sessions, Pomodoro, projects, reminders, history, reports, and privacy-first personal productivity.",
       "faq.who.q": "Who is Flowtime for?",
-      "faq.who.a": "Flowtime is for people who want to understand where focused time goes without managing a heavy workspace. It fits students, freelancers, developers, writers, researchers, and anyone who prefers simple personal time tracking.",
+      "faq.who.a": "Flowtime is for people who want to make focused time visible without managing a heavy workspace. It can be especially useful for ADHD brains that benefit from external time cues, and it still fits students, freelancers, developers, writers, researchers, and anyone who prefers simple personal time tracking.",
       "faq.adhd.q": "Is Flowtime good for ADHD?",
       "faq.adhd.a": "Flowtime can help people who benefit from external time cues, gentle reminders, visible sessions, and low-friction project switching. It is not a medical tool, but it is designed to keep focus tracking simple and non-punishing.",
       "faq.pomodoro.diff.q": "How is Flowtime different from Pomodoro?",
@@ -184,8 +185,8 @@
       "faq.pro.appearance": "Break tracking and timer ring color customization",
       "faq.beta.q": "Where can I download Flowtime?",
       "faq.beta.a": "Flowtime is available on the App Store for iPhone and on Google Play for Android.",
-      "download.title": "Ready to enter flow?",
-      "download.description": "Start tracking your focus with a simple, minimal experience designed for focused work and everyday productivity.",
+      "download.title": "Download Flowtime",
+      "download.description": "Use a calm focus timer, time tracker, and app blocker for work, study, Pomodoro sessions, deep focus, and intentional breaks.",
       "modal.close": "Close",
       "waitlist.close": "Close news subscription",
       "waitlist.eyebrow": "News",
@@ -209,7 +210,7 @@
       "footer.top": "Back to top"
     },
     de: {
-      "meta.title": "Flowtime – Focus Better",
+      "meta.title": "Flowtime - ADHD Focus Timer and Time Tracker",
       "meta.description": "Flowtime ist ein minimalistischer Fokus-Timer und Time Tracker für Pomodoro-Sessions, Flow Sessions, Projekte, Erinnerungen, Analytics und datenschutzfreundliche Produktivität.",
       "meta.og.image.alt": "Flowtime Fokus-Timer und Time-Tracker-Vorschau",
       "a11y.home": "Flowtime Startseite",
@@ -240,18 +241,19 @@
       "cta.waitlist.long": "News abonnieren",
       "cta.appstore": "Im App Store laden",
       "cta.playstore": "Bei Google Play laden",
-      "hero.eyebrow": "Fokus. Auf deine Art.",
-      "hero.title": "Besser fokussieren.",
-      "hero.description": "Minimalistisches Time Tracking, flexible Projekte und klare Einblicke für konzentriertes Arbeiten ohne Ablenkung.",
+      "hero.eyebrow": "Zeitwahrnehmung für echten Fokus",
+      "hero.title": "Ein Fokus-Timer für ADHS und Zeitblindheit.",
+      "hero.description": "Starte, wenn du dich konzentrieren musst. Bekomme sanfte Erinnerungen, wenn du zu tief abgetaucht bist. Blockiere Apps, die deine Aufmerksamkeit kapern.",
+      "hero.category": "Ein flexibler Fokus-Timer, Time Tracker und App-Blocker für Arbeit, Lernen und bewusste Pausen.",
       "hero.benefits": "Vorteile von Flowtime",
-      "hero.timerCard.title": "Minimalistische Timer",
-      "hero.timerCard.text": "Ohne Ablenkung starten.",
-      "hero.projects.title": "Einfache Projekte",
-      "hero.projects.text": "Ganz mühelos.",
-      "hero.history.title": "Klare Historie",
-      "hero.history.text": "Sieh deinen Fokus.",
-      "hero.privacy.title": "Datenschutz zuerst",
-      "hero.privacy.text": "Deine Daten bleiben deine.",
+      "hero.timerCard.title": "Zeitwahrnehmung",
+      "hero.timerCard.text": "Session-Zeit sichtbar halten.",
+      "hero.projects.title": "Flexible Grenzen",
+      "hero.projects.text": "Stoppen, weitermachen oder wechseln.",
+      "hero.history.title": "Sanfte Erinnerungen",
+      "hero.history.text": "Check-ins ohne Druck.",
+      "hero.privacy.title": "App-Blocking",
+      "hero.privacy.text": "Weniger Aufmerksamkeits-Hijacking.",
       "hero.rotate": "Handy drehen, um den Timer auszuprobieren",
       "hero.timer.start": "Timer starten",
       "hero.timer.resume": "Timer fortsetzen",
@@ -409,7 +411,7 @@
       "footer.top": "Nach oben"
     },
     fr: {
-      "meta.title": "Flowtime – Focus Better",
+      "meta.title": "Flowtime - ADHD Focus Timer and Time Tracker",
       "meta.description": "Flowtime est un minuteur de concentration et un outil de time tracking minimaliste pour Pomodoro, Flow Sessions, projets, rappels, analytics et productivité respectueuse de la vie privée.",
       "meta.og.image.alt": "Aperçu du minuteur de concentration et du time tracker Flowtime",
       "a11y.home": "Accueil Flowtime",
@@ -440,18 +442,19 @@
       "cta.waitlist.long": "S'abonner aux nouvelles",
       "cta.appstore": "Telecharger dans l'App Store",
       "cta.playstore": "Disponible sur Google Play",
-      "hero.eyebrow": "Concentrez-vous. À votre façon.",
-      "hero.title": "Concentrez-vous mieux.",
-      "hero.description": "Du time tracking minimaliste, des projets flexibles et des analyses claires pour travailler sans distraction.",
+      "hero.eyebrow": "Perception du temps pour une vraie concentration",
+      "hero.title": "Un minuteur pour le TDAH et la notion du temps.",
+      "hero.description": "Commencez quand vous devez vous concentrer. Recevez des rappels doux quand vous êtes parti trop loin. Bloquez les apps qui détournent votre attention.",
+      "hero.category": "Un minuteur de concentration flexible, un time tracker et un bloqueur d'apps pour le travail, les études et les pauses intentionnelles.",
       "hero.benefits": "Avantages de Flowtime",
-      "hero.timerCard.title": "Minuteurs minimalistes",
-      "hero.timerCard.text": "Démarrez sans distraction.",
-      "hero.projects.title": "Projets simples",
-      "hero.projects.text": "Sans effort.",
-      "hero.history.title": "Historique clair",
-      "hero.history.text": "Visualisez votre concentration.",
-      "hero.privacy.title": "Confidentialité d'abord",
-      "hero.privacy.text": "Vos données restent les vôtres.",
+      "hero.timerCard.title": "Perception du temps",
+      "hero.timerCard.text": "Gardez la session visible.",
+      "hero.projects.title": "Limites flexibles",
+      "hero.projects.text": "Arrêter, continuer ou changer.",
+      "hero.history.title": "Rappels doux",
+      "hero.history.text": "Des check-ins sans pression.",
+      "hero.privacy.title": "Blocage d'apps",
+      "hero.privacy.text": "Réduisez le détournement de l'attention.",
       "hero.rotate": "Faire pivoter le téléphone pour essayer le minuteur",
       "hero.timer.start": "Démarrer le minuteur",
       "hero.timer.resume": "Reprendre le minuteur",
@@ -618,6 +621,71 @@
     return value;
   }
 
+
+  var staticPageTranslations = {
+    en: {
+      "positioning.eyebrow": "Does this sound familiar?",
+      "positioning.title": "Time can vanish quietly.",
+      "positioning.description": "Flowtime is built for the ordinary moments when attention drifts, stretches, or gets pulled somewhere else.",
+      "positioning.time.title": "Time blindness",
+      "positioning.time.text": "You start one task and suddenly hours have passed. A visible session timer and gentle reminders make passing time easier to notice.",
+      "positioning.hyperfocus.title": "Hyperfocus",
+      "positioning.hyperfocus.text": "Getting focused is not always the problem. Sometimes stopping is. Flow Sessions create flexible boundaries without forcing a break at the wrong moment.",
+      "positioning.hijacking.title": "Attention hijacking",
+      "positioning.hijacking.text": "One notification becomes twenty minutes of unrelated scrolling. App blocking helps protect intentional focus periods and reduce context switching.",
+      "positioning.rigid.title": "Rigid timers",
+      "positioning.rigid.text": "Pomodoro can help, but a fixed interval can interrupt your best work. Flowtime supports Pomodoro and flexible focus sessions.",
+      "founder.eyebrow": "Why Flowtime exists",
+      "founder.title": "I started using a focus timer to stop focusing.",
+      "founder.p1": "I have ADHD, and during intense hyperfocus I can spend weeks mentally stuck on work, features, UI details, or whatever my brain has decided matters. Even when I stop working physically, my brain often keeps going.",
+      "founder.p2": "Flowtime began as a way to focus longer. Over time, it also became a way to unfocus on purpose. Sometimes I start a one-hour FlowSession, block distracting apps, and go for a walk with my dog. Knowing the timer is running and the usual apps are unavailable makes it easier to be present instead of repeatedly checking my phone or thinking about work.",
+      "founder.p3": "That is not a medical promise. It is one personal reason Flowtime is built around visible time, gentle reminders, flexible sessions, and fewer distractions."
+    },
+    de: {
+      "positioning.eyebrow": "Kommt dir das bekannt vor?",
+      "positioning.title": "Zeit kann leise verschwinden.",
+      "positioning.description": "Flowtime ist f\u00fcr die allt\u00e4glichen Momente gebaut, in denen Aufmerksamkeit abschweift, sich ausdehnt oder woanders hingezogen wird.",
+      "positioning.time.title": "Time-Blindness",
+      "positioning.time.text": "Du beginnst eine Aufgabe und pl\u00f6tzlich sind Stunden vergangen. Ein sichtbarer Session-Timer und sanfte Erinnerungen machen vergehende Zeit leichter bemerkbar.",
+      "positioning.hyperfocus.title": "Hyperfokus",
+      "positioning.hyperfocus.text": "In den Fokus zu kommen ist nicht immer das Problem. Manchmal ist es das Aufh\u00f6ren. Flow Sessions schaffen flexible Grenzen, ohne dich im falschen Moment herauszurei\u00dfen.",
+      "positioning.hijacking.title": "Aufmerksamkeits-Hijacking",
+      "positioning.hijacking.text": "Eine Benachrichtigung wird zu zwanzig Minuten Scrollen. App-Blocking sch\u00fctzt bewusste Fokuszeiten und reduziert Context Switching.",
+      "positioning.rigid.title": "Starre Timer",
+      "positioning.rigid.text": "Pomodoro kann helfen, aber ein festes Intervall kann deine beste Arbeit unterbrechen. Flowtime unterst\u00fctzt Pomodoro und flexible Fokus-Sessions.",
+      "founder.eyebrow": "Warum es Flowtime gibt",
+      "founder.title": "Ich nutze einen Fokus-Timer, um mit dem Fokussieren aufzuh\u00f6ren.",
+      "founder.p1": "Ich habe ADHS, und w\u00e4hrend intensiver Hyperfokus-Phasen kann ich wochenlang gedanklich an Arbeit, Features, UI-Details oder dem h\u00e4ngen, was mein Gehirn gerade wichtig findet. Selbst wenn ich k\u00f6rperlich aufh\u00f6re zu arbeiten, macht mein Kopf oft weiter.",
+      "founder.p2": "Flowtime begann als M\u00f6glichkeit, l\u00e4nger zu fokussieren. Mit der Zeit wurde es auch eine M\u00f6glichkeit, absichtlich zu ent-fokussieren. Manchmal starte ich eine einst\u00fcndige FlowSession, blockiere ablenkende Apps und gehe mit meinem Hund spazieren. Zu wissen, dass der Timer l\u00e4uft und die \u00fcblichen Apps nicht verf\u00fcgbar sind, macht es leichter, pr\u00e4sent zu sein, statt st\u00e4ndig aufs Handy zu schauen oder an Arbeit zu denken.",
+      "founder.p3": "Das ist kein medizinisches Versprechen. Es ist ein pers\u00f6nlicher Grund, warum Flowtime um sichtbare Zeit, sanfte Erinnerungen, flexible Sessions und weniger Ablenkung gebaut ist."
+    },
+    fr: {
+      "positioning.eyebrow": "Cela vous parle ?",
+      "positioning.title": "Le temps peut dispara\u00eetre sans bruit.",
+      "positioning.description": "Flowtime est con\u00e7u pour ces moments ordinaires o\u00f9 l'attention d\u00e9rive, s'\u00e9tire ou se fait happer ailleurs.",
+      "positioning.time.title": "Time blindness",
+      "positioning.time.text": "Vous commencez une t\u00e2che et soudain des heures ont pass\u00e9. Un minuteur visible et des rappels doux rendent le temps qui passe plus perceptible.",
+      "positioning.hyperfocus.title": "Hyperfocus",
+      "positioning.hyperfocus.text": "Se concentrer n'est pas toujours le probl\u00e8me. Parfois, c'est s'arr\u00eater. Les Flow Sessions cr\u00e9ent des limites flexibles sans imposer une pause au mauvais moment.",
+      "positioning.hijacking.title": "D\u00e9tournement de l'attention",
+      "positioning.hijacking.text": "Une notification devient vingt minutes de scrolling. Le blocage d'apps aide \u00e0 prot\u00e9ger les p\u00e9riodes de concentration intentionnelle et \u00e0 r\u00e9duire les changements de contexte.",
+      "positioning.rigid.title": "Minuteurs rigides",
+      "positioning.rigid.text": "Pomodoro peut aider, mais un intervalle fixe peut interrompre votre meilleur travail. Flowtime prend en charge Pomodoro et les sessions flexibles.",
+      "founder.eyebrow": "Pourquoi Flowtime existe",
+      "founder.title": "J'utilise un minuteur de concentration pour arr\u00eater de me concentrer.",
+      "founder.p1": "J'ai un TDAH, et pendant les phases d'hyperfocus intense, je peux rester mentalement bloqu\u00e9e pendant des semaines sur le travail, les fonctionnalit\u00e9s, les d\u00e9tails d'interface ou ce que mon cerveau a d\u00e9cid\u00e9 de trouver important. M\u00eame quand j'arr\u00eate physiquement de travailler, mon cerveau continue souvent.",
+      "founder.p2": "Flowtime a commenc\u00e9 comme une fa\u00e7on de me concentrer plus longtemps. Avec le temps, c'est aussi devenu une fa\u00e7on de d\u00e9crocher volontairement. Parfois, je lance une FlowSession d'une heure, je bloque les apps distrayantes et je vais promener mon chien. Savoir que le minuteur tourne et que les apps habituelles sont indisponibles m'aide \u00e0 \u00eatre pr\u00e9sente au lieu de v\u00e9rifier mon t\u00e9l\u00e9phone ou de penser au travail.",
+      "founder.p3": "Ce n'est pas une promesse m\u00e9dicale. C'est une raison personnelle pour laquelle Flowtime est construit autour du temps visible, de rappels doux, de sessions flexibles et de moins de distractions."
+    }
+  };
+
+  Object.keys(staticPageTranslations).forEach(function (loc) {
+    copy[loc] = copy[loc] || {};
+    Object.keys(staticPageTranslations[loc]).forEach(function (key) {
+      copy[loc][key] = staticPageTranslations[loc][key];
+    });
+  });
+
   function setLocale(nextLocale) {
     if (supported.indexOf(nextLocale) < 0 || nextLocale === locale) {
       return;
@@ -689,8 +757,19 @@
     }
   }
 
+  function localizeStaticText() {
+    document.querySelectorAll("[data-i18n]").forEach(function (element) {
+      var key = element.getAttribute("data-i18n");
+      var value = t(key);
+      if (value && value !== key) {
+        element.textContent = value;
+      }
+    });
+  }
+
   document.documentElement.lang = locale;
   localizeMetadata();
+  localizeStaticText();
   window.flowtimeLocale = locale;
   window.t = t;
   window.setFlowtimeLocale = setLocale;
@@ -703,14 +782,17 @@
 
   // Dynamically load blog localization script if needed
   var isBlogPage = !!(document.body.dataset.blogCategory || document.querySelector(".blog-article") || document.querySelector("[data-blog-grid]"));
-  if (isBlogPage && locale !== "en") {
+  if (isBlogPage && locale !== "en" && !window.flowtimeBlogI18nLoading && !window.flowtimeTranslateBlog) {
+    window.flowtimeBlogI18nLoading = true;
     var script = document.createElement("script");
     script.src = (window.flowtimeRoot || "") + "scripts/blog-i18n-data.js";
     script.onload = function() {
+      window.flowtimeBlogI18nLoading = false;
       if (window.flowtimeTranslateBlog) {
         window.flowtimeTranslateBlog(locale);
       }
     };
+    script.onerror = function() { window.flowtimeBlogI18nLoading = false; };
     document.head.appendChild(script);
   }
 }());

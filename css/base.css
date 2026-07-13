@@ -16,15 +16,24 @@
 }
 
 html {
+  overflow-x: clip;
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   color: var(--ink);
+  overflow-x: clip;
   background: var(--background);
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
   transition: color 180ms ease, background-color 180ms ease;
+}
+
+@supports not (overflow: clip) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
 }
 
 body.has-modal {
@@ -84,6 +93,12 @@ footer {
 
 .section {
   padding: 54px 0 0;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 720px;
+}
+
+.hero {
+  content-visibility: visible;
 }
 
 .section-heading {
@@ -125,6 +140,7 @@ p {
 }
 
 .logo-swap img,
+.theme-shot,
 .theme-shot-mono,
 .theme-shot-classic {
   grid-area: 1 / 1;
@@ -199,3 +215,94 @@ body[data-theme="classic"] .button.primary {
   border-color: #6c5ce7;
   background: #6c5ce7;
 }
+
+
+.positioning-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.positioning-grid article {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.positioning-grid h3,
+.founder-story h2 {
+  margin-top: 0;
+}
+
+.positioning-grid p,
+.founder-story p {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.founder-story {
+  max-width: 760px;
+  display: grid;
+  gap: 24px;
+  align-items: start;
+}
+
+.founder-story-copy {
+  min-width: 0;
+}
+
+.founder-story-photo {
+  margin: 0;
+  width: min(100%, 304px);
+  justify-self: start;
+}
+
+.founder-story-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 16px 34px rgba(17, 22, 32, 0.12);
+  object-fit: cover;
+}
+
+@media (min-width: 1024px) {
+  .positioning-section,
+  .founder-story {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  .positioning-section {
+    max-width: 900px;
+    justify-self: start;
+  }
+
+  .founder-story {
+    max-width: 1200px;
+    justify-self: start;
+    padding-top: 54px;
+    grid-template-columns: minmax(0, 760px) minmax(220px, 304px);
+    gap: clamp(40px, 8vw, 130px);
+  }
+
+  .founder-story-photo {
+    justify-self: end;
+    padding-top: 34px;
+  }
+
+  .positioning-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1180px) {
+  .positioning-section {
+    max-width: 760px;
+  }
+
+  .positioning-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+

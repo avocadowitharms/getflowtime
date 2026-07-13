@@ -1,0 +1,13 @@
+{
+  "name": "flowtime-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static Flowtime website preview and content generation scripts.",
+  "scripts": {
+    "dev": "node scripts/preview-server.js",
+    "preview": "node scripts/preview-server.js",
+    "build": "node scripts/render-content-pages.js && node scripts/generate-sitemap.js",
+    "render": "node scripts/render-content-pages.js",
+    "sitemap": "node scripts/generate-sitemap.js"
+  }
+}

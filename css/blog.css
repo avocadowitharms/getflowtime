@@ -806,3 +806,27 @@ body[data-theme="classic"] .pricing-card-featured {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+
+.guide-clusters {
+  width: min(calc(100% - 38px), 760px);
+  margin: 10px auto 34px;
+  display: grid;
+  gap: 12px;
+}
+
+.guide-clusters h2 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+@media (min-width: 1024px) {
+  .guide-clusters {
+    width: auto;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

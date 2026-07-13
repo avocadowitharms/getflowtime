@@ -12,6 +12,7 @@
 }
 
 .style-device {
+  min-width: 0;
   overflow: hidden;
 }
 
@@ -28,11 +29,12 @@
 }
 
 .style-phone {
-  width: 278px;
+  width: min(278px, 100%);
   height: 441px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
+  isolation: isolate;
 }
 
 .style-phone img {
@@ -41,6 +43,7 @@
   position: absolute;
   top: -34px;
   left: 0;
+  background: transparent;
 }
 
 .style-side {
@@ -85,6 +88,11 @@
 }
 
 .style-side:focus-visible {
-  outline: 2px solid var(--purple);
-  outline-offset: -4px;
+  outline: 0;
 }
+
+.style-side:focus-visible span {
+  outline: 2px solid var(--purple);
+  outline-offset: 3px;
+}
+

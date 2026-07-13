@@ -83,15 +83,29 @@ function buildPayload(eventName: string, properties: ConversionProperties): Conv
   };
 }
 
-function sendToProviders(payload: ConversionPayload): void {
-  const providerProperties = {
-    ...payload.properties,
-    ...flattenAttribution(payload.attribution),
-    page_url: payload.page.url,
-    page_path: payload.page.path,
-    page_title: payload.page.title,
-    event_timestamp: payload.timestamp,
+function isStoreClickEvent(eventName: string): boolean {
+  return eventName === "app_store_click" || eventName === "play_store_click";
+}
+
+function storeClickProperties(element: HTMLElement): ConversionProperties {
+  return {
+    source_page_type: element.dataset.sourcePageType || "other",
+    content_cluster: element.dataset.contentCluster || "general",
+    platform_target: element.dataset.platformTarget || element.dataset.analyticsPlatform,
   };
+}
+
+function sendToProviders(payload: ConversionPayload): void {
+  const providerProperties = isStoreClickEvent(payload.event)
+    ? { ...payload.properties }
+    : {
+        ...payload.properties,
+        ...flattenAttribution(payload.attribution),
+        page_url: payload.page.url,
+        page_path: payload.page.path,
+        page_title: payload.page.title,
+        event_timestamp: payload.timestamp,
+      };
 
   try {
     window.dataLayer?.push({
@@ -183,6 +197,12 @@ function attachAttributionToForm(form: HTMLFormElement): void {
 }
 
 function propertiesFromElement(element: HTMLElement): ConversionProperties {
+  const eventName = element.dataset.analyticsEvent;
+
+  if (eventName && isStoreClickEvent(eventName)) {
+    return storeClickProperties(element);
+  }
+
   return {
     platform: element.dataset.analyticsPlatform,
     location: element.dataset.analyticsLocation,

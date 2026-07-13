@@ -4,6 +4,7 @@
 }
 
 .featured-mode {
+  min-width: 0;
   min-height: 310px;
   padding: 25px 17px 22px 25px;
   position: relative;
@@ -16,6 +17,7 @@
 
 .featured-copy {
   width: calc(100% - 145px);
+  min-width: 0;
   position: relative;
   z-index: 1;
 }
@@ -72,12 +74,13 @@
 }
 
 .featured-phone {
-  width: 139px;
+  width: min(139px, 44%);
   height: 298px;
   position: absolute;
   top: 21px;
   right: 11px;
   display: grid;
+  pointer-events: none;
 }
 
 .featured-phone img {
@@ -85,6 +88,7 @@
   height: 100%;
   object-fit: contain;
   object-position: top center;
+  background: transparent;
   filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.12));
 }
 
@@ -101,3 +105,4 @@ body[data-theme="classic"] .flow-ring {
   border-top-color: #72cff2;
   border-right-color: #8d76f4;
 }
+

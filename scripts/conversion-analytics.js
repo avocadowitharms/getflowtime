@@ -54,19 +54,33 @@
     };
   }
 
+  function isStoreClickEvent(eventName) {
+    return eventName === "app_store_click" || eventName === "play_store_click";
+  }
+
+  function storeClickProperties(element) {
+    return {
+      source_page_type: element.dataset.sourcePageType || "other",
+      content_cluster: element.dataset.contentCluster || "general",
+      platform_target: element.dataset.platformTarget || element.dataset.analyticsPlatform,
+    };
+  }
+
   function sendToProviders(payload) {
-    var providerProperties = assign(
-      assign(
-        assign({}, payload.properties),
-        flattenAttribution(payload.attribution)
-      ),
-      {
-        page_url: payload.page.url,
-        page_path: payload.page.path,
-        page_title: payload.page.title,
-        event_timestamp: payload.timestamp,
-      }
-    );
+    var providerProperties = isStoreClickEvent(payload.event)
+      ? assign({}, payload.properties)
+      : assign(
+          assign(
+            assign({}, payload.properties),
+            flattenAttribution(payload.attribution)
+          ),
+          {
+            page_url: payload.page.url,
+            page_path: payload.page.path,
+            page_title: payload.page.title,
+            event_timestamp: payload.timestamp,
+          }
+        );
 
     try {
       if (window.dataLayer && window.dataLayer.push) {
@@ -159,6 +173,12 @@
   }
 
   function propertiesFromElement(element) {
+    var eventName = element.dataset.analyticsEvent;
+
+    if (isStoreClickEvent(eventName)) {
+      return storeClickProperties(element);
+    }
+
     return {
       platform: element.dataset.analyticsPlatform,
       location: element.dataset.analyticsLocation,
