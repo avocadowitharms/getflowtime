@@ -1,8 +1,8 @@
 ---
 title: "Why Pomodoro Doesn't Always Work for ADHD"
-seoTitle: "Why Pomodoro Doesn't Always Work for ADHD"
-description: "A balanced look at Pomodoro for ADHD, why fixed 25-minute intervals can help or frustrate, and when flexible focus sessions fit better."
-metaDescription: "Pomodoro can help ADHD focus, but fixed intervals do not fit every attention rhythm. Learn when flexible reminders may work better."
+seoTitle: "Pomodoro Alternative for ADHD Focus"
+description: "A balanced look at Pomodoro for ADHD, why fixed 25-minute intervals can help or frustrate, and when a flexible Pomodoro alternative fits better."
+metaDescription: "Pomodoro can help ADHD focus, but fixed intervals do not fit every attention rhythm. Learn when a flexible Pomodoro alternative may work better."
 slug: "why-pomodoro-doesnt-always-work-for-adhd"
 searchIntent: "Informational"
 primaryKeyword: "Pomodoro ADHD"
@@ -16,7 +16,7 @@ draft: false
 
 ## Summary
 
-Pomodoro can be genuinely useful for ADHD. It can also feel badly timed when focus finally arrives just before the break. The issue is not Pomodoro itself. The issue is whether fixed intervals match the work and the person.
+Pomodoro can be genuinely useful for ADHD. It can also feel badly timed when focus finally arrives just before the break. The issue is not Pomodoro itself. The issue is whether fixed intervals match the work and the person, or whether a flexible Pomodoro alternative would fit better.
 
 ## Why Pomodoro helps
 
@@ -46,9 +46,11 @@ A flexible focus session gives you a target duration and check-ins without insis
 
 That can help when you want time awareness but not a rigid stop. A reminder can ask whether you should continue, take a break, change tasks, or write down your next step.
 
+For ADHD time blindness and hyperfocus, that flexibility can matter. The timer still creates an external cue, but the cue is a decision point instead of an automatic interruption.
+
 ## How Flowtime fits
 
-Flowtime includes Pomodoro for people and tasks that benefit from fixed intervals. It also includes Flow Sessions for people who want flexible session boundaries, focus reminders, and a calmer way to notice time passing.
+Flowtime includes Pomodoro for people and tasks that benefit from fixed intervals. It also works as a flexible Pomodoro alternative for people who want session boundaries, focus reminders, and a calmer way to notice time passing.
 
 Pomodoro is not wrong. It is one tool. The useful question is whether it fits this session.
 
