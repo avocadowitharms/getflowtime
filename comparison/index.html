@@ -41,15 +41,45 @@
       "@context": "https://schema.org",
       "@graph": [
         {
+          "@type": "Person",
+          "@id": "https://flowtime-app.com/#publisher",
+          "name": "Ava Thalheim",
+          "url": "https://avathalheim.dev/",
+          "sameAs": ["https://www.instagram.com/flowtimefocus/", "https://x.com/Flowtime_app"],
+          "jobTitle": "Creator of Flowtime"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://flowtime-app.com/#website",
+          "name": "Flowtime",
+          "url": "https://flowtime-app.com/",
+          "description": "Flowtime is a focus timer and time-awareness app for iPhone and Android. It combines flexible focus sessions, Pomodoro, gentle reminders, personal time tracking, projects, and optional app blocking. It is designed especially around ADHD time blindness, hyperfocus, and reducing distracting context switches. No account is required.",
+          "publisher": { "@id": "https://flowtime-app.com/#publisher" }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://flowtime-app.com/#software",
+          "name": "Flowtime",
+          "alternateName": "Flowtime - Time Tracker",
+          "description": "Flowtime is a focus timer and time-awareness app for iPhone and Android. It combines flexible focus sessions, Pomodoro, gentle reminders, personal time tracking, projects, and optional app blocking. It is designed especially around ADHD time blindness, hyperfocus, and reducing distracting context switches. No account is required.",
+          "url": "https://flowtime-app.com/",
+          "applicationCategory": "ProductivityApplication",
+          "operatingSystem": ["iOS", "Android"],
+          "downloadUrl": [
+            "https://apps.apple.com/ch/app/flowtime/id6768056969",
+            "https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"
+          ],
+          "creator": { "@id": "https://flowtime-app.com/#publisher" },
+          "publisher": { "@id": "https://flowtime-app.com/#publisher" }
+        },
+        {
           "@type": "Blog",
           "name": "Flowtime Comparisons",
           "url": "https://flowtime-app.com/comparison/",
-          "description": "Compare Flowtime - Time Tracker with other popular focus timers and pomodoro apps.",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Flowtime",
-            "url": "https://flowtime-app.com/"
-          }
+          "description": "Flowtime comparisons with other focus timers, Pomodoro apps, and personal time tracking tools.",
+          "publisher": { "@id": "https://flowtime-app.com/#publisher" },
+          "isPartOf": { "@id": "https://flowtime-app.com/#website" },
+          "about": { "@id": "https://flowtime-app.com/#software" }
         },
         {
           "@type": "BreadcrumbList",
@@ -319,6 +349,7 @@
       <p class="blog-count" data-blog-count></p>
       <div class="blog-grid" data-blog-grid></div>
       <p class="blog-empty" data-blog-empty hidden>No breakdowns match your search.</p>
+      <p class="index-about-link"><a href="../about-flowtime/index.html">About Flowtime</a></p>
     </section>
   </main>
 

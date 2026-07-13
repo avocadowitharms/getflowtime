@@ -15,6 +15,7 @@
     </a>
     
     <nav class="site-nav" aria-label="${window.t("a11y.nav")}">
+      <a href="${root}about-flowtime/index.html">${window.t("nav.about")}</a>
       <a href="${root}index.html#focus-modes">${window.t("nav.focus")}</a>
       <a href="${root}index.html#simplicity">${window.t("nav.simplicity")}</a>
       <a href="${root}index.html#reports">${window.t("nav.reports")}</a>
@@ -77,6 +78,7 @@
     <!-- Mobile Navigation Drawer -->
     <div class="mobile-menu-drawer" aria-hidden="true" id="mobile-menu">
       <nav class="mobile-nav">
+        <a href="${root}about-flowtime/index.html">${window.t("nav.about")}</a>
         <a href="${root}index.html#focus-modes">${window.t("nav.focus")}</a>
         <a href="${root}index.html#simplicity">${window.t("nav.simplicity")}</a>
         <a href="${root}index.html#reports">${window.t("nav.reports")}</a>

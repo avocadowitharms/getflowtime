@@ -199,6 +199,7 @@
     page === "support" ? '<a class="button primary support-contact" href="mailto:avocadowitharms@gmail.com">' + language.common.email + ' <span aria-hidden="true">&rarr;</span></a>' : "",
     "</article></main>",
     '<footer class="document-footer"><span>' + language.common.copyright + "</span><nav>",
+    '<a href="../about-flowtime/index.html?lang=' + locale + '">About Flowtime</a>',
     pageLink("privacy-policy.html", language.common.privacy, "privacy"),
     pageLink("terms-of-use.html", language.common.terms, "terms"),
     pageLink("support.html", language.common.support, "support"),

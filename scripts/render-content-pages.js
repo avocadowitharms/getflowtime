@@ -1,9 +1,10 @@
 const fs = require("fs");
 const path = require("path");
+const { facts, articleSchema } = require("./entity-schema");
 
 const root = path.resolve(__dirname, "..");
-const siteUrl = "https://flowtime-app.com";
-const socialImage = `${siteUrl}/og-image.png`;
+const siteUrl = facts.siteUrl;
+const socialImage = facts.socialImageUrl;
 const categories = ["guides", "comparison"];
 
 function securityMeta() {
@@ -262,29 +263,7 @@ function renderPage(post, posts) {
   <link rel="stylesheet" href="../../style.css" />
   <link rel="stylesheet" href="../../css/blog.css" />
   <script type="application/ld+json">
-    ${safeJsonLd({
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": post.category === "guides" ? "BlogPosting" : "Article",
-          headline: post.data.title,
-          description,
-          datePublished: post.data.date,
-          dateModified: post.data.dateModified || post.data.updated || post.data.date,
-          author: { "@type": "Person", name: post.data.author || "Ava Thalheim", jobTitle: "Developer of Flowtime" },
-          publisher: { "@type": "Organization", name: "Flowtime", url: siteUrl, logo: `${siteUrl}/assets/logo-classic.png` },
-          mainEntityOfPage: url
-        },
-        {
-          "@type": "BreadcrumbList",
-          itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Flowtime", item: `${siteUrl}/` },
-            { "@type": "ListItem", position: 2, name: post.category === "guides" ? "Guides" : "Comparisons", item: `${siteUrl}/${post.category}/` },
-            { "@type": "ListItem", position: 3, name: post.data.title, item: url }
-          ]
-        }
-      ]
-    })}
+    ${safeJsonLd(articleSchema(post, url, description, socialImage, post.category === "guides" ? "BlogPosting" : "Article"))}
   </script>
   <script src="../../scripts/attribution.js"></script>
   <!-- Privacy-friendly analytics by Plausible -->
