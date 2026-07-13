@@ -2,7 +2,7 @@
 title: "How to Find Out Where Your Time Actually Goes"
 seoTitle: "How to Find Out Where Your Time Actually Goes"
 description: "A simple process for tracking time for one week, reviewing patterns, and replacing vague guesses with useful personal data."
-metaDescription: "Find out where your time actually goes with a simple one-week tracking process, broad categories, and a gentle review."
+metaDescription: "Find out where your time actually goes with a simple one-week tracking process, broad categories, and a regular review."
 slug: "how-to-find-out-where-your-time-actually-goes"
 searchIntent: "Informational"
 primaryKeyword: "where your time goes"
@@ -105,4 +105,4 @@ Start broad: work, meetings, admin, learning, personal projects, and rest. Add d
 
 Use it to adjust plans, protect focus blocks, set better expectations, and notice where your attention actually goes.
 
-Flowtime is built for this kind of gentle time awareness: start a session, keep a local history, and review your patterns when you need them.
+Flowtime is built for this kind of time awareness: start a session, keep a local history, and review your patterns when you need them.

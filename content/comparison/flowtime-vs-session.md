@@ -99,4 +99,4 @@ Flowtime has less setup because it is not centered on a full planning environmen
 
 Session may be a better fit if you want deep Apple ecosystem support.
 
-If you already have a planning system and only need a quiet way to track focus sessions, Flowtime is designed to stay small enough to fit beside your existing tools.
+If you already have a planning system and only need a low-friction way to track focus sessions, Flowtime is designed to stay small enough to fit beside your existing tools.

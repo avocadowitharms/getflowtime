@@ -67,7 +67,7 @@ Another mistake is ignoring session history. Completing intervals can feel good,
 
 Think about what usually goes wrong in your work sessions. If the problem is starting, fixed intervals may help. A 25-minute block lowers the emotional cost of beginning, and a planned break can make the task feel less endless.
 
-If the problem is interruption during deep work, fixed intervals may be less useful. You might need a longer runway, especially for coding, writing, research, or design. In that case, an open-ended timer with gentle reminders can preserve momentum while still helping you notice the time.
+If the problem is interruption during deep work, fixed intervals may be less useful. You might need a longer runway, especially for coding, writing, research, or design. In that case, an open-ended timer with focus reminders can preserve momentum while still helping you notice the time.
 
 It can also be worth using both modes at different times. Use structured intervals for admin, chores, or low-energy starts. Use flexible sessions when the work needs continuity. The best timer is the one that fits the task in front of you.
 

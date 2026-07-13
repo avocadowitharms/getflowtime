@@ -1,8 +1,8 @@
 ---
 title: "Why ADHD Makes You Lose Track of Time"
 seoTitle: "Why ADHD Makes You Lose Track of Time"
-description: "A calm guide to ADHD time blindness, why passing time can be hard to feel, and how external cues can support time awareness."
-metaDescription: "Learn what people mean by ADHD time blindness, why knowing the time is not the same as feeling it pass, and how gentle cues can help."
+description: "A practical guide to ADHD time blindness, why passing time can be hard to feel, and how external cues can support time awareness."
+metaDescription: "Learn what people mean by ADHD time blindness, why knowing the time is not the same as feeling it pass, and how time cues can help."
 slug: "why-adhd-makes-you-lose-track-of-time"
 searchIntent: "Informational"
 primaryKeyword: "ADHD time blindness"
@@ -40,7 +40,7 @@ That is why the question is not only "How do I focus?" It is also "How do I noti
 
 ## External time cues can help
 
-External cues may help some people notice passing time. They do not need to be harsh alarms. A cue can be a visible timer, a quiet reminder, a planned check-in, or a session boundary that asks: are you still doing what you meant to do?
+External cues may help some people notice passing time. They do not need to be harsh alarms. A cue can be a visible timer, a visible reminder, a planned check-in, or a session boundary that asks: are you still doing what you meant to do?
 
 The point is awareness, not punishment.
 
@@ -52,6 +52,6 @@ For ADHD time blindness, the useful part is not that an app can solve time. It c
 
 ## Keep reading
 
-If this connects with your experience, you may also like [Gentle Time Reminders for ADHD Time Blindness](/guides/gentle-time-reminders-for-adhd-time-blindness/), [ADHD Hyperfocus: How to Stop Without Killing Your Focus](/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/), and [How to Use a Focus Timer Without Interrupting Your Best Work](/guides/how-to-use-a-focus-timer-without-interrupting-your-best-work/).
+If this connects with your experience, you may also like [Time Reminders for ADHD Time Blindness](/guides/gentle-time-reminders-for-adhd-time-blindness/), [ADHD Hyperfocus: How to Stop Without Killing Your Focus](/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/), and [How to Use a Focus Timer Without Interrupting Your Best Work](/guides/how-to-use-a-focus-timer-without-interrupting-your-best-work/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.

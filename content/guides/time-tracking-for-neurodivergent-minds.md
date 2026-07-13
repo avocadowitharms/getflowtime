@@ -68,7 +68,7 @@ If you review your sessions gently, you can start to see which patterns support 
 
 ## A small experiment
 
-For one week, use time tracking only as observation. Do not try to fix every pattern immediately. Start sessions, stop them when you notice a transition, and let reminders act as gentle check-ins.
+For one week, use time tracking only as observation. Do not try to fix every pattern immediately. Start sessions, stop them when you notice a transition, and let reminders act as time check-ins.
 
 At the end of the week, look for one pattern that would make life easier if it were more visible. Maybe transitions need more buffer. Maybe long sessions need water reminders. Maybe mornings are better for complex work. Maybe a certain type of task always takes more energy than expected.
 

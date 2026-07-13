@@ -1,12 +1,12 @@
 ---
-title: "Gentle Time Reminders for ADHD Time Blindness"
-seoTitle: "Gentle Time Reminders for ADHD Time Blindness"
-description: "Why gentle reminders can work better than aggressive alarms for time awareness, hyperfocus check-ins, and flexible focus sessions."
-metaDescription: "Learn how gentle reminders, configurable intervals, and awareness cues can support ADHD time blindness without alarm fatigue."
+title: "Time Reminders for ADHD Time Blindness"
+seoTitle: "Time Reminders for ADHD Time Blindness"
+description: "Why focus reminders can work better than aggressive alarms for time awareness, hyperfocus check-ins, and flexible focus sessions."
+metaDescription: "Learn how focus reminders, configurable intervals, and awareness cues can support ADHD time blindness without alarm fatigue."
 slug: "gentle-time-reminders-for-adhd-time-blindness"
 searchIntent: "Informational"
 primaryKeyword: "ADHD time reminders"
-secondaryKeywords: ["gentle reminders for ADHD", "time blindness reminders", "focus reminders", "ADHD timer reminders"]
+secondaryKeywords: ["focus reminders for ADHD", "time blindness reminders", "focus reminders", "ADHD timer reminders"]
 date: "2026-07-13"
 author: "Ava Thalheim"
 tags: ["adhd", "time awareness", "focus"]
@@ -16,7 +16,7 @@ draft: false
 
 ## Summary
 
-A reminder does not have to be an alarm that jolts you out of the room. For ADHD time blindness, a useful reminder can be a quiet cue that helps you notice time and choose what happens next.
+A reminder does not have to be an alarm that jolts you out of the room. For ADHD time blindness, a useful reminder can be a visible cue that helps you notice time and choose what happens next.
 
 ## Why alarms can feel aggressive
 
@@ -42,7 +42,7 @@ That wording matters because many people do not need more shame around time. The
 
 ## Configurable intervals help
 
-Different sessions need different reminders. A 15-minute check-in might help during admin work. A 45-minute check-in might fit writing or study. A longer session might need one gentle reminder near the target duration.
+Different sessions need different reminders. A 15-minute check-in might help during admin work. A 45-minute check-in might fit writing or study. A longer session might need one focus reminder near the target duration.
 
 The useful interval is the one you will respect.
 

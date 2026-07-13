@@ -16,7 +16,7 @@ draft: false
 
 ## Summary
 
-The best productivity system is not always the most complete one. It is the system that supports your work quietly enough that you can keep using it after the novelty wears off.
+The best productivity system is not always the most complete one. It is the system that supports your work with low enough friction that you can keep using it after the novelty wears off.
 
 ## When productivity becomes another task
 
@@ -26,7 +26,7 @@ You start with a simple goal: remember tasks, track time, plan the week, or stay
 
 At some point, maintaining the system becomes its own project.
 
-That can be enjoyable for some people. For others, it becomes a quiet source of avoidance. Instead of doing the work, you refine the structure around the work.
+That can be enjoyable for some people. For others, it becomes a hidden source of avoidance. Instead of doing the work, you refine the structure around the work.
 
 ## Signs your system is too complicated
 
@@ -46,7 +46,7 @@ For time tracking, that might mean a timer, broad projects, session history, rem
 
 When a tool fits well, you do not think about it very much. You use it, get the benefit, and return to the work.
 
-That is the kind of simplicity I like in productivity software. Not empty simplicity, but practical simplicity. The system should be present when you need it and quiet when you do not.
+That is the kind of simplicity I like in productivity software. Not empty simplicity, but practical simplicity. The system should be present when you need it and out of the way when you do not.
 
 ## Common mistakes
 

@@ -5,12 +5,35 @@
    ========================================================================== */
 
 .updates-hero {
+  width: min(calc(100% - 38px), 760px);
+  margin-inline: auto;
   padding: 54px 0 26px;
   position: relative;
 }
 
 #updates-app {
   padding-bottom: 86px;
+  overflow-x: clip;
+}
+
+#updates-app .blog-listing,
+#updates-app .blog-article {
+  min-width: 0;
+}
+
+.updates-hero h1 {
+  margin: 0 0 16px;
+  font-size: clamp(44px, 12vw, 72px);
+  line-height: 0.98;
+  letter-spacing: -0.06em;
+}
+
+.updates-hero > p:not(.eyebrow) {
+  max-width: 640px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.58;
 }
 
 .updates-header-meta {
@@ -770,6 +793,7 @@ body[data-theme="classic"] .social-post.has-no-image div {
 
 .update-gallery-preview img,
 .update-gallery-embed {
+  max-width: 100%;
   width: 100%;
   height: 100%;
   border: 0;
@@ -782,6 +806,7 @@ body[data-theme="classic"] .social-post.has-no-image div {
 }
 
 .update-gallery-embed {
+  min-width: 0;
   pointer-events: none;
 }
 
@@ -881,6 +906,95 @@ body[data-theme="classic"] .social-post.has-no-image div {
   }
 }
 
+@media (max-width: 620px) {
+  #updates-app {
+    padding-bottom: 58px;
+  }
+
+  .updates-hero,
+  #updates-app .blog-listing,
+  #updates-app .blog-article {
+    width: min(calc(100% - 28px), 430px);
+    margin-inline: auto;
+  }
+
+  .updates-hero {
+    padding: 34px 0 22px;
+  }
+
+  .updates-hero h1 {
+    max-width: 10ch;
+    margin-bottom: 18px;
+    font-size: clamp(42px, 14vw, 56px);
+    line-height: 0.98;
+    letter-spacing: -0.05em;
+  }
+
+  .updates-hero > p:not(.eyebrow) {
+    max-width: 100%;
+    font-size: 16.5px;
+    line-height: 1.55;
+  }
+
+  #updates-app .blog-tools {
+    gap: 10px !important;
+    margin-bottom: 16px;
+  }
+
+  #updates-app .blog-search,
+  #updates-app .blog-sort {
+    min-height: 52px;
+    border-radius: 14px;
+    font-size: 16px;
+  }
+
+  #updates-app .blog-tags {
+    gap: 8px;
+  }
+
+  .updates-gallery-grid {
+    gap: 14px !important;
+  }
+
+  .update-gallery-card {
+    border-radius: 14px;
+  }
+
+  .update-gallery-preview {
+    min-height: 0;
+    aspect-ratio: 1 / 1;
+  }
+
+  .update-gallery-copy {
+    padding: 16px 16px 8px;
+  }
+
+  .update-gallery-copy h2 {
+    font-size: 22px;
+    line-height: 1.15;
+  }
+
+  .update-gallery-tags {
+    min-height: 36px;
+    padding: 0 16px 16px;
+  }
+
+  .embed-container {
+    max-width: 100%;
+    margin: 24px auto 18px;
+    border-radius: 14px;
+  }
+
+  .embed-container iframe {
+    min-height: 420px;
+  }
+
+  .update-original-link-container {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 @media (min-width: 1024px) {
   body[data-blog-category="updates"] footer {
     padding-top: 42px;

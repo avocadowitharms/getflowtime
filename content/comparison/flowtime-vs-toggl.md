@@ -101,4 +101,4 @@ No. Flowtime is designed around account-free, local-first personal tracking.
 
 Flowtime is simpler by design. Toggl Track offers more business features and therefore more setup.
 
-If you do not need a full business time tracking platform, Flowtime offers a quieter way to track focus sessions and understand where your time goes.
+If you do not need a full business time tracking platform, Flowtime offers a less cluttered way to track focus sessions and understand where your time goes.

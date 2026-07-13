@@ -10,7 +10,7 @@ Canonical URLs, Open Graph metadata, Twitter metadata, and Article/BlogPosting J
 
 Group A, core identity pages: homepage, FAQ, download panel, major feature sections. These can lead with ADHD, time blindness, hyperfocus, external time cues, reminders, and attention hijacking while preserving focus timer, time tracker, Pomodoro, and app blocker language.
 
-Group B, problem-focused educational pages: time blindness, hyperfocus, phone distraction, gentle reminders, four-hours-later, focus timer to stop focusing. These can use ADHD strongly where the search intent calls for it, with careful non-medical wording.
+Group B, problem-focused educational pages: time blindness, hyperfocus, phone distraction, focus reminders, four-hours-later, focus timer to stop focusing. These can use ADHD strongly where the search intent calls for it, with careful non-medical wording.
 
 Group C, generic category pages: simple focus timer, flexible focus timer, app blocker, focus timer vs time tracker, work/study/deep-focus content, existing workflow and privacy/time-tracking guides. These should remain broad and mention ADHD only as one use case.
 
@@ -20,7 +20,7 @@ Group E, personal founder stories: I Use a Focus Timer to Stop Focusing, Why I R
 
 ## Existing overlap findings
 
-`time-tracking-for-neurodivergent-minds` already covers neurodivergent time tracking broadly, but it does not duplicate the requested focused articles on ADHD time blindness, hyperfocus exits, phone distraction, or gentle reminders.
+`time-tracking-for-neurodivergent-minds` already covers neurodivergent time tracking broadly, but it does not duplicate the requested focused articles on ADHD time blindness, hyperfocus exits, phone distraction, or focus reminders.
 
 `sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it` overlaps with hyperfocus and stopping, but it is a broader product-design article with an established URL. The new hyperfocus and founder articles target more specific search intent and link naturally to the older piece.
 
@@ -32,7 +32,7 @@ Existing competitor comparisons were preserved because they serve generic/commer
 
 Batch 1, core differentiation: Why ADHD Makes You Lose Track of Time; ADHD Hyperfocus: How to Stop Without Killing Your Focus; I Use a Focus Timer to Stop Focusing; Why Pomodoro Doesn't Always Work for ADHD.
 
-Batch 2, high-intent problem content: Why Do I Forget Why I Unlocked My Phone; Gentle Time Reminders for ADHD Time Blindness; How I Reduce Phone Distractions When My ADHD Brain Wants to Check Everything; Do You Start Working and Suddenly It's Four Hours Later.
+Batch 2, high-intent problem content: Why Do I Forget Why I Unlocked My Phone; Time Reminders for ADHD Time Blindness; How I Reduce Phone Distractions When My ADHD Brain Wants to Check Everything; Do You Start Working and Suddenly It's Four Hours Later.
 
 Batch 3, broader SEO expansion: Focus Timer, Time Tracker, or Pomodoro App: Which One Do You Need; How to Use a Focus Timer Without Interrupting Your Best Work; What Is an App Blocker, and When Is It Actually Useful; A Simple Focus Timer for Work, Study, and Deep Focus.
 
@@ -40,7 +40,7 @@ Batch 4, comparison and discovery: ADHD Focus Timer vs Pomodoro: What's the Diff
 
 ## Internal linking strategy
 
-Time-blindness content links to gentle reminders, hyperfocus, and flexible focus timers. Hyperfocus content links to the founder story, Pomodoro/ADHD, and flexible timer content. Phone-distraction content links to app blocking and the personal phone-distraction article. Generic timer content links to work/study use cases, app blocking, and comparison pages where relevant. Comparison content links back to educational guides only when it supports the decision.
+Time-blindness content links to focus reminders, hyperfocus, and flexible focus timers. Hyperfocus content links to the founder story, Pomodoro/ADHD, and flexible timer content. Phone-distraction content links to app blocking and the personal phone-distraction article. Generic timer content links to work/study use cases, app blocking, and comparison pages where relevant. Comparison content links back to educational guides only when it supports the decision.
 
 ## Medical and claim review notes
 

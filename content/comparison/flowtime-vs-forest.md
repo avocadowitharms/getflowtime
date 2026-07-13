@@ -1,8 +1,8 @@
 ---
 title: "Flowtime vs Forest"
 seoTitle: "Flowtime vs Forest: Gamified Focus or Simple Tracking"
-description: "A comparison of Flowtime and Forest, looking at gamified focus, phone distraction, minimalist timers, reminders, and personal time tracking."
-metaDescription: "Compare Flowtime vs Forest for gamified focus, phone distraction, time tracking, reminders, reports, and minimalist productivity."
+description: "A comparison of Flowtime and Forest, looking at gamified focus, phone distraction, focused timers, reminders, and personal time tracking."
+metaDescription: "Compare Flowtime vs Forest for gamified focus, phone distraction, time tracking, reminders, reports, and focused productivity."
 slug: "flowtime-vs-forest"
 searchIntent: "Comparison"
 primaryKeyword: "Flowtime vs Forest"
@@ -53,7 +53,7 @@ Forest may be the better choice if your focus problem is strongly tied to phone 
 
 ## Choose Flowtime if
 
-Choose Flowtime if you prefer a minimalist experience, want actual time tracking, care about reviewing how your time was spent, or do not want productivity to feel like a game.
+Choose Flowtime if you prefer a focused experience, want actual time tracking, care about reviewing how your time was spent, or do not want productivity to feel like a game.
 
 Flowtime may also fit better if you want flexible session lengths and local-first tracking.
 
@@ -75,7 +75,7 @@ The difference matters because motivation and measurement are not the same thing
 
 After a few days, notice what actually changed. If Forest helps you leave your phone alone, that is meaningful even if the reports are not the main feature. If Flowtime helps you understand where your work hours went, that is meaningful even without visual rewards.
 
-The best focus app is the one that changes the behavior you wanted to change. A playful app that works is better than a serious app you avoid. A quiet tracker that you use daily is better than a game that stops feeling motivating.
+The best focus app is the one that changes the behavior you wanted to change. A playful app that works is better than a serious app you avoid. A focused tracker that you use daily is better than a game that stops feeling motivating.
 
 ## Related articles
 - [The Hidden Cost of Context Switching](../../guides/the-hidden-cost-of-context-switching/)
@@ -97,8 +97,8 @@ Often yes. Forest is specifically strong when you want a behavioral nudge to sto
 
 Yes. Flowtime is designed around sessions, projects, history, and reports for personal productivity.
 
-### Which app is more minimalist?
+### Which app is more focused?
 
-Flowtime is more minimalist in presentation. Forest is intentionally more playful and visual.
+Flowtime is more focused in presentation. Forest is intentionally more playful and visual.
 
 If you want focus tracking without gamification, Flowtime offers a simpler way to record sessions and understand how your time is being spent.

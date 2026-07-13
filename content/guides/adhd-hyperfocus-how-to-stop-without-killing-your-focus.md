@@ -1,12 +1,12 @@
 ---
 title: "ADHD Hyperfocus: How to Stop Without Killing Your Focus"
 seoTitle: "ADHD Hyperfocus Timer: Stop Without Killing Focus"
-description: "A practical guide to using a hyperfocus timer, gentle reminders, and flexible session boundaries without relying on abrupt interruptions or rigid timer rules."
-metaDescription: "Learn how a hyperfocus timer, flexible session boundaries, and gentle reminders can help create an intentional exit point from ADHD hyperfocus."
+description: "A practical guide to using a hyperfocus timer, focus reminders, and flexible session boundaries without relying on abrupt interruptions or rigid timer rules."
+metaDescription: "Learn how a hyperfocus timer, flexible session boundaries, and focus reminders can help create an intentional exit point from ADHD hyperfocus."
 slug: "adhd-hyperfocus-how-to-stop-without-killing-your-focus"
 searchIntent: "Informational"
 primaryKeyword: "how to stop ADHD hyperfocus"
-secondaryKeywords: ["ADHD hyperfocus timer", "stop hyperfocus", "gentle focus reminders", "timer to unfocus"]
+secondaryKeywords: ["ADHD hyperfocus timer", "stop hyperfocus", "focus reminders", "timer to unfocus"]
 date: "2026-07-13"
 author: "Ava Thalheim"
 tags: ["adhd", "hyperfocus", "focus"]
@@ -28,7 +28,7 @@ A strict alarm at that exact moment can feel less like support and more like a d
 
 ## Why stopping can feel so difficult
 
-Hyperfocus can narrow attention. The task becomes the room. Other signals get quieter: time, hunger, movement, messages, and the fact that you meant to stop thirty minutes ago.
+Hyperfocus can narrow attention. The task becomes the room. Other signals get low-frictioner: time, hunger, movement, messages, and the fact that you meant to stop thirty minutes ago.
 
 For some people, stopping also creates a fear of losing the thread. If the work is finally making sense, leaving it can feel risky.
 
@@ -36,7 +36,7 @@ That is why abrupt interruptions often fail. They technically mark the time, but
 
 ## Use reminders as check-ins
 
-A gentler reminder can ask a smaller question: are you still where you want to be?
+A smaller reminder can ask a smaller question: are you still where you want to be?
 
 That question leaves room for judgment. Maybe you continue because you are in the middle of something important. Maybe you write down the next step and stop. Maybe you take a break before the work turns into overwork.
 
@@ -56,7 +56,7 @@ This works better than waiting until you are exhausted and then trying to stop b
 
 ## How Flowtime helps
 
-Flowtime lets you start a flexible Flow Session with a target duration, use focus reminders, and decide what to do when the check-in arrives. It can work as a hyperfocus timer when you need gentle exit points, and it also supports Pomodoro when fixed intervals are the right structure.
+Flowtime lets you start a flexible Flow Session with a target duration, use focus reminders, and decide what to do when the check-in arrives. It can work as a hyperfocus timer when you need planned exit points, and it also supports Pomodoro when fixed intervals are the right structure.
 
 The goal is not to kill focus. It is to make stopping available.
 

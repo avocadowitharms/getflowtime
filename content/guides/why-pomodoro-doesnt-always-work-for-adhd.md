@@ -50,7 +50,7 @@ For ADHD time blindness and hyperfocus, that flexibility can matter. The timer s
 
 ## How Flowtime fits
 
-Flowtime includes Pomodoro for people and tasks that benefit from fixed intervals. It also works as a flexible Pomodoro alternative for people who want session boundaries, focus reminders, and a calmer way to notice time passing.
+Flowtime includes Pomodoro for people and tasks that benefit from fixed intervals. It also works as a flexible Pomodoro alternative for people who want session boundaries, focus reminders, and a clearer way to notice time passing.
 
 Pomodoro is not wrong. It is one tool. The useful question is whether it fits this session.
 

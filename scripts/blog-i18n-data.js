@@ -36,7 +36,7 @@
           showcaseTitle1: "Lösungen nach Workflow",
           showcaseTitle2: "Vergleiche",
           showcaseDesc1: "Flowtime - Time Tracker ist für konzentrierte Einzelarbeit konzipiert. Erkunde die Vorteile für deine spezifischen Fokus-Bedürfnisse.",
-          showcaseDesc2: "Minimalistische Fokus-Timer im Vergleich zu teamorientierten Zeiterfassungsplattformen. Finde das passende Tool für deinen Workflow.",
+          showcaseDesc2: "Focusedische Fokus-Timer im Vergleich zu teamorientierten Zeiterfassungsplattformen. Finde das passende Tool für deinen Workflow.",
           solutions: [
             { h3: "Für Freelancer & Selbstständige", p: "Erfasse abrechenbare Stunden auf Projekten und Aufgaben, ohne dass Rechnungsformulare, Account-Syncs oder Manager-Dashboards im Weg stehen." },
             { h3: "Für Entwickler & Kreative", p: "Start ohne Reibung. Tippe einmal zum Wechseln von Projekten, passe Fokusmodi an und halte deine Aufmerksamkeit voll auf der Arbeit." },
@@ -46,7 +46,7 @@
           comparisons: [
             { h3: "Flowtime vs Toggl Track", p: "Toggl Track ist ein detaillierter, teamorientierter Logger für Agenturen. Flowtime ist ein leichter, accountfreier Fokus-Timer für Einzelpersonen." },
             { h3: "Flowtime vs Forest", p: "Forest nutzt Gamification und virtuelle Bäume, um Fokus zu fördern. Flowtime bietet einen klaren Utility-Timer mit strukturierten Berichten ohne Spielmechanik." },
-            { h3: "Flowtime vs Session", p: "Session ist ein funktionsreiches Timer-Tool für das Apple-Ökosystem. Flowtime ist eine plattformübergreifende, minimalistische Alternative." },
+            { h3: "Flowtime vs Session", p: "Session ist ein funktionsreiches Timer-Tool für das Apple-Ökosystem. Flowtime ist eine plattformübergreifende, focusedische Alternative." },
             { h3: "Flowtime vs Focus To-Do", p: "Focus To-Do kombiniert Pomodoro mit komplexen GTD-Aufgabenlisten. Flowtime konzentriert sich auf reine Fokus-Sessions und flexible Projektzuordnung." },
             { h3: "Flowtime vs Be Focused", p: "Be Focused ist ein klassischer Intervall-Timer. Flowtime ergänzt offene Flow Sessions, Berichte und anpassbare Oberflächenthemen." }
           ],
@@ -55,13 +55,13 @@
           matrixDesc: "Sieh, wie Flowtime im Vergleich zu Toggl Track, Forest, Session, Focus To-Do und Be Focused bei den wichtigsten Kriterien abschneidet.",
           matrixHeaders: ["Feature", "Flowtime", "Toggl Track", "Forest", "Session", "Focus To-Do", "Be Focused"],
           matrixRows: [
-            ["Ideal für", "Minimalen Fokus", "Team-Abrechnungen", "Gamifizierte Arbeit", "Detaillierte Notizen", "GTD-Aufgabenlisten", "Einfache Intervalle"],
+            ["Ideal für", "Pers?nlichen Fokus", "Team-Abrechnungen", "Gamifizierte Arbeit", "Detaillierte Notizen", "GTD-Aufgabenlisten", "Einfache Intervalle"],
             ["Start ohne Account", "Ja (Sofortstart)", "Nein (Pflicht)", "Optional", "Nein (Pflicht)", "Nein (Pflicht)", "Ja"],
             ["Lokaler Datenschutz", "Ja (Lokal)", "Nein (Cloud)", "Nein (Sync)", "Nein (Cloud)", "Nein (Cloud)", "Ja"],
             ["Pomodoro-Modus", "Ja (Free)", "Optional", "Ja", "Ja", "Ja", "Ja"],
             ["Offene Flow Sessions", "Ja (Free)", "Nein", "Nein", "Nein", "Nein", "Nein"],
             ["Projekt-Erfassung", "Ja (Pro)", "Ja", "Ja", "Ja", "Ja", "Ja"],
-            ["Oberfläche", "Ultra-minimal", "Komplexes Dashboard", "Gamifiziert, verspielt", "Modernes iOS-Design", "Dichte Listen", "Einfacher Timer"]
+            ["Oberfläche", "Reduziert", "Komplexes Dashboard", "Gamifiziert, verspielt", "Modernes iOS-Design", "Dichte Listen", "Einfacher Timer"]
           ],
           pricingBadge: "Preise",
           pricingTitle: "Preise auf einen Blick",
@@ -73,7 +73,7 @@
           ],
           pricingHeaders: ["Tool", "Typisches Preismodell", "Bestes Preis-Leistungs-Verhältnis, wenn"],
           pricingRows: [
-            ["Flowtime", "Kostenlose Kern-Fokusmodi, Pro für Projekte und reichere Historie", "Du einen privaten persönlichen Timer mit minimalem Setup willst"],
+            ["Flowtime", "Kostenlose Kern-Fokusmodi, Pro für Projekte und reichere Historie", "Du einen privaten persönlichen Timer mit wenig Setup willst"],
             ["Toggl Track", "Kostenloser Einstieg, bezahlte Tarife für Teams und Reporting", "Du Kunden abrechnest oder gemeinsame Workspaces verwaltest"],
             ["Forest", "App-Kauf oder optionale Upgrades je nach Plattform", "Du Motivation durch Gamification suchst"],
             ["Session", "Abo oder bezahlte Upgrades für erweiterte Funktionen", "Du im Apple-Ökosystem arbeitest und detaillierte Sessions willst"],
@@ -90,7 +90,7 @@
         },
         guides: {
           eyebrow: "Ratgeber & Blog",
-          title: "Ideen für minimalistische Zeiterfassung.",
+          title: "Ideen für focusedische Zeiterfassung.",
           desc: "Notizen zu konzentriertem Arbeiten, privater Produktivität, Offline-Zeiterfassung und dem Bau eines Timers, der sich im Hintergrund hält.",
           searchPlaceholder: "Artikel durchsuchen",
           sortNewest: "Neueste zuerst",
@@ -125,7 +125,7 @@
         },
         "flowtime-vs-forest": {
           title: "Flowtime vs Forest",
-          desc: "Ein Vergleich von Flowtime und Forest: Gamifizierter Fokus vs. minimalistischer, ablenkungsfreier Utility-Timer."
+          desc: "Ein Vergleich von Flowtime und Forest: Gamifizierter Fokus vs. focusedischer, ablenkungsfreier Utility-Timer."
         },
         "flowtime-vs-session": {
           title: "Flowtime vs Session",
@@ -219,7 +219,7 @@
         },
         "flowtime-vs-forest": {
           metaTitle: "Flowtime vs Forest - Flowtime - Time Tracker",
-          metaDesc: "Vergleich zwischen Flowtime und Forest: Gamifizierung und virtuelle Bäume vs. minimalistische Utility-Timer."
+          metaDesc: "Vergleich zwischen Flowtime und Forest: Gamifizierung und virtuelle Bäume vs. focusedische Utility-Timer."
         },
         "flowtime-vs-session": {
           metaTitle: "Flowtime vs Session - Flowtime - Time Tracker",
@@ -275,7 +275,7 @@
         },
         "time-tracking-for-writers-and-researchers": {
           metaTitle: "Zeiterfassung für Autoren und Forscher - Flowtime",
-          metaDesc: "Wie Autoren und Forscher Schreiben, Lesen, Recherche und Überarbeitung ruhig und lokal erfassen können."
+          metaDesc: "Wie Autoren und Forscher Schreiben, Lesen, Recherche und Überarbeitung klar und lokal erfassen können."
         }
       },
       articles: {
@@ -378,7 +378,7 @@
               </tbody>
             </table>
             <h2 id="choose-flowtime">Wähle Flowtime, wenn</h2>
-            <p>Du einen minimalistischen Timer für Fokusarbeit, Pomodoro, Flow-Sitzungen und eine einfache Projekthistorie suchst, ohne Zeiterfassung in ein Verwaltungssystem zu verwandeln.</p>
+            <p>Du einen direkten Timer für Fokusarbeit, Pomodoro, Flow-Sitzungen und eine einfache Projekthistorie suchst, ohne Zeiterfassung in ein Verwaltungssystem zu verwandeln.</p>
             <h2>Wähle Toggl, wenn</h2>
             <p>Du Rechnungsstellung, Team-Rapporte, Kunden-Dashboards, Workspace-Berechtigungen oder Integrationen in deine Business-Software benötigst.</p>
             <h2 id="faq">FAQ</h2>
@@ -400,7 +400,7 @@
           summaryPoints: [
             "Die besten Offline-Tracker funktionieren komplett ohne Netzwerkverbindung.",
             "Lokale Datenhaltung und Exportfunktionen sind essenziell.",
-            "Eine minimalistische Benutzeroberfläche hilft, den Fokus zu wahren."
+            "Eine focusedische Benutzeroberfläche hilft, den Fokus zu wahren."
           ],
           bodyHtml: `
             <h2 id="offline">Was offline bedeuten sollte</h2>
@@ -433,7 +433,7 @@
               </tbody>
             </table>
             <h2>Warum Flowtime passt</h2>
-            <p>Flowtime ist für minimalistische Zeiterfassung, flexible Projekte und eine übersichtliche Historie gebaut. Es ist für Personen gedacht, die tracken möchten, ohne ein schweres Business-Tool zu verwalten.</p>
+            <p>Flowtime ist für focusedische Zeiterfassung, flexible Projekte und eine übersichtliche Historie gebaut. Es ist für Personen gedacht, die tracken möchten, ohne ein schweres Business-Tool zu verwalten.</p>
             <h2 id="faq">FAQ</h2>
             <details open>
               <summary>Synchronisieren Offline-Timer über Geräte hinweg?</summary>
@@ -531,7 +531,7 @@
           ],
           bodyHtml: `
             <h2 id="flow">Die Kehrseite des Flows</h2>
-            <p>Hyperfokus ist ein mächtiges Werkzeug, birgt aber das Risiko, dass man Pausen vergisst, die eigene Energie erschöpft oder stundenlang in der falschen Aufgabe versinkt. Flowtime hilft dir durch sanfte Signale und offene Sitzungen, bewusst zu arbeiten und den Moment des Aufhörens nicht zu verpassen.</p>
+            <p>Hyperfokus ist ein mächtiges Werkzeug, birgt aber das Risiko, dass man Pausen vergisst, die eigene Energie erschöpft oder stundenlang in der falschen Aufgabe versinkt. Flowtime hilft dir durch Zeit-Signale und offene Sitzungen, bewusst zu arbeiten und den Moment des Aufhörens nicht zu verpassen.</p>
             <h2 id="faq">FAQ</h2>
             <details open>
               <summary>Warum enthält Flowtime Fokus-Erinnerungen?</summary>
@@ -545,7 +545,7 @@
         },
         "flowtime-vs-forest": {
           title: "Flowtime vs Forest",
-          description: "Ein Vergleich von Flowtime und Forest: Gamifizierung und virtuelle Wälder vs. minimalistische, ablenkungsfreie Timer.",
+          description: "Ein Vergleich von Flowtime und Forest: Gamifizierung und virtuelle Wälder vs. focusedische, ablenkungsfreie Timer.",
           readingTime: "4 Min. Lesezeit",
           toc: ["Zusammenfassung", "Schnellvergleich", "Wähle Flowtime, wenn", "FAQ"],
           summaryPoints: [
@@ -571,7 +571,7 @@
                 </tr>
                 <tr>
                   <td>Design</td>
-                  <td>Minimalistisch (Classic/Mono)</td>
+                  <td>Focusedisch (Classic/Mono)</td>
                   <td>Illustrierte Cartoon-Welt</td>
                 </tr>
                 <tr>
@@ -677,7 +677,7 @@
           summaryPoints: [
             "Flowtime und Focus To-Do verfolgen unterschiedliche Ansätze.",
             "Focus To-Do ist ein mächtiger Aufgabenmanager mit integriertem Pomodoro-Timer.",
-            "Flowtime ist ein minimalistischer Timer für die direkte Zuordnung auf übergeordnete Projekte."
+            "Flowtime ist ein focusedischer Timer für die direkte Zuordnung auf übergeordnete Projekte."
           ],
           bodyHtml: `
             <h2 id="comparison">Schnellvergleich</h2>
@@ -712,7 +712,7 @@
                 </tr>
                 <tr>
                   <td>Design</td>
-                  <td>Minimalistisch und modern</td>
+                  <td>Focusedisch und modern</td>
                   <td>Klassisches Listen-Dashboard</td>
                 </tr>
               </tbody>
@@ -760,7 +760,7 @@
                 </tr>
                 <tr>
                   <td>Oberfläche</td>
-                  <td>Modern und minimalistisch</td>
+                  <td>Modern und focusedisch</td>
                   <td>Einfaches macOS/iOS-Utility</td>
                 </tr>
                 <tr>
@@ -857,19 +857,19 @@
         },
         "time-tracking-for-writers-and-researchers": {
           title: "Zeiterfassung für Autoren und Forscher",
-          description: "Ein praktischer Leitfaden, um Schreiben, Lesen, Recherche, Überarbeitung und Deep Work ruhig und privat zu erfassen.",
+          description: "Ein praktischer Leitfaden, um Schreiben, Lesen, Recherche, Überarbeitung und Deep Work klar und privat zu erfassen.",
           readingTime: "4 Min. Lesezeit",
           toc: ["Zusammenfassung", "Arbeitsphasen sichtbar machen", "Lange Aufmerksamkeit schützen", "FAQ"],
           summaryPoints: [
             "Schreiben und Forschung erzeugen nicht immer sofort sichtbaren Output.",
             "Zeiterfassung macht Lesen, Notizen, Entwürfe und Überarbeitung sichtbarer.",
-            "Ein ruhiger lokaler Timer passt gut zu sensibler Schreib- und Forschungsarbeit."
+            "Ein klarer lokaler Timer passt gut zu sensibler Schreib- und Forschungsarbeit."
           ],
           bodyHtml: `
             <h2 id="phases">Arbeitsphasen sichtbar machen</h2>
             <p>Tracke Lesen, Notizen, Gliederung, Entwurf, Überarbeitung, Quellenprüfung und Admin. Das hilft, Aufwand zu sehen, auch wenn am Ende wenig Text stehen bleibt.</p>
             <h2 id="protect-focus">Lange Aufmerksamkeit schützen</h2>
-            <p>Schreiben und Forschung brauchen oft ruhige Kontinuität. Erinnerungen sollten eher Check-ins sein: Brauche ich eine Pause, bin ich noch auf der richtigen Spur, was ist der nächste Schritt?</p>
+            <p>Schreiben und Forschung brauchen oft Kontinuit?tät. Erinnerungen sollten eher Check-ins sein: Brauche ich eine Pause, bin ich noch auf der richtigen Spur, was ist der nächste Schritt?</p>
             <h2 id="faq">FAQ</h2>
             <details open><summary>Sollten Autoren Wörter oder Zeit tracken?</summary><p>Beides kann helfen. Zeit erfasst auch Denken, Recherche und Überarbeitung, wenn keine neuen Wörter entstehen.</p></details>
             <details><summary>Warum lokal tracken?</summary><p>Lokale Zeiterfassung hält persönliche Arbeitsmuster und Projekthistorie näher am eigenen Gerät.</p></details>
@@ -911,7 +911,7 @@
           showcaseTitle1: "Solutions par workflow",
           showcaseTitle2: "Comparaisons",
           showcaseDesc1: "Flowtime - Time Tracker est conçu pour le travail personnel concentré. Découvrez les avantages optimisés pour vos besoins spécifiques.",
-          showcaseDesc2: "Minuteurs de concentration minimalistes vs. plateformes de suivi d'équipe. Choisissez l'outil le plus adapté à votre workflow.",
+          showcaseDesc2: "Minuteurs de concentration focusedes vs. plateformes de suivi d'équipe. Choisissez l'outil le plus adapté à votre workflow.",
           solutions: [
             { h3: "Pour les Freelancers & Indépendants", p: "Suivez vos heures facturables sur vos projets et tâches, sans factures complexes, synchronisations de comptes ou tableaux de bord managériaux." },
             { h3: "Pour les Développeurs & Créateurs", p: "Démarrage instantané. Touchez une fois pour changer de projet, personnalisez vos modes de concentration et restez concentré sur votre code." },
@@ -921,7 +921,7 @@
           comparisons: [
             { h3: "Flowtime vs Toggl Track", p: "Toggl Track est un outil détaillé orienté équipes et agences. Flowtime est un minuteur personnel léger, sans compte, centré sur le focus." },
             { h3: "Flowtime vs Forest", p: "Forest utilise la gamification et des arbres virtuels pour encourager la concentration. Flowtime propose un minuteur clair avec rapports, sans mécanique de jeu." },
-            { h3: "Flowtime vs Session", p: "Session est un minuteur riche en fonctionnalités pour l'écosystème Apple. Flowtime est une alternative minimaliste et multiplateforme." },
+            { h3: "Flowtime vs Session", p: "Session est un minuteur riche en fonctionnalités pour l'écosystème Apple. Flowtime est une alternative focusede et multiplateforme." },
             { h3: "Flowtime vs Focus To-Do", p: "Focus To-Do combine Pomodoro avec des listes de tâches GTD complexes. Flowtime se concentre sur les sessions de focus et les projets flexibles." },
             { h3: "Flowtime vs Be Focused", p: "Be Focused est un minuteur classique par intervalles. Flowtime ajoute des sessions Flow ouvertes, des rapports et des thèmes adaptables." }
           ],
@@ -930,13 +930,13 @@
           matrixDesc: "Découvrez comment Flowtime se compare à Toggl Track, Forest, Session, Focus To-Do et Be Focused sur les critères essentiels pour votre productivité.",
           matrixHeaders: ["Fonctionnalité", "Flowtime", "Toggl Track", "Forest", "Session", "Focus To-Do", "Be Focused"],
           matrixRows: [
-            ["Idéal pour", "Focalisation minimale", "Facturation d'équipe", "Travail gamifié", "Notes détaillées", "Listes de tâches GTD", "Intervalles simples"],
+            ["Idéal pour", "Focalisation personnelle", "Facturation d'équipe", "Travail gamifié", "Notes détaillées", "Listes de tâches GTD", "Intervalles simples"],
             ["Sans création de compte", "Oui (Instantané)", "Non (Obligatoire)", "Optionnel", "Non (Obligatoire)", "Non (Obligatoire)", "Oui"],
             ["Confidentialité locale", "Oui (Données locales)", "Non (Cloud)", "Non (Sync)", "Non (Cloud)", "Non (Cloud)", "Oui"],
             ["Mode Pomodoro", "Oui (Gratuit)", "Optionnel", "Oui", "Oui", "Oui", "Oui"],
             ["Flow Sessions ouvertes", "Oui (Gratuit)", "Non", "Non", "Non", "Non", "Non"],
             ["Suivi par projet", "Oui (Pro)", "Oui", "Oui", "Oui", "Oui", "Oui"],
-            ["Interface", "Ultra-minimaliste", "Tableau de bord dense", "Illustrations cartoon", "Style iOS moderne", "Listes compactes", "Minuteur simple"]
+            ["Interface", "Ultra-focusede", "Tableau de bord dense", "Illustrations cartoon", "Style iOS moderne", "Listes compactes", "Minuteur simple"]
           ],
           pricingBadge: "Tarifs",
           pricingTitle: "Les tarifs en un coup d'oeil",
@@ -965,7 +965,7 @@
         },
         guides: {
           eyebrow: "Guides & Blog",
-          title: "Des idées pour un suivi du temps minimaliste.",
+          title: "Des idées pour un suivi du temps focusede.",
           desc: "Notes sur le travail de concentration, la productivité privée, le suivi du temps hors-ligne et la conception d'un minuteur discret.",
           searchPlaceholder: "Rechercher des articles",
           sortNewest: "Plus récents en premier",
@@ -1000,7 +1000,7 @@
         },
         "flowtime-vs-forest": {
           title: "Flowtime vs Forest",
-          desc: "Une comparaison entre Flowtime et Forest : la concentration gamifiée contre un minuteur minimaliste et discret."
+          desc: "Une comparaison entre Flowtime et Forest : la concentration gamifiée contre un minuteur focusede et discret."
         },
         "flowtime-vs-session": {
           title: "Flowtime vs Session",
@@ -1094,7 +1094,7 @@
         },
         "flowtime-vs-forest": {
           metaTitle: "Flowtime vs Forest - Flowtime - Time Tracker",
-          metaDesc: "Comparaison entre Flowtime et Forest : gamification et arbres virtuels contre minuteur utilitaire minimaliste."
+          metaDesc: "Comparaison entre Flowtime et Forest : gamification et arbres virtuels contre minuteur utilitaire focusede."
         },
         "flowtime-vs-session": {
           metaTitle: "Flowtime vs Session - Flowtime - Time Tracker",
@@ -1150,7 +1150,7 @@
         },
         "time-tracking-for-writers-and-researchers": {
           metaTitle: "Suivi du temps pour écrivains et chercheurs - Flowtime",
-          metaDesc: "Comment suivre l'écriture, la lecture, la recherche et la révision dans un workflow calme et local."
+          metaDesc: "Comment suivre l'écriture, la lecture, la recherche et la révision dans un workflow cleare et local."
         }
       },
       articles: {
@@ -1253,7 +1253,7 @@
               </tbody>
             </table>
             <h2 id="choose-flowtime">Choisissez Flowtime si</h2>
-            <p>Vous recherchez un minuteur minimaliste pour le travail concentré, les sessions Pomodoro, les Flow Sessions et un historique simple, sans transformer le suivi en système administratif.</p>
+            <p>Vous recherchez un minuteur focusede pour le travail concentré, les sessions Pomodoro, les Flow Sessions et un historique simple, sans transformer le suivi en système administratif.</p>
             <h2>Choisissez Toggl si</h2>
             <p>Vous avez besoin de facturation, de rapports d'équipe, de tableaux de bord clients, de gestion d'espace de travail ou d'intégrations complexes.</p>
             <h2 id="faq">FAQ</h2>
@@ -1308,7 +1308,7 @@
               </tbody>
             </table>
             <h2>Pourquoi Flowtime convient</h2>
-            <p>Flowtime est conçu pour le suivi minimaliste, des projets flexibles et un historique épuré. Il s'adresse aux personnes qui souhaitent suivre leur temps sans la lourdeur d'une plateforme d'entreprise.</p>
+            <p>Flowtime est conçu pour le suivi focusede, des projets flexibles et un historique épuré. Il s'adresse aux personnes qui souhaitent suivre leur temps sans la lourdeur d'une plateforme d'entreprise.</p>
             <h2 id="faq">FAQ</h2>
             <details open>
               <summary>Les outils de suivi hors-ligne se synchronisent-ils entre appareils ?</summary>
@@ -1420,7 +1420,7 @@
         },
         "flowtime-vs-forest": {
           title: "Flowtime vs Forest",
-          description: "Une comparaison entre Flowtime et Forest : gamification et arbres virtuels contre minuteurs discrets et minimalistes.",
+          description: "Une comparaison entre Flowtime et Forest : gamification et arbres virtuels contre minuteurs discrets et focusedes.",
           readingTime: "4 min de lecture",
           toc: ["Résumé", "Comparaison rapide", "Choisissez Flowtime si", "FAQ"],
           summaryPoints: [
@@ -1446,7 +1446,7 @@
                 </tr>
                 <tr>
                   <td>Design</td>
-                  <td>Minimaliste (Classic/Mono)</td>
+                  <td>Focusede (Classic/Mono)</td>
                   <td>Style cartoon illustré</td>
                 </tr>
                 <tr>
@@ -1587,7 +1587,7 @@
                 </tr>
                 <tr>
                   <td>Design</td>
-                  <td>Minimaliste et moderne</td>
+                  <td>Focusede et moderne</td>
                   <td>Dashboard de listes classique</td>
                 </tr>
               </tbody>
@@ -1635,7 +1635,7 @@
                 </tr>
                 <tr>
                   <td>Interface</td>
-                  <td>Moderne et minimaliste</td>
+                  <td>Moderne et focusede</td>
                   <td>Utilitaire barre des menus macOS/iOS</td>
                 </tr>
                 <tr>
@@ -1732,19 +1732,19 @@
         },
         "time-tracking-for-writers-and-researchers": {
           title: "Suivi du temps pour écrivains et chercheurs",
-          description: "Un guide pratique pour suivre l'écriture, la lecture, la recherche, la révision et le deep work dans un workflow calme et privé.",
+          description: "Un guide pratique pour suivre l'écriture, la lecture, la recherche, la révision et le deep work dans un workflow cleare et privé.",
           readingTime: "4 min de lecture",
           toc: ["Résumé", "Rendre visibles les phases du travail", "Protéger l'attention longue", "FAQ"],
           summaryPoints: [
             "L'écriture et la recherche ne produisent pas toujours un résultat visible immédiatement.",
             "Le suivi du temps rend visibles la lecture, les notes, les brouillons et la révision.",
-            "Un minuteur local et calme convient bien au travail sensible d'écriture et de recherche."
+            "Un minuteur local et cleare convient bien au travail sensible d'écriture et de recherche."
           ],
           bodyHtml: `
             <h2 id="phases">Rendre visibles les phases du travail</h2>
             <p>Suivez lecture, notes, plan, brouillon, révision, vérification des sources et administratif. Cela montre l'effort même quand peu de texte final reste.</p>
             <h2 id="protect-focus">Protéger l'attention longue</h2>
-            <p>L'écriture et la recherche demandent souvent une continuité calme. Les rappels doivent plutôt agir comme des check-ins : ai-je besoin d'une pause, suis-je encore sur la bonne piste, quelle est la prochaine étape ?</p>
+            <p>L'écriture et la recherche demandent souvent une continuité cleare. Les rappels doivent plutôt agir comme des check-ins : ai-je besoin d'une pause, suis-je encore sur la bonne piste, quelle est la prochaine étape ?</p>
             <h2 id="faq">FAQ</h2>
             <details open><summary>Les écrivains doivent-ils suivre les mots ou le temps ?</summary><p>Les deux peuvent aider. Le temps capture aussi la réflexion, la recherche et la révision quand aucun mot nouveau n'apparaît.</p></details>
             <details><summary>Pourquoi suivre localement ?</summary><p>Le suivi local garde les habitudes de travail et l'historique des projets plus proches de votre propre appareil.</p></details>
@@ -1769,12 +1769,12 @@
         },
         "listings": {
             "guides": {
-                "title": "Ratgeber für Fokus, Zeitwahrnehmung und ruhigeres Tracking.",
+                "title": "Ratgeber für Fokus, Zeitwahrnehmung und klareres Tracking.",
                 "desc": "Lies über ADHS-Time-Blindness, Hyperfokus, Fokus-Timer, Pomodoro-Alternativen, App-Blocking, Arbeit, Lernen und einfache persönliche Zeiterfassung.",
                 "clusters": [
                     {
                         "title": "Time-Blindness und ADHS",
-                        "desc": "Externe Zeitreize, sichtbare Sessions und sanfte Erinnerungen für Menschen, die die Zeit aus dem Blick verlieren."
+                        "desc": "Externe Zeitreize, sichtbare Sessions und Fokus-Erinnerungen für Menschen, die die Zeit aus dem Blick verlieren."
                     },
                     {
                         "title": "Hyperfokus",
@@ -1794,11 +1794,11 @@
         "blog_metadata": {
             "why-adhd-makes-you-lose-track-of-time": {
                 "title": "Warum ADHS dazu führen kann, dass du die Zeit aus dem Blick verlierst",
-                "desc": "Ein ruhiger Guide zu ADHS-Time-Blindness, dem Unterschied zwischen Uhrzeit und gefühlter Zeit und externen Zeitreizen."
+                "desc": "Ein praktischer Guide zu ADHS-Time-Blindness, dem Unterschied zwischen Uhrzeit und gefühlter Zeit und externen Zeitreizen."
             },
             "adhd-hyperfocus-how-to-stop-without-killing-your-focus": {
                 "title": "ADHS-Hyperfokus: Aufhören, ohne den Fokus kaputtzumachen",
-                "desc": "Wie flexible Grenzen, sanfte Erinnerungen und bewusste Ausstiegspunkte beim Herauskommen aus Hyperfokus helfen können."
+                "desc": "Wie flexible Grenzen, Fokus-Erinnerungen und bewusste Ausstiegspunkte beim Herauskommen aus Hyperfokus helfen können."
             },
             "i-use-a-focus-timer-to-stop-focusing": {
                 "title": "Ich nutze einen Fokus-Timer, um mit dem Fokussieren aufzuhören",
@@ -1810,15 +1810,15 @@
             },
             "do-you-start-working-and-suddenly-its-four-hours-later": {
                 "title": "Fängst du an zu arbeiten und plötzlich sind vier Stunden vorbei?",
-                "desc": "Ein alltagsnaher Guide zu Zeitverlust beim Arbeiten, Hyperfokus, externen Hinweisen und sanften Session-Grenzen."
+                "desc": "Ein alltagsnaher Guide zu Zeitverlust beim Arbeiten, Hyperfokus, externen Hinweisen und Session-Grenzen."
             },
             "why-do-i-forget-why-i-unlocked-my-phone": {
                 "title": "Warum vergesse ich, warum ich mein Handy entsperrt habe?",
                 "desc": "Wie visuelle Reize, Benachrichtigungen, Context Switching und App-Blocking mit Handy-Ablenkung zusammenhängen."
             },
             "gentle-time-reminders-for-adhd-time-blindness": {
-                "title": "Sanfte Zeiterinnerungen bei ADHS-Time-Blindness",
-                "desc": "Warum sanfte Erinnerungen oft besser funktionieren als aggressive Alarme und wie Check-ins Zeit sichtbarer machen."
+                "title": "Flexible Zeiterinnerungen bei ADHS-Time-Blindness",
+                "desc": "Warum Fokus-Erinnerungen oft besser funktionieren als aggressive Alarme und wie Check-ins Zeit sichtbarer machen."
             },
             "how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything": {
                 "title": "Wie ich Handy-Ablenkungen reduziere, wenn mein ADHS-Gehirn alles checken will",
@@ -1826,7 +1826,7 @@
             },
             "how-to-use-a-focus-timer-without-interrupting-your-best-work": {
                 "title": "So nutzt du einen Fokus-Timer, ohne deine beste Arbeit zu unterbrechen",
-                "desc": "Ein Guide zu flexiblen Fokus-Timern, Deep Work, sanften Check-ins und weniger starren Pomodoro-Unterbrechungen."
+                "desc": "Ein Guide zu flexiblen Fokus-Timern, Deep Work, flexiblen Check-ins und weniger starren Pomodoro-Unterbrechungen."
             },
             "what-is-an-app-blocker-and-when-is-it-actually-useful": {
                 "title": "Was ist ein App-Blocker und wann ist er wirklich nützlich?",
@@ -1863,12 +1863,12 @@
         },
         "listings": {
             "guides": {
-                "title": "Guides pour la concentration, la perception du temps et un suivi plus calme.",
+                "title": "Guides pour la concentration, la perception du temps et un suivi plus cleare.",
                 "desc": "Lisez des guides sur le TDAH, la time blindness, l'hyperfocus, les minuteurs de concentration, Pomodoro, le blocage d'apps, le travail, les Études et le suivi personnel du temps.",
                 "clusters": [
                     {
                         "title": "Time blindness et TDAH",
-                        "desc": "Repères temporels externes, sessions visibles et rappels doux pour mieux remarquer le temps qui passe."
+                        "desc": "Repères temporels externes, sessions visibles et rappels de concentration pour mieux remarquer le temps qui passe."
                     },
                     {
                         "title": "Hyperfocus",
@@ -1888,11 +1888,11 @@
         "blog_metadata": {
             "why-adhd-makes-you-lose-track-of-time": {
                 "title": "Pourquoi le TDAH peut faire perdre la notion du temps",
-                "desc": "Un guide calme sur la time blindness, la différence entre connaître l'heure et sentir le temps passer, et les repères externes."
+                "desc": "Un guide cleare sur la time blindness, la différence entre connaître l'heure et sentir le temps passer, et les repères externes."
             },
             "adhd-hyperfocus-how-to-stop-without-killing-your-focus": {
                 "title": "Hyperfocus TDAH : s'arrêter sans casser sa concentration",
-                "desc": "Comment des limites flexibles, des rappels doux et un point de sortie intentionnel peuvent aider à sortir de l'hyperfocus."
+                "desc": "Comment des limites flexibles, des rappels de concentration et un point de sortie intentionnel peuvent aider à sortir de l'hyperfocus."
             },
             "i-use-a-focus-timer-to-stop-focusing": {
                 "title": "J'utilise un minuteur de concentration pour arrêter de me concentrer",
@@ -1904,15 +1904,15 @@
             },
             "do-you-start-working-and-suddenly-its-four-hours-later": {
                 "title": "Vous commencez à travailler et soudain quatre heures ont passé ?",
-                "desc": "Un guide conversationnel sur la perte de notion du temps au travail, l'hyperfocus, les repères externes et les limites douces."
+                "desc": "Un guide conversationnel sur la perte de notion du temps au travail, l'hyperfocus, les repères externes et les limites flexibles."
             },
             "why-do-i-forget-why-i-unlocked-my-phone": {
                 "title": "Pourquoi j'oublie pourquoi j'ai déverrouillé mon téléphone ?",
                 "desc": "Comment les indices visuels, les notifications, le changement de contexte et le blocage d'apps se lient aux distractions du téléphone."
             },
             "gentle-time-reminders-for-adhd-time-blindness": {
-                "title": "Rappels doux pour la time blindness liée au TDAH",
-                "desc": "Pourquoi les rappels doux peuvent mieux soutenir la perception du temps que les alarmes agressives."
+                "title": "Rappels de concentration pour la time blindness liée au TDAH",
+                "desc": "Pourquoi les rappels de concentration peuvent mieux soutenir la perception du temps que les alarmes agressives."
             },
             "how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything": {
                 "title": "Comment je réduis les distractions du téléphone quand mon cerveau TDAH veut tout vérifier",
@@ -2080,16 +2080,16 @@
         description: fallbackDesc,
         readingTime: isGerman ? "4 Min. Lesezeit" : "4 min de lecture",
         toc: isGerman
-          ? ["Zusammenfassung", "Warum das wichtig ist", "Sanfte Grenzen statt Druck", "So passt Flowtime dazu", "Weiterlesen"]
-          : ["Résumé", "Pourquoi c'est important", "Des limites douces plutôt que de la pression", "Comment Flowtime s'inscrit ici", "Continuer la lecture"],
+          ? ["Zusammenfassung", "Warum das wichtig ist", "Session-Grenzen statt Druck", "So passt Flowtime dazu", "Weiterlesen"]
+          : ["Résumé", "Pourquoi c'est important", "Des limites flexibles plutôt que de la pression", "Comment Flowtime s'inscrit ici", "Continuer la lecture"],
         summaryPoints: isGerman ? [
           fallbackDesc,
           "Die neuen ADHS- und Fokus-Inhalte erklären Zeitwahrnehmung, Hyperfokus, Ablenkung und flexible Timer ohne medizinische Versprechen.",
-          "Flowtime unterstützt sichtbare Sessions, sanfte Erinnerungen, Pomodoro, flexible Flow Sessions und optionales App-Blocking."
+          "Flowtime unterstützt sichtbare Sessions, Fokus-Erinnerungen, Pomodoro, flexible Flow Sessions und optionales App-Blocking."
         ] : [
           fallbackDesc,
           "Les nouveaux contenus TDAH et concentration expliquent la perception du temps, l'hyperfocus, la distraction et les minuteurs flexibles sans promesse médicale.",
-          "Flowtime soutient les sessions visibles, les rappels doux, Pomodoro, les Flow Sessions flexibles et le blocage d'apps optionnel."
+          "Flowtime soutient les sessions visibles, les rappels de concentration, Pomodoro, les Flow Sessions flexibles et le blocage d'apps optionnel."
         ],
         bodyHtml: isGerman ? `
           <h2 id="summary">Zusammenfassung</h2>
@@ -2097,10 +2097,10 @@
           <p>Dieser Artikel gehört zur neuen ADHS- und Fokus-Serie von Flowtime. Die Serie richtet sich an Menschen, die Zeit leicht aus dem Blick verlieren, in Hyperfokus geraten, vom Handy abgelenkt werden oder mit starren Produktivitätssystemen nicht gut zurechtkommen.</p>
           <h2 id="why">Warum das wichtig ist</h2>
           <p>Bei ADHS ist das Problem nicht immer fehlende Motivation. Manchmal ist das Problem, dass Zeit nicht spürbar genug ist, dass ein guter Fokus zu lange weiterläuft oder dass ein einzelner Impuls den ganzen Arbeitsfluss verschiebt. Deshalb helfen einfache Ratschläge wie „stell dir einfach einen Timer“ oft nur teilweise.</p>
-          <p>Ein hilfreiches Werkzeug sollte Zeit sichtbar machen, ohne zusätzlichen Druck aufzubauen. Es sollte dich daran erinnern, was gerade passiert, statt dich für Ablenkung oder Hyperfokus zu bestrafen. Genau darum geht es in diesen neuen Artikeln: externe Zeitreize, flexible Grenzen, App-Blocking und ein ruhigerer Umgang mit Fokus.</p>
-          <h2 id="gentle-boundaries">Sanfte Grenzen statt Druck</h2>
+          <p>Ein hilfreiches Werkzeug sollte Zeit sichtbar machen, ohne zusätzlichen Druck aufzubauen. Es sollte dich daran erinnern, was gerade passiert, statt dich für Ablenkung oder Hyperfokus zu bestrafen. Genau darum geht es in diesen neuen Artikeln: externe Zeitreize, flexible Grenzen, App-Blocking und ein klarerer Umgang mit Fokus.</p>
+          <h2 id="gentle-boundaries">Session-Grenzen statt Druck</h2>
           <p>Für manche Menschen ist Pomodoro nützlich, weil ein kurzer Arbeitsblock den Einstieg erleichtert. Für andere kommt die Pause genau dann, wenn der Fokus endlich da ist. Beides kann stimmen. Entscheidend ist, ob die Struktur zur Aufgabe und zum eigenen Aufmerksamkeitsrhythmus passt.</p>
-          <p>Sanfte Check-ins können hier besser funktionieren als harte Alarme. Eine Erinnerung muss nicht befehlen, sofort aufzuhören. Sie kann fragen: Bist du noch bei dem, was du tun wolltest? Brauchst du eine Pause? Willst du weitermachen, aber bewusst?</p>
+          <p>Flexible Check-ins können hier besser funktionieren als harte Alarme. Eine Erinnerung muss nicht befehlen, sofort aufzuhören. Sie kann fragen: Bist du noch bei dem, was du tun wolltest? Brauchst du eine Pause? Willst du weitermachen, aber bewusst?</p>
           <h2 id="flowtime">So passt Flowtime dazu</h2>
           <p>Flowtime kombiniert sichtbare Fokus-Sessions, Pomodoro, flexible Flow Sessions, Erinnerungen, Projektzeit und optionales App-Blocking. Das ersetzt keine Diagnose, Therapie oder medizinische Unterstützung. Es kann aber helfen, äußere Hinweise zu schaffen, wenn das eigene Zeitgefühl gerade nicht zuverlässig genug ist.</p>
           <p>Die Idee ist bewusst leicht: Session starten, Zeit sichtbar halten, Ablenkungen reduzieren und später erkennen, wohin Fokus wirklich gegangen ist. Für ADHS, Hyperfokus und Time-Blindness kann genau diese Sichtbarkeit den Unterschied machen.</p>
@@ -2112,10 +2112,10 @@
           <p>Cet article fait partie de la nouvelle série Flowtime sur le TDAH et la concentration. Elle s'adresse aux personnes qui perdent facilement la notion du temps, entrent en hyperfocus, se font happer par le téléphone ou ne se sentent pas aidées par les systèmes de productivité rigides.</p>
           <h2 id="why">Pourquoi c'est important</h2>
           <p>Avec le TDAH, le problème n'est pas toujours un manque de motivation. Parfois, le temps n'est pas assez perceptible, une bonne concentration dure trop longtemps, ou une seule impulsion déplace toute la session de travail. C'est pour cela que les conseils comme « mets simplement un minuteur » ne suffisent pas toujours.</p>
-          <p>Un outil utile doit rendre le temps visible sans ajouter de pression. Il doit aider à remarquer ce qui se passe, plutôt que punir la distraction ou l'hyperfocus. Ces nouveaux articles parlent donc de repères temporels externes, de limites flexibles, de blocage d'apps et d'une relation plus calme avec la concentration.</p>
-          <h2 id="gentle-boundaries">Des limites douces plutôt que de la pression</h2>
+          <p>Un outil utile doit rendre le temps visible sans ajouter de pression. Il doit aider à remarquer ce qui se passe, plutôt que punir la distraction ou l'hyperfocus. Ces nouveaux articles parlent donc de repères temporels externes, de limites flexibles, de blocage d'apps et d'une relation plus cleare avec la concentration.</p>
+          <h2 id="gentle-boundaries">Des limites flexibles plutôt que de la pression</h2>
           <p>Pour certaines personnes, Pomodoro aide parce qu'un bloc court rend le démarrage moins intimidant. Pour d'autres, la pause arrive exactement quand la concentration devient enfin possible. Les deux expériences peuvent être vraies. La bonne structure dépend de la tâche et du rythme d'attention.</p>
-          <p>Des check-ins doux peuvent mieux fonctionner que des alarmes brutales. Un rappel n'a pas besoin d'ordonner d'arrêter immédiatement. Il peut simplement demander : êtes-vous encore dans ce que vous vouliez faire ? Avez-vous besoin d'une pause ? Voulez-vous continuer, mais consciemment ?</p>
+          <p>Des check-ins de temps peuvent mieux fonctionner que des alarmes brutales. Un rappel n'a pas besoin d'ordonner d'arrêter immédiatement. Il peut simplement demander : êtes-vous encore dans ce que vous vouliez faire ? Avez-vous besoin d'une pause ? Voulez-vous continuer, mais consciemment ?</p>
           <h2 id="flowtime">Comment Flowtime s'inscrit ici</h2>
           <p>Flowtime combine sessions visibles, Pomodoro, Flow Sessions flexibles, rappels, suivi par projet et blocage d'apps optionnel. Cela ne remplace pas un diagnostic, une thérapie ou un accompagnement médical. Mais cela peut créer des repères externes quand la perception interne du temps n'est pas assez fiable.</p>
           <p>L'idée reste légère : démarrer une session, garder le temps visible, réduire les distractions et comprendre ensuite où la concentration est vraiment allée. Pour le TDAH, l'hyperfocus et la time blindness, cette visibilité peut compter.</p>
@@ -2132,11 +2132,11 @@
         toc: isGerman ? ["Zusammenfassung", "Schnellvergleich", "Worauf du achten solltest", "FAQ"] : ["Resume", "Comparaison rapide", "Points a verifier", "FAQ"],
         summaryPoints: isGerman ? [
           fallbackDesc,
-          "Flowtime eignet sich besonders für ruhige, persönliche Fokus-Sessions ohne Account-Zwang.",
+          "Flowtime eignet sich besonders für klare, persönliche Fokus-Sessions ohne Account-Zwang.",
           subject + " kann besser passen, wenn du genau dessen spezielles Funktionsmodell brauchst."
         ] : [
           fallbackDesc,
-          "Flowtime convient surtout aux sessions de concentration personnelles, calmes et sans compte.",
+          "Flowtime convient surtout aux sessions de concentration personnelles, cleares et sans compte.",
           subject + " peut mieux convenir si vous avez besoin de son modele de fonctionnalites specifique."
         ],
         bodyHtml: isGerman ? `
@@ -2173,7 +2173,7 @@
       ] : [
         fallbackDesc,
         "Un minuteur simple rend le travail visible sans ajouter une nouvelle charge administrative.",
-        "Flowtime reste local, rapide et volontairement minimal pour proteger la concentration."
+        "Flowtime reste local, rapide et volontairement direct pour proteger la concentration."
       ],
       bodyHtml: isGerman ? `
         <h2 id="why">Warum es wichtig ist</h2>
@@ -2202,7 +2202,7 @@
     var notes = {
       "flowtime-vs-toggl": {
         tool: "Toggl Track",
-        deBest: "wenn Abrechnung, Teams, Kundenberichte und Freigabeprozesse wichtiger sind als ein ruhiger persönlicher Timer.",
+        deBest: "wenn Abrechnung, Teams, Kundenberichte und Freigabeprozesse wichtiger sind als ein klarer persönlicher Timer.",
         frBest: "si la facturation, les équipes, les rapports client et les validations comptent plus qu'un minuteur personnel discret."
       },
       "flowtime-vs-forest": {
@@ -2251,9 +2251,9 @@
             <h2 id="pricing-value">Preise und langfristiger Nutzen</h2>
             <p>Beim Preisvergleich geht es nicht nur um den niedrigsten Einstiegspreis. Entscheidend ist, welche Funktionen du im Alltag tatsächlich nutzt. Flowtime hält die wichtigsten Fokusmodi leicht zugänglich und ergänzt Pro-Funktionen dort, wo sie für wiederkehrende Nutzung Sinn ergeben: Projekte, Verlauf und bessere Auswertung.</p>
             <p>Ein günstiges oder kostenloses Tool kann trotzdem teuer wirken, wenn es dich regelmäßig aus deinem Arbeitsfluss holt. Umgekehrt lohnt sich ein bezahltes Tool nur, wenn seine zusätzlichen Funktionen wirklich ein Problem lösen. Die beste Wahl ist deshalb die App, die du auch nach zwei Wochen noch öffnest, ohne darüber nachzudenken.</p>
-            <p>Achte außerdem darauf, ob ein Upgrade Funktionen freischaltet, die du tatsächlich täglich nutzt. Für manche Workflows sind Integrationen, Teamberichte und Synchronisierung zentral. Für andere reicht ein ruhiger Timer mit klarer Historie. Der beste Preis ist nicht der mit der längsten Feature-Liste, sondern der mit dem geringsten Widerstand für deinen echten Arbeitsalltag.</p>
+            <p>Achte außerdem darauf, ob ein Upgrade Funktionen freischaltet, die du tatsächlich täglich nutzt. Für manche Workflows sind Integrationen, Teamberichte und Synchronisierung zentral. Für andere reicht ein klarer Timer mit klarer Historie. Der beste Preis ist nicht der mit der längsten Feature-Liste, sondern der mit dem geringsten Widerstand für deinen echten Arbeitsalltag.</p>
             <h2 id="decision">Entscheidungshilfe</h2>
-            <p>Wähle Flowtime, wenn du Fokus-Sessions, Pomodoro, offene Flow Sessions, Projektzuordnung und eine ruhige Oberfläche möchtest. Wähle ${note.tool}, wenn dessen spezieller Ansatz genau zu deinem Workflow passt und du die zusätzliche Struktur aktiv nutzen wirst.</p>
+            <p>Wähle Flowtime, wenn du Fokus-Sessions, Pomodoro, offene Flow Sessions, Projektzuordnung und eine klare Oberfläche möchtest. Wähle ${note.tool}, wenn dessen spezieller Ansatz genau zu deinem Workflow passt und du die zusätzliche Struktur aktiv nutzen wirst.</p>
             <p>Als Faustregel gilt: Je persönlicher deine Zeiterfassung ist, desto wichtiger werden Einfachheit, Datenschutz und schnelle Bedienung. Je stärker deine Zeiterfassung mit Teams, Kunden oder Aufgabenverwaltung verbunden ist, desto eher kann ein größeres System sinnvoll sein.</p>
             <p>Wenn du unsicher bist, beginne nicht mit der mächtigsten Option, sondern mit der kleinsten Lösung, die dein Problem wirklich löst. Du kannst später immer noch zu einem größeren System wechseln, wenn Rechnungen, Teamabstimmung oder komplexe Aufgabenverwaltung wichtiger werden.</p>
             <h2 id="decision-test">Praktischer Entscheidungstest</h2>
@@ -2274,9 +2274,9 @@
             <h2 id="pricing-value">Prix et valeur durable</h2>
             <p>Comparer les prix ne revient pas seulement à chercher l'option la moins chère. La vraie question est de savoir quelles fonctions vous utilisez réellement au quotidien. Flowtime garde les modes de concentration essentiels faciles d'accès et réserve les fonctions Pro aux besoins récurrents : projets, historique et analyses plus utiles.</p>
             <p>Un outil gratuit peut sembler coûteux s'il interrompt souvent votre élan. À l'inverse, un outil payant peut valoir son prix si ses fonctions supplémentaires résolvent un problème clair. Le meilleur choix est donc l'application que vous continuez à ouvrir après deux semaines, sans résistance.</p>
-            <p>Vérifiez aussi si une offre payante débloque des fonctions que vous utiliserez vraiment. Certaines personnes ont besoin de rapports d'équipe, de facturation ou d'intégrations. D'autres ont surtout besoin d'un minuteur calme et d'un historique lisible. Le meilleur rapport qualité-prix dépend de votre usage réel, pas de la longueur de la fiche produit.</p>
+            <p>Vérifiez aussi si une offre payante débloque des fonctions que vous utiliserez vraiment. Certaines personnes ont besoin de rapports d'équipe, de facturation ou d'intégrations. D'autres ont surtout besoin d'un minuteur cleare et d'un historique lisible. Le meilleur rapport qualité-prix dépend de votre usage réel, pas de la longueur de la fiche produit.</p>
             <h2 id="decision">Aide à la décision</h2>
-            <p>Choisissez Flowtime si vous voulez des sessions de concentration, Pomodoro, des sessions Flow ouvertes, des projets et une interface calme. Choisissez ${note.tool} si son approche spécifique correspond exactement à votre workflow et si vous utiliserez vraiment sa structure supplémentaire.</p>
+            <p>Choisissez Flowtime si vous voulez des sessions de concentration, Pomodoro, des sessions Flow ouvertes, des projets et une interface cleare. Choisissez ${note.tool} si son approche spécifique correspond exactement à votre workflow et si vous utiliserez vraiment sa structure supplémentaire.</p>
             <p>Règle simple : plus votre suivi du temps est personnel, plus la simplicité, la confidentialité et la rapidité comptent. Plus il dépend d'équipes, de clients ou de gestion de tâches, plus un système large peut avoir du sens.</p>
             <p>Si vous hésitez, commencez par la plus petite solution qui répond au problème. Vous pourrez toujours passer à un système plus lourd si la facturation, la coordination d'équipe ou la gestion de tâches deviennent centrales.</p>
             <h2 id="decision-test">Test de décision pratique</h2>

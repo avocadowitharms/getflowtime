@@ -50,7 +50,7 @@ Do you forget what you worked on? A lightweight time tracker may be enough.
 
 ## Where Flowtime fits
 
-Flowtime is one relevant option if your main need is a flexible focus timer, time tracker, reminders, and app blocking in one calm app. It is not a full ADHD planner, and that is intentional.
+Flowtime is one relevant option if your main need is a flexible focus timer, time tracker, reminders, and app blocking in one focused app. It is not a full ADHD planner, and that is intentional.
 
 If you need medication guidance, diagnosis, coaching, or therapy, an app is not a replacement for professional support.
 

@@ -27,7 +27,7 @@ Core features:
 - Flexible focus sessions
 - Standard timer
 - Pomodoro
-- Gentle focus reminders
+- Focus reminders
 - Personal time tracking
 - Projects
 - Session history

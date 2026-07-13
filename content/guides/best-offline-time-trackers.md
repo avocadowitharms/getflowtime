@@ -24,7 +24,7 @@ Most productivity software assumes you are always connected. In practice, that i
 
 A time tracker should not stop working because the network is unavailable. If a timer cannot start, stop, or save a session without a server response, it is not really a dependable personal tool.
 
-Offline support also changes how an app feels. Local-first apps often launch faster because they do not need to wait for account checks or sync requests. They can feel quieter because they are not trying to connect you to workspaces, notifications, or team features before you begin.
+Offline support also changes how an app feels. Local-first apps often launch faster because they do not need to wait for account checks or sync requests. They can feel less cluttered because they are not trying to connect you to workspaces, notifications, or team features before you begin.
 
 ## What offline should mean
 

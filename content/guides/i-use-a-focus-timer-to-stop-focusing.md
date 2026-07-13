@@ -40,7 +40,7 @@ That boundary helps more than I expected.
 
 Knowing the timer is running gives my brain something to trust. I do not need to keep checking whether the walk has been long enough. I do not need to negotiate with every notification. I can let the session hold the shape of the time for a while.
 
-It does not make my brain quiet on command. It does not solve ADHD. It just reduces a few openings where work and phone-checking usually sneak back in.
+It does not make my brain stop on command. It does not solve ADHD. It just reduces a few openings where work and phone-checking usually sneak back in.
 
 That is enough to matter.
 

@@ -40,7 +40,7 @@ For some people, including some people with ADHD, external time cues may be espe
 
 Reminders should be optional and useful. A reminder might tell you to stretch, check whether you are still on task, or decide whether to continue.
 
-The best reminder is not always the loudest one. Sometimes a calm check-in is enough.
+The best reminder is not always the loudest one. Sometimes a visible check-in is enough.
 
 ## Block distractions when needed
 

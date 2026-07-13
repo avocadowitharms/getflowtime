@@ -25,7 +25,7 @@ A traditional Pomodoro timer gives you fixed work and break intervals. An ADHD f
 | Session structure | Usually fixed intervals, often 25 / 5 | Often flexible or configurable |
 | Main strength | Starting and building rhythm | Time awareness and adaptable boundaries |
 | Break behavior | Breaks arrive at preset times | Check-ins may ask whether to stop or continue |
-| Hyperfocus support | Can interrupt at a fixed time | Can work as a hyperfocus timer with gentler exit points |
+| Hyperfocus support | Can interrupt at a fixed time | Can work as a hyperfocus timer with planned exit points |
 | App blocking | Sometimes separate | May connect blocking to the session |
 | Best fit | Clear tasks, habit building, short work blocks | Variable work, time blindness, distraction-prone sessions |
 
@@ -35,7 +35,7 @@ Pomodoro is popular because it is simple. You work for a set interval, take a sh
 
 ## What an ADHD focus timer may add
 
-Many people with ADHD describe needing external time cues, flexible boundaries, and reminders that do not feel like punishment. A timer designed with that experience in mind may support longer sessions, gentle check-ins, and app blocking during intentional focus.
+Many people with ADHD describe needing external time cues, flexible boundaries, and reminders that do not feel like punishment. A timer designed with that experience in mind may support longer sessions, time check-ins, and app blocking during intentional focus.
 
 That is why "ADHD timer" searches often point to something broader than a countdown. The useful feature may be a visible session, a reminder before hyperfocus becomes overwork, or a way to protect the phone while the session is active.
 

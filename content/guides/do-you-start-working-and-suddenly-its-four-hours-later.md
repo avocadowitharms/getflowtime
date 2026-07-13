@@ -1,8 +1,8 @@
 ---
 title: "Do You Start Working and Suddenly It's Four Hours Later?"
 seoTitle: "Lose Track of Time While Working?"
-description: "A conversational guide to losing track of time while working, hyperfocus, external cues, and gentle session boundaries."
-metaDescription: "If you start working and suddenly four hours have passed, learn how hyperfocus, time awareness, and gentle reminders can help."
+description: "A conversational guide to losing track of time while working, hyperfocus, external cues, and session boundaries."
+metaDescription: "If you start working and suddenly four hours have passed, learn how hyperfocus, time awareness, and focus reminders can help."
 slug: "do-you-start-working-and-suddenly-its-four-hours-later"
 searchIntent: "Informational"
 primaryKeyword: "lose track of time while working"
@@ -58,6 +58,6 @@ The goal is not to make every session short. The goal is to make long sessions i
 
 ## Keep reading
 
-For the ADHD-specific version, read [Why ADHD Makes You Lose Track of Time](/guides/why-adhd-makes-you-lose-track-of-time/). For reminders, read [Gentle Time Reminders for ADHD Time Blindness](/guides/gentle-time-reminders-for-adhd-time-blindness/).
+For the ADHD-specific version, read [Why ADHD Makes You Lose Track of Time](/guides/why-adhd-makes-you-lose-track-of-time/). For reminders, read [Time Reminders for ADHD Time Blindness](/guides/gentle-time-reminders-for-adhd-time-blindness/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
