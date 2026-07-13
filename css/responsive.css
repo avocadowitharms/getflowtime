@@ -1,6 +1,6 @@
 @media (min-width: 540px) {
   body {
-    background: var(--soft);
+    background: var(--background);
   }
 
   .site-header,
@@ -8,7 +8,7 @@
   footer {
     width: 430px;
     margin-inline: auto;
-    background: var(--background);
+    background: transparent;
   }
 
   .site-header,
@@ -235,6 +235,17 @@
     column-gap: 22px;
   }
 
+  #hero,
+  #focus-modes,
+  #style-preview,
+  #onboarding,
+  #reports,
+  #quick-start,
+  #reminders,
+  #simplicity,
+  #pricing,
+  #faq,
+  #download,
   .hero,
   .focus-modes,
   .style-preview,
@@ -276,12 +287,14 @@
     min-height: 700px;
     padding: 64px 0 36px;
     display: grid;
-    grid-template-columns: minmax(365px, 1fr) minmax(390px, 44%);
-    gap: clamp(30px, 4vw, 58px);
+    grid-template-columns: minmax(0, 440px) minmax(540px, 1fr);
+    gap: clamp(36px, 5vw, 72px);
     align-items: start;
   }
 
   .hero-intro {
+    min-width: 0;
+    max-width: 440px;
     padding-top: 49px;
   }
 
@@ -291,19 +304,44 @@
   }
 
   .hero h1 {
-    max-width: 590px;
+    max-width: 440px;
     margin-bottom: 24px;
-    font-size: clamp(76px, 7.5vw, 92px);
-    line-height: 0.96;
+    font-size: clamp(44px, 4.1vw, 58px);
+    line-height: 1.06;
+    letter-spacing: 0;
+    overflow-wrap: anywhere;
+    word-break: normal;
+    text-wrap: balance;
+  }
+
+  html[lang="de"] .hero h1,
+  html[lang="fr"] .hero h1 {
+    max-width: 420px;
+    font-size: clamp(40px, 3.6vw, 52px);
+    line-height: 1.08;
+  }
+
+  .hero-showcase {
+    min-width: 0;
+  }
+
+  .hero-description,
+  .hero-category {
+    max-width: 430px;
+    display: block;
+    color: var(--muted);
   }
 
   .hero-description {
-    max-width: 430px;
-    margin: 0 0 36px;
-    display: block;
-    color: var(--muted);
+    margin: 0 0 12px;
     font-size: 18px;
     line-height: 1.6;
+  }
+
+  .hero-category {
+    margin: 0 0 32px;
+    font-size: 14px;
+    line-height: 1.55;
   }
 
   .hero-actions {
@@ -629,12 +667,24 @@
 
 @media (min-width: 1024px) and (max-width: 1180px) {
   .hero {
-    grid-template-columns: minmax(320px, 1fr) minmax(445px, 50%);
-    gap: 24px;
+    grid-template-columns: minmax(0, 380px) minmax(430px, 1fr);
+    gap: 28px;
+  }
+
+  .hero-intro {
+    max-width: 380px;
   }
 
   .hero h1 {
-    font-size: clamp(68px, 7.2vw, 82px);
+    max-width: 380px;
+    font-size: clamp(36px, 3.5vw, 44px);
+    line-height: 1.08;
+  }
+
+  html[lang="de"] .hero h1,
+  html[lang="fr"] .hero h1 {
+    max-width: 360px;
+    font-size: clamp(32px, 3.1vw, 39px);
   }
 
   .hero-showcase {

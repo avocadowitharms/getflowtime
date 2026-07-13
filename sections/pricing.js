@@ -23,8 +23,7 @@ window.renderSection("pricing", `
           </ul>
         </div>
         <div class="price-screen">
-          <img class="theme-shot-mono" src="assets/classic-timer-mono.jpg" alt="Classic Timer in the Flowtime Mono theme" width="1320" height="2868" loading="lazy" decoding="async" />
-          <img class="theme-shot-classic" src="assets/classic-timer-classic.jpg" alt="Classic Timer in the Flowtime Classic theme" width="1320" height="2868" loading="lazy" decoding="async" />
+          <img class="theme-shot" src="assets/classic-timer-mono-opt.webp" data-theme-mono="assets/classic-timer-mono-opt.webp" data-theme-classic="assets/classic-timer-classic-opt.webp" alt="Classic Timer in Flowtime" width="1320" height="2868" loading="lazy" decoding="async" />
         </div>
       </article>
       <article class="price-card pro-plan">
@@ -46,10 +45,11 @@ window.renderSection("pricing", `
           </ul>
         </div>
         <div class="price-screen">
-          <img class="theme-shot-mono" src="assets/reports-mono.jpg" alt="Flowtime reports in the Mono theme" width="1320" height="2868" loading="lazy" decoding="async" />
-          <img class="theme-shot-classic" src="assets/reports-classic.jpg" alt="Flowtime reports in the Classic theme" width="1320" height="2868" loading="lazy" decoding="async" />
+          <img class="theme-shot" src="assets/reports-mono-opt.webp" data-theme-mono="assets/reports-mono-opt.webp" data-theme-classic="assets/reports-classic-opt.webp" alt="Flowtime reports" width="1320" height="2868" loading="lazy" decoding="async" />
         </div>
       </article>
     </div>
   </section>
 `);
+
+

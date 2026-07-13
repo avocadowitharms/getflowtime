@@ -13,8 +13,7 @@ window.renderSection("focus-modes", `
           <p>${window.t("focus.classic.text")}</p>
         </div>
         <div class="featured-phone">
-          <img class="theme-shot-mono" src="assets/classic-timer-mono.jpg" alt="Classic Timer in Mono" width="1320" height="2868" loading="lazy" decoding="async" />
-          <img class="theme-shot-classic" src="assets/classic-timer-classic.jpg" alt="Classic Timer in Classic" width="1320" height="2868" loading="lazy" decoding="async" />
+          <img class="theme-shot" src="assets/classic-timer-mono-opt.webp" data-theme-mono="assets/classic-timer-mono-opt.webp" data-theme-classic="assets/classic-timer-classic-opt.webp" alt="Classic Timer in Flowtime" width="1320" height="2868" loading="lazy" decoding="async" />
         </div>
       </article>
       <article class="featured-mode">
@@ -24,8 +23,7 @@ window.renderSection("focus-modes", `
           <p>${window.t("focus.pomodoro.text")}</p>
         </div>
         <div class="featured-phone">
-          <img class="theme-shot-mono" src="assets/pomodoro-mono.jpg" alt="Pomodoro timer in Mono" width="1320" height="2868" loading="lazy" decoding="async" />
-          <img class="theme-shot-classic" src="assets/pomodoro-classic.jpg" alt="Pomodoro timer in Classic" width="1320" height="2868" loading="lazy" decoding="async" />
+          <img class="theme-shot" src="assets/pomodoro-mono-opt.webp" data-theme-mono="assets/pomodoro-mono-opt.webp" data-theme-classic="assets/pomodoro-classic-opt.webp" alt="Pomodoro timer in Flowtime" width="1320" height="2868" loading="lazy" decoding="async" />
         </div>
       </article>
       <article class="featured-mode">
@@ -35,10 +33,11 @@ window.renderSection("focus-modes", `
           <p>${window.t("focus.flow.text")}</p>
         </div>
         <div class="featured-phone">
-          <img class="theme-shot-mono" src="assets/flow-session-mono.jpg" alt="Flow Session in Mono" width="1320" height="2868" loading="lazy" decoding="async" />
-          <img class="theme-shot-classic" src="assets/flow-session-classic.jpg" alt="Flow Session in Classic" width="1320" height="2868" loading="lazy" decoding="async" />
+          <img class="theme-shot" src="assets/flow-session-mono-opt.webp" data-theme-mono="assets/flow-session-mono-opt.webp" data-theme-classic="assets/flow-session-classic-opt.webp" alt="Flow Session in Flowtime" width="1320" height="2868" loading="lazy" decoding="async" />
         </div>
       </article>
     </div>
   </section>
 `);
+
+

@@ -6,12 +6,12 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data: https://flowtime-app.com https://images.weserv.nl https://*.twitter.com https://*.twimg.com https://*.threads.com https://*.threads.net https://*.instagram.com https://*.cdninstagram.com https://*.bsky.app https://*.licdn.com https://developer.apple.com https://play.google.com; script-src 'self' https://plausible.io 'unsafe-inline' https://groot.mailerlite.com https://www.threads.com https://www.threads.net; style-src 'self' 'unsafe-inline'; connect-src 'self' https://plausible.io https://assets.mailerlite.com https://www.threads.com https://www.threads.net; frame-src 'self' https://www.instagram.com https://www.threads.com https://www.threads.net; form-action 'self' https://assets.mailerlite.com; upgrade-insecure-requests" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()" />
-  <title>Flowtime – Focus Better</title>
+  <title>Flowtime - ADHD Focus Timer and Time Tracker</title>
   <link rel="icon" type="image/png" href="assets/logo-classic.png" />
   <link rel="apple-touch-icon" href="assets/logo-classic.png" />
   <meta
     name="description"
-    content="Flowtime is a minimalist focus timer and time tracker for Pomodoro sessions, Flow Sessions, projects, reminders, analytics, adhd friendly and privacy-first productivity."
+    content="Flowtime is a flexible focus timer, time tracker, and app blocker for ADHD brains that lose track of time, plus work, study, Pomodoro, and deep focus sessions."
   />
   <meta
     name="keywords"
@@ -23,13 +23,13 @@
   <link rel="canonical" href="https://flowtime-app.com/" />
   <link rel="preconnect" href="https://developer.apple.com" />
   <link rel="preconnect" href="https://play.google.com" />
-  <link rel="preload" as="image" href="assets/phone-mono2.jpg" fetchpriority="high" />
+  <link rel="preload" as="image" href="assets/phone-mono2-opt.webp" fetchpriority="high" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Flowtime" />
-  <meta property="og:title" content="Flowtime – Focus Better" />
+  <meta property="og:title" content="Flowtime - ADHD Focus Timer and Time Tracker" />
   <meta
     property="og:description"
-    content="Flowtime is a minimalist focus timer and time tracker for Pomodoro sessions, Flow Sessions, projects, reminders, analytics, and privacy-first productivity."
+    content="Flowtime is a flexible focus timer, time tracker, and app blocker for ADHD brains that lose track of time, plus work, study, Pomodoro, and deep focus sessions."
   />
   <meta property="og:url" content="https://flowtime-app.com" />
   <meta property="og:image" content="https://flowtime-app.com/og-image.png" />
@@ -37,10 +37,10 @@
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="Flowtime focus timer and time tracker preview" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Flowtime – Focus Better" />
+  <meta name="twitter:title" content="Flowtime - ADHD Focus Timer and Time Tracker" />
   <meta
     name="twitter:description"
-    content="Flowtime is a minimalist focus timer and time tracker for Pomodoro sessions, Flow Sessions, projects, reminders, analytics, and privacy-first productivity."
+    content="Flowtime is a flexible focus timer, time tracker, and app blocker for ADHD brains that lose track of time, plus work, study, Pomodoro, and deep focus sessions."
   />
   <meta name="twitter:image" content="https://flowtime-app.com/og-image.png" />
   <meta name="twitter:image:alt" content="Flowtime focus timer and time tracker preview" />
@@ -61,7 +61,7 @@
           "@id": "https://flowtime-app.com/#website",
           "url": "https://flowtime-app.com/",
           "name": "Flowtime",
-          "description": "Flowtime is a minimalist focus timer and time tracker for Pomodoro sessions, Flow Sessions, projects, reminders, analytics, and privacy-first productivity.",
+          "description": "Flowtime is a flexible focus timer, time tracker, and app blocker for ADHD brains that lose track of time, plus work, study, Pomodoro, and deep focus sessions.",
           "publisher": {
             "@id": "https://flowtime-app.com/#organization"
           }
@@ -77,7 +77,7 @@
             "https://apps.apple.com/ch/app/flowtime/id6768056969",
             "https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"
           ],
-          "description": "Flowtime is a minimalist focus timer and time tracker for Pomodoro sessions, Flow Sessions, projects, reminders, analytics, and privacy-first productivity.",
+          "description": "Flowtime is a flexible focus timer, time tracker, and app blocker for ADHD brains that lose track of time, plus work, study, Pomodoro, and deep focus sessions.",
           "keywords": "time tracking, time tracking app, focus timer, Pomodoro timer, productivity app, Flow Session",
           "offers": {
             "@type": "Offer",
@@ -97,7 +97,7 @@
               "name": "What is Flowtime?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Flowtime is a minimalist focus timer and time tracker for iPhone and Android. It supports a standard timer, Flow Sessions, Pomodoro, projects, reminders, history, reports, and privacy-first personal productivity."
+                "text": "Flowtime is a flexible focus timer, time tracker, and app blocker for iPhone and Android. It supports a standard timer, Flow Sessions, Pomodoro, projects, reminders, history, reports, and privacy-first personal productivity."
               }
             },
             {
@@ -153,12 +153,87 @@
   <main>
     <div id="hero">
       <section class="hero">
-        <h1>Focus better.</h1>
-        <p>Flowtime is a minimalist focus timer and time tracker for Pomodoro sessions, Flow Sessions, projects, reminders, analytics, and privacy-first productivity.</p>
-        <p><a href="https://apps.apple.com/ch/app/flowtime/id6768056969">Download Flowtime on the App Store</a> or <a href="https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime">get Flowtime on Google Play</a>.</p>
+        <div class="hero-intro">
+          <p class="eyebrow hero-eyebrow" data-i18n="hero.eyebrow">Time awareness for real focus</p>
+          <h1 data-i18n="hero.title">A focus timer for ADHD time blindness.</h1>
+          <p class="hero-description" data-i18n="hero.description">Start when you need to focus. Get gentle reminders when you've disappeared too deep. Block the apps that hijack your attention.</p>
+          <p class="hero-category" data-i18n="hero.category">A flexible focus timer, time tracker, and app blocker for work, study, and intentional breaks.</p>
+          <div class="hero-actions">
+            <a class="app-store-badge" href="https://apps.apple.com/ch/app/flowtime/id6768056969" target="_blank" rel="noopener noreferrer" data-analytics-event="app_store_click" data-analytics-platform="ios" data-platform-target="ios" data-source-page-type="homepage" data-content-cluster="adhd_time_awareness" data-analytics-location="hero" aria-label="Download on the App Store">
+              <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" loading="lazy" decoding="async" width="120" height="40" />
+            </a>
+            <a class="app-store-badge google-play-badge" href="https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime" target="_blank" rel="noopener noreferrer" data-analytics-event="play_store_click" data-analytics-platform="android" data-platform-target="android" data-source-page-type="homepage" data-content-cluster="adhd_time_awareness" data-analytics-location="hero" aria-label="Get it on Google Play">
+              <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" loading="lazy" decoding="async" width="646" height="250" />
+            </a>
+            <button class="button primary" type="button" data-waitlist-open data-analytics-event="newsletter_open" data-analytics-location="hero"><span data-i18n="cta.waitlist.long">Subscribe for news</span> <span aria-hidden="true">&rarr;</span></button>
+          </div>
+          <div class="launch-announcement" aria-label="Launch announcement">
+            <span>Launch announcement</span>
+            <strong>Now available on the App Store and Google Play</strong>
+            <p>Flowtime is live for iPhone and Android. Thank you for being here at the start.</p>
+          </div>
+        </div>
+        <div class="hero-showcase">
+          <div class="hero-features" aria-label="Flowtime benefits">
+            <div class="hero-feature"><svg class="material-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 1H9v2h6V1zm-3 6a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm1 8h-2V9h2v6z"/></svg><strong data-i18n="hero.timerCard.title">Time awareness</strong><span data-i18n="hero.timerCard.text">Keep session time visible.</span></div>
+            <div class="hero-feature"><svg class="material-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg><strong data-i18n="hero.projects.title">Flexible boundaries</strong><span data-i18n="hero.projects.text">Stop, continue, or switch.</span></div>
+            <div class="hero-feature"><svg class="material-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9.2h3V19H5V9.2zm5.6-4.1h3V19h-3V5.1zm5.7 7.1h3V19h-3v-6.8z"/></svg><strong data-i18n="hero.history.title">Gentle reminders</strong><span data-i18n="hero.history.text">Check in without a shove.</span></div>
+            <div class="hero-feature"><svg class="material-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 21h-1l1-7H7.5c-.88 0-.33-.75-.31-.78C8.48 10.94 10.42 7.54 13 3h1l-1 7h3.5c.4 0 .62.19.4.66C12.96 17.55 11 21 11 21z"/></svg><strong data-i18n="hero.privacy.title">App blocking</strong><span data-i18n="hero.privacy.text">Reduce attention hijacking.</span></div>
+          </div>
+          <div class="hero-phone">
+            <div class="hero-device" data-hero-device>
+              <button class="hero-device-face hero-device-angle" type="button" data-hero-rotate aria-label="Rotate phone to try the timer">
+                <img class="theme-shot" src="assets/phone-mono2-opt.webp" data-theme-mono="assets/phone-mono2-opt.webp" data-theme-classic="assets/phone-classic-opt.webp" alt="Flowtime timer on iPhone" width="1320" height="2868" decoding="async" fetchpriority="high" />
+              </button>
+              <div class="hero-device-face hero-device-front" aria-hidden="true">
+                <img class="theme-shot" src="assets/classic-timer-mono-opt.webp" data-theme-mono="assets/classic-timer-mono-opt.webp" data-theme-classic="assets/classic-timer-classic-opt.webp" alt="" width="1320" height="2868" loading="lazy" decoding="async" />
+                <button class="hero-timer" type="button" data-hero-timer aria-label="Start timer" aria-pressed="false" tabindex="-1"><span class="hero-timer-ring" aria-hidden="true"></span><span class="hero-timer-value" data-hero-timer-value>04:02:46</span></button>
+              </div>
+            </div>
+            <p class="hero-phone-hint" data-hero-phone-hint data-i18n="hero.hint.rotate">Tap phone to try timer</p>
+          </div>
+        </div>
       </section>
     </div>
     <div id="focus-modes"></div>
+    <section class="section positioning-section" aria-labelledby="familiar-title">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="positioning.eyebrow">Does this sound familiar?</p>
+        <h2 id="familiar-title" data-i18n="positioning.title">Time can vanish quietly.</h2>
+        <p data-i18n="positioning.description">Flowtime is built for the ordinary moments when attention drifts, stretches, or gets pulled somewhere else.</p>
+      </div>
+      <div class="positioning-grid">
+        <article>
+          <h3 data-i18n="positioning.time.title">Time blindness</h3>
+          <p data-i18n="positioning.time.text">You start one task and suddenly hours have passed. A visible session timer and gentle reminders make passing time easier to notice.</p>
+        </article>
+        <article>
+          <h3 data-i18n="positioning.hyperfocus.title">Hyperfocus</h3>
+          <p data-i18n="positioning.hyperfocus.text">Getting focused is not always the problem. Sometimes stopping is. Flow Sessions create flexible boundaries without forcing a break at the wrong moment.</p>
+        </article>
+        <article>
+          <h3 data-i18n="positioning.hijacking.title">Attention hijacking</h3>
+          <p data-i18n="positioning.hijacking.text">One notification becomes twenty minutes of unrelated scrolling. App blocking helps protect intentional focus periods and reduce context switching.</p>
+        </article>
+        <article>
+          <h3 data-i18n="positioning.rigid.title">Rigid timers</h3>
+          <p data-i18n="positioning.rigid.text">Pomodoro can help, but a fixed interval can interrupt your best work. Flowtime supports Pomodoro and flexible focus sessions.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section founder-story" aria-labelledby="founder-story-title">
+      <div class="founder-story-copy">
+        <p class="eyebrow" data-i18n="founder.eyebrow">Why Flowtime exists</p>
+        <h2 id="founder-story-title" data-i18n="founder.title">I started using a focus timer to stop focusing.</h2>
+        <p data-i18n="founder.p1">I have ADHD, and during intense hyperfocus I can spend weeks mentally stuck on work, features, UI details, or whatever my brain has decided matters. Even when I stop working physically, my brain often keeps going.</p>
+        <p data-i18n="founder.p2">Flowtime began as a way to focus longer. Over time, it also became a way to unfocus on purpose. Sometimes I start a one-hour FlowSession, block distracting apps, and go for a walk with my dog. Knowing the timer is running and the usual apps are unavailable makes it easier to be present instead of repeatedly checking my phone or thinking about work.</p>
+        <p data-i18n="founder.p3">That is not a medical promise. It is one personal reason Flowtime is built around visible time, gentle reminders, flexible sessions, and fewer distractions.</p>
+      </div>
+      <figure class="founder-story-photo">
+        <img src="assets/unfocus-dog-walk.webp" alt="Dog resting beside a forest path during a quiet walk" width="304" height="343" loading="lazy" decoding="async" />
+      </figure>
+    </section>
     <div id="style-preview"></div>
     <div id="onboarding"></div>
     <div id="reports"></div>
@@ -205,3 +280,4 @@
   <script src="scripts/theme.js"></script>
 </body>
 </html>
+

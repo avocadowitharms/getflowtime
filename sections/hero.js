@@ -1,9 +1,11 @@
+if (!document.querySelector("#hero .hero-intro")) {
 window.renderSection("hero", `
   <section class="hero">
     <div class="hero-intro">
       <p class="eyebrow hero-eyebrow">${window.t("hero.eyebrow")}</p>
       <h1>${window.t("hero.title")}</h1>
       <p class="hero-description">${window.t("hero.description")}</p>
+      <p class="hero-category">${window.t("hero.category")}</p>
       <div class="hero-actions">
         <a
           class="app-store-badge"
@@ -12,6 +14,9 @@ window.renderSection("hero", `
           rel="noopener noreferrer"
           data-analytics-event="app_store_click"
           data-analytics-platform="ios"
+          data-platform-target="ios"
+          data-source-page-type="homepage"
+          data-content-cluster="adhd_time_awareness"
           data-analytics-location="hero"
           aria-label="${window.t("cta.appstore")}"
         >
@@ -29,8 +34,11 @@ window.renderSection("hero", `
           href="https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"
           target="_blank"
           rel="noopener noreferrer"
-          data-analytics-event="google_play_click"
+          data-analytics-event="play_store_click"
           data-analytics-platform="android"
+          data-platform-target="android"
+          data-source-page-type="homepage"
+          data-content-cluster="adhd_time_awareness"
           data-analytics-location="hero"
           aria-label="${window.t("cta.playstore")}"
         >
@@ -79,12 +87,10 @@ window.renderSection("hero", `
       <div class="hero-phone">
         <div class="hero-device" data-hero-device>
           <button class="hero-device-face hero-device-angle" type="button" data-hero-rotate aria-label="${window.t("hero.rotate")}">
-            <img class="theme-shot-mono" src="assets/phone-mono2.jpg" alt="Flowtime Classic Timer in Mono theme on iPhone" width="1320" height="2868" decoding="async" fetchpriority="high" />
-            <img class="theme-shot-classic" src="assets/phone-classic.jpg" alt="Flowtime timer in Classic theme on iPhone" width="1320" height="2868" loading="lazy" decoding="async" />
+            <img class="theme-shot" src="assets/phone-mono2-opt.webp" data-theme-mono="assets/phone-mono2-opt.webp" data-theme-classic="assets/phone-classic-opt.webp" alt="Flowtime timer on iPhone" width="1320" height="2868" decoding="async" fetchpriority="high" />
           </button>
           <div class="hero-device-face hero-device-front" aria-hidden="true">
-            <img class="theme-shot-mono" src="assets/classic-timer-mono.jpg" alt="" width="1320" height="2868" loading="lazy" decoding="async" />
-            <img class="theme-shot-classic" src="assets/classic-timer-classic.jpg" alt="" width="1320" height="2868" loading="lazy" decoding="async" />
+            <img class="theme-shot" src="assets/classic-timer-mono-opt.webp" data-theme-mono="assets/classic-timer-mono-opt.webp" data-theme-classic="assets/classic-timer-classic-opt.webp" alt="" width="1320" height="2868" loading="lazy" decoding="async" />
             <button class="hero-timer" type="button" data-hero-timer aria-label="${window.t("hero.timer.start")}" aria-pressed="false" tabindex="-1">
               <span class="hero-timer-ring" aria-hidden="true"></span>
               <span class="hero-timer-value" data-hero-timer-value>04:02:46</span>
@@ -96,6 +102,7 @@ window.renderSection("hero", `
     </div>
   </section>
 `);
+}
 
 (function () {
   var device = document.querySelector("[data-hero-device]");
@@ -180,3 +187,5 @@ window.renderSection("hero", `
     lastTouchEnd = now;
   }, { passive: true });
 }());
+
+

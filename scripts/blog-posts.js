@@ -1,5 +1,229 @@
 window.flowtimeBlogPosts = [
   {
+    "slug": "adhd-hyperfocus-how-to-stop-without-killing-your-focus",
+    "category": "guides",
+    "title": "ADHD Hyperfocus: How to Stop Without Killing Your Focus",
+    "description": "A practical guide to creating gentle exit points from hyperfocus without relying on abrupt interruptions or rigid timer rules.",
+    "date": "2026-07-13",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "adhd",
+      "hyperfocus",
+      "focus"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
+    "slug": "do-you-start-working-and-suddenly-its-four-hours-later",
+    "category": "guides",
+    "title": "Do You Start Working and Suddenly It's Four Hours Later?",
+    "description": "A conversational guide to losing track of time while working, hyperfocus, external cues, and gentle session boundaries.",
+    "date": "2026-07-13",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "adhd",
+      "hyperfocus",
+      "time awareness"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
+    "slug": "gentle-time-reminders-for-adhd-time-blindness",
+    "category": "guides",
+    "title": "Gentle Time Reminders for ADHD Time Blindness",
+    "description": "Why gentle reminders can work better than aggressive alarms for time awareness, hyperfocus check-ins, and flexible focus sessions.",
+    "date": "2026-07-13",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "adhd",
+      "time awareness",
+      "focus"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
+    "slug": "how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything",
+    "category": "guides",
+    "title": "How I Reduce Phone Distractions When My ADHD Brain Wants to Check Everything",
+    "description": "A personal note on phone checking, Instagram, messages, weather, email, app blocking, and reducing decisions during focus time.",
+    "date": "2026-07-13",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "adhd",
+      "phone distraction",
+      "app blocking"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
+    "slug": "how-to-use-a-focus-timer-without-interrupting-your-best-work",
+    "category": "guides",
+    "title": "How to Use a Focus Timer Without Interrupting Your Best Work",
+    "description": "A broader deep-work guide to flexible focus timers, awareness reminders, session length, and avoiding rigid Pomodoro interruptions.",
+    "date": "2026-07-13",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "focus",
+      "deep work",
+      "pomodoro"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
+    "slug": "i-use-a-focus-timer-to-stop-focusing",
+    "category": "guides",
+    "title": "I Use a Focus Timer to Stop Focusing",
+    "description": "A personal founder note about ADHD, hyperfocus, walking the dog, blocking distracting apps, and using Flowtime to unfocus on purpose.",
+    "date": "2026-07-13",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "adhd",
+      "hyperfocus",
+      "product design"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
+    "slug": "simple-focus-timer-for-work-study-and-deep-focus",
+    "category": "guides",
+    "title": "A Simple Focus Timer for Work, Study, and Deep Focus",
+    "description": "A broad product-category guide to simple focus timers for work, study, deep focus, reminders, app blocking, and low-friction time tracking.",
+    "date": "2026-07-13",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "focus",
+      "study",
+      "time tracking"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
+    "slug": "what-is-an-app-blocker-and-when-is-it-actually-useful",
+    "category": "guides",
+    "title": "What Is an App Blocker, and When Is It Actually Useful?",
+    "description": "A broad guide to app blockers, distraction blockers, context switching, temporary blocking, limitations, and timed focus sessions.",
+    "date": "2026-07-13",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "app blocking",
+      "phone distraction",
+      "focus"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
+    "slug": "why-adhd-makes-you-lose-track-of-time",
+    "category": "guides",
+    "title": "Why ADHD Makes You Lose Track of Time",
+    "description": "A calm guide to ADHD time blindness, why passing time can be hard to feel, and how external cues can support time awareness.",
+    "date": "2026-07-13",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "adhd",
+      "time awareness",
+      "focus"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
+    "slug": "why-do-i-forget-why-i-unlocked-my-phone",
+    "category": "guides",
+    "title": "Why Do I Forget Why I Unlocked My Phone?",
+    "description": "A practical explanation of phone context switching, attention hijacking, and why one notification can replace your original intention.",
+    "date": "2026-07-13",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "phone distraction",
+      "app blocking",
+      "focus"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
+    "slug": "why-pomodoro-doesnt-always-work-for-adhd",
+    "category": "guides",
+    "title": "Why Pomodoro Doesn't Always Work for ADHD",
+    "description": "A balanced look at Pomodoro for ADHD, why fixed 25-minute intervals can help or frustrate, and when flexible focus sessions fit better.",
+    "date": "2026-07-13",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "adhd",
+      "pomodoro",
+      "focus"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
+    "slug": "adhd-focus-timer-vs-pomodoro-whats-the-difference",
+    "category": "comparison",
+    "title": "ADHD Focus Timer vs Pomodoro: What's the Difference?",
+    "description": "A factual comparison of ADHD focus timers and traditional Pomodoro timers, including flexibility, reminders, app blocking, and use cases.",
+    "date": "2026-07-13",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "comparison",
+      "adhd",
+      "pomodoro"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
+    "slug": "best-focus-apps-for-adhd-arent-always-planners",
+    "category": "comparison",
+    "title": "The Best Focus Apps for ADHD Aren't Always Planners",
+    "description": "A balanced guide to ADHD focus apps, planners, timers, app blockers, body doubling, and tools that solve one small problem well.",
+    "date": "2026-07-13",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "comparison",
+      "adhd",
+      "focus"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
+    "slug": "focus-timer-time-tracker-or-pomodoro-app-which-one-do-you-need",
+    "category": "comparison",
+    "title": "Focus Timer, Time Tracker, or Pomodoro App: Which One Do You Need?",
+    "description": "A broader comparison of focus timers, time trackers, and Pomodoro apps for work, study, billing, habit building, and time awareness.",
+    "date": "2026-07-13",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "comparison",
+      "focus",
+      "time tracking"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
     "slug": "how-to-find-out-where-your-time-actually-goes",
     "category": "guides",
     "title": "How to Find Out Where Your Time Actually Goes",

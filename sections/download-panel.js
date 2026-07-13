@@ -13,6 +13,9 @@ window.renderSection("download-panel", `
         rel="noopener noreferrer"
         data-analytics-event="app_store_click"
         data-analytics-platform="ios"
+        data-platform-target="ios"
+        data-source-page-type="homepage"
+        data-content-cluster="general"
         data-analytics-location="download_panel"
         aria-label="${window.t("cta.appstore")}"
       >
@@ -31,8 +34,11 @@ window.renderSection("download-panel", `
         href="https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"
         target="_blank"
         rel="noopener noreferrer"
-        data-analytics-event="google_play_click"
+        data-analytics-event="play_store_click"
         data-analytics-platform="android"
+        data-platform-target="android"
+        data-source-page-type="homepage"
+        data-content-cluster="general"
         data-analytics-location="download_panel"
         aria-label="${window.t("cta.playstore")}"
       >
