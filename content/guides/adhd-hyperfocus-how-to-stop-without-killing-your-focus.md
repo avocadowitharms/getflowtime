@@ -1,8 +1,8 @@
 ---
 title: "ADHD Hyperfocus: How to Stop Without Killing Your Focus"
-seoTitle: "How to Stop ADHD Hyperfocus Without Killing Focus"
-description: "A practical guide to creating gentle exit points from hyperfocus without relying on abrupt interruptions or rigid timer rules."
-metaDescription: "Learn how flexible session boundaries and gentle reminders can help create an intentional exit point from ADHD hyperfocus."
+seoTitle: "ADHD Hyperfocus Timer: Stop Without Killing Focus"
+description: "A practical guide to using a hyperfocus timer, gentle reminders, and flexible session boundaries without relying on abrupt interruptions or rigid timer rules."
+metaDescription: "Learn how a hyperfocus timer, flexible session boundaries, and gentle reminders can help create an intentional exit point from ADHD hyperfocus."
 slug: "adhd-hyperfocus-how-to-stop-without-killing-your-focus"
 searchIntent: "Informational"
 primaryKeyword: "how to stop ADHD hyperfocus"
@@ -16,7 +16,7 @@ draft: false
 
 ## Summary
 
-For some people with ADHD, the hard part is not always starting. It is stopping after focus finally arrives. A useful timer should create an exit point without treating focus like something that must be broken immediately.
+For some people with ADHD, the hard part is not always starting. It is stopping after focus finally arrives. A useful hyperfocus timer should create an exit point without treating focus like something that must be broken immediately.
 
 ## Finally getting focused
 
@@ -42,6 +42,8 @@ That question leaves room for judgment. Maybe you continue because you are in th
 
 The reminder is not a command. It is a moment of awareness.
 
+This is the difference between a hyperfocus timer and a simple alarm. The point is not only to make noise at a certain minute. The point is to make time visible enough that you can choose the next move.
+
 ## Create an intentional exit point
 
 A useful exit point often has three parts:
@@ -54,7 +56,7 @@ This works better than waiting until you are exhausted and then trying to stop b
 
 ## How Flowtime helps
 
-Flowtime lets you start a flexible Flow Session with a target duration, use focus reminders, and decide what to do when the check-in arrives. It also supports Pomodoro when fixed intervals are the right structure.
+Flowtime lets you start a flexible Flow Session with a target duration, use focus reminders, and decide what to do when the check-in arrives. It can work as a hyperfocus timer when you need gentle exit points, and it also supports Pomodoro when fixed intervals are the right structure.
 
 The goal is not to kill focus. It is to make stopping available.
 
