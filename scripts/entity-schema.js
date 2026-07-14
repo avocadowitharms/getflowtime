@@ -77,7 +77,7 @@ function articleSchema(post, url, description, socialImage, type) {
       },
       breadcrumbNode([
         { name: facts.name, url: facts.canonicalUrl },
-        { name: post.category === "guides" ? "Guides" : "Comparisons", url: `${facts.siteUrl}/${post.category}/` },
+        { name: post.category === "comparison" ? "Comparisons" : (post.category === "adhd" ? "ADHD" : "Guides"), url: `${facts.siteUrl}/${post.category}/` },
         { name: post.data.title, url }
       ])
     ]

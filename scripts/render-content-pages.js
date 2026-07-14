@@ -5,7 +5,7 @@ const { facts, articleSchema } = require("./entity-schema");
 const root = path.resolve(__dirname, "..");
 const siteUrl = facts.siteUrl;
 const socialImage = facts.socialImageUrl;
-const categories = ["guides", "comparison"];
+const categories = ["guides", "comparison", "adhd"];
 
 function securityMeta() {
   return [
@@ -211,6 +211,16 @@ function readingTime(markdown) {
   return `${minutes} min read`;
 }
 
+function categoryName(category) {
+  if (category === "comparison") {
+    return "Comparison";
+  }
+  if (category === "adhd") {
+    return "ADHD";
+  }
+  return "Guide";
+}
+
 function relatedArticles(current, posts) {
   const currentTags = new Set(current.data.tags || []);
   return posts
@@ -263,7 +273,7 @@ function renderPage(post, posts) {
   <link rel="stylesheet" href="../../style.css" />
   <link rel="stylesheet" href="../../css/blog.css" />
   <script type="application/ld+json">
-    ${safeJsonLd(articleSchema(post, url, description, socialImage, post.category === "guides" ? "BlogPosting" : "Article"))}
+    ${safeJsonLd(articleSchema(post, url, description, socialImage, post.category === "comparison" ? "Article" : "BlogPosting"))}
   </script>
   <script src="../../scripts/attribution.js"></script>
   <!-- Privacy-friendly analytics by Plausible -->
@@ -279,7 +289,7 @@ function renderPage(post, posts) {
   <main class="blog-main">
     <article class="blog-article">
       <header class="article-header">
-        <p class="eyebrow">${escapeHtml(post.category === "comparison" ? "Comparison" : "Guide")}</p>
+        <p class="eyebrow">${escapeHtml(categoryName(post.category))}</p>
         <h1>${escapeHtml(post.data.title)}</h1>
         <p class="article-description">${escapeHtml(post.data.description)}</p>
         <div class="article-meta"><span>By ${escapeHtml(post.data.author || "Ava Thalheim")}</span><time datetime="${post.data.date}">${formatDate(post.data.date)}</time><span>${readingTime(post.raw)}</span></div>

@@ -1,7 +1,7 @@
 (function () {
   var category = document.body.dataset.blogCategory;
   var posts = (window.flowtimeBlogPosts || []).filter(function (post) {
-    return !category || post.category === category;
+    return !category || post.category === category || (category === "guides" && post.category === "adhd");
   }).slice().sort(function (a, b) {
     return new Date(b.date) - new Date(a.date);
   });
@@ -57,6 +57,16 @@
     return /^[a-z0-9-]+$/.test(value) ? value + "/index.html" : "#";
   }
 
+  function postPath(post) {
+    if (!/^[a-z0-9-]+$/.test(post.slug) || !/^[a-z0-9-]+$/.test(post.category)) {
+      return "#";
+    }
+    if (!category || post.category === category) {
+      return post.slug + "/index.html";
+    }
+    return "../" + post.category + "/" + post.slug + "/index.html";
+  }
+
   function renderTags() {
     var items = ["all"].concat(uniqueTags());
     tags.innerHTML = items.map(function (tag) {
@@ -78,7 +88,7 @@
     var localizedTitle = translate("blog.title." + post.slug, post.title);
     var localizedDesc = translate("blog.desc." + post.slug, post.description);
     var readText = translate("blog.read_article", "Read article");
-    var postPath = safePathSegment(post.slug);
+    var path = postPath(post);
     
     var readingTimeText = post.readingTime;
     if (readingTimeText && readingTimeText.indexOf("min read") >= 0) {
@@ -95,9 +105,9 @@
       "<span>" + escapeHtml(readingTimeText) + "</span>",
       '<span class="article-tag">' + escapeHtml(localizedTag) + "</span>",
       "</div>",
-      '<h2><a href="' + postPath + '">' + escapeHtml(localizedTitle) + "</a></h2>",
+      '<h2><a href="' + path + '">' + escapeHtml(localizedTitle) + "</a></h2>",
       "<p>" + escapeHtml(localizedDesc) + "</p>",
-      '<a class="blog-card-link" href="' + postPath + '">' + escapeHtml(readText) + ' <span aria-hidden="true">&rarr;</span></a>',
+      '<a class="blog-card-link" href="' + path + '">' + escapeHtml(readText) + ' <span aria-hidden="true">&rarr;</span></a>',
       "</article>"
     ].join("");
   }

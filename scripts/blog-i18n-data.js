@@ -1945,6 +1945,7 @@
         }
     }
 };
+
   function mergeBlogTranslations(target, source) {
     Object.keys(source || {}).forEach(function (key) {
       if (source[key] && typeof source[key] === "object" && !Array.isArray(source[key])) {
@@ -2492,7 +2493,7 @@
       localizeJsonLd(aData.title || metaData.title, aData.description || metaData.desc);
 
       var catEyebrow = document.querySelector(".article-header .eyebrow");
-      if (catEyebrow) catEyebrow.textContent = category === "comparison" ? dict.labels.comparison : dict.labels.guide;
+      if (catEyebrow) catEyebrow.textContent = category === "comparison" ? dict.labels.comparison : (category === "adhd" ? (dict.labels.adhd || "ADHD") : dict.labels.guide);
 
       var artH1 = document.querySelector(".article-header h1");
       if (artH1 && aData.title) artH1.textContent = aData.title;

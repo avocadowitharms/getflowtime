@@ -785,6 +785,20 @@
     }
   };
 
+  function loadAdhdBlogLocalization() {
+    if (window.flowtimeAdhdI18nLoading || window.flowtimeAdhdI18nLoaded) {
+      return;
+    }
+    window.flowtimeAdhdI18nLoading = true;
+    var adhdScript = document.createElement("script");
+    adhdScript.src = (window.flowtimeRoot || "") + "scripts/adhd-i18n-data.js";
+    adhdScript.onload = function() {
+      window.flowtimeAdhdI18nLoading = false;
+      window.flowtimeAdhdI18nLoaded = true;
+    };
+    adhdScript.onerror = function() { window.flowtimeAdhdI18nLoading = false; };
+    document.head.appendChild(adhdScript);
+  }
   // Dynamically load blog localization script if needed
   var isBlogPage = !!(document.body.dataset.blogCategory || document.querySelector(".blog-article") || document.querySelector("[data-blog-grid]"));
   if (isBlogPage && locale !== "en" && !window.flowtimeBlogI18nLoading && !window.flowtimeTranslateBlog) {
@@ -796,8 +810,11 @@
       if (window.flowtimeTranslateBlog) {
         window.flowtimeTranslateBlog(locale);
       }
+      loadAdhdBlogLocalization();
     };
     script.onerror = function() { window.flowtimeBlogI18nLoading = false; };
     document.head.appendChild(script);
+  } else if (isBlogPage && locale !== "en") {
+    loadAdhdBlogLocalization();
   }
 }());

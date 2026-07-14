@@ -6,6 +6,7 @@ const root = path.resolve(__dirname, "..");
 const siteUrl = facts.siteUrl;
 const comparisonDir = path.join(root, "content", "comparison");
 const guidesDir = path.join(root, "content", "guides");
+const adhdDir = path.join(root, "content", "adhd");
 
 function frontmatter(markdown) {
   const match = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---/);
@@ -94,8 +95,10 @@ const urls = [
   { loc: `${siteUrl}/llms.txt`, lastmod: fileLastmod("llms.txt", "2026-07-13"), changefreq: "monthly", priority: "0.2" },
   { loc: `${siteUrl}/comparison/`, lastmod: fileLastmod("comparison/index.html", "2026-06-06"), changefreq: "weekly", priority: "0.8" },
   { loc: `${siteUrl}/guides/`, lastmod: fileLastmod("guides/index.html", "2026-06-06"), changefreq: "weekly", priority: "0.8" },
+  { loc: `${siteUrl}/adhd/`, lastmod: fileLastmod("adhd/index.html", "2026-07-14"), changefreq: "weekly", priority: "0.8" },
   ...getUrlsFromDir(comparisonDir, "comparison"),
   ...getUrlsFromDir(guidesDir, "guides"),
+  ...getUrlsFromDir(adhdDir, "adhd"),
   { loc: `${siteUrl}/docs/privacy-policy.html`, lastmod: fileLastmod("docs/privacy-policy.html", "2026-06-01"), changefreq: "yearly", priority: "0.3" },
   { loc: `${siteUrl}/docs/terms-of-use.html`, lastmod: fileLastmod("docs/terms-of-use.html", "2026-06-01"), changefreq: "yearly", priority: "0.3" },
   { loc: `${siteUrl}/docs/support.html`, lastmod: fileLastmod("docs/support.html", "2026-06-01"), changefreq: "monthly", priority: "0.4" }
