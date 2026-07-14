@@ -18,7 +18,7 @@
         support: "Support",
         copyright: "&copy; 2026 Ava Thalheim",
         creator: "avathalheim.dev",
-        updated: "Last updated: June 30, 2026",
+        updated: "Last updated: July 14, 2026",
         email: "Email support"
       },
       privacy: {
@@ -29,6 +29,7 @@
           ["Data stored locally", "<p>Flowtime may store the following information on your device:</p><ul><li>Projects you create</li><li>Time tracking sessions</li><li>Focus mode settings</li><li>App preferences</li><li>Flowtime Pro access status</li></ul><p>This data is stored locally on your device and is not sent to Flowtime servers.</p>"],
           ["Purchases", "<p>Flowtime may use Apple App Store or Google Play in-app purchase services to process Flowtime Pro purchases and subscriptions. Payment and transaction processing are handled by the store through which you make the purchase. Flowtime stores Pro access status locally so purchased features can be made available in the app.</p>"],
           ["Data sharing", "<p>Flowtime does not share your tracking data with third parties for advertising or tracking purposes. Apple and Google may process purchase information under their own privacy policies when you choose to make or restore a purchase.</p>"],
+          ["AI discovery and referral measurement", "<p>Flowtime may analyze limited server request information to understand whether known AI assistants, AI search systems, and automated crawlers discover, fetch, or refer people to public Flowtime pages. This may include the request timestamp, requested page path, detected AI service or automated agent, broad referral source when available, request method, and response status.</p><p>This processing does not use cookies, visitor profiles, browser fingerprinting, cross-page tracking, full IP addresses, complete referral URLs, request bodies, or personal identifiers. Referrals from AI assistants are stored only as the referring domain, such as chatgpt.com, and page URLs are stored only as pathnames without query parameter values.</p>"],
           ["Deletion and choices", "<p>You can delete locally stored tracking data from the Data screen in Flowtime settings. You can manage or cancel a recurring Flowtime Pro subscription through your Apple App Store or Google Play subscription settings.</p>"],
           ["Contact", "<p>For privacy questions, contact <a href=\"mailto:avocadowitharms@gmail.com\">avocadowitharms@gmail.com</a>.</p>"]
         ]
@@ -61,7 +62,7 @@
         support: "Support",
         copyright: "&copy; 2026 Ava Thalheim",
         creator: "avathalheim.dev",
-        updated: "Zuletzt aktualisiert: 30. Juni 2026",
+        updated: "Zuletzt aktualisiert: 14. Juli 2026",
         email: "Support kontaktieren"
       },
       privacy: {
@@ -72,6 +73,7 @@
           ["Lokal gespeicherte Daten", "<p>Flowtime kann die folgenden Informationen auf deinem Gerät speichern:</p><ul><li>Von dir erstellte Projekte</li><li>Zeiterfassungs-Sessions</li><li>Einstellungen der Fokusmodi</li><li>App-Einstellungen</li><li>Status deines Flowtime Pro-Zugangs</li></ul><p>Diese Daten werden lokal auf deinem Gerät gespeichert und nicht an Flowtime-Server gesendet.</p>"],
           ["Käufe", "<p>Flowtime kann In-App-Kaufdienste des Apple App Store oder von Google Play verwenden, um Käufe und Abonnements von Flowtime Pro abzuwickeln. Zahlung und Transaktionsverarbeitung erfolgen über den Store, in dem du kaufst. Flowtime speichert deinen Pro-Zugangsstatus lokal, damit gekaufte Funktionen verfügbar sind.</p>"],
           ["Weitergabe von Daten", "<p>Flowtime gibt deine Tracking-Daten nicht zu Werbe- oder Trackingzwecken an Dritte weiter. Apple und Google können Kaufinformationen gemäß ihren eigenen Datenschutzrichtlinien verarbeiten, wenn du einen Kauf tätigst oder wiederherstellst.</p>"],
+          ["Messung von KI-Auffindbarkeit und KI-Verweisen", "<p>Flowtime kann begrenzte Server-Anfragedaten auswerten, um zu verstehen, ob bekannte KI-Assistenten, KI-Suchsysteme und automatisierte Crawler &ouml;ffentliche Flowtime-Seiten finden, abrufen oder Menschen dorthin verweisen. Dazu k&ouml;nnen der Zeitpunkt der Anfrage, der angefragte Seitenpfad, der erkannte KI-Dienst oder automatisierte Agent, eine grobe Verweisquelle, sofern vorhanden, die Anfragemethode und der Antwortstatus geh&ouml;ren.</p><p>Diese Verarbeitung verwendet keine Cookies, Besucherprofile, Browser-Fingerprinting, seiten&uuml;bergreifendes Tracking, vollst&auml;ndigen IP-Adressen, vollst&auml;ndigen Referrer-URLs, Anfrageinhalte oder pers&ouml;nlichen Kennungen. Verweise von KI-Assistenten werden nur als verweisende Domain gespeichert, zum Beispiel chatgpt.com; Seiten-URLs werden nur als Pfadnamen ohne Werte von Query-Parametern gespeichert.</p>"],
           ["Löschung und Auswahlmöglichkeiten", "<p>Du kannst lokal gespeicherte Tracking-Daten im Datenbereich der Flowtime-Einstellungen löschen. Ein wiederkehrendes Flowtime Pro-Abonnement kannst du über die Abonnementeinstellungen im Apple App Store oder bei Google Play verwalten oder kündigen.</p>"],
           ["Kontakt", "<p>Bei Fragen zum Datenschutz kontaktiere <a href=\"mailto:avocadowitharms@gmail.com\">avocadowitharms@gmail.com</a>.</p>"]
         ]
@@ -104,7 +106,7 @@
         support: "Assistance",
         copyright: "&copy; 2026 Ava Thalheim",
         creator: "avathalheim.dev",
-        updated: "Dernière mise à jour : 30 juin 2026",
+        updated: "Dernière mise à jour : 14 juillet 2026",
         email: "Contacter l'assistance"
       },
       privacy: {
@@ -115,6 +117,7 @@
           ["Données stockées localement", "<p>Flowtime peut stocker les informations suivantes sur votre appareil :</p><ul><li>Les projets que vous créez</li><li>Les sessions de suivi du temps</li><li>Les réglages des modes de concentration</li><li>Les préférences de l'application</li><li>Le statut d'accès à Flowtime Pro</li></ul><p>Ces données sont stockées localement sur votre appareil et ne sont pas envoyées aux serveurs de Flowtime.</p>"],
           ["Achats", "<p>Flowtime peut utiliser les services d'achat intégré de l'Apple App Store ou de Google Play pour traiter les achats et abonnements Flowtime Pro. Le paiement et le traitement de la transaction sont gérés par la boutique utilisée pour l'achat. Flowtime stocke localement le statut d'accès Pro afin de rendre disponibles les fonctionnalités achetées.</p>"],
           ["Partage des données", "<p>Flowtime ne partage pas vos données de suivi avec des tiers à des fins publicitaires ou de suivi. Apple et Google peuvent traiter les informations d'achat selon leurs propres politiques de confidentialité lorsque vous effectuez ou restaurez un achat.</p>"],
+          ["Mesure de la d&eacute;couverte et des renvois par l'IA", "<p>Flowtime peut analyser des informations limit&eacute;es issues des requ&ecirc;tes serveur afin de comprendre si des assistants IA connus, des syst&egrave;mes de recherche IA et des robots automatis&eacute;s d&eacute;couvrent, consultent ou renvoient des personnes vers les pages publiques de Flowtime. Cela peut inclure l'horodatage de la requ&ecirc;te, le chemin de la page demand&eacute;e, le service IA ou l'agent automatis&eacute; d&eacute;tect&eacute;, la source de renvoi g&eacute;n&eacute;rale lorsqu'elle est disponible, la m&eacute;thode de requ&ecirc;te et le statut de r&eacute;ponse.</p><p>Ce traitement n'utilise pas de cookies, de profils visiteurs, d'empreintes de navigateur, de suivi entre les pages, d'adresses IP compl&egrave;tes, d'URL de renvoi compl&egrave;tes, de corps de requ&ecirc;te ni d'identifiants personnels. Les renvois provenant d'assistants IA sont stock&eacute;s uniquement sous forme de domaine r&eacute;f&eacute;rent, par exemple chatgpt.com, et les URL des pages sont stock&eacute;es uniquement sous forme de chemins sans valeurs de param&egrave;tres de requ&ecirc;te.</p>"],
           ["Suppression et choix", "<p>Vous pouvez supprimer les données de suivi enregistrées localement depuis l'écran Données des réglages Flowtime. Vous pouvez gérer ou annuler un abonnement Flowtime Pro récurrent depuis les réglages d'abonnement de l'Apple App Store ou de Google Play.</p>"],
           ["Contact", "<p>Pour toute question relative à la confidentialité, contactez <a href=\"mailto:avocadowitharms@gmail.com\">avocadowitharms@gmail.com</a>.</p>"]
         ]
