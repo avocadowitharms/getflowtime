@@ -178,5 +178,59 @@
     "publishedAt": "2026-07-10T08:05:56.048Z",
     "createdAt": "2026-07-10T08:05:30.917Z",
     "updatedAt": "2026-07-10T08:05:56.048Z"
+  },
+  {
+    "id": "update_1784185982808_0yelpslm8",
+    "title": "Flowtime now tracks overtime. \u23f1\ufe0f",
+    "slug": "update-from-instagram-daxse1pdvzg",
+    "description": "",
+    "body": "And no, I don\u2019t mean working late.\n\nI mean that moment when your focus timer ends\u2026\n\n\u2026and you just keep going.\n\n5 minutes.\n20 minutes.\nAn hour.\n\nBecause sometimes with ADHD, the hard part isn\u2019t starting.\n\nIt\u2019s stopping.\n\nThe latest Flowtime update now tracks your focus overtime alongside deeper stats, interruption patterns, project breakdowns and personal focus insights.\n\nI built Flowtime to understand my focus better.\n\nThis update feels like a pretty big step towards that. \ud83e\udde0",
+    "platform": "instagram",
+    "status": "published",
+    "originalUrl": "https://www.instagram.com/p/DaxSE1PDVzG/?img_index=1",
+    "externalPostId": "DaxSE1PDVzG",
+    "tags": [
+      "instagram"
+    ],
+    "thumbnailUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FDaxSE1PDVzG%2Fmedia%2F%3Fsize%3Dl",
+    "publishedAt": "2026-07-16T07:13:47.642Z",
+    "createdAt": "2026-07-16T07:13:02.808Z",
+    "updatedAt": "2026-07-16T07:13:47.642Z"
+  },
+  {
+    "id": "update_1784186044090_lc5mmrtd5",
+    "title": "iOS Double Tap automations!",
+    "slug": "update-from-instagram-dasyv4gtgzl",
+    "description": "",
+    "body": "",
+    "platform": "instagram",
+    "status": "published",
+    "originalUrl": "https://www.instagram.com/p/DasYv4gtgzL/",
+    "externalPostId": "DasYv4gtgzL",
+    "tags": [
+      "instagram"
+    ],
+    "thumbnailUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FDasYv4gtgzL%2Fmedia%2F%3Fsize%3Dl",
+    "publishedAt": "2026-07-16T07:14:39.710Z",
+    "createdAt": "2026-07-16T07:14:04.090Z",
+    "updatedAt": "2026-07-16T07:14:39.710Z"
+  },
+  {
+    "id": "update_1784186146606_mg1t5029q",
+    "title": "200 people using Flowtime! \ud83d\ude0d",
+    "slug": "update-from-threads-dazliufcfzq",
+    "description": "",
+    "body": "",
+    "platform": "threads",
+    "status": "published",
+    "originalUrl": "https://www.threads.com/@avadazina/post/DazlIUfCFzQ",
+    "externalPostId": "DazlIUfCFzQ",
+    "tags": [
+      "threads"
+    ],
+    "thumbnailUrl": null,
+    "publishedAt": "2026-07-16T07:16:33.129Z",
+    "createdAt": "2026-07-16T07:15:46.606Z",
+    "updatedAt": "2026-07-16T07:16:33.129Z"
   }
 ]
