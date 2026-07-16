@@ -25,23 +25,6 @@
     return allowedPlatforms.indexOf(platform) >= 0 ? platform : "manual";
   }
 
-  function getThreadsEmbedHtml(update) {
-    var safeOriginalUrl = getSafeHttpUrl(update.originalUrl);
-    if (!safeOriginalUrl || update.platform !== "threads") return "";
-    return `<blockquote class="text-post-media" data-text-post-permalink="${escapeHtml(safeOriginalUrl)}" data-text-post-version="0"><a href="${escapeHtml(safeOriginalUrl)}" target="_blank" rel="noopener noreferrer"></a></blockquote>`;
-  }
-
-  function loadThreadsEmbed() {
-    document.querySelectorAll("script[data-flowtime-threads-embed]").forEach(function (script) {
-      script.remove();
-    });
-    var script = document.createElement("script");
-    script.async = true;
-    script.dataset.flowtimeThreadsEmbed = "true";
-    script.src = `https://www.threads.com/embed.js?refresh=${Date.now()}`;
-    document.body.appendChild(script);
-  }
-
   function bindImageFallbacks() {
     document.querySelectorAll(".social-post img").forEach(function (img) {
       img.addEventListener("error", function () {
@@ -86,17 +69,15 @@
     var embedUrl = (!thumb || isGeneratedInstagramThumb) && platform === "instagram" && u.externalPostId
       ? `https://www.instagram.com/p/${encodeURIComponent(u.externalPostId)}/embed/captioned/`
       : null;
-    var threadsEmbedHtml = !thumb && platform === "threads" ? getThreadsEmbedHtml(u) : "";
-    
+
     cardsToRender.push({
       href: `${root}updates/index.html#${encodeURIComponent(u.slug || "")}`,
       platformName: platformName,
       title: u.title,
-      description: u.description || "",
+      description: u.description || u.body || "",
       platform: platform,
       thumbnailUrl: embedUrl ? null : (thumb || null),
       embedUrl: embedUrl,
-      threadsEmbedHtml: threadsEmbedHtml,
       target: ""
     });
   });
@@ -111,7 +92,6 @@
       platform: "manual",
       thumbnailUrl: null,
       embedUrl: null,
-      threadsEmbedHtml: "",
       target: ""
     },
     {
@@ -122,7 +102,6 @@
       platform: "x",
       thumbnailUrl: null,
       embedUrl: null,
-      threadsEmbedHtml: "",
       target: ""
     },
     {
@@ -133,7 +112,6 @@
       platform: "manual",
       thumbnailUrl: null,
       embedUrl: null,
-      threadsEmbedHtml: "",
       target: ""
     },
     {
@@ -144,7 +122,6 @@
       platform: "manual",
       thumbnailUrl: null,
       embedUrl: null,
-      threadsEmbedHtml: "",
       target: ""
     },
     {
@@ -155,7 +132,6 @@
       platform: "manual",
       thumbnailUrl: null,
       embedUrl: null,
-      threadsEmbedHtml: "",
       target: ""
     }
   ];
@@ -175,35 +151,25 @@
     var embedHtml = card.embedUrl
       ? `<iframe class="social-post-embed" src="${escapeHtml(card.embedUrl)}" loading="lazy" scrolling="no" tabindex="-1" aria-hidden="true" title="${escapeHtml(card.title)}" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>`
       : "";
-    var threadsEmbedHtml = card.threadsEmbedHtml || "";
-    var hasEmbedClass = card.embedUrl || threadsEmbedHtml ? " has-embed" : "";
-    var hasThreadsEmbedClass = threadsEmbedHtml ? " has-threads-embed" : "";
-    var hasNoImgClass = card.thumbnailUrl || card.embedUrl || threadsEmbedHtml ? "" : " has-no-image";
+    var hasEmbedClass = card.embedUrl ? " has-embed" : "";
+    var hasNoImgClass = card.thumbnailUrl || card.embedUrl ? "" : " has-no-image";
     var platformClass = card.platform ? " social-post-" + escapeHtml(card.platform) : "";
     
     var descHtml = card.description
       ? `<p class="social-post-desc">${escapeHtml(card.description)}</p>`
       : "";
 
-    if (threadsEmbedHtml) {
-      galleryHtml += `
-        <div class="social-post${isLarge}${hasEmbedClass}${hasThreadsEmbedClass}${platformClass}">
-          ${threadsEmbedHtml}
+    var targetAttr = card.target ? ` target="${escapeHtml(card.target)}" rel="noopener noreferrer"` : "";
+    galleryHtml += `
+      <a href="${escapeHtml(card.href)}"${targetAttr} class="social-post${isLarge}${hasEmbedClass}${hasNoImgClass}${platformClass}">
+        ${imgHtml}${embedHtml}
+        ${descHtml}
+        <div>
+          <span>${escapeHtml(card.platformName)} Update</span>
+          <strong>${escapeHtml(card.title)}</strong>
         </div>
-      `;
-    } else {
-      var targetAttr = card.target ? ` target="${escapeHtml(card.target)}" rel="noopener noreferrer"` : "";
-      galleryHtml += `
-        <a href="${escapeHtml(card.href)}"${targetAttr} class="social-post${isLarge}${hasEmbedClass}${hasNoImgClass}${platformClass}">
-          ${imgHtml}${embedHtml}
-          ${descHtml}
-          <div>
-            <span>${escapeHtml(card.platformName)} Update</span>
-            <strong>${escapeHtml(card.title)}</strong>
-          </div>
-        </a>
-      `;
-    }
+      </a>
+    `;
   });
 
   window.renderSection("social", `
@@ -220,5 +186,4 @@
   </section>
   `);
   bindImageFallbacks();
-  if (document.querySelector(".social-post.has-threads-embed")) loadThreadsEmbed();
 })();

@@ -64,6 +64,14 @@ window.renderSection("faq", `
 
       <details class="faq-item">
         <summary>
+          <span>${window.t("faq.languages.q")}</span>
+          <span class="faq-toggle" aria-hidden="true"></span>
+        </summary>
+        <p>${window.t("faq.languages.a")}</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>
           <span>${window.t("faq.flow.q")}</span>
           <span class="faq-toggle" aria-hidden="true"></span>
         </summary>

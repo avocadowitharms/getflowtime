@@ -1,7 +1,6 @@
 (function () {
   var root = window.flowtimeRoot || "";
   var instagramUrl = window.flowtimeInstagramUrl || "https://www.instagram.com/flowtimefocus/";
-  var xUrl = window.flowtimeXUrl || "https://x.com/Flowtime_app";
 
   window.renderSection("site-footer", `
   <footer>
@@ -30,9 +29,6 @@
           </defs>
           <path fill="url(#instagram-icon-gradient)" d="M7 2h10c2.76 0 5 2.24 5 5v10c0 2.76-2.24 5-5 5H7c-2.76 0-5-2.24-5-5V7c0-2.76 2.24-5 5-5zm0 2c-1.65 0-3 1.35-3 3v10c0 1.65 1.35 3 3 3h10c1.65 0 3-1.35 3-3V7c0-1.65-1.35-3-3-3H7zm5 3.5A4.5 4.5 0 1 1 12 16.5 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 12 14.5 2.5 2.5 0 0 0 12 9.5zM17.75 6.25a1 1 0 1 1-1 1 1 1 0 0 1 1-1z"/>
         </svg>
-      </a>
-      <a class="social-icon-link x-icon-link" href="${xUrl}" target="_blank" rel="noopener noreferrer" aria-label="${window.t("social.x")}" data-analytics-event="x_click" data-analytics-location="footer">
-        <svg class="material-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.24 2H21l-6.04 6.9L22 22h-5.63l-4.41-5.77L6.91 22H4.15l6.46-7.38L3.86 2h5.77l3.99 5.27L18.24 2zm-.97 17.69h1.53L8.79 4.19H7.15l10.12 15.5z"/></svg>
       </a>
       <a class="top-link" href="#top">${window.t("footer.top")} <span aria-hidden="true">&uarr;</span></a>
     </div>

@@ -85,7 +85,7 @@
   display: none;
 }
 
-.social-post:not(.has-threads-embed) > div {
+.social-post > div {
   position: absolute;
   inset: auto 12px 12px;
   padding: 10px 11px;
@@ -98,7 +98,7 @@
   backdrop-filter: blur(14px);
 }
 
-.social-post:not(.has-threads-embed) span {
+.social-post span {
   font-size: 10px;
   font-weight: 800;
   letter-spacing: 0.12em;
@@ -106,24 +106,9 @@
   opacity: 0.78;
 }
 
-.social-post:not(.has-threads-embed) strong {
+.social-post strong {
   font-size: 13px;
   line-height: 1.2;
-}
-
-.social-post.has-threads-embed {
-  background: #101010;
-}
-
-.social-post.has-threads-embed .text-post-media {
-  margin: 0 !important;
-  width: 100% !important;
-}
-
-.social-post.has-threads-embed iframe {
-  width: 100%;
-  height: 100%;
-  border: 0;
 }
 
 @media (min-width: 1024px) {

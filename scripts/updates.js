@@ -425,9 +425,28 @@
       // Determine links
       // We will link using hash #slug so that SPA transition works seamlessly
       const linkHref = `#${encodeURIComponent(u.slug || '')}`;
+      const thumbnail = getSafeHttpUrl(u.thumbnailUrl);
+      const isTextOnly = u.platform === 'threads' && !thumbnail;
       const previewMarkup = getUpdatePreviewMarkup(u);
       const previewClass = previewMarkup ? '' : ' has-no-media';
       const publishedDate = u.publishedAt || u.createdAt;
+      const summary = u.description || (isTextOnly ? u.body : '');
+
+      if (isTextOnly) {
+        return `
+          <a class="update-gallery-card update-gallery-card-text" href="${linkHref}">
+            <div class="update-gallery-copy">
+              <span class="platform-badge" data-platform="${escapeHtml(u.platform)}">${escapeHtml(getPlatformLabel(u.platform))}</span>
+              <h2>${escapeHtml(u.title)}</h2>
+              <time class="update-gallery-date" datetime="${escapeHtml(publishedDate)}">${formatPublishDate(publishedDate)}</time>
+              ${summary ? `<p>${escapeHtml(summary)}</p>` : ''}
+            </div>
+            <div class="update-gallery-tags">
+              ${tagHtml}
+            </div>
+          </a>
+        `;
+      }
 
       return `
         <a class="update-gallery-card" href="${linkHref}">
@@ -440,7 +459,7 @@
           <div class="update-gallery-copy">
             <h2>${escapeHtml(u.title)}</h2>
             <time class="update-gallery-date" datetime="${escapeHtml(publishedDate)}">${formatPublishDate(publishedDate)}</time>
-            <p>${escapeHtml(u.description)}</p>
+            ${summary ? `<p>${escapeHtml(summary)}</p>` : ''}
           </div>
           <div class="update-gallery-tags">
             ${tagHtml}
