@@ -10,7 +10,7 @@
   var copy = {
     en: {
       "meta.title": "Flowtime - ADHD Focus Timer for Time Blindness",
-      "meta.description": "Flowtime is a focus timer and time-awareness app for iPhone and Android, with flexible focus sessions, Pomodoro, reminders, projects, and optional app blocking.",
+      "meta.description": "Flowtime is an ADHD focus timer for time blindness, hyperfocus, Pomodoro, focus reminders, project time tracking, and optional app blocking on iPhone and Android.",
       "meta.og.image.alt": "Flowtime focus timer and time tracker preview",
       "a11y.home": "Flowtime home",
       "a11y.nav": "Main navigation",
@@ -214,8 +214,8 @@
       "footer.top": "Back to top"
     },
     de: {
-      "meta.title": "Flowtime - ADHD Focus Timer for Time Blindness",
-      "meta.description": "Flowtime ist ein Fokus-Timer und Time Tracker für Pomodoro-Sessions, Flow Sessions, Projekte, Erinnerungen, Analytics und datenschutzfreundliche Produktivität.",
+      "meta.title": "Flowtime - ADHS-Fokus-Timer für Zeitblindheit",
+      "meta.description": "Flowtime ist ein ADHS-Fokus-Timer für Zeitblindheit, Hyperfokus, Pomodoro, Fokus-Erinnerungen, Projekt-Zeiterfassung und optionales App-Blocking für iPhone und Android.",
       "meta.og.image.alt": "Flowtime Fokus-Timer und Time-Tracker-Vorschau",
       "a11y.home": "Flowtime Startseite",
       "a11y.nav": "Hauptnavigation",
@@ -268,8 +268,8 @@
       "hero.hint.reset": "Zurückgesetzt. Tippen zum Start",
       "hero.hint.paused": "Pausiert. Tippen zum Fortsetzen",
       "hero.hint.running": "Läuft. Tippen zum Pausieren",
-      "launch.eyebrow": "Launch-Ankuendigung",
-      "launch.title": "Jetzt im App Store und bei Google Play verfuegbar",
+      "launch.eyebrow": "Launch-Ankündigung",
+      "launch.title": "Jetzt im App Store und bei Google Play verfügbar",
       "launch.description": "Flowtime ist für iPhone und Android live. Danke, dass du von Anfang an dabei bist.",
       "focus.eyebrow": "Fokusmodi",
       "focus.title": "Drei Arten zu fokussieren.",
@@ -339,7 +339,7 @@
       "pricing.free.flow": "Flow-Session-Zieldauer und einfache Enderinnerung",
       "pricing.free.pomodoro": "Standard-Pomodoro-Voreinstellung",
       "pricing.free.selection": "Manuelle Projektauswahl",
-      "pricing.free.appearance": "Basis-Einstellungen fuer Theme und Timer-Darstellung",
+      "pricing.free.appearance": "Basis-Einstellungen für Theme und Timer-Darstellung",
       "pricing.free.shielding": "Focus Shielding und App-Blocking",
       "pricing.pro.title": "Mehr Kontrolle,<br />ohne mehr Unruhe.",
       "pricing.pro.projects": "Unbegrenzte Projekte",
@@ -362,9 +362,9 @@
       "faq.eyebrow": "FAQ",
       "faq.title": "Häufig gestellte Fragen",
       "faq.what.q": "Was ist Flowtime?",
-      "faq.what.a": "Flowtime ist ein Fokus-Timer und Time Tracker für iPhone und Android. Die App unterstützt Standard-Timer, Flow Sessions, Pomodoro, Projekte, Erinnerungen, Historie, Berichte und datenschutzfreundliche persönliche Produktivität.",
+      "faq.what.a": "Flowtime ist ein ADHS-Fokus-Timer und Time Tracker für iPhone und Android. Die App unterstützt Standard-Timer, Flow Sessions, Pomodoro, Projekte, Erinnerungen, Historie, Berichte und datenschutzfreundliche persönliche Produktivität.",
       "faq.who.q": "Für wen ist Flowtime gedacht?",
-      "faq.who.a": "Flowtime ist für Menschen gedacht, die verstehen möchten, wohin ihre Fokuszeit geht, ohne einen schweren Workspace zu verwalten. Es passt zu Studierenden, Freelancern, Entwicklern, Schreibenden, Forschenden und allen, die einfache persönliche Zeiterfassung bevorzugen.",
+      "faq.who.a": "Flowtime ist für Menschen gedacht, die Fokuszeit sichtbar machen möchten, ohne einen schweren Workspace zu verwalten. Es passt besonders zu ADHS-Zeitblindheit, Hyperfokus, Arbeit, Studium und einfacher persönlicher Zeiterfassung.",
       "faq.adhd.q": "Ist Flowtime gut bei ADHS?",
       "faq.adhd.a": "Flowtime kann Menschen helfen, denen externe Zeitreize, Fokus-Erinnerungen, sichtbare Sessions und schneller Projektwechsel guttun. Es ist kein medizinisches Tool, Diagnosewerkzeug oder ADHS-Behandlung.",
       "faq.pomodoro.diff.q": "Wie unterscheidet sich Flowtime von Pomodoro?",
@@ -375,8 +375,8 @@
       "faq.free.a": "Ja. Free enthält den Standard-Timer, Flow Session, Pomodoro, 2 Projekte und 2 Quick-Start-Vorlagen. Pro hebt diese Limits auf und ergänzt Analytics und mehr Timer-Kontrolle.",
       "faq.platform.q": "Welche Plattformen unterstützt Flowtime?",
       "faq.platform.a": "Flowtime ist für iPhone und Android verfügbar. Das Web-Erlebnis folgt derselben einfachen und direkten Designsprache wie die App.",
-      "faq.languages.q": "Wie viele Sprachen unterstuetzt Flowtime?",
-      "faq.languages.a": "Flowtime unterstuetzt aktuell 10 Sprachen: Englisch, Deutsch, Spanisch, Franzoesisch, Italienisch, Japanisch, Koreanisch, Niederlaendisch, Polnisch und Portugiesisch.",
+      "faq.languages.q": "Wie viele Sprachen unterstützt Flowtime?",
+      "faq.languages.a": "Flowtime unterstützt aktuell 10 Sprachen: Englisch, Deutsch, Spanisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Polnisch und Portugiesisch.",
       "faq.flow.q": "Was ist eine Flow Session?",
       "faq.flow.a": "Mit Flow Sessions setzt du eine Zieldauer ohne starre Intervalle. Sie sind für konzentrierte, flexible Arbeitssessions gedacht.",
       "faq.pomodoro.q": "Nutzt Flowtime die Pomodoro-Technik?",
@@ -419,8 +419,8 @@
       "footer.top": "Nach oben"
     },
     fr: {
-      "meta.title": "Flowtime - ADHD Focus Timer for Time Blindness",
-      "meta.description": "Flowtime est un minuteur de concentration et un outil de time tracking pour Pomodoro, Flow Sessions, projets, rappels, analytics et productivité respectueuse de la vie privée.",
+      "meta.title": "Flowtime - Minuteur de concentration TDAH",
+      "meta.description": "Flowtime est un minuteur de concentration TDAH pour la notion du temps, l'hyperfocus, Pomodoro, les rappels, le suivi de projets et le blocage d'apps optionnel sur iPhone et Android.",
       "meta.og.image.alt": "Aperçu du minuteur de concentration et du time tracker Flowtime",
       "a11y.home": "Accueil Flowtime",
       "a11y.nav": "Navigation principale",
@@ -650,7 +650,11 @@
       "founder.title": "I started using a focus timer to stop focusing.",
       "founder.p1": "I have ADHD, and during intense hyperfocus I can spend weeks mentally stuck on work, features, UI details, or whatever my brain has decided matters. Even when I stop working physically, my brain often keeps going.",
       "founder.p2": "Flowtime began as a way to focus longer. Over time, it also became a way to unfocus on purpose. Sometimes I start a one-hour FlowSession, block distracting apps, and go for a walk with my dog. Knowing the timer is running and the usual apps are unavailable makes it easier to be present instead of repeatedly checking my phone or thinking about work.",
-      "founder.p3": "That is not a medical promise. It is one personal reason Flowtime is built around visible time, focus reminders, flexible sessions, and fewer distractions."
+      "founder.p3": "That is not a medical promise. It is one personal reason Flowtime is built around visible time, focus reminders, flexible sessions, and fewer distractions.",
+      "product.eyebrow": "Product facts",
+      "product.title": "What is Flowtime?",
+      "product.description": "Flowtime is a flexible focus timer and time-awareness app for iPhone and Android. It combines Flow Sessions, Pomodoro, focus reminders, personal time tracking, and optional app blocking in one focused app. It is designed especially for people who lose track of time, disappear into hyperfocus, or get pulled away by small digital distractions. No account is required.",
+      "product.link": "Learn how Flowtime works"
     },
     de: {
       "positioning.eyebrow": "Kommt dir das bekannt vor?",
@@ -668,7 +672,11 @@
       "founder.title": "Ich nutze einen Fokus-Timer, um mit dem Fokussieren aufzuh\u00f6ren.",
       "founder.p1": "Ich habe ADHS, und w\u00e4hrend intensiver Hyperfokus-Phasen kann ich wochenlang gedanklich an Arbeit, Features, UI-Details oder dem h\u00e4ngen, was mein Gehirn gerade wichtig findet. Selbst wenn ich k\u00f6rperlich aufh\u00f6re zu arbeiten, macht mein Kopf oft weiter.",
       "founder.p2": "Flowtime begann als M\u00f6glichkeit, l\u00e4nger zu fokussieren. Mit der Zeit wurde es auch eine M\u00f6glichkeit, absichtlich zu ent-fokussieren. Manchmal starte ich eine einst\u00fcndige FlowSession, blockiere ablenkende Apps und gehe mit meinem Hund spazieren. Zu wissen, dass der Timer l\u00e4uft und die \u00fcblichen Apps nicht verf\u00fcgbar sind, macht es leichter, pr\u00e4sent zu sein, statt st\u00e4ndig aufs Handy zu schauen oder an Arbeit zu denken.",
-      "founder.p3": "Das ist kein medizinisches Versprechen. Es ist ein pers\u00f6nlicher Grund, warum Flowtime um sichtbare Zeit, Fokus-Erinnerungen, flexible Sessions und weniger Ablenkung gebaut ist."
+      "founder.p3": "Das ist kein medizinisches Versprechen. Es ist ein pers\u00f6nlicher Grund, warum Flowtime um sichtbare Zeit, Fokus-Erinnerungen, flexible Sessions und weniger Ablenkung gebaut ist.",
+      "product.eyebrow": "Produkt-Fakten",
+      "product.title": "Was ist Flowtime?",
+      "product.description": "Flowtime ist ein flexibler Fokus-Timer und eine Zeitwahrnehmungs-App für iPhone und Android. Die App kombiniert Flow Sessions, Pomodoro, Fokus-Erinnerungen, persönliche Zeiterfassung und optionales App-Blocking in einer fokussierten App. Sie ist besonders für Menschen gedacht, die die Zeit aus dem Blick verlieren, in Hyperfokus verschwinden oder von kleinen digitalen Ablenkungen weggezogen werden. Kein Account ist erforderlich.",
+      "product.link": "Erfahre, wie Flowtime funktioniert"
     },
     fr: {
       "positioning.eyebrow": "Cela vous parle ?",
@@ -686,7 +694,11 @@
       "founder.title": "J'utilise un minuteur de concentration pour arr\u00eater de me concentrer.",
       "founder.p1": "J'ai un TDAH, et pendant les phases d'hyperfocus intense, je peux rester mentalement bloqu\u00e9e pendant des semaines sur le travail, les fonctionnalit\u00e9s, les d\u00e9tails d'interface ou ce que mon cerveau a d\u00e9cid\u00e9 de trouver important. M\u00eame quand j'arr\u00eate physiquement de travailler, mon cerveau continue souvent.",
       "founder.p2": "Flowtime a commenc\u00e9 comme une fa\u00e7on de me concentrer plus longtemps. Avec le temps, c'est aussi devenu une fa\u00e7on de d\u00e9crocher volontairement. Parfois, je lance une FlowSession d'une heure, je bloque les apps distrayantes et je vais promener mon chien. Savoir que le minuteur tourne et que les apps habituelles sont indisponibles m'aide \u00e0 \u00eatre pr\u00e9sente au lieu de v\u00e9rifier mon t\u00e9l\u00e9phone ou de penser au travail.",
-      "founder.p3": "Ce n'est pas une promesse m\u00e9dicale. C'est une raison personnelle pour laquelle Flowtime est construit autour du temps visible, de rappels de concentration, de sessions flexibles et de moins de distractions."
+      "founder.p3": "Ce n'est pas une promesse m\u00e9dicale. C'est une raison personnelle pour laquelle Flowtime est construit autour du temps visible, de rappels de concentration, de sessions flexibles et de moins de distractions.",
+      "product.eyebrow": "Infos produit",
+      "product.title": "Qu'est-ce que Flowtime ?",
+      "product.description": "Flowtime est un minuteur de concentration flexible et une app de repères temporels pour iPhone et Android. Elle combine Flow Sessions, Pomodoro, rappels de concentration, suivi personnel du temps et blocage d'apps optionnel dans une app ciblée. Elle est pensée pour les personnes qui perdent la notion du temps, plongent dans l'hyperfocus ou se font happer par de petites distractions numériques. Aucun compte n'est requis.",
+      "product.link": "Découvrir comment fonctionne Flowtime"
     }
   };
 

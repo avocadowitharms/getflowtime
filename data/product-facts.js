@@ -33,9 +33,9 @@
       siteUrl + "/assets/flow-session-mono-opt.webp",
       siteUrl + "/assets/reports-mono-opt.webp"
     ],
-    shortDescription: "Flowtime is a focus timer and time-awareness app for iPhone and Android.",
-    summary: "Flowtime is a focus timer and time-awareness app for iPhone and Android. It combines flexible focus sessions, Pomodoro, focus reminders, personal time tracking, projects, and optional app blocking. It is designed especially around ADHD time blindness, hyperfocus, and reducing distracting context switches. No account is required.",
-    fullDescription: "Flowtime is a focus timer and time-awareness app for iPhone and Android. It combines flexible focus sessions, Pomodoro, focus reminders, personal time tracking, projects, session history, and optional app blocking. It is designed especially around ADHD time blindness, hyperfocus, and reducing distracting context switches. Flowtime does not require an account, and timer and project data are stored locally on the device.",
+    shortDescription: "Flowtime is an ADHD focus timer and time-awareness app for iPhone and Android.",
+    summary: "Flowtime is an ADHD focus timer and time-awareness app for iPhone and Android. It combines flexible focus sessions, Pomodoro, focus reminders, personal time tracking, projects, and optional app blocking. It is designed around ADHD time blindness, hyperfocus, and reducing distracting context switches. No account is required.",
+    fullDescription: "Flowtime is an ADHD focus timer and time-awareness app for iPhone and Android. It combines flexible focus sessions, Pomodoro, focus reminders, personal time tracking, projects, session history, and optional app blocking. It is designed around ADHD time blindness, hyperfocus, and reducing distracting context switches. Flowtime does not require an account, and timer and project data are stored locally on the device.",
     applicationCategory: "ProductivityApplication",
     supportedPlatforms: ["iPhone", "Android"],
     operatingSystems: ["iOS", "Android"],

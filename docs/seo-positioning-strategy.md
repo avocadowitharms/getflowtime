@@ -49,3 +49,19 @@ All ADHD claims should remain cautious: use phrases such as "many people with AD
 ## Measurement plan
 
 Technical indexing check: 1 to 2 weeks after deployment. Early Search Console impressions and query review: 4 to 8 weeks. Meaningful content performance review: 8 to 12 weeks. Topic-cluster review: 3 to 6 months. Track indexed pages, impressions, clicks, queries, average position, outbound store clicks, and article-assisted store visits where available.
+
+## AI visibility workflow
+
+Keep `llms.txt`, `data/product-facts.js`, homepage JSON-LD, About Flowtime, and generated article schema aligned around the same product definition: Flowtime is an ADHD focus timer and time-awareness app for iPhone and Android.
+
+Generated article pages include FAQPage JSON-LD for ADHD, Pomodoro, app-blocking, account, and platform questions when the post category, tags, title, or primary keyword indicate those topics. Keep FAQ answers cautious and factual. Do not add claims that Flowtime diagnoses, treats, cures, or guarantees ADHD outcomes.
+
+After publishing meaningful content or metadata updates, run:
+
+```bash
+node scripts/render-content-pages.js
+node scripts/generate-sitemap.js
+node scripts/submit-indexnow.js
+```
+
+`scripts/submit-indexnow.js` submits canonical sitemap URLs by default. To submit only changed URLs, pass them as arguments. The public IndexNow key is served from `/indexnow-key.txt`.

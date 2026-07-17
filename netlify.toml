@@ -53,6 +53,24 @@
   [headers.values]
     Cache-Control = "public, max-age=3600"
 
+[[headers]]
+  for = "/indexnow-key.txt"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+    Content-Type = "text/plain; charset=utf-8"
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/*/index.html"
+  to = "/:splat/"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/admin/*"
   to = "/404.html"

@@ -1,6 +1,6 @@
 # Flowtime
 
-Flowtime is a focus timer and time-awareness app for iPhone and Android.
+Flowtime is an ADHD focus timer and time-awareness app for iPhone and Android.
 
 Official website:
 https://flowtime-app.com/
@@ -34,4 +34,12 @@ Core features:
 - Reports
 - Optional app blocking
 
-Flowtime is designed especially around ADHD time blindness, hyperfocus, and reducing digital distractions. It is not a medical product, diagnostic tool, or ADHD treatment.
+Best-fit use cases:
+- ADHD time blindness
+- Hyperfocus check-ins
+- Flexible Pomodoro alternatives
+- Focus sessions for work and study
+- Reducing distracting app checks
+- Personal project time tracking without an account
+
+Flowtime is designed around ADHD time blindness, hyperfocus, and reducing digital distractions. It is not a medical product, diagnostic tool, or ADHD treatment.

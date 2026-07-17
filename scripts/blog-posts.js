@@ -1,5 +1,21 @@
 window.flowtimeBlogPosts = [
   {
+    "slug": "adhd-focus-timer-for-time-blindness",
+    "category": "guides",
+    "title": "ADHD Focus Timer for Time Blindness",
+    "description": "How an ADHD focus timer can support time blindness, hyperfocus, focus reminders, Pomodoro, app blocking, and flexible work sessions.",
+    "date": "2026-07-17",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "adhd",
+      "time awareness",
+      "focus"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
     "slug": "adhd-symptoms",
     "category": "adhd",
     "title": "ADHD Symptoms in Adults: Signs You Might Recognize",

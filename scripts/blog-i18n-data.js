@@ -279,6 +279,50 @@
         }
       },
       articles: {
+        "adhd-focus-timer-for-time-blindness": {
+          title: "ADHS-Fokus-Timer für Zeitblindheit",
+          description: "Wie ein ADHS-Fokus-Timer bei Zeitblindheit, Hyperfokus, Fokus-Erinnerungen, Pomodoro, App-Blocking und flexiblen Arbeitssessions helfen kann.",
+          readingTime: "4 Min. Lesezeit",
+          toc: ["Zusammenfassung", "Warum Zeitblindheit das Timer-Problem verändert", "Worauf du achten solltest", "Pomodoro kann helfen, ist aber nicht die einzige Form", "Hyperfokus braucht Ausstiegspunkte", "So passt Flowtime dazu", "Weiterlesen"],
+          summaryPoints: [
+            "Ein ADHS-Fokus-Timer sollte mehr tun, als Minuten zu zählen.",
+            "Sichtbare Zeit, flexible Sessions, Fokus-Erinnerungen und App-Blocking können Zeitblindheit und Hyperfokus besser unterstützen.",
+            "Flowtime ist kein medizinisches Produkt, sondern ein Fokus- und Zeitwahrnehmungs-Tool für iPhone und Android."
+          ],
+          bodyHtml: `
+            <h2 id="summary">Zusammenfassung</h2>
+            <p>Ein ADHS-Fokus-Timer für Zeitblindheit sollte mehr tun, als Minuten zu zählen. Der hilfreiche Teil ist oft externe Wahrnehmung: zu sehen, dass Zeit vergeht, sanfte Check-ins zu bekommen, die Session vor ablenkenden Apps zu schützen und entscheiden zu können, ob du weitermachst, stoppst oder wechselst.</p>
+            <p>Flowtime ist um diese Art von Unterstützung herum gebaut. Es ist kein medizinisches Produkt, kein Diagnosewerkzeug und keine ADHS-Behandlung. Es ist eine Fokus- und Zeitwahrnehmungs-App für Menschen, die sichtbare Sessions und weniger ablenkende Ausgänge wollen.</p>
+            <h2 id="why-time-blindness-changes-the-timer-problem">Warum Zeitblindheit das Timer-Problem verändert</h2>
+            <p>Bei Zeitblindheit kann sich eine Aufgabe wie fünf Minuten oder wie vier Stunden anfühlen, ohne dass es innerlich rechtzeitig auffällt. Ein normaler Timer kann helfen, aber nur, wenn er zur tatsächlichen Session passt.</p>
+            <p>Manche Aufgaben brauchen ein kurzes Pomodoro-Intervall. Andere brauchen einen längeren Fokusblock. Manche brauchen eine Erinnerung, die Bewusstsein zurückholt, ohne im ungünstigsten Moment eine Pause zu erzwingen.</p>
+            <h2 id="what-to-look-for">Worauf du achten solltest</h2>
+            <table>
+              <thead><tr><th>Feature</th><th>Warum es hilft</th></tr></thead>
+              <tbody>
+                <tr><td>Sichtbare Session-Zeit</td><td>Macht vergehende Zeit leichter bemerkbar.</td></tr>
+                <tr><td>Flexible Sessions</td><td>Lässt den Timer zu ungleichmäßigen Aufmerksamkeitsrhythmen passen.</td></tr>
+                <tr><td>Fokus-Erinnerungen</td><td>Schafft Check-in-Punkte während tiefer Arbeit.</td></tr>
+                <tr><td>Pomodoro-Unterstützung</td><td>Hilft, wenn feste Intervalle nützlich sind.</td></tr>
+                <tr><td>App-Blocking</td><td>Reduziert Handy-Checks und Context Switching.</td></tr>
+                <tr><td>Projekt-Historie</td><td>Macht Fokuszeit später leichter auswertbar.</td></tr>
+                <tr><td>Start ohne Account</td><td>Entfernt Reibung vor dem Beginnen.</td></tr>
+              </tbody>
+            </table>
+            <h2 id="pomodoro-can-help-but-it-is-not-the-only-shape">Pomodoro kann helfen, ist aber nicht die einzige Form</h2>
+            <p>Pomodoro funktioniert gut, wenn ein klares Intervall beim Anfangen hilft. Für ADHS kann das wirklich nützlich sein. Die Schwierigkeit ist, dass Aufmerksamkeit nicht immer nach Zeitplan auftaucht.</p>
+            <p>Wenn Fokus erst kurz vor dem Ende eines 25-Minuten-Blocks kommt, kann eine erzwungene Pause störend sein. Eine flexible Flow Session gibt dir ein Ziel und eine Erinnerung und lässt dich dann entscheiden, was als Nächstes sinnvoll ist.</p>
+            <h2 id="hyperfocus-needs-exit-points">Hyperfokus braucht Ausstiegspunkte</h2>
+            <p>In den Fokus zu kommen ist nicht immer der schwierigste Teil. Manchmal ist es schwieriger zu bemerken, dass du zu weit in eine Aufgabe hineingeraten bist, eine Pause übersprungen hast oder bei Arbeit bleibst, nachdem sie nicht mehr sinnvoll ist.</p>
+            <p>Ein Hyperfokus-Timer sollte Ausstiegspunkte schaffen. Er muss dich nicht aus der Arbeit reißen. Er kann die aktuelle Session einfach sichtbar genug machen, damit du entscheiden kannst, ob Weitermachen noch sinnvoll ist.</p>
+            <h2 id="where-flowtime-fits">So passt Flowtime dazu</h2>
+            <p>Flowtime kombiniert flexible Flow Sessions, Pomodoro, Fokus-Erinnerungen, Projekt-Zeiterfassung und optionales App-Blocking. Dadurch kann es je nach Session als ADHS-Fokus-Timer, Hyperfokus-Timer, Pomodoro-Timer oder persönlicher Time Tracker funktionieren.</p>
+            <p>Flowtime ist für iPhone und Android verfügbar, erfordert keinen Account und ist um ADHS-Zeitblindheit, Hyperfokus und weniger ablenkende Kontextwechsel herum gestaltet.</p>
+            <h2 id="keep-reading">Weiterlesen</h2>
+            <p>Passende Artikel dazu sind <a href="/guides/gentle-time-reminders-for-adhd-time-blindness/">Flexible Zeiterinnerungen bei ADHS-Time-Blindness</a>, <a href="/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/">ADHS-Hyperfokus: Aufhören, ohne den Fokus kaputtzumachen</a> und <a href="/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/">ADHS-Fokus-Timer vs. Pomodoro</a>.</p>
+            <p>Flowtime ist ein ADHS-Fokus-Timer, der Zeit sichtbarer macht und es leichter macht, von Ablenkungen Abstand zu nehmen.</p>
+          `
+        },
         "time-tracker-without-account": {
           title: "Zeiterfassung ohne Account",
           description: "Ein praktischer Leitfaden zur Auswahl einer privaten, reibungslosen Zeiterfassung, die ohne Anmeldung, Synchronisierung oder Account-Setup funktioniert.",
@@ -1154,6 +1198,50 @@
         }
       },
       articles: {
+        "adhd-focus-timer-for-time-blindness": {
+          title: "Minuteur de concentration TDAH pour la notion du temps",
+          description: "Comment un minuteur de concentration TDAH peut aider avec la notion du temps, l'hyperfocus, les rappels, Pomodoro, le blocage d'apps et les sessions flexibles.",
+          readingTime: "4 min de lecture",
+          toc: ["Résumé", "Pourquoi la notion du temps change le problème du minuteur", "Ce qu'il faut chercher", "Pomodoro peut aider, mais ce n'est pas la seule forme", "L'hyperfocus a besoin de points de sortie", "Comment Flowtime s'inscrit ici", "Continuer la lecture"],
+          summaryPoints: [
+            "Un minuteur de concentration TDAH doit faire plus que compter les minutes.",
+            "Le temps visible, les sessions flexibles, les rappels et le blocage d'apps peuvent mieux soutenir la time blindness et l'hyperfocus.",
+            "Flowtime n'est pas un produit médical, mais un outil de concentration et de repères temporels pour iPhone et Android."
+          ],
+          bodyHtml: `
+            <h2 id="summary">Résumé</h2>
+            <p>Un minuteur de concentration TDAH pour la notion du temps doit faire plus que compter les minutes. La partie utile est souvent externe : voir que le temps passe, recevoir des check-ins doux, protéger la session des apps distrayantes et choisir s'il faut continuer, arrêter ou changer.</p>
+            <p>Flowtime est construit autour de ce type de soutien. Ce n'est pas un produit médical, un outil de diagnostic ni un traitement du TDAH. C'est une app de concentration et de repères temporels pour les personnes qui veulent des sessions visibles et moins de sorties distrayantes.</p>
+            <h2 id="why-time-blindness-changes-the-timer-problem">Pourquoi la notion du temps change le problème du minuteur</h2>
+            <p>Avec la time blindness, une tâche peut sembler durer cinq minutes ou quatre heures, avec très peu de signal interne. Un minuteur classique peut aider, mais seulement s'il correspond à la façon dont la session se déroule vraiment.</p>
+            <p>Certaines tâches ont besoin d'un court intervalle Pomodoro. D'autres ont besoin d'un bloc de concentration plus long. D'autres encore ont besoin d'un rappel qui ramène de la conscience sans forcer une pause au pire moment.</p>
+            <h2 id="what-to-look-for">Ce qu'il faut chercher</h2>
+            <table>
+              <thead><tr><th>Fonctionnalité</th><th>Pourquoi elle aide</th></tr></thead>
+              <tbody>
+                <tr><td>Temps de session visible</td><td>Rend le temps qui passe plus facile à remarquer.</td></tr>
+                <tr><td>Sessions flexibles</td><td>Permet au minuteur de suivre des rythmes d'attention irréguliers.</td></tr>
+                <tr><td>Rappels de concentration</td><td>Crée des points de check-in pendant le travail profond.</td></tr>
+                <tr><td>Support Pomodoro</td><td>Aide quand les intervalles fixes sont utiles.</td></tr>
+                <tr><td>Blocage d'apps</td><td>Réduit les vérifications du téléphone et les changements de contexte.</td></tr>
+                <tr><td>Historique par projet</td><td>Rend le temps de concentration plus facile à revoir ensuite.</td></tr>
+                <tr><td>Démarrage sans compte</td><td>Enlève de la friction avant de commencer.</td></tr>
+              </tbody>
+            </table>
+            <h2 id="pomodoro-can-help-but-it-is-not-the-only-shape">Pomodoro peut aider, mais ce n'est pas la seule forme</h2>
+            <p>Pomodoro fonctionne bien quand un intervalle clair aide à commencer. Pour le TDAH, cela peut être réellement utile. La difficulté, c'est que l'attention n'arrive pas toujours selon l'horaire prévu.</p>
+            <p>Si la concentration arrive enfin vers la fin d'un bloc de 25 minutes, une pause forcée peut être perturbante. Une Flow Session flexible vous donne une cible et un rappel, puis vous laisse décider ce qui devrait se passer ensuite.</p>
+            <h2 id="hyperfocus-needs-exit-points">L'hyperfocus a besoin de points de sortie</h2>
+            <p>Entrer en concentration n'est pas toujours la partie la plus difficile. Parfois, le plus difficile est de remarquer que vous êtes allé trop loin dans une tâche, que vous avez sauté une pause ou que vous continuez après le moment où le travail n'est plus utile.</p>
+            <p>Un minuteur d'hyperfocus devrait créer des points de sortie. Il n'a pas besoin de vous arracher au travail. Il peut simplement rendre la session assez visible pour que vous puissiez choisir si continuer a encore du sens.</p>
+            <h2 id="where-flowtime-fits">Comment Flowtime s'inscrit ici</h2>
+            <p>Flowtime combine Flow Sessions flexibles, Pomodoro, rappels de concentration, suivi du temps par projet et blocage d'apps optionnel. Selon la session, il peut donc servir de minuteur de concentration TDAH, de minuteur d'hyperfocus, de minuteur Pomodoro ou de time tracker personnel.</p>
+            <p>Flowtime est disponible sur iPhone et Android, ne nécessite aucun compte et est conçu autour de la time blindness liée au TDAH, de l'hyperfocus et de la réduction des changements de contexte distrayants.</p>
+            <h2 id="keep-reading">Continuer la lecture</h2>
+            <p>Pour aller plus loin, lisez <a href="/guides/gentle-time-reminders-for-adhd-time-blindness/">Rappels de concentration pour la time blindness liée au TDAH</a>, <a href="/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/">Hyperfocus TDAH : s'arrêter sans casser sa concentration</a> et <a href="/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/">Minuteur TDAH vs Pomodoro</a>.</p>
+            <p>Flowtime est un minuteur de concentration TDAH conçu pour rendre le temps plus visible et faciliter la prise de distance avec les distractions.</p>
+          `
+        },
         "time-tracker-without-account": {
           title: "Suivi du temps sans compte",
           description: "Un guide pratique pour choisir un outil de suivi du temps privé et fluide qui fonctionne sans inscription, synchronisation ou configuration de compte.",
@@ -1792,9 +1880,21 @@
             }
         },
         "blog_metadata": {
+            "what-is-adhd": {
+                "title": "Was ist ADHS? Symptome, Fokus und das ADHS-Gehirn",
+                "desc": "Ein vorsichtiger, praktischer Einstieg in ADHS, Aufmerksamkeit, Fokus, Hyperfokus, exekutive Dysfunktion, Zeitblindheit und den Alltag Erwachsener."
+            },
+            "adhd-symptoms": {
+                "title": "ADHS Symptome bei Erwachsenen: Anzeichen, die du vielleicht erkennst",
+                "desc": "Ein persönlicher, vorsichtiger Guide zu ADHS Symptomen bei Erwachsenen, darunter Ablenkung, Hyperfokus, Prokrastination, innere Unruhe, Zeitblindheit und Aufgabenwechsel."
+            },
             "why-adhd-makes-you-lose-track-of-time": {
                 "title": "Warum ADHS dazu führen kann, dass du die Zeit aus dem Blick verlierst",
                 "desc": "Ein praktischer Guide zu ADHS-Time-Blindness, dem Unterschied zwischen Uhrzeit und gefühlter Zeit und externen Zeitreizen."
+            },
+            "adhd-focus-timer-for-time-blindness": {
+                "title": "ADHS-Fokus-Timer für Zeitblindheit",
+                "desc": "Wie ein ADHS-Fokus-Timer bei Zeitblindheit, Hyperfokus, Fokus-Erinnerungen, Pomodoro, App-Blocking und flexiblen Arbeitssessions helfen kann."
             },
             "adhd-hyperfocus-how-to-stop-without-killing-your-focus": {
                 "title": "ADHS-Hyperfokus: Aufhören, ohne den Fokus kaputtzumachen",
@@ -1886,9 +1986,21 @@
             }
         },
         "blog_metadata": {
+            "what-is-adhd": {
+                "title": "Qu'est-ce que le TDAH ? Symptômes, concentration et cerveau TDAH",
+                "desc": "Une introduction prudente et pratique au TDAH, à l'attention, à la concentration, à l'hyperfocus, aux fonctions exécutives, à la time blindness et au quotidien adulte."
+            },
+            "adhd-symptoms": {
+                "title": "Symptômes du TDAH chez l'adulte : signes que vous pourriez reconnaître",
+                "desc": "Un guide personnel et prudent sur les symptômes du TDAH chez l'adulte, dont la distraction, l'hyperfocus, la procrastination, l'agitation intérieure, la time blindness et les changements de tâche."
+            },
             "why-adhd-makes-you-lose-track-of-time": {
                 "title": "Pourquoi le TDAH peut faire perdre la notion du temps",
                 "desc": "Un guide cleare sur la time blindness, la différence entre connaître l'heure et sentir le temps passer, et les repères externes."
+            },
+            "adhd-focus-timer-for-time-blindness": {
+                "title": "Minuteur de concentration TDAH pour la notion du temps",
+                "desc": "Comment un minuteur de concentration TDAH peut aider avec la notion du temps, l'hyperfocus, les rappels, Pomodoro, le blocage d'apps et les sessions flexibles."
             },
             "adhd-hyperfocus-how-to-stop-without-killing-your-focus": {
                 "title": "Hyperfocus TDAH : s'arrêter sans casser sa concentration",

@@ -9,6 +9,7 @@
     "build": "node scripts/render-content-pages.js && node scripts/generate-sitemap.js",
     "render": "node scripts/render-content-pages.js",
     "sitemap": "node scripts/generate-sitemap.js",
+    "indexnow": "node scripts/submit-indexnow.js",
     "test": "node scripts/validate-entity-layer.js && node scripts/test-ai-traffic.mjs"
   }
 }
