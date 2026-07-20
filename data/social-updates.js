@@ -232,5 +232,23 @@ window.FlowtimeUpdatesData = [
     "publishedAt": "2026-07-16T07:16:33.129Z",
     "createdAt": "2026-07-16T07:15:46.606Z",
     "updatedAt": "2026-07-16T07:16:33.129Z"
+  },
+  {
+    "id": "update_1784566440824_ilymdfqrq",
+    "title": "Flowtime got featured on Crowdstax!",
+    "slug": "update-from-threads-da_n5uhio6c",
+    "description": "",
+    "body": "Thank you so much for submitting and upgrading Flowtime to a Pro ranking! \nIt genuinely means a lot to meet people who believe in the product as much as I do. \ud83e\udef6",
+    "platform": "threads",
+    "status": "published",
+    "originalUrl": "https://www.threads.com/@avadazina/post/Da_N5uHiO6C",
+    "externalPostId": "Da_N5uHiO6C",
+    "tags": [
+      "threads"
+    ],
+    "thumbnailUrl": null,
+    "publishedAt": "2026-07-20T16:54:53.153Z",
+    "createdAt": "2026-07-20T16:54:00.824Z",
+    "updatedAt": "2026-07-20T16:54:53.153Z"
   }
 ];
