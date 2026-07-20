@@ -175,9 +175,9 @@
   window.renderSection("social", `
   <section id="social" class="section social-section">
     <div class="section-heading">
-      <p class="eyebrow">${window.t("social.eyebrow")}</p>
-      <h2>${window.t("social.title")}</h2>
-      <p>${window.t("social.description")}</p>
+      <p class="eyebrow" data-i18n="social.eyebrow">${window.t("social.eyebrow")}</p>
+      <h2 data-i18n="social.title">${window.t("social.title")}</h2>
+      <p data-i18n="social.description">${window.t("social.description")}</p>
     </div>
 
     <div class="social-gallery" aria-label="${window.t("social.gallery")}">

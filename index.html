@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -106,6 +106,43 @@
             "Session history",
             "Reports"
           ],
+          "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "USD",
+            "lowPrice": "0",
+            "highPrice": "49.99",
+            "offerCount": "4",
+            "offers": [
+              {
+                "@type": "Offer",
+                "name": "Flowtime Free",
+                "price": "0",
+                "priceCurrency": "USD",
+                "description": "Standard timer, Flow Session, Pomodoro, 2 projects, 2 Quick Start templates, app blocking"
+              },
+              {
+                "@type": "Offer",
+                "name": "Flowtime Pro Monthly",
+                "price": "3.99",
+                "priceCurrency": "USD",
+                "description": "Monthly Pro subscription with unlimited projects, unlimited templates, custom reminder profiles, advanced Pomodoro, and analytics"
+              },
+              {
+                "@type": "Offer",
+                "name": "Flowtime Pro Yearly",
+                "price": "24.99",
+                "priceCurrency": "USD",
+                "description": "Yearly Pro subscription with unlimited projects, unlimited templates, custom reminder profiles, advanced Pomodoro, and analytics"
+              },
+              {
+                "@type": "Offer",
+                "name": "Flowtime Pro Lifetime",
+                "price": "49.99",
+                "priceCurrency": "USD",
+                "description": "Lifetime Pro access with unlimited projects, unlimited templates, custom reminder profiles, advanced Pomodoro, and analytics"
+              }
+            ]
+          },
           "creator": {
             "@id": "https://flowtime-app.com/#publisher"
           },
@@ -129,7 +166,7 @@
               "name": "What is Flowtime?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Flowtime is a focus timer and time-awareness app for iPhone and Android. It supports flexible focus sessions, Pomodoro, focus reminders, personal time tracking, projects, session history, reports, and optional app blocking."
+                "text": "Flowtime is a focus timer and time-awareness app for iPhone and Android. It supports flexible focus sessions, a standard timer, Pomodoro, focus reminders, optional app blocking, personal time tracking, projects, session history, and reports."
               }
             },
             {
@@ -145,7 +182,7 @@
               "name": "Is Flowtime good for ADHD?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Flowtime can help people who benefit from external time cues, focus reminders, visible sessions, and low-friction project switching. It is not a medical tool."
+                "text": "Flowtime can help people who benefit from external time cues, focus reminders, visible sessions, and low-friction project switching. It is not a medical tool, diagnostic tool, or ADHD treatment."
               }
             },
             {
@@ -153,7 +190,31 @@
               "name": "How is Flowtime different from Pomodoro?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Flowtime includes Pomodoro, but also works as a flexible Pomodoro alternative with open-ended Flow Sessions, target duration, standard time tracking, project selection, reminders, and reviewable focus history."
+                "text": "Pomodoro is one structured interval method. Flowtime includes Pomodoro, but also works as a flexible Pomodoro alternative with open-ended Flow Sessions, target duration, standard time tracking, project selection, reminders, and reviewable focus history."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How is Flowtime different from Forest, Toggl, or Session?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Flowtime focuses on simple personal focus tracking without account-heavy setup. It is available for iPhone and Android and is designed around flexible sessions rather than only fixed intervals."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Flowtime free?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Free includes the standard timer, Flow Session, Pomodoro, 2 projects, and 2 Quick Start templates. Pro removes those limits and adds analytics and deeper timer controls."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What platforms does Flowtime support?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Flowtime is available for iPhone and Android. The web experience is designed to match the app with the same simple, minimal design language."
               }
             },
             {
@@ -162,6 +223,46 @@
               "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Flowtime currently supports 10 languages: English, German, Spanish, French, Italian, Japanese, Korean, Dutch, Polish, and Portuguese."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is a Flow Session?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Flow Sessions let you set a target duration without rigid intervals. They are designed for focused, flexible work sessions."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does Flowtime use the Pomodoro technique?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Free includes the classic 25 / 5 Pomodoro pattern, while Pro adds advanced Pomodoro settings."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is my data private?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No account is required. The privacy policy states that timer and project data are stored locally on your device and are not sent to Flowtime servers."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What does Flowtime Pro include?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Flowtime Pro unlocks unlimited projects, unlimited templates, custom reminder profiles, advanced Pomodoro controls, analytics, break tracking, and timer ring color customization."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Where can I download Flowtime?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Flowtime is available on the App Store for iPhone and on Google Play for Android."
               }
             }
           ]
@@ -231,32 +332,78 @@
       <div class="section-heading">
         <p class="eyebrow" data-i18n="product.eyebrow">Product facts</p>
         <h2 id="what-is-flowtime-title" data-i18n="product.title">What is Flowtime?</h2>
-        <p data-i18n="product.description">Flowtime is a flexible focus timer and time-awareness app for iPhone and Android. It combines Flow Sessions, Pomodoro, focus reminders, personal time tracking, and optional app blocking in one focused app. It is designed especially for people who lose track of time, disappear into hyperfocus, or get pulled away by small digital distractions. No account is required.</p>
+        <p data-i18n="product.description">Flowtime is a flexible focus timer and time-awareness app for iPhone and Android. It combines Flow Sessions, Pomodoro, focus reminders, personal time tracking, and optional app blocking in one focused app.</p>
+        <ul>
+          <li><strong>Flexible focus modes:</strong> Classic timer, Pomodoro intervals, and open-ended Flow Sessions.</li>
+          <li><strong>ADHD time awareness:</strong> Visible session timing and gentle check-in reminders.</li>
+          <li><strong>Digital boundary control:</strong> Optional app blocking to minimize context switching.</li>
+          <li><strong>Private &amp; local-first:</strong> No account required; data stays on your device.</li>
+        </ul>
         <p><a href="about-flowtime/index.html" data-i18n="product.link">Learn how Flowtime works</a>.</p>
       </div>
     </section>
-    <div id="focus-modes"></div>
+    <div id="focus-modes">
+      <section id="focus-modes" class="section focus-modes">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="focus.eyebrow">Focus modes</p>
+          <h2 data-i18n="focus.title">What focus modes does Flowtime support?</h2>
+          <p data-i18n="focus.description">Flowtime offers three distinct focus tracking modes tailored for work, study, ADHD time awareness, hyperfocus check-ins, and intentional breaks.</p>
+        </div>
+        <div class="mode-showcase">
+          <article class="featured-mode">
+            <div class="featured-copy">
+              <span class="mode-ring timer-ring" aria-hidden="true"></span>
+              <h3 data-i18n="focus.classic.title">What is the Classic Timer?</h3>
+              <p data-i18n="focus.classic.text">Simple, intuitive time tracking that lets you track time count up effortlessly.</p>
+            </div>
+            <div class="featured-phone">
+              <img class="theme-shot" src="assets/classic-timer-mono-opt.webp" data-theme-mono="assets/classic-timer-mono-opt.webp" data-theme-classic="assets/classic-timer-classic-opt.webp" alt="Classic Timer in Flowtime" width="1320" height="2868" loading="lazy" decoding="async" />
+            </div>
+          </article>
+          <article class="featured-mode">
+            <div class="featured-copy">
+              <span class="mode-ring pomodoro-ring" aria-hidden="true"></span>
+              <h3 data-i18n="focus.pomodoro.title">How does Pomodoro work in Flowtime?</h3>
+              <p data-i18n="focus.pomodoro.text">Stay structured with configurable work and break intervals.</p>
+            </div>
+            <div class="featured-phone">
+              <img class="theme-shot" src="assets/pomodoro-mono-opt.webp" data-theme-mono="assets/pomodoro-mono-opt.webp" data-theme-classic="assets/pomodoro-classic-opt.webp" alt="Pomodoro timer in Flowtime" width="1320" height="2868" loading="lazy" decoding="async" />
+            </div>
+          </article>
+          <article class="featured-mode">
+            <div class="featured-copy">
+              <span class="mode-ring flow-ring" aria-hidden="true"></span>
+              <h3 data-i18n="focus.flow.title">What is a Flow Session?</h3>
+              <p data-i18n="focus.flow.text">Set a target duration, receive gentle check-in reminders, and decide when to stop.</p>
+            </div>
+            <div class="featured-phone">
+              <img class="theme-shot" src="assets/flow-session-mono-opt.webp" data-theme-mono="assets/flow-session-mono-opt.webp" data-theme-classic="assets/flow-session-classic-opt.webp" alt="Flow Session in Flowtime" width="1320" height="2868" loading="lazy" decoding="async" />
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
     <section class="section positioning-section" aria-labelledby="familiar-title">
       <div class="section-heading">
-        <p class="eyebrow" data-i18n="positioning.eyebrow">Does this sound familiar?</p>
-        <h2 id="familiar-title" data-i18n="positioning.title">Time can disappear while you work.</h2>
+        <p class="eyebrow" data-i18n="positioning.eyebrow">Why standard timers fail</p>
+        <h2 id="familiar-title" data-i18n="positioning.title">Why do traditional focus timers fail for ADHD?</h2>
         <p data-i18n="positioning.description">Flowtime is built for the ordinary moments when ADHD time blindness, hyperfocus, rigid Pomodoro intervals, or phone distractions make focused time hard to feel.</p>
       </div>
       <div class="positioning-grid">
         <article>
-          <h3 data-i18n="positioning.time.title">Time blindness</h3>
+          <h3 data-i18n="positioning.time.title">What is ADHD time blindness?</h3>
           <p data-i18n="positioning.time.text">You start one task and suddenly hours have passed. A visible ADHD timer and focus reminders make passing time easier to notice.</p>
         </article>
         <article>
-          <h3 data-i18n="positioning.hyperfocus.title">Hyperfocus</h3>
+          <h3 data-i18n="positioning.hyperfocus.title">How does hyperfocus affect focus timing?</h3>
           <p data-i18n="positioning.hyperfocus.text">Getting focused is not always the problem. Sometimes stopping is. Flow Sessions work like a hyperfocus timer, creating flexible boundaries without forcing a break at the wrong moment.</p>
         </article>
         <article>
-          <h3 data-i18n="positioning.hijacking.title">Attention hijacking</h3>
+          <h3 data-i18n="positioning.hijacking.title">How does app blocking prevent attention hijacking?</h3>
           <p data-i18n="positioning.hijacking.text">One notification becomes twenty minutes of unrelated scrolling. App blocking helps protect intentional focus periods and reduce context switching.</p>
         </article>
         <article>
-          <h3 data-i18n="positioning.rigid.title">Rigid timers</h3>
+          <h3 data-i18n="positioning.rigid.title">Why are rigid Pomodoro timers hard to maintain?</h3>
           <p data-i18n="positioning.rigid.text">Pomodoro can help, but a fixed interval can interrupt your best work. Flowtime supports Pomodoro and a flexible Pomodoro alternative for longer focus sessions.</p>
         </article>
       </div>
@@ -265,7 +412,7 @@
     <section class="section founder-story" aria-labelledby="founder-story-title">
       <div class="founder-story-copy">
         <p class="eyebrow" data-i18n="founder.eyebrow">Why Flowtime exists</p>
-        <h2 id="founder-story-title" data-i18n="founder.title">I started using a focus timer to stop focusing.</h2>
+        <h2 id="founder-story-title" data-i18n="founder.title">Why was Flowtime created?</h2>
         <p data-i18n="founder.p1">I have ADHD, and during intense hyperfocus I can spend weeks mentally stuck on work, features, UI details, or whatever my brain has decided matters. Even when I stop working physically, my brain often keeps going.</p>
         <p data-i18n="founder.p2">Flowtime began as a way to focus longer. Over time, it also became a way to unfocus on purpose. Sometimes I start a one-hour FlowSession, block distracting apps, and go for a walk with my dog. Knowing the timer is running and the usual apps are unavailable makes it easier to be present instead of repeatedly checking my phone or thinking about work.</p>
         <p data-i18n="founder.p3">That is not a medical promise. It is one personal reason Flowtime is built around visible time, focus reminders, flexible sessions, and fewer distractions.</p>
@@ -276,23 +423,148 @@
     </section>
     <div id="style-preview"></div>
     <div id="onboarding"></div>
-    <div id="reports"></div>
-    <div id="pricing"></div>
-    <div id="social"></div>
+    <div id="reports">
+      <section id="reports" class="section reports">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="reports.eyebrow">History &amp; Reports</p>
+          <h2 data-i18n="reports.title">How do Flowtime reports help track focus?</h2>
+          <p data-i18n="reports.description">Flowtime provides visual time breakdown charts by project, timer mode, and custom time ranges.</p>
+        </div>
+      </section>
+    </div>
+    <div id="pricing">
+      <section id="pricing" class="section pricing">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="pricing.eyebrow">Pricing</p>
+          <h2 data-i18n="pricing.title">Is Flowtime free?</h2>
+          <p data-i18n="pricing.description">Flowtime offers a comprehensive Free tier with essential timers and optional Pro upgrades for unlimited customization and analytics.</p>
+        </div>
+        <div class="price-grid">
+          <article class="price-card free-plan">
+            <div class="price-copy">
+              <span class="plan-pill" data-i18n="pricing.free">Free</span>
+              <h3 data-i18n="pricing.free.title">What is included in Flowtime Free?</h3>
+              <ul>
+                <li data-i18n="pricing.free.timers">Standard timer, Flow Session, and Pomodoro</li>
+                <li data-i18n="pricing.free.projects">2 projects</li>
+                <li data-i18n="pricing.free.templates">2 Quick Start templates</li>
+                <li data-i18n="pricing.free.reminders">Standard timer reminders and check-ins</li>
+                <li data-i18n="pricing.free.flow">Flow Session target duration and basic end reminder</li>
+                <li data-i18n="pricing.free.pomodoro">Default Pomodoro preset</li>
+                <li data-i18n="pricing.free.selection">Manual project selection</li>
+                <li data-i18n="pricing.free.appearance">Basic theme and timer appearance settings</li>
+                <li data-i18n="pricing.free.shielding">Focus shielding and app blocking</li>
+              </ul>
+            </div>
+            <div class="price-screen">
+              <img class="theme-shot" src="assets/classic-timer-mono-opt.webp" data-theme-mono="assets/classic-timer-mono-opt.webp" data-theme-classic="assets/classic-timer-classic-opt.webp" alt="Classic Timer in Flowtime" width="1320" height="2868" loading="lazy" decoding="async" />
+            </div>
+          </article>
+          <article class="price-card pro-plan">
+            <div class="price-copy">
+              <span class="plan-pill dark">Pro</span>
+              <h3 data-i18n="pricing.pro.title">What features are in Flowtime Pro?</h3>
+              <p class="plan-price" data-i18n="pricing.pro.tiers">$3.99 / month · $24.99 / year · $49.99 lifetime</p>
+              <ul>
+                <li data-i18n="pricing.pro.projects">Unlimited projects</li>
+                <li data-i18n="pricing.pro.templates">Unlimited Quick Start templates</li>
+                <li data-i18n="pricing.pro.timer.templates">Start Quick Start templates directly from the timer</li>
+                <li data-i18n="pricing.pro.launch">Quick Start on app launch</li>
+                <li data-i18n="pricing.pro.pinned">Up to 6 pinned Quick Start templates</li>
+                <li data-i18n="pricing.pro.reminder.profiles">Custom reminder profiles</li>
+                <li data-i18n="pricing.pro.reminder.controls">Custom intervals, reminder text, and sounds</li>
+                <li data-i18n="pricing.advanced.pomodoro">Advanced Pomodoro controls</li>
+                <li data-i18n="pricing.break.tracking">Break tracking</li>
+                <li data-i18n="pricing.pro.analytics">Analytics</li>
+                <li data-i18n="pricing.timer.ring">Timer ring color customization</li>
+              </ul>
+            </div>
+            <div class="price-screen">
+              <img class="theme-shot" src="assets/reports-mono-opt.webp" data-theme-mono="assets/reports-mono-opt.webp" data-theme-classic="assets/reports-classic-opt.webp" alt="Flowtime reports" width="1320" height="2868" loading="lazy" decoding="async" />
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+    <div id="social">
+      <section id="social" class="section social-section">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="social.eyebrow">Social</p>
+          <h2 data-i18n="social.title">Where can you follow Flowtime app updates?</h2>
+          <p data-i18n="social.description">Browse the latest Flowtime updates, launch notes, design progress, and social posts in one place.</p>
+        </div>
+      </section>
+    </div>
     <div id="faq">
       <section class="section faq">
-        <h2>Frequently Asked Questions</h2>
-        <h3>What is Flowtime?</h3>
-        <p>Flowtime is a focus timer and time-awareness app for iPhone and Android. It supports flexible focus sessions, a standard timer, Pomodoro, focus reminders, optional app blocking, personal time tracking, projects, session history, and reports.</p>
-        <h3>Who is Flowtime for?</h3>
-        <p>Flowtime is for people who want to make focused time visible without managing a heavy workspace. It is designed especially around ADHD time blindness, hyperfocus, and reducing distracting context switches.</p>
-        <h3>Is Flowtime good for ADHD?</h3>
-        <p>Flowtime can help people who benefit from external time cues, focus reminders, visible sessions, and low-friction project switching. It is not a medical tool.</p>
-        <h3>How is Flowtime different from Pomodoro?</h3>
-        <p>Flowtime includes Pomodoro, but also works as a flexible Pomodoro alternative with open-ended Flow Sessions, standard time tracking, project selection, reminders, and reviewable focus history.</p>
-        <h3>How is Flowtime different from Forest, Toggl, or Session?</h3>
-        <p>Flowtime is less gamified than Forest, lighter than team-oriented tools like Toggl, and more cross-platform than Apple-first timers such as Session.</p>
-        <p>Read more in the <a href="guides/index.html">Flowtime guides</a> and <a href="comparison/index.html">Flowtime comparisons</a>.</p>
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="faq.eyebrow">FAQ</p>
+          <h2 data-i18n="faq.title">Frequently Asked Questions about Flowtime</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary><span data-i18n="faq.what.q">What is Flowtime?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p data-i18n="faq.what.a">Flowtime is a focus timer and time-awareness app for iPhone and Android. It supports flexible focus sessions, a standard timer, Pomodoro, focus reminders, optional app blocking, personal time tracking, projects, session history, and reports.</p>
+          </details>
+          <details class="faq-item">
+            <summary><span data-i18n="faq.who.q">Who is Flowtime for?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p data-i18n="faq.who.a">Flowtime is for people who want to make focused time visible without managing a heavy workspace. It is designed especially around ADHD time blindness, hyperfocus, and reducing distracting context switches.</p>
+          </details>
+          <details class="faq-item">
+            <summary><span data-i18n="faq.adhd.q">Is Flowtime good for ADHD?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p data-i18n="faq.adhd.a">Flowtime can help people who benefit from external time cues, focus reminders, visible sessions, and low-friction project switching. It is not a medical tool, diagnostic tool, or ADHD treatment.</p>
+          </details>
+          <details class="faq-item">
+            <summary><span data-i18n="faq.pomodoro.diff.q">How is Flowtime different from Pomodoro?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p data-i18n="faq.pomodoro.diff.a">Pomodoro is one structured interval method. Flowtime includes Pomodoro, but also works as a flexible Pomodoro alternative with open-ended Flow Sessions, target duration, standard time tracking, project selection, reminders, and reviewable focus history.</p>
+          </details>
+          <details class="faq-item">
+            <summary><span data-i18n="faq.competitors.q">How is Flowtime different from Forest, Toggl, or Session?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p data-i18n="faq.competitors.a">Flowtime focuses on simple personal focus tracking without account-heavy setup. It is available for iPhone and Android and is designed around flexible sessions rather than only fixed intervals.</p>
+          </details>
+          <details class="faq-item">
+            <summary><span data-i18n="faq.free.q">Is Flowtime free?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p data-i18n="faq.free.a">Yes. Free includes the standard timer, Flow Session, Pomodoro, 2 projects, and 2 Quick Start templates. Pro is available for $3.99/month, $24.99/year, or $49.99 lifetime to unlock unlimited projects, templates, custom reminders, advanced Pomodoro, and analytics.</p>
+          </details>
+          <details class="faq-item">
+            <summary><span data-i18n="faq.platform.q">What platforms does Flowtime support?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p data-i18n="faq.platform.a">Flowtime is available for iPhone and Android. The web experience is designed to match the app with the same simple, minimal design language.</p>
+          </details>
+          <details class="faq-item">
+            <summary><span data-i18n="faq.languages.q">How many languages does Flowtime support?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p data-i18n="faq.languages.a">Flowtime currently supports 10 languages: English, German, Spanish, French, Italian, Japanese, Korean, Dutch, Polish, and Portuguese.</p>
+          </details>
+          <details class="faq-item">
+            <summary><span data-i18n="faq.flow.q">What is a Flow Session?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p data-i18n="faq.flow.a">Flow Sessions let you set a target duration without rigid intervals. They are designed for focused, flexible work sessions.</p>
+          </details>
+          <details class="faq-item">
+            <summary><span data-i18n="faq.pomodoro.q">Does Flowtime use the Pomodoro technique?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p data-i18n="faq.pomodoro.a">Yes. Free includes the classic 25 / 5 Pomodoro pattern, while Pro adds advanced Pomodoro settings.</p>
+          </details>
+          <details class="faq-item">
+            <summary><span data-i18n="faq.privacy.q">Is my data private?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p data-i18n="faq.privacy.a">No account is required. The privacy policy states that timer and project data are stored locally on your device and are not sent to Flowtime servers.</p>
+          </details>
+          <details class="faq-item">
+            <summary><span data-i18n="faq.pro.q">What does Flowtime Pro include?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <div class="faq-answer">
+              <p data-i18n="faq.pro.a">Flowtime Pro is available for $3.99/month, $24.99/year, or $49.99 lifetime, and unlocks:</p>
+              <ul>
+                <li data-i18n="faq.pro.projects">Unlimited projects</li>
+                <li data-i18n="faq.pro.templates">Unlimited Quick Start templates</li>
+                <li data-i18n="faq.pro.reminders">Custom reminder profiles</li>
+                <li data-i18n="faq.pro.pomodoro">Advanced Pomodoro controls</li>
+                <li data-i18n="faq.pro.analytics">Analytics</li>
+                <li data-i18n="faq.pro.appearance">Break tracking and timer ring color customization</li>
+              </ul>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary><span data-i18n="faq.beta.q">Where can I download Flowtime?</span><span class="faq-toggle" aria-hidden="true"></span></summary>
+            <p data-i18n="faq.beta.a">Flowtime is available on the App Store for iPhone and on Google Play for Android.</p>
+          </details>
+        </div>
       </section>
     </div>
     <div id="download-panel"></div>

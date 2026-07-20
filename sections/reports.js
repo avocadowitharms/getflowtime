@@ -1,9 +1,9 @@
 window.renderSection("reports", `
   <section id="reports" class="section reports">
     <div class="section-heading">
-      <p class="eyebrow">${window.t("reports.eyebrow")}</p>
-      <h2>${window.t("reports.title")}</h2>
-      <p>${window.t("reports.description")}</p>
+      <p class="eyebrow" data-i18n="reports.eyebrow">${window.t("reports.eyebrow")}</p>
+      <h2 data-i18n="reports.title">${window.t("reports.title")}</h2>
+      <p data-i18n="reports.description">${window.t("reports.description")}</p>
     </div>
 
     <div class="reports-grid">

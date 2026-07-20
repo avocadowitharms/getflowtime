@@ -78,6 +78,16 @@
       "Study",
       "Reducing digital distractions"
     ],
+    pricingOffers: {
+      currency: "USD",
+      lowPrice: "0",
+      highPrice: "49.99",
+      offerCount: "4",
+      free: { price: "0", name: "Flowtime Free", description: "Standard timer, Flow Session, Pomodoro, 2 projects, 2 Quick Start templates, app blocking" },
+      monthly: { price: "3.99", name: "Flowtime Pro Monthly", description: "Monthly Pro subscription with unlimited projects, unlimited templates, custom reminder profiles, advanced Pomodoro, and analytics" },
+      yearly: { price: "24.99", name: "Flowtime Pro Yearly", description: "Yearly Pro subscription with unlimited projects, unlimited templates, custom reminder profiles, advanced Pomodoro, and analytics" },
+      lifetime: { price: "49.99", name: "Flowtime Pro Lifetime", description: "Lifetime Pro access with unlimited projects, unlimited templates, custom reminder profiles, advanced Pomodoro, and analytics" }
+    },
     ids: {
       website: siteUrl + "/#website",
       software: siteUrl + "/#software",

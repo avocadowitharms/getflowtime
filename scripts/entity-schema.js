@@ -37,6 +37,43 @@ function softwareNode() {
     "image": facts.appIconUrl,
     "screenshot": facts.screenshotUrls,
     "featureList": facts.coreFeatures,
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": facts.pricingOffers.currency,
+      "lowPrice": facts.pricingOffers.lowPrice,
+      "highPrice": facts.pricingOffers.highPrice,
+      "offerCount": facts.pricingOffers.offerCount,
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": facts.pricingOffers.free.name,
+          "price": facts.pricingOffers.free.price,
+          "priceCurrency": facts.pricingOffers.currency,
+          "description": facts.pricingOffers.free.description
+        },
+        {
+          "@type": "Offer",
+          "name": facts.pricingOffers.monthly.name,
+          "price": facts.pricingOffers.monthly.price,
+          "priceCurrency": facts.pricingOffers.currency,
+          "description": facts.pricingOffers.monthly.description
+        },
+        {
+          "@type": "Offer",
+          "name": facts.pricingOffers.yearly.name,
+          "price": facts.pricingOffers.yearly.price,
+          "priceCurrency": facts.pricingOffers.currency,
+          "description": facts.pricingOffers.yearly.description
+        },
+        {
+          "@type": "Offer",
+          "name": facts.pricingOffers.lifetime.name,
+          "price": facts.pricingOffers.lifetime.price,
+          "priceCurrency": facts.pricingOffers.currency,
+          "description": facts.pricingOffers.lifetime.description
+        }
+      ]
+    },
     "creator": { "@id": facts.ids.publisher },
     "publisher": { "@id": facts.ids.publisher },
     "sameAs": facts.sameAs
