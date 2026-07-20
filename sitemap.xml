@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://flowtime-app.com/adhd/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -26,6 +26,12 @@
   </url>
   <url>
     <loc>https://flowtime-app.com/adhd/what-is-adhd/</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://flowtime-app.com/blog/interrupting-autopilot-conscious-app-blocking/</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -97,22 +103,34 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://flowtime-app.com/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://flowtime-app.com/docs/privacy-policy.html</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://flowtime-app.com/docs/support.html</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://flowtime-app.com/docs/terms-of-use.html</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://flowtime-app.com/fr/blog/interrompre-pilote-automatique-blocage-applications/</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://flowtime-app.com/guides/</loc>
@@ -176,6 +194,12 @@
   </url>
   <url>
     <loc>https://flowtime-app.com/guides/i-use-a-focus-timer-to-stop-focusing/</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://flowtime-app.com/guides/interrupting-autopilot-conscious-app-blocking/</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

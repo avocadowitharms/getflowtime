@@ -75,6 +75,7 @@ Sometimes the answer will be yes. That is fine. The reminder has still done its 
 Other times, the answer will be no. You may need food, water, a stretch, a note for tomorrow, or a cleaner stopping point. Over time, those small decisions can make focus feel less like disappearing and more like something you can return from.
 
 ## Related articles
+- [Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps](../interrupting-autopilot-conscious-app-blocking/)
 - [Time Tracking for Neurodivergent Minds](../time-tracking-for-neurodivergent-minds/)
 - [How Long Should a Focus Session Be?](../how-long-should-a-focus-session-be/)
 - [The Hidden Cost of Context Switching](../the-hidden-cost-of-context-switching/)
