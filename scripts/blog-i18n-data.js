@@ -127,6 +127,10 @@
           title: "Flowtime vs Forest",
           desc: "Ein Vergleich von Flowtime und Forest: Gamifizierter Fokus vs. focusedischer, ablenkungsfreier Utility-Timer."
         },
+        "forest-alternatives-if-gamification-isnt-what-youre-looking-for": {
+          title: "Forest-Alternativen: Wenn Gamification nicht das Richtige ist",
+          desc: "Auf der Suche nach Forest-Alternativen ohne Gamification? Vergleiche Fokus-Apps wie Flowtime, Focus To-Do, Session und Freedom für ADHS und Produktivität."
+        },
         "flowtime-vs-session": {
           title: "Flowtime vs Session",
           desc: "Vergleiche Flowtime und Session: Apple-exklusive Automatisierungen oder plattformübergreifende Einfachheit."
@@ -221,6 +225,10 @@
           metaTitle: "Flowtime vs Forest - Flowtime - Time Tracker",
           metaDesc: "Vergleich zwischen Flowtime und Forest: Gamifizierung und virtuelle Bäume vs. focusedische Utility-Timer."
         },
+        "forest-alternatives-if-gamification-isnt-what-youre-looking-for": {
+          metaTitle: "Forest-Alternativen: Wenn Gamification nicht das Richtige ist - Flowtime",
+          metaDesc: "Finde die besten Forest-Alternativen ohne spielerische Elemente. Vergleiche Flowtime, Focus To-Do, Session und Freedom."
+        },
         "flowtime-vs-session": {
           metaTitle: "Flowtime vs Session - Flowtime - Time Tracker",
           metaDesc: "Finde heraus, was besser zu dir passt: Kalender-Integrationen auf Apple-Geräten oder plattformübergreifender Datenschutz."
@@ -279,6 +287,76 @@
         }
       },
       articles: {
+        "forest-alternatives-if-gamification-isnt-what-youre-looking-for": {
+          title: "Forest-Alternativen: Wenn Gamification nicht das Richtige ist",
+          description: "Auf der Suche nach Forest-Alternativen ohne Gamification? Vergleiche Fokus-Apps wie Flowtime, Focus To-Do, Session und Freedom für ADHS und Produktivität.",
+          readingTime: "4 Min. Lesezeit",
+          toc: ["Zusammenfassung", "ADHS ist nicht immer ein Mangel an Fokus", "Die meiste Fokus-Apps wollen, dass du weiterarbeitest", "Das Starten ist genauso wichtig", "Warum ich Flowtime nicht nur für die Arbeit nutze", "Wo ordnet sich Forest ein?", "Weitere bedenkenswerte Forest-Alternativen", "Welche App solltest du wählen?", "FAQ"],
+          summaryPoints: [
+            "Forest ist eine beliebte Fokus-App, aber Gamification und Belohnungen passen nicht für jeden.",
+            "Flowtime setzt auf Achtsamkeit, sanfte Check-ins und Entlastung des Autopiloten statt auf Punkte und Spielmechaniken.",
+            "Weitere Alternativen wie Focus To-Do, Session und Freedom bieten spezialisierte Ansätze für Aufgaben, Apple-Workflow oder Ablenkungsblocker."
+          ],
+          bodyHtml: `
+            <h2 id="summary">Zusammenfassung</h2>
+            <p>Forest ist eine der beliebtesten Fokus-Apps, aber Gamification und virtuelle Belohnungen sind nicht für jeden das Richtige. Wenn du nach Forest-Alternativen suchst, die Achtsamkeit, geringe Reibung oder das Blockieren von Ablenkungen ohne Spielmechaniken in den Vordergrund stellen, bieten Tools wie Flowtime, Focus To-Do, Session und Freedom unterschiedliche Ansätze.</p>
+            <p>Wer nach einer Fokus-App sucht, stößt schnell auf <strong>Forest</strong>. Es ist eine der beliebtesten Produktivitäts-Apps überhaupt. Die Idee ist einfach: Starte einen Timer, verlasse die App nicht und lass während der Arbeit einen virtuellen Baum wachsen.</p>
+            <p>Offensichtlich funktioniert das für sehr viele Menschen. Aber das ist nicht der einzige Weg, Fokus anzugehen.</p>
+            <p>Ich habe Forest tatsächlich nie selbst ausprobiert. Nicht, weil mir die Idee missfiel, sondern weil die Erstellung eines Accounts bereits mehr Reibung bedeutete, als ich wollte. Ich suchte nach etwas, das ich öffnen, sofort nutzen und wieder vergessen konnte, bis ich es das nächste Mal brauchte.</p>
+            <p>Als ich diese App nicht finden konnte, begann ich mit dem Bau von Flowtime. Nicht um mit Forest zu konkurrieren, sondern um ein anderes Problem zu lösen.</p>
+            <h2 id="adhd-isnt-always-a-lack-of-focus">ADHS ist nicht immer ein Mangel an Fokus</h2>
+            <p>Wenn Menschen an ADHS denken, stellen sie sich oft jemanden vor, der sich nicht konzentrieren kann. Das kommt sicherlich vor. Aber es gibt eine andere Seite, über die viel weniger gesprochen wird: <strong>Hyperfokus</strong>.</p>
+            <p>Ich fange an, an einem Feature zu arbeiten, verliere jedes Zeitgefühl, überspringe das Mittagessen, ignoriere mein Handy und stelle plötzlich fest, dass es Abend ist.</p>
+            <p>An anderen Tagen setze ich mich hin, um einen einzelnen Bug zu beheben, und erstelle am Ende ein neues Icon, weil eine kleine Verbesserung zur nächsten führte.</p>
+            <p>Das Seltsame ist: Ich war nicht abgelenkt. Ich war völlig fokussiert. Nur nicht auf das, was ich ursprünglich tun wollte. Das ist der Teil, den ich lösen wollte.</p>
+            <h2 id="most-focus-apps-try-to-keep-you-working">Die meisten Fokus-Apps wollen, dass du weiterarbeitest</h2>
+            <p>Flowtime versucht, dir dein Handeln bewusst zu machen. Da gibt es einen wichtigen Unterschied.</p>
+            <p>Viele Produktivitäts-Apps sind um eine zentrale Frage herum entwickelt: <strong>„Wie halten wir dich länger fokussiert?“</strong></p>
+            <p>Flowtime stellt eine andere Frage: <strong>„Arbeitest du immer noch am Richtigen?“</strong></p>
+            <p>Das ist nicht dasselbe. Mit ADHS verlierst du nicht immer den Fokus. Manchmal verlierst du das Bewusstsein. Du wirst so sehr von etwas absorbiert, dass du aufhörst zu hinterfragen, ob es immer noch die höchste Priorität hat. Stunden vergehen, bevor du es bemerkst.</p>
+            <p>Deshalb enthalten Flow-Sessions Achtsamkeits-Erinnerungen und Check-ins. Nicht um deine Arbeit zu unterbrechen, sondern um den Autopiloten zu unterbrechen.</p>
+            <p>Manchmal lautet die Antwort: <em>„Ja, ich bin genau da, wo ich sein sollte.“</em> Manchmal lautet sie: <em>„Warte... wie bin ich hier gelandet?“</em> Dieser eine Moment des Bewusstseins reicht oft schon aus, um wieder auf den richtigen Weg zu kommen.</p>
+            <h2 id="starting-matters-just-as-much">Das Starten ist genauso wichtig</h2>
+            <p>Eine weitere Herausforderung bei ADHS ist das Anfangen. Manchmal ist die Arbeit selbst gar nicht schwer. Das Projekt öffnen, einen Timer auswählen, Einstellungen festlegen, entscheiden, wie lange man arbeiten möchte—diese winzigen Entscheidungen erzeugen Reibung, bevor du überhaupt angefangen hast.</p>
+            <p>Deshalb bietet Flowtime Schnellstart-Vorlagen. Anstatt jedes Mal alles neu zu konfigurieren, kannst du eine Session mit einem einzigen Klick starten und sofort beginnen zu arbeiten. Je weniger Entscheidungen zwischen dir und deiner Aufgabe stehen, desto leichter fällt das Anfangen.</p>
+            <h2 id="why-i-dont-use-flowtime-just-for-work">Warum ich Flowtime nicht nur für die Arbeit nutze</h2>
+            <p>Eine meiner Lieblingsfunktionen war nicht einmal beabsichtigt. Ich gehe nach der Arbeit oft mit meinem Hund spazieren. Das Problem ist, dass mein Kopf das nicht tut. Ich denke immer noch über Code nach, neue Features, Marketing-Ideen oder Dinge, die ich vergessen habe zu implementieren. Anstatt den Spaziergang zu genießen, sitze ich gedanklich immer noch am Schreibtisch.</p>
+            <p>Also habe ich angefangen, etwas anderes zu tun: Bevor ich das Haus verlasse, starte ich eine einstündige Flow-Session. Nicht weil ich mich auf die Arbeit konzentrieren will, sondern weil ich es eben <em>nicht</em> will.</p>
+            <p>Die Achtsamkeits-Erinnerungen werden zu einer einfachen Aufforderung, mich wieder darauf zu besinnen, was um mich herum geschieht: <em>„Du gehst mit deinem Hund spazieren. Sei hier.“</em></p>
+            <p>Deshalb beschreibe ich Flowtime manchmal als ein Werkzeug, das mir beim <strong>Entfokussieren</strong> hilft. Nicht weil ich aufhören will mich zu konzentrieren, sondern weil ich aufhören will, mich auf das Falsche zu konzentrieren.</p>
+            <h2 id="so-where-does-forest-fit-in">Wo ordnet sich Forest ein?</h2>
+            <p>Forest und Flowtime versuchen nicht, das gleiche Problem zu lösen. Forest nutzt Gamification: Einen Baum wachsen zu lassen wird zum Anreiz, das Handy liegenzulassen. Wenn dich das motiviert, ist das ein fantastisches Konzept.</p>
+            <p>Flowtime nutzt keine Belohnungen. Es gibt keine Punkte, keine Streaks und es versucht nicht, dir ein schlechtes Gewissen zu machen, wenn du eine Session vorzeitig beendest. Stattdessen bittet es dich, ab und zu innezuhalten und zu prüfen, ob deine Aufmerksamkeit noch da ist, wo du sie haben möchtest. Für mich war das weitaus wertvoller als jedes Belohnungssystem.</p>
+            <h2 id="other-forest-alternatives-worth-considering">Weitere bedenkenswerte Forest-Alternativen</h2>
+            <p>Wenn Flowtime nicht das ist, wonach du suchst, gibt es mehrere andere hervorragende Fokus-Apps:</p>
+            <h3>Focus To-Do</h3>
+            <p>Eine gute Wahl, wenn du die Pomodoro-Technik magst und eine Aufgabenverwaltung direkt in derselben App haben möchtest.</p>
+            <h3>Session</h3>
+            <p>Ein eleganter Fokus-Timer für Apple-Nutzer mit Zeitplan- und Planungsfunktionen. Ideal, wenn du einen strukturierten Workflow im Apple-Ökosystem bevorzugst.</p>
+            <h3>Freedom</h3>
+            <p>Einer der besten Ablenkungsblocker auf dem Markt. Wenn soziale Medien und Websites deine Arbeit ständig unterbrechen, konzentriert sich Freedom darauf, diese Ablenkungen auf all deinen Geräten zu entfernen.</p>
+            <h2 id="which-app-should-you-choose">Welche App solltest du wählen?</h2>
+            <p>Wenn das Sammeln virtueller Bäume dich motiviert, ist Forest eine klare Empfehlung.</p>
+            <p>Wenn du gerne in Pomodoro-Intervallen arbeitest, lohnt sich ein Blick auf Focus To-Do.</p>
+            <p>Wenn das Blockieren von Ablenkungen deine größte Priorität ist, gehört Freedom zu den stärksten Optionen.</p>
+            <p>Aber wenn du ADHS hast und deine größte Herausforderung nicht darin besteht, <em>abgelenkt zu werden</em>—sondern darin, das Bewusstsein dafür zu verlieren, <strong>was du tust</strong>, <strong>wie lange du es schon tust</strong> oder <strong>ob du immer noch an der Sache arbeitest, die am wichtigsten ist</strong>—dann ist genau das der Grund, warum ich Flowtime gebaut habe.</p>
+            <p>Nicht um dich dazu zu drängen, härter zu arbeiten. Sondern um dir zu helfen zu bemerken, wenn deine Aufmerksamkeit leise dorthin gedriftet ist, wo du sie nie haben wolltet.</p>
+            <p>Manchmal ist das Produktivste, was du tun kannst, nicht noch eine Stunde Arbeit. Manchmal ist es einfach, dich selbst zu fragen: <strong>„Arbeite ich immer noch am Richtigen?“</strong></p>
+            <h2 id="faq">FAQ</h2>
+            <details open>
+              <summary>Warum eine Forest-Alternative ohne Gamification wählen?</summary>
+              <p>Gamification funktioniert für manche gut, aber Punkte, virtuelle Bäume und Streaks können unbewussten Druck erzeugen. Alternative Apps bieten klare Nutzen, Bewusstsein oder gezieltes App-Blocking ohne Spielmechaniken.</p>
+            </details>
+            <details>
+              <summary>Ist Flowtime eine gute Forest-Alternative für ADHS?</summary>
+              <p>Ja. Flowtime ist speziell für ADHS-Zeitwahrnehmung und Hyperfokus-Check-ins konzipiert und verzichtet bewusst auf Belohnungs- und Punkteanreize.</p>
+            </details>
+            <details>
+              <summary>Welche Forest-Alternative eignet sich am besten zum Blockieren ablenkender Websites?</summary>
+              <p>Freedom gehört zu den stärksten Tools, wenn das geräteübergreifende Sperren von Webseiten und Social-Media-Plattformen im Vordergrund steht.</p>
+            </details>
+          `
+        },
         "adhd-focus-timer-for-time-blindness": {
           title: "ADHS-Fokus-Timer für Zeitblindheit",
           description: "Wie ein ADHS-Fokus-Timer bei Zeitblindheit, Hyperfokus, Fokus-Erinnerungen, Pomodoro, App-Blocking und flexiblen Arbeitssessions helfen kann.",
@@ -1046,6 +1124,10 @@
           title: "Flowtime vs Forest",
           desc: "Une comparaison entre Flowtime et Forest : la concentration gamifiée contre un minuteur focusede et discret."
         },
+        "forest-alternatives-if-gamification-isnt-what-youre-looking-for": {
+          title: "Alternatives à Forest : Si la gamification ne vous convient pas",
+          desc: "Vous cherchez des alternatives à Forest sans gamification ? Comparez des applications de concentration comme Flowtime, Focus To-Do, Session et Freedom pour le TDAH et la productivité."
+        },
         "flowtime-vs-session": {
           title: "Flowtime vs Session",
           desc: "Comparez Flowtime et Session : les automatisations de l'écosystème Apple contre la simplicité multiplateforme."
@@ -1140,6 +1222,10 @@
           metaTitle: "Flowtime vs Forest - Flowtime - Time Tracker",
           metaDesc: "Comparaison entre Flowtime et Forest : gamification et arbres virtuels contre minuteur utilitaire focusede."
         },
+        "forest-alternatives-if-gamification-isnt-what-youre-looking-for": {
+          metaTitle: "Alternatives à Forest : Si la gamification ne vous convient pas - Flowtime",
+          metaDesc: "Trouvez les meilleures alternatives à Forest sans éléments ludiques. Comparez Flowtime, Focus To-Do, Session et Freedom."
+        },
         "flowtime-vs-session": {
           metaTitle: "Flowtime vs Session - Flowtime - Time Tracker",
           metaDesc: "Découvrez ce qui vous convient le mieux : automatisations Apple ou confidentialité multiplateforme."
@@ -1198,6 +1284,76 @@
         }
       },
       articles: {
+        "forest-alternatives-if-gamification-isnt-what-youre-looking-for": {
+          title: "Alternatives à Forest : Si la gamification ne vous convient pas",
+          description: "Vous cherchez des alternatives à Forest sans gamification ? Comparez des applications de concentration comme Flowtime, Focus To-Do, Session et Freedom pour le TDAH et la productivité.",
+          readingTime: "4 min de lecture",
+          toc: ["Résumé", "Le TDAH n'est pas toujours un manque de concentration", "La plupart des applications essaient de vous faire travailler plus longtemps", "Commencer compte tout autant", "Pourquoi je n'utilise pas Flowtime uniquement pour le travail", "Quelle est la place de Forest dans tout cela ?", "D'autres alternatives à Forest à envisager", "Quelle application devriez-vous choisir ?", "FAQ"],
+          summaryPoints: [
+            "Forest est une application populaire, mais la gamification et les récompenses visuelles ne conviennent pas à tout le monde.",
+            "Flowtime privilégie la prise de conscience, des rappels doux et l'interruption du pilote automatique plutôt que des points ou des séries.",
+            "D'autres alternatives comme Focus To-Do, Session et Freedom proposent des approches spécialisées pour les tâches, le workflow Apple ou le blocage d'accès."
+          ],
+          bodyHtml: `
+            <h2 id="summary">Résumé</h2>
+            <p>Forest est l'une des applications de concentration les plus populaires, mais la gamification et les récompenses visuelles ne conviennent pas à tout le monde. Si vous recherchez des alternatives à Forest qui privilégient la prise de conscience, une faible friction ou le blocage des distractions sans mécanique de jeu, des outils comme Flowtime, Focus To-Do, Session et Freedom proposent des approches différentes.</p>
+            <p>Cherchez une application de concentration et vous tomberez rapidement sur <strong>Forest</strong>. C'est l'une des applications de productivité les plus connues. L'idée est simple : lancez un minuteur, ne quittez pas l'application et faites grandir un arbre virtuel pendant que vous travaillez.</p>
+            <p>Manifestement, cela fonctionne pour beaucoup de monde. Mais ce n'est pas la seule manière d'aborder la concentration.</p>
+            <p>Je n'ai jamais vraiment essayé Forest. Non pas que l'idée me déplaisait, mais créer un compte représentait déjà plus de friction que ce que je voulais. Je cherchais quelque chose que je pouvais ouvrir, utiliser immédiatement et oublier jusqu'à ce que j'en aie à nouveau besoin.</p>
+            <p>Ne trouvant pas cette application, j'ai commencé à construire Flowtime. Non pas pour rivaliser avec Forest, mais pour résoudre un problème différent.</p>
+            <h2 id="adhd-isnt-always-a-lack-of-focus">Le TDAH n'est pas toujours un manque de concentration</h2>
+            <p>Quand les gens pensent au TDAH, ils imaginent souvent quelqu'un qui n'arrive pas à se concentrer. Cela arrive certainement. Mais il y a un autre aspect dont on parle beaucoup moins : <strong>l'hyperfocus</strong>.</p>
+            <p>Je commence à travailler sur une fonctionnalité, je perds toute notion du temps, je saute le déjeuner, j'ignore mon téléphone et je me rends compte soudainement qu'il fait nuit.</p>
+            <p>D'autres jours, je m'assieds dans l'intention de corriger un seul bug et je finis par redessiner une icône parce qu'une petite amélioration en a entraîné une autre.</p>
+            <p>Le plus étrange, c'est que je n'étais pas distrait. J'étais complètement concentré. Juste pas sur ce que j'avais prévu de faire à l'origine. C'est cette partie que je voulais résoudre.</p>
+            <h2 id="most-focus-apps-try-to-keep-you-working">La plupart des applications essaient de vous faire travailler plus longtemps</h2>
+            <p>Flowtime essaie de vous maintenir conscient de votre attention. Il y a une différence majeure.</p>
+            <p>De nombreuses applications de productivité sont conçues autour d'une seule question : <strong>« Comment vous garder concentré plus longtemps ? »</strong></p>
+            <p>Flowtime en pose une différente : <strong>« Travaillez-vous toujours sur la bonne chose ? »</strong></p>
+            <p>Ce n'est pas la même chose. Avec le TDAH, on ne perd pas toujours sa concentration. Parfois, on perd sa conscience de la situation. Vous devenez tellement absorbé par quelque chose que vous arrêtez de vous demander si c'est toujours la priorité absolue. Des heures passent avant que vous ne le remarquiez.</p>
+            <p>C'est pourquoi les Flow Sessions incluent des rappels d'attention et des check-ins. Non pas pour interrompre votre travail, mais pour interrompre le pilote automatique.</p>
+            <p>Parfois la réponse est : <em>« Oui, je suis exactement là où je devrais être. »</em> Parfois elle est : <em>« Attends... comment je me suis retrouvé à faire ça ? »</em> Ce seul moment de conscience suffit souvent pour se remettre sur les rails.</p>
+            <h2 id="starting-matters-just-as-much">Commencer compte tout autant</h2>
+            <p>Un autre défi avec le TDAH est de démarrer. Parfois, le travail lui-même n'est pas difficile. Ouvrir le projet, choisir un minuteur, régler les paramètres, décider combien de temps travailler—ces minuscules décisions ajoutent de la friction avant même d'avoir commencé.</p>
+            <p>C'est pourquoi Flowtime inclut des modèles de démarrage rapide (Quick Start). Au lieu de tout configurer à chaque fois, vous pouvez lancer une session en un seul clic et commencer à travailler immédiatement. Moins il y a de décisions entre vous et votre tâche, plus il est facile de commencer.</p>
+            <h2 id="why-i-dont-use-flowtime-just-for-work">Pourquoi je n'utilise pas Flowtime uniquement pour le travail</h2>
+            <p>L'une de mes fonctionnalités préférées n'était même pas intentionnelle. Je promène souvent mon chien après le travail. Le problème, c'est que mon cerveau ne décroche pas. Je pense toujours au code, aux nouvelles fonctionnalités, aux idées marketing, aux choses que j'ai oublié d'implémenter. Au lieu de profiter de la promenade, je suis mentalement toujours assis à mon bureau.</p>
+            <p>J'ai donc commencé à faire quelque chose de différent : avant de quitter la maison, je lance une Flow Session d'une heure. Non pas parce que je veux me concentrer sur le travail, mais parce que je <em>ne le veux pas</em>.</p>
+            <p>Les rappels de concentration deviennent une simple invite à me reconnecter avec ce qui m'entoure : <em>« Tu promènes ton chien. Sois ici. »</em></p>
+            <p>C'est pourquoi je décris parfois Flowtime comme un outil qui m'aide à <strong>déconcentrer</strong>. Non pas parce que je veux arrêter de me concentrer, mais parce que je veux arrêter de me concentrer sur la mauvaise chose.</p>
+            <h2 id="so-where-does-forest-fit-in">Quelle est la place de Forest dans tout cela ?</h2>
+            <p>Forest et Flowtime n'essaient pas de résoudre le même problème. Forest utilise la gamification : faire grandir un arbre devient l'incitation à rester éloigné de son téléphone. Si cela vous motive, c'est un concept fantastique.</p>
+            <p>Flowtime n'utilise pas de récompenses. Il n'y a pas de points, pas de séries (streaks), et il n'essaie pas de vous faire culpabiliser si vous terminez une session plus tôt. Au lieu de cela, il vous demande de faire une pause de temps en temps pour vérifier si votre attention est toujours là où vous le souhaitez. Pour moi, cela a été bien plus précieux que n'importe quel système de récompense.</p>
+            <h2 id="other-forest-alternatives-worth-considering">D'autres alternatives à Forest à envisager</h2>
+            <p>Si Flowtime n'est pas ce que vous recherchez, il existe plusieurs autres excellentes applications de concentration :</p>
+            <h3>Focus To-Do</h3>
+            <p>Un bon choix si vous aimez la technique Pomodoro et souhaitez une gestion des tâches intégrée à la même application.</p>
+            <h3>Session</h3>
+            <p>Un minuteur de concentration soigné pour les utilisateurs Apple avec des fonctionnalités de planification et de calendrier. Idéal si vous préférez un workflow structuré dans l'écosystème Apple.</p>
+            <h3>Freedom</h3>
+            <p>L'un des meilleurs bloqueurs de distractions disponibles. Si les réseaux sociaux et les sites web interrompent constamment votre travail, Freedom se concentre sur la suppression de ces distractions sur tous vos appareils.</p>
+            <h2 id="which-app-should-you-choose">Quelle application devriez-vous choisir ?</h2>
+            <p>Si collectionner des arbres virtuels vous motive, Forest est une recommandation évidente.</p>
+            <p>Si vous aimez travailler par intervalles Pomodoro, Focus To-Do vaut le coup d'œil.</p>
+            <p>Si le blocage des distractions est votre priorité absolue, Freedom est l'une des options les plus solides.</p>
+            <p>Mais si vous avez un TDAH et que votre plus grand défi n'est pas de <em>vous faire distraire</em>—mais de perdre la conscience de <strong>ce que vous faites</strong>, de <strong>depuis combien de temps vous le faites</strong>, ou de <strong>savoir si vous travaillez toujours sur la chose qui compte le plus</strong>—c'est exactement pour cela que j'ai créé Flowtime.</p>
+            <p>Non pas pour vous pousser à travailler plus dur, mais pour vous aider à remarquer quand votre attention s'est silencieusement éloignée vers un endroit où vous n'aviez pas l'intention d'aller.</p>
+            <p>Parfois, la chose la plus productive que vous puissiez faire n'est pas une heure de travail supplémentaire. Parfois, c'est simplement de vous demander : <strong>« Est-ce que je travaille toujours sur la bonne chose ? »</strong></p>
+            <h2 id="faq">FAQ</h2>
+            <details open>
+              <summary>Pourquoi choisir une alternative à Forest sans gamification ?</summary>
+              <p>La gamification fonctionne bien pour certains, mais les points, les arbres et les streaks peuvent créer une pression inutile. Les applications alternatives se concentrent sur l'utilité, la conscience ou le blocage des distractions sans mécanique de jeu.</p>
+            </details>
+            <details>
+              <summary>Flowtime est-il une bonne alternative à Forest pour le TDAH ?</summary>
+              <p>Oui. Flowtime est conçu spécifiquement pour la conscience du temps TDAH et les check-ins d'hyperfocus plutôt que pour le maintien de séries ou de récompenses visuelles.</p>
+            </details>
+            <details>
+              <summary>Quelle alternative à Forest est la meilleure pour bloquer les sites web distrayants ?</summary>
+              <p>Freedom est l'un des meilleurs outils si le blocage d'applications et de sites web sur l'ensemble de vos appareils est votre exigence principale.</p>
+            </details>
+          `
+        },
         "adhd-focus-timer-for-time-blindness": {
           title: "Minuteur de concentration TDAH pour la notion du temps",
           description: "Comment un minuteur de concentration TDAH peut aider avec la notion du temps, l'hyperfocus, les rappels, Pomodoro, le blocage d'apps et les sessions flexibles.",

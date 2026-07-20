@@ -1,5 +1,21 @@
 window.flowtimeBlogPosts = [
   {
+    "slug": "forest-alternatives-if-gamification-isnt-what-youre-looking-for",
+    "category": "comparison",
+    "title": "Forest Alternatives: If Gamification Isn't What You're Looking For",
+    "description": "Looking for Forest alternatives without gamification? Compare focus apps like Flowtime, Focus To-Do, Session, and Freedom for ADHD and productivity.",
+    "date": "2026-07-20",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "comparison",
+      "focus",
+      "adhd"
+    ],
+    "featuredImage": "",
+    "readingTime": "6 min read"
+  },
+  {
     "slug": "adhd-focus-timer-for-time-blindness",
     "category": "guides",
     "title": "ADHD Focus Timer for Time Blindness",
