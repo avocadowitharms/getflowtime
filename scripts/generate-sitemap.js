@@ -99,6 +99,9 @@ const urls = [
   ...getUrlsFromDir(comparisonDir, "comparison"),
   ...getUrlsFromDir(guidesDir, "guides"),
   ...getUrlsFromDir(adhdDir, "adhd"),
+  { loc: `${siteUrl}/blog/interrupting-autopilot-conscious-app-blocking/`, lastmod: "2026-07-20", changefreq: "monthly", priority: "0.7" },
+  { loc: `${siteUrl}/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/`, lastmod: "2026-07-20", changefreq: "monthly", priority: "0.7" },
+  { loc: `${siteUrl}/fr/blog/interrompre-pilote-automatique-blocage-applications/`, lastmod: "2026-07-20", changefreq: "monthly", priority: "0.7" },
   { loc: `${siteUrl}/docs/privacy-policy.html`, lastmod: fileLastmod("docs/privacy-policy.html", "2026-06-01"), changefreq: "yearly", priority: "0.3" },
   { loc: `${siteUrl}/docs/terms-of-use.html`, lastmod: fileLastmod("docs/terms-of-use.html", "2026-06-01"), changefreq: "yearly", priority: "0.3" },
   { loc: `${siteUrl}/docs/support.html`, lastmod: fileLastmod("docs/support.html", "2026-06-01"), changefreq: "monthly", priority: "0.4" }

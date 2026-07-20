@@ -119,7 +119,7 @@ function faqPageNode(post, url) {
   };
 }
 
-function articleSchema(post, url, description, socialImage, type) {
+function articleSchema(post, url, description, socialImage, type, language = "en") {
   const graph = [
     publisherNode(),
     websiteNode(),
@@ -134,6 +134,7 @@ function articleSchema(post, url, description, socialImage, type) {
       "publisher": { "@id": facts.ids.publisher },
       "mainEntityOfPage": url,
       "image": socialImage,
+      "inLanguage": language,
       "isPartOf": { "@id": facts.ids.website },
       "about": { "@id": facts.ids.software }
     },

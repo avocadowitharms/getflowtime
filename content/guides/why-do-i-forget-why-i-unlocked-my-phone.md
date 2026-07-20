@@ -56,6 +56,6 @@ That does not solve distraction by itself. It simply removes a few easy exits.
 
 ## Keep reading
 
-Read [How I Reduce Phone Distractions When My ADHD Brain Wants to Check Everything](/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/) for a personal version, or [What Is an App Blocker, and When Is It Actually Useful?](/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/) for a broader guide.
+Read [Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps](/guides/interrupting-autopilot-conscious-app-blocking/) for how Flowtime interrupts automatic phone habits, [How I Reduce Phone Distractions When My ADHD Brain Wants to Check Everything](/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/) for a personal version, or [What Is an App Blocker, and When Is It Actually Useful?](/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/) for a broader guide.
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
