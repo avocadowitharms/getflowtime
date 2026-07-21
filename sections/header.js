@@ -1,8 +1,7 @@
 (function () {
   var root = window.flowtimeRoot || "";
-  var headerCta = window.flowtimeNoWaitlist
-    ? '<a class="button primary header-cta" href="' + root + 'index.html#download-panel">' + window.t("cta.waitlist") + "</a>"
-    : '<button class="button primary header-cta" type="button" data-waitlist-open>' + window.t("cta.waitlist") + "</button>";
+  var appStoreUrl = "https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969";
+  var headerCta = '<a class="button primary header-cta" href="' + appStoreUrl + '" target="_blank" rel="noopener noreferrer" data-analytics-event="app_store_click" data-analytics-location="header">' + window.t("cta.appstore") + '</a>';
 
   window.renderSection("site-header", `
   <header class="site-header" aria-label="Flowtime">

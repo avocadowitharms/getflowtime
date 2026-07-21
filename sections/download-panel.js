@@ -8,7 +8,7 @@ window.renderSection("download-panel", `
     <div class="actions">
       <a
         class="app-store-badge"
-        href="https://apps.apple.com/ch/app/flowtime/id6768056969"
+        href="https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969"
         target="_blank"
         rel="noopener noreferrer"
         data-analytics-event="app_store_click"

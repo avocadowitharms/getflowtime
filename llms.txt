@@ -12,7 +12,7 @@ Guides:
 https://flowtime-app.com/guides/
 
 App Store:
-https://apps.apple.com/ch/app/flowtime/id6768056969
+https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969
 
 Google Play:
 https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime

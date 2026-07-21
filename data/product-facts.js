@@ -6,7 +6,7 @@
   root.FlowtimeProductFacts = facts;
 }(typeof self !== "undefined" ? self : this, function () {
   var siteUrl = "https://flowtime-app.com";
-  var appStoreUrl = "https://apps.apple.com/ch/app/flowtime/id6768056969";
+  var appStoreUrl = "https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969";
   var googlePlayUrl = "https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime";
 
   return {
