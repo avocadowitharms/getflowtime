@@ -227,7 +227,7 @@ function relatedArticles(current, posts) {
     .filter((post) => post.slug !== current.slug)
     .map((post) => ({
       ...post,
-    score: (post.data.tags || []).filter((tag) => currentTags.has(tag)).length
+      score: (post.data.tags || []).filter((tag) => currentTags.has(tag)).length
     }))
     .sort((a, b) => b.score - a.score || new Date(b.data.date) - new Date(a.data.date))
     .slice(0, 3);
@@ -327,7 +327,7 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
               <li><a href="/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/">Ablenkungen reduzieren, wenn das Gehirn alles prüfen will</a></li>
               <li><a href="/guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/">Manchmal ist das Problem nicht der Flow, sondern das Herauskommen</a></li>
               <li><a href="/comparison/forest-alternatives-if-gamification-isnt-what-youre-looking-for/">Forest-Alternativen ohne Gamification</a></li>
-              <li><a href="/guides/i-use-a-focus-timer-to-stop-focusing/">Ich nutze einen Fokus-Timer, um mit dem Fokussieren aufzuhören</a></li>
+              <li><a href="/guides/i-use-a-focus-timer-to-stop-focusing/">Ich nutze einen Fokus-Timer, um abzuschalten.</a></li>
             </ul>
             <p>Flowtime ist ein flexibler Fokus-Timer, der Zeit sichtbarer macht, automatische Gewohnheiten unterbricht und dir stets die Kontrolle überlässt.</p>
   `;

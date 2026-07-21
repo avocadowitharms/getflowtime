@@ -44,7 +44,7 @@
       "hero.eyebrow": "Time awareness for real focus",
       "hero.title": "A focus timer for ADHD time blindness.",
       "hero.description": "Start when you need to focus. Get focus reminders when you've disappeared too deep. Block the apps that hijack your attention.",
-      "hero.category": "A flexible ADHD focus timer, hyperfocus timer, time tracker, and Pomodoro alternative for work, study, and intentional breaks.",
+      "hero.category": "A flexible focus timer, hyperfocus timer, time tracker, and Pomodoro alternative for work, study, and intentional breaks.",
       "hero.benefits": "Flowtime benefits",
       "hero.timerCard.title": "Time awareness",
       "hero.timerCard.text": "Keep session time visible.",
@@ -67,8 +67,8 @@
       "launch.title": "Now available on the App Store and Google Play",
       "launch.description": "Flowtime is live for iPhone and Android. Thank you for being here at the start.",
       "focus.eyebrow": "Focus modes",
-      "focus.title": "What focus modes does Flowtime support?",
-      "focus.description": "Flowtime offers three distinct focus tracking modes tailored for work, study, ADHD time awareness, hyperfocus check-ins, and intentional breaks.",
+      "focus.title": "Supported focus modes.",
+      "focus.description": "Flowtime supports three distinct focus tracking modes tailored for work, study, ADHD time awareness, hyperfocus check-ins, and intentional breaks.",
       "focus.classic.title": "What is the Classic Timer?",
       "focus.classic.text": "Simple, intuitive time tracking that lets you track time count up effortlessly.",
       "focus.pomodoro.title": "How does Pomodoro work in Flowtime?",
@@ -137,7 +137,6 @@
       "pricing.free.appearance": "Basic theme and timer appearance settings",
       "pricing.free.shielding": "Focus shielding and app blocking",
       "pricing.pro.title": "What features are in Flowtime Pro?",
-      "pricing.pro.tiers": "$3.99 / month · $24.99 / year · $49.99 lifetime",
       "pricing.pro.projects": "Unlimited projects",
       "pricing.pro.templates": "Unlimited Quick Start templates",
       "pricing.pro.timer.templates": "Start Quick Start templates directly from the timer",
@@ -651,7 +650,6 @@
       "founder.title": "Why was Flowtime created?",
       "founder.p1": "I have ADHD, and during intense hyperfocus I can spend weeks mentally stuck on work, features, UI details, or whatever my brain has decided matters. Even when I stop working physically, my brain often keeps going.",
       "founder.p2": "Flowtime began as a way to focus longer. Over time, it also became a way to unfocus on purpose. Sometimes I start a one-hour FlowSession, block distracting apps, and go for a walk with my dog. Knowing the timer is running and the usual apps are unavailable makes it easier to be present instead of repeatedly checking my phone or thinking about work.",
-      "founder.p3": "That is not a medical promise. It is one personal reason Flowtime is built around visible time, focus reminders, flexible sessions, and fewer distractions.",
       "product.eyebrow": "Product facts",
       "product.title": "What is Flowtime?",
       "product.description": "Flowtime is an ADHD focus timer for time blindness, hyperfocus, Pomodoro, focus reminders, project time tracking, and optional app blocking on iPhone and Android. It combines Flow Sessions, Pomodoro, focus reminders, personal time tracking, and optional app blocking in one focused app. It is designed especially for people who lose track of time, disappear into hyperfocus, or get pulled away by small digital distractions. No account is required.",
@@ -670,10 +668,9 @@
       "positioning.rigid.title": "Starre Timer",
       "positioning.rigid.text": "Pomodoro kann helfen, aber ein festes Intervall kann deine beste Arbeit unterbrechen. Flowtime unterst\u00fctzt Pomodoro und flexible Fokus-Sessions.",
       "founder.eyebrow": "Warum es Flowtime gibt",
-      "founder.title": "Ich nutze einen Fokus-Timer, um mit dem Fokussieren aufzuh\u00f6ren.",
+      "founder.title": "Ich nutze einen Fokus-Timer, um abzuschalten.",
       "founder.p1": "Ich habe ADHS, und w\u00e4hrend intensiver Hyperfokus-Phasen kann ich wochenlang gedanklich an Arbeit, Features, UI-Details oder dem h\u00e4ngen, was mein Gehirn gerade wichtig findet. Selbst wenn ich k\u00f6rperlich aufh\u00f6re zu arbeiten, macht mein Kopf oft weiter.",
       "founder.p2": "Flowtime begann als M\u00f6glichkeit, l\u00e4nger zu fokussieren. Mit der Zeit wurde es auch eine M\u00f6glichkeit, absichtlich zu ent-fokussieren. Manchmal starte ich eine einst\u00fcndige FlowSession, blockiere ablenkende Apps und gehe mit meinem Hund spazieren. Zu wissen, dass der Timer l\u00e4uft und die \u00fcblichen Apps nicht verf\u00fcgbar sind, macht es leichter, pr\u00e4sent zu sein, statt st\u00e4ndig aufs Handy zu schauen oder an Arbeit zu denken.",
-      "founder.p3": "Das ist kein medizinisches Versprechen. Es ist ein pers\u00f6nlicher Grund, warum Flowtime um sichtbare Zeit, Fokus-Erinnerungen, flexible Sessions und weniger Ablenkung gebaut ist.",
       "product.eyebrow": "Produkt-Fakten",
       "product.title": "Was ist Flowtime?",
       "product.description": "Flowtime ist ein ADHS-Fokus-Timer für Zeitblindheit, Hyperfokus, Pomodoro, Fokus-Erinnerungen, Projekterfassung und optionales App-Blocking auf iPhone und Android. Die App kombiniert Flow Sessions, Pomodoro, Fokus-Erinnerungen, persönliche Zeiterfassung und optionales App-Blocking in einer fokussierten App. Sie ist besonders für Menschen gedacht, die die Zeit aus dem Blick verlieren, in Hyperfokus verschwinden oder von kleinen digitalen Ablenkungen weggezogen werden. Kein Account ist erforderlich.",
@@ -695,7 +692,6 @@
       "founder.title": "J'utilise un minuteur de concentration pour arr\u00eater de me concentrer.",
       "founder.p1": "J'ai un TDAH, et pendant les phases d'hyperfocus intense, je peux rester mentalement bloqu\u00e9e pendant des semaines sur le travail, les fonctionnalit\u00e9s, les d\u00e9tails d'interface ou ce que mon cerveau a d\u00e9cid\u00e9 de trouver important. M\u00eame quand j'arr\u00eate physiquement de travailler, mon cerveau continue souvent.",
       "founder.p2": "Flowtime a commenc\u00e9 comme une fa\u00e7on de me concentrer plus longtemps. Avec le temps, c'est aussi devenu une fa\u00e7on de d\u00e9crocher volontairement. Parfois, je lance une FlowSession d'une heure, je bloque les apps distrayantes et je vais promener mon chien. Savoir que le minuteur tourne et que les apps habituelles sont indisponibles m'aide \u00e0 \u00eatre pr\u00e9sente au lieu de v\u00e9rifier mon t\u00e9l\u00e9phone ou de penser au travail.",
-      "founder.p3": "Ce n'est pas une promesse m\u00e9dicale. C'est une raison personnelle pour laquelle Flowtime est construit autour du temps visible, de rappels de concentration, de sessions flexibles et de moins de distractions.",
       "product.eyebrow": "Infos produit",
       "product.title": "Qu'est-ce que Flowtime ?",
       "product.description": "Flowtime est un minuteur de concentration TDAH pour la cécité temporelle (time blindness), l'hyperfocus, Pomodoro, les rappels de concentration, le suivi de projets et le blocage d'apps optionnel sur iPhone et Android. Elle combine Flow Sessions, Pomodoro, rappels de concentration, suivi personnel du temps et blocage d'apps optionnel dans une app ciblée. Elle est pensée pour les personnes qui perdent la notion du temps, plongent dans l'hyperfocus ou se font happer par de petites distractions numériques. Aucun compte n'est requis.",
@@ -805,7 +801,7 @@
   window.flowtimeLocale = locale;
   window.t = t;
   window.setFlowtimeLocale = setLocale;
-  window.flowtimeAddTranslations = function(loc, dict) {
+  window.flowtimeAddTranslations = function (loc, dict) {
     if (!copy[loc]) copy[loc] = {};
     for (var k in dict) {
       copy[loc][k] = dict[k];
@@ -819,11 +815,11 @@
     window.flowtimeAdhdI18nLoading = true;
     var adhdScript = document.createElement("script");
     adhdScript.src = (window.flowtimeRoot || "") + "scripts/adhd-i18n-data.js";
-    adhdScript.onload = function() {
+    adhdScript.onload = function () {
       window.flowtimeAdhdI18nLoading = false;
       window.flowtimeAdhdI18nLoaded = true;
     };
-    adhdScript.onerror = function() { window.flowtimeAdhdI18nLoading = false; };
+    adhdScript.onerror = function () { window.flowtimeAdhdI18nLoading = false; };
     document.head.appendChild(adhdScript);
   }
   // Dynamically load blog localization script if needed
@@ -832,14 +828,14 @@
     window.flowtimeBlogI18nLoading = true;
     var script = document.createElement("script");
     script.src = (window.flowtimeRoot || "") + "scripts/blog-i18n-data.js";
-    script.onload = function() {
+    script.onload = function () {
       window.flowtimeBlogI18nLoading = false;
       if (window.flowtimeTranslateBlog) {
         window.flowtimeTranslateBlog(locale);
       }
       loadAdhdBlogLocalization();
     };
-    script.onerror = function() { window.flowtimeBlogI18nLoading = false; };
+    script.onerror = function () { window.flowtimeBlogI18nLoading = false; };
     document.head.appendChild(script);
   } else if (isBlogPage && locale !== "en") {
     loadAdhdBlogLocalization();

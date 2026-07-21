@@ -166,7 +166,7 @@
 <p>Tools, die Zeit und Übergänge sichtbarer machen.</p>
 <p>Das ist auch die Philosophie hinter Flowtime.</p>
 <p>Ein Fokus-Tracker, gebaut um die Idee, dass du manchmal Hilfe beim Starten brauchst.</p>
-<p>Und manchmal eine Erinnerung, wieder aufzutauchen. Die persönliche Version davon steht in <a href="/guides/i-use-a-focus-timer-to-stop-focusing/">Ich nutze einen Fokus-Timer, um mit dem Fokussieren aufzuhören</a>.</p>`
+<p>Und manchmal eine Erinnerung, wieder aufzutauchen. Die persönliche Version davon steht in <a href="/guides/i-use-a-focus-timer-to-stop-focusing/">Ich nutze einen Fokus-Timer, um abzuschalten.</a>.</p>`
         },
         "adhd-symptoms": {
           title: "ADHS Symptome bei Erwachsenen: Anzeichen, die du vielleicht erkennst",
@@ -681,7 +681,7 @@
           }
         });
         script.textContent = JSON.stringify(data);
-      } catch (_error) {}
+      } catch (_error) { }
     });
   }
   var metadataTranslations = {};

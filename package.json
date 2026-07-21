@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "node scripts/preview-server.js",
     "preview": "node scripts/preview-server.js",
-    "build": "node scripts/render-content-pages.js && node scripts/generate-sitemap.js",
+    "build": "node scripts/render-content-pages.js && node scripts/generate-llms.js && node scripts/generate-sitemap.js",
     "render": "node scripts/render-content-pages.js",
+    "llms": "node scripts/generate-llms.js",
     "sitemap": "node scripts/generate-sitemap.js",
     "indexnow": "node scripts/submit-indexnow.js",
     "test": "node scripts/validate-entity-layer.js && node scripts/test-ai-traffic.mjs"

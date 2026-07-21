@@ -1,52 +1,65 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data: https://flowtime-app.com https://images.weserv.nl https://*.twitter.com https://*.twimg.com https://*.threads.com https://*.threads.net https://*.instagram.com https://*.cdninstagram.com https://*.bsky.app https://*.licdn.com https://developer.apple.com https://play.google.com https://www.google-analytics.com https://*.google-analytics.com https://*.googletagmanager.com; script-src 'self' 'unsafe-inline' https://plausible.io https://groot.mailerlite.com https://www.threads.com https://www.threads.net https://www.googletagmanager.com https://www.google-analytics.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://assets.mlcdn.com; font-src 'self' https://fonts.gstatic.com https://assets.mlcdn.com; connect-src 'self' https://plausible.io https://assets.mailerlite.com https://www.threads.com https://www.threads.net https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://analytics.google.com https://cloudflareinsights.com https://*.cloudflareinsights.com; frame-src 'self' https://platform.twitter.com https://syndication.twitter.com https://www.instagram.com https://www.threads.com https://www.threads.net https://embed.bsky.app https://www.linkedin.com; frame-ancestors 'none'; form-action 'self' https://assets.mailerlite.com; media-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; upgrade-insecure-requests" />
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data: https://flowtime-app.com https://images.weserv.nl https://*.twitter.com https://*.twimg.com https://*.threads.com https://*.threads.net https://*.instagram.com https://*.cdninstagram.com https://*.bsky.app https://*.licdn.com https://developer.apple.com https://play.google.com https://www.google-analytics.com https://*.google-analytics.com https://*.googletagmanager.com; script-src 'self' 'unsafe-inline' https://plausible.io https://groot.mailerlite.com https://www.threads.com https://www.threads.net https://www.googletagmanager.com https://www.google-analytics.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://assets.mlcdn.com; font-src 'self' https://fonts.gstatic.com https://assets.mlcdn.com; connect-src 'self' https://plausible.io https://assets.mailerlite.com https://www.threads.com https://www.threads.net https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://analytics.google.com https://cloudflareinsights.com https://*.cloudflareinsights.com; frame-src 'self' https://platform.twitter.com https://syndication.twitter.com https://www.instagram.com https://www.threads.com https://www.threads.net https://embed.bsky.app https://www.linkedin.com; frame-ancestors 'none'; form-action 'self' https://assets.mailerlite.com; media-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; upgrade-insecure-requests" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
-  <meta http-equiv="Permissions-Policy" content="accelerometer=(), autoplay=(), camera=(), display-capture=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), sync-xhr=(), usb=(), screen-wake-lock=(), web-share=()" />
+  <meta http-equiv="Permissions-Policy"
+    content="accelerometer=(), autoplay=(), camera=(), display-capture=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), sync-xhr=(), usb=(), screen-wake-lock=(), web-share=()" />
   <title>Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps - Flowtime</title>
   <link rel="icon" type="image/png" href="../../../assets/logo-classic.png" />
   <link rel="apple-touch-icon" href="../../../assets/logo-classic.png" />
-  <meta name="description" content="App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, ADHS und Pausen unterstützt." />
+  <meta name="description"
+    content="App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, ADHS und Pausen unterstützt." />
   <link rel="canonical" href="https://flowtime-app.com/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/" />
-  <link rel="alternate" hreflang="en" href="https://flowtime-app.com/guides/interrupting-autopilot-conscious-app-blocking/" />
-  <link rel="alternate" hreflang="de" href="https://flowtime-app.com/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/" />
-  <link rel="alternate" hreflang="fr" href="https://flowtime-app.com/fr/blog/interrompre-pilote-automatique-blocage-applications/" />
-  <link rel="alternate" hreflang="x-default" href="https://flowtime-app.com/guides/interrupting-autopilot-conscious-app-blocking/" />
+  <link rel="alternate" hreflang="en"
+    href="https://flowtime-app.com/guides/interrupting-autopilot-conscious-app-blocking/" />
+  <link rel="alternate" hreflang="de"
+    href="https://flowtime-app.com/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/" />
+  <link rel="alternate" hreflang="fr"
+    href="https://flowtime-app.com/fr/blog/interrompre-pilote-automatique-blocage-applications/" />
+  <link rel="alternate" hreflang="x-default"
+    href="https://flowtime-app.com/guides/interrupting-autopilot-conscious-app-blocking/" />
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="Flowtime" />
   <meta property="og:title" content="Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps" />
-  <meta property="og:description" content="App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, ADHS und Pausen unterstützt." />
+  <meta property="og:description"
+    content="App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, ADHS und Pausen unterstützt." />
   <meta property="og:url" content="https://flowtime-app.com/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/" />
   <meta property="og:locale" content="de_DE" />
   <meta property="og:image" content="https://flowtime-app.com/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps - Flowtime article preview" />
+  <meta property="og:image:alt"
+    content="Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps - Flowtime article preview" />
   <meta property="article:published_time" content="2026-07-20" />
   <meta property="article:modified_time" content="2026-07-20" />
   <meta property="article:author" content="Ava Thalheim" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps" />
-  <meta name="twitter:description" content="App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, ADHS und Pausen unterstützt." />
+  <meta name="twitter:description"
+    content="App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, ADHS und Pausen unterstützt." />
   <meta name="twitter:image" content="https://flowtime-app.com/og-image.png" />
-  <meta name="twitter:image:alt" content="Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps - Flowtime article preview" />
+  <meta name="twitter:image:alt"
+    content="Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps - Flowtime article preview" />
   <link rel="stylesheet" href="../../../style.css" />
   <link rel="stylesheet" href="../../../css/blog.css" />
   <script type="application/ld+json">
-    {"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://flowtime-app.com/#publisher","name":"Ava Thalheim","url":"https://avathalheim.dev/","sameAs":["https://www.instagram.com/flowtimefocus/","https://x.com/Flowtime_app"],"jobTitle":"Creator of Flowtime"},{"@type":"WebSite","@id":"https://flowtime-app.com/#website","name":"Flowtime","url":"https://flowtime-app.com/","description":"Flowtime is an ADHD focus timer for time blindness, hyperfocus, Pomodoro, focus reminders, project time tracking, and optional app blocking on iPhone and Android. It is designed around ADHD time blindness, hyperfocus, and reducing distracting context switches. No account is required.","publisher":{"@id":"https://flowtime-app.com/#publisher"}},{"@type":"SoftwareApplication","@id":"https://flowtime-app.com/#software","name":"Flowtime","alternateName":"Flowtime - Time Tracker","description":"Flowtime is an ADHD focus timer for time blindness, hyperfocus, Pomodoro, focus reminders, project time tracking, and optional app blocking on iPhone and Android. It is designed around ADHD time blindness, hyperfocus, and reducing distracting context switches. No account is required.","url":"https://flowtime-app.com/","applicationCategory":"ProductivityApplication","operatingSystem":["iOS","Android"],"downloadUrl":["https://apps.apple.com/ch/app/flowtime/id6768056969","https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"],"installUrl":["https://apps.apple.com/ch/app/flowtime/id6768056969","https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"],"image":"https://flowtime-app.com/assets/logo-classic.png","screenshot":["https://flowtime-app.com/assets/phone-mono2-opt.webp","https://flowtime-app.com/assets/classic-timer-mono-opt.webp","https://flowtime-app.com/assets/pomodoro-mono-opt.webp","https://flowtime-app.com/assets/flow-session-mono-opt.webp","https://flowtime-app.com/assets/reports-mono-opt.webp"],"featureList":["Flexible focus sessions","Standard timer","Pomodoro","Focus reminders","Optional app blocking","Personal time tracking","Projects","Session history","Reports"],"offers":{"@type":"AggregateOffer","priceCurrency":"USD","lowPrice":"0","highPrice":"49.99","offerCount":"4","offers":[{"@type":"Offer","name":"Flowtime Free","price":"0","priceCurrency":"USD","description":"Standard timer, Flow Session, Pomodoro, 2 projects, 2 Quick Start templates, app blocking"},{"@type":"Offer","name":"Flowtime Pro Monthly","price":"3.99","priceCurrency":"USD","description":"Monthly Pro subscription with unlimited projects, unlimited templates, custom reminder profiles, advanced Pomodoro, and analytics"},{"@type":"Offer","name":"Flowtime Pro Yearly","price":"24.99","priceCurrency":"USD","description":"Yearly Pro subscription with unlimited projects, unlimited templates, custom reminder profiles, advanced Pomodoro, and analytics"},{"@type":"Offer","name":"Flowtime Pro Lifetime","price":"49.99","priceCurrency":"USD","description":"Lifetime Pro access with unlimited projects, unlimited templates, custom reminder profiles, advanced Pomodoro, and analytics"}]},"creator":{"@id":"https://flowtime-app.com/#publisher"},"publisher":{"@id":"https://flowtime-app.com/#publisher"},"sameAs":["https://apps.apple.com/ch/app/flowtime/id6768056969","https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime","https://www.instagram.com/flowtimefocus/","https://x.com/Flowtime_app","https://avathalheim.dev/"]},{"@type":"BlogPosting","headline":"Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps","description":"App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, ADHS und Pausen unterstützt.","datePublished":"2026-07-20","dateModified":"2026-07-20","author":{"@id":"https://flowtime-app.com/#publisher"},"publisher":{"@id":"https://flowtime-app.com/#publisher"},"mainEntityOfPage":"https://flowtime-app.com/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/","image":"https://flowtime-app.com/og-image.png","inLanguage":"de","isPartOf":{"@id":"https://flowtime-app.com/#website"},"about":{"@id":"https://flowtime-app.com/#software"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Flowtime","item":"https://flowtime-app.com/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://flowtime-app.com/guides/"},{"@type":"ListItem","position":3,"name":"Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps","item":"https://flowtime-app.com/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/"}]},{"@type":"FAQPage","@id":"https://flowtime-app.com/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/#faq","mainEntity":[{"@type":"Question","name":"Does Flowtime require an account?","acceptedAnswer":{"@type":"Answer","text":"No account is required to use Flowtime. Timer and project data are stored locally on the device according to the Flowtime privacy policy."}},{"@type":"Question","name":"Does Flowtime work on iPhone and Android?","acceptedAnswer":{"@type":"Answer","text":"Yes. Flowtime is available for iPhone on the App Store and for Android on Google Play."}}]}]}
+    {"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://flowtime-app.com/#publisher","name":"Ava Thalheim","url":"https://avathalheim.dev/","sameAs":["https://www.instagram.com/flowtimefocus/","https://x.com/Flowtime_app"],"jobTitle":"Creator of Flowtime"},{"@type":"WebSite","@id":"https://flowtime-app.com/#website","name":"Flowtime","url":"https://flowtime-app.com/","description":"Flowtime is an ADHD focus timer for time blindness, hyperfocus, Pomodoro, focus reminders, project time tracking, and optional app blocking on iPhone and Android. It is designed around ADHD time blindness, hyperfocus, and reducing distracting context switches. No account is required.","publisher":{"@id":"https://flowtime-app.com/#publisher"}},{"@type":"SoftwareApplication","@id":"https://flowtime-app.com/#software","name":"Flowtime","alternateName":"Flowtime - Time Tracker","description":"Flowtime is an ADHD focus timer for time blindness, hyperfocus, Pomodoro, focus reminders, project time tracking, and optional app blocking on iPhone and Android. It is designed around ADHD time blindness, hyperfocus, and reducing distracting context switches. No account is required.","url":"https://flowtime-app.com/","applicationCategory":"ProductivityApplication","operatingSystem":["iOS","Android"],"downloadUrl":["https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969","https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"],"installUrl":["https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969","https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"],"image":"https://flowtime-app.com/assets/logo-classic.png","screenshot":["https://flowtime-app.com/assets/phone-mono2-opt.webp","https://flowtime-app.com/assets/classic-timer-mono-opt.webp","https://flowtime-app.com/assets/pomodoro-mono-opt.webp","https://flowtime-app.com/assets/flow-session-mono-opt.webp","https://flowtime-app.com/assets/reports-mono-opt.webp"],"featureList":["Flexible focus sessions","Standard timer","Pomodoro","Focus reminders","Optional app blocking","Personal time tracking","Projects","Session history","Reports"],"offers":{"@type":"AggregateOffer","priceCurrency":"USD","lowPrice":"0","highPrice":"49.99","offerCount":"4","offers":[{"@type":"Offer","name":"Flowtime Free","price":"0","priceCurrency":"USD","description":"Standard timer, Flow Session, Pomodoro, 2 projects, 2 Quick Start templates, app blocking"},{"@type":"Offer","name":"Flowtime Pro Monthly","price":"3.99","priceCurrency":"USD","description":"Monthly Pro subscription with unlimited projects, unlimited templates, custom reminder profiles, advanced Pomodoro, and analytics"},{"@type":"Offer","name":"Flowtime Pro Yearly","price":"24.99","priceCurrency":"USD","description":"Yearly Pro subscription with unlimited projects, unlimited templates, custom reminder profiles, advanced Pomodoro, and analytics"},{"@type":"Offer","name":"Flowtime Pro Lifetime","price":"49.99","priceCurrency":"USD","description":"Lifetime Pro access with unlimited projects, unlimited templates, custom reminder profiles, advanced Pomodoro, and analytics"}]},"creator":{"@id":"https://flowtime-app.com/#publisher"},"publisher":{"@id":"https://flowtime-app.com/#publisher"},"sameAs":["https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969","https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime","https://www.instagram.com/flowtimefocus/","https://x.com/Flowtime_app","https://avathalheim.dev/"]},{"@type":"BlogPosting","headline":"Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps","description":"App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, ADHS und Pausen unterstützt.","datePublished":"2026-07-20","dateModified":"2026-07-20","author":{"@id":"https://flowtime-app.com/#publisher"},"publisher":{"@id":"https://flowtime-app.com/#publisher"},"mainEntityOfPage":"https://flowtime-app.com/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/","image":"https://flowtime-app.com/og-image.png","inLanguage":"de","isPartOf":{"@id":"https://flowtime-app.com/#website"},"about":{"@id":"https://flowtime-app.com/#software"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Flowtime","item":"https://flowtime-app.com/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://flowtime-app.com/guides/"},{"@type":"ListItem","position":3,"name":"Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps","item":"https://flowtime-app.com/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/"}]},{"@type":"FAQPage","@id":"https://flowtime-app.com/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/#faq","mainEntity":[{"@type":"Question","name":"Does Flowtime require an account?","acceptedAnswer":{"@type":"Answer","text":"No account is required to use Flowtime. Timer and project data are stored locally on the device according to the Flowtime privacy policy."}},{"@type":"Question","name":"Does Flowtime work on iPhone and Android?","acceptedAnswer":{"@type":"Answer","text":"Yes. Flowtime is available for iPhone on the App Store and for Android on Google Play."}}]}]}
   </script>
   <script src="../../../scripts/attribution.js"></script>
   <!-- Privacy-friendly analytics by Plausible -->
   <script async src="https://plausible.io/js/pa-0aTxMuaeWykhlYbR-knZ5.js"></script>
   <script>
-    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+    window.plausible = window.plausible || function () { (plausible.q = plausible.q || []).push(arguments) }, plausible.init = plausible.init || function (i) { plausible.o = i || {} };
     plausible.init()
   </script>
   <script src="../../../scripts/conversion-analytics.js"></script>
 </head>
+
 <body id="top" data-theme="mono" data-blog-category="guides">
   <div id="site-header"></div>
   <main class="blog-main">
@@ -54,48 +67,85 @@
       <header class="article-header">
         <p class="eyebrow">Ratgeber</p>
         <h1>Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps</h1>
-        <p class="article-description">App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, ADHS und Pausen unterstützt.</p>
-        <div class="article-meta"><span>Von Ava Thalheim</span><time datetime="2026-07-20">2026-07-20</time><span>5 Min. Lesezeit</span></div>
-        <div class="article-tags"><span class="article-tag">app blocking</span><span class="article-tag">phone distraction</span><span class="article-tag">adhd</span><span class="article-tag">focus</span></div>
+        <p class="article-description">App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen.
+          Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, ADHS und Pausen unterstützt.</p>
+        <div class="article-meta"><span>Von Ava Thalheim</span><time datetime="2026-07-20">2026-07-20</time><span>5 Min.
+            Lesezeit</span></div>
+        <div class="article-tags"><span class="article-tag">app blocking</span><span class="article-tag">phone
+            distraction</span><span class="article-tag">adhd</span><span class="article-tag">focus</span></div>
       </header>
       <div class="article-layout">
         <aside class="article-aside" aria-label="Article details">
-          <div class="author-card"><img class="author-avatar" src="../../../assets/ava-icon.png" alt="" width="180" height="180" loading="lazy" decoding="async" /><p><strong>Ava Thalheim</strong><span>Developer of Flowtime</span></p></div>
+          <div class="author-card"><img class="author-avatar" src="../../../assets/ava-icon.png" alt="" width="180"
+              height="180" loading="lazy" decoding="async" />
+            <p><strong>Ava Thalheim</strong><span>Developer of Flowtime</span></p>
+          </div>
         </aside>
         <div class="article-content">
           <div class="article-body">
 
             <h2 id="einfuehrung">Einleitung</h2>
-            <p>Flowtime ist ein ADHS-freundlicher Fokus-Timer und eine App für mehr Zeitwahrnehmung, die flexible Fokus-Sessions, Pomodoro, Fokus-Erinnerungen, persönliche Zeiterfassung und optionales Apps-Blockieren kombiniert.</p>
-            <p>Die meisten Menschen glauben, dass App-Blocker dazu da sind, sie an der Nutzung ablenkender Apps zu hindern. Aber das ist nicht das, was sie am besten können.</p>
-            <p>Der eigentliche Wert liegt nicht darin, dich am Öffnen von Instagram, YouTube, Reddit oder TikTok zu hindern. Er liegt darin, das automatische Verhalten zu unterbrechen, das dich überhaupt erst dorthin geführt hat. Wenn du Apps während einer Fokus-Session blockierst, wird App-Blockierung zu einem Werkzeug, um automatische Smartphone-Nutzung zu unterbrechen, statt zu einer starren Einschränkung.</p>
+            <p>Flowtime ist ein ADHS-freundlicher Fokus-Timer und eine App für mehr Zeitwahrnehmung, die flexible
+              Fokus-Sessions, Pomodoro, Fokus-Erinnerungen, persönliche Zeiterfassung und optionales Apps-Blockieren
+              kombiniert.</p>
+            <p>Die meisten Menschen glauben, dass App-Blocker dazu da sind, sie an der Nutzung ablenkender Apps zu
+              hindern. Aber das ist nicht das, was sie am besten können.</p>
+            <p>Der eigentliche Wert liegt nicht darin, dich am Öffnen von Instagram, YouTube, Reddit oder TikTok zu
+              hindern. Er liegt darin, das automatische Verhalten zu unterbrechen, das dich überhaupt erst dorthin
+              geführt hat. Wenn du Apps während einer Fokus-Session blockierst, wird App-Blockierung zu einem Werkzeug,
+              um automatische Smartphone-Nutzung zu unterbrechen, statt zu einer starren Einschränkung.</p>
 
-            <h2 id="wir-verbringen-mehr-zeit-auf-autopilot-als-wir-denken">Wir verbringen mehr Zeit auf Autopilot als wir denken</h2>
-            <p>Stell dir vor, du arbeitest an etwas Wichtigem. Ein paar Minuten später entsperrst du dein Smartphone. Du hast nicht darüber nachgedacht. Dein Daumen tippt auf dieselbe App wie immer.</p>
-            <p>Erst nach einigen Minuten Scrollen merkst du, dass du eigentlich gar nach nichts Bestimmtem gesucht hast. Du bist einfach einer Gewohnheit gefolgt. Der unbewusste Griff zum Smartphone passiert schneller, als man denkt.</p>
-            <p>Das passiert ständig. Nicht weil wir faul sind oder es an Motivation fehlt, sondern weil sich wiederholende Handlungen zu automatischem Verhalten werden. Wenn du dich fragst, <a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">warum du vergisst, warum du dein Handy entsperrt hast</a>, steckt genau diese Schleife dahinter.</p>
-            <p>Für Menschen mit ADHS kann das besonders spürbar sein. Ein kleiner Impuls kann die Aufmerksamkeit umleiten, bevor du dich bewusst für einen Aufgabenwechsel entschieden hast. Apps bewusst blockieren hilft dabei, genau diese Impulse sichtbar zu machen – auch wenn das Phänomen keineswegs nur bei ADHS auftritt.</p>
+            <h2 id="wir-verbringen-mehr-zeit-auf-autopilot-als-wir-denken">Wir verbringen mehr Zeit auf Autopilot als
+              wir denken</h2>
+            <p>Stell dir vor, du arbeitest an etwas Wichtigem. Ein paar Minuten später entsperrst du dein Smartphone. Du
+              hast nicht darüber nachgedacht. Dein Daumen tippt auf dieselbe App wie immer.</p>
+            <p>Erst nach einigen Minuten Scrollen merkst du, dass du eigentlich gar nach nichts Bestimmtem gesucht hast.
+              Du bist einfach einer Gewohnheit gefolgt. Der unbewusste Griff zum Smartphone passiert schneller, als man
+              denkt.</p>
+            <p>Das passiert ständig. Nicht weil wir faul sind oder es an Motivation fehlt, sondern weil sich
+              wiederholende Handlungen zu automatischem Verhalten werden. Wenn du dich fragst, <a
+                href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">warum du vergisst, warum du dein Handy entsperrt
+                hast</a>, steckt genau diese Schleife dahinter.</p>
+            <p>Für Menschen mit ADHS kann das besonders spürbar sein. Ein kleiner Impuls kann die Aufmerksamkeit
+              umleiten, bevor du dich bewusst für einen Aufgabenwechsel entschieden hast. Apps bewusst blockieren hilft
+              dabei, genau diese Impulse sichtbar zu machen – auch wenn das Phänomen keineswegs nur bei ADHS auftritt.
+            </p>
 
             <h2 id="die-kraft-einer-kleinen-unterbrechung">Die Kraft einer kleinen Unterbrechung</h2>
-            <p>Wenn eine blockierte App während einer Fokus-Session geöffnet wird, sperrt Flowtime dich nicht dauerhaft aus. Stattdessen entsteht eine kleine Pause.</p>
+            <p>Wenn eine blockierte App während einer Fokus-Session geöffnet wird, sperrt Flowtime dich nicht dauerhaft
+              aus. Stattdessen entsteht eine kleine Pause.</p>
             <p>Anstatt direkt in die App weiterzuleiten, wirst du gebeten, eine bewusste Entscheidung zu treffen.</p>
             <p>Brauchst du diese App gerade wirklich? Oder hat dein Finger sie automatisch geöffnet?</p>
-            <p>Diese kurze Unterbrechung kann ausreichen, um zu bemerken, was gerade passiert. So kannst du die automatische Handynutzung unterbrechen und Ablenkungen auf dem Smartphone reduzieren. Statt rein aus Gewohnheit fortzufahren, wählst du bewusst, was als Nächstes passiert.</p>
+            <p>Diese kurze Unterbrechung kann ausreichen, um zu bemerken, was gerade passiert. So kannst du die
+              automatische Handynutzung unterbrechen und Ablenkungen auf dem Smartphone reduzieren. Statt rein aus
+              Gewohnheit fortzufahren, wählst du bewusst, was als Nächstes passiert.</p>
 
             <h2 id="du-bist-niemals-gefangen">Du bist niemals gefangen</h2>
-            <p>Manche App-Blocker machen es schwer oder unmöglich, auf blockierte Apps zuzugreifen, bis ein Timer abläuft. Flowtime nutzt einen anderen Ansatz als App-Blocker mit Abbruchmöglichkeit.</p>
-            <p>Wenn du die App wirklich brauchst, kannst du die Blockierung aufheben und mit dem fortfahren, was du tun musst.</p>
+            <p>Manche App-Blocker machen es schwer oder unmöglich, auf blockierte Apps zuzugreifen, bis ein Timer
+              abläuft. Flowtime nutzt einen anderen Ansatz als App-Blocker mit Abbruchmöglichkeit.</p>
+            <p>Wenn du die App wirklich brauchst, kannst du die Blockierung aufheben und mit dem fortfahren, was du tun
+              musst.</p>
             <p>Pläne ändern sich. Prioritäten ändern sich.</p>
-            <p>Manchmal ist das Prüfen einer Nachricht, das Öffnen von E-Mails oder das Nutzen einer anderen App genau die richtige Entscheidung. Flowtime ist ein App-Blocker ohne starren Lockout: Es entscheidet das nicht für dich, sondern stellt sicher, dass die Entscheidung wirklich bei dir liegt.</p>
+            <p>Manchmal ist das Prüfen einer Nachricht, das Öffnen von E-Mails oder das Nutzen einer anderen App genau
+              die richtige Entscheidung. Flowtime ist ein App-Blocker ohne starren Lockout: Es entscheidet das nicht für
+              dich, sondern stellt sicher, dass die Entscheidung wirklich bei dir liegt.</p>
 
             <h2 id="bewusstsein-ist-nuetzlicher-als-einschraenkung">Bewusstsein ist nützlicher als Einschränkung</h2>
-            <p>Denke darüber nach, wie oft du dein Smartphone ohne klaren Grund entsperrst. Oder Social Media öffnest, während du auf etwas wartest. Oder Apps wechselst, einfach weil die Handlung automatisch geworden ist.</p>
-            <p>Die meisten dieser Momente geschehen, bevor du bewusst entscheidest, was du tun möchtest. Wenn du wissen willst, <a href="/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/">was ein App-Blocker ist und wann er wirklich hilft</a>, liegt der Schlüssel genau in diesem Unterschied zwischen Zwang und Bewusstsein.</p>
-            <p>Manchmal wirst du trotzdem fortfahren. Manchmal wirst du feststellen, dass du die App gar nicht öffnen wolltest. Beide Ergebnisse sind völlig valide.</p>
-            <p>Das Wichtige ist, dass du dich für bewusste Smartphone-Nutzung statt für eine automatische Reaktion entschieden hast.</p>
+            <p>Denke darüber nach, wie oft du dein Smartphone ohne klaren Grund entsperrst. Oder Social Media öffnest,
+              während du auf etwas wartest. Oder Apps wechselst, einfach weil die Handlung automatisch geworden ist.</p>
+            <p>Die meisten dieser Momente geschehen, bevor du bewusst entscheidest, was du tun möchtest. Wenn du wissen
+              willst, <a href="/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/">was ein App-Blocker ist
+                und wann er wirklich hilft</a>, liegt der Schlüssel genau in diesem Unterschied zwischen Zwang und
+              Bewusstsein.</p>
+            <p>Manchmal wirst du trotzdem fortfahren. Manchmal wirst du feststellen, dass du die App gar nicht öffnen
+              wolltest. Beide Ergebnisse sind völlig valide.</p>
+            <p>Das Wichtige ist, dass du dich für bewusste Smartphone-Nutzung statt für eine automatische Reaktion
+              entschieden hast.</p>
 
             <h2 id="es-hilft-bei-mehr-als-nur-prokrastination">Es hilft bei mehr als nur Prokrastination</h2>
-            <p>App-Blocker werden meist als Tools präsentiert, um mehr Arbeit zu erledigen. Aber das Blockieren von Apps kann dir auch außerhalb der Arbeit helfen, präsent zu bleiben. Du kannst Fokus-Sessions genauso für bewusste Pausen nutzen wie für tiefes Arbeiten.</p>
+            <p>App-Blocker werden meist als Tools präsentiert, um mehr Arbeit zu erledigen. Aber das Blockieren von Apps
+              kann dir auch außerhalb der Arbeit helfen, präsent zu bleiben. Du kannst Fokus-Sessions genauso für
+              bewusste Pausen nutzen wie für tiefes Arbeiten.</p>
             <p>Du könntest eine Fokus-Session starten während du:</p>
             <ul>
               <li>ein Buch liest</li>
@@ -105,29 +155,51 @@
               <li>eine Pause machst</li>
               <li>versuchst, die Arbeit gedanklich hinter dir zu lassen</li>
             </ul>
-            <p>In diesen Situationen ist das Ziel nicht mehr Produktivität. Es geht darum zu verhindern, dass ein automatischer Griff zum Smartphone deine Aufmerksamkeit zurück in Arbeit, Nachrichten oder Gedankenschleifen zieht. Wer nach <a href="/comparison/forest-alternatives-if-gamification-isnt-what-youre-looking-for/">Forest-Alternativen ohne Gamification</a> sucht, findet oft, dass solche flexiblen Session-Grenzen den Alltag viel besser unterstützen. Du kannst sogar einen <a href="/guides/i-use-a-focus-timer-to-stop-focusing/">Fokus-Timer nutzen, um mit dem Fokussieren aufzuhören</a> und deine Erholung zu schützen.</p>
-            <p>Das ist auch beim Thema Hyperfokus unterbrechen besonders relevant. In Phasen des Hyperfokus ist das Schwerste oft nicht der Anfang, sondern das Aussteigen oder das Verhindern von Neben-Ablenkungen. Wenn <a href="/guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/">das Verlassen des Flows schwerfällt</a>, kann eine Fokus-Session einen klaren Rahmen schaffen, in dem ablenkende Apps blockiert sind – während du die Blockierung jederzeit bewusst aufheben kannst.</p>
+            <p>In diesen Situationen ist das Ziel nicht mehr Produktivität. Es geht darum zu verhindern, dass ein
+              automatischer Griff zum Smartphone deine Aufmerksamkeit zurück in Arbeit, Nachrichten oder
+              Gedankenschleifen zieht. Wer nach <a
+                href="/comparison/forest-alternatives-if-gamification-isnt-what-youre-looking-for/">Forest-Alternativen
+                ohne Gamification</a> sucht, findet oft, dass solche flexiblen Session-Grenzen den Alltag viel besser
+              unterstützen. Du kannst sogar einen <a href="/guides/i-use-a-focus-timer-to-stop-focusing/">Fokus-Timer
+                nutzen, um mit dem Fokussieren aufzuhören</a> und deine Erholung zu schützen.</p>
+            <p>Das ist auch beim Thema Hyperfokus unterbrechen besonders relevant. In Phasen des Hyperfokus ist das
+              Schwerste oft nicht der Anfang, sondern das Aussteigen oder das Verhindern von Neben-Ablenkungen. Wenn <a
+                href="/guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/">das Verlassen des
+                Flows schwerfällt</a>, kann eine Fokus-Session einen klaren Rahmen schaffen, in dem ablenkende Apps
+              blockiert sind – während du die Blockierung jederzeit bewusst aufheben kannst.</p>
 
             <h2 id="eine-andere-perspektive-auf-app-blockierung">Eine andere Perspektive auf App-Blockierung</h2>
-            <p>Flowtime versucht nicht, Disziplin durch Zwang aufzubauen. Es bestraft keine Ablenkungen. Und es nimmt dir nicht die Möglichkeit, deine Meinung zu ändern.</p>
+            <p>Flowtime versucht nicht, Disziplin durch Zwang aufzubauen. Es bestraft keine Ablenkungen. Und es nimmt
+              dir nicht die Möglichkeit, deine Meinung zu ändern.</p>
             <p>Es basiert auf einer einfachen Idee:</p>
-            <p>Automatische Gewohnheiten sind schwer zu bemerken. Eine kleine Unterbrechung kann sie wieder in bewusste Entscheidungen verwandeln.</p>
-            <p>Jedes Mal, wenn ein App-Blocker für ADHS oder den Arbeitsalltag ein automatisches Handeln unterbricht, bekommst du die Chance zu fragen:</p>
+            <p>Automatische Gewohnheiten sind schwer zu bemerken. Eine kleine Unterbrechung kann sie wieder in bewusste
+              Entscheidungen verwandeln.</p>
+            <p>Jedes Mal, wenn ein App-Blocker für ADHS oder den Arbeitsalltag ein automatisches Handeln unterbricht,
+              bekommst du die Chance zu fragen:</p>
             <p>„Ist es das, was ich jetzt gerade wirklich tun möchte?“</p>
             <p>Manchmal wird die Antwort Ja sein. Manchmal Nein.</p>
             <p>So oder so liegt die Entscheidung wieder bei dir statt beim Autopiloten.</p>
 
             <h2 id="weiterlesen">Weiterlesen</h2>
             <ul>
-              <li><a href="/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/">Was ist ein App-Blocker und wann hilft er wirklich?</a></li>
-              <li><a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">Warum vergesse ich, warum ich mein Handy entsperrt habe?</a></li>
-              <li><a href="/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/">Ablenkungen reduzieren, wenn das Gehirn alles prüfen will</a></li>
-              <li><a href="/guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/">Manchmal ist das Problem nicht der Flow, sondern das Herauskommen</a></li>
-              <li><a href="/comparison/forest-alternatives-if-gamification-isnt-what-youre-looking-for/">Forest-Alternativen ohne Gamification</a></li>
-              <li><a href="/guides/i-use-a-focus-timer-to-stop-focusing/">Ich nutze einen Fokus-Timer, um mit dem Fokussieren aufzuhören</a></li>
+              <li><a href="/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/">Was ist ein App-Blocker und
+                  wann hilft er wirklich?</a></li>
+              <li><a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">Warum vergesse ich, warum ich mein Handy
+                  entsperrt habe?</a></li>
+              <li><a
+                  href="/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/">Ablenkungen
+                  reduzieren, wenn das Gehirn alles prüfen will</a></li>
+              <li><a href="/guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/">Manchmal ist das
+                  Problem nicht der Flow, sondern das Herauskommen</a></li>
+              <li><a
+                  href="/comparison/forest-alternatives-if-gamification-isnt-what-youre-looking-for/">Forest-Alternativen
+                  ohne Gamification</a></li>
+              <li><a href="/guides/i-use-a-focus-timer-to-stop-focusing/">Ich nutze einen Fokus-Timer, um
+                  abzuschalten.</a></li>
             </ul>
-            <p>Flowtime ist ein flexibler Fokus-Timer, der Zeit sichtbarer macht, automatische Gewohnheiten unterbricht und dir stets die Kontrolle überlässt.</p>
-  
+            <p>Flowtime ist ein flexibler Fokus-Timer, der Zeit sichtbarer macht, automatische Gewohnheiten unterbricht
+              und dir stets die Kontrolle überlässt.</p>
+
           </div>
         </div>
       </div>
@@ -140,4 +212,5 @@
   <script src="../../../sections/footer.js"></script>
   <script src="../../../scripts/theme.js"></script>
 </body>
+
 </html>

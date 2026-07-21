@@ -30,7 +30,6 @@ window.renderSection("pricing", `
         <div class="price-copy">
           <span class="plan-pill dark">Pro</span>
           <h3 data-i18n="pricing.pro.title">${window.t("pricing.pro.title")}</h3>
-          <p class="plan-price" data-i18n="pricing.pro.tiers">${window.t("pricing.pro.tiers")}</p>
           <ul>
             <li data-i18n="pricing.pro.projects">${window.t("pricing.pro.projects")}</li>
             <li data-i18n="pricing.pro.templates">${window.t("pricing.pro.templates")}</li>
