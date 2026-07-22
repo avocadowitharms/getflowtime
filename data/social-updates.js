@@ -250,5 +250,23 @@ window.FlowtimeUpdatesData = [
     "publishedAt": "2026-07-20T16:54:53.153Z",
     "createdAt": "2026-07-20T16:54:00.824Z",
     "updatedAt": "2026-07-20T16:54:53.153Z"
+  },
+  {
+    "id": "update_1784725415396_e4ga31jn7",
+    "title": "Some reviews Flowtime received \ud83d\udc9c",
+    "slug": "update-from-instagram-dbgipzidikn",
+    "description": "",
+    "body": "One of my favorite parts of building Flowtime is reading the reviews.\n\nThe good ones are motivating.\nThe critical ones usually become my next task.\n\nEvery review helps improve the app, so thank you to everyone who's taken a few minutes to leave one. It really makes a difference. \ud83d\udc9c",
+    "platform": "instagram",
+    "status": "published",
+    "originalUrl": "https://www.instagram.com/p/DbGIpZIDIKN/?img_index=1",
+    "externalPostId": "DbGIpZIDIKN",
+    "tags": [
+      "instagram"
+    ],
+    "thumbnailUrl": "https://images.weserv.nl/?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FDbGIpZIDIKN%2Fmedia%2F%3Fsize%3Dl",
+    "publishedAt": "2026-07-22T13:04:16.552Z",
+    "createdAt": "2026-07-22T13:03:35.396Z",
+    "updatedAt": "2026-07-22T13:04:16.552Z"
   }
 ];
