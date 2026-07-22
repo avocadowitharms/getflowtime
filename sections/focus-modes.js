@@ -28,6 +28,16 @@ window.renderSection("focus-modes", `
       </article>
       <article class="featured-mode">
         <div class="featured-copy">
+          <span class="mode-ring timer-ring" aria-hidden="true"></span>
+          <h3 data-i18n="focus.flowmodoro.title">${window.t("focus.flowmodoro.title")}</h3>
+          <p data-i18n="focus.flowmodoro.text">${window.t("focus.flowmodoro.text")}</p>
+        </div>
+        <div class="featured-phone">
+          <img class="theme-shot" src="assets/classic-timer-mono-opt.webp" data-theme-mono="assets/classic-timer-mono-opt.webp" data-theme-classic="assets/classic-timer-classic-opt.webp" alt="Flowmodoro timer in Flowtime" width="1320" height="2868" loading="lazy" decoding="async" />
+        </div>
+      </article>
+      <article class="featured-mode">
+        <div class="featured-copy">
           <span class="mode-ring flow-ring" aria-hidden="true"></span>
           <h3 data-i18n="focus.flow.title">${window.t("focus.flow.title")}</h3>
           <p data-i18n="focus.flow.text">${window.t("focus.flow.text")}</p>

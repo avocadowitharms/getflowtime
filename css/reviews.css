@@ -1,0 +1,142 @@
+.reviews-section {
+  padding-top: 30px;
+}
+
+.reviews-heading {
+  margin-bottom: 20px;
+}
+
+.reviews-heading .eyebrow {
+  margin-bottom: 10px;
+}
+
+.reviews-heading h2 {
+  max-width: 620px;
+  margin: 0;
+  font-size: clamp(28px, 8vw, 38px);
+  line-height: 1.08;
+  letter-spacing: -0.045em;
+  text-wrap: balance;
+}
+
+.reviews-list {
+  margin: 0 -19px;
+  padding: 0 19px 14px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(280px, 86%);
+  gap: 12px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scrollbar-color: var(--line) transparent;
+  scrollbar-width: thin;
+}
+
+.reviews-list::-webkit-scrollbar {
+  height: 5px;
+}
+
+.reviews-list::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: var(--line);
+}
+
+.review-card {
+  min-height: 252px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  scroll-snap-align: start;
+}
+
+.review-stars {
+  margin-bottom: 18px;
+  color: var(--ink);
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  line-height: 1;
+}
+
+.review-card blockquote {
+  margin: 0 0 24px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.45;
+  letter-spacing: -0.025em;
+}
+
+.review-meta {
+  margin-top: auto;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.review-author {
+  display: grid;
+  gap: 4px;
+}
+
+.review-author strong {
+  font-size: 14px;
+}
+
+.review-author span,
+.review-store {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.review-store {
+  flex: 0 0 auto;
+  padding-bottom: 1px;
+  border-bottom: 1px solid var(--line);
+  font-weight: 700;
+}
+
+.review-store:hover,
+.review-store:focus-visible {
+  color: var(--ink);
+  border-color: currentColor;
+}
+
+.reviews-more {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .reviews-section {
+    grid-column: 1 / -1;
+    padding-top: 42px;
+  }
+
+  .reviews-heading {
+    margin-bottom: 26px;
+  }
+
+  .reviews-heading h2 {
+    font-size: 44px;
+  }
+
+  .reviews-list {
+    margin-inline: 0;
+    padding: 0 0 14px;
+    grid-auto-columns: 380px;
+  }
+
+  .review-card {
+    min-height: 280px;
+    padding: 26px;
+  }
+}

@@ -117,14 +117,6 @@
     color: var(--ink);
   }
 
-  .header-cta {
-    min-height: 46px;
-    padding-inline: 20px;
-    display: flex;
-    border-radius: 999px;
-    font-size: 14px;
-  }
-
   /* Desktop Dropdowns */
   .nav-dropdown {
     position: relative;
@@ -223,6 +215,29 @@
     border-radius: 0;
   }
 
+  .nav-dropdown-menu.learn-menu {
+    width: min(610px, calc(100vw - 40px));
+    padding: 14px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .learn-column {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .learn-menu-title {
+    padding: 8px 14px 10px;
+    color: var(--ink);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
   /* Hide mobile elements on desktop */
   .mobile-menu-toggle,
   .mobile-menu-drawer {
@@ -239,6 +254,7 @@
   #focus-modes,
   #style-preview,
   #onboarding,
+  #app-blocking,
   #reports,
   #quick-start,
   #reminders,
@@ -250,6 +266,7 @@
   .focus-modes,
   .style-preview,
   .simplicity,
+  .app-blocking,
   .reports,
   .pricing,
   .faq,
@@ -449,7 +466,7 @@
   }
 
   .mode-showcase {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
 
@@ -542,6 +559,10 @@
     display: grid;
     gap: 22px;
     align-content: start;
+  }
+
+  .reports-right .project-overview {
+    margin-top: 0;
   }
 
   .quick-card {

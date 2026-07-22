@@ -254,8 +254,8 @@ body[data-theme="classic"] .button.primary {
 
 .founder-story-photo {
   margin: 0;
-  width: min(100%, 304px);
-  justify-self: start;
+  width: min(100%, 380px);
+  justify-self: center;
 }
 
 .founder-story-photo img {
@@ -287,6 +287,7 @@ body[data-theme="classic"] .button.primary {
   }
 
   .founder-story-photo {
+    width: min(100%, 304px);
     justify-self: end;
     padding-top: 34px;
   }

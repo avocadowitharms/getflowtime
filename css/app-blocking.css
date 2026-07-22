@@ -1,0 +1,123 @@
+.app-blocking {
+  content-visibility: visible;
+  scroll-margin-top: 24px;
+}
+
+.app-blocking-layout {
+  display: grid;
+  gap: 28px;
+}
+
+.app-blocking-copy {
+  align-self: center;
+}
+
+.app-blocking-copy .eyebrow {
+  margin-bottom: 14px;
+}
+
+.app-blocking-copy h2 {
+  margin: 0 0 18px;
+  font-size: clamp(38px, 10vw, 50px);
+  line-height: 1.04;
+  letter-spacing: -0.055em;
+  text-wrap: balance;
+}
+
+.app-blocking-copy p:not(.eyebrow) {
+  margin: 0;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.app-blocking-copy p + p {
+  margin-top: 14px;
+}
+
+.app-blocking-article {
+  margin-top: 24px;
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  font-size: 14px;
+  font-weight: 750;
+  line-height: 1.4;
+}
+
+.app-blocking-article span:last-child {
+  flex: 0 0 auto;
+  font-size: 20px;
+  transition: transform 180ms ease;
+}
+
+.app-blocking-article:hover span:last-child,
+.app-blocking-article:focus-visible span:last-child {
+  transform: translateX(4px);
+}
+
+.app-blocking-visual {
+  min-height: 610px;
+  padding: 20px 25px 0;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  gap: 12px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 25px;
+  scrollbar-width: none;
+}
+
+.app-blocking-visual::-webkit-scrollbar {
+  display: none;
+}
+
+.app-blocking-visual img {
+  width: min(285px, 94%);
+  flex: 0 0 auto;
+  height: auto;
+  filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.14));
+  scroll-snap-align: center;
+}
+
+@media (min-width: 1024px) {
+  .app-blocking-layout {
+    min-height: 620px;
+    grid-template-columns: minmax(0, 1fr) minmax(540px, 1.08fr);
+    gap: 55px;
+    align-items: center;
+  }
+
+  .app-blocking-copy h2 {
+    max-width: 570px;
+    font-size: 58px;
+  }
+
+  .app-blocking-copy p:not(.eyebrow) {
+    max-width: 590px;
+    font-size: 17px;
+  }
+
+  .app-blocking-visual {
+    min-height: 620px;
+    padding: 0 18px;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+  }
+
+  .app-blocking-visual img {
+    width: min(268px, 48%);
+  }
+}

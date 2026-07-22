@@ -1,7 +1,5 @@
 (function () {
   var root = window.flowtimeRoot || "";
-  var appStoreUrl = "https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969";
-  var headerCta = '<a class="button primary header-cta" href="' + appStoreUrl + '" target="_blank" rel="noopener noreferrer" data-analytics-event="app_store_click" data-analytics-location="header">' + window.t("cta.appstore") + '</a>';
 
   window.renderSection("site-header", `
   <header class="site-header" aria-label="Flowtime">
@@ -17,43 +15,38 @@
       <a href="${root}about-flowtime/index.html">${window.t("nav.about")}</a>
       <a href="${root}index.html#focus-modes">${window.t("nav.focus")}</a>
       <a href="${root}index.html#simplicity">${window.t("nav.simplicity")}</a>
+      <a href="${root}index.html#app-blocking">${window.t("nav.blocking")}</a>
       <a href="${root}index.html#reports">${window.t("nav.reports")}</a>
       <a href="${root}index.html#pricing">${window.t("nav.pricing")}</a>
       <a href="${root}index.html#faq">${window.t("nav.faq")}</a>
       <a href="${root}updates/index.html">${window.t("nav.social")}</a>
       
-      <!-- Desktop Dropdown: Compare -->
+      <!-- Desktop Dropdown: Learn -->
       <div class="nav-dropdown">
-        <button class="nav-dropdown-trigger" type="button" aria-expanded="false" data-dropdown="compare">
-          <span>${window.t("nav.compare")}</span>
+        <button class="nav-dropdown-trigger" type="button" aria-expanded="false" data-dropdown="learn">
+          <span>${window.t("nav.learn")}</span>
           <svg class="chevron-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
         </button>
-        <div class="nav-dropdown-menu" id="dropdown-compare">
-          <a href="${root}comparison/flowtime-vs-toggl/index.html">${window.t("nav.compare.toggl")}</a>
-          <a href="${root}comparison/flowtime-vs-forest/index.html">${window.t("nav.compare.forest")}</a>
-          <a href="${root}comparison/flowtime-vs-session/index.html">${window.t("nav.compare.session")}</a>
-          <a href="${root}comparison/flowtime-vs-focus-todo/index.html">${window.t("nav.compare.todo")}</a>
-          <a href="${root}comparison/flowtime-vs-be-focused/index.html">${window.t("nav.compare.focused")}</a>
-          <a class="all-link" href="${root}comparison/index.html">${window.t("nav.all")}</a>
-        </div>
-      </div>
-      
-      <!-- Desktop Dropdown: Guides -->
-      <div class="nav-dropdown">
-        <button class="nav-dropdown-trigger" type="button" aria-expanded="false" data-dropdown="guides">
-          <span>${window.t("nav.guides")}</span>
-          <svg class="chevron-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="6 9 12 15 18 9"></polyline>
-          </svg>
-        </button>
-        <div class="nav-dropdown-menu" id="dropdown-guides">
-          <a href="${root}guides/time-tracker-without-account/index.html">${window.t("nav.guide.noAccount")}</a>
-          <a href="${root}guides/best-offline-time-trackers/index.html">${window.t("nav.guide.offline")}</a>
-          <a href="${root}guides/why-most-time-tracking-apps-feel-overengineered/index.html">${window.t("nav.guide.overengineered")}</a>
-          <a href="${root}guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/index.html">${window.t("nav.guide.flow")}</a>
-          <a class="all-link" href="${root}guides/index.html">${window.t("nav.allGuides")}</a>
+        <div class="nav-dropdown-menu learn-menu" id="dropdown-learn">
+          <div class="learn-column">
+            <span class="learn-menu-title">${window.t("nav.compare")}</span>
+            <a href="${root}comparison/flowtime-vs-toggl/index.html">${window.t("nav.compare.toggl")}</a>
+            <a href="${root}comparison/flowtime-vs-forest/index.html">${window.t("nav.compare.forest")}</a>
+            <a href="${root}comparison/flowtime-vs-session/index.html">${window.t("nav.compare.session")}</a>
+            <a href="${root}comparison/flowtime-vs-focus-todo/index.html">${window.t("nav.compare.todo")}</a>
+            <a href="${root}comparison/flowtime-vs-be-focused/index.html">${window.t("nav.compare.focused")}</a>
+            <a class="all-link" href="${root}comparison/index.html">${window.t("nav.all")}</a>
+          </div>
+          <div class="learn-column">
+            <span class="learn-menu-title">${window.t("nav.guides")}</span>
+            <a href="${root}guides/time-tracker-without-account/index.html">${window.t("nav.guide.noAccount")}</a>
+            <a href="${root}guides/best-offline-time-trackers/index.html">${window.t("nav.guide.offline")}</a>
+            <a href="${root}guides/why-most-time-tracking-apps-feel-overengineered/index.html">${window.t("nav.guide.overengineered")}</a>
+            <a href="${root}guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/index.html">${window.t("nav.guide.flow")}</a>
+            <a class="all-link" href="${root}guides/index.html">${window.t("nav.allGuides")}</a>
+          </div>
         </div>
       </div>
     </nav>
@@ -64,8 +57,6 @@
         <button type="button" data-locale="de" aria-pressed="${window.flowtimeLocale === "de"}">DE</button>
         <button type="button" data-locale="fr" aria-pressed="${window.flowtimeLocale === "fr"}">FR</button>
       </div>
-      ${headerCta}
-      
       <!-- Mobile menu hamburger toggle -->
       <button class="mobile-menu-toggle" type="button" aria-expanded="false" data-menu-toggle aria-label="${window.t("nav.toggle")}">
         <span class="bar bar-top"></span>
@@ -80,38 +71,29 @@
         <a href="${root}about-flowtime/index.html">${window.t("nav.about")}</a>
         <a href="${root}index.html#focus-modes">${window.t("nav.focus")}</a>
         <a href="${root}index.html#simplicity">${window.t("nav.simplicity")}</a>
+        <a href="${root}index.html#app-blocking">${window.t("nav.blocking")}</a>
         <a href="${root}index.html#reports">${window.t("nav.reports")}</a>
         <a href="${root}index.html#pricing">${window.t("nav.pricing")}</a>
         <a href="${root}index.html#faq">${window.t("nav.faq")}</a>
         <a href="${root}updates/index.html">${window.t("nav.social")}</a>
         
-        <!-- Mobile Accordion: Compare -->
+        <!-- Mobile Accordion: Learn -->
         <div class="mobile-accordion">
           <button class="mobile-accordion-toggle" type="button" aria-expanded="false">
-            <span>${window.t("nav.compare")}</span>
+            <span>${window.t("nav.learn")}</span>
             <svg class="chevron-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="6 9 12 15 18 9"></polyline>
             </svg>
           </button>
           <div class="mobile-accordion-panel">
+            <span class="mobile-learn-heading">${window.t("nav.compare")}</span>
             <a href="${root}comparison/flowtime-vs-toggl/index.html">${window.t("nav.compare.toggl")}</a>
             <a href="${root}comparison/flowtime-vs-forest/index.html">${window.t("nav.compare.forest")}</a>
             <a href="${root}comparison/flowtime-vs-session/index.html">${window.t("nav.compare.session")}</a>
             <a href="${root}comparison/flowtime-vs-focus-todo/index.html">${window.t("nav.compare.todo")}</a>
             <a href="${root}comparison/flowtime-vs-be-focused/index.html">${window.t("nav.compare.focused")}</a>
             <a class="all-link" href="${root}comparison/index.html">${window.t("nav.all")}</a>
-          </div>
-        </div>
-        
-        <!-- Mobile Accordion: Guides -->
-        <div class="mobile-accordion">
-          <button class="mobile-accordion-toggle" type="button" aria-expanded="false">
-            <span>${window.t("nav.guides")}</span>
-            <svg class="chevron-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-          </button>
-          <div class="mobile-accordion-panel">
+            <span class="mobile-learn-heading">${window.t("nav.guides")}</span>
             <a href="${root}guides/time-tracker-without-account/index.html">${window.t("nav.guide.noAccount")}</a>
             <a href="${root}guides/best-offline-time-trackers/index.html">${window.t("nav.guide.offline")}</a>
             <a href="${root}guides/why-most-time-tracking-apps-feel-overengineered/index.html">${window.t("nav.guide.overengineered")}</a>
@@ -120,10 +102,6 @@
           </div>
         </div>
       </nav>
-      
-      <div class="mobile-menu-cta">
-        ${headerCta}
-      </div>
     </div>
   </header>
 `);
