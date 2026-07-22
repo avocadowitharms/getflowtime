@@ -447,7 +447,7 @@
       "footer.terms": "Nutzungsbedingungen",
       "footer.support": "Support",
       "footer.creator": "avathalheim.dev",
-      "footer.coffee": "Kauf mir einen Kaffee",
+      "footer.coffee": "Kaffee?",
       "footer.top": "Nach oben"
     },
     fr: {

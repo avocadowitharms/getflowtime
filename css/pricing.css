@@ -398,6 +398,12 @@ footer {
   gap: 8px;
 }
 
+.footer-love {
+  color: var(--ink);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
 .coffee-link {
   min-height: 39px;
   padding: 5px 13px 5px 6px;
@@ -469,4 +475,3 @@ footer {
   border-color: #090909;
   background: #090909;
 }
-

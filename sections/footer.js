@@ -11,6 +11,7 @@
       <a href="${root}docs/terms-of-use.html">${window.t("footer.terms")}</a>
       <a href="${root}docs/support.html">${window.t("footer.support")}</a>
       <a href="https://avathalheim.dev/" target="_blank" rel="noopener noreferrer">${window.t("footer.creator")}</a>
+      <span class="footer-love">L ❤️</span>
     </nav>
     <div class="footer-actions">
       <a class="coffee-link" href="https://buymeacoffee.com/avocadowita" target="_blank" rel="noopener noreferrer">
