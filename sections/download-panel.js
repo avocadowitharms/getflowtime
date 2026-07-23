@@ -89,12 +89,12 @@ window.renderSection("download-panel", `
           class="ml-form-embedContainer"
         >
           <div class="row-form">
-            <p class="eyebrow">Waitlist</p>
+            <p class="eyebrow">${window.t("waitlist.eyebrow")}</p>
 
-            <h3 id="waitlist-title">Join the Waitlist!</h3>
+            <h3 id="waitlist-title">${window.t("waitlist.title")}</h3>
 
             <p id="waitlist-description">
-              Together is currently in development. Subscribe to get early beta access and launch updates.
+              ${window.t("waitlist.description")}
             </p>
 
             <form
