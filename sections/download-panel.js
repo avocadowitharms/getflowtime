@@ -85,26 +85,25 @@ window.renderSection("download-panel", `
         </button>
 
         <div
-          id="mlb2-41744891"
-          class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-41744891"
+          id="sib-form-container"
+          class="ml-form-embedContainer"
         >
           <div class="row-form">
-            <p class="eyebrow">${window.t("waitlist.eyebrow")}</p>
+            <p class="eyebrow">Waitlist</p>
 
-            <h3 id="waitlist-title">${window.t("waitlist.title")}</h3>
+            <h3 id="waitlist-title">Join the Waitlist!</h3>
 
             <p id="waitlist-description">
-              ${window.t("waitlist.description")}
+              Together is currently in development. Subscribe to get early beta access and launch updates.
             </p>
 
             <form
+              id="sib-form"
               class="ml-block-form waitlist-form"
-              action="https://assets.mailerlite.com/jsonp/2378130/forms/188442807544842085/subscribe"
-              data-code=""
+              action="https://6483f87d.sibforms.com/serve/MUIFAKh3H0EDfBc5ZHSxO6GgQcjYYoVB120vpcCgntSdJld99DrfkFp147fb4vu1Yrp1i2-7JG5CiWQkjcDXVfBcay7pXjndjTl47QO9TYS3fSUkBsSPm6cU2Mjy2v5eX8XWGvYhdG1gd9RXy2l3wN_whIcoabJ1SlheNHwGicRvW0v847HOLL4jg7Um272IdTrOlfID-zTKJUbV2w=="
+              data-type="subscription"
               data-analytics-form="newsletter_signup"
               method="post"
-              rel="noopener noreferrer"
-              target="_blank"
             >
               <div class="ml-form-formContent">
                 <div class="ml-form-fieldRow ml-last-item">
@@ -115,7 +114,7 @@ window.renderSection("download-panel", `
                       id="waitlist-email"
                       aria-label="${window.t("waitlist.email")}"
                       aria-required="true"
-                      name="fields[email]"
+                      name="EMAIL"
                       type="email"
                       autocomplete="email"
                       placeholder="${window.t("waitlist.placeholder")}"
@@ -134,11 +133,9 @@ window.renderSection("download-panel", `
                 <a href="docs/privacy-policy.html">${window.t("waitlist.policy.link")}</a>.
               </p>
 
-              <input type="hidden" name="ml-submit" value="1" />
-
               <div class="ml-form-embedSubmit">
   <button class="button primary" type="submit">
-    ${window.t("waitlist.notify")} <span aria-hidden="true">&rarr;</span>
+    Subscribe for News <span aria-hidden="true">&rarr;</span>
   </button>
 
   <button class="loading" type="button" disabled aria-hidden="true">
@@ -146,11 +143,22 @@ window.renderSection("download-panel", `
   </button>
 </div>
 
-              <input type="hidden" name="anticsrf" value="true" />
+              <div class="sib-captcha">
+                <div
+                  class="cf-turnstile g-recaptcha"
+                  data-sitekey="0x4AAAAAAD74COzMSdP6jZ-T"
+                  id="sib-captcha"
+                  data-callback="handleCaptchaResponse"
+                  data-language="${window.flowtimeLocale || "en"}"
+                ></div>
+              </div>
+
+              <input type="text" name="email_address_check" value="" hidden aria-hidden="true" tabindex="-1" />
+              <input type="hidden" name="locale" value="${window.flowtimeLocale || "en"}" />
             </form>
           </div>
 
-          <div class="row-success" style="display: none;">
+          <div id="success-message" class="row-success sib-form-message-panel" style="display: none;">
             <p class="eyebrow">${window.t("waitlist.eyebrow")}</p>
 
             <h3>${window.t("waitlist.success")}</h3>
@@ -158,6 +166,9 @@ window.renderSection("download-panel", `
             <p class="waitlist-success">
               ${window.t("waitlist.thanks")}
             </p>
+          </div>
+          <div id="error-message" class="sib-form-message-panel" style="display: none;">
+            Your subscription could not be saved. Please try again.
           </div>
         </div>
       </article>
@@ -205,41 +216,28 @@ window.renderSection("download-panel", `
   });
 }());
 
-function ml_webform_success_41744891() {
-  var form = document.querySelector(
-    ".ml-subscribe-form-41744891 .row-form"
-  );
-
-  var success = document.querySelector(
-    ".ml-subscribe-form-41744891 .row-success"
-  );
-
-  if (form && success) {
-    form.style.display = "none";
-    success.style.display = "block";
-  }
-
-  if (window.FlowtimeAnalytics) {
-    window.FlowtimeAnalytics.trackConversion("newsletter_success", {
-      form: "newsletter_signup",
-      location: "download_panel",
-    });
-  }
+function handleCaptchaResponse() {
+  document.getElementById("sib-captcha").dispatchEvent(new Event("captchaChange"));
+  window.grecaptcha = window.turnstile;
 }
 
 (function () {
-  var script = document.createElement("script");
+  window.REQUIRED_CODE_ERROR_MESSAGE = "Please choose a country code";
+  window.LOCALE = window.flowtimeLocale || "en";
+  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE =
+    "The information provided is invalid. Please review the field format and try again.";
+  window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank.";
+  window.GENERIC_INVALID_MESSAGE = window.EMAIL_INVALID_MESSAGE;
+  window.AUTOHIDE = false;
 
-  script.src =
-    "https://groot.mailerlite.com/js/w/webforms.min.js?vb397d78ebaa8a0f631d35384c46d781b";
-
-  script.type = "text/javascript";
-  script.async = true;
-  script.referrerPolicy = "strict-origin-when-cross-origin";
-
-  document.body.appendChild(script);
-
-  fetch(
-    "https://assets.mailerlite.com/jsonp/2378130/forms/188442807544842085/takel"
-  ).catch(function () {});
+  [
+    ["https://sibforms.com/forms/end-form/build/main.js", true],
+    ["https://challenges.cloudflare.com/turnstile/v0/api.js", false],
+  ].forEach(function (source) {
+    var script = document.createElement("script");
+    script.src = source[0];
+    script.defer = source[1];
+    script.async = true;
+    document.body.appendChild(script);
+  });
 }());
