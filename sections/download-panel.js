@@ -135,7 +135,7 @@ window.renderSection("download-panel", `
 
               <div class="ml-form-embedSubmit">
   <button class="button primary" type="submit">
-    Subscribe for News <span aria-hidden="true">&rarr;</span>
+    ${window.t("waitlist.notify")} <span aria-hidden="true">&rarr;</span>
   </button>
 
   <button class="loading" type="button" disabled aria-hidden="true">
@@ -230,14 +230,15 @@ function handleCaptchaResponse() {
   window.GENERIC_INVALID_MESSAGE = window.EMAIL_INVALID_MESSAGE;
   window.AUTOHIDE = false;
 
-  [
-    ["https://sibforms.com/forms/end-form/build/main.js", true],
-    ["https://challenges.cloudflare.com/turnstile/v0/api.js", false],
-  ].forEach(function (source) {
-    var script = document.createElement("script");
-    script.src = source[0];
-    script.defer = source[1];
-    script.async = true;
-    document.body.appendChild(script);
-  });
+  if (document.getElementById("sib-form")) {
+    [
+      "https://sibforms.com/forms/end-form/build/main.js",
+      "https://challenges.cloudflare.com/turnstile/v0/api.js"
+    ].forEach(function (src) {
+      var script = document.createElement("script");
+      script.src = src;
+      script.async = false;
+      document.body.appendChild(script);
+    });
+  }
 }());
