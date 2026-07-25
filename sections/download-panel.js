@@ -105,22 +105,26 @@ window.renderSection("download-panel", `
               data-analytics-form="newsletter_signup"
               method="post"
             >
-              <div class="ml-form-formContent">
-                <div class="ml-form-fieldRow ml-last-item">
-                  <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
-                    <label for="waitlist-email">${window.t("waitlist.email")}</label>
+              <div class="sib-input ml-form-formContent">
+                <div class="form__entry entry_default">
+                  <div class="ml-form-fieldRow ml-last-item">
+                    <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                      <label for="waitlist-email">${window.t("waitlist.email")}</label>
 
-                    <input
-                      id="waitlist-email"
-                      aria-label="${window.t("waitlist.email")}"
-                      aria-required="true"
-                      name="EMAIL"
-                      type="email"
-                      autocomplete="email"
-                      placeholder="${window.t("waitlist.placeholder")}"
-                      required
-                    />
+                      <input
+                        id="waitlist-email"
+                        class="input"
+                        aria-label="${window.t("waitlist.email")}"
+                        aria-required="true"
+                        name="EMAIL"
+                        type="email"
+                        autocomplete="email"
+                        placeholder="${window.t("waitlist.placeholder")}"
+                        required
+                      />
+                    </div>
                   </div>
+                  <span class="entry__error entry__error--primary" style="display: none;"></span>
                 </div>
               </div>
 
@@ -144,13 +148,16 @@ window.renderSection("download-panel", `
 </div>
 
               <div class="sib-captcha">
-                <div
-                  class="cf-turnstile g-recaptcha"
-                  data-sitekey="0x4AAAAAAD74COzMSdP6jZ-T"
-                  id="sib-captcha"
-                  data-callback="handleCaptchaResponse"
-                  data-language="${window.flowtimeLocale || "en"}"
-                ></div>
+                <div class="form__entry entry_default">
+                  <div
+                    class="cf-turnstile g-recaptcha"
+                    data-sitekey="0x4AAAAAAD74COzMSdP6jZ-T"
+                    id="sib-captcha"
+                    data-callback="handleCaptchaResponse"
+                    data-language="${window.flowtimeLocale || "en"}"
+                  ></div>
+                  <span class="entry__error entry__error--primary" style="display: none;"></span>
+                </div>
               </div>
 
               <input type="text" name="email_address_check" value="" hidden aria-hidden="true" tabindex="-1" />
