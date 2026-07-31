@@ -1,23 +1,42 @@
 {
   "version": "",
-  "title": "Test V2!!!",
+  "title": "Test Android 3",
   "subtitle": "Important announcement for Flowtime users.",
   "slides": [
     {
       "type": "feature",
       "label": "ANNOUNCEMENT",
-      "title": "Announcement Title",
-      "description": "Details about this announcement."
+      "title": "Very important! ",
+      "description": "Don't forget to follow! :D "
     }
   ],
   "entries": [
+    {
+      "id": "announcement_1785492895674",
+      "version": "",
+      "publishedAt": "2026-07-31T10:14:55.674Z",
+      "title": "Test Android 3",
+      "subtitle": "Important announcement for Flowtime users.",
+      "showAsPopup": true,
+      "popupType": "announcement",
+      "minAppVersion": null,
+      "maxAppVersion": null,
+      "slides": [
+        {
+          "type": "feature",
+          "label": "ANNOUNCEMENT",
+          "title": "Very important! ",
+          "description": "Don't forget to follow! :D "
+        }
+      ]
+    },
     {
       "id": "announcement_1785492760764",
       "version": "",
       "publishedAt": "2026-07-31T10:12:40.764Z",
       "title": "Test V2!!!",
       "subtitle": "Important announcement for Flowtime users.",
-      "showAsPopup": true,
+      "showAsPopup": false,
       "popupType": "announcement",
       "minAppVersion": null,
       "maxAppVersion": null,
