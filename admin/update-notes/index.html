@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Admin - Update Notes & Pop-up Creator</title>
+  <link rel="icon" type="image/png" href="../../assets/logo-classic.png" />
+  <style>
+    /* Reset & Base Styles */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      min-height: 100vh;
+      padding: 16px 24px 40px;
+    }
+
+    /* Header */
+    .admin-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 16px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #334155;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .nav-back {
+      color: #94a3b8;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 8px;
+      background: #1e293b;
+      transition: all 0.15s ease;
+    }
+
+    .nav-back:hover {
+      color: #ffffff;
+      background: #334155;
+    }
+
+    .admin-header h1 {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: #ffffff;
+      letter-spacing: -0.02em;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 10px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 16px;
+      border-radius: 10px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      cursor: pointer;
+      border: none;
+      transition: all 0.15s ease;
+    }
+
+    .btn-primary {
+      background: #3b82f6;
+      color: #ffffff;
+    }
+
+    .btn-primary:hover {
+      background: #2563eb;
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+    }
+
+    .btn-secondary {
+      background: #334155;
+      color: #f1f5f9;
+    }
+
+    .btn-secondary:hover {
+      background: #475569;
+    }
+
+    .btn-danger-sm {
+      background: rgba(239, 68, 68, 0.15);
+      color: #f87171;
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      padding: 5px 10px;
+      border-radius: 8px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .btn-danger-sm:hover {
+      background: #dc2626;
+      color: #ffffff;
+    }
+
+    .btn-sm {
+      padding: 5px 11px;
+      border-radius: 8px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      border: none;
+    }
+
+    /* 3-Column Layout */
+    .workspace {
+      display: grid;
+      grid-template-columns: 280px minmax(0, 1fr) 340px;
+      gap: 20px;
+      align-items: start;
+    }
+
+    @media (max-width: 1200px) {
+      .workspace {
+        grid-template-columns: 250px minmax(0, 1fr) 320px;
+        gap: 14px;
+      }
+    }
+
+    @media (max-width: 992px) {
+      .workspace {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Sidebar: Entries List */
+    .sidebar-entries {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 16px;
+      padding: 14px;
+    }
+
+    .sidebar-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #334155;
+    }
+
+    .sidebar-header span {
+      font-size: 0.75rem;
+      font-weight: 800;
+      color: #94a3b8;
+      letter-spacing: 0.8px;
+    }
+
+    .entries-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      max-height: calc(100vh - 160px);
+      overflow-y: auto;
+    }
+
+    .entry-card {
+      background: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      padding: 10px 12px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .entry-card:hover {
+      border-color: #3b82f6;
+      background: #182238;
+    }
+
+    .entry-card.is-selected {
+      border-color: #3b82f6;
+      background: #1e293b;
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+    }
+
+    .entry-card-title {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #f8fafc;
+      margin-bottom: 4px;
+      line-height: 1.25;
+    }
+
+    .entry-card-meta {
+      font-size: 0.72rem;
+      color: #94a3b8;
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 6px;
+      border-radius: 999px;
+      font-size: 0.65rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .badge-popup {
+      background: rgba(16, 185, 129, 0.2);
+      color: #34d399;
+    }
+
+    .badge-release {
+      background: rgba(59, 130, 246, 0.2);
+      color: #60a5fa;
+    }
+
+    .badge-announcement {
+      background: rgba(168, 85, 247, 0.2);
+      color: #c084fc;
+    }
+
+    /* Main Editor Form */
+    .editor-card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 16px;
+      padding: 18px;
+    }
+
+    .editor-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #334155;
+    }
+
+    .editor-header h2 {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: #ffffff;
+    }
+
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      margin-bottom: 12px;
+    }
+
+    .field label {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #cbd5e1;
+    }
+
+    .field-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    input[type="text"], select, textarea {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      background: #0f172a;
+      color: #f8fafc;
+      font-size: 0.85rem;
+      font-family: inherit;
+    }
+
+    input[type="text"]:focus, select:focus, textarea:focus {
+      outline: none;
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+    }
+
+    .field-toggle {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 8px 12px;
+      background: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      cursor: pointer;
+    }
+
+    .field-toggle input[type="checkbox"] {
+      margin-top: 3px;
+      accent-color: #3b82f6;
+      width: 16px;
+      height: 16px;
+    }
+
+    .field-toggle-label {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .field-toggle-label strong {
+      font-size: 0.83rem;
+      color: #f8fafc;
+    }
+
+    .field-toggle-label span {
+      font-size: 0.74rem;
+      color: #94a3b8;
+    }
+
+    /* Slides Section */
+    .slides-section {
+      margin-top: 18px;
+      border-top: 1px solid #334155;
+      padding-top: 14px;
+    }
+
+    .slides-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .slides-header h3 {
+      font-size: 0.92rem;
+      font-weight: 800;
+      color: #f8fafc;
+    }
+
+    .slide-item {
+      background: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      padding: 12px;
+      margin-bottom: 10px;
+    }
+
+    .slide-item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #94a3b8;
+    }
+
+    /* Simulator Column */
+    .simulator-aside {
+      position: sticky;
+      top: 16px;
+    }
+
+    .sim-card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 20px;
+      padding: 14px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4);
+    }
+
+    .sim-tag {
+      font-size: 0.68rem;
+      font-weight: 800;
+      color: #94a3b8;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .sim-phone {
+      background: #0f172a;
+      border-radius: 16px;
+      border: 1px solid #334155;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      min-height: 420px;
+    }
+
+    .sim-topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .sim-version {
+      font-size: 0.74rem;
+      font-weight: 700;
+      color: #94a3b8;
+    }
+
+    .sim-close {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #334155;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      color: #94a3b8;
+    }
+
+    .sim-hero {
+      width: 100%;
+      height: 110px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #1e1b4b, #3b82f6, #06b6d4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+      overflow: hidden;
+    }
+
+    .sim-hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .sim-pill {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 999px;
+      background: rgba(59, 130, 246, 0.2);
+      color: #60a5fa;
+      font-size: 0.62rem;
+      font-weight: 800;
+      letter-spacing: 0.6px;
+      margin-bottom: 6px;
+    }
+
+    .sim-title {
+      font-size: 1.05rem;
+      font-weight: 900;
+      color: #ffffff;
+      line-height: 1.2;
+      margin-bottom: 6px;
+    }
+
+    .sim-desc {
+      font-size: 0.78rem;
+      color: #cbd5e1;
+      line-height: 1.35;
+      margin-bottom: 10px;
+    }
+
+    .sim-items {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      margin-bottom: 10px;
+    }
+
+    .sim-item-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+      font-size: 0.74rem;
+      color: #e2e8f0;
+    }
+
+    .sim-footer {
+      margin-top: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .sim-dots {
+      display: flex;
+      gap: 4px;
+    }
+
+    .sim-dot {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #334155;
+    }
+
+    .sim-dot.active {
+      width: 12px;
+      border-radius: 99px;
+      background: #3b82f6;
+    }
+
+    .sim-button {
+      width: 100%;
+      padding: 9px;
+      border-radius: 10px;
+      background: #3b82f6;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header class="admin-header">
+    <div class="header-left">
+      <a class="nav-back" href="../social-library/index.html">&larr; Social Library</a>
+      <h1>Update Notes & In-App Pop-Up Creator</h1>
+    </div>
+    <div class="header-actions">
+      <button class="btn btn-secondary" id="btn-export-json">Export JSON</button>
+      <button class="btn btn-primary" id="btn-save-server">Save to Server</button>
+    </div>
+  </header>
+
+  <!-- 3-Column Desktop Workspace -->
+  <div class="workspace">
+
+    <!-- 1. Left Sidebar: Entries List -->
+    <aside class="sidebar-entries">
+      <div class="sidebar-header">
+        <span>ENTRIES HISTORY</span>
+        <button class="btn-sm btn-primary" id="btn-new-entry">+ New Entry</button>
+      </div>
+      <div class="entries-list" id="entries-list-container">
+        <!-- Rendered dynamically -->
+      </div>
+    </aside>
+
+    <!-- 2. Middle Column: Active Entry Form Editor -->
+    <main class="editor-card">
+      <div class="editor-header">
+        <h2 id="form-title">Edit Entry</h2>
+        <button class="btn-danger-sm" id="btn-delete-entry">Delete Entry</button>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="input-id">Entry ID</label>
+          <input type="text" id="input-id" placeholder="entry_2.3.24" required />
+        </div>
+        <div class="field">
+          <label for="input-version">App Version</label>
+          <input type="text" id="input-version" placeholder="2.3.24" required />
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="input-title">Title</label>
+        <input type="text" id="input-title" placeholder="What’s new in Flowtime 2.3.24" required />
+      </div>
+
+      <div class="field">
+        <label for="input-subtitle">Subtitle</label>
+        <input type="text" id="input-subtitle" placeholder="Quick Start templates, notification templates..." />
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="input-popup-type">Popup Type</label>
+          <select id="input-popup-type">
+            <option value="release_notes">Release Notes</option>
+            <option value="announcement">Announcement</option>
+            <option value="notification">Notification</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="input-published">Published Date</label>
+          <input type="text" id="input-published" placeholder="2026-07-30T20:00:00Z" />
+        </div>
+      </div>
+
+      <div class="field-toggle">
+        <input type="checkbox" id="input-show-popup" checked />
+        <div class="field-toggle-label">
+          <strong>Trigger In-App Pop-Up Notification</strong>
+          <span>Automatically pops up in Flowtime app on startup for unseen users</span>
+        </div>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="input-min-version">Min App Version Filter (Optional)</label>
+          <input type="text" id="input-min-version" placeholder="e.g. 2.3.0" />
+        </div>
+        <div class="field">
+          <label for="input-max-version">Max App Version Filter (Optional)</label>
+          <input type="text" id="input-max-version" placeholder="e.g. 2.9.9" />
+        </div>
+      </div>
+
+      <!-- Slides Manager -->
+      <div class="slides-section">
+        <div class="slides-header">
+          <h3>Slides Content</h3>
+          <button class="btn-sm btn-primary" id="btn-add-slide">+ Add Slide</button>
+        </div>
+        <div id="slides-container">
+          <!-- Slide cards -->
+        </div>
+      </div>
+    </main>
+
+    <!-- 3. Right Column: Live Flowtime App Pop-Up Simulator -->
+    <aside class="simulator-aside">
+      <div class="sim-card">
+        <div class="sim-tag">Flowtime App Live Simulator</div>
+        <div class="sim-phone">
+          <div class="sim-topbar">
+            <span class="sim-version" id="sim-version-text">v2.3.24</span>
+            <span class="sim-close">&times;</span>
+          </div>
+
+          <div style="flex: 1;">
+            <div class="sim-hero" id="sim-hero-box">
+              <span style="font-size: 30px; color: #60a5fa;">✦</span>
+            </div>
+
+            <div class="sim-pill" id="sim-pill-text">NEW</div>
+            <div class="sim-title" id="sim-title-text">Slide Title</div>
+            <div class="sim-desc" id="sim-desc-text">Slide Description</div>
+
+            <div class="sim-items" id="sim-items-list">
+              <!-- Bullet items -->
+            </div>
+          </div>
+
+          <div class="sim-footer">
+            <div class="sim-dots" id="sim-dots-container">
+              <div class="sim-dot active"></div>
+            </div>
+            <div class="sim-button">Continue</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+
+  <script src="../../scripts/admin-update-notes.js"></script>
+</body>
+</html>

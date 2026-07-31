@@ -1,16 +1,40 @@
-# Local Admin Notes
+# Local Admin Tools
 
-The Social Library admin page is a local curator for static-site content. It is intended for local editing only.
+The local admin tools allow curating static-site content and managing update notes / in-app pop-up notifications for Flowtime.
 
-Run the local preview server and open:
+## How to Start the Local Dev Server (No Node/npm Required)
 
+You can run the server using either **PowerShell** or **Python** (both built-in / pre-installed on Windows):
+
+### Option 1: PowerShell (Built-in on Windows)
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/serve.ps1
+```
+
+### Option 2: Python
+```bash
+python scripts/serve_update_notes.py
+```
+
+---
+
+## Admin Interfaces
+
+Once the server is running, open the following URLs in your browser:
+
+### 1. Update Notes & Pop-Up Notifications Creator
+`http://localhost:5500/admin/update-notes/index.html`
+
+Edits in this tool save directly to:
+- `update-notes.json`
+
+This file is fetched by the Flowtime Flutter app to display What's New release notes and trigger in-app pop-up notifications.
+
+### 2. Social Library Admin
 `http://localhost:5500/admin/social-library/index.html`
 
-The live Netlify site redirects `/admin/*` to a 404.
-
-When the local preview server is running, edits in the admin save to:
-
+Edits in this tool save to:
 - `data/social-updates.json`
 - `data/social-updates.js`
 
-Those files are the source used by the homepage social gallery and the public updates page. Commit and deploy them when you want the live site to change.
+*Note: The live Netlify site redirects `/admin/*` to a 404 for security.*

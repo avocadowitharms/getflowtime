@@ -70,9 +70,28 @@ function staticFilePath(requestUrl) {
   return isInsideRoot ? filePath : null;
 }
 
+async function handleUpdateNotes(req, res) {
+  try {
+    const body = await readRequestBody(req);
+    const parsed = JSON.parse(body);
+
+    const updateNotesPath = path.join(root, "update-notes.json");
+    const json = `${JSON.stringify(parsed, null, 2)}\n`;
+    fs.writeFileSync(updateNotesPath, json);
+    send(res, 200, '{"ok":true}', "application/json; charset=utf-8");
+  } catch (_error) {
+    send(res, 400, '{"ok":false,"error":"Invalid update notes payload"}', "application/json; charset=utf-8");
+  }
+}
+
 const server = http.createServer(async (req, res) => {
-  if (req.method === "POST" && req.url && new URL(req.url, `http://${host}:${port}`).pathname === "/api/social-updates") {
+  const pathname = req.url ? new URL(req.url, `http://${host}:${port}`).pathname : "";
+  if (req.method === "POST" && pathname === "/api/social-updates") {
     await handleSocialUpdates(req, res);
+    return;
+  }
+  if (req.method === "POST" && pathname === "/api/update-notes") {
+    await handleUpdateNotes(req, res);
     return;
   }
 

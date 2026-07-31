@@ -43,6 +43,57 @@ try {
       $target = if ($requestLine -match '^[A-Z]+\s+([^\s]+)') { $Matches[1] } else { '/' }
       $pathOnly = ([System.Uri]::UnescapeDataString(($target -split '\?')[0])).TrimStart('/')
 
+      if ($method -eq 'POST' -and $pathOnly -eq 'api/update-notes') {
+        $contentLength = 0
+        if ($requestHeaders.ContainsKey('content-length')) {
+          [void][int]::TryParse($requestHeaders['content-length'], [ref]$contentLength)
+        }
+
+        $body = ''
+        if ($contentLength -gt 0) {
+          $buffer = New-Object char[] $contentLength
+          $charsRead = 0
+          while ($charsRead -lt $contentLength) {
+            $count = $reader.Read($buffer, $charsRead, $contentLength - $charsRead)
+            if ($count -le 0) {
+              break
+            }
+            $charsRead += $count
+          }
+          if ($charsRead -gt 0) {
+            $body = -join $buffer[0..($charsRead - 1)]
+          }
+        }
+
+        $jsonPath = Join-Path $rootPath 'update-notes.json'
+        $utf8NoBom = [System.Text.UTF8Encoding]::new($false)
+
+        try {
+          [void](ConvertFrom-Json -InputObject $body)
+          $json = $body.Trim()
+          [System.IO.File]::WriteAllText($jsonPath, $json + "`n", $utf8NoBom)
+
+          $contentType = 'application/json; charset=utf-8'
+          $payload = [System.Text.Encoding]::UTF8.GetBytes('{"ok":true}')
+          $status = '200 OK'
+        } catch {
+          $contentType = 'application/json; charset=utf-8'
+          $payload = [System.Text.Encoding]::UTF8.GetBytes('{"ok":false,"error":"Invalid update notes payload"}')
+          $status = '400 Bad Request'
+        }
+
+        $headers = [System.Text.Encoding]::ASCII.GetBytes(
+          "HTTP/1.1 $status`r`nContent-Type: $contentType`r`nContent-Length: $($payload.Length)`r`nConnection: close`r`n`r`n"
+        )
+        $stream.Write($headers, 0, $headers.Length)
+        $stream.Write($payload, 0, $payload.Length)
+        $stream.Flush()
+        $reader.Dispose()
+        $stream.Dispose()
+        $client.Dispose()
+        continue
+      }
+
       if ($method -eq 'POST' -and $pathOnly -eq 'api/social-updates') {
         $contentLength = 0
         if ($requestHeaders.ContainsKey('content-length')) {
