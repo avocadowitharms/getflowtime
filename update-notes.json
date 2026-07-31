@@ -1,6 +1,6 @@
 {
   "version": "",
-  "title": "Test!",
+  "title": "Test V2!!!",
   "subtitle": "Important announcement for Flowtime users.",
   "slides": [
     {
@@ -12,12 +12,31 @@
   ],
   "entries": [
     {
+      "id": "announcement_1785492760764",
+      "version": "",
+      "publishedAt": "2026-07-31T10:12:40.764Z",
+      "title": "Test V2!!!",
+      "subtitle": "Important announcement for Flowtime users.",
+      "showAsPopup": true,
+      "popupType": "announcement",
+      "minAppVersion": null,
+      "maxAppVersion": null,
+      "slides": [
+        {
+          "type": "feature",
+          "label": "ANNOUNCEMENT",
+          "title": "Announcement Title",
+          "description": "Details about this announcement."
+        }
+      ]
+    },
+    {
       "id": "announcement_1785492674666",
       "version": "",
       "publishedAt": "2026-07-31T10:11:14.666Z",
       "title": "Test!",
       "subtitle": "Important announcement for Flowtime users.",
-      "showAsPopup": true,
+      "showAsPopup": false,
       "popupType": "announcement",
       "minAppVersion": null,
       "maxAppVersion": null,
@@ -260,7 +279,7 @@
       "version": "2.0.0",
       "publishedAt": "2026-06-01T10:00:00Z",
       "title": "What's new in Flowtime 2.0.0",
-      "subtitle": "Flowtime 2.0 Ã¢â‚¬â€œ Redesigned UI, multiple timer modes, and project tracking.",
+      "subtitle": "Flowtime 2.0 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ Redesigned UI, multiple timer modes, and project tracking.",
       "showAsPopup": false,
       "popupType": "release_notes",
       "minAppVersion": null,
