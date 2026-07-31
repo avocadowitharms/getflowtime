@@ -1,13 +1,13 @@
 {
   "version": "2.5.0",
   "title": "What's new in Flowtime 2.5.0",
-  "subtitle": "In-app notifications, release notes history, and overall focus timer enhancements.",
+  "subtitle": "Improved Free vs Pro experience, accent color handling, automatic System theme support, and anonymous usage analytics.",
   "slides": [
     {
       "type": "feature",
       "label": "NEW",
-      "title": "In-App Notifications & Release History",
-      "description": "Never miss important updates with in-app pop-up notifications and a dedicated previous update history list in Settings."
+      "title": "What's New in 2.5.0",
+      "description": "Improved Free vs Pro experience, new release notes and in-app update notifications, automatic System theme support, accent color handling, and UI refinements."
     },
     {
       "type": "list",
@@ -15,11 +15,19 @@
       "title": "Included in version 2.5.0",
       "description": "",
       "items": [
-        "In-app pop-up notification announcements",
-        "Browse all previous release notes history in Settings",
-        "Quick Start templates and notification templates",
-        "10 language support and general stability fixes"
+        "Improved Free vs Pro experience and updated upgrade screens",
+        "New release notes and in-app update notifications",
+        "Better accent color handling and improved theme behavior",
+        "Added automatic System theme support",
+        "Fixed onboarding button text and several UI inconsistencies",
+        "General bug fixes, stability improvements, and performance enhancements"
       ]
+    },
+    {
+      "type": "feature",
+      "label": "PRIVACY",
+      "title": "Anonymous Usage Analytics",
+      "description": "Flowtime uses TelemetryDeck to collect anonymous usage statistics. These analytics help improve the app by identifying crashes, feature usage, and performance issues. No advertising identifiers are collected, no user profiles are created, and the collected information is not used for advertising or cross-app tracking."
     }
   ],
   "entries": [
@@ -28,15 +36,15 @@
       "version": "2.5.0",
       "publishedAt": "2026-07-31T10:04:31.236Z",
       "title": "What's new in Flowtime 2.5.0",
-      "subtitle": "In-app notifications, release notes history, and overall focus timer enhancements.",
-      "showAsPopup": false,
+      "subtitle": "Improved Free vs Pro experience, accent color handling, automatic System theme support, and anonymous usage analytics.",
+      "showAsPopup": true,
       "popupType": "release_notes",
       "slides": [
         {
           "type": "feature",
           "label": "NEW",
-          "title": "In-App Notifications & Release History",
-          "description": "Never miss important updates with in-app pop-up notifications and a dedicated previous update history list in Settings."
+          "title": "What's New in 2.5.0",
+          "description": "Improved Free vs Pro experience, new release notes and in-app update notifications, automatic System theme support, accent color handling, and UI refinements."
         },
         {
           "type": "list",
@@ -44,11 +52,19 @@
           "title": "Included in version 2.5.0",
           "description": "",
           "items": [
-            "In-app pop-up notification announcements",
-            "Browse all previous release notes history in Settings",
-            "Quick Start templates and notification templates",
-            "10 language support and general stability fixes"
+            "Improved Free vs Pro experience and updated upgrade screens",
+            "New release notes and in-app update notifications",
+            "Better accent color handling and improved theme behavior",
+            "Added automatic System theme support",
+            "Fixed onboarding button text and several UI inconsistencies",
+            "General bug fixes, stability improvements, and performance enhancements"
           ]
+        },
+        {
+          "type": "feature",
+          "label": "PRIVACY",
+          "title": "Anonymous Usage Analytics",
+          "description": "Flowtime uses TelemetryDeck to collect anonymous usage statistics. These analytics help improve the app by identifying crashes, feature usage, and performance issues. No advertising identifiers are collected, no user profiles are created, and the collected information is not used for advertising or cross-app tracking."
         }
       ],
       "minAppVersion": null,
