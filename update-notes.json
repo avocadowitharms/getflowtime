@@ -231,6 +231,93 @@
           ]
         }
       ]
+    },
+    {
+      "id": "entry_2.0.0",
+      "version": "2.0.0",
+      "publishedAt": "2026-06-01T10:00:00Z",
+      "title": "What’s new in Flowtime 2.0.0",
+      "subtitle": "Flowtime 2.0 – Redesigned UI, multiple timer modes, and project tracking.",
+      "showAsPopup": false,
+      "popupType": "release_notes",
+      "minAppVersion": null,
+      "maxAppVersion": null,
+      "slides": [
+        {
+          "type": "feature",
+          "label": "MAJOR RELEASE",
+          "title": "Welcome to Flowtime 2.0",
+          "description": "A completely redesigned interface with Pomodoro, Flow Session, and Standard timer modes.",
+          "imageUrl": null
+        },
+        {
+          "type": "list",
+          "title": "Highlights of 2.0",
+          "items": [
+            "New glassmorphism and mono design themes",
+            "Project and task organization with custom colors",
+            "Detailed session stats and history tracking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entry_1.0.1",
+      "version": "1.0.1",
+      "publishedAt": "2026-05-15T10:00:00Z",
+      "title": "What’s new in Flowtime 1.0.1",
+      "subtitle": "Timer notification reliability and performance fixes.",
+      "showAsPopup": false,
+      "popupType": "release_notes",
+      "minAppVersion": null,
+      "maxAppVersion": null,
+      "slides": [
+        {
+          "type": "feature",
+          "label": "UPDATE",
+          "title": "Timer Reliability Improvements",
+          "description": "Fixed notification delays and improved timer performance in background mode.",
+          "imageUrl": null
+        },
+        {
+          "type": "list",
+          "title": "Included in 1.0.1",
+          "items": [
+            "Reliable background timer notifications",
+            "Fixed sound alert playback on session end",
+            "Performance and memory usage optimizations"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entry_1.0.0",
+      "version": "1.0.0",
+      "publishedAt": "2026-05-01T10:00:00Z",
+      "title": "What’s new in Flowtime 1.0.0",
+      "subtitle": "Initial release of Flowtime time tracking app.",
+      "showAsPopup": false,
+      "popupType": "release_notes",
+      "minAppVersion": null,
+      "maxAppVersion": null,
+      "slides": [
+        {
+          "type": "feature",
+          "label": "INITIAL RELEASE",
+          "title": "Welcome to Flowtime",
+          "description": "Simple, focused time tracking designed to help you build better work habits.",
+          "imageUrl": null
+        },
+        {
+          "type": "list",
+          "title": "Initial features",
+          "items": [
+            "Distraction-free focus timer",
+            "Basic session logging",
+            "Clean and intuitive UI"
+          ]
+        }
+      ]
     }
   ]
 }
