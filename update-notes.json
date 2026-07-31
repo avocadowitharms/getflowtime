@@ -1,21 +1,14 @@
 {
   "version": "2.4.0",
-  "title": "What’s new in Flowtime",
-  "subtitle": "In-app notifications, release notes history, and overall focus timer enhancements.",
+  "title": "What’s new in Flowtime 2.4.0",
+  "subtitle": "Usability and accessibility updates.",
   "slides": [
     {
-      "type": "feature",
-      "label": "NEW",
-      "title": "In-App Notifications & Release History",
-      "description": "Never miss important updates with in-app pop-up notifications and a dedicated previous update history list in Settings.",
-      "imageUrl": null
-    },
-    {
       "type": "list",
-      "title": "Included in version 2.4.0",
+      "label": "NEW",
+      "title": "",
+      "description": "",
       "items": [
-        "In-app pop-up notification announcements",
-        "Browse all previous release notes history in Settings",
         "Quick Start templates and notification templates",
         "10 language support and general stability fixes"
       ]
@@ -23,11 +16,34 @@
   ],
   "entries": [
     {
-      "id": "entry_2.4.0",
+      "id": "entry_1785489430518",
       "version": "2.4.0",
-      "publishedAt": "2026-07-31T11:00:00Z",
+      "publishedAt": "2026-07-31T09:17:10.518Z",
       "title": "What’s new in Flowtime 2.4.0",
-      "subtitle": "In-app notifications, release notes history, and overall focus timer enhancements.",
+      "subtitle": "Usability and accessibility updates.",
+      "showAsPopup": false,
+      "popupType": "release_notes",
+      "slides": [
+        {
+          "type": "list",
+          "label": "NEW",
+          "title": "",
+          "description": "",
+          "items": [
+            "Quick Start templates and notification templates",
+            "10 language support and general stability fixes"
+          ]
+        }
+      ],
+      "minAppVersion": null,
+      "maxAppVersion": null
+    },
+    {
+      "id": "entry_2.4.0",
+      "version": "2.4.1",
+      "publishedAt": "2026-07-31T11:00:00Z",
+      "title": "What’s new in Flowtime 2.4.1",
+      "subtitle": "In-app notifications, release notes history",
       "showAsPopup": true,
       "popupType": "release_notes",
       "minAppVersion": null,
@@ -42,12 +58,10 @@
         },
         {
           "type": "list",
-          "title": "Included in version 2.4.0",
+          "title": "Included in version 2.4.1",
           "items": [
             "In-app pop-up notification announcements",
-            "Browse all previous release notes history in Settings",
-            "Quick Start templates and notification templates",
-            "10 language support and general stability fixes"
+            "Browse all previous release notes history in Settings"
           ]
         }
       ]
@@ -79,35 +93,6 @@
             "Folder templates for Studying, Homework, and Reading",
             "Easier access to analytics and new accent color options",
             "Enhanced Pro feature handling and UI bug fixes"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "announcement_community_survey",
-      "version": "2.3.30",
-      "publishedAt": "2026-07-15T12:00:00Z",
-      "title": "Flowtime Community Survey",
-      "subtitle": "Help shape the future of Flowtime by sharing your thoughts.",
-      "showAsPopup": false,
-      "popupType": "announcement",
-      "minAppVersion": null,
-      "maxAppVersion": null,
-      "slides": [
-        {
-          "type": "feature",
-          "label": "ANNOUNCEMENT",
-          "title": "Share your feedback",
-          "description": "Tell us what features you want next in Flowtime.",
-          "imageUrl": null
-        },
-        {
-          "type": "list",
-          "title": "What we're gathering ideas for",
-          "items": [
-            "Custom widgets & desktop integrations",
-            "Advanced stats & exporting options",
-            "Syncing enhancements across devices"
           ]
         }
       ]
