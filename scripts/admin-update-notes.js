@@ -61,8 +61,8 @@
 
     if (notesData.entries.length === 0) {
       notesData.entries.push({
-        id: 'entry_' + (notesData.version || '2.3.24'),
-        version: notesData.version || '2.3.24',
+        id: 'entry_' + (notesData.version || '2.4.1'),
+        version: notesData.version || '2.4.1',
         publishedAt: new Date().toISOString(),
         title: notesData.title || 'What’s new in Flowtime',
         subtitle: notesData.subtitle || 'Small improvements to help you focus better.',
@@ -72,11 +72,13 @@
       });
     }
 
+    sortEntriesDescending(notesData.entries);
     renderEntriesList();
     loadEntryToForm(0);
   }
 
   function renderEntriesList() {
+    sortEntriesDescending(notesData.entries);
     entriesListContainer.innerHTML = '';
     notesData.entries.forEach((entry, idx) => {
       const card = document.createElement('div');
@@ -425,6 +427,41 @@
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;');
+  }
+
+  function sortEntriesDescending(entries) {
+    if (!Array.isArray(entries)) return;
+    entries.sort((a, b) => {
+      if (a.publishedAt && b.publishedAt) {
+        const d1 = new Date(a.publishedAt).getTime();
+        const d2 = new Date(b.publishedAt).getTime();
+        if (!isNaN(d1) && !isNaN(d2) && d1 !== d2) {
+          return d2 - d1;
+        }
+      }
+      return compareSemverDescending(a.version || '', b.version || '');
+    });
+  }
+
+  function compareSemverDescending(v1, v2) {
+    const p1 = parseSemver(v1);
+    const p2 = parseSemver(v2);
+    for (let i = 0; i < 3; i++) {
+      if (p1[i] !== p2[i]) {
+        return p2[i] - p1[i];
+      }
+    }
+    return 0;
+  }
+
+  function parseSemver(v) {
+    const clean = String(v).replace(/[^0-9.]/g, '');
+    const parts = clean.split('.');
+    return [
+      parseInt(parts[0], 10) || 0,
+      parseInt(parts[1], 10) || 0,
+      parseInt(parts[2], 10) || 0
+    ];
   }
 
   loadData();

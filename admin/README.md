@@ -1,10 +1,18 @@
-# Local Admin Tools
+# Flowtime Admin Tools
 
-The local admin tools allow curating static-site content and managing update notes / in-app pop-up notifications for Flowtime.
+The local admin tools allow curating static-site content, managing update notes, and triggering in-app pop-up notifications for Flowtime.
 
-## How to Start the Local Dev Server (No Node/npm Required)
+---
 
-You can run the server using either **PowerShell** or **Python** (both built-in / pre-installed on Windows):
+## 🚀 Quick Start (One-Click Launcher)
+
+Double-click **`FlowtimeAdmin.exe`** in the repository root to automatically launch the local server backend and open the combined **Flowtime Admin Hub** in your web browser.
+
+---
+
+## 🛠️ Alternative Launcher Options (No Node/npm Required)
+
+If running from terminal or scripts:
 
 ### Option 1: PowerShell (Built-in on Windows)
 ```powershell
@@ -13,28 +21,15 @@ powershell -ExecutionPolicy Bypass -File scripts/serve.ps1
 
 ### Option 2: Python
 ```bash
-python scripts/serve_update_notes.py
+py scripts/serve_update_notes.py
 ```
 
 ---
 
-## Admin Interfaces
+## 📍 Admin Interfaces
 
-Once the server is running, open the following URLs in your browser:
+- **Admin Hub Combined Dashboard**: `http://localhost:5500/admin/index.html`
+- **Update Notes & Pop-Up Creator**: `http://localhost:5500/admin/update-notes/index.html` (saves to `update-notes.json`)
+- **Social Library Admin**: `http://localhost:5500/admin/social-library/index.html` (saves to `data/social-updates.json`)
 
-### 1. Update Notes & Pop-Up Notifications Creator
-`http://localhost:5500/admin/update-notes/index.html`
-
-Edits in this tool save directly to:
-- `update-notes.json`
-
-This file is fetched by the Flowtime Flutter app to display What's New release notes and trigger in-app pop-up notifications.
-
-### 2. Social Library Admin
-`http://localhost:5500/admin/social-library/index.html`
-
-Edits in this tool save to:
-- `data/social-updates.json`
-- `data/social-updates.js`
-
-*Note: The live Netlify site redirects `/admin/*` to a 404 for security.*
+*Note: The production site redirects `/admin/*` for security.*
