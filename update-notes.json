@@ -1,73 +1,28 @@
 {
-  "version": "",
-  "title": "Test Android 3",
-  "subtitle": "Important announcement for Flowtime users.",
+  "version": "2.5.0",
+  "title": "What's new in Flowtime 2.5.0",
+  "subtitle": "In-app notifications, release notes history, and overall focus timer enhancements.",
   "slides": [
     {
       "type": "feature",
-      "label": "ANNOUNCEMENT",
-      "title": "Very important! ",
-      "description": "Don't forget to follow! :D "
+      "label": "NEW",
+      "title": "In-App Notifications & Release History",
+      "description": "Never miss important updates with in-app pop-up notifications and a dedicated previous update history list in Settings."
+    },
+    {
+      "type": "list",
+      "label": "NEW",
+      "title": "Included in version 2.5.0",
+      "description": "",
+      "items": [
+        "In-app pop-up notification announcements",
+        "Browse all previous release notes history in Settings",
+        "Quick Start templates and notification templates",
+        "10 language support and general stability fixes"
+      ]
     }
   ],
   "entries": [
-    {
-      "id": "announcement_1785492895674",
-      "version": "",
-      "publishedAt": "2026-07-31T10:14:55.674Z",
-      "title": "Test Android 3",
-      "subtitle": "Important announcement for Flowtime users.",
-      "showAsPopup": true,
-      "popupType": "announcement",
-      "minAppVersion": null,
-      "maxAppVersion": null,
-      "slides": [
-        {
-          "type": "feature",
-          "label": "ANNOUNCEMENT",
-          "title": "Very important! ",
-          "description": "Don't forget to follow! :D "
-        }
-      ]
-    },
-    {
-      "id": "announcement_1785492760764",
-      "version": "",
-      "publishedAt": "2026-07-31T10:12:40.764Z",
-      "title": "Test V2!!!",
-      "subtitle": "Important announcement for Flowtime users.",
-      "showAsPopup": false,
-      "popupType": "announcement",
-      "minAppVersion": null,
-      "maxAppVersion": null,
-      "slides": [
-        {
-          "type": "feature",
-          "label": "ANNOUNCEMENT",
-          "title": "Announcement Title",
-          "description": "Details about this announcement."
-        }
-      ]
-    },
-    {
-      "id": "announcement_1785492674666",
-      "version": "",
-      "publishedAt": "2026-07-31T10:11:14.666Z",
-      "title": "Test!",
-      "subtitle": "Important announcement for Flowtime users.",
-      "showAsPopup": false,
-      "popupType": "announcement",
-      "minAppVersion": null,
-      "maxAppVersion": null,
-      "slides": [
-        {
-          "type": "feature",
-          "label": "ANNOUNCEMENT",
-          "title": "Announcement Title",
-          "description": "Details about this announcement."
-        }
-      ]
-    },
     {
       "id": "entry_2.5.0",
       "version": "2.5.0",
