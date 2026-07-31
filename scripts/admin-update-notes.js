@@ -135,6 +135,13 @@
     entry.popupType = inputPopupType.value;
     entry.publishedAt = inputPublished.value.trim() || new Date().toISOString();
     entry.showAsPopup = inputShowPopup.checked;
+    if (entry.showAsPopup) {
+      notesData.entries.forEach((e, idx) => {
+        if (idx !== selectedEntryIndex) {
+          e.showAsPopup = false;
+        }
+      });
+    }
     entry.minAppVersion = inputMinVersion.value.trim() || null;
     entry.maxAppVersion = inputMaxVersion.value.trim() || null;
 
@@ -250,7 +257,7 @@
     const entry = notesData.entries[selectedEntryIndex];
     if (!entry) return;
 
-    simVersionText.textContent = entry.version ? ('v' + entry.version) : 'v2.3.24';
+    simVersionText.textContent = entry.version ? ('v' + entry.version) : 'v2.4.0';
 
     const slides = entry.slides || [];
     if (selectedSlideIndex >= slides.length) {
@@ -271,10 +278,12 @@
     simTitleText.textContent = currentSlide.title || entry.title || 'What’s new in Flowtime';
     simDescText.textContent = currentSlide.description || entry.subtitle || 'Description text';
 
-    if (currentSlide.imageUrl) {
+    if (currentSlide.imageUrl && currentSlide.imageUrl.trim() !== '') {
+      simHeroBox.style.display = 'block';
       simHeroBox.innerHTML = `<img src="${escapeHtml(currentSlide.imageUrl)}" alt="Hero Image" />`;
     } else {
-      simHeroBox.innerHTML = `<span style="font-size: 30px; color: #60a5fa;">✦</span>`;
+      simHeroBox.style.display = 'none';
+      simHeroBox.innerHTML = '';
     }
 
     simItemsList.innerHTML = '';
@@ -367,23 +376,33 @@
 
   btnSaveServer.addEventListener('click', async () => {
     saveCurrentFormToEntry();
+
+    const confirmed = confirm(
+      'Are you sure you want to save all changes directly to update-notes.json?\n\nOnce saved, you can commit and push the updated file to your server/repository.'
+    );
+
+    if (!confirmed) return;
+
     try {
       const res = await fetch('/api/update-notes', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(notesData, null, 2)
       });
+
       if (res.ok) {
-        alert('Successfully saved update notes payload to update-notes.json!');
+        alert('✅ Successfully updated update-notes.json!\n\nYou can now commit and push the updated file to your repository.');
       } else {
-        alert('Failed to save to server. If hosting statically, use Export JSON.');
+        alert('⚠️ Server API endpoint returned an error. Downloading updated update-notes.json file instead...');
+        triggerJsonDownload();
       }
     } catch (e) {
-      alert('Could not reach local server. Use Export JSON to download update-notes.json.');
+      alert('⚠️ Local server backend not active. Downloading updated update-notes.json file directly to replace in your repository...');
+      triggerJsonDownload();
     }
   });
 
-  btnExportJson.addEventListener('click', () => {
+  function triggerJsonDownload() {
     saveCurrentFormToEntry();
     const jsonStr = JSON.stringify(notesData, null, 2);
     const blob = new Blob([jsonStr], { type: 'application/json' });
@@ -393,6 +412,10 @@
     a.download = 'update-notes.json';
     a.click();
     URL.revokeObjectURL(url);
+  }
+
+  btnExportJson.addEventListener('click', () => {
+    triggerJsonDownload();
   });
 
   function escapeHtml(str) {
