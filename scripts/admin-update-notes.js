@@ -77,22 +77,31 @@
     loadEntryToForm(0);
   }
 
+  let activeAdminFolder = 'all';
+
   function renderEntriesList() {
     sortEntriesDescending(notesData.entries);
     entriesListContainer.innerHTML = '';
+
     notesData.entries.forEach((entry, idx) => {
+      const typeLabel = entry.popupType || 'release_notes';
+
+      if (activeAdminFolder === 'release_notes' && typeLabel === 'announcement') return;
+      if (activeAdminFolder === 'announcement' && typeLabel !== 'announcement') return;
+
       const card = document.createElement('div');
       card.className = 'entry-card' + (idx === selectedEntryIndex ? ' is-selected' : '');
 
       const isPopup = entry.showAsPopup !== false;
-      const typeLabel = entry.popupType || 'release_notes';
+      const isAnno = typeLabel === 'announcement';
+      const versionText = (isAnno && !entry.version) ? 'ANNOUNCEMENT' : (entry.version ? ('v' + entry.version) : 'ANNOUNCEMENT');
 
       card.innerHTML = `
         <div class="entry-card-title">${escapeHtml(entry.title || 'Untitled Entry')}</div>
         <div class="entry-card-meta">
-          <span>v${escapeHtml(entry.version || '2.3.24')}</span>
+          <span>${escapeHtml(versionText)}</span>
           ${isPopup ? '<span class="badge badge-popup">POPUP</span>' : ''}
-          <span class="badge ${typeLabel === 'announcement' ? 'badge-announcement' : 'badge-release'}">${escapeHtml(typeLabel)}</span>
+          <span class="badge ${isAnno ? 'badge-announcement' : 'badge-release'}">${escapeHtml(typeLabel)}</span>
         </div>
       `;
 
@@ -319,30 +328,90 @@
     });
   });
 
+  inputPopupType.addEventListener('change', () => {
+    const entry = notesData.entries[selectedEntryIndex];
+    if (!entry) return;
+    if (inputPopupType.value === 'announcement') {
+      entry.version = '';
+      inputVersion.value = '';
+      if (entry.id.startsWith('entry_')) {
+        entry.id = 'announcement_' + Date.now();
+        inputId.value = entry.id;
+      }
+    } else if (inputPopupType.value === 'release_notes') {
+      if (!entry.version) {
+        const nextVer = getNextVersion();
+        entry.version = nextVer;
+        inputVersion.value = nextVer;
+        if (entry.id.startsWith('announcement_')) {
+          entry.id = 'entry_' + nextVer;
+          inputId.value = entry.id;
+        }
+      }
+    }
+    saveCurrentFormToEntry();
+    renderEntriesList();
+    updateSimulator();
+  });
+
   btnNewEntry.addEventListener('click', () => {
     saveCurrentFormToEntry();
-    const newEntry = {
-      id: 'entry_' + Date.now(),
-      version: '2.4.0',
-      publishedAt: new Date().toISOString(),
-      title: 'New Update Title',
-      subtitle: 'New update description subtitle.',
-      showAsPopup: true,
-      popupType: 'release_notes',
-      slides: [
-        {
-          type: 'feature',
-          label: 'NEW',
-          title: 'New Feature Highlight',
-          description: 'Explanation of the new capability.'
-        }
-      ]
-    };
+    notesData.entries.forEach(e => e.showAsPopup = false);
+
+    const isCreatingAnnouncement = (activeAdminFolder === 'announcement');
+    let newEntry;
+
+    if (isCreatingAnnouncement) {
+      const nowTs = Date.now();
+      newEntry = {
+        id: 'announcement_' + nowTs,
+        version: '',
+        publishedAt: new Date().toISOString(),
+        title: 'New Flowtime Announcement',
+        subtitle: 'Important announcement for Flowtime users.',
+        showAsPopup: true,
+        popupType: 'announcement',
+        minAppVersion: null,
+        maxAppVersion: null,
+        slides: [
+          {
+            type: 'feature',
+            label: 'ANNOUNCEMENT',
+            title: 'Announcement Title',
+            description: 'Details about this announcement.'
+          }
+        ]
+      };
+    } else {
+      const nextVer = getNextVersion();
+      newEntry = {
+        id: 'entry_' + nextVer,
+        version: nextVer,
+        publishedAt: new Date().toISOString(),
+        title: "What's new in Flowtime " + nextVer,
+        subtitle: 'New features and focus enhancements.',
+        showAsPopup: true,
+        popupType: 'release_notes',
+        minAppVersion: null,
+        maxAppVersion: null,
+        slides: [
+          {
+            type: 'feature',
+            label: 'NEW',
+            title: 'New Feature Highlight',
+            description: 'Explanation of the new capability.'
+          }
+        ]
+      };
+    }
+
     notesData.entries.unshift(newEntry);
-    selectedEntryIndex = 0;
+    sortEntriesDescending(notesData.entries);
+    selectedEntryIndex = notesData.entries.indexOf(newEntry);
+    if (selectedEntryIndex < 0) selectedEntryIndex = 0;
     selectedSlideIndex = 0;
     renderEntriesList();
-    loadEntryToForm(0);
+    loadEntryToForm(selectedEntryIndex);
   });
 
   btnAddSlide.addEventListener('click', () => {
@@ -432,6 +501,16 @@
   function sortEntriesDescending(entries) {
     if (!Array.isArray(entries)) return;
     entries.sort((a, b) => {
+      const aIsAnno = a.popupType === 'announcement';
+      const bIsAnno = b.popupType === 'announcement';
+
+      if (!aIsAnno && !bIsAnno) {
+        const semverCmp = compareSemverDescending(a.version || '', b.version || '');
+        if (semverCmp !== 0) {
+          return semverCmp;
+        }
+      }
+
       if (a.publishedAt && b.publishedAt) {
         const d1 = new Date(a.publishedAt).getTime();
         const d2 = new Date(b.publishedAt).getTime();
@@ -439,6 +518,7 @@
           return d2 - d1;
         }
       }
+
       return compareSemverDescending(a.version || '', b.version || '');
     });
   }
@@ -463,6 +543,28 @@
       parseInt(parts[2], 10) || 0
     ];
   }
+
+  function getNextVersion() {
+    if (!notesData.entries || notesData.entries.length === 0) return '2.5.0';
+    let highest = [2, 4, 0];
+    notesData.entries.forEach(e => {
+      const parts = parseSemver(e.version || '');
+      if (compareSemverDescending(parts.join('.'), highest.join('.')) < 0) {
+        highest = parts;
+      }
+    });
+    highest[2] += 1;
+    return highest.join('.');
+  }
+
+  document.querySelectorAll('#admin-folder-tabs .folder-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('#admin-folder-tabs .folder-tab').forEach(t => t.classList.remove('is-active'));
+      tab.classList.add('is-active');
+      activeAdminFolder = tab.getAttribute('data-folder') || 'all';
+      renderEntriesList();
+    });
+  });
 
   loadData();
 })();

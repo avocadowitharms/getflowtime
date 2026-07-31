@@ -1,43 +1,34 @@
 {
-  "version": "2.4.1",
-  "title": "Whatâ€™s new in Flowtime 2.4.1",
-  "subtitle": "Small bug fixes",
+  "version": "2.5.0",
+  "title": "What's new in Flowtime 2.5.0",
+  "subtitle": "In-app notifications, release notes history, and overall focus timer enhancements.",
   "slides": [
     {
       "type": "feature",
       "label": "NEW",
-      "title": "Bug fixes",
-      "description": "Fixed some packaging issues for android and other small things. ",
-      "imageUrl": null
+      "title": "In-App Notifications & Release History",
+      "description": "Never miss important updates with in-app pop-up notifications and a dedicated previous update history list in Settings."
+    },
+    {
+      "type": "list",
+      "label": "NEW",
+      "title": "Included in version 2.5.0",
+      "description": "",
+      "items": [
+        "In-app pop-up notification announcements",
+        "Browse all previous release notes history in Settings",
+        "Quick Start templates and notification templates",
+        "10 language support and general stability fixes"
+      ]
     }
   ],
   "entries": [
     {
-      "id": "entry_2.4.1",
-      "version": "2.4.1",
-      "publishedAt": "2026-07-31T11:00:00Z",
-      "title": "Whatâ€™s new in Flowtime 2.4.1",
-      "subtitle": "Small bug fixes",
-      "showAsPopup": false,
-      "popupType": "release_notes",
-      "minAppVersion": null,
-      "maxAppVersion": null,
-      "slides": [
-        {
-          "type": "feature",
-          "label": "NEW",
-          "title": "Bug fixes",
-          "description": "Fixed some packaging issues for android and other small things. ",
-          "imageUrl": null
-        }
-      ]
-    },
-    {
       "id": "entry_2.5.0",
       "version": "2.5.0",
-      "publishedAt": "2026-07-31T09:50:50.256Z",
-      "title": "Whatâ€™s new in Flowtime 2.5.0",
-      "subtitle": "In-app notifications, release notes history, telemetry deck integration.",
+      "publishedAt": "2026-07-31T10:04:31.236Z",
+      "title": "What's new in Flowtime 2.5.0",
+      "subtitle": "In-app notifications, release notes history, and overall focus timer enhancements.",
       "showAsPopup": true,
       "popupType": "release_notes",
       "slides": [
@@ -45,27 +36,16 @@
           "type": "feature",
           "label": "NEW",
           "title": "In-App Notifications & Release History",
-          "description": "Never miss important updates with in-app pop-up notifications and a dedicated previous update history list in Settings.\nAdded non-user related data tracking service. For more info, check the Privacy Policy at \nhttps://flowtime-app.com/docs/privacy-policy.html"
-        }
-      ],
-      "minAppVersion": null,
-      "maxAppVersion": null
-    },
-    {
-      "id": "entry_2.4.0",
-      "version": "2.4.0",
-      "publishedAt": "2026-07-25T09:17:10.518Z",
-      "title": "Whatâ€™s new in Flowtime 2.4.0",
-      "subtitle": "Usability and accessibility updates.",
-      "showAsPopup": false,
-      "popupType": "release_notes",
-      "slides": [
+          "description": "Never miss important updates with in-app pop-up notifications and a dedicated previous update history list in Settings."
+        },
         {
           "type": "list",
           "label": "NEW",
-          "title": "",
+          "title": "Included in version 2.5.0",
           "description": "",
           "items": [
+            "In-app pop-up notification announcements",
+            "Browse all previous release notes history in Settings",
             "Quick Start templates and notification templates",
             "10 language support and general stability fixes"
           ]
@@ -75,10 +55,53 @@
       "maxAppVersion": null
     },
     {
+      "id": "entry_2.4.1",
+      "version": "2.4.1",
+      "publishedAt": "2026-07-25T11:00:00Z",
+      "title": "What's new in Flowtime 2.4.1",
+      "subtitle": "Small bug fixes and improvements",
+      "showAsPopup": false,
+      "popupType": "release_notes",
+      "minAppVersion": null,
+      "maxAppVersion": null,
+      "slides": [
+        {
+          "type": "feature",
+          "label": "NEW",
+          "title": "In-App Notifications & Release History",
+          "description": "",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "id": "entry_2.4.0",
+      "version": "2.4.0",
+      "publishedAt": "2026-07-31T09:17:00Z",
+      "title": "What's new in Flowtime 2.4.0",
+      "subtitle": "Usability and accessibility updates.",
+      "showAsPopup": false,
+      "popupType": "release_notes",
+      "minAppVersion": null,
+      "maxAppVersion": null,
+      "slides": [
+        {
+          "type": "list",
+          "label": "NEW",
+          "title": "Usability Updates",
+          "description": "Quick Start templates, notification templates, and 10 language support.",
+          "items": [
+            "Quick Start templates and notification templates",
+            "10 language support and general stability fixes"
+          ]
+        }
+      ]
+    },
+    {
       "id": "entry_2.3.30",
       "version": "2.3.30",
       "publishedAt": "2026-07-14T10:00:00Z",
-      "title": "Whatâ€™s new in Flowtime 2.3.30",
+      "title": "What's new in Flowtime 2.3.30",
       "subtitle": "Improved project editing on small screens, folder templates, and new accent colors.",
       "showAsPopup": false,
       "popupType": "release_notes",
@@ -109,7 +132,7 @@
       "id": "entry_2.3.24",
       "version": "2.3.24",
       "publishedAt": "2026-07-04T18:30:00Z",
-      "title": "Whatâ€™s new in Flowtime 2.3.24",
+      "title": "What's new in Flowtime 2.3.24",
       "subtitle": "Session Templates and Custom Reminder Profiles for Flowtime Pro.",
       "showAsPopup": false,
       "popupType": "release_notes",
@@ -138,7 +161,7 @@
       "id": "entry_2.3.17",
       "version": "2.3.17",
       "publishedAt": "2026-06-30T10:00:00Z",
-      "title": "Whatâ€™s new in Flowtime 2.3.17",
+      "title": "What's new in Flowtime 2.3.17",
       "subtitle": "App blocking, Live Activities & Dynamic Island, full-screen mode, and focus analytics.",
       "showAsPopup": false,
       "popupType": "release_notes",
@@ -169,7 +192,7 @@
       "id": "entry_2.2.5",
       "version": "2.2.5",
       "publishedAt": "2026-06-20T10:00:00Z",
-      "title": "Whatâ€™s new in Flowtime 2.2.5",
+      "title": "What's new in Flowtime 2.2.5",
       "subtitle": "Redesigned timer experience, glass navigation, and improved session notifications.",
       "showAsPopup": false,
       "popupType": "release_notes",
@@ -199,7 +222,7 @@
       "id": "entry_2.1.21",
       "version": "2.1.21",
       "publishedAt": "2026-06-12T10:00:00Z",
-      "title": "Whatâ€™s new in Flowtime 2.1.21",
+      "title": "What's new in Flowtime 2.1.21",
       "subtitle": "Improved timer controls, tap icon, and onboarding refinements.",
       "showAsPopup": false,
       "popupType": "release_notes",
@@ -229,7 +252,7 @@
       "id": "entry_2.0.0",
       "version": "2.0.0",
       "publishedAt": "2026-06-01T10:00:00Z",
-      "title": "Whatâ€™s new in Flowtime 2.0.0",
+      "title": "What's new in Flowtime 2.0.0",
       "subtitle": "Flowtime 2.0 â€“ Redesigned UI, multiple timer modes, and project tracking.",
       "showAsPopup": false,
       "popupType": "release_notes",
@@ -258,7 +281,7 @@
       "id": "entry_1.0.1",
       "version": "1.0.1",
       "publishedAt": "2026-05-15T10:00:00Z",
-      "title": "Whatâ€™s new in Flowtime 1.0.1",
+      "title": "What's new in Flowtime 1.0.1",
       "subtitle": "Timer notification reliability and performance fixes.",
       "showAsPopup": false,
       "popupType": "release_notes",
@@ -287,7 +310,7 @@
       "id": "entry_1.0.0",
       "version": "1.0.0",
       "publishedAt": "2026-05-01T10:00:00Z",
-      "title": "Whatâ€™s new in Flowtime 1.0.0",
+      "title": "What's new in Flowtime 1.0.0",
       "subtitle": "Initial release of Flowtime time tracking app.",
       "showAsPopup": false,
       "popupType": "release_notes",

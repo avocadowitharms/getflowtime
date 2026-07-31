@@ -168,11 +168,42 @@
       letter-spacing: 0.8px;
     }
 
+    .folder-tabs {
+      display: flex;
+      gap: 5px;
+      margin-bottom: 10px;
+    }
+
+    .folder-tab {
+      flex: 1;
+      padding: 5px 4px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      border-radius: 8px;
+      background: #0f172a;
+      color: #94a3b8;
+      border: 1px solid #334155;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.15s ease;
+    }
+
+    .folder-tab:hover {
+      color: #ffffff;
+      background: #1e293b;
+    }
+
+    .folder-tab.is-active {
+      background: #3b82f6;
+      color: #ffffff;
+      border-color: #3b82f6;
+    }
+
     .entries-list {
       display: flex;
       flex-direction: column;
       gap: 8px;
-      max-height: calc(100vh - 160px);
+      max-height: calc(100vh - 190px);
       overflow-y: auto;
     }
 
@@ -547,6 +578,11 @@
       <div class="sidebar-header">
         <span>ENTRIES HISTORY</span>
         <button class="btn-sm btn-primary" id="btn-new-entry">+ New Entry</button>
+      </div>
+      <div class="folder-tabs" id="admin-folder-tabs">
+        <button class="folder-tab is-active" data-folder="all">All</button>
+        <button class="folder-tab" data-folder="release_notes">Release Notes</button>
+        <button class="folder-tab" data-folder="announcement">Announcements</button>
       </div>
       <div class="entries-list" id="entries-list-container">
         <!-- Rendered dynamically -->
