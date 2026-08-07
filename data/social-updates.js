@@ -268,5 +268,23 @@ window.FlowtimeUpdatesData = [
     "publishedAt": "2026-07-22T13:04:16.552Z",
     "createdAt": "2026-07-22T13:03:35.396Z",
     "updatedAt": "2026-07-22T13:04:16.552Z"
+  },
+  {
+    "id": "update_1786086414000_a3jigx331",
+    "title": "500 active Flowtime users! \ud83d\ude0d\ud83d\ude80",
+    "slug": "update-from-threads-dbs83a5cje3",
+    "description": "",
+    "body": "",
+    "platform": "threads",
+    "status": "published",
+    "originalUrl": "https://www.threads.com/@avadazina/post/Dbs83A5CJE3",
+    "externalPostId": "Dbs83A5CJE3",
+    "tags": [
+      "threads"
+    ],
+    "thumbnailUrl": null,
+    "publishedAt": "2026-08-07T07:07:26.493Z",
+    "createdAt": "2026-08-07T07:06:54.000Z",
+    "updatedAt": "2026-08-07T07:07:26.493Z"
   }
 ];

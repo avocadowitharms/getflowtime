@@ -7,6 +7,7 @@
     <span>${window.t("footer.copyright")}</span>
     <nav class="footer-links" aria-label="${window.t("footer.links")}">
       <a href="${root}about-flowtime/index.html">${window.t("footer.about")}</a>
+      <a href="${root}press/index.html">Press Kit</a>
       <a href="${root}docs/privacy-policy.html">${window.t("footer.privacy")}</a>
       <a href="${root}docs/terms-of-use.html">${window.t("footer.terms")}</a>
       <a href="${root}docs/support.html">${window.t("footer.support")}</a>

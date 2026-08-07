@@ -747,6 +747,16 @@
     }
   };
 
+  if (window.FlowtimePressKitConfig && window.FlowtimePressKitConfig.i18n) {
+    Object.keys(window.FlowtimePressKitConfig.i18n).forEach(function (loc) {
+      staticPageTranslations[loc] = staticPageTranslations[loc] || {};
+      var keys = window.FlowtimePressKitConfig.i18n[loc];
+      Object.keys(keys).forEach(function (k) {
+        staticPageTranslations[loc][k] = keys[k];
+      });
+    });
+  }
+
   Object.keys(staticPageTranslations).forEach(function (loc) {
     copy[loc] = copy[loc] || {};
     Object.keys(staticPageTranslations[loc]).forEach(function (key) {

@@ -1,0 +1,39 @@
+===================================================================
+FLOWTIME PRESS FACT SHEET
+===================================================================
+
+Product: Flowtime (Flowtime°)
+Category: Productivity / Focus / Time Awareness
+Platforms: iOS (iPhone) and Android
+Developer: Ava Thalheim (Indie Developer)
+Location: Switzerland
+Business Model: Free + Flowtime Pro ($3.99/mo, $24.99/yr, $49.99 lifetime)
+Privacy: No account required, local-first data storage
+Website: https://flowtime-app.com
+Press Contact: avocadowitharms@gmail.com
+App Store: https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969
+Google Play: https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime
+
+-------------------------------------------------------------------
+SHORT DESCRIPTION (~50 WORDS)
+-------------------------------------------------------------------
+Flowtime is a minimal, privacy-first focus timer built for iPhone and Android. Designed especially for people with ADHD, time blindness, or hyperfocus, Flowtime combines flexible session tracking, Pomodoro, gentle focus reminders, and optional app shielding into a simple experience that requires no account or cloud setup.
+
+-------------------------------------------------------------------
+WHY FLOWTIME EXISTS
+-------------------------------------------------------------------
+Flowtime started as a personal tool.
+Its creator, Swiss indie developer Ava Thalheim, wanted a focus timer that helped with both sides of ADHD productivity: starting work when executive dysfunction makes it difficult, and stopping when hyperfocus makes hours disappear.
+The result became Flowtime — a deliberately simple focus timer built around awareness rather than punishment.
+
+-------------------------------------------------------------------
+CORE DIFFERENTIATORS
+-------------------------------------------------------------------
+1. One-tap focus sessions — Start tracking focus instantly.
+2. No account required — Works local-first immediately after install.
+3. Privacy-first design — No ad trackers, no server-side history logs.
+4. Flexible timer modes — Count-up timers, Pomodoro, and open-ended Flow Sessions.
+5. Awareness reminders — Gentle cues for time blindness and hyperfocus.
+6. Optional app shielding — Mindful interruption without punitive lockouts.
+
+===================================================================

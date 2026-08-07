@@ -618,7 +618,17 @@ function renderPostsIndex(posts) {
   );
 }
 
+function syncSocialUpdates() {
+  const jsonPath = path.join(root, "data", "social-updates.json");
+  const jsPath = path.join(root, "data", "social-updates.js");
+  if (fs.existsSync(jsonPath)) {
+    const raw = fs.readFileSync(jsonPath, "utf8");
+    fs.writeFileSync(jsPath, `window.FlowtimeUpdatesData = ${raw.trim()};\n`);
+  }
+}
+
 function main() {
+  syncSocialUpdates();
   const posts = readPosts();
   posts.forEach((post) => {
     const dir = path.join(root, post.category, post.slug);
@@ -657,3 +667,4 @@ function main() {
 }
 
 main();
+

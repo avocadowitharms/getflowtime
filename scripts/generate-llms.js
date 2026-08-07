@@ -75,6 +75,9 @@ ${siteUrl}/llms-full.txt
 About Flowtime:
 ${siteUrl}/about-flowtime/
 
+Press Kit:
+${siteUrl}/press/
+
 Guides:
 ${siteUrl}/guides/
 

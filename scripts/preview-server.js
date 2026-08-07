@@ -13,10 +13,13 @@ const mimeTypes = {
   ".jpeg": "image/jpeg",
   ".js": "text/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8",
+  ".pdf": "application/pdf",
   ".png": "image/png",
   ".svg": "image/svg+xml",
   ".txt": "text/plain; charset=utf-8",
-  ".xml": "application/xml; charset=utf-8"
+  ".webp": "image/webp",
+  ".xml": "application/xml; charset=utf-8",
+  ".zip": "application/zip"
 };
 
 function send(res, status, body, contentType) {
@@ -63,9 +66,15 @@ function staticFilePath(requestUrl) {
 
   if (pathname === "/") {
     pathname = "/index.html";
+  } else if (pathname.endsWith("/")) {
+    pathname += "index.html";
   }
 
-  const filePath = path.resolve(root, pathname.replace(/^\/+/, ""));
+  let filePath = path.resolve(root, pathname.replace(/^\/+/, ""));
+  if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
+    filePath = path.join(filePath, "index.html");
+  }
+
   const isInsideRoot = filePath === root || filePath.startsWith(`${root}${path.sep}`);
   return isInsideRoot ? filePath : null;
 }

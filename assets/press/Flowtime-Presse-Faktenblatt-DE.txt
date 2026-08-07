@@ -1,0 +1,39 @@
+===================================================================
+FLOWTIME PRESSE-FAKTENBLATT (DEUTSCH)
+===================================================================
+
+Produkt: Flowtime (Flowtime°)
+Kategorie: Produktivität / Fokus / Zeitbewusstsein
+Plattformen: iOS (iPhone) und Android
+Entwicklerin: Ava Thalheim (Indie-Entwicklerin)
+Standort: Schweiz
+Geschäftsmodell: Kostenlos + Flowtime Pro (3,99 $/Monat, 24,99 $/Jahr, 49,99 $ Lebenslang)
+Datenschutz: Kein Konto erforderlich, lokale Datenspeicherung
+Website: https://flowtime-app.com
+Pressekontakt: avocadowitharms@gmail.com
+App Store: https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969
+Google Play: https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime
+
+-------------------------------------------------------------------
+KURZBESCHREIBUNG (~50 WÖRTER)
+-------------------------------------------------------------------
+Flowtime ist ein minimaler, datenschutzfreundlicher Fokus-Timer für iPhone und Android. Speziell für Menschen mit ADHS, Zeitblindheit oder Hyperfokus entwickelt, kombiniert Flowtime flexible Zeiterfassung, Pomodoro, sanfte Fokus-Erinnerungen und optionale App-Sperren in einer einfachen Erfahrung ohne Konto oder Cloud-Setup.
+
+-------------------------------------------------------------------
+WARUM FLOWTIME EXISTIERT
+-------------------------------------------------------------------
+Flowtime begann als persönliches Werkzeug.
+Die Gründerin, die Schweizer Indie-Entwicklerin Ava Thalheim, wollte einen Fokus-Timer, der bei beiden Seiten der ADHS-Produktivität hilft: Mit der Arbeit zu beginnen, wenn die exekutive Dysfunktion es erschwert, und aufzuhören, wenn Hyperfokus Stunden vergehen lässt.
+Das Ergebnis wurde Flowtime — ein bewusst einfacher Fokus-Timer, der auf Achtsamkeit statt auf Bestrafung setzt.
+
+-------------------------------------------------------------------
+KERNEIGENSCHAFTEN & UNTERSCHEIDUNGSMERKMALE
+-------------------------------------------------------------------
+1. Fokus-Sessions mit einem Tipp — Starte die Zeiterfassung sofort.
+2. Kein Konto erforderlich — Funktioniert lokal ohne Registrierung.
+3. Datenschutzfreundliches Design — Keine Werbetracker, keine Server-Logs.
+4. Flexible Timer-Modi — Vorwärts-Timer, Pomodoro und offene Flow-Sessions.
+5. Achtsamkeits-Erinnerungen — Sanfte Impulse bei Zeitblindheit & Hyperfokus.
+6. Optionale App-Sperre — Bewusste Unterbrechung ohne bestrafende Komplettsperre.
+
+===================================================================
