@@ -1,39 +1,114 @@
 {
   "version": "2.5.0",
-  "title": "What's new in Flowtime 2.5.0",
-  "subtitle": "Improved Free vs Pro experience, accent color handling, automatic System theme support, and anonymous usage analytics.",
+  "title": "Important Update!",
+  "subtitle": "",
   "slides": [
     {
       "type": "feature",
-      "label": "NEW",
-      "title": "What's New in 2.5.0",
-      "description": "Improved Free vs Pro experience, new release notes and in-app update notifications, automatic System theme support, accent color handling, and UI refinements."
+      "label": "ANNOUNCEMENT",
+      "title": "Important update to Flowtime tiers!",
+      "description": "Hi everyone,\n\nI wanted to let you know about an upcoming change to Flowtime.\n\nStarting September 1st, Flowtime will introduce a new Free and Pro structure. My goal is to keep the free version a great, privacy-first focus timer while making continued development of new features sustainable."
     },
     {
       "type": "list",
       "label": "NEW",
-      "title": "Included in version 2.5.0",
-      "description": "",
+      "title": "Free",
+      "description": "Features remaining in free tier. ",
       "items": [
-        "Improved Free vs Pro experience and updated upgrade screens",
-        "New release notes and in-app update notifications",
-        "Better accent color handling and improved theme behavior",
-        "Added automatic System theme support",
-        "Fixed onboarding button text and several UI inconsistencies",
-        "General bug fixes, stability improvements, and performance enhancements"
+        "Standard Timer",
+        "Standard notifications",
+        "Pomodoro (fixed intervals)",
+        "1 Project",
+        "1 day of History"
+      ]
+    },
+    {
+      "type": "list",
+      "label": "NEW",
+      "title": "Pro",
+      "description": "Pro now covers customization. ",
+      "items": [
+        "Flow Sessions",
+        "Flowmodoro",
+        "Custom Pomodoro intervals",
+        "Unlimited Projects",
+        "Unlimited History",
+        "App Blocking",
+        "Quick Start Templates",
+        "Reminder Profiles",
+        "UI customization (accent colors)",
+        "Reports & Exports",
+        "All future pro features"
       ]
     },
     {
       "type": "feature",
-      "label": "PRIVACY",
-      "title": "Anonymous Usage Analytics",
-      "description": "Flowtime uses TelemetryDeck to collect anonymous usage statistics. These analytics help improve the app by identifying crashes, feature usage, and performance issues. No advertising identifiers are collected, no user profiles are created, and the collected information is not used for advertising or cross-app tracking."
+      "label": "NEW",
+      "title": "Thank you! ",
+      "description": "Thank you for being an early supporter of Flowtime. \nEvery download, review, bug report, and feature suggestion has helped shape the app into what it is today.\n\nAs a small thank you, Flowtime Pro will be available at 50% off for a limited time after the update launches on September 1st. If you've been thinking about supporting the project, this will be the best opportunity to do so.\n\nFlowtime will continue to be privacy-first, require no account, and remain free from ads.\n\nThank you for being part of the journey.\n\nâ€” Ava"
     }
   ],
   "entries": [
     {
-      "id": "entry_2.5.0",
+      "id": "announcement_1786179285127",
       "version": "2.5.0",
+      "publishedAt": "2026-08-08T08:54:45.127Z",
+      "title": "Important Update!",
+      "subtitle": "",
+      "showAsPopup": true,
+      "popupType": "announcement",
+      "minAppVersion": null,
+      "maxAppVersion": null,
+      "slides": [
+        {
+          "type": "feature",
+          "label": "ANNOUNCEMENT",
+          "title": "Important update to Flowtime tiers!",
+          "description": "Hi everyone,\n\nI wanted to let you know about an upcoming change to Flowtime.\n\nStarting September 1st, Flowtime will introduce a new Free and Pro structure. My goal is to keep the free version a great, privacy-first focus timer while making continued development of new features sustainable."
+        },
+        {
+          "type": "list",
+          "label": "NEW",
+          "title": "Free",
+          "description": "Features remaining in free tier. ",
+          "items": [
+            "Standard Timer",
+            "Standard notifications",
+            "Pomodoro (fixed intervals)",
+            "1 Project",
+            "1 day of History"
+          ]
+        },
+        {
+          "type": "list",
+          "label": "NEW",
+          "title": "Pro",
+          "description": "Pro now covers customization. ",
+          "items": [
+            "Flow Sessions",
+            "Flowmodoro",
+            "Custom Pomodoro intervals",
+            "Unlimited Projects",
+            "Unlimited History",
+            "App Blocking",
+            "Quick Start Templates",
+            "Reminder Profiles",
+            "UI customization (accent colors)",
+            "Reports & Exports",
+            "All future pro features"
+          ]
+        },
+        {
+          "type": "feature",
+          "label": "NEW",
+          "title": "Thank you! ",
+          "description": "Thank you for being an early supporter of Flowtime. \nEvery download, review, bug report, and feature suggestion has helped shape the app into what it is today.\n\nAs a small thank you, Flowtime Pro will be available at 50% off for a limited time after the update launches on September 1st. If you've been thinking about supporting the project, this will be the best opportunity to do so.\n\nFlowtime will continue to be privacy-first, require no account, and remain free from ads.\n\nThank you for being part of the journey.\n\nâ€” Ava"
+        }
+      ]
+    },
+    {
+      "id": "entry_2.5.0",
+      "version": "2.5.5",
       "publishedAt": "2026-07-31T10:04:31.236Z",
       "title": "What's new in Flowtime 2.5.0",
       "subtitle": "Improved Free vs Pro experience, accent color handling, automatic System theme support, and anonymous usage analytics.",
@@ -269,7 +344,7 @@
       "version": "2.0.0",
       "publishedAt": "2026-06-01T10:00:00Z",
       "title": "What's new in Flowtime 2.0.0",
-      "subtitle": "Flowtime 2.0 ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ Redesigned UI, multiple timer modes, and project tracking.",
+      "subtitle": "Flowtime 2.0 ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ Redesigned UI, multiple timer modes, and project tracking.",
       "showAsPopup": false,
       "popupType": "release_notes",
       "minAppVersion": null,
