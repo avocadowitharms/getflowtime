@@ -140,18 +140,4 @@ The current website tracks:
 
 - `app_store_click`
 - `google_play_click`
-- `newsletter_open`
-- `newsletter_signup_submit`
-- `newsletter_success`
-
-The MailerLite signup form also receives hidden attribution fields before
-submission:
-
-- `fields[utm_source]`
-- `fields[utm_medium]`
-- `fields[utm_campaign]`
-- `fields[utm_content]`
-- `fields[utm_term]`
-- `fields[landing_page]`
-- `fields[referrer]`
-- `fields[first_visit]`
+- `discord_join`

@@ -51,9 +51,9 @@ window.renderSection("hero", `
             height="250"
           />
         </a>
-        <button class="button primary" type="button" data-waitlist-open data-analytics-event="newsletter_open" data-analytics-location="hero">
-          ${window.t("cta.waitlist.long")} <span aria-hidden="true">&rarr;</span>
-        </button>
+        <a class="button primary" href="https://discord.gg/4P4QudduWm" target="_blank" rel="noopener noreferrer" data-analytics-event="discord_join" data-analytics-location="hero">
+          ${window.t("cta.discord")} <span aria-hidden="true">&rarr;</span>
+        </a>
       </div>
       <div class="launch-announcement" aria-label="${window.t("launch.eyebrow")}">
         <span>${window.t("launch.eyebrow")}</span>
