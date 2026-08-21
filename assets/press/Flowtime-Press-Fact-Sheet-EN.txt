@@ -10,7 +10,7 @@ Location: Switzerland
 Business Model: Free + Flowtime Pro ($3.99/mo, $24.99/yr, $49.99 lifetime)
 Privacy: No account required, local-first data storage
 Website: https://flowtime-app.com
-Press Contact: avocadowitharms@gmail.com
+Press Contact: ava@flowtime-app.com
 App Store: https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969
 Google Play: https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime
 

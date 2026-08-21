@@ -32,7 +32,7 @@
           ["Data sharing", "<p>Flowtime does not share your tracking data with third parties for advertising or tracking purposes. Apple and Google may process purchase information under their own privacy policies when you choose to make or restore a purchase.</p>"],
           ["AI discovery and referral measurement", "<p>Flowtime may analyze limited server request information to understand whether known AI assistants, AI search systems, and automated crawlers discover, fetch, or refer people to public Flowtime pages. This may include the request timestamp, requested page path, detected AI service or automated agent, broad referral source when available, request method, and response status.</p><p>This processing does not use cookies, visitor profiles, browser fingerprinting, cross-page tracking, full IP addresses, complete referral URLs, request bodies, or personal identifiers. Referrals from AI assistants are stored only as the referring domain, such as chatgpt.com, and page URLs are stored only as pathnames without query parameter values.</p>"],
           ["Deletion and choices", "<p>You can delete locally stored tracking data from the Data screen in Flowtime settings. You can manage or cancel a recurring Flowtime Pro subscription through your Apple App Store or Google Play subscription settings.</p>"],
-          ["Contact", "<p>For privacy questions, contact <a href=\"mailto:avocadowitharms@gmail.com\">avocadowitharms@gmail.com</a>.</p>"]
+          ["Contact", "<p>For privacy questions, contact <a href=\"mailto:ava@flowtime-app.com\">ava@flowtime-app.com</a>.</p>"]
         ]
       },
       terms: {
@@ -43,14 +43,14 @@
           ["Subscriptions", "<p>Monthly and yearly Flowtime Pro subscriptions renew automatically at the applicable displayed price and billing period unless canceled before renewal through the subscription settings of the store used for purchase.</p><p>You can manage or cancel subscriptions through your Apple App Store or Google Play account settings. Cancellation takes effect according to the store terms that apply to your transaction.</p>"],
           ["One-time purchases", "<p>A Founders Lifetime plan, when available, is a one-time purchase and does not automatically renew.</p>"],
           ["Store terms", "<p>Purchases are processed by Apple App Store or Google Play and remain subject to the applicable store terms, refund rules, and account requirements.</p>"],
-          ["Contact", "<p>For purchase questions, contact <a href=\"mailto:avocadowitharms@gmail.com\">avocadowitharms@gmail.com</a>.</p>"]
+          ["Contact", "<p>For purchase questions, contact <a href=\"mailto:ava@flowtime-app.com\">ava@flowtime-app.com</a>.</p>"]
         ]
       },
       support: {
         title: "Support",
         intro: "Need help with Flowtime? Send us an email and we will help you get back to focus.",
         sections: [
-          ["Contact support", "<p>If you experience issues or have questions about Flowtime, contact us at <a href=\"mailto:avocadowitharms@gmail.com\">avocadowitharms@gmail.com</a>.</p><p>We usually respond within a few business days.</p>"]
+          ["Contact support", "<p>If you experience issues or have questions about Flowtime, contact us at <a href=\"mailto:ava@flowtime-app.com\">ava@flowtime-app.com</a>.</p><p>We usually respond within a few business days.</p>"]
         ]
       }
     },
@@ -77,7 +77,7 @@
           ["Weitergabe von Daten", "<p>Flowtime gibt deine Tracking-Daten nicht zu Werbe- oder Trackingzwecken an Dritte weiter. Apple und Google können Kaufinformationen gemäß ihren eigenen Datenschutzrichtlinien verarbeiten, wenn du einen Kauf tätigst oder wiederherstellst.</p>"],
           ["Messung von KI-Auffindbarkeit und KI-Verweisen", "<p>Flowtime kann begrenzte Server-Anfragedaten auswerten, um zu verstehen, ob bekannte KI-Assistenten, KI-Suchsysteme und automatisierte Crawler &ouml;ffentliche Flowtime-Seiten finden, abrufen oder Menschen dorthin verweisen. Dazu k&ouml;nnen der Zeitpunkt der Anfrage, der angefragte Seitenpfad, der erkannte KI-Dienst oder automatisierte Agent, eine grobe Verweisquelle, sofern vorhanden, die Anfragemethode und der Antwortstatus geh&ouml;ren.</p><p>Diese Verarbeitung verwendet keine Cookies, Besucherprofile, Browser-Fingerprinting, seiten&uuml;bergreifendes Tracking, vollst&auml;ndigen IP-Adressen, vollst&auml;ndigen Referrer-URLs, Anfrageinhalte oder pers&ouml;nlichen Kennungen. Verweise von KI-Assistenten werden nur als verweisende Domain gespeichert, zum Beispiel chatgpt.com; Seiten-URLs werden nur als Pfadnamen ohne Werte von Query-Parametern gespeichert.</p>"],
           ["Löschung und Auswahlmöglichkeiten", "<p>Du kannst lokal gespeicherte Tracking-Daten im Datenbereich der Flowtime-Einstellungen löschen. Ein wiederkehrendes Flowtime Pro-Abonnement kannst du über die Abonnementeinstellungen im Apple App Store oder bei Google Play verwalten oder kündigen.</p>"],
-          ["Kontakt", "<p>Bei Fragen zum Datenschutz kontaktiere <a href=\"mailto:avocadowitharms@gmail.com\">avocadowitharms@gmail.com</a>.</p>"]
+          ["Kontakt", "<p>Bei Fragen zum Datenschutz kontaktiere <a href=\"mailto:ava@flowtime-app.com\">ava@flowtime-app.com</a>.</p>"]
         ]
       },
       terms: {
@@ -88,14 +88,14 @@
           ["Abonnements", "<p>Monatliche und jährliche Flowtime Pro-Abonnements verlängern sich automatisch zum angezeigten Preis und Abrechnungszeitraum, sofern sie nicht vor der Verlängerung in den Abonnementeinstellungen des für den Kauf verwendeten Stores gekündigt werden.</p><p>Du kannst Abonnements über deine Kontoeinstellungen im Apple App Store oder bei Google Play verwalten oder kündigen. Die Kündigung gilt entsprechend den Store-Bedingungen für deine Transaktion.</p>"],
           ["Einmalige Käufe", "<p>Ein Founders Lifetime-Tarif ist, sofern verfügbar, ein einmaliger Kauf und verlängert sich nicht automatisch.</p>"],
           ["Store-Bedingungen", "<p>Käufe werden über den Apple App Store oder Google Play abgewickelt und unterliegen den geltenden Store-Bedingungen, Erstattungsregeln und Kontoanforderungen.</p>"],
-          ["Kontakt", "<p>Bei Fragen zu Käufen kontaktiere <a href=\"mailto:avocadowitharms@gmail.com\">avocadowitharms@gmail.com</a>.</p>"]
+          ["Kontakt", "<p>Bei Fragen zu Käufen kontaktiere <a href=\"mailto:ava@flowtime-app.com\">ava@flowtime-app.com</a>.</p>"]
         ]
       },
       support: {
         title: "Support",
         intro: "Du brauchst Hilfe mit Flowtime? Schreib uns eine E-Mail, damit du schnell wieder fokussiert arbeiten kannst.",
         sections: [
-          ["Support kontaktieren", "<p>Wenn du Probleme hast oder Fragen zu Flowtime hast, kontaktiere uns unter <a href=\"mailto:avocadowitharms@gmail.com\">avocadowitharms@gmail.com</a>.</p><p>Wir antworten normalerweise innerhalb weniger Werktage.</p>"]
+          ["Support kontaktieren", "<p>Wenn du Probleme hast oder Fragen zu Flowtime hast, kontaktiere uns unter <a href=\"mailto:ava@flowtime-app.com\">ava@flowtime-app.com</a>.</p><p>Wir antworten normalerweise innerhalb weniger Werktage.</p>"]
         ]
       }
     },
@@ -122,7 +122,7 @@
           ["Partage des données", "<p>Flowtime ne partage pas vos données de suivi avec des tiers à des fins publicitaires ou de suivi. Apple et Google peuvent traiter les informations d'achat selon leurs propres politiques de confidentialité lorsque vous effectuez ou restaurez un achat.</p>"],
           ["Mesure de la d&eacute;couverte et des renvois par l'IA", "<p>Flowtime peut analyser des informations limit&eacute;es issues des requ&ecirc;tes serveur afin de comprendre si des assistants IA connus, des syst&egrave;mes de recherche IA et des robots automatis&eacute;s d&eacute;couvrent, consultent ou renvoient des personnes vers les pages publiques de Flowtime. Cela peut inclure l'horodatage de la requ&ecirc;te, le chemin de la page demand&eacute;e, le service IA ou l'agent automatis&eacute; d&eacute;tect&eacute;, la source de renvoi g&eacute;n&eacute;rale lorsqu'elle est disponible, la m&eacute;thode de requ&ecirc;te et le statut de r&eacute;ponse.</p><p>Ce traitement n'utilise pas de cookies, de profils visiteurs, d'empreintes de navigateur, de suivi entre les pages, d'adresses IP compl&egrave;tes, d'URL de renvoi compl&egrave;tes, de corps de requ&ecirc;te ni d'identifiants personnels. Les renvois provenant d'assistants IA sont stock&eacute;s uniquement sous forme de domaine r&eacute;f&eacute;rent, par exemple chatgpt.com, et les URL des pages sont stock&eacute;es uniquement sous forme de chemins sans valeurs de param&egrave;tres de requ&ecirc;te.</p>"],
           ["Suppression et choix", "<p>Vous pouvez supprimer les données de suivi enregistrées localement depuis l'écran Données des réglages Flowtime. Vous pouvez gérer ou annuler un abonnement Flowtime Pro récurrent depuis les réglages d'abonnement de l'Apple App Store ou de Google Play.</p>"],
-          ["Contact", "<p>Pour toute question relative à la confidentialité, contactez <a href=\"mailto:avocadowitharms@gmail.com\">avocadowitharms@gmail.com</a>.</p>"]
+          ["Contact", "<p>Pour toute question relative à la confidentialité, contactez <a href=\"mailto:ava@flowtime-app.com\">ava@flowtime-app.com</a>.</p>"]
         ]
       },
       terms: {
@@ -133,14 +133,14 @@
           ["Abonnements", "<p>Les abonnements mensuels et annuels Flowtime Pro sont renouvelés automatiquement au prix et pour la période de facturation affichés, sauf annulation avant le renouvellement depuis les réglages d'abonnement de la boutique utilisée pour l'achat.</p><p>Vous pouvez gérer ou annuler vos abonnements depuis les réglages de votre compte Apple App Store ou Google Play. L'annulation prend effet conformément aux conditions de la boutique applicables à votre transaction.</p>"],
           ["Achats uniques", "<p>Une formule Founders Lifetime, lorsqu'elle est disponible, constitue un achat unique et n'est pas renouvelée automatiquement.</p>"],
           ["Conditions des boutiques", "<p>Les achats sont traités par l'Apple App Store ou Google Play et restent soumis aux conditions, règles de remboursement et exigences de compte applicables de la boutique.</p>"],
-          ["Contact", "<p>Pour toute question relative aux achats, contactez <a href=\"mailto:avocadowitharms@gmail.com\">avocadowitharms@gmail.com</a>.</p>"]
+          ["Contact", "<p>Pour toute question relative aux achats, contactez <a href=\"mailto:ava@flowtime-app.com\">ava@flowtime-app.com</a>.</p>"]
         ]
       },
       support: {
         title: "Assistance",
         intro: "Besoin d'aide avec Flowtime ? Envoyez-nous un e-mail et nous vous aiderons à retrouver votre concentration.",
         sections: [
-          ["Contacter l'assistance", "<p>Si vous rencontrez un problème ou avez une question au sujet de Flowtime, contactez-nous à l'adresse <a href=\"mailto:avocadowitharms@gmail.com\">avocadowitharms@gmail.com</a>.</p><p>Nous répondons généralement sous quelques jours ouvrés.</p>"]
+          ["Contacter l'assistance", "<p>Si vous rencontrez un problème ou avez une question au sujet de Flowtime, contactez-nous à l'adresse <a href=\"mailto:ava@flowtime-app.com\">ava@flowtime-app.com</a>.</p><p>Nous répondons généralement sous quelques jours ouvrés.</p>"]
         ]
       }
     }
@@ -202,7 +202,7 @@
     "</header>",
     '<main class="document-main"><div class="document-title"><p class="eyebrow">Flowtime</p><h1>' + content.title + "</h1><p>" + content.intro + "</p></div>",
     '<article class="document-card">' + content.sections.map(sectionMarkup).join("") + '<p class="document-updated">' + language.common.updated + "</p>",
-    page === "support" ? '<a class="button primary support-contact" href="mailto:avocadowitharms@gmail.com">' + language.common.email + ' <span aria-hidden="true">&rarr;</span></a>' : "",
+    page === "support" ? '<a class="button primary support-contact" href="mailto:ava@flowtime-app.com">' + language.common.email + ' <span aria-hidden="true">&rarr;</span></a>' : "",
     "</article></main>",
     '<footer class="document-footer"><span>' + language.common.copyright + "</span><nav>",
     '<a href="../about-flowtime/index.html?lang=' + locale + '">About Flowtime</a>',
