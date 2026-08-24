@@ -9,7 +9,7 @@
   window.localStorage.setItem(storageKey, locale);
   var copy = {
     en: {
-      "meta.title": "Flowtime - ADHD Focus Timer for Time Blindness",
+      "meta.title": "Flowtime - Focus Timer & Time Tracker",
       "meta.description": "Flowtime is an ADHD focus timer for time blindness, hyperfocus, Pomodoro, focus reminders, project time tracking, and optional app blocking on iPhone and Android.",
       "meta.og.image.alt": "Flowtime focus timer and time tracker preview",
       "a11y.home": "Flowtime home",
@@ -217,7 +217,7 @@
       "footer.top": "Back to top"
     },
     de: {
-      "meta.title": "Flowtime - ADHS-Fokus-Timer für Zeitblindheit",
+      "meta.title": "Flowtime - Fokus-Timer & Zeiterfassung",
       "meta.description": "Flowtime ist ein ADHS-Fokus-Timer für Zeitblindheit, Hyperfokus, Pomodoro, Fokus-Erinnerungen, Projekt-Zeiterfassung und optionales App-Blocking für iPhone und Android.",
       "meta.og.image.alt": "Flowtime Fokus-Timer und Time-Tracker-Vorschau",
       "a11y.home": "Flowtime Startseite",
@@ -425,7 +425,7 @@
       "footer.top": "Nach oben"
     },
     fr: {
-      "meta.title": "Flowtime - Minuteur de concentration TDAH",
+      "meta.title": "Flowtime - Minuteur de concentration et suivi du temps",
       "meta.description": "Flowtime est un minuteur de concentration TDAH pour la notion du temps, l'hyperfocus, Pomodoro, les rappels, le suivi de projets et le blocage d'apps optionnel sur iPhone et Android.",
       "meta.og.image.alt": "Aperçu du minuteur de concentration et du time tracker Flowtime",
       "a11y.home": "Accueil Flowtime",
