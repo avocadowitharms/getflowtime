@@ -10,7 +10,7 @@
   var copy = {
     en: {
       "meta.title": "Flowtime - Focus Timer & Time Tracker",
-      "meta.description": "Flowtime is an ADHD focus timer for time blindness, hyperfocus, Pomodoro, focus reminders, project time tracking, and optional app blocking on iPhone and Android.",
+      "meta.description": "Flowtime is a flexible, friction-free focus timer and time tracker with Pomodoro, reminders, projects, and optional app blocking on iPhone and Android.",
       "meta.og.image.alt": "Flowtime focus timer and time tracker preview",
       "a11y.home": "Flowtime home",
       "a11y.nav": "Main navigation",
@@ -218,7 +218,7 @@
     },
     de: {
       "meta.title": "Flowtime - Fokus-Timer & Zeiterfassung",
-      "meta.description": "Flowtime ist ein ADHS-Fokus-Timer für Zeitblindheit, Hyperfokus, Pomodoro, Fokus-Erinnerungen, Projekt-Zeiterfassung und optionales App-Blocking für iPhone und Android.",
+      "meta.description": "Flowtime ist ein flexibler, unkomplizierter Fokus-Timer und Zeiterfasser mit Pomodoro, Erinnerungen, Projekten und optionaler App-Blockierung für iPhone und Android.",
       "meta.og.image.alt": "Flowtime Fokus-Timer und Time-Tracker-Vorschau",
       "a11y.home": "Flowtime Startseite",
       "a11y.nav": "Hauptnavigation",
@@ -426,7 +426,7 @@
     },
     fr: {
       "meta.title": "Flowtime - Minuteur de concentration et suivi du temps",
-      "meta.description": "Flowtime est un minuteur de concentration TDAH pour la notion du temps, l'hyperfocus, Pomodoro, les rappels, le suivi de projets et le blocage d'apps optionnel sur iPhone et Android.",
+      "meta.description": "Flowtime est un minuteur de concentration et un outil de suivi du temps flexible avec Pomodoro, rappels, projets et blocage d'apps optionnel sur iPhone et Android.",
       "meta.og.image.alt": "Aperçu du minuteur de concentration et du time tracker Flowtime",
       "a11y.home": "Accueil Flowtime",
       "a11y.nav": "Navigation principale",
