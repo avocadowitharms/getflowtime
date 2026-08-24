@@ -69,13 +69,13 @@
   Cache-Control: public, max-age=31536000, immutable
 
 /scripts/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=300, must-revalidate
 
 /sections/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=300, must-revalidate
 
 /og-image.png
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=300, must-revalidate
 
 /sitemap.xml
   Cache-Control: public, max-age=3600
