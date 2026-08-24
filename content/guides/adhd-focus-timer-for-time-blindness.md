@@ -52,7 +52,7 @@ A hyperfocus timer should create exit points. It does not need to yank you out o
 
 ## Where Flowtime fits
 
-Flowtime combines flexible Flow Sessions, Pomodoro, focus reminders, project time tracking, and optional app blocking. That means it can work as an ADHD focus timer, hyperfocus timer, Pomodoro timer, or personal time tracker depending on the session.
+Flowtime combines flexible Flow Sessions, Pomodoro, focus reminders, project time tracking, and optional app blocking. These modes let Flowtime adapt to time awareness, hyperfocus, structured intervals, and personal time tracking.
 
 Flowtime is available for iPhone and Android, does not require an account, and is designed around ADHD time blindness, hyperfocus, and reducing distracting context switches.
 
@@ -60,4 +60,4 @@ Flowtime is available for iPhone and Android, does not require an account, and i
 
 For related details, read [Time Reminders for ADHD Time Blindness](/guides/gentle-time-reminders-for-adhd-time-blindness/), [ADHD Hyperfocus: How to Stop Without Killing Your Focus](/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/), and [ADHD Focus Timer vs Pomodoro: What's the Difference?](/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/).
 
-Flowtime is an ADHD focus timer designed to make time more visible and distractions easier to step away from.
+Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.

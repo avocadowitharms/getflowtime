@@ -286,5 +286,41 @@ window.FlowtimeUpdatesData = [
     "publishedAt": "2026-08-07T07:07:26.493Z",
     "createdAt": "2026-08-07T07:06:54.000Z",
     "updatedAt": "2026-08-07T07:07:26.493Z"
+  },
+  {
+    "id": "update_1787293214612_jv2h93258",
+    "title": "Flowtime, first AI mock vs. today \ud83d\udc40",
+    "slug": "update-from-threads-214612",
+    "description": "",
+    "body": "",
+    "platform": "threads",
+    "status": "published",
+    "originalUrl": "https://www.threads.com/share/DbjAYxiIY/",
+    "externalPostId": null,
+    "tags": [
+      "threads"
+    ],
+    "thumbnailUrl": null,
+    "publishedAt": "2026-08-21T06:20:29.898Z",
+    "createdAt": "2026-08-21T06:20:14.612Z",
+    "updatedAt": "2026-08-21T06:20:29.898Z"
+  },
+  {
+    "id": "update_1787293264031_4gy6wqikp",
+    "title": "Flowtime crossed 1,000 downloads!",
+    "slug": "update-from-threads-264031",
+    "description": "",
+    "body": "",
+    "platform": "threads",
+    "status": "published",
+    "originalUrl": "https://www.threads.com/share/DNPYYYmZ6/",
+    "externalPostId": null,
+    "tags": [
+      "threads"
+    ],
+    "thumbnailUrl": null,
+    "publishedAt": "2026-08-21T06:21:19.784Z",
+    "createdAt": "2026-08-21T06:21:04.031Z",
+    "updatedAt": "2026-08-21T06:21:19.784Z"
   }
 ];

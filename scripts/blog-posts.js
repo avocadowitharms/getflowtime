@@ -3,7 +3,7 @@ window.flowtimeBlogPosts = [
     "slug": "interrupting-autopilot-conscious-app-blocking",
     "category": "guides",
     "title": "Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps",
-    "description": "App blockers work best not by enforcing strict lockouts, but by interrupting automatic phone habits. Learn how conscious app blocking in Flowtime supports focus, ADHD, hyperfocus, and intentional breaks.",
+    "description": "App blockers work best not by enforcing strict lockouts, but by interrupting automatic phone habits. Learn how conscious app blocking in Flowtime supports focus, time awareness, hyperfocus, and intentional breaks.",
     "date": "2026-07-20",
     "author": "Ava Thalheim",
     "authorRole": "Developer of Flowtime",

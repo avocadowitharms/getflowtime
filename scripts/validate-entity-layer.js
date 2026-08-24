@@ -93,7 +93,7 @@ validatePage("index.html", facts.canonicalUrl, [
   "No account is required"
 ]);
 validatePage("about-flowtime/index.html", facts.aboutUrl, [
-  facts.summary,
+  "Flowtime combines flexible focus sessions, Pomodoro, reminders, time tracking, and optional app blocking.",
   "Flowtime is not a medical product",
   "Ava Thalheim",
   facts.appStoreUrl,

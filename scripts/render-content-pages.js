@@ -490,7 +490,7 @@ ${bodyHtml}
 function renderPage(post, posts) {
   const title = post.data.seoTitle || `${post.data.title} - Flowtime`;
   const description = post.data.metaDescription || post.data.description;
-  const tags = post.data.tags || [];
+  const tags = post.data.displayTags || post.data.tags || [];
   const toc = headings(post.body);
   const bodyHtml = markdownToHtml(post.body);
   const related = relatedArticles(post, posts);

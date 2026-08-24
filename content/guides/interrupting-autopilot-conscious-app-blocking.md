@@ -1,7 +1,7 @@
 ---
 title: "Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps"
 seoTitle: "Interrupting the Autopilot: Conscious App Blocking in Flowtime"
-description: "App blockers work best not by enforcing strict lockouts, but by interrupting automatic phone habits. Learn how conscious app blocking in Flowtime supports focus, ADHD, hyperfocus, and intentional breaks."
+description: "App blockers work best not by enforcing strict lockouts, but by interrupting automatic phone habits. Learn how conscious app blocking in Flowtime supports focus, time awareness, hyperfocus, and intentional breaks."
 metaDescription: "Discover how conscious app blocking interrupts automatic phone habits without strict lockouts. Flowtime supports focus, ADHD, hyperfocus, and intentional breaks."
 slug: "interrupting-autopilot-conscious-app-blocking"
 searchIntent: "Informational"
@@ -10,6 +10,7 @@ secondaryKeywords: ["app blocker with override", "app blocking for ADHD", "inter
 date: "2026-07-20"
 author: "Ava Thalheim"
 tags: ["app blocking", "phone distraction", "adhd", "focus"]
+displayTags: ["app blocking", "phone distraction", "focus"]
 featuredImage: ""
 draft: false
 ---
@@ -20,7 +21,7 @@ Most people think app blockers exist to stop them from using distracting apps. T
 
 ## Introduction
 
-Flowtime is an ADHD-friendly focus timer and time-awareness app that combines flexible Flow Sessions, Pomodoro, focus reminders, personal time tracking, and optional app blocking. 
+Flowtime is a flexible focus timer and time-awareness app that combines Flow Sessions, Pomodoro, focus reminders, personal time tracking, and optional app blocking.
 
 Most people think app blockers exist to stop them from using distracting apps. But that is not really what they are best at.
 
@@ -93,7 +94,7 @@ It is built around a simpler idea:
 
 Automatic habits are difficult to notice. A small interruption can turn them back into conscious decisions.
 
-Every time a blocked app interrupts an automatic action during app blocking for ADHD or general work, you get a chance to ask:
+Every time a blocked app interrupts an automatic action, you get a chance to ask:
 
 “Is this actually what I want to do right now?”
 
