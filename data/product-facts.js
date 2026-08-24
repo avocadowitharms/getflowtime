@@ -25,7 +25,7 @@
     googlePlayUrl: googlePlayUrl,
     logoUrl: siteUrl + "/assets/logo-classic.png",
     appIconUrl: siteUrl + "/assets/logo-classic.png",
-    socialImageUrl: siteUrl + "/og-image.png",
+    socialImageUrl: siteUrl + "/og-image-20260824.png",
     screenshotUrls: [
       siteUrl + "/assets/phone-mono2-opt.webp",
       siteUrl + "/assets/classic-timer-mono-opt.webp",

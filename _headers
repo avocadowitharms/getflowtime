@@ -74,7 +74,7 @@
 /sections/*
   Cache-Control: public, max-age=300, must-revalidate
 
-/og-image.png
+/og-image-20260824.png
   Cache-Control: public, max-age=300, must-revalidate
 
 /sitemap.xml

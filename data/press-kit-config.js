@@ -403,7 +403,7 @@
       title: "Flowtime Press Kit — Logos, Screenshots & Media Resources",
       description: "Official Flowtime press kit with app information, founder story, logos, screenshots, media assets, and resources for journalists and creators.",
       canonicalUrl: siteUrl + "/press/",
-      ogImage: siteUrl + "/og-image.png"
+      ogImage: siteUrl + "/og-image-20260824.png"
     },
     hero: {
       headline: "Flowtime Press Kit",
