@@ -49,38 +49,6 @@ window.flowtimeBlogPosts = [
     "readingTime": "4 min read"
   },
   {
-    "slug": "adhd-symptoms",
-    "category": "adhd",
-    "title": "ADHD Symptoms in Adults: Signs You Might Recognize",
-    "description": "A personal, cautious guide to adult ADHD symptoms including distraction, hyperfocus, procrastination, restlessness, time blindness and task switching.",
-    "date": "2026-07-14",
-    "author": "Ava Thalheim",
-    "authorRole": "Developer of Flowtime",
-    "tags": [
-      "adhd",
-      "focus",
-      "time awareness"
-    ],
-    "featuredImage": "",
-    "readingTime": "5 min read"
-  },
-  {
-    "slug": "what-is-adhd",
-    "category": "adhd",
-    "title": "What Is ADHD? Symptoms, Focus and the ADHD Brain",
-    "description": "A cautious, practical introduction to ADHD, attention, focus, hyperfocus, executive dysfunction, time blindness and everyday adult life.",
-    "date": "2026-07-14",
-    "author": "Ava Thalheim",
-    "authorRole": "Developer of Flowtime",
-    "tags": [
-      "adhd",
-      "focus",
-      "time awareness"
-    ],
-    "featuredImage": "",
-    "readingTime": "5 min read"
-  },
-  {
     "slug": "adhd-hyperfocus-how-to-stop-without-killing-your-focus",
     "category": "guides",
     "title": "ADHD Hyperfocus: How to Stop Without Killing Your Focus",

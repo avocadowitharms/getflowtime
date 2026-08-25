@@ -2400,14 +2400,6 @@
         }
       },
       "blog_metadata": {
-        "what-is-adhd": {
-          "title": "Was ist ADHS? Symptome, Fokus und das ADHS-Gehirn",
-          "desc": "Ein vorsichtiger, praktischer Einstieg in ADHS, Aufmerksamkeit, Fokus, Hyperfokus, exekutive Dysfunktion, Zeitblindheit und den Alltag Erwachsener."
-        },
-        "adhd-symptoms": {
-          "title": "ADHS Symptome bei Erwachsenen: Anzeichen, die du vielleicht erkennst",
-          "desc": "Ein persönlicher, vorsichtiger Guide zu ADHS Symptomen bei Erwachsenen, darunter Ablenkung, Hyperfokus, Prokrastination, innere Unruhe, Zeitblindheit und Aufgabenwechsel."
-        },
         "why-adhd-makes-you-lose-track-of-time": {
           "title": "Warum ADHS dazu führen kann, dass du die Zeit aus dem Blick verlierst",
           "desc": "Ein praktischer Guide zu ADHS-Time-Blindness, dem Unterschied zwischen Uhrzeit und gefühlter Zeit und externen Zeitreizen."
@@ -2506,14 +2498,6 @@
         }
       },
       "blog_metadata": {
-        "what-is-adhd": {
-          "title": "Qu'est-ce que le TDAH ? Symptômes, concentration et cerveau TDAH",
-          "desc": "Une introduction prudente et pratique au TDAH, à l'attention, à la concentration, à l'hyperfocus, aux fonctions exécutives, à la time blindness et au quotidien adulte."
-        },
-        "adhd-symptoms": {
-          "title": "Symptômes du TDAH chez l'adulte : signes que vous pourriez reconnaître",
-          "desc": "Un guide personnel et prudent sur les symptômes du TDAH chez l'adulte, dont la distraction, l'hyperfocus, la procrastination, l'agitation intérieure, la time blindness et les changements de tâche."
-        },
         "why-adhd-makes-you-lose-track-of-time": {
           "title": "Pourquoi le TDAH peut faire perdre la notion du temps",
           "desc": "Un guide cleare sur la time blindness, la différence entre connaître l'heure et sentir le temps passer, et les repères externes."
