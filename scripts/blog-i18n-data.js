@@ -2401,7 +2401,7 @@
       },
       "blog_metadata": {
         "why-adhd-makes-you-lose-track-of-time": {
-          "title": "Warum ADHS dazu führen kann, dass du die Zeit aus dem Blick verlierst",
+          "title": "Warum du die Zeit aus dem Blick verlierst",
           "desc": "Ein praktischer Guide zu ADHS-Time-Blindness, dem Unterschied zwischen Uhrzeit und gefühlter Zeit und externen Zeitreizen."
         },
         "adhd-focus-timer-for-time-blindness": {
@@ -2409,7 +2409,7 @@
           "desc": "Wie ein ADHS-Fokus-Timer bei Zeitblindheit, Hyperfokus, Fokus-Erinnerungen, Pomodoro, App-Blocking und flexiblen Arbeitssessions helfen kann."
         },
         "adhd-hyperfocus-how-to-stop-without-killing-your-focus": {
-          "title": "ADHS-Hyperfokus: Aufhören, ohne den Fokus kaputtzumachen",
+          "title": "Hyperfokus: Aufhören, ohne den Fokus kaputtzumachen",
           "desc": "Wie flexible Grenzen, Fokus-Erinnerungen und bewusste Ausstiegspunkte beim Herauskommen aus Hyperfokus helfen können."
         },
         "i-use-a-focus-timer-to-stop-focusing": {
@@ -2417,7 +2417,7 @@
           "desc": "Eine persönliche Notiz über ADHS, Hyperfokus, Hundespaziergänge, App-Blocking und absichtliches Unfokussieren."
         },
         "why-pomodoro-doesnt-always-work-for-adhd": {
-          "title": "Warum Pomodoro bei ADHS nicht immer funktioniert",
+          "title": "Warum Pomodoro nicht immer funktioniert",
           "desc": "Ein ausgewogener Blick darauf, wann Pomodoro hilft, wann feste 25-Minuten-Intervalle stören und wann flexible Sessions besser passen."
         },
         "do-you-start-working-and-suddenly-its-four-hours-later": {
@@ -2429,11 +2429,11 @@
           "desc": "Wie visuelle Reize, Benachrichtigungen, Context Switching und App-Blocking mit Handy-Ablenkung zusammenhängen."
         },
         "gentle-time-reminders-for-adhd-time-blindness": {
-          "title": "Flexible Zeiterinnerungen bei ADHS-Time-Blindness",
+          "title": "Flexible Zeiterinnerungen bei Time-Blindness",
           "desc": "Warum Fokus-Erinnerungen oft besser funktionieren als aggressive Alarme und wie Check-ins Zeit sichtbarer machen."
         },
         "how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything": {
-          "title": "Wie ich Handy-Ablenkungen reduziere, wenn mein ADHS-Gehirn alles checken will",
+          "title": "Wie ich Handy-Ablenkungen reduziere, wenn ich alles checken will",
           "desc": "Eine persönliche Notiz über Instagram, Nachrichten, Wetter, E-Mail, App-Blocking und weniger Entscheidungen während Fokuszeit."
         },
         "how-to-use-a-focus-timer-without-interrupting-your-best-work": {
@@ -2449,11 +2449,11 @@
           "desc": "Worauf es bei einem einfachen Fokus-Timer für Arbeit, Lernen, Erinnerungen, App-Blocking und Zeiterfassung ankommt."
         },
         "adhd-focus-timer-vs-pomodoro-whats-the-difference": {
-          "title": "ADHS-Fokus-Timer vs. Pomodoro: Was ist der Unterschied?",
+          "title": "Fokus-Timer vs. Pomodoro: Was ist der Unterschied?",
           "desc": "Ein sachlicher Vergleich von ADHS-Fokus-Timern und Pomodoro: feste Intervalle, flexible Sessions, Erinnerungen und App-Blocking."
         },
         "best-focus-apps-for-adhd-arent-always-planners": {
-          "title": "Die besten Fokus-Apps für ADHS sind nicht immer Planner",
+          "title": "Die besten Fokus-Apps sind nicht immer Planner",
           "desc": "Warum Timer, App-Blocker, Body Doubling und externe Zeitreize manchmal hilfreicher sind als komplexe Planungssysteme."
         },
         "focus-timer-time-tracker-or-pomodoro-app-which-one-do-you-need": {
@@ -2499,7 +2499,7 @@
       },
       "blog_metadata": {
         "why-adhd-makes-you-lose-track-of-time": {
-          "title": "Pourquoi le TDAH peut faire perdre la notion du temps",
+          "title": "Pourquoi vous perdez la notion du temps",
           "desc": "Un guide cleare sur la time blindness, la différence entre connaître l'heure et sentir le temps passer, et les repères externes."
         },
         "adhd-focus-timer-for-time-blindness": {
@@ -2507,7 +2507,7 @@
           "desc": "Comment un minuteur de concentration TDAH peut aider avec la notion du temps, l'hyperfocus, les rappels, Pomodoro, le blocage d'apps et les sessions flexibles."
         },
         "adhd-hyperfocus-how-to-stop-without-killing-your-focus": {
-          "title": "Hyperfocus TDAH : s'arrêter sans casser sa concentration",
+          "title": "Hyperfocus : s'arrêter sans casser sa concentration",
           "desc": "Comment des limites flexibles, des rappels de concentration et un point de sortie intentionnel peuvent aider à sortir de l'hyperfocus."
         },
         "i-use-a-focus-timer-to-stop-focusing": {
@@ -2515,7 +2515,7 @@
           "desc": "Une note personnelle sur le TDAH, l'hyperfocus, les promenades avec le chien, le blocage d'apps et le fait de décrocher intentionnellement."
         },
         "why-pomodoro-doesnt-always-work-for-adhd": {
-          "title": "Pourquoi Pomodoro ne fonctionne pas toujours avec le TDAH",
+          "title": "Pourquoi Pomodoro ne fonctionne pas toujours",
           "desc": "Un regard équilibré sur Pomodoro, les interruptions fixes de 25 minutes et les sessions de concentration plus flexibles."
         },
         "do-you-start-working-and-suddenly-its-four-hours-later": {
@@ -2527,11 +2527,11 @@
           "desc": "Comment les indices visuels, les notifications, le changement de contexte et le blocage d'apps se lient aux distractions du téléphone."
         },
         "gentle-time-reminders-for-adhd-time-blindness": {
-          "title": "Rappels de concentration pour la time blindness liée au TDAH",
+          "title": "Rappels de concentration pour la perception du temps",
           "desc": "Pourquoi les rappels de concentration peuvent mieux soutenir la perception du temps que les alarmes agressives."
         },
         "how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything": {
-          "title": "Comment je réduis les distractions du téléphone quand mon cerveau TDAH veut tout vérifier",
+          "title": "Comment je réduis les distractions du téléphone quand je veux tout vérifier",
           "desc": "Une note personnelle sur Instagram, les messages, la météo, l'e-mail, le blocage d'apps et la réduction des décisions."
         },
         "how-to-use-a-focus-timer-without-interrupting-your-best-work": {
@@ -2547,11 +2547,11 @@
           "desc": "Ce qu’il faut chercher dans un minuteur simple pour travailler, étudier, bloquer les distractions et rendre le temps visible."
         },
         "adhd-focus-timer-vs-pomodoro-whats-the-difference": {
-          "title": "Minuteur TDAH vs Pomodoro : quelle différence ?",
+          "title": "Minuteur de concentration vs Pomodoro : quelle différence ?",
           "desc": "Une comparaison factuelle entre un minuteur TDAH et Pomodoro : intervalles fixes, sessions flexibles, rappels et blocage d'apps."
         },
         "best-focus-apps-for-adhd-arent-always-planners": {
-          "title": "Les meilleures apps de concentration pour le TDAH ne sont pas toujours des planners",
+          "title": "Les meilleures apps de concentration ne sont pas toujours des planners",
           "desc": "Pourquoi les minuteurs, bloqueurs d’apps, repères externes et outils ciblés peuvent parfois aider plus que les systèmes complexes."
         },
         "focus-timer-time-tracker-or-pomodoro-app-which-one-do-you-need": {

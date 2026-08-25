@@ -1,6 +1,6 @@
 ---
-title: "Why Pomodoro Doesn't Always Work for ADHD"
-seoTitle: "Pomodoro Alternative for ADHD Focus"
+title: "Why Pomodoro Doesn't Always Work"
+seoTitle: "Pomodoro Alternative for Flexible Focus"
 description: "A balanced look at Pomodoro for ADHD, why fixed 25-minute intervals can help or frustrate, and when a flexible Pomodoro alternative fits better."
 metaDescription: "Pomodoro can help ADHD focus, but fixed intervals do not fit every attention rhythm. Learn when a flexible Pomodoro alternative may work better."
 slug: "why-pomodoro-doesnt-always-work-for-adhd"
@@ -56,6 +56,6 @@ Pomodoro is not wrong. It is one tool. The useful question is whether it fits th
 
 ## Keep reading
 
-Compare the approaches in [ADHD Focus Timer vs Pomodoro: What's the Difference?](/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/) or read [How to Use a Focus Timer Without Interrupting Your Best Work](/guides/how-to-use-a-focus-timer-without-interrupting-your-best-work/).
+Compare the approaches in [Focus Timer vs Pomodoro: What's the Difference?](/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/) or read [How to Use a Focus Timer Without Interrupting Your Best Work](/guides/how-to-use-a-focus-timer-without-interrupting-your-best-work/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.

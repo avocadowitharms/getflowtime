@@ -216,8 +216,8 @@ Sometimes it's simply asking yourself:
 
 ## Related articles
 - [Flowtime vs Forest](../flowtime-vs-forest/)
-- [The Best Focus Apps for ADHD Aren't Always Planners](../best-focus-apps-for-adhd-arent-always-planners/)
-- [ADHD Focus Timer vs Pomodoro: What's the Difference?](../adhd-focus-timer-vs-pomodoro-whats-the-difference/)
+- [The Best Focus Apps Aren't Always Planners](../best-focus-apps-for-adhd-arent-always-planners/)
+- [Focus Timer vs Pomodoro: What's the Difference?](../adhd-focus-timer-vs-pomodoro-whats-the-difference/)
 - [Focus Timer, Time Tracker, or Pomodoro App: Which One Do You Need?](../focus-timer-time-tracker-or-pomodoro-app-which-one-do-you-need/)
 
 ## FAQ

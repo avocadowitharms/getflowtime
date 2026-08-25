@@ -51,7 +51,7 @@ window.flowtimeBlogPosts = [
   {
     "slug": "adhd-hyperfocus-how-to-stop-without-killing-your-focus",
     "category": "guides",
-    "title": "ADHD Hyperfocus: How to Stop Without Killing Your Focus",
+    "title": "Hyperfocus: How to Stop Without Killing Your Focus",
     "description": "A practical guide to using a hyperfocus timer, focus reminders, and flexible session boundaries without relying on abrupt interruptions or rigid timer rules.",
     "date": "2026-07-13",
     "author": "Ava Thalheim",
@@ -83,7 +83,7 @@ window.flowtimeBlogPosts = [
   {
     "slug": "gentle-time-reminders-for-adhd-time-blindness",
     "category": "guides",
-    "title": "Time Reminders for ADHD Time Blindness",
+    "title": "Time Reminders for Time Blindness",
     "description": "Why focus reminders can work better than aggressive alarms for time awareness, hyperfocus check-ins, and flexible focus sessions.",
     "date": "2026-07-13",
     "author": "Ava Thalheim",
@@ -99,7 +99,7 @@ window.flowtimeBlogPosts = [
   {
     "slug": "how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything",
     "category": "guides",
-    "title": "How I Reduce Phone Distractions When My ADHD Brain Wants to Check Everything",
+    "title": "How I Reduce Phone Distractions When I Want to Check Everything",
     "description": "A personal note on phone checking, Instagram, messages, weather, email, app blocking, and reducing decisions during focus time.",
     "date": "2026-07-13",
     "author": "Ava Thalheim",
@@ -179,7 +179,7 @@ window.flowtimeBlogPosts = [
   {
     "slug": "why-adhd-makes-you-lose-track-of-time",
     "category": "guides",
-    "title": "Why ADHD Makes You Lose Track of Time",
+    "title": "Why You Lose Track of Time",
     "description": "A practical guide to ADHD time blindness, why passing time can be hard to feel, and how external cues can support time awareness.",
     "date": "2026-07-13",
     "author": "Ava Thalheim",
@@ -211,7 +211,7 @@ window.flowtimeBlogPosts = [
   {
     "slug": "why-pomodoro-doesnt-always-work-for-adhd",
     "category": "guides",
-    "title": "Why Pomodoro Doesn't Always Work for ADHD",
+    "title": "Why Pomodoro Doesn't Always Work",
     "description": "A balanced look at Pomodoro for ADHD, why fixed 25-minute intervals can help or frustrate, and when a flexible Pomodoro alternative fits better.",
     "date": "2026-07-13",
     "author": "Ava Thalheim",
@@ -227,7 +227,7 @@ window.flowtimeBlogPosts = [
   {
     "slug": "adhd-focus-timer-vs-pomodoro-whats-the-difference",
     "category": "comparison",
-    "title": "ADHD Focus Timer vs Pomodoro: What's the Difference?",
+    "title": "Focus Timer vs Pomodoro: What's the Difference?",
     "description": "A factual comparison of ADHD focus timers, traditional Pomodoro timers, and flexible Pomodoro alternatives for time blindness, hyperfocus, reminders, and app blocking.",
     "date": "2026-07-13",
     "author": "Ava Thalheim",
@@ -243,7 +243,7 @@ window.flowtimeBlogPosts = [
   {
     "slug": "best-focus-apps-for-adhd-arent-always-planners",
     "category": "comparison",
-    "title": "The Best Focus Apps for ADHD Aren't Always Planners",
+    "title": "The Best Focus Apps Aren't Always Planners",
     "description": "A balanced guide to ADHD focus apps, planners, timers, app blockers, body doubling, and tools that solve one small problem well.",
     "date": "2026-07-13",
     "author": "Ava Thalheim",

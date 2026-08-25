@@ -1,6 +1,6 @@
 ---
 title: "A Simple Focus Timer for Work, Study, and Deep Focus"
-seoTitle: "Simple Focus Timer for Work, Study, ADHD, and Deep Focus"
+seoTitle: "Simple Focus Timer for Work, Study, and Deep Focus"
 description: "A broad product-category guide to simple focus timers for work, study, deep focus, ADHD time awareness, reminders, app blocking, and low-friction time tracking."
 metaDescription: "Learn what to look for in a simple focus timer for work, study, ADHD time awareness, deep focus, optional reminders, app blocking, and time tracking."
 slug: "simple-focus-timer-for-work-study-and-deep-focus"

@@ -106,7 +106,7 @@ Either way, the decision is yours instead of the autopilot’s.
 
 * [What Is an App Blocker, and When Is It Actually Useful?](/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/)
 * [Why Do I Forget Why I Unlocked My Phone?](/guides/why-do-i-forget-why-i-unlocked-my-phone/)
-* [How I Reduce Phone Distractions When My ADHD Brain Wants to Check Everything](/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/)
+* [How I Reduce Phone Distractions When I Want to Check Everything](/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/)
 * [Sometimes the Problem Isn't Getting Into Flow. It's Getting Out of It.](/guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/)
 * [Forest Alternatives If Gamification Isn't What You're Looking For](/comparison/forest-alternatives-if-gamification-isnt-what-youre-looking-for/)
 * [I Use a Focus Timer to Stop Focusing](/guides/i-use-a-focus-timer-to-stop-focusing/)

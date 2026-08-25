@@ -1,6 +1,6 @@
 ---
-title: "The Best Focus Apps for ADHD Aren't Always Planners"
-seoTitle: "Best Focus Apps for ADHD: Beyond Planners"
+title: "The Best Focus Apps Aren't Always Planners"
+seoTitle: "Best Focus Apps: Beyond Planners"
 description: "A balanced guide to ADHD focus apps, planners, timers, app blockers, body doubling, and tools that solve one small problem well."
 metaDescription: "The best focus apps for ADHD are not always complex planners. Compare timers, app blockers, external cues, and simpler support tools."
 slug: "best-focus-apps-for-adhd-arent-always-planners"
@@ -56,6 +56,6 @@ If you need medication guidance, diagnosis, coaching, or therapy, an app is not 
 
 ## Keep reading
 
-Compare timer structures in [ADHD Focus Timer vs Pomodoro: What's the Difference?](/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/) or explore phone support in [Why Do I Forget Why I Unlocked My Phone?](/guides/why-do-i-forget-why-i-unlocked-my-phone/).
+Compare timer structures in [Focus Timer vs Pomodoro: What's the Difference?](/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/) or explore phone support in [Why Do I Forget Why I Unlocked My Phone?](/guides/why-do-i-forget-why-i-unlocked-my-phone/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.

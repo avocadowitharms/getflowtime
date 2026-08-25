@@ -1,6 +1,6 @@
 ---
-title: "How I Reduce Phone Distractions When My ADHD Brain Wants to Check Everything"
-seoTitle: "How I Reduce ADHD Phone Distractions"
+title: "How I Reduce Phone Distractions When I Want to Check Everything"
+seoTitle: "How I Reduce Phone Distractions"
 description: "A personal note on phone checking, Instagram, messages, weather, email, app blocking, and reducing decisions during focus time."
 metaDescription: "A personal guide to reducing ADHD phone distractions with app blocking, fewer decisions, and intentional Flowtime sessions."
 slug: "how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything"

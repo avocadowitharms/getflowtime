@@ -58,6 +58,6 @@ The goal is not to make every session short. The goal is to make long sessions i
 
 ## Keep reading
 
-For the ADHD-specific version, read [Why ADHD Makes You Lose Track of Time](/guides/why-adhd-makes-you-lose-track-of-time/). For reminders, read [Time Reminders for ADHD Time Blindness](/guides/gentle-time-reminders-for-adhd-time-blindness/).
+For the ADHD-specific version, read [Why You Lose Track of Time](/guides/why-adhd-makes-you-lose-track-of-time/). For reminders, read [Time Reminders for Time Blindness](/guides/gentle-time-reminders-for-adhd-time-blindness/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.

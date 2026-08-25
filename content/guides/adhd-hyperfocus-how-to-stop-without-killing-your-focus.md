@@ -1,6 +1,6 @@
 ---
-title: "ADHD Hyperfocus: How to Stop Without Killing Your Focus"
-seoTitle: "ADHD Hyperfocus Timer: Stop Without Killing Focus"
+title: "Hyperfocus: How to Stop Without Killing Your Focus"
+seoTitle: "Hyperfocus Timer: Stop Without Killing Focus"
 description: "A practical guide to using a hyperfocus timer, focus reminders, and flexible session boundaries without relying on abrupt interruptions or rigid timer rules."
 metaDescription: "Learn how a hyperfocus timer, flexible session boundaries, and focus reminders can help create an intentional exit point from ADHD hyperfocus."
 slug: "adhd-hyperfocus-how-to-stop-without-killing-your-focus"
@@ -62,6 +62,6 @@ The goal is not to kill focus. It is to make stopping available.
 
 ## Keep reading
 
-For a personal version of this idea, read [I Use a Focus Timer to Stop Focusing](/guides/i-use-a-focus-timer-to-stop-focusing/). For a broader timer comparison, see [ADHD Focus Timer vs Pomodoro: What's the Difference?](/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/).
+For a personal version of this idea, read [I Use a Focus Timer to Stop Focusing](/guides/i-use-a-focus-timer-to-stop-focusing/). For a broader timer comparison, see [Focus Timer vs Pomodoro: What's the Difference?](/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.

@@ -52,6 +52,6 @@ That is why Flow Sessions are flexible. That is why reminders matter. That is wh
 
 ## Keep reading
 
-If this sounds familiar, read [ADHD Hyperfocus: How to Stop Without Killing Your Focus](/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/) or [Why ADHD Makes You Lose Track of Time](/guides/why-adhd-makes-you-lose-track-of-time/).
+If this sounds familiar, read [Hyperfocus: How to Stop Without Killing Your Focus](/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/) or [Why You Lose Track of Time](/guides/why-adhd-makes-you-lose-track-of-time/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.

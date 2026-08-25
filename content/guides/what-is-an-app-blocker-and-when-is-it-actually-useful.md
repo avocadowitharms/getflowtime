@@ -52,6 +52,6 @@ That makes blocking part of the session boundary rather than a separate system t
 
 ## Keep reading
 
-For phone-specific distraction, read [Why Do I Forget Why I Unlocked My Phone?](/guides/why-do-i-forget-why-i-unlocked-my-phone/), [Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps](/guides/interrupting-autopilot-conscious-app-blocking/), and [How I Reduce Phone Distractions When My ADHD Brain Wants to Check Everything](/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/).
+For phone-specific distraction, read [Why Do I Forget Why I Unlocked My Phone?](/guides/why-do-i-forget-why-i-unlocked-my-phone/), [Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps](/guides/interrupting-autopilot-conscious-app-blocking/), and [How I Reduce Phone Distractions When I Want to Check Everything](/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.

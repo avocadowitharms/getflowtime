@@ -58,6 +58,6 @@ Flowtime is available for iPhone and Android, does not require an account, and i
 
 ## Keep reading
 
-For related details, read [Time Reminders for ADHD Time Blindness](/guides/gentle-time-reminders-for-adhd-time-blindness/), [ADHD Hyperfocus: How to Stop Without Killing Your Focus](/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/), and [ADHD Focus Timer vs Pomodoro: What's the Difference?](/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/).
+For related details, read [Time Reminders for Time Blindness](/guides/gentle-time-reminders-for-adhd-time-blindness/), [Hyperfocus: How to Stop Without Killing Your Focus](/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/), and [Focus Timer vs Pomodoro: What's the Difference?](/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.

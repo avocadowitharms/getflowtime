@@ -54,6 +54,6 @@ Flowtime supports Pomodoro when you want structure and Flow Sessions when you wa
 
 ## Keep reading
 
-For session length, read [How Long Should a Focus Session Be?](/guides/how-long-should-a-focus-session-be/). For ADHD-specific hyperfocus, read [ADHD Hyperfocus: How to Stop Without Killing Your Focus](/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/).
+For session length, read [How Long Should a Focus Session Be?](/guides/how-long-should-a-focus-session-be/). For ADHD-specific hyperfocus, read [Hyperfocus: How to Stop Without Killing Your Focus](/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
