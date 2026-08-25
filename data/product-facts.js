@@ -83,10 +83,10 @@
       lowPrice: "0",
       highPrice: "49.99",
       offerCount: "4",
-      free: { price: "0", name: "Flowtime Free", description: "Standard timer, Flow Session, Pomodoro, 2 projects, 2 Quick Start templates, app blocking" },
-      monthly: { price: "3.99", name: "Flowtime Pro Monthly", description: "Monthly Pro subscription with unlimited projects, unlimited templates, custom reminder profiles, advanced Pomodoro, and analytics" },
-      yearly: { price: "24.99", name: "Flowtime Pro Yearly", description: "Yearly Pro subscription with unlimited projects, unlimited templates, custom reminder profiles, advanced Pomodoro, and analytics" },
-      lifetime: { price: "49.99", name: "Flowtime Pro Lifetime", description: "Lifetime Pro access with unlimited projects, unlimited templates, custom reminder profiles, advanced Pomodoro, and analytics" }
+      free: { price: "0", name: "Flowtime Free", description: "Standard Timer, standard notifications, Pomodoro with fixed intervals, 1 Project, and 1 day of History" },
+      monthly: { price: "3.99", name: "Flowtime Pro Monthly", description: "Monthly Pro subscription with Flow Sessions, Flowmodoro, custom Pomodoro intervals, unlimited Projects and History, App Blocking, Quick Start Templates, Reminder Profiles, UI customization, Reports and Exports, and all future Pro features" },
+      yearly: { price: "24.99", name: "Flowtime Pro Yearly", description: "Yearly Pro subscription with Flow Sessions, Flowmodoro, custom Pomodoro intervals, unlimited Projects and History, App Blocking, Quick Start Templates, Reminder Profiles, UI customization, Reports and Exports, and all future Pro features" },
+      lifetime: { price: "49.99", name: "Flowtime Pro Lifetime", description: "Lifetime Pro access with Flow Sessions, Flowmodoro, custom Pomodoro intervals, unlimited Projects and History, App Blocking, Quick Start Templates, Reminder Profiles, UI customization, Reports and Exports, and all future Pro features" }
     },
     ids: {
       website: siteUrl + "/#website",
