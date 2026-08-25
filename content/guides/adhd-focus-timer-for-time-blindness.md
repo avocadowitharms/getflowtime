@@ -1,6 +1,6 @@
 ---
-title: "ADHD Focus Timer for Time Blindness"
-seoTitle: "ADHD Focus Timer for Time Blindness"
+title: "Focus Timer for Time Blindness"
+seoTitle: "Focus Timer for Time Blindness"
 description: "How an ADHD focus timer can support time blindness, hyperfocus, focus reminders, Pomodoro, app blocking, and flexible work sessions."
 metaDescription: "Learn what to look for in an ADHD focus timer for time blindness, hyperfocus, reminders, Pomodoro, app blocking, and flexible work sessions."
 slug: "adhd-focus-timer-for-time-blindness"

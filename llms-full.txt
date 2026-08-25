@@ -26,7 +26,7 @@ No account is required. Timer and project data are stored locally on the device.
 
 ## Guides & Articles
 
-### ADHD Focus Timer for Time Blindness
+### Focus Timer for Time Blindness
 URL: https://flowtime-app.com/guides/adhd-focus-timer-for-time-blindness/
 Description: How an ADHD focus timer can support time blindness, hyperfocus, focus reminders, Pomodoro, app blocking, and flexible work sessions.
 

@@ -374,7 +374,7 @@
           `
         },
         "adhd-focus-timer-for-time-blindness": {
-          title: "ADHS-Fokus-Timer für Zeitblindheit",
+          title: "Fokus-Timer für Zeitblindheit",
           description: "Wie ein ADHS-Fokus-Timer bei Zeitblindheit, Hyperfokus, Fokus-Erinnerungen, Pomodoro, App-Blocking und flexiblen Arbeitssessions helfen kann.",
           readingTime: "4 Min. Lesezeit",
           toc: ["Zusammenfassung", "Warum Zeitblindheit das Timer-Problem verändert", "Worauf du achten solltest", "Pomodoro kann helfen, ist aber nicht die einzige Form", "Hyperfokus braucht Ausstiegspunkte", "So passt Flowtime dazu", "Weiterlesen"],
@@ -1553,7 +1553,7 @@
           `
         },
         "adhd-focus-timer-for-time-blindness": {
-          title: "Minuteur de concentration TDAH pour la notion du temps",
+          title: "Minuteur de concentration pour la notion du temps",
           description: "Comment un minuteur de concentration TDAH peut aider avec la notion du temps, l'hyperfocus, les rappels, Pomodoro, le blocage d'apps et les sessions flexibles.",
           readingTime: "4 min de lecture",
           toc: ["Résumé", "Pourquoi la notion du temps change le problème du minuteur", "Ce qu'il faut chercher", "Pomodoro peut aider, mais ce n'est pas la seule forme", "L'hyperfocus a besoin de points de sortie", "Comment Flowtime s'inscrit ici", "Continuer la lecture"],
@@ -2405,7 +2405,7 @@
           "desc": "Ein praktischer Guide zu ADHS-Time-Blindness, dem Unterschied zwischen Uhrzeit und gefühlter Zeit und externen Zeitreizen."
         },
         "adhd-focus-timer-for-time-blindness": {
-          "title": "ADHS-Fokus-Timer für Zeitblindheit",
+          "title": "Fokus-Timer für Zeitblindheit",
           "desc": "Wie ein ADHS-Fokus-Timer bei Zeitblindheit, Hyperfokus, Fokus-Erinnerungen, Pomodoro, App-Blocking und flexiblen Arbeitssessions helfen kann."
         },
         "adhd-hyperfocus-how-to-stop-without-killing-your-focus": {
@@ -2503,7 +2503,7 @@
           "desc": "Un guide cleare sur la time blindness, la différence entre connaître l'heure et sentir le temps passer, et les repères externes."
         },
         "adhd-focus-timer-for-time-blindness": {
-          "title": "Minuteur de concentration TDAH pour la notion du temps",
+          "title": "Minuteur de concentration pour la notion du temps",
           "desc": "Comment un minuteur de concentration TDAH peut aider avec la notion du temps, l'hyperfocus, les rappels, Pomodoro, le blocage d'apps et les sessions flexibles."
         },
         "adhd-hyperfocus-how-to-stop-without-killing-your-focus": {
