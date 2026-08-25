@@ -1,61 +1,42 @@
 {
   "version": "2.5.0",
-  "title": "Important Update!",
-  "subtitle": "",
+  "title": "Flowtimeâ€™s new Free & Pro tiers arrive in one week",
+  "subtitle": "Flowtimeâ€™s new Free & Pro tiers arrive in one week",
   "slides": [
     {
       "type": "feature",
       "label": "ANNOUNCEMENT",
-      "title": "Important update to Flowtime tiers!",
-      "description": "Hi everyone,\n\nI wanted to let you know about an upcoming change to Flowtime.\n\nStarting September 1st, Flowtime will introduce a new Free and Pro structure. My goal is to keep the free version a great, privacy-first focus timer while making continued development of new features sustainable."
-    },
-    {
-      "type": "list",
-      "label": "NEW",
-      "title": "Free",
-      "description": "Features remaining in free tier. ",
-      "items": [
-        "Standard Timer",
-        "Standard notifications",
-        "Pomodoro (fixed intervals)",
-        "1 Project",
-        "1 day of History"
-      ]
-    },
-    {
-      "type": "list",
-      "label": "NEW",
-      "title": "Pro",
-      "description": "Pro now covers customization. ",
-      "items": [
-        "Flow Sessions",
-        "Flowmodoro",
-        "Custom Pomodoro intervals",
-        "Unlimited Projects",
-        "Unlimited History",
-        "App Blocking",
-        "Quick Start Templates",
-        "Reminder Profiles",
-        "UI customization (accent colors)",
-        "Reports & Exports",
-        "All future pro features"
-      ]
-    },
-    {
-      "type": "feature",
-      "label": "NEW",
-      "title": "Thank you! ",
-      "description": "Thank you for being an early supporter of Flowtime. \nEvery download, review, bug report, and feature suggestion has helped shape the app into what it is today.\n\nAs a small thank you, Flowtime Pro will be available at 50% off for a limited time after the update launches on September 1st. If you've been thinking about supporting the project, this will be the best opportunity to do so.\n\nFlowtime will continue to be privacy-first, require no account, and remain free from ads.\n\nThank you for being part of the journey.\n\nâ€” Ava"
+      "title": "Flowtimeâ€™s new Free & Pro tiers arrive in one week",
+      "description": "A quick reminder that Flowtimeâ€™s updated tiers will take effect on September 1.\n\nThe core timer and Pomodoro will remain free. Some of the more advanced features will become part of Flowtime Pro.\n\nAs a thank you to everyone already using Flowtime, thereâ€™ll also be a 50% discount on Pro when the new tiers launch.\n\nNothing you need to do right now. I just wanted to make sure nobody is surprised by the change. \nThank you for using Flowtime! "
     }
   ],
   "entries": [
+    {
+      "id": "announcement_1787648896794",
+      "version": "2.5.0",
+      "publishedAt": "2026-08-25T09:08:16.794Z",
+      "title": "Flowtimeâ€™s new Free & Pro tiers arrive in one week",
+      "subtitle": "Flowtimeâ€™s new Free & Pro tiers arrive in one week",
+      "showAsPopup": true,
+      "popupType": "announcement",
+      "minAppVersion": null,
+      "maxAppVersion": null,
+      "slides": [
+        {
+          "type": "feature",
+          "label": "ANNOUNCEMENT",
+          "title": "Flowtimeâ€™s new Free & Pro tiers arrive in one week",
+          "description": "A quick reminder that Flowtimeâ€™s updated tiers will take effect on September 1.\n\nThe core timer and Pomodoro will remain free. Some of the more advanced features will become part of Flowtime Pro.\n\nAs a thank you to everyone already using Flowtime, thereâ€™ll also be a 50% discount on Pro when the new tiers launch.\n\nNothing you need to do right now. I just wanted to make sure nobody is surprised by the change. \nThank you for using Flowtime! "
+        }
+      ]
+    },
     {
       "id": "announcement_1786179285127",
       "version": "2.5.0",
       "publishedAt": "2026-08-08T08:54:45.127Z",
       "title": "Important Update!",
       "subtitle": "",
-      "showAsPopup": true,
+      "showAsPopup": false,
       "popupType": "announcement",
       "minAppVersion": null,
       "maxAppVersion": null,
@@ -102,7 +83,7 @@
           "type": "feature",
           "label": "NEW",
           "title": "Thank you! ",
-          "description": "Thank you for being an early supporter of Flowtime. \nEvery download, review, bug report, and feature suggestion has helped shape the app into what it is today.\n\nAs a small thank you, Flowtime Pro will be available at 50% off for a limited time after the update launches on September 1st. If you've been thinking about supporting the project, this will be the best opportunity to do so.\n\nFlowtime will continue to be privacy-first, require no account, and remain free from ads.\n\nThank you for being part of the journey.\n\nâ€” Ava"
+          "description": "Thank you for being an early supporter of Flowtime. \nEvery download, review, bug report, and feature suggestion has helped shape the app into what it is today.\n\nAs a small thank you, Flowtime Pro will be available at 50% off for a limited time after the update launches on September 1st. If you've been thinking about supporting the project, this will be the best opportunity to do so.\n\nFlowtime will continue to be privacy-first, require no account, and remain free from ads.\n\nThank you for being part of the journey.\n\nÃ¢â‚¬â€ Ava"
         }
       ]
     },
@@ -344,7 +325,7 @@
       "version": "2.0.0",
       "publishedAt": "2026-06-01T10:00:00Z",
       "title": "What's new in Flowtime 2.0.0",
-      "subtitle": "Flowtime 2.0 ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ Redesigned UI, multiple timer modes, and project tracking.",
+      "subtitle": "Flowtime 2.0 ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ Redesigned UI, multiple timer modes, and project tracking.",
       "showAsPopup": false,
       "popupType": "release_notes",
       "minAppVersion": null,
