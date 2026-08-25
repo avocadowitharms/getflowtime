@@ -809,8 +809,43 @@
     });
   }
 
+  function normalizePricingMarkup() {
+    [
+      [".free-plan ul", [
+        "pricing.free.timer",
+        "pricing.free.notifications",
+        "pricing.free.pomodoro",
+        "pricing.free.projects",
+        "pricing.free.history"
+      ]],
+      [".pro-plan ul", [
+        "pricing.pro.flow_sessions",
+        "pricing.pro.flowmodoro",
+        "pricing.pro.pomodoro",
+        "pricing.pro.projects",
+        "pricing.pro.history",
+        "pricing.pro.blocking",
+        "pricing.pro.templates",
+        "pricing.pro.reminders",
+        "pricing.pro.customization",
+        "pricing.pro.reports",
+        "pricing.pro.future"
+      ]]
+    ].forEach(function (group) {
+      var list = document.querySelector(group[0]);
+      if (!list) return;
+      list.replaceChildren.apply(list, group[1].map(function (key) {
+        var item = document.createElement("li");
+        item.setAttribute("data-i18n", key);
+        item.textContent = t(key);
+        return item;
+      }));
+    });
+  }
+
   document.documentElement.lang = locale;
   localizeMetadata();
+  normalizePricingMarkup();
   localizeStaticText();
   window.flowtimeLocale = locale;
   window.t = t;
