@@ -174,7 +174,7 @@
       "faq.what.q": "What is Flowtime?",
       "faq.what.a": "Flowtime combines flexible focus sessions, Pomodoro, reminders, time tracking, and optional app blocking. It helps you notice where your time goes, stay aware during deep focus, and stop intentionally—without requiring an account.",
       "faq.who.q": "Who is Flowtime for?",
-      "faq.who.a": "Flowtime is for people who want to make focused time visible without managing a heavy workspace. It is designed especially around ADHD time blindness, hyperfocus, and reducing distracting context switches.",
+      "faq.who.a": "Flowtime is for people who want to make focus time visible without managing a heavy workspace. It is especially suited to ADHD time blindness, hyperfocus, work, study, and simple personal time tracking.",
       "faq.adhd.q": "Is Flowtime good for ADHD?",
       "faq.adhd.a": "Flowtime can help people who benefit from external time cues, focus reminders, visible sessions, and low-friction project switching. It is not a medical tool, diagnostic tool, or ADHD treatment.",
       "faq.pomodoro.diff.q": "How is Flowtime different from Pomodoro?",
