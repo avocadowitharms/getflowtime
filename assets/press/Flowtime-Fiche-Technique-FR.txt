@@ -17,13 +17,13 @@ Google Play : https://play.google.com/store/apps/details?id=com.avocadowitharms.
 -------------------------------------------------------------------
 DESCRIPTION COURTE (~50 MOTS)
 -------------------------------------------------------------------
-Flowtime est un minuteur de concentration minimaliste et respectueux de la vie privée pour iPhone et Android. Conçu spécialement pour les personnes ayant un TDAH, une cécité temporelle ou une hyperfocalisation, Flowtime combine suivi flexible, Pomodoro, rappels doux et blocage d'applications sans création de compte.
+Flowtime est un minuteur de concentration minimaliste et respectueux de la vie privée pour iPhone et Android. Conçu spécialement pour les personnes confrontées à la cécité temporelle ou à l'hyperfocalisation, Flowtime combine suivi flexible, Pomodoro, rappels doux et blocage d'applications sans création de compte.
 
 -------------------------------------------------------------------
 POURQUOI FLOWTIME EXISTE
 -------------------------------------------------------------------
 Flowtime a débuté comme un outil personnel.
-Sa créatrice, la développeuse indépendante suisse Ava Thalheim, recherchait un minuteur aidant sur les deux aspects de la productivité TDAH : commencer le travail quand le dysfonctionnement exécutif le rend difficile, et s'arrêter quand l'hyperfocalisation fait disparaître les heures.
+Sa créatrice, la développeuse indépendante suisse Ava Thalheim, recherchait un minuteur aidant sur les deux aspects du travail concentré : commencer lorsque cela semble difficile et s'arrêter lorsque l'hyperfocalisation fait disparaître les heures.
 Le résultat est devenu Flowtime — un minuteur délibérément simple axé sur la prise de conscience plutôt que la punition.
 
 -------------------------------------------------------------------

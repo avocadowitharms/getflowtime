@@ -17,13 +17,13 @@ Google Play: https://play.google.com/store/apps/details?id=com.avocadowitharms.f
 -------------------------------------------------------------------
 KURZBESCHREIBUNG (~50 WÖRTER)
 -------------------------------------------------------------------
-Flowtime ist ein minimaler, datenschutzfreundlicher Fokus-Timer für iPhone und Android. Speziell für Menschen mit ADHS, Zeitblindheit oder Hyperfokus entwickelt, kombiniert Flowtime flexible Zeiterfassung, Pomodoro, sanfte Fokus-Erinnerungen und optionale App-Sperren in einer einfachen Erfahrung ohne Konto oder Cloud-Setup.
+Flowtime ist ein minimaler, datenschutzfreundlicher Fokus-Timer für iPhone und Android. Speziell für Menschen mit Zeitblindheit oder Hyperfokus entwickelt, kombiniert Flowtime flexible Zeiterfassung, Pomodoro, sanfte Fokus-Erinnerungen und optionale App-Sperren in einer einfachen Erfahrung ohne Konto oder Cloud-Setup.
 
 -------------------------------------------------------------------
 WARUM FLOWTIME EXISTIERT
 -------------------------------------------------------------------
 Flowtime begann als persönliches Werkzeug.
-Die Gründerin, die Schweizer Indie-Entwicklerin Ava Thalheim, wollte einen Fokus-Timer, der bei beiden Seiten der ADHS-Produktivität hilft: Mit der Arbeit zu beginnen, wenn die exekutive Dysfunktion es erschwert, und aufzuhören, wenn Hyperfokus Stunden vergehen lässt.
+Die Gründerin, die Schweizer Indie-Entwicklerin Ava Thalheim, wollte einen Fokus-Timer, der bei beiden Seiten konzentrierter Arbeit hilft: anzufangen, wenn es schwerfällt, und aufzuhören, wenn Hyperfokus Stunden vergehen lässt.
 Das Ergebnis wurde Flowtime — ein bewusst einfacher Fokus-Timer, der auf Achtsamkeit statt auf Bestrafung setzt.
 
 -------------------------------------------------------------------

@@ -17,13 +17,13 @@ Google Play: https://play.google.com/store/apps/details?id=com.avocadowitharms.f
 -------------------------------------------------------------------
 SHORT DESCRIPTION (~50 WORDS)
 -------------------------------------------------------------------
-Flowtime is a minimal, privacy-first focus timer built for iPhone and Android. Designed especially for people with ADHD, time blindness, or hyperfocus, Flowtime combines flexible session tracking, Pomodoro, gentle focus reminders, and optional app shielding into a simple experience that requires no account or cloud setup.
+Flowtime is a minimal, privacy-first focus timer built for iPhone and Android. Designed especially for people who experience time blindness or hyperfocus, Flowtime combines flexible session tracking, Pomodoro, gentle focus reminders, and optional app shielding into a simple experience that requires no account or cloud setup.
 
 -------------------------------------------------------------------
 WHY FLOWTIME EXISTS
 -------------------------------------------------------------------
 Flowtime started as a personal tool.
-Its creator, Swiss indie developer Ava Thalheim, wanted a focus timer that helped with both sides of ADHD productivity: starting work when executive dysfunction makes it difficult, and stopping when hyperfocus makes hours disappear.
+Its creator, Swiss indie developer Ava Thalheim, wanted a focus timer that helped with both sides of focused work: starting when it feels difficult, and stopping when hyperfocus makes hours disappear.
 The result became Flowtime — a deliberately simple focus timer built around awareness rather than punishment.
 
 -------------------------------------------------------------------
