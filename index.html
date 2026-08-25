@@ -741,28 +741,13 @@
     };
   </script>
   <script src="scripts/i18n.js?v=9"></script>
-  <script>
-    (function () {
-      var copy = {
-        en: ["Standard Timer", "Standard notifications", "Pomodoro (fixed intervals)", "1 Project", "1 day of History", "Flow Sessions", "Flowmodoro", "Custom Pomodoro intervals", "Unlimited Projects", "Unlimited History", "App Blocking", "Quick Start Templates", "Reminder Profiles", "UI customization (accent colors)", "Reports & Exports", "All future pro features"],
-        de: ["Standard-Timer", "Standardbenachrichtigungen", "Pomodoro (feste Intervalle)", "1 Projekt", "1 Tag Verlauf", "Flow Sessions", "Flowmodoro", "Eigene Pomodoro-Intervalle", "Unbegrenzte Projekte", "Unbegrenzter Verlauf", "App-Blocking", "Quick-Start-Vorlagen", "Erinnerungsprofile", "UI-Anpassung (Akzentfarben)", "Berichte & Exporte", "Alle zukünftigen Pro-Funktionen"],
-        fr: ["Minuteur standard", "Notifications standard", "Pomodoro (intervalles fixes)", "1 projet", "1 jour d'historique", "Flow Sessions", "Flowmodoro", "Intervalles Pomodoro personnalisés", "Projets illimités", "Historique illimité", "Blocage d'apps", "Modèles Quick Start", "Profils de rappel", "Personnalisation de l'interface (couleurs d'accent)", "Rapports et exports", "Toutes les futures fonctionnalités Pro"]
-      };
-      var labels = copy[document.documentElement.lang] || copy.en;
-      [labels.slice(0, 5), labels.slice(5)].forEach(function (items, index) {
-        var list = document.querySelector(index ? ".pro-plan ul" : ".free-plan ul");
-        if (!list) return;
-        list.innerHTML = items.map(function (item) { return "<li>" + item + "</li>"; }).join("");
-      });
-    }());
-  </script>
   <script src="sections/header.js?v=3"></script>
   <script src="sections/hero.js"></script>
   <script src="sections/focus-modes.js?v=4"></script>
   <script src="sections/style-preview.js"></script>
   <script src="sections/onboarding.js"></script>
   <script src="sections/reports.js"></script>
-  <script src="sections/pricing.js"></script>
+  <script src="sections/pricing.js?v=2"></script>
   <script src="sections/social.js"></script>
   <script src="sections/faq.js"></script>
   <script src="sections/download-panel.js?v=3"></script>

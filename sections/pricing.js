@@ -11,15 +11,11 @@ window.renderSection("pricing", `
           <span class="plan-pill" data-i18n="pricing.free">${window.t("pricing.free")}</span>
           <h3 data-i18n="pricing.free.title">${window.t("pricing.free.title")}</h3>
           <ul>
-            <li data-i18n="pricing.free.timers">${window.t("pricing.free.timers")}</li>
-            <li data-i18n="pricing.free.projects">${window.t("pricing.free.projects")}</li>
-            <li data-i18n="pricing.free.templates">${window.t("pricing.free.templates")}</li>
-            <li data-i18n="pricing.free.reminders">${window.t("pricing.free.reminders")}</li>
-            <li data-i18n="pricing.free.flow">${window.t("pricing.free.flow")}</li>
+            <li data-i18n="pricing.free.timer">${window.t("pricing.free.timer")}</li>
+            <li data-i18n="pricing.free.notifications">${window.t("pricing.free.notifications")}</li>
             <li data-i18n="pricing.free.pomodoro">${window.t("pricing.free.pomodoro")}</li>
-            <li data-i18n="pricing.free.selection">${window.t("pricing.free.selection")}</li>
-            <li data-i18n="pricing.free.appearance">${window.t("pricing.free.appearance")}</li>
-            <li data-i18n="pricing.free.shielding">${window.t("pricing.free.shielding")}</li>
+            <li data-i18n="pricing.free.projects">${window.t("pricing.free.projects")}</li>
+            <li data-i18n="pricing.free.history">${window.t("pricing.free.history")}</li>
           </ul>
         </div>
         <div class="price-screen">
@@ -31,17 +27,17 @@ window.renderSection("pricing", `
           <span class="plan-pill dark">Pro</span>
           <h3 data-i18n="pricing.pro.title">${window.t("pricing.pro.title")}</h3>
           <ul>
+            <li data-i18n="pricing.pro.flow_sessions">${window.t("pricing.pro.flow_sessions")}</li>
+            <li data-i18n="pricing.pro.flowmodoro">${window.t("pricing.pro.flowmodoro")}</li>
+            <li data-i18n="pricing.pro.pomodoro">${window.t("pricing.pro.pomodoro")}</li>
             <li data-i18n="pricing.pro.projects">${window.t("pricing.pro.projects")}</li>
+            <li data-i18n="pricing.pro.history">${window.t("pricing.pro.history")}</li>
+            <li data-i18n="pricing.pro.blocking">${window.t("pricing.pro.blocking")}</li>
             <li data-i18n="pricing.pro.templates">${window.t("pricing.pro.templates")}</li>
-            <li data-i18n="pricing.pro.timer.templates">${window.t("pricing.pro.timer.templates")}</li>
-            <li data-i18n="pricing.pro.launch">${window.t("pricing.pro.launch")}</li>
-            <li data-i18n="pricing.pro.pinned">${window.t("pricing.pro.pinned")}</li>
-            <li data-i18n="pricing.pro.reminder.profiles">${window.t("pricing.pro.reminder.profiles")}</li>
-            <li data-i18n="pricing.pro.reminder.controls">${window.t("pricing.pro.reminder.controls")}</li>
-            <li data-i18n="pricing.advanced.pomodoro">${window.t("pricing.advanced.pomodoro")}</li>
-            <li data-i18n="pricing.break.tracking">${window.t("pricing.break.tracking")}</li>
-            <li data-i18n="pricing.pro.analytics">${window.t("pricing.pro.analytics")}</li>
-            <li data-i18n="pricing.timer.ring">${window.t("pricing.timer.ring")}</li>
+            <li data-i18n="pricing.pro.reminders">${window.t("pricing.pro.reminders")}</li>
+            <li data-i18n="pricing.pro.customization">${window.t("pricing.pro.customization")}</li>
+            <li data-i18n="pricing.pro.reports">${window.t("pricing.pro.reports")}</li>
+            <li data-i18n="pricing.pro.future">${window.t("pricing.pro.future")}</li>
           </ul>
         </div>
         <div class="price-screen">
