@@ -24,14 +24,6 @@ window.renderSection("faq", `
 
       <details class="faq-item">
         <summary>
-          <span data-i18n="faq.adhd.q">${window.t("faq.adhd.q")}</span>
-          <span class="faq-toggle" aria-hidden="true"></span>
-        </summary>
-        <p data-i18n="faq.adhd.a">${window.t("faq.adhd.a")}</p>
-      </details>
-
-      <details class="faq-item">
-        <summary>
           <span data-i18n="faq.pomodoro.diff.q">${window.t("faq.pomodoro.diff.q")}</span>
           <span class="faq-toggle" aria-hidden="true"></span>
         </summary>
