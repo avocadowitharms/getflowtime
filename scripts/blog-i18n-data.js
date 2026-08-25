@@ -2381,7 +2381,7 @@
           "desc": "Lies über ADHS-Time-Blindness, Hyperfokus, Fokus-Timer, Pomodoro-Alternativen, App-Blocking, Arbeit, Lernen und einfache persönliche Zeiterfassung.",
           "clusters": [
             {
-              "title": "Time-Blindness und ADHS",
+              "title": "Time-Blindness",
               "desc": "Externe Zeitreize, sichtbare Sessions und Fokus-Erinnerungen für Menschen, die die Zeit aus dem Blick verlieren."
             },
             {
@@ -2479,7 +2479,7 @@
           "desc": "Lisez des guides sur le TDAH, la time blindness, l'hyperfocus, les minuteurs de concentration, Pomodoro, le blocage d'apps, le travail, les Études et le suivi personnel du temps.",
           "clusters": [
             {
-              "title": "Time blindness et TDAH",
+              "title": "Perception du temps",
               "desc": "Repères temporels externes, sessions visibles et rappels de concentration pour mieux remarquer le temps qui passe."
             },
             {
