@@ -252,20 +252,6 @@ body[data-theme="classic"] .button.primary {
   min-width: 0;
 }
 
-.founder-story-photo {
-  margin: 0;
-  width: min(100%, 380px);
-  justify-self: center;
-}
-
-.founder-story-photo img {
-  width: 100%;
-  height: auto;
-  border-radius: 18px;
-  box-shadow: 0 16px 34px rgba(17, 22, 32, 0.12);
-  object-fit: cover;
-}
-
 @media (min-width: 1024px) {
   .positioning-section,
   .founder-story {
@@ -282,14 +268,6 @@ body[data-theme="classic"] .button.primary {
     max-width: 1200px;
     justify-self: start;
     padding-top: 54px;
-    grid-template-columns: minmax(0, 760px) minmax(220px, 304px);
-    gap: clamp(40px, 8vw, 130px);
-  }
-
-  .founder-story-photo {
-    width: min(100%, 304px);
-    justify-self: end;
-    padding-top: 34px;
   }
 
   .positioning-grid {
