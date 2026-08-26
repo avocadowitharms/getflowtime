@@ -33,9 +33,9 @@
       siteUrl + "/assets/flow-session-mono-opt.webp",
       siteUrl + "/assets/reports-mono-opt.webp"
     ],
-    shortDescription: "Flowtime is an ADHD focus timer for time blindness, hyperfocus, Pomodoro, focus reminders, project time tracking, and optional app blocking on iPhone and Android.",
-    summary: "Flowtime is an ADHD focus timer for time blindness, hyperfocus, Pomodoro, focus reminders, project time tracking, and optional app blocking on iPhone and Android. It is designed around ADHD time blindness, hyperfocus, and reducing distracting context switches. No account is required.",
-    fullDescription: "Flowtime is an ADHD focus timer for time blindness, hyperfocus, Pomodoro, focus reminders, project time tracking, and optional app blocking on iPhone and Android. It combines flexible focus sessions, Pomodoro, focus reminders, personal time tracking, projects, session history, and optional app blocking. It is designed around ADHD time blindness, hyperfocus, and reducing distracting context switches. Flowtime does not require an account, and timer and project data are stored locally on the device.",
+    shortDescription: "Flowtime is a flexible focus timer and personal time tracker with Pomodoro, reminders, projects, and optional app blocking on iPhone and Android.",
+    summary: "Flowtime is a flexible, friction-free focus timer and personal time tracker for iPhone and Android. It combines open-ended focus sessions, Pomodoro, reminders, projects, reports, and optional app blocking. No account is required.",
+    fullDescription: "Flowtime is a flexible, friction-free focus timer and personal time tracker for iPhone and Android. It combines open-ended Flow Sessions, Pomodoro, focus reminders, projects, session history, reports, and optional app blocking. Flowtime does not require an account, and timer and project data are stored locally on the device.",
     applicationCategory: "ProductivityApplication",
     supportedPlatforms: ["iPhone", "Android"],
     operatingSystems: ["iOS", "Android"],
@@ -72,8 +72,8 @@
     designedFor: [
       "Flexible focus",
       "Time awareness",
-      "ADHD time blindness",
-      "Hyperfocus",
+      "Deep work",
+      "Intentional breaks",
       "Work",
       "Study",
       "Reducing digital distractions"

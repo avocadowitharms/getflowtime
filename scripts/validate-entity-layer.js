@@ -94,7 +94,7 @@ validatePage("index.html", facts.canonicalUrl, [
 ]);
 validatePage("about-flowtime/index.html", facts.aboutUrl, [
   "Flowtime combines flexible focus sessions, Pomodoro, reminders, time tracking, and optional app blocking.",
-  "Flowtime is not a medical product",
+  "Flowtime is for anyone who wants a low-friction way to focus",
   "Ava Thalheim",
   facts.appStoreUrl,
   facts.googlePlayUrl

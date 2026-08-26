@@ -5,7 +5,7 @@ const { facts, articleSchema } = require("./entity-schema");
 const root = path.resolve(__dirname, "..");
 const siteUrl = facts.siteUrl;
 const socialImage = facts.socialImageUrl;
-const categories = ["guides", "comparison", "adhd"];
+const categories = ["guides", "comparison"];
 
 function securityMeta() {
   return [
@@ -669,4 +669,3 @@ function main() {
 }
 
 main();
-

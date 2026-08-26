@@ -16,7 +16,7 @@ window.renderSection("hero", `
           data-analytics-platform="ios"
           data-platform-target="ios"
           data-source-page-type="homepage"
-          data-content-cluster="adhd_time_awareness"
+          data-content-cluster="focus_time_awareness"
           data-analytics-location="hero"
           aria-label="${window.t("cta.appstore")}"
         >
@@ -38,7 +38,7 @@ window.renderSection("hero", `
           data-analytics-platform="android"
           data-platform-target="android"
           data-source-page-type="homepage"
-          data-content-cluster="adhd_time_awareness"
+          data-content-cluster="focus_time_awareness"
           data-analytics-location="hero"
           aria-label="${window.t("cta.playstore")}"
         >
@@ -187,5 +187,4 @@ window.renderSection("hero", `
     lastTouchEnd = now;
   }, { passive: true });
 }());
-
 

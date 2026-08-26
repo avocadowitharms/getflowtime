@@ -64,7 +64,7 @@ function loadContentCategory(categoryDir, categorySlug) {
 function generateLlmsTxt() {
   const content = `# Flowtime
 
-Flowtime is an ADHD focus timer for time blindness, hyperfocus, Pomodoro, focus reminders, project time tracking, and optional app blocking on iPhone and Android.
+${facts.shortDescription}
 
 Official website:
 ${siteUrl}/
@@ -97,14 +97,14 @@ Core features:
 ${facts.coreFeatures.map((f) => `- ${f}`).join("\n")}
 
 Best-fit use cases:
-- ADHD time blindness
-- Hyperfocus check-ins
+- Flexible focus sessions
+- Time-awareness check-ins
 - Flexible Pomodoro alternatives
 - Focus sessions for work and study
 - Reducing distracting app checks
 - Personal project time tracking without an account
 
-Flowtime is designed around ADHD time blindness, hyperfocus, and reducing distracting context switches. It is not a medical product, diagnostic tool, or ADHD treatment.
+Flowtime is designed to reduce friction, keep focused time visible, and make intentional stopping easier.
 `;
 
   fs.writeFileSync(path.join(root, "llms.txt"), content, "utf8");
@@ -114,12 +114,11 @@ Flowtime is designed around ADHD time blindness, hyperfocus, and reducing distra
 function generateLlmsFullTxt() {
   const guides = loadContentCategory("guides", "guides");
   const comparisons = loadContentCategory("comparison", "comparison");
-  const adhd = loadContentCategory("adhd", "adhd");
 
   const lines = [
     `# Flowtime — Full Knowledge Base & Documentation`,
     ``,
-    `Flowtime is an ADHD focus timer for time blindness, hyperfocus, Pomodoro, focus reminders, project time tracking, and optional app blocking on iPhone and Android.`,
+    facts.shortDescription,
     ``,
     `- Website: ${siteUrl}/`,
     `- Summary LLM Text: ${siteUrl}/llms.txt`,
@@ -164,22 +163,6 @@ function generateLlmsFullTxt() {
   lines.push(``);
 
   comparisons.forEach((doc) => {
-    lines.push(`### ${doc.title}`);
-    lines.push(`URL: ${doc.url}`);
-    if (doc.description) {
-      lines.push(`Description: ${doc.description}`);
-    }
-    lines.push(``);
-    lines.push(doc.body);
-    lines.push(``);
-    lines.push(`---`);
-    lines.push(``);
-  });
-
-  lines.push(`## ADHD & Focus Information`);
-  lines.push(``);
-
-  adhd.forEach((doc) => {
     lines.push(`### ${doc.title}`);
     lines.push(`URL: ${doc.url}`);
     if (doc.description) {
