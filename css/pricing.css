@@ -112,7 +112,7 @@ body[data-theme="classic"] .price-card li::before {
 
 .download-panel .actions {
   display: grid;
-  grid-template-columns: repeat(3, max-content);
+  grid-template-columns: repeat(2, max-content);
   align-items: center;
   gap: 9px;
 }
