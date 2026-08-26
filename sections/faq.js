@@ -94,12 +94,17 @@ window.renderSection("faq", `
         <div class="faq-answer">
           <p data-i18n="faq.pro.a">${window.t("faq.pro.a")}</p>
           <ul>
-            <li data-i18n="faq.pro.projects">${window.t("faq.pro.projects")}</li>
-            <li data-i18n="faq.pro.templates">${window.t("faq.pro.templates")}</li>
-            <li data-i18n="faq.pro.reminders">${window.t("faq.pro.reminders")}</li>
-            <li data-i18n="faq.pro.pomodoro">${window.t("faq.pro.pomodoro")}</li>
-            <li data-i18n="faq.pro.analytics">${window.t("faq.pro.analytics")}</li>
-            <li data-i18n="faq.pro.appearance">${window.t("faq.pro.appearance")}</li>
+            <li data-i18n="pricing.pro.flow_sessions">${window.t("pricing.pro.flow_sessions")}</li>
+            <li data-i18n="pricing.pro.flowmodoro">${window.t("pricing.pro.flowmodoro")}</li>
+            <li data-i18n="pricing.pro.pomodoro">${window.t("pricing.pro.pomodoro")}</li>
+            <li data-i18n="pricing.pro.projects">${window.t("pricing.pro.projects")}</li>
+            <li data-i18n="pricing.pro.history">${window.t("pricing.pro.history")}</li>
+            <li data-i18n="pricing.pro.blocking">${window.t("pricing.pro.blocking")}</li>
+            <li data-i18n="pricing.pro.templates">${window.t("pricing.pro.templates")}</li>
+            <li data-i18n="pricing.pro.reminders">${window.t("pricing.pro.reminders")}</li>
+            <li data-i18n="pricing.pro.customization">${window.t("pricing.pro.customization")}</li>
+            <li data-i18n="pricing.pro.reports">${window.t("pricing.pro.reports")}</li>
+            <li data-i18n="pricing.pro.future">${window.t("pricing.pro.future")}</li>
           </ul>
         </div>
       </details>

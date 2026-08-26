@@ -49,7 +49,7 @@
   .hero-actions {
     margin: -4px 0 22px;
     display: grid;
-    grid-template-columns: repeat(3, max-content);
+    grid-template-columns: repeat(2, max-content);
     justify-content: start;
     align-items: center;
     gap: 9px;
@@ -635,27 +635,15 @@
     margin-top: 102px;
     margin-bottom: 40px;
     padding: 46px clamp(28px, 4vw, 48px);
-    display: grid;
-    grid-template-columns: minmax(275px, 0.85fr) minmax(410px, 1.15fr);
-    gap: clamp(28px, 4vw, 60px);
+    display: flex;
+    justify-content: center;
     align-items: center;
     border-radius: 28px;
   }
 
-  .download-panel h2 {
-    font-size: 46px;
-  }
-
-  .download-panel p {
-    margin-bottom: 0;
-    max-width: 410px;
-    font-size: 16px;
-    line-height: 1.58;
-  }
-
   .download-panel .actions {
     grid-template-columns: repeat(3, max-content);
-    justify-content: end;
+    justify-content: center;
     align-items: center;
   }
 

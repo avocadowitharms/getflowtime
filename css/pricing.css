@@ -110,20 +110,9 @@ body[data-theme="classic"] .price-card li::before {
   box-shadow: var(--shadow);
 }
 
-.download-panel h2 {
-  margin: 0 0 7px;
-  font-size: 27px;
-  letter-spacing: -0.05em;
-}
-
-.download-panel p {
-  margin: 0 0 20px;
-  color: var(--muted);
-}
-
 .download-panel .actions {
   display: grid;
-  grid-template-columns: repeat(3, max-content);
+  grid-template-columns: repeat(2, max-content);
   align-items: center;
   gap: 9px;
 }

@@ -1,10 +1,5 @@
 window.renderSection("download-panel", `
   <section class="download-panel">
-    <div>
-      <h2>${window.t("download.title")}</h2>
-      <p>${window.t("download.description")}</p>
-    </div>
-
     <div class="actions">
       <a
         class="app-store-badge"
@@ -52,9 +47,6 @@ window.renderSection("download-panel", `
         />
       </a>
 
-      <a class="button primary" href="https://discord.gg/4P4QudduWm" target="_blank" rel="noopener noreferrer" data-analytics-event="discord_join" data-analytics-location="download_panel">
-        ${window.t("cta.discord")} <span aria-hidden="true">&rarr;</span>
-      </a>
     </div>
   </section>
 `);
