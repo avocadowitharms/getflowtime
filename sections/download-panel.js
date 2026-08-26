@@ -1,10 +1,5 @@
 window.renderSection("download-panel", `
   <section class="download-panel">
-    <div>
-      <h2>${window.t("download.title")}</h2>
-      <p>${window.t("download.description")}</p>
-    </div>
-
     <div class="actions">
       <a
         class="app-store-badge"
