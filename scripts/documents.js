@@ -16,8 +16,8 @@
         privacy: "Privacy Policy",
         terms: "Terms of Use",
         support: "Support",
-        copyright: "&copy; 2026 Ava Thalheim",
-        creator: "avathalheim.dev",
+        copyright: "&copy; 2026 gugus. Software&Things",
+        creator: "gugus. Software&Things",
         updated: "Last updated: July 31, 2026",
         email: "Email support"
       },
@@ -61,8 +61,8 @@
         privacy: "Datenschutzerklärung",
         terms: "Nutzungsbedingungen",
         support: "Support",
-        copyright: "&copy; 2026 Ava Thalheim",
-        creator: "avathalheim.dev",
+        copyright: "&copy; 2026 gugus. Software&Things",
+        creator: "gugus. Software&Things",
         updated: "Zuletzt aktualisiert: 31. Juli 2026",
         email: "Support kontaktieren"
       },
@@ -106,8 +106,8 @@
         privacy: "Politique de confidentialité",
         terms: "Conditions d'utilisation",
         support: "Assistance",
-        copyright: "&copy; 2026 Ava Thalheim",
-        creator: "avathalheim.dev",
+        copyright: "&copy; 2026 gugus. Software&Things",
+        creator: "gugus. Software&Things",
         updated: "Dernière mise à jour : 31 juillet 2026",
         email: "Contacter l'assistance"
       },
@@ -209,7 +209,7 @@
     pageLink("privacy-policy.html", language.common.privacy, "privacy"),
     pageLink("terms-of-use.html", language.common.terms, "terms"),
     pageLink("support.html", language.common.support, "support"),
-    '<a href="https://avathalheim.dev/" target="_blank" rel="noopener noreferrer">' + language.common.creator + "</a>",
+    '<a href="https://gugus.software/" target="_blank" rel="noopener noreferrer">' + language.common.creator + "</a>",
     "</nav></footer>"
   ].join("");
 

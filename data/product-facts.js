@@ -44,9 +44,11 @@
     cloudSync: "No cloud sync is described on the website.",
     analytics: "The website uses privacy-friendly Plausible analytics. The app privacy policy states that tracking data is not used for advertising, analytics, or personal data collection.",
     appBlockingData: "The privacy policy states that accessibility data is only used to provide optional app blocking and is not used for advertising, analytics, or personal data collection.",
-    creatorName: "Ava Thalheim",
-    creatorUrl: "https://avathalheim.dev/",
-    publisherName: "Ava Thalheim",
+    creatorName: "gugus. Software&Things",
+    creatorUrl: "https://gugus.software/",
+    publisherName: "gugus. Software&Things",
+    authorName: "Ava Thalheim",
+    authorUrl: "https://gugus.software/",
     officialSocialProfiles: [
       "https://www.instagram.com/flowtimefocus/",
       "https://x.com/Flowtime_app"
@@ -56,7 +58,7 @@
       googlePlayUrl,
       "https://www.instagram.com/flowtimefocus/",
       "https://x.com/Flowtime_app",
-      "https://avathalheim.dev/"
+      "https://gugus.software/"
     ],
     coreFeatures: [
       "Flexible focus sessions",
@@ -92,6 +94,7 @@
       website: siteUrl + "/#website",
       software: siteUrl + "/#software",
       publisher: siteUrl + "/#publisher",
+      author: siteUrl + "/#author",
       aboutPage: siteUrl + "/about-flowtime/#webpage",
       aboutFaq: siteUrl + "/about-flowtime/#faq"
     }

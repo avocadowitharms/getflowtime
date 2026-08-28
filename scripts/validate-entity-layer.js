@@ -40,6 +40,7 @@ function validateFacts() {
     "appStoreUrl",
     "googlePlayUrl",
     "creatorName",
+    "authorName",
     "privacyPolicyUrl",
     "supportUrl"
   ].forEach((key) => assert(Boolean(facts[key]), `Missing product fact: ${key}`));

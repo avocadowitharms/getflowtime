@@ -2,12 +2,21 @@ const facts = require("../data/product-facts");
 
 function publisherNode() {
   return {
-    "@type": "Person",
+    "@type": "Organization",
     "@id": facts.ids.publisher,
     "name": facts.creatorName,
     "url": facts.creatorUrl,
-    "sameAs": facts.officialSocialProfiles,
-    "jobTitle": "Creator of Flowtime"
+    "sameAs": facts.officialSocialProfiles
+  };
+}
+
+function authorNode() {
+  return {
+    "@type": "Person",
+    "@id": facts.ids.author,
+    "name": facts.authorName,
+    "url": facts.authorUrl,
+    "jobTitle": "Founder of Flowtime"
   };
 }
 
@@ -159,6 +168,7 @@ function faqPageNode(post, url) {
 function articleSchema(post, url, description, socialImage, type, language = "en") {
   const graph = [
     publisherNode(),
+    authorNode(),
     websiteNode(),
     softwareNode(),
     {
@@ -167,7 +177,7 @@ function articleSchema(post, url, description, socialImage, type, language = "en
       "description": description,
       "datePublished": post.data.date,
       "dateModified": post.data.dateModified || post.data.updated || post.data.date,
-      "author": { "@id": facts.ids.publisher },
+      "author": { "@id": facts.ids.author },
       "publisher": { "@id": facts.ids.publisher },
       "mainEntityOfPage": url,
       "image": socialImage,
@@ -195,6 +205,7 @@ function articleSchema(post, url, description, socialImage, type, language = "en
 module.exports = {
   facts,
   publisherNode,
+  authorNode,
   websiteNode,
   softwareNode,
   breadcrumbNode,
