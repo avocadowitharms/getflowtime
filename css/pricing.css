@@ -393,41 +393,16 @@ footer {
   white-space: nowrap;
 }
 
-.coffee-link {
-  min-height: 39px;
-  padding: 5px 13px 5px 6px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--ink);
-  background: var(--surface);
-  font-size: 12px;
-  font-weight: 650;
-}
-
-.coffee-link,
 .top-link,
 .social-icon-link {
   box-shadow: 0 8px 20px rgba(17, 22, 32, 0.035);
   transition: border-color 150ms ease, transform 150ms ease, background-color 150ms ease;
 }
 
-.coffee-link:hover,
 .top-link:hover,
 .social-icon-link:hover {
   border-color: var(--ink);
   transform: translateY(-1px);
-}
-
-.coffee-link svg {
-  width: 27px;
-  height: 27px;
-  padding: 6px;
-  border-radius: 50%;
-  color: var(--ink);
-  background: var(--soft);
 }
 
 .top-link {
