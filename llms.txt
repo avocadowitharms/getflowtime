@@ -24,7 +24,7 @@ Google Play:
 https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime
 
 Privacy policy:
-https://flowtime-app.com/docs/privacy-policy.html
+https://gugus.software/privacy/flowtime/
 
 Support:
 https://flowtime-app.com/docs/support.html

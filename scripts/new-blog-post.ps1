@@ -278,20 +278,6 @@ function Generate-Sitemap {
   Add-UrlsFromDir $guidesDir "guides"
 
   $urls += @{
-    loc = "$siteUrl/docs/privacy-policy.html"
-    lastmod = "2026-06-01"
-    changefreq = "yearly"
-    priority = "0.3"
-  }
-
-  $urls += @{
-    loc = "$siteUrl/docs/terms-of-use.html"
-    lastmod = "2026-06-01"
-    changefreq = "yearly"
-    priority = "0.3"
-  }
-
-  $urls += @{
     loc = "$siteUrl/docs/support.html"
     lastmod = "2026-06-01"
     changefreq = "monthly"

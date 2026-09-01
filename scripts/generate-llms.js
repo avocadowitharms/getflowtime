@@ -88,7 +88,7 @@ Google Play:
 ${facts.googlePlayUrl}
 
 Privacy policy:
-${siteUrl}/docs/privacy-policy.html
+${facts.privacyPolicyUrl}
 
 Support:
 ${siteUrl}/docs/support.html

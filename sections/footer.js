@@ -8,8 +8,8 @@
     <nav class="footer-links" aria-label="${window.t("footer.links")}">
       <a href="${root}about-flowtime/index.html">${window.t("footer.about")}</a>
       <a href="${root}press/index.html">Press Kit</a>
-      <a href="${root}docs/privacy-policy.html">${window.t("footer.privacy")}</a>
-      <a href="${root}docs/terms-of-use.html">${window.t("footer.terms")}</a>
+      <a href="https://gugus.software/privacy/flowtime/">${window.t("footer.privacy")}</a>
+      <a href="https://gugus.software/terms/flowtime/">${window.t("footer.terms")}</a>
       <a href="${root}docs/support.html">${window.t("footer.support")}</a>
       <a href="https://gugus.software/" target="_blank" rel="noopener noreferrer">${window.t("footer.creator")}</a>
       <span class="footer-love">L ❤️</span>
