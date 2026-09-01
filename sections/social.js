@@ -35,7 +35,83 @@
     });
   }
 
-  // Dynamic updates loading
+  function renderPressCoverage() {
+    var coverage = [
+      {
+        publication: "KrispiTech",
+        title: "Flowtime Is a Focus Timer Built Around One Simple Idea: Get Out of the Way",
+        url: "https://krispitech.com/flowtime-is-a-focus-timer-built-around-one-simple-idea-get-out-of-the-way/"
+      }
+    ];
+
+    var cards = coverage.map(function (article) {
+      return `
+        <a class="press-coverage-card" href="${escapeHtml(article.url)}" target="_blank" rel="noopener noreferrer">
+          <span class="press-coverage-publication">${escapeHtml(article.publication)}</span>
+          <strong>${escapeHtml(article.title)}</strong>
+          <span class="press-coverage-link">Read article <span aria-hidden="true">→</span></span>
+        </a>
+      `;
+    }).join("");
+
+    var reviews = document.querySelector(".reviews-section");
+    if (!reviews || document.querySelector(".press-coverage-section")) return;
+
+    reviews.insertAdjacentHTML("afterend", `
+      <section class="section press-coverage-section" aria-labelledby="press-coverage-title">
+        <div class="section-heading">
+          <p class="eyebrow">Press &amp; coverage</p>
+          <h2 id="press-coverage-title">Flowtime in the press.</h2>
+          <p>Articles, reviews, and independent coverage of Flowtime.</p>
+        </div>
+        <div class="press-coverage-grid">
+          ${cards}
+        </div>
+      </section>
+      <style>
+        .press-coverage-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+          gap: 18px;
+          margin-top: 32px;
+        }
+        .press-coverage-card {
+          min-height: 190px;
+          padding: 28px;
+          border: 1px solid var(--border-color, rgba(127, 127, 127, 0.22));
+          border-radius: 24px;
+          background: var(--card-bg, rgba(127, 127, 127, 0.06));
+          color: inherit;
+          text-decoration: none;
+          display: flex;
+          flex-direction: column;
+          gap: 14px;
+          transition: transform 180ms ease, border-color 180ms ease;
+        }
+        .press-coverage-card:hover {
+          transform: translateY(-3px);
+          border-color: currentColor;
+        }
+        .press-coverage-publication {
+          font-size: 0.78rem;
+          font-weight: 700;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          opacity: 0.62;
+        }
+        .press-coverage-card strong {
+          font-size: clamp(1.2rem, 2vw, 1.55rem);
+          line-height: 1.25;
+          max-width: 32ch;
+        }
+        .press-coverage-link {
+          margin-top: auto;
+          font-weight: 600;
+        }
+      </style>
+    `);
+  }
+
   var updates = [];
   try {
     var sourceUpdates = Array.isArray(window.FlowtimeUpdatesData) && window.FlowtimeUpdatesData.length > 0
@@ -57,10 +133,8 @@
     console.error("Failed to load updates for homepage gallery:", e);
   }
 
-  // Compile list of exactly 5 cards to show in the gallery grid
   var cardsToRender = [];
 
-  // Add published updates
   updates.forEach(function (u) {
     var platform = getSafePlatform(u.platform || "manual");
     var platformName = platform === "x" ? "X" : platform.charAt(0).toUpperCase() + platform.slice(1);
@@ -82,7 +156,6 @@
     });
   });
 
-  // Fallbacks to pad the gallery so it always has 5 items
   var fallbacks = [
     {
       href: root + "updates/index.html",
@@ -136,7 +209,6 @@
     }
   ];
 
-  // Add fallbacks until we have 5 items
   for (var i = 0; i < fallbacks.length; i++) {
     if (cardsToRender.length >= 5) break;
     cardsToRender.push(fallbacks[i]);
@@ -154,7 +226,6 @@
     var hasEmbedClass = card.embedUrl ? " has-embed" : "";
     var hasNoImgClass = card.thumbnailUrl || card.embedUrl ? "" : " has-no-image";
     var platformClass = card.platform ? " social-post-" + escapeHtml(card.platform) : "";
-    
     var descHtml = card.description
       ? `<p class="social-post-desc">${escapeHtml(card.description)}</p>`
       : "";
@@ -185,5 +256,6 @@
     </div>
   </section>
   `);
+  renderPressCoverage();
   bindImageFallbacks();
 })();
