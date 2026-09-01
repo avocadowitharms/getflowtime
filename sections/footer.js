@@ -10,7 +10,7 @@
       <a href="${root}press/index.html">Press Kit</a>
       <a href="https://gugus.software/privacy/flowtime/">${window.t("footer.privacy")}</a>
       <a href="https://gugus.software/terms/flowtime/">${window.t("footer.terms")}</a>
-      <a href="${root}docs/support.html">${window.t("footer.support")}</a>
+      <a href="https://gugus.software/support/flowtime/">${window.t("footer.support")}</a>
       <a href="https://gugus.software/" target="_blank" rel="noopener noreferrer">${window.t("footer.creator")}</a>
       <span class="footer-love">L ❤️</span>
     </nav>

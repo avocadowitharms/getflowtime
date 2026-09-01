@@ -277,13 +277,6 @@ function Generate-Sitemap {
   Add-UrlsFromDir $comparisonDir "comparison"
   Add-UrlsFromDir $guidesDir "guides"
 
-  $urls += @{
-    loc = "$siteUrl/docs/support.html"
-    lastmod = "2026-06-01"
-    changefreq = "monthly"
-    priority = "0.4"
-  }
-
   $urls = $urls | Sort-Object loc
 
   $xml = @()

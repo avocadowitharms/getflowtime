@@ -27,7 +27,7 @@ Privacy policy:
 https://gugus.software/privacy/flowtime/
 
 Support:
-https://flowtime-app.com/docs/support.html
+https://gugus.software/support/flowtime/
 
 Core features:
 - Flexible focus sessions

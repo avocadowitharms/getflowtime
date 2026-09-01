@@ -91,7 +91,7 @@ Privacy policy:
 ${facts.privacyPolicyUrl}
 
 Support:
-${siteUrl}/docs/support.html
+${facts.supportUrl}
 
 Core features:
 ${facts.coreFeatures.map((f) => `- ${f}`).join("\n")}

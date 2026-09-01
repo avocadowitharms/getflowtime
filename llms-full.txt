@@ -7,7 +7,7 @@ Flowtime is a flexible focus timer and personal time tracker with Pomodoro, remi
 - App Store: https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969
 - Google Play: https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime
 - Privacy Policy: https://gugus.software/privacy/flowtime/
-- Support: https://flowtime-app.com/docs/support.html
+- Support: https://gugus.software/support/flowtime/
 
 ---
 

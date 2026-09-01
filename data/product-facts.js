@@ -20,7 +20,7 @@
     comparisonUrl: siteUrl + "/comparison/",
     privacyPolicyUrl: "https://gugus.software/privacy/flowtime/",
     termsUrl: "https://gugus.software/terms/flowtime/",
-    supportUrl: siteUrl + "/docs/support.html",
+    supportUrl: "https://gugus.software/support/flowtime/",
     appStoreUrl: appStoreUrl,
     googlePlayUrl: googlePlayUrl,
     logoUrl: siteUrl + "/assets/logo-classic.png",
