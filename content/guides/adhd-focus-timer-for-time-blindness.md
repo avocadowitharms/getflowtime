@@ -1,8 +1,8 @@
 ---
 title: "Focus Timer for Time Blindness"
 seoTitle: "Focus Timer for Time Blindness"
-description: "How an ADHD focus timer can support time blindness, hyperfocus, focus reminders, Pomodoro, app blocking, and flexible work sessions."
-metaDescription: "Learn what to look for in an ADHD focus timer for time blindness, hyperfocus, reminders, Pomodoro, app blocking, and flexible work sessions."
+description: "How a flexible focus timer can make passing time easier to notice, including for some people with ADHD who experience time blindness or hyperfocus."
+metaDescription: "Choosing a focus timer for time awareness: visible sessions, gentle reminders, flexible intervals, and considerations for ADHD and hyperfocus."
 slug: "adhd-focus-timer-for-time-blindness"
 searchIntent: "Commercial Investigation"
 primaryKeyword: "ADHD focus timer for time blindness"
@@ -16,9 +16,9 @@ draft: false
 
 ## Summary
 
-An ADHD focus timer for time blindness should do more than count minutes. The useful part is often external awareness: seeing that time is passing, getting gentle check-ins, protecting the session from distracting apps, and choosing whether to continue, stop, or switch.
+For people who lose track of time, including some people with ADHD, a focus timer can offer more than a countdown. The useful part is often external awareness: seeing that time is passing, getting gentle check-ins, protecting the session from distracting apps, and choosing whether to continue, stop, or switch.
 
-Flowtime is built around that kind of support. It is not a medical product, diagnostic tool, or ADHD treatment. It is a focus and time-awareness app for people who want visible sessions and fewer distracting exits.
+Flowtime is a flexible focus timer and time tracker for anyone who wants to keep focused time visible. It is not a medical product, diagnostic tool, or ADHD treatment. Its visible sessions and optional app blocking offer a simple way to track time with fewer distractions.
 
 ## Why time blindness changes the timer problem
 
@@ -40,7 +40,7 @@ Some tasks need a short Pomodoro interval. Some need a longer focus block. Some 
 
 ## Pomodoro can help, but it is not the only shape
 
-Pomodoro works well when a clear interval helps you begin. For ADHD, that can be genuinely useful. The challenge is that attention does not always arrive on schedule.
+Pomodoro works well when a clear interval helps you begin. For some people with ADHD, that can be useful. The challenge is that attention does not always arrive on schedule.
 
 If focus finally appears near the end of a 25-minute block, a forced break can feel disruptive. A flexible Flow Session gives you a target and a reminder, then lets you decide what should happen next.
 
@@ -54,7 +54,7 @@ A hyperfocus timer should create exit points. It does not need to yank you out o
 
 Flowtime combines flexible Flow Sessions, Pomodoro, focus reminders, project time tracking, and optional app blocking. These modes let Flowtime adapt to time awareness, hyperfocus, structured intervals, and personal time tracking.
 
-Flowtime is available for iPhone and Android, does not require an account, and is designed around ADHD time blindness, hyperfocus, and reducing distracting context switches.
+Flowtime is available for iPhone and Android, does not require an account, and offers a flexible way to track focused time for work, study, and everyday activities.
 
 ## Keep reading
 

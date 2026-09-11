@@ -17,7 +17,7 @@ Google Play: https://play.google.com/store/apps/details?id=com.avocadowitharms.f
 -------------------------------------------------------------------
 KURZBESCHREIBUNG (~50 WÖRTER)
 -------------------------------------------------------------------
-Flowtime ist ein minimaler, datenschutzfreundlicher Fokus-Timer für iPhone und Android. Speziell für Menschen mit Zeitblindheit oder Hyperfokus entwickelt, kombiniert Flowtime flexible Zeiterfassung, Pomodoro, sanfte Fokus-Erinnerungen und optionale App-Sperren in einer einfachen Erfahrung ohne Konto oder Cloud-Setup.
+Flowtime ist ein flexibler Fokus-Timer und persönlicher Time Tracker für alle, verfügbar für iPhone und Android. Für einen einfachen Start und mehr Zeitwahrnehmung kombiniert Flowtime flexible Zeiterfassung, Pomodoro, sanfte Fokus-Erinnerungen und optionale App-Sperren in einer einfachen Erfahrung ohne Konto oder Cloud-Setup.
 
 -------------------------------------------------------------------
 WARUM FLOWTIME EXISTIERT

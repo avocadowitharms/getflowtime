@@ -17,7 +17,7 @@ Google Play : https://play.google.com/store/apps/details?id=com.avocadowitharms.
 -------------------------------------------------------------------
 DESCRIPTION COURTE (~50 MOTS)
 -------------------------------------------------------------------
-Flowtime est un minuteur de concentration minimaliste et respectueux de la vie privée pour iPhone et Android. Conçu spécialement pour les personnes confrontées à la cécité temporelle ou à l'hyperfocalisation, Flowtime combine suivi flexible, Pomodoro, rappels doux et blocage d'applications sans création de compte.
+Flowtime est un minuteur de concentration flexible et un outil de suivi du temps pour tout le monde, disponible sur iPhone et Android. Pour démarrer simplement et garder le temps visible, Flowtime combine suivi flexible, Pomodoro, rappels doux et blocage d'applications sans création de compte.
 
 -------------------------------------------------------------------
 POURQUOI FLOWTIME EXISTE

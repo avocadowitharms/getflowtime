@@ -2,7 +2,7 @@
 title: "Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps"
 seoTitle: "Interrupting the Autopilot: Conscious App Blocking in Flowtime"
 description: "App blockers work best not by enforcing strict lockouts, but by interrupting automatic phone habits. Learn how conscious app blocking in Flowtime supports focus, time awareness, hyperfocus, and intentional breaks."
-metaDescription: "Discover how conscious app blocking interrupts automatic phone habits without strict lockouts. Flowtime supports focus, ADHD, hyperfocus, and intentional breaks."
+metaDescription: "Discover how conscious app blocking interrupts automatic phone habits without strict lockouts. Flowtime combines flexible focus sessions, time tracking, reminders, and optional app blocking."
 slug: "interrupting-autopilot-conscious-app-blocking"
 searchIntent: "Informational"
 primaryKeyword: "conscious app blocking"
@@ -21,7 +21,7 @@ Most people think app blockers exist to stop them from using distracting apps. T
 
 ## Introduction
 
-Flowtime is a flexible focus timer and time-awareness app that combines Flow Sessions, Pomodoro, focus reminders, personal time tracking, and optional app blocking.
+Flowtime is a flexible focus timer and time tracker that combines Flow Sessions, Pomodoro, focus reminders, personal time tracking, and optional app blocking.
 
 Most people think app blockers exist to stop them from using distracting apps. But that is not really what they are best at.
 
@@ -35,7 +35,7 @@ Only after a few minutes of scrolling do you realize you were not actually looki
 
 This happens constantly. Not because we are lazy or lack motivation, but because repeated actions become automatic. Attention hijacking occurs before you even realize you have switched tasks. If you have ever wondered [why you forget why you unlocked your phone](/guides/why-do-i-forget-why-i-unlocked-my-phone/), this automatic loop is usually the reason.
 
-For people with ADHD, this can be especially noticeable. A small impulse can redirect attention before you have consciously decided to switch tasks. Using an ADHD distraction blocker can help highlight these moments, but the habit itself is common to almost everyone.
+For some people with ADHD, this can be especially noticeable. A small impulse can redirect attention before you have consciously decided to switch tasks. Using an app blocker can help highlight these moments, but the habit itself is common to almost everyone.
 
 ## The Power of a Small Interruption
 

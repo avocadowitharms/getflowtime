@@ -34,7 +34,7 @@ A simple focus timer should not assume every task needs the same interval.
 
 Visible time helps you stay oriented. It shows how long you have been working and creates a boundary around the session.
 
-For some people, including some people with ADHD, external time cues may be especially useful because passing time can be hard to feel while attention is absorbed. This is where an ADHD focus timer differs from a plain stopwatch: it supports awareness, not only counting.
+For some people, including some people with ADHD, external time cues may be especially useful because passing time can be hard to feel while attention is absorbed. A focus timer with reminders can offer check-in points alongside elapsed time.
 
 ## Use optional reminders
 
@@ -56,7 +56,7 @@ That review should stay simple. A focus timer should make time clearer, not turn
 
 ## How Flowtime fits
 
-Flowtime is a simple focus timer, ADHD timer, time tracker, Pomodoro timer, and app blocker for iPhone and Android. It supports work, study, deep focus, flexible Flow Sessions, reminders, and privacy-first personal tracking.
+Flowtime is a flexible focus timer and time tracker for iPhone and Android, with Pomodoro and optional app blocking. It supports work, study, deep focus, flexible Flow Sessions, reminders, and privacy-first personal tracking.
 
 ## Keep reading
 

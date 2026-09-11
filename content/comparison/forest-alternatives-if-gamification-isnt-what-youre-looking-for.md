@@ -1,8 +1,8 @@
 ---
 title: "Forest Alternatives: If Gamification Isn't What You're Looking For"
 seoTitle: "Forest Alternatives: If Gamification Isn't What You're Looking For"
-description: "Looking for Forest alternatives without gamification? Compare focus apps like Flowtime, Focus To-Do, Session, and Freedom for ADHD and productivity."
-metaDescription: "Looking for Forest alternatives without gamification? Compare focus apps like Flowtime, Focus To-Do, Session, and Freedom for ADHD and productivity."
+description: "Looking for Forest alternatives without gamification? Compare focus apps like Flowtime, Focus To-Do, Session, and Freedom for flexible focus and fewer distractions."
+metaDescription: "Looking for Forest alternatives without gamification? Compare focus apps like Flowtime, Focus To-Do, Session, and Freedom for flexible focus and fewer distractions."
 slug: "forest-alternatives-if-gamification-isnt-what-youre-looking-for"
 searchIntent: "Comparison"
 primaryKeyword: "Forest alternatives"
@@ -72,9 +72,9 @@ Flowtime asks a different one:
 
 Those aren't the same.
 
-With ADHD, you don't always lose focus.
+In my experience with ADHD, I don't always lose focus.
 
-Sometimes you lose awareness.
+Sometimes I lose track of time.
 
 You become so absorbed in something that you stop questioning whether it's still the highest priority.
 
@@ -98,7 +98,7 @@ That single moment of awareness is often enough to get back on track.
 
 ## Starting matters just as much
 
-Another challenge with ADHD is getting started.
+Getting started can also be hard for some people with ADHD, including me.
 
 Sometimes the work itself isn't difficult.
 
@@ -202,7 +202,7 @@ If you enjoy working in Pomodoro intervals, Focus To-Do is worth a look.
 
 If distraction blocking is your biggest priority, Freedom is one of the strongest options available.
 
-But if you have ADHD and your biggest challenge isn't *getting distracted*—it's losing awareness of **what you're doing**, **how long you've been doing it**, or **whether you're still working on the thing that matters most**—that's exactly why I built Flowtime.
+But if your biggest challenge isn't *getting distracted*—it's losing awareness of **what you're doing**, **how long you've been doing it**, or **whether you're still working on the thing that matters most**—that's exactly why I built Flowtime.
 
 Not to push you to work harder.
 
@@ -228,7 +228,7 @@ Gamification works well for some, but points, trees, and streaks can create unne
 
 ### Is Flowtime a good Forest alternative for ADHD?
 
-Yes. Flowtime is designed specifically for ADHD time awareness and hyperfocus check-ins rather than streak maintenance or visual rewards.
+Flowtime is a flexible focus timer and time tracker for anyone. Some people with ADHD may find its visible session time and gentle reminders useful, especially when deep focus or hyperfocus makes it easy to lose track of time.
 
 ### Which Forest alternative is best for blocking distracting websites?
 

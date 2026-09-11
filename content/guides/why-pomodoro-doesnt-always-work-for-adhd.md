@@ -2,7 +2,7 @@
 title: "Why Pomodoro Doesn't Always Work"
 seoTitle: "Pomodoro Alternative for Flexible Focus"
 description: "A balanced look at Pomodoro for ADHD, why fixed 25-minute intervals can help or frustrate, and when a flexible Pomodoro alternative fits better."
-metaDescription: "Pomodoro can help ADHD focus, but fixed intervals do not fit every attention rhythm. Learn when a flexible Pomodoro alternative may work better."
+metaDescription: "Some people with ADHD find Pomodoro useful, but fixed intervals do not fit every attention rhythm. Learn when a flexible Pomodoro alternative may work better."
 slug: "why-pomodoro-doesnt-always-work-for-adhd"
 searchIntent: "Informational"
 primaryKeyword: "Pomodoro ADHD"
@@ -16,7 +16,7 @@ draft: false
 
 ## Summary
 
-Pomodoro can be genuinely useful for ADHD. It can also feel badly timed when focus finally arrives just before the break. The issue is not Pomodoro itself. The issue is whether fixed intervals match the work and the person, or whether a flexible Pomodoro alternative would fit better.
+Pomodoro can be useful for some people with ADHD. It can also feel badly timed when focus finally arrives just before the break. The issue is not Pomodoro itself. The issue is whether fixed intervals match the work and the person, or whether a flexible Pomodoro alternative would fit better.
 
 ## Why Pomodoro helps
 

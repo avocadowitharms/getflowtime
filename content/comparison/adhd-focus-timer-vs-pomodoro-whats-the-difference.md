@@ -1,8 +1,8 @@
 ---
 title: "Focus Timer vs Pomodoro: What's the Difference?"
 seoTitle: "Focus Timer vs Pomodoro Alternative"
-description: "A factual comparison of ADHD focus timers, traditional Pomodoro timers, and flexible Pomodoro alternatives for time blindness, hyperfocus, reminders, and app blocking."
-metaDescription: "Compare an ADHD focus timer with Pomodoro and flexible Pomodoro alternatives for time awareness, hyperfocus, reminders, and app blocking."
+description: "Compare flexible focus timers and Pomodoro for session structure, time awareness, and reminders, with considerations for ADHD and hyperfocus."
+metaDescription: "Compare flexible focus timers with Pomodoro: fixed intervals, time awareness, reminders, and considerations for people with ADHD."
 slug: "adhd-focus-timer-vs-pomodoro-whats-the-difference"
 searchIntent: "Comparison"
 primaryKeyword: "ADHD focus timer"
@@ -16,11 +16,11 @@ draft: false
 
 ## Summary
 
-A traditional Pomodoro timer gives you fixed work and break intervals. An ADHD focus timer or flexible Pomodoro alternative may put more emphasis on time awareness, hyperfocus check-ins, adaptable session boundaries, and reducing distraction. Neither approach is universally better.
+A traditional Pomodoro timer gives you fixed work and break intervals. A flexible focus timer may put more emphasis on time awareness, hyperfocus check-ins, adaptable session boundaries, and reducing distraction. Neither approach is universally better.
 
 ## Quick comparison
 
-| Criteria | Traditional Pomodoro | ADHD focus timer |
+| Criteria | Traditional Pomodoro | Flexible focus timer |
 | --- | --- | --- |
 | Session structure | Usually fixed intervals, often 25 / 5 | Often flexible or configurable |
 | Main strength | Starting and building rhythm | Time awareness and adaptable boundaries |
@@ -33,7 +33,7 @@ A traditional Pomodoro timer gives you fixed work and break intervals. An ADHD f
 
 Pomodoro is popular because it is simple. You work for a set interval, take a short break, and repeat. That can be excellent when starting is the hardest part or when the work fits into smaller blocks.
 
-## What an ADHD focus timer may add
+## What a flexible focus timer may add
 
 Many people with ADHD describe needing external time cues, flexible boundaries, and reminders that do not feel like punishment. A timer designed with that experience in mind may support longer sessions, time check-ins, and app blocking during intentional focus.
 
@@ -47,7 +47,7 @@ Some people use both. A short Pomodoro can help you begin. A longer Flow Session
 
 ## Where Flowtime fits
 
-Flowtime includes Pomodoro and flexible Flow Sessions. It also includes focus reminders, project history, and app blocking, so it can act as a Pomodoro timer, ADHD focus timer, or hyperfocus timer depending on the session.
+Flowtime includes Pomodoro and flexible Flow Sessions. It also includes focus reminders, project history, and app blocking, so this flexible focus timer and time tracker can fit different ways of focusing, including sessions where hyperfocus makes time easy to miss.
 
 ## Keep reading
 

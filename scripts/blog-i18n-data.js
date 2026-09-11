@@ -101,11 +101,11 @@
       blog_metadata: {
         "interrupting-autopilot-conscious-app-blocking": {
           title: "Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps",
-          desc: "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, ADHS und Pausen unterstützt."
+          desc: "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, Zeitwahrnehmung und bewusste Pausen unterstützt."
         },
         "autopilot-unterbrechen-apps-bewusst-blockieren": {
           title: "Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps",
-          desc: "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, ADHS und Pausen unterstützt."
+          desc: "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, Zeitwahrnehmung und bewusste Pausen unterstützt."
         },
         "time-tracker-without-account": {
           title: "Zeiterfassung ohne Account",
@@ -137,7 +137,7 @@
         },
         "forest-alternatives-if-gamification-isnt-what-youre-looking-for": {
           title: "Forest-Alternativen: Wenn Gamification nicht das Richtige ist",
-          desc: "Auf der Suche nach Forest-Alternativen ohne Gamification? Vergleiche Fokus-Apps wie Flowtime, Focus To-Do, Session und Freedom für ADHS und Produktivität."
+          desc: "Auf der Suche nach Forest-Alternativen ohne Gamification? Vergleiche Fokus-Apps wie Flowtime, Focus To-Do, Session und Freedom für flexiblen Fokus und weniger Ablenkung."
         },
         "flowtime-vs-session": {
           title: "Flowtime vs Session",
@@ -207,11 +207,11 @@
         },
         "interrupting-autopilot-conscious-app-blocking": {
           metaTitle: "Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps - Flowtime",
-          metaDesc: "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, ADHS und Pausen unterstützt."
+          metaDesc: "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, Zeitwahrnehmung und bewusste Pausen unterstützt."
         },
         "autopilot-unterbrechen-apps-bewusst-blockieren": {
           metaTitle: "Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps - Flowtime",
-          metaDesc: "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, ADHS und Pausen unterstützt."
+          metaDesc: "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, Zeitwahrnehmung und bewusste Pausen unterstützt."
         },
         "time-tracker-without-account": {
           metaTitle: "Zeiterfassung ohne Account - Flowtime - Time Tracker",
@@ -305,7 +305,7 @@
       articles: {
         "forest-alternatives-if-gamification-isnt-what-youre-looking-for": {
           title: "Forest-Alternativen: Wenn Gamification nicht das Richtige ist",
-          description: "Auf der Suche nach Forest-Alternativen ohne Gamification? Vergleiche Fokus-Apps wie Flowtime, Focus To-Do, Session und Freedom für ADHS und Produktivität.",
+          description: "Auf der Suche nach Forest-Alternativen ohne Gamification? Vergleiche Fokus-Apps wie Flowtime, Focus To-Do, Session und Freedom für flexiblen Fokus und weniger Ablenkung.",
           readingTime: "4 Min. Lesezeit",
           toc: ["Zusammenfassung", "ADHS ist nicht immer ein Mangel an Fokus", "Die meiste Fokus-Apps wollen, dass du weiterarbeitest", "Das Starten ist genauso wichtig", "Warum ich Flowtime nicht nur für die Arbeit nutze", "Wo ordnet sich Forest ein?", "Weitere bedenkenswerte Forest-Alternativen", "Welche App solltest du wählen?", "FAQ"],
           summaryPoints: [
@@ -329,11 +329,11 @@
             <p>Flowtime versucht, dir dein Handeln bewusst zu machen. Da gibt es einen wichtigen Unterschied.</p>
             <p>Viele Produktivitäts-Apps sind um eine zentrale Frage herum entwickelt: <strong>„Wie halten wir dich länger fokussiert?“</strong></p>
             <p>Flowtime stellt eine andere Frage: <strong>„Arbeitest du immer noch am Richtigen?“</strong></p>
-            <p>Das ist nicht dasselbe. Mit ADHS verlierst du nicht immer den Fokus. Manchmal verlierst du das Bewusstsein. Du wirst so sehr von etwas absorbiert, dass du aufhörst zu hinterfragen, ob es immer noch die höchste Priorität hat. Stunden vergehen, bevor du es bemerkst.</p>
+            <p>Das ist nicht dasselbe. In meiner Erfahrung mit ADHS verliere ich nicht immer den Fokus. Manchmal verliere ich das Zeitgefühl. Du wirst so sehr von etwas absorbiert, dass du aufhörst zu hinterfragen, ob es immer noch die höchste Priorität hat. Stunden vergehen, bevor du es bemerkst.</p>
             <p>Deshalb enthalten Flow-Sessions Achtsamkeits-Erinnerungen und Check-ins. Nicht um deine Arbeit zu unterbrechen, sondern um den Autopiloten zu unterbrechen.</p>
             <p>Manchmal lautet die Antwort: <em>„Ja, ich bin genau da, wo ich sein sollte.“</em> Manchmal lautet sie: <em>„Warte... wie bin ich hier gelandet?“</em> Dieser eine Moment des Bewusstseins reicht oft schon aus, um wieder auf den richtigen Weg zu kommen.</p>
             <h2 id="starting-matters-just-as-much">Das Starten ist genauso wichtig</h2>
-            <p>Eine weitere Herausforderung bei ADHS ist das Anfangen. Manchmal ist die Arbeit selbst gar nicht schwer. Das Projekt öffnen, einen Timer auswählen, Einstellungen festlegen, entscheiden, wie lange man arbeiten möchte—diese winzigen Entscheidungen erzeugen Reibung, bevor du überhaupt angefangen hast.</p>
+            <p>Für manche Menschen mit ADHS kann auch das Anfangen schwer sein. Manchmal ist die Arbeit selbst gar nicht schwer. Das Projekt öffnen, einen Timer auswählen, Einstellungen festlegen, entscheiden, wie lange man arbeiten möchte—diese winzigen Entscheidungen erzeugen Reibung, bevor du überhaupt angefangen hast.</p>
             <p>Deshalb bietet Flowtime Schnellstart-Vorlagen. Anstatt jedes Mal alles neu zu konfigurieren, kannst du eine Session mit einem einzigen Klick starten und sofort beginnen zu arbeiten. Je weniger Entscheidungen zwischen dir und deiner Aufgabe stehen, desto leichter fällt das Anfangen.</p>
             <h2 id="why-i-dont-use-flowtime-just-for-work">Warum ich Flowtime nicht nur für die Arbeit nutze</h2>
             <p>Eine meiner Lieblingsfunktionen war nicht einmal beabsichtigt. Ich gehe nach der Arbeit oft mit meinem Hund spazieren. Das Problem ist, dass mein Kopf das nicht tut. Ich denke immer noch über Code nach, neue Features, Marketing-Ideen oder Dinge, die ich vergessen habe zu implementieren. Anstatt den Spaziergang zu genießen, sitze ich gedanklich immer noch am Schreibtisch.</p>
@@ -355,7 +355,7 @@
             <p>Wenn das Sammeln virtueller Bäume dich motiviert, ist Forest eine klare Empfehlung.</p>
             <p>Wenn du gerne in Pomodoro-Intervallen arbeitest, lohnt sich ein Blick auf Focus To-Do.</p>
             <p>Wenn das Blockieren von Ablenkungen deine größte Priorität ist, gehört Freedom zu den stärksten Optionen.</p>
-            <p>Aber wenn du ADHS hast und deine größte Herausforderung nicht darin besteht, <em>abgelenkt zu werden</em>—sondern darin, das Bewusstsein dafür zu verlieren, <strong>was du tust</strong>, <strong>wie lange du es schon tust</strong> oder <strong>ob du immer noch an der Sache arbeitest, die am wichtigsten ist</strong>—dann ist genau das der Grund, warum ich Flowtime gebaut habe.</p>
+            <p>Aber wenn deine größte Herausforderung nicht darin besteht, <em>abgelenkt zu werden</em>—sondern darin, das Bewusstsein dafür zu verlieren, <strong>was du tust</strong>, <strong>wie lange du es schon tust</strong> oder <strong>ob du immer noch an der Sache arbeitest, die am wichtigsten ist</strong>—dann ist genau das der Grund, warum ich Flowtime gebaut habe.</p>
             <p>Nicht um dich dazu zu drängen, härter zu arbeiten. Sondern um dir zu helfen zu bemerken, wenn deine Aufmerksamkeit leise dorthin gedriftet ist, wo du sie nie haben wolltet.</p>
             <p>Manchmal ist das Produktivste, was du tun kannst, nicht noch eine Stunde Arbeit. Manchmal ist es einfach, dich selbst zu fragen: <strong>„Arbeite ich immer noch am Richtigen?“</strong></p>
             <h2 id="faq">FAQ</h2>
@@ -365,7 +365,7 @@
             </details>
             <details>
               <summary>Ist Flowtime eine gute Forest-Alternative für ADHS?</summary>
-              <p>Ja. Flowtime ist speziell für ADHS-Zeitwahrnehmung und Hyperfokus-Check-ins konzipiert und verzichtet bewusst auf Belohnungs- und Punkteanreize.</p>
+              <p>Flowtime ist ein flexibler Fokus-Timer und persönlicher Time Tracker für alle. Manche Menschen mit ADHS finden die sichtbare Session-Zeit und sanften Erinnerungen hilfreich, wenn sie bei tiefem Fokus oder Hyperfokus die Zeit aus dem Blick verlieren.</p>
             </details>
             <details>
               <summary>Welche Forest-Alternative eignet sich am besten zum Blockieren ablenkender Websites?</summary>
@@ -375,18 +375,18 @@
         },
         "adhd-focus-timer-for-time-blindness": {
           title: "Fokus-Timer für Zeitblindheit",
-          description: "Wie ein ADHS-Fokus-Timer bei Zeitblindheit, Hyperfokus, Fokus-Erinnerungen, Pomodoro, App-Blocking und flexiblen Arbeitssessions helfen kann.",
+          description: "Wie ein flexibler Fokus-Timer Zeit sichtbarer macht, auch für manche Menschen mit ADHS, Zeitblindheit oder Hyperfokus.",
           readingTime: "4 Min. Lesezeit",
           toc: ["Zusammenfassung", "Warum Zeitblindheit das Timer-Problem verändert", "Worauf du achten solltest", "Pomodoro kann helfen, ist aber nicht die einzige Form", "Hyperfokus braucht Ausstiegspunkte", "So passt Flowtime dazu", "Weiterlesen"],
           summaryPoints: [
-            "Ein ADHS-Fokus-Timer sollte mehr tun, als Minuten zu zählen.",
+            "Ein Fokus-Timer kann mehr bieten als einen Countdown.",
             "Sichtbare Zeit, flexible Sessions, Fokus-Erinnerungen und App-Blocking können Zeitblindheit und Hyperfokus besser unterstützen.",
             "Flowtime ist kein medizinisches Produkt, sondern ein Fokus- und Zeitwahrnehmungs-Tool für iPhone und Android."
           ],
           bodyHtml: `
             <h2 id="summary">Zusammenfassung</h2>
-            <p>Ein ADHS-Fokus-Timer für Zeitblindheit sollte mehr tun, als Minuten zu zählen. Der hilfreiche Teil ist oft externe Wahrnehmung: zu sehen, dass Zeit vergeht, sanfte Check-ins zu bekommen, die Session vor ablenkenden Apps zu schützen und entscheiden zu können, ob du weitermachst, stoppst oder wechselst.</p>
-            <p>Flowtime ist um diese Art von Unterstützung herum gebaut. Es ist kein medizinisches Produkt, kein Diagnosewerkzeug und keine ADHS-Behandlung. Es ist eine Fokus- und Zeitwahrnehmungs-App für Menschen, die sichtbare Sessions und weniger ablenkende Ausgänge wollen.</p>
+            <p>Wer die Zeit leicht aus dem Blick verliert, kann von einem Fokus-Timer mit Erinnerungen profitieren. Das gilt auch für manche Menschen mit ADHS. Der hilfreiche Teil ist oft externe Wahrnehmung: zu sehen, dass Zeit vergeht, sanfte Check-ins zu bekommen, die Session vor ablenkenden Apps zu schützen und entscheiden zu können, ob du weitermachst, stoppst oder wechselst.</p>
+            <p>Flowtime ist ein flexibler Fokus-Timer und persönlicher Time Tracker für alle. Es ist kein medizinisches Produkt, kein Diagnosewerkzeug und keine ADHS-Behandlung. Es ist eine Fokus- und Zeitwahrnehmungs-App für Menschen, die sichtbare Sessions und weniger ablenkende Ausgänge wollen.</p>
             <h2 id="why-time-blindness-changes-the-timer-problem">Warum Zeitblindheit das Timer-Problem verändert</h2>
             <p>Bei Zeitblindheit kann sich eine Aufgabe wie fünf Minuten oder wie vier Stunden anfühlen, ohne dass es innerlich rechtzeitig auffällt. Ein normaler Timer kann helfen, aber nur, wenn er zur tatsächlichen Session passt.</p>
             <p>Manche Aufgaben brauchen ein kurzes Pomodoro-Intervall. Andere brauchen einen längeren Fokusblock. Manche brauchen eine Erinnerung, die Bewusstsein zurückholt, ohne im ungünstigsten Moment eine Pause zu erzwingen.</p>
@@ -404,22 +404,22 @@
               </tbody>
             </table>
             <h2 id="pomodoro-can-help-but-it-is-not-the-only-shape">Pomodoro kann helfen, ist aber nicht die einzige Form</h2>
-            <p>Pomodoro funktioniert gut, wenn ein klares Intervall beim Anfangen hilft. Für ADHS kann das wirklich nützlich sein. Die Schwierigkeit ist, dass Aufmerksamkeit nicht immer nach Zeitplan auftaucht.</p>
+            <p>Pomodoro funktioniert gut, wenn ein klares Intervall beim Anfangen hilft. Für manche Menschen mit ADHS kann das nützlich sein. Die Schwierigkeit ist, dass Aufmerksamkeit nicht immer nach Zeitplan auftaucht.</p>
             <p>Wenn Fokus erst kurz vor dem Ende eines 25-Minuten-Blocks kommt, kann eine erzwungene Pause störend sein. Eine flexible Flow Session gibt dir ein Ziel und eine Erinnerung und lässt dich dann entscheiden, was als Nächstes sinnvoll ist.</p>
             <h2 id="hyperfocus-needs-exit-points">Hyperfokus braucht Ausstiegspunkte</h2>
             <p>In den Fokus zu kommen ist nicht immer der schwierigste Teil. Manchmal ist es schwieriger zu bemerken, dass du zu weit in eine Aufgabe hineingeraten bist, eine Pause übersprungen hast oder bei Arbeit bleibst, nachdem sie nicht mehr sinnvoll ist.</p>
             <p>Ein Hyperfokus-Timer sollte Ausstiegspunkte schaffen. Er muss dich nicht aus der Arbeit reißen. Er kann die aktuelle Session einfach sichtbar genug machen, damit du entscheiden kannst, ob Weitermachen noch sinnvoll ist.</p>
             <h2 id="where-flowtime-fits">So passt Flowtime dazu</h2>
-            <p>Flowtime kombiniert flexible Flow Sessions, Pomodoro, Fokus-Erinnerungen, Projekt-Zeiterfassung und optionales App-Blocking. Dadurch kann es je nach Session als ADHS-Fokus-Timer, Hyperfokus-Timer, Pomodoro-Timer oder persönlicher Time Tracker funktionieren.</p>
-            <p>Flowtime ist für iPhone und Android verfügbar, erfordert keinen Account und ist um ADHS-Zeitblindheit, Hyperfokus und weniger ablenkende Kontextwechsel herum gestaltet.</p>
+            <p>Flowtime kombiniert flexible Flow Sessions, Pomodoro, Fokus-Erinnerungen, Projekt-Zeiterfassung und optionales App-Blocking. So lässt sich der Fokus-Timer und Time Tracker an unterschiedliche Aufgaben und Arbeitsrhythmen anpassen.</p>
+            <p>Flowtime ist für iPhone und Android verfügbar, erfordert keinen Account und bietet flexible Zeiterfassung für Arbeit, Lernen und Alltag.</p>
             <h2 id="keep-reading">Weiterlesen</h2>
-            <p>Passende Artikel dazu sind <a href="/guides/gentle-time-reminders-for-adhd-time-blindness/">Flexible Zeiterinnerungen bei ADHS-Time-Blindness</a>, <a href="/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/">ADHS-Hyperfokus: Aufhören, ohne den Fokus kaputtzumachen</a> und <a href="/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/">ADHS-Fokus-Timer vs. Pomodoro</a>.</p>
-            <p>Flowtime ist ein ADHS-Fokus-Timer, der Zeit sichtbarer macht und es leichter macht, von Ablenkungen Abstand zu nehmen.</p>
+            <p>Passende Artikel dazu sind <a href="/guides/gentle-time-reminders-for-adhd-time-blindness/">Flexible Zeiterinnerungen bei ADHS-Time-Blindness</a>, <a href="/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/">ADHS-Hyperfokus: Aufhören, ohne den Fokus kaputtzumachen</a> und <a href="/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/">Fokus-Timer vs. Pomodoro</a>.</p>
+            <p>Flowtime ist ein flexibler Fokus-Timer und Time Tracker, der Zeit sichtbarer macht und es leichter macht, von Ablenkungen Abstand zu nehmen.</p>
           `
         },
         "interrupting-autopilot-conscious-app-blocking": {
           title: "Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps",
-          description: "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, ADHS und Pausen unterstützt.",
+          description: "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, Zeitwahrnehmung und bewusste Pausen unterstützt.",
           readingTime: "5 Min. Lesezeit",
           toc: [
             "Wir verbringen mehr Zeit auf Autopilot als wir denken",
@@ -437,7 +437,7 @@
           ],
           bodyHtml: `
             <h2 id="einfuehrung">Einleitung</h2>
-            <p>Flowtime ist ein ADHS-freundlicher Fokus-Timer und eine App für mehr Zeitwahrnehmung, die flexible Fokus-Sessions, Pomodoro, Fokus-Erinnerungen, persönliche Zeiterfassung und optionales Apps-Blockieren kombiniert.</p>
+            <p>Flowtime ist ein flexibler Fokus-Timer und persönlicher Time Tracker für alle, die flexible Fokus-Sessions, Pomodoro, Fokus-Erinnerungen, persönliche Zeiterfassung und optionales Apps-Blockieren kombiniert.</p>
             <p>Die meisten Menschen glauben, dass App-Blocker dazu da sind, sie an der Nutzung ablenkender Apps zu hindern. Aber das ist nicht das, was sie am besten können.</p>
             <p>Der eigentliche Wert liegt nicht darin, dich am Öffnen von Instagram, YouTube, Reddit oder TikTok zu hindern. Er liegt darin, das automatische Verhalten zu unterbrechen, das dich überhaupt erst dorthin geführt hat. Wenn du Apps während einer Fokus-Session blockierst, wird App-Blockierung zu einem Werkzeug, um automatische Smartphone-Nutzung zu unterbrechen, statt zu einer starren Einschränkung.</p>
 
@@ -445,7 +445,7 @@
             <p>Stell dir vor, du arbeitest an etwas Wichtigem. Ein paar Minuten später entsperrst du dein Smartphone. Du hast nicht darüber nachgedacht. Dein Daumen tippt auf dieselbe App wie immer.</p>
             <p>Erst nach einigen Minuten Scrollen merkst du, dass du eigentlich gar nach nichts Bestimmtem gesucht hast. Du bist einfach einer Gewohnheit gefolgt. Der unbewusste Griff zum Smartphone passiert schneller, als man denkt.</p>
             <p>Das passiert ständig. Nicht weil wir faul sind oder es an Motivation fehlt, sondern weil sich wiederholende Handlungen zu automatischem Verhalten werden. Wenn du dich fragst, <a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">warum du vergisst, warum du dein Handy entsperrt hast</a>, steckt genau diese Schleife dahinter.</p>
-            <p>Für Menschen mit ADHS kann das besonders spürbar sein. Ein kleiner Impuls kann die Aufmerksamkeit umleiten, bevor du dich bewusst für einen Aufgabenwechsel entschieden hast. Apps bewusst blockieren hilft dabei, genau diese Impulse sichtbar zu machen – auch wenn das Phänomen keineswegs nur bei ADHS auftritt.</p>
+            <p>Für manche Menschen mit ADHS kann das besonders spürbar sein. Ein kleiner Impuls kann die Aufmerksamkeit umleiten, bevor du dich bewusst für einen Aufgabenwechsel entschieden hast. Apps bewusst blockieren hilft dabei, genau diese Impulse sichtbar zu machen – auch wenn das Phänomen keineswegs nur bei ADHS auftritt.</p>
 
             <h2 id="die-kraft-einer-kleinen-unterbrechung">Die Kraft einer kleinen Unterbrechung</h2>
             <p>Wenn eine blockierte App während einer Fokus-Session geöffnet wird, sperrt Flowtime dich nicht dauerhaft aus. Stattdessen entsteht eine kleine Pause.</p>
@@ -483,7 +483,7 @@
             <p>Flowtime versucht nicht, Disziplin durch Zwang aufzubauen. Es bestraft keine Ablenkungen. Und es nimmt dir nicht die Möglichkeit, deine Meinung zu ändern.</p>
             <p>Es basiert auf einer einfachen Idee:</p>
             <p>Automatische Gewohnheiten sind schwer zu bemerken. Eine kleine Unterbrechung kann sie wieder in bewusste Entscheidungen verwandeln.</p>
-            <p>Jedes Mal, wenn ein App-Blocker für ADHS oder den Arbeitsalltag ein automatisches Handeln unterbricht, bekommst du die Chance zu fragen:</p>
+            <p>Jedes Mal, wenn ein App-Blocker im Alltag ein automatisches Handeln unterbricht, bekommst du die Chance zu fragen:</p>
             <p>„Ist es das, was ich jetzt gerade wirklich tun möchte?“</p>
             <p>Manchmal wird die Antwort Ja sein. Manchmal Nein.</p>
             <p>So oder so liegt die Entscheidung wieder bei dir statt beim Autopiloten.</p>
@@ -502,7 +502,7 @@
         },
         "autopilot-unterbrechen-apps-bewusst-blockieren": {
           title: "Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps",
-          description: "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, ADHS und Pausen unterstützt.",
+          description: "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, Zeitwahrnehmung und bewusste Pausen unterstützt.",
           readingTime: "5 Min. Lesezeit",
           toc: [
             "Wir verbringen mehr Zeit auf Autopilot als wir denken",
@@ -520,7 +520,7 @@
           ],
           bodyHtml: `
             <h2 id="einfuehrung">Einleitung</h2>
-            <p>Flowtime ist ein ADHS-freundlicher Fokus-Timer und eine App für mehr Zeitwahrnehmung, die flexible Fokus-Sessions, Pomodoro, Fokus-Erinnerungen, persönliche Zeiterfassung und optionales Apps-Blockieren kombiniert.</p>
+            <p>Flowtime ist ein flexibler Fokus-Timer und persönlicher Time Tracker für alle, die flexible Fokus-Sessions, Pomodoro, Fokus-Erinnerungen, persönliche Zeiterfassung und optionales Apps-Blockieren kombiniert.</p>
             <p>Die meisten Menschen glauben, dass App-Blocker dazu da sind, sie an der Nutzung ablenkender Apps zu hindern. Aber das ist nicht das, was sie am besten können.</p>
             <p>Der eigentliche Wert liegt nicht darin, dich am Öffnen von Instagram, YouTube, Reddit oder TikTok zu hindern. Er liegt darin, das automatische Verhalten zu unterbrechen, das dich überhaupt erst dorthin geführt hat. Wenn du Apps während einer Fokus-Session blockierst, wird App-Blockierung zu einem Werkzeug, um automatische Smartphone-Nutzung zu unterbrechen, statt zu einer starren Einschränkung.</p>
 
@@ -528,7 +528,7 @@
             <p>Stell dir vor, du arbeitest an etwas Wichtigem. Ein paar Minuten später entsperrst du dein Smartphone. Du hast nicht darüber nachgedacht. Dein Daumen tippt auf dieselbe App wie immer.</p>
             <p>Erst nach einigen Minuten Scrollen merkst du, dass du eigentlich gar nach nichts Bestimmtem gesucht hast. Du bist einfach einer Gewohnheit gefolgt. Der unbewusste Griff zum Smartphone passiert schneller, als man denkt.</p>
             <p>Das passiert ständig. Nicht weil wir faul sind oder es an Motivation fehlt, sondern weil sich wiederholende Handlungen zu automatischem Verhalten werden. Wenn du dich fragst, <a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">warum du vergisst, warum du dein Handy entsperrt hast</a>, steckt genau diese Schleife dahinter.</p>
-            <p>Für Menschen mit ADHS kann das besonders spürbar sein. Ein kleiner Impuls kann die Aufmerksamkeit umleiten, bevor du dich bewusst für einen Aufgabenwechsel entschieden hast. Apps bewusst blockieren hilft dabei, genau diese Impulse sichtbar zu machen – auch wenn das Phänomen keineswegs nur bei ADHS auftritt.</p>
+            <p>Für manche Menschen mit ADHS kann das besonders spürbar sein. Ein kleiner Impuls kann die Aufmerksamkeit umleiten, bevor du dich bewusst für einen Aufgabenwechsel entschieden hast. Apps bewusst blockieren hilft dabei, genau diese Impulse sichtbar zu machen – auch wenn das Phänomen keineswegs nur bei ADHS auftritt.</p>
 
             <h2 id="die-kraft-einer-kleinen-unterbrechung">Die Kraft einer kleinen Unterbrechung</h2>
             <p>Wenn eine blockierte App während einer Fokus-Session geöffnet wird, sperrt Flowtime dich nicht dauerhaft aus. Stattdessen entsteht eine kleine Pause.</p>
@@ -566,7 +566,7 @@
             <p>Flowtime versucht nicht, Disziplin durch Zwang aufzubauen. Es bestraft keine Ablenkungen. Und es nimmt dir nicht die Möglichkeit, deine Meinung zu ändern.</p>
             <p>Es basiert auf einer einfachen Idee:</p>
             <p>Automatische Gewohnheiten sind schwer zu bemerken. Eine kleine Unterbrechung kann sie wieder in bewusste Entscheidungen verwandeln.</p>
-            <p>Jedes Mal, wenn ein App-Blocker für ADHS oder den Arbeitsalltag ein automatisches Handeln unterbricht, bekommst du die Chance zu fragen:</p>
+            <p>Jedes Mal, wenn ein App-Blocker im Alltag ein automatisches Handeln unterbricht, bekommst du die Chance zu fragen:</p>
             <p>„Ist es das, was ich jetzt gerade wirklich tun möchte?“</p>
             <p>Manchmal wird die Antwort Ja sein. Manchmal Nein.</p>
             <p>So oder so liegt die Entscheidung wieder bei dir statt beim Autopiloten.</p>
@@ -1280,11 +1280,11 @@
       blog_metadata: {
         "interrupting-autopilot-conscious-app-blocking": {
           title: "Interrompre le pilote automatique : décider consciemment face au blocage des applications",
-          desc: "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour le TDAH et les pauses."
+          desc: "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour la concentration et les pauses intentionnelles."
         },
         "interrompre-pilote-automatique-blocage-applications": {
           title: "Interrompre le pilote automatique : décider consciemment face au blocage des applications",
-          desc: "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour le TDAH et les pauses."
+          desc: "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour la concentration et les pauses intentionnelles."
         },
         "time-tracker-without-account": {
           title: "Suivi du temps sans compte",
@@ -1316,7 +1316,7 @@
         },
         "forest-alternatives-if-gamification-isnt-what-youre-looking-for": {
           title: "Alternatives à Forest : Si la gamification ne vous convient pas",
-          desc: "Vous cherchez des alternatives à Forest sans gamification ? Comparez des applications de concentration comme Flowtime, Focus To-Do, Session et Freedom pour le TDAH et la productivité."
+          desc: "Vous cherchez des alternatives à Forest sans gamification ? Comparez des applications de concentration comme Flowtime, Focus To-Do, Session et Freedom pour une concentration flexible et moins de distractions."
         },
         "flowtime-vs-session": {
           title: "Flowtime vs Session",
@@ -1386,11 +1386,11 @@
         },
         "interrupting-autopilot-conscious-app-blocking": {
           metaTitle: "Interrompre le pilote automatique : décider consciemment face au blocage des applications - Flowtime",
-          metaDesc: "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour le TDAH et les pauses."
+          metaDesc: "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour la concentration et les pauses intentionnelles."
         },
         "interrompre-pilote-automatique-blocage-applications": {
           metaTitle: "Interrompre le pilote automatique : décider consciemment face au blocage des applications - Flowtime",
-          metaDesc: "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour le TDAH et les pauses."
+          metaDesc: "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour la concentration et les pauses intentionnelles."
         },
         "time-tracker-without-account": {
           metaTitle: "Suivi du temps sans compte - Flowtime - Time Tracker",
@@ -1484,7 +1484,7 @@
       articles: {
         "forest-alternatives-if-gamification-isnt-what-youre-looking-for": {
           title: "Alternatives à Forest : Si la gamification ne vous convient pas",
-          description: "Vous cherchez des alternatives à Forest sans gamification ? Comparez des applications de concentration comme Flowtime, Focus To-Do, Session et Freedom pour le TDAH et la productivité.",
+          description: "Vous cherchez des alternatives à Forest sans gamification ? Comparez des applications de concentration comme Flowtime, Focus To-Do, Session et Freedom pour une concentration flexible et moins de distractions.",
           readingTime: "4 min de lecture",
           toc: ["Résumé", "Le TDAH n'est pas toujours un manque de concentration", "La plupart des applications essaient de vous faire travailler plus longtemps", "Commencer compte tout autant", "Pourquoi je n'utilise pas Flowtime uniquement pour le travail", "Quelle est la place de Forest dans tout cela ?", "D'autres alternatives à Forest à envisager", "Quelle application devriez-vous choisir ?", "FAQ"],
           summaryPoints: [
@@ -1508,11 +1508,11 @@
             <p>Flowtime essaie de vous maintenir conscient de votre attention. Il y a une différence majeure.</p>
             <p>De nombreuses applications de productivité sont conçues autour d'une seule question : <strong>« Comment vous garder concentré plus longtemps ? »</strong></p>
             <p>Flowtime en pose une différente : <strong>« Travaillez-vous toujours sur la bonne chose ? »</strong></p>
-            <p>Ce n'est pas la même chose. Avec le TDAH, on ne perd pas toujours sa concentration. Parfois, on perd sa conscience de la situation. Vous devenez tellement absorbé par quelque chose que vous arrêtez de vous demander si c'est toujours la priorité absolue. Des heures passent avant que vous ne le remarquiez.</p>
+            <p>Ce n'est pas la même chose. Dans mon expérience avec le TDAH, je ne perds pas toujours ma concentration. Parfois, je perds la notion du temps. Vous devenez tellement absorbé par quelque chose que vous arrêtez de vous demander si c'est toujours la priorité absolue. Des heures passent avant que vous ne le remarquiez.</p>
             <p>C'est pourquoi les Flow Sessions incluent des rappels d'attention et des check-ins. Non pas pour interrompre votre travail, mais pour interrompre le pilote automatique.</p>
             <p>Parfois la réponse est : <em>« Oui, je suis exactement là où je devrais être. »</em> Parfois elle est : <em>« Attends... comment je me suis retrouvé à faire ça ? »</em> Ce seul moment de conscience suffit souvent pour se remettre sur les rails.</p>
             <h2 id="starting-matters-just-as-much">Commencer compte tout autant</h2>
-            <p>Un autre défi avec le TDAH est de démarrer. Parfois, le travail lui-même n'est pas difficile. Ouvrir le projet, choisir un minuteur, régler les paramètres, décider combien de temps travailler—ces minuscules décisions ajoutent de la friction avant même d'avoir commencé.</p>
+            <p>Démarrer peut aussi être difficile pour certaines personnes avec un TDAH. Parfois, le travail lui-même n'est pas difficile. Ouvrir le projet, choisir un minuteur, régler les paramètres, décider combien de temps travailler—ces minuscules décisions ajoutent de la friction avant même d'avoir commencé.</p>
             <p>C'est pourquoi Flowtime inclut des modèles de démarrage rapide (Quick Start). Au lieu de tout configurer à chaque fois, vous pouvez lancer une session en un seul clic et commencer à travailler immédiatement. Moins il y a de décisions entre vous et votre tâche, plus il est facile de commencer.</p>
             <h2 id="why-i-dont-use-flowtime-just-for-work">Pourquoi je n'utilise pas Flowtime uniquement pour le travail</h2>
             <p>L'une de mes fonctionnalités préférées n'était même pas intentionnelle. Je promène souvent mon chien après le travail. Le problème, c'est que mon cerveau ne décroche pas. Je pense toujours au code, aux nouvelles fonctionnalités, aux idées marketing, aux choses que j'ai oublié d'implémenter. Au lieu de profiter de la promenade, je suis mentalement toujours assis à mon bureau.</p>
@@ -1534,7 +1534,7 @@
             <p>Si collectionner des arbres virtuels vous motive, Forest est une recommandation évidente.</p>
             <p>Si vous aimez travailler par intervalles Pomodoro, Focus To-Do vaut le coup d'œil.</p>
             <p>Si le blocage des distractions est votre priorité absolue, Freedom est l'une des options les plus solides.</p>
-            <p>Mais si vous avez un TDAH et que votre plus grand défi n'est pas de <em>vous faire distraire</em>—mais de perdre la conscience de <strong>ce que vous faites</strong>, de <strong>depuis combien de temps vous le faites</strong>, ou de <strong>savoir si vous travaillez toujours sur la chose qui compte le plus</strong>—c'est exactement pour cela que j'ai créé Flowtime.</p>
+            <p>Mais si votre plus grand défi n'est pas de <em>vous faire distraire</em>—mais de perdre la conscience de <strong>ce que vous faites</strong>, de <strong>depuis combien de temps vous le faites</strong>, ou de <strong>savoir si vous travaillez toujours sur la chose qui compte le plus</strong>—c'est exactement pour cela que j'ai créé Flowtime.</p>
             <p>Non pas pour vous pousser à travailler plus dur, mais pour vous aider à remarquer quand votre attention s'est silencieusement éloignée vers un endroit où vous n'aviez pas l'intention d'aller.</p>
             <p>Parfois, la chose la plus productive que vous puissiez faire n'est pas une heure de travail supplémentaire. Parfois, c'est simplement de vous demander : <strong>« Est-ce que je travaille toujours sur la bonne chose ? »</strong></p>
             <h2 id="faq">FAQ</h2>
@@ -1544,7 +1544,7 @@
             </details>
             <details>
               <summary>Flowtime est-il une bonne alternative à Forest pour le TDAH ?</summary>
-              <p>Oui. Flowtime est conçu spécifiquement pour la conscience du temps TDAH et les check-ins d'hyperfocus plutôt que pour le maintien de séries ou de récompenses visuelles.</p>
+              <p>Flowtime est un minuteur de concentration flexible et un outil de suivi du temps pour tout le monde. Certaines personnes avec un TDAH peuvent trouver ses rappels doux et le temps de session visible utiles lorsqu'elles perdent la notion du temps.</p>
             </details>
             <details>
               <summary>Quelle alternative à Forest est la meilleure pour bloquer les sites web distrayants ?</summary>
@@ -1554,18 +1554,18 @@
         },
         "adhd-focus-timer-for-time-blindness": {
           title: "Minuteur de concentration pour la notion du temps",
-          description: "Comment un minuteur de concentration TDAH peut aider avec la notion du temps, l'hyperfocus, les rappels, Pomodoro, le blocage d'apps et les sessions flexibles.",
+          description: "Comment un minuteur flexible rend le temps plus visible, y compris pour certaines personnes avec un TDAH qui perdent la notion du temps.",
           readingTime: "4 min de lecture",
           toc: ["Résumé", "Pourquoi la notion du temps change le problème du minuteur", "Ce qu'il faut chercher", "Pomodoro peut aider, mais ce n'est pas la seule forme", "L'hyperfocus a besoin de points de sortie", "Comment Flowtime s'inscrit ici", "Continuer la lecture"],
           summaryPoints: [
-            "Un minuteur de concentration TDAH doit faire plus que compter les minutes.",
+            "Un minuteur de concentration peut offrir plus qu’un compte à rebours.",
             "Le temps visible, les sessions flexibles, les rappels et le blocage d'apps peuvent mieux soutenir la time blindness et l'hyperfocus.",
             "Flowtime n'est pas un produit médical, mais un outil de concentration et de repères temporels pour iPhone et Android."
           ],
           bodyHtml: `
             <h2 id="summary">Résumé</h2>
-            <p>Un minuteur de concentration TDAH pour la notion du temps doit faire plus que compter les minutes. La partie utile est souvent externe : voir que le temps passe, recevoir des check-ins doux, protéger la session des apps distrayantes et choisir s'il faut continuer, arrêter ou changer.</p>
-            <p>Flowtime est construit autour de ce type de soutien. Ce n'est pas un produit médical, un outil de diagnostic ni un traitement du TDAH. C'est une app de concentration et de repères temporels pour les personnes qui veulent des sessions visibles et moins de sorties distrayantes.</p>
+            <p>Un minuteur avec des rappels peut être utile quand on perd la notion du temps, y compris pour certaines personnes avec un TDAH. La partie utile est souvent externe : voir que le temps passe, recevoir des check-ins doux, protéger la session des apps distrayantes et choisir s'il faut continuer, arrêter ou changer.</p>
+            <p>Flowtime est un minuteur de concentration flexible et un outil de suivi du temps pour tout le monde. Ce n'est pas un produit médical, un outil de diagnostic ni un traitement du TDAH. C'est une app de concentration et de repères temporels pour les personnes qui veulent des sessions visibles et moins de sorties distrayantes.</p>
             <h2 id="why-time-blindness-changes-the-timer-problem">Pourquoi la notion du temps change le problème du minuteur</h2>
             <p>Avec la time blindness, une tâche peut sembler durer cinq minutes ou quatre heures, avec très peu de signal interne. Un minuteur classique peut aider, mais seulement s'il correspond à la façon dont la session se déroule vraiment.</p>
             <p>Certaines tâches ont besoin d'un court intervalle Pomodoro. D'autres ont besoin d'un bloc de concentration plus long. D'autres encore ont besoin d'un rappel qui ramène de la conscience sans forcer une pause au pire moment.</p>
@@ -1583,22 +1583,22 @@
               </tbody>
             </table>
             <h2 id="pomodoro-can-help-but-it-is-not-the-only-shape">Pomodoro peut aider, mais ce n'est pas la seule forme</h2>
-            <p>Pomodoro fonctionne bien quand un intervalle clair aide à commencer. Pour le TDAH, cela peut être réellement utile. La difficulté, c'est que l'attention n'arrive pas toujours selon l'horaire prévu.</p>
+            <p>Pomodoro fonctionne bien quand un intervalle clair aide à commencer. Pour certaines personnes avec un TDAH, cela peut être utile. La difficulté, c'est que l'attention n'arrive pas toujours selon l'horaire prévu.</p>
             <p>Si la concentration arrive enfin vers la fin d'un bloc de 25 minutes, une pause forcée peut être perturbante. Une Flow Session flexible vous donne une cible et un rappel, puis vous laisse décider ce qui devrait se passer ensuite.</p>
             <h2 id="hyperfocus-needs-exit-points">L'hyperfocus a besoin de points de sortie</h2>
             <p>Entrer en concentration n'est pas toujours la partie la plus difficile. Parfois, le plus difficile est de remarquer que vous êtes allé trop loin dans une tâche, que vous avez sauté une pause ou que vous continuez après le moment où le travail n'est plus utile.</p>
             <p>Un minuteur d'hyperfocus devrait créer des points de sortie. Il n'a pas besoin de vous arracher au travail. Il peut simplement rendre la session assez visible pour que vous puissiez choisir si continuer a encore du sens.</p>
             <h2 id="where-flowtime-fits">Comment Flowtime s'inscrit ici</h2>
-            <p>Flowtime combine Flow Sessions flexibles, Pomodoro, rappels de concentration, suivi du temps par projet et blocage d'apps optionnel. Selon la session, il peut donc servir de minuteur de concentration TDAH, de minuteur d'hyperfocus, de minuteur Pomodoro ou de time tracker personnel.</p>
-            <p>Flowtime est disponible sur iPhone et Android, ne nécessite aucun compte et est conçu autour de la time blindness liée au TDAH, de l'hyperfocus et de la réduction des changements de contexte distrayants.</p>
+            <p>Flowtime combine Flow Sessions flexibles, Pomodoro, rappels de concentration, suivi du temps par projet et blocage d'apps optionnel. Ce minuteur et outil de suivi du temps peut ainsi s’adapter à différentes tâches et façons de se concentrer.</p>
+            <p>Flowtime est disponible sur iPhone et Android, ne nécessite aucun compte et offre un suivi du temps flexible pour le travail, les études et le quotidien.</p>
             <h2 id="keep-reading">Continuer la lecture</h2>
-            <p>Pour aller plus loin, lisez <a href="/guides/gentle-time-reminders-for-adhd-time-blindness/">Rappels de concentration pour la time blindness liée au TDAH</a>, <a href="/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/">Hyperfocus TDAH : s'arrêter sans casser sa concentration</a> et <a href="/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/">Minuteur TDAH vs Pomodoro</a>.</p>
-            <p>Flowtime est un minuteur de concentration TDAH conçu pour rendre le temps plus visible et faciliter la prise de distance avec les distractions.</p>
+            <p>Pour aller plus loin, lisez <a href="/guides/gentle-time-reminders-for-adhd-time-blindness/">Rappels de concentration pour la time blindness liée au TDAH</a>, <a href="/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/">Hyperfocus TDAH : s'arrêter sans casser sa concentration</a> et <a href="/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/">Minuteur de concentration vs Pomodoro</a>.</p>
+            <p>Flowtime est un minuteur de concentration flexible et un outil de suivi du temps conçu pour rendre le temps plus visible et faciliter la prise de distance avec les distractions.</p>
           `
         },
         "interrupting-autopilot-conscious-app-blocking": {
           title: "Interrompre le pilote automatique : décider consciemment face au blocage des applications",
-          description: "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour le TDAH et les pauses.",
+          description: "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour la concentration et les pauses intentionnelles.",
           readingTime: "5 min de lecture",
           toc: [
             "Nous passons plus de temps en pilote automatique que nous le pensons",
@@ -1616,7 +1616,7 @@
           ],
           bodyHtml: `
             <h2 id="introduction">Introduction</h2>
-            <p>Flowtime est un minuteur de concentration adapté au TDAH et une application de prise de conscience du temps qui combine des sessions de concentration flexibles (Flow Sessions), Pomodoro, des rappels de concentration, un suivi personnel du temps et un blocage d'applications optionnel.</p>
+            <p>Flowtime est un minuteur de concentration flexible et un outil de suivi du temps pour tout le monde qui combine des sessions de concentration flexibles (Flow Sessions), Pomodoro, des rappels de concentration, un suivi personnel du temps et un blocage d'applications optionnel.</p>
             <p>La plupart des gens pensent que les bloqueurs d'applications existent pour les empêcher d'utiliser des applications distrayantes. Mais ce n'est pas vraiment ce dans quoi ils créent le plus de valeur.</p>
             <p>La vraie valeur n'est pas de vous empêcher d'ouvrir Instagram, YouTube, Reddit ou TikTok. Elle consiste à interrompre le comportement automatique qui vous y a conduit. Lorsque vous bloquez des applications pendant une session, le blocage d'applications devient un moyen d'interrompre l'utilisation automatique du téléphone plutôt qu'un verrouillage strict.</p>
 
@@ -1624,7 +1624,7 @@
             <p>Imaginez que vous travaillez sur quelque chose d'important. Quelques minutes plus tard, vous déverrouillez votre téléphone. Vous n'y avez pas pensé. Votre pouce touche la même application que d'habitude.</p>
             <p>Ce n'est qu'après quelques minutes de défilement que vous réalisez que vous ne cherchiez rien en particulier. Vous avez simplement suivi une habitude d'agir par habitude.</p>
             <p>Cela arrive constamment. Non pas par paresse ou manque de motivation, mais parce que les actions répétées deviennent automatiques. Si vous vous demandez <a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">pourquoi vous oubliez pourquoi vous avez déverrouillé votre téléphone</a>, cette boucle automatique en est généralement la cause.</p>
-            <p>Pour les personnes atteintes de TDAH, cela peut être particulièrement visible. Une petite impulsion peut réorienter l'attention avant même que vous n'ayez pris une décision consciente. Le blocage d'applications pour le TDAH aide à mettre ces moments en lumière, même si cette habitude concerne tout le monde.</p>
+            <p>Pour certaines personnes avec un TDAH, cela peut être particulièrement visible. Une petite impulsion peut réorienter l'attention avant même que vous n'ayez pris une décision consciente. Le blocage d'applications peut aider à mettre ces moments en lumière, même si cette habitude concerne tout le monde.</p>
 
             <h2 id="le-pouvoir-d-une-petite-interruption">Le pouvoir d'une petite interruption</h2>
             <p>Lorsqu'une application bloquée est ouverte pendant une session de concentration, Flowtime ne vous verrouille pas l'accès de façon permanente. À la place, il crée une courte pause.</p>
@@ -1681,7 +1681,7 @@
         },
         "interrompre-pilote-automatique-blocage-applications": {
           title: "Interrompre le pilote automatique : décider consciemment face au blocage des applications",
-          description: "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour le TDAH et les pauses.",
+          description: "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour la concentration et les pauses intentionnelles.",
           readingTime: "5 min de lecture",
           toc: [
             "Nous passons plus de temps en pilote automatique que nous le pensons",
@@ -1699,7 +1699,7 @@
           ],
           bodyHtml: `
             <h2 id="introduction">Introduction</h2>
-            <p>Flowtime est un minuteur de concentration adapté au TDAH et une application de prise de conscience du temps qui combine des sessions de concentration flexibles (Flow Sessions), Pomodoro, des rappels de concentration, un suivi personnel du temps et un blocage d'applications optionnel.</p>
+            <p>Flowtime est un minuteur de concentration flexible et un outil de suivi du temps pour tout le monde qui combine des sessions de concentration flexibles (Flow Sessions), Pomodoro, des rappels de concentration, un suivi personnel du temps et un blocage d'applications optionnel.</p>
             <p>La plupart des gens pensent que les bloqueurs d'applications existent pour les empêcher d'utiliser des applications distrayantes. Mais ce n'est pas vraiment ce dans quoi ils créent le plus de valeur.</p>
             <p>La vraie valeur n'est pas de vous empêcher d'ouvrir Instagram, YouTube, Reddit ou TikTok. Elle consiste à interrompre le comportement automatique qui vous y a conduit. Lorsque vous bloquez des applications pendant une session, le blocage d'applications devient un moyen d'interrompre l'utilisation automatique du téléphone plutôt qu'un verrouillage strict.</p>
 
@@ -1707,7 +1707,7 @@
             <p>Imaginez que vous travaillez sur quelque chose d'important. Quelques minutes plus tard, vous déverrouillez votre téléphone. Vous n'y avez pas pensé. Votre pouce touche la même application que d'habitude.</p>
             <p>Ce n'est qu'après quelques minutes de défilement que vous réalisez que vous ne cherchiez rien en particulier. Vous avez simplement suivi une habitude d'agir par habitude.</p>
             <p>Cela arrive constamment. Non pas par paresse ou manque de motivation, mais parce que les actions répétées deviennent automatiques. Si vous vous demandez <a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">pourquoi vous oubliez pourquoi vous avez déverrouillé votre téléphone</a>, cette boucle automatique en est généralement la cause.</p>
-            <p>Pour les personnes atteintes de TDAH, cela peut être particulièrement visible. Une petite impulsion peut réorienter l'attention avant même que vous n'ayez pris une décision consciente. Le blocage d'applications pour le TDAH aide à mettre ces moments en lumière, même si cette habitude concerne tout le monde.</p>
+            <p>Pour certaines personnes avec un TDAH, cela peut être particulièrement visible. Une petite impulsion peut réorienter l'attention avant même que vous n'ayez pris une décision consciente. Le blocage d'applications peut aider à mettre ces moments en lumière, même si cette habitude concerne tout le monde.</p>
 
             <h2 id="le-pouvoir-d-une-petite-interruption">Le pouvoir d'une petite interruption</h2>
             <p>Lorsqu'une application bloquée est ouverte pendant une session de concentration, Flowtime ne vous verrouille pas l'accès de façon permanente. À la place, il crée une courte pause.</p>
@@ -2378,7 +2378,7 @@
       "listings": {
         "guides": {
           "title": "Ratgeber für Fokus, Zeitwahrnehmung und klareres Tracking.",
-          "desc": "Lies über ADHS-Time-Blindness, Hyperfokus, Fokus-Timer, Pomodoro-Alternativen, App-Blocking, Arbeit, Lernen und einfache persönliche Zeiterfassung.",
+          "desc": "Lies über Fokus-Timer, persönliche Zeiterfassung, Arbeit, Lernen und flexible Sessions sowie über ADHS, Zeitblindheit und Hyperfokus.",
           "clusters": [
             {
               "title": "Time-Blindness",
@@ -2406,7 +2406,7 @@
         },
         "adhd-focus-timer-for-time-blindness": {
           "title": "Fokus-Timer für Zeitblindheit",
-          "desc": "Wie ein ADHS-Fokus-Timer bei Zeitblindheit, Hyperfokus, Fokus-Erinnerungen, Pomodoro, App-Blocking und flexiblen Arbeitssessions helfen kann."
+          "desc": "Wie ein flexibler Fokus-Timer Zeit sichtbarer macht, auch für manche Menschen mit ADHS, Zeitblindheit oder Hyperfokus."
         },
         "adhd-hyperfocus-how-to-stop-without-killing-your-focus": {
           "title": "Hyperfokus: Aufhören, ohne den Fokus kaputtzumachen",
@@ -2450,7 +2450,7 @@
         },
         "adhd-focus-timer-vs-pomodoro-whats-the-difference": {
           "title": "Fokus-Timer vs. Pomodoro: Was ist der Unterschied?",
-          "desc": "Ein sachlicher Vergleich von ADHS-Fokus-Timern und Pomodoro: feste Intervalle, flexible Sessions, Erinnerungen und App-Blocking."
+          "desc": "Ein Vergleich flexibler Fokus-Timer und Pomodoro: feste Intervalle, Zeitwahrnehmung und Erinnerungen, auch im Kontext von ADHS."
         },
         "best-focus-apps-for-adhd-arent-always-planners": {
           "title": "Die besten Fokus-Apps sind nicht immer Planner",
@@ -2476,7 +2476,7 @@
       "listings": {
         "guides": {
           "title": "Guides pour la concentration, la perception du temps et un suivi plus cleare.",
-          "desc": "Lisez des guides sur le TDAH, la time blindness, l'hyperfocus, les minuteurs de concentration, Pomodoro, le blocage d'apps, le travail, les Études et le suivi personnel du temps.",
+          "desc": "Lisez des guides sur les minuteurs de concentration, le suivi du temps, le travail et les études, ainsi que sur le TDAH et l'hyperfocus.",
           "clusters": [
             {
               "title": "Perception du temps",
@@ -2504,7 +2504,7 @@
         },
         "adhd-focus-timer-for-time-blindness": {
           "title": "Minuteur de concentration pour la notion du temps",
-          "desc": "Comment un minuteur de concentration TDAH peut aider avec la notion du temps, l'hyperfocus, les rappels, Pomodoro, le blocage d'apps et les sessions flexibles."
+          "desc": "Comment un minuteur flexible rend le temps plus visible, y compris pour certaines personnes avec un TDAH qui perdent la notion du temps."
         },
         "adhd-hyperfocus-how-to-stop-without-killing-your-focus": {
           "title": "Hyperfocus : s'arrêter sans casser sa concentration",
@@ -2548,7 +2548,7 @@
         },
         "adhd-focus-timer-vs-pomodoro-whats-the-difference": {
           "title": "Minuteur de concentration vs Pomodoro : quelle différence ?",
-          "desc": "Une comparaison factuelle entre un minuteur TDAH et Pomodoro : intervalles fixes, sessions flexibles, rappels et blocage d'apps."
+          "desc": "Une comparaison des minuteurs flexibles et de Pomodoro : intervalles fixes, perception du temps et rappels, avec des pistes pour les personnes avec un TDAH."
         },
         "best-focus-apps-for-adhd-arent-always-planners": {
           "title": "Les meilleures apps de concentration ne sont pas toujours des planners",
@@ -2713,31 +2713,31 @@
           <p>${fallbackDesc}</p>
           <p>Dieser Artikel gehört zur neuen ADHS- und Fokus-Serie von Flowtime. Die Serie richtet sich an Menschen, die Zeit leicht aus dem Blick verlieren, in Hyperfokus geraten, vom Handy abgelenkt werden oder mit starren Produktivitätssystemen nicht gut zurechtkommen.</p>
           <h2 id="why">Warum das wichtig ist</h2>
-          <p>Bei ADHS ist das Problem nicht immer fehlende Motivation. Manchmal ist das Problem, dass Zeit nicht spürbar genug ist, dass ein guter Fokus zu lange weiterläuft oder dass ein einzelner Impuls den ganzen Arbeitsfluss verschiebt. Deshalb helfen einfache Ratschläge wie „stell dir einfach einen Timer“ oft nur teilweise.</p>
+          <p>Manche Menschen mit ADHS beschreiben Schwierigkeiten, die nichts mit fehlender Motivation zu tun haben. Manchmal ist das Problem, dass Zeit nicht spürbar genug ist, dass ein guter Fokus zu lange weiterläuft oder dass ein einzelner Impuls den ganzen Arbeitsfluss verschiebt. Deshalb helfen einfache Ratschläge wie „stell dir einfach einen Timer“ oft nur teilweise.</p>
           <p>Ein hilfreiches Werkzeug sollte Zeit sichtbar machen, ohne zusätzlichen Druck aufzubauen. Es sollte dich daran erinnern, was gerade passiert, statt dich für Ablenkung oder Hyperfokus zu bestrafen. Genau darum geht es in diesen neuen Artikeln: externe Zeitreize, flexible Grenzen, App-Blocking und ein klarerer Umgang mit Fokus.</p>
           <h2 id="gentle-boundaries">Session-Grenzen statt Druck</h2>
           <p>Für manche Menschen ist Pomodoro nützlich, weil ein kurzer Arbeitsblock den Einstieg erleichtert. Für andere kommt die Pause genau dann, wenn der Fokus endlich da ist. Beides kann stimmen. Entscheidend ist, ob die Struktur zur Aufgabe und zum eigenen Aufmerksamkeitsrhythmus passt.</p>
           <p>Flexible Check-ins können hier besser funktionieren als harte Alarme. Eine Erinnerung muss nicht befehlen, sofort aufzuhören. Sie kann fragen: Bist du noch bei dem, was du tun wolltest? Brauchst du eine Pause? Willst du weitermachen, aber bewusst?</p>
           <h2 id="flowtime">So passt Flowtime dazu</h2>
-          <p>Flowtime kombiniert sichtbare Fokus-Sessions, Pomodoro, flexible Flow Sessions, Erinnerungen, Projektzeit und optionales App-Blocking. Das ersetzt keine Diagnose, Therapie oder medizinische Unterstützung. Es kann aber helfen, äußere Hinweise zu schaffen, wenn das eigene Zeitgefühl gerade nicht zuverlässig genug ist.</p>
-          <p>Die Idee ist bewusst leicht: Session starten, Zeit sichtbar halten, Ablenkungen reduzieren und später erkennen, wohin Fokus wirklich gegangen ist. Für ADHS, Hyperfokus und Time-Blindness kann genau diese Sichtbarkeit den Unterschied machen.</p>
+          <p>Flowtime ist ein flexibler Fokus-Timer und Time Tracker für alle. Die App kombiniert sichtbare Fokus-Sessions, Pomodoro, flexible Flow Sessions, Erinnerungen, Projektzeit und optionales App-Blocking. Das ersetzt keine Diagnose, Therapie oder medizinische Unterstützung. Es kann aber helfen, äußere Hinweise zu schaffen, wenn das eigene Zeitgefühl gerade nicht zuverlässig genug ist.</p>
+          <p>Die Idee ist bewusst leicht: Session starten, Zeit sichtbar halten, Ablenkungen reduzieren und später erkennen, wohin Fokus wirklich gegangen ist. Diese Sichtbarkeit kann hilfreich sein, wenn du bei tiefem Fokus oder Hyperfokus die Zeit aus dem Blick verlierst.</p>
           <h2 id="keep-reading">Weiterlesen</h2>
-          <p>Passende Artikel in dieser Serie sind <a href="/guides/why-adhd-makes-you-lose-track-of-time/">Warum ADHS dazu führen kann, dass du die Zeit aus dem Blick verlierst</a>, <a href="/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/">ADHS-Hyperfokus: Aufhören, ohne den Fokus kaputtzumachen</a> und <a href="/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/">ADHS-Fokus-Timer vs. Pomodoro</a>.</p>
+          <p>Passende Artikel in dieser Serie sind <a href="/guides/why-adhd-makes-you-lose-track-of-time/">Warum ADHS dazu führen kann, dass du die Zeit aus dem Blick verlierst</a>, <a href="/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/">ADHS-Hyperfokus: Aufhören, ohne den Fokus kaputtzumachen</a> und <a href="/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/">Fokus-Timer vs. Pomodoro</a>.</p>
         ` : `
           <h2 id="summary">Résumé</h2>
           <p>${fallbackDesc}</p>
           <p>Cet article fait partie de la nouvelle série Flowtime sur le TDAH et la concentration. Elle s'adresse aux personnes qui perdent facilement la notion du temps, entrent en hyperfocus, se font happer par le téléphone ou ne se sentent pas aidées par les systèmes de productivité rigides.</p>
           <h2 id="why">Pourquoi c'est important</h2>
-          <p>Avec le TDAH, le problème n'est pas toujours un manque de motivation. Parfois, le temps n'est pas assez perceptible, une bonne concentration dure trop longtemps, ou une seule impulsion déplace toute la session de travail. C'est pour cela que les conseils comme « mets simplement un minuteur » ne suffisent pas toujours.</p>
+          <p>Certaines personnes avec un TDAH décrivent des difficultés sans rapport avec un manque de motivation. Parfois, le temps n'est pas assez perceptible, une bonne concentration dure trop longtemps, ou une seule impulsion déplace toute la session de travail. C'est pour cela que les conseils comme « mets simplement un minuteur » ne suffisent pas toujours.</p>
           <p>Un outil utile doit rendre le temps visible sans ajouter de pression. Il doit aider à remarquer ce qui se passe, plutôt que punir la distraction ou l'hyperfocus. Ces nouveaux articles parlent donc de repères temporels externes, de limites flexibles, de blocage d'apps et d'une relation plus cleare avec la concentration.</p>
           <h2 id="gentle-boundaries">Des limites flexibles plutôt que de la pression</h2>
           <p>Pour certaines personnes, Pomodoro aide parce qu'un bloc court rend le démarrage moins intimidant. Pour d'autres, la pause arrive exactement quand la concentration devient enfin possible. Les deux expériences peuvent être vraies. La bonne structure dépend de la tâche et du rythme d'attention.</p>
           <p>Des check-ins de temps peuvent mieux fonctionner que des alarmes brutales. Un rappel n'a pas besoin d'ordonner d'arrêter immédiatement. Il peut simplement demander : êtes-vous encore dans ce que vous vouliez faire ? Avez-vous besoin d'une pause ? Voulez-vous continuer, mais consciemment ?</p>
           <h2 id="flowtime">Comment Flowtime s'inscrit ici</h2>
-          <p>Flowtime combine sessions visibles, Pomodoro, Flow Sessions flexibles, rappels, suivi par projet et blocage d'apps optionnel. Cela ne remplace pas un diagnostic, une thérapie ou un accompagnement médical. Mais cela peut créer des repères externes quand la perception interne du temps n'est pas assez fiable.</p>
-          <p>L'idée reste légère : démarrer une session, garder le temps visible, réduire les distractions et comprendre ensuite où la concentration est vraiment allée. Pour le TDAH, l'hyperfocus et la time blindness, cette visibilité peut compter.</p>
+          <p>Flowtime est un minuteur de concentration flexible et un outil de suivi du temps pour tout le monde. Il combine sessions visibles, Pomodoro, Flow Sessions flexibles, rappels, suivi par projet et blocage d'apps optionnel. Cela ne remplace pas un diagnostic, une thérapie ou un accompagnement médical. Mais cela peut créer des repères externes quand la perception interne du temps n'est pas assez fiable.</p>
+          <p>L'idée reste légère : démarrer une session, garder le temps visible, réduire les distractions et comprendre ensuite où la concentration est vraiment allée. Cette visibilité peut être utile quand on perd la notion du temps pendant une concentration profonde ou un hyperfocus.</p>
           <h2 id="keep-reading">Continuer la lecture</h2>
-          <p>Dans cette série, lisez aussi <a href="/guides/why-adhd-makes-you-lose-track-of-time/">Pourquoi le TDAH peut faire perdre la notion du temps</a>, <a href="/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/">Hyperfocus TDAH : s'arrêter sans casser sa concentration</a> et <a href="/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/">Minuteur TDAH vs Pomodoro</a>.</p>
+          <p>Dans cette série, lisez aussi <a href="/guides/why-adhd-makes-you-lose-track-of-time/">Pourquoi le TDAH peut faire perdre la notion du temps</a>, <a href="/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/">Hyperfocus TDAH : s'arrêter sans casser sa concentration</a> et <a href="/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/">Minuteur de concentration vs Pomodoro</a>.</p>
         `
       };
     }

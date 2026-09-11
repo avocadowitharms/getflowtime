@@ -8,7 +8,7 @@ Canonical URLs, Open Graph metadata, Twitter metadata, and Article/BlogPosting J
 
 ## Page intent classification
 
-Group A, core identity pages: homepage, FAQ, download panel, major feature sections. These can lead with ADHD, time blindness, hyperfocus, external time cues, reminders, and attention hijacking while preserving focus timer, time tracker, Pomodoro, and app blocker language.
+Group A, core identity pages: homepage, FAQ, download panel, major feature sections. These should lead with flexible focus timers, time tracking, time awareness, and friction-free starting. ADHD, time blindness, and hyperfocus belong in relevant secondary context.
 
 Group B, problem-focused educational pages: time blindness, hyperfocus, phone distraction, focus reminders, four-hours-later, focus timer to stop focusing. These can use ADHD strongly where the search intent calls for it, with careful non-medical wording.
 
@@ -52,7 +52,7 @@ Technical indexing check: 1 to 2 weeks after deployment. Early Search Console im
 
 ## AI visibility workflow
 
-Keep `llms.txt`, `data/product-facts.js`, homepage JSON-LD, About Flowtime, and generated article schema aligned around the same product definition: Flowtime is an ADHD focus timer and time-awareness app for iPhone and Android.
+Keep `llms.txt`, `data/product-facts.js`, homepage JSON-LD, About Flowtime, and generated article schema aligned around the same product definition: Flowtime is a flexible focus timer and time tracker for anyone, available for iPhone and Android.
 
 Generated article pages include FAQPage JSON-LD for ADHD, Pomodoro, app-blocking, account, and platform questions when the post category, tags, title, or primary keyword indicate those topics. Keep FAQ answers cautious and factual. Do not add claims that Flowtime diagnoses, treats, cures, or guarantees ADHD outcomes.
 

@@ -254,8 +254,8 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
     ? "Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps"
     : "Interrompre le pilote automatique : décider consciemment face au blocage des applications";
   const description = isDe
-    ? "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, ADHS und Pausen unterstützt."
-    : "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour le TDAH et les pauses.";
+    ? "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, Zeitwahrnehmung und bewusste Pausen unterstützt."
+    : "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour la concentration et les pauses intentionnelles.";
   const authorLabel = isDe ? "Von Ava Thalheim" : "Par Ava Thalheim";
   const categoryLabel = isDe ? "Ratgeber" : "Guide";
   const readTimeLabel = isDe ? "5 Min. Lesezeit" : "5 min de lecture";
@@ -269,7 +269,7 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
 
   const deBodyHtml = `
             <h2 id="einfuehrung">Einleitung</h2>
-            <p>Flowtime ist ein ADHS-freundlicher Fokus-Timer und eine App für mehr Zeitwahrnehmung, die flexible Fokus-Sessions, Pomodoro, Fokus-Erinnerungen, persönliche Zeiterfassung und optionales Apps-Blockieren kombiniert.</p>
+            <p>Flowtime ist ein flexibler Fokus-Timer und persönlicher Time Tracker für alle, die flexible Fokus-Sessions, Pomodoro, Fokus-Erinnerungen, persönliche Zeiterfassung und optionales Apps-Blockieren kombiniert.</p>
             <p>Die meisten Menschen glauben, dass App-Blocker dazu da sind, sie an der Nutzung ablenkender Apps zu hindern. Aber das ist nicht das, was sie am besten können.</p>
             <p>Der eigentliche Wert liegt nicht darin, dich am Öffnen von Instagram, YouTube, Reddit oder TikTok zu hindern. Er liegt darin, das automatische Verhalten zu unterbrechen, das dich überhaupt erst dorthin geführt hat. Wenn du Apps während einer Fokus-Session blockierst, wird App-Blockierung zu einem Werkzeug, um automatische Smartphone-Nutzung zu unterbrechen, statt zu einer starren Einschränkung.</p>
 
@@ -277,7 +277,7 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
             <p>Stell dir vor, du arbeitest an etwas Wichtigem. Ein paar Minuten später entsperrst du dein Smartphone. Du hast nicht darüber nachgedacht. Dein Daumen tippt auf dieselbe App wie immer.</p>
             <p>Erst nach einigen Minuten Scrollen merkst du, dass du eigentlich gar nach nichts Bestimmtem gesucht hast. Du bist einfach einer Gewohnheit gefolgt. Der unbewusste Griff zum Smartphone passiert schneller, als man denkt.</p>
             <p>Das passiert ständig. Nicht weil wir faul sind oder es an Motivation fehlt, sondern weil sich wiederholende Handlungen zu automatischem Verhalten werden. Wenn du dich fragst, <a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">warum du vergisst, warum du dein Handy entsperrt hast</a>, steckt genau diese Schleife dahinter.</p>
-            <p>Für Menschen mit ADHS kann das besonders spürbar sein. Ein kleiner Impuls kann die Aufmerksamkeit umleiten, bevor du dich bewusst für einen Aufgabenwechsel entschieden hast. Apps bewusst blockieren hilft dabei, genau diese Impulse sichtbar zu machen – auch wenn das Phänomen keineswegs nur bei ADHS auftritt.</p>
+            <p>Für manche Menschen mit ADHS kann das besonders spürbar sein. Ein kleiner Impuls kann die Aufmerksamkeit umleiten, bevor du dich bewusst für einen Aufgabenwechsel entschieden hast. Apps bewusst blockieren hilft dabei, genau diese Impulse sichtbar zu machen – auch wenn das Phänomen keineswegs nur bei ADHS auftritt.</p>
 
             <h2 id="die-kraft-einer-kleinen-unterbrechung">Die Kraft einer kleinen Unterbrechung</h2>
             <p>Wenn eine blockierte App während einer Fokus-Session geöffnet wird, sperrt Flowtime dich nicht dauerhaft aus. Stattdessen entsteht eine kleine Pause.</p>
@@ -315,7 +315,7 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
             <p>Flowtime versucht nicht, Disziplin durch Zwang aufzubauen. Es bestraft keine Ablenkungen. Und es nimmt dir nicht die Möglichkeit, deine Meinung zu ändern.</p>
             <p>Es basiert auf einer einfachen Idee:</p>
             <p>Automatische Gewohnheiten sind schwer zu bemerken. Eine kleine Unterbrechung kann sie wieder in bewusste Entscheidungen verwandeln.</p>
-            <p>Jedes Mal, wenn ein App-Blocker für ADHS oder den Arbeitsalltag ein automatisches Handeln unterbricht, bekommst du die Chance zu fragen:</p>
+            <p>Jedes Mal, wenn ein App-Blocker im Alltag ein automatisches Handeln unterbricht, bekommst du die Chance zu fragen:</p>
             <p>„Ist es das, was ich jetzt gerade wirklich tun möchte?“</p>
             <p>Manchmal wird die Antwort Ja sein. Manchmal Nein.</p>
             <p>So oder so liegt die Entscheidung wieder bei dir statt beim Autopiloten.</p>
@@ -334,7 +334,7 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
 
   const frBodyHtml = `
             <h2 id="introduction">Introduction</h2>
-            <p>Flowtime est un minuteur de concentration adapté au TDAH et une application de prise de conscience du temps qui combine des sessions de concentration flexibles (Flow Sessions), Pomodoro, des rappels de concentration, un suivi personnel du temps et un blocage d'applications optionnel.</p>
+            <p>Flowtime est un minuteur de concentration flexible et un outil de suivi du temps pour tout le monde qui combine des sessions de concentration flexibles (Flow Sessions), Pomodoro, des rappels de concentration, un suivi personnel du temps et un blocage d'applications optionnel.</p>
             <p>La plupart des gens pensent que les bloqueurs d'applications existent pour les empêcher d'utiliser des applications distrayantes. Mais ce n'est pas vraiment ce dans quoi ils créent le plus de valeur.</p>
             <p>La vraie valeur n'est pas de vous empêcher d'ouvrir Instagram, YouTube, Reddit ou TikTok. Elle consiste à interrompre le comportement automatique qui vous y a conduit. Lorsque vous bloquez des applications pendant une session, le blocage d'applications devient un moyen d'interrompre l'utilisation automatique du téléphone plutôt qu'un verrouillage strict.</p>
 
@@ -342,7 +342,7 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
             <p>Imaginez que vous travaillez sur quelque chose d'important. Quelques minutes plus tard, vous déverrouillez votre téléphone. Vous n'y avez pas pensé. Votre pouce touche la même application que d'habitude.</p>
             <p>Ce n'est qu'après quelques minutes de défilement que vous réalisez que vous ne cherchiez rien en particulier. Vous avez simplement suivi une habitude d'agir par habitude.</p>
             <p>Cela arrive constamment. Non pas par paresse ou manque de motivation, mais parce que les actions répétées deviennent automatiques. Si vous vous demandez <a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">pourquoi vous oubliez pourquoi vous avez déverrouillé votre téléphone</a>, cette boucle automatique en est généralement la cause.</p>
-            <p>Pour les personnes atteintes de TDAH, cela peut être particulièrement visible. Une petite impulsion peut réorienter l'attention avant même que vous n'ayez pris une décision consciente. Le blocage d'applications pour le TDAH aide à mettre ces moments en lumière, même si cette habitude concerne tout le monde.</p>
+            <p>Pour certaines personnes avec un TDAH, cela peut être particulièrement visible. Une petite impulsion peut réorienter l'attention avant même que vous n'ayez pris une décision consciente. Le blocage d'applications peut aider à mettre ces moments en lumière, même si cette habitude concerne tout le monde.</p>
 
             <h2 id="le-pouvoir-d-une-petite-interruption">Le pouvoir d'une petite interruption</h2>
             <p>Lorsqu'une application bloquée est ouverte pendant une session de concentration, Flowtime ne vous verrouille pas l'accès de façon permanente. À la place, il crée une courte pause.</p>

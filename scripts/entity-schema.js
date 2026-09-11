@@ -120,8 +120,8 @@ function faqPageNode(post, url) {
 
   if (post.category === "adhd" || tags.has("adhd") || keyword.includes("adhd") || title.includes("adhd")) {
     add(
-      "Is Flowtime good for ADHD time blindness?",
-      "Flowtime can support people who benefit from visible timers, focus reminders, flexible session boundaries, and low-friction project switching. It is not a medical product, diagnostic tool, or ADHD treatment."
+      "Can people with ADHD use Flowtime for time awareness?",
+      "Flowtime is a flexible focus timer and time tracker for anyone. Some people with ADHD may find its visible session time, gentle reminders, and flexible sessions useful when they lose track of time. It is not a medical product, diagnostic tool, or ADHD treatment."
     );
     add(
       "Can Flowtime help with hyperfocus?",
