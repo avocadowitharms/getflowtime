@@ -1568,3 +1568,44 @@ p {
     gap: 40px;
   }
 }
+
+/* Reserve the tallest quote's natural height so rotation never shifts the page. */
+.campaign-review.reviews-ready .review-slides { display: grid; }
+.campaign-review.reviews-ready .review-slide { grid-area: 1 / 1; visibility: hidden; }
+.campaign-review.reviews-ready .review-slide.is-active { visibility: visible; }
+.campaign-review .review-slide { min-width: 0; align-self: center; }
+.campaign-review .review-slide blockquote { font-size: clamp(28px, 4vw, 56px); overflow-wrap: break-word; }
+.campaign-review .review-store { color: inherit; text-decoration: underline; text-underline-offset: 4px; }
+
+/* Expand a focus mode into an editorial detail view. */
+[data-mode-explorer] .chapter-inner { grid-template-columns: 28% minmax(0, 1fr); gap: 32px; }
+[data-mode-explorer] [hidden] { display: none !important; }
+[data-mode-explorer] button.mode-column { background: none; border: 0; color: inherit; font: inherit; padding: 0; width: 100%; cursor: pointer; min-width: 0; }
+[data-mode-explorer] button:focus-visible { outline: 2px solid var(--accent-green); outline-offset: 8px; border-radius: 12px; }
+[data-mode-explorer] .mode-column:hover .mode-pill-label { color: var(--accent-green); border-color: var(--accent-green); }
+[data-mode-explorer] .mode-hint { font-size: 13px; margin-top: 28px; }
+[data-mode-explorer].mode-expanded .chapter-inner { grid-template-columns: 45% minmax(0, 1fr); }
+[data-mode-explorer].mode-expanded .modes-columns-row { grid-template-columns: 1fr; }
+[data-mode-explorer].mode-expanded .mode-column { max-width: 440px; justify-self: center; }
+[data-mode-explorer].mode-expanded .phone-item { height: clamp(460px, 42vw, 650px); }
+[data-mode-explorer].mode-expanded .phone-item img { max-width: 440px; }
+[data-mode-explorer].mode-expanded .mode-column { animation: mode-phone-enter 350ms ease-out; }
+[data-mode-explorer] .mode-detail { animation: mode-copy-enter 250ms ease-out; }
+[data-mode-explorer] .mode-detail h2 { font-size: clamp(42px, 5vw, 76px); overflow-wrap: anywhere; }
+[data-mode-explorer] .mode-lead { color: #fff; font-size: 24px; }
+[data-mode-explorer] .mode-back { display: block; background: none; border: 0; border-bottom: 1px solid #666; color: #ddd; padding: 8px 0; margin-bottom: 40px; font: inherit; font-size: 14px; cursor: pointer; }
+@keyframes mode-phone-enter { from { opacity: .6; transform: translateX(-30px) scale(.85); } to { opacity: 1; transform: none; } }
+@keyframes mode-copy-enter { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+@media (max-width: 900px) {
+  [data-mode-explorer] .chapter-inner, [data-mode-explorer].mode-expanded .chapter-inner { display: grid; grid-template-columns: 1fr; }
+  [data-mode-explorer] .chapter-copy { padding-bottom: 16px; }
+  [data-mode-explorer] .modes-columns-row { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 12px; }
+  [data-mode-explorer] .mode-column .phone-item { height: 300px; }
+  [data-mode-explorer].mode-expanded .phone-item { height: 540px; }
+  [data-mode-explorer].mode-expanded .mode-column { max-width: 360px; }
+  [data-mode-explorer] .chapter-art { margin: 0; width: 100%; }
+  [data-mode-explorer] .mode-column .mode-pill-label { padding: 8px 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-mode-explorer] .mode-column, [data-mode-explorer] .mode-detail { animation: none !important; }
+}

@@ -10,6 +10,17 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
+import subprocess
+try:
+    old_index = subprocess.check_output(["git", "show", "main:index.html"], text=True, encoding="utf-8")
+    if "reviews-section" in old_index:
+        start = old_index.find('<section class="section reviews-section"')
+        end = old_index.find('</section>', start) + len('</section>')
+        (ROOT / "scripts" / "old_reviews.html").write_text(old_index[start:end], encoding="utf-8")
+        print("WROTE old_reviews.html")
+except Exception as e:
+    print("Error getting old reviews:", e)
+
 APP_STORE_URL = "https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969"
 GOOGLE_PLAY_URL = "https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"
 SITE_URL = "https://flowtime-app.com"
@@ -177,43 +188,7 @@ def build_homepage():
 </section>"""
 
     # Chapter 02: Focus however you want (4 phones in a row)
-    ch2_modes = """<section id="focus-modes" class="campaign-chapter chapter-dark">
-  <div class="chapter-inner" style="grid-template-columns: 28% 72%; gap: 32px;">
-    <div class="chapter-copy">
-      <span class="chapter-number">02</span>
-      <h2>Focus<br>however<br>you want.</h2>
-      <p>Choose a mode that fits<br>your task and your day.</p>
-    </div>
-    <div class="chapter-art">
-      <div class="modes-columns-row">
-        <div class="mode-column">
-          <span class="mode-pill-label active-pill">Pomodoro</span>
-          <div class="phone-item phone-pomodoro">
-            <img src="/assets/images/pomodoro.png" alt="Pomodoro timer mode" loading="lazy">
-          </div>
-        </div>
-        <div class="mode-column">
-          <span class="mode-pill-label">Classic</span>
-          <div class="phone-item phone-classic">
-            <img src="/assets/images/classic.png" alt="Classic timer mode" loading="lazy">
-          </div>
-        </div>
-        <div class="mode-column">
-          <span class="mode-pill-label">Flowmodoro</span>
-          <div class="phone-item phone-flowmodoro">
-            <img src="/assets/images/flowmodorro.png" alt="Flowmodoro timer mode" loading="lazy">
-          </div>
-        </div>
-        <div class="mode-column">
-          <span class="mode-pill-label">Custom</span>
-          <div class="phone-item phone-custom">
-            <img src="/assets/images/custom.png" alt="Custom timer mode" loading="lazy">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>"""
+    ch2_modes = (ROOT / "data" / "focus-modes.html").read_text(encoding="utf-8")
 
     # Chapter 03: Time awareness (Pink background with cropped dark phone placeholder)
     ch3_awareness = """<section id="time-awareness" class="campaign-chapter chapter-pink">
@@ -283,12 +258,7 @@ def build_homepage():
 </section>"""
 
     # Reviews
-    review_section = """<section class="campaign-review">
-  <span class="meta">FROM THE APP STORE</span>
-  <blockquote>“The easiest timer<br>I’ve ever used.”</blockquote>
-  <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
-  <p class="quiet">App Store Review</p>
-</section>"""
+    review_section = (ROOT / "data" / "reviews.html").read_text(encoding="utf-8")
 
     # Compact FAQ & Learn
     compact_faq_learn = """<section id="faq" class="campaign-learn compact-faq">
