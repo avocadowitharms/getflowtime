@@ -1,183 +1,63 @@
 (function () {
-  var root = window.flowtimeRoot || "";
-
-  window.renderSection("site-header", `
-  <header class="site-header" aria-label="Flowtime">
-    <a class="brand" href="${root}index.html" aria-label="${window.t("a11y.home")}">
-      <span class="logo-swap brand-logo">
-        <img class="logo-mono" src="${root}assets/logo.png" alt="" width="1024" height="1024" decoding="async" />
-        <img class="logo-classic" src="${root}assets/logo-classic.png" alt="" width="1024" height="1024" decoding="async" />
-      </span>
-      <span>Flowtime&deg;</span>
-    </a>
-    
-    <nav class="site-nav" aria-label="${window.t("a11y.nav")}">
-      <a href="${root}about-flowtime/index.html">${window.t("nav.about")}</a>
-      <a href="${root}index.html#focus-modes">${window.t("nav.focus")}</a>
-      <a href="${root}index.html#simplicity">${window.t("nav.simplicity")}</a>
-      <a href="${root}index.html#app-blocking">${window.t("nav.blocking")}</a>
-      <a href="${root}index.html#reports">${window.t("nav.reports")}</a>
-      <a href="${root}index.html#pricing">${window.t("nav.pricing")}</a>
-      <a href="${root}index.html#faq">${window.t("nav.faq")}</a>
-      <a href="${root}updates/index.html">${window.t("nav.social")}</a>
-      
-      <!-- Desktop Dropdown: Learn -->
-      <div class="nav-dropdown">
-        <button class="nav-dropdown-trigger" type="button" aria-expanded="false" data-dropdown="learn">
-          <span>${window.t("nav.learn")}</span>
-          <svg class="chevron-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="6 9 12 15 18 9"></polyline>
-          </svg>
-        </button>
-        <div class="nav-dropdown-menu learn-menu" id="dropdown-learn">
-          <div class="learn-column">
-            <span class="learn-menu-title">${window.t("nav.compare")}</span>
-            <a href="${root}comparison/flowtime-vs-toggl/index.html">${window.t("nav.compare.toggl")}</a>
-            <a href="${root}comparison/flowtime-vs-forest/index.html">${window.t("nav.compare.forest")}</a>
-            <a href="${root}comparison/flowtime-vs-session/index.html">${window.t("nav.compare.session")}</a>
-            <a href="${root}comparison/flowtime-vs-focus-todo/index.html">${window.t("nav.compare.todo")}</a>
-            <a href="${root}comparison/flowtime-vs-be-focused/index.html">${window.t("nav.compare.focused")}</a>
-            <a class="all-link" href="${root}comparison/index.html">${window.t("nav.all")}</a>
-          </div>
-          <div class="learn-column">
-            <span class="learn-menu-title">${window.t("nav.guides")}</span>
-            <a href="${root}guides/time-tracker-without-account/index.html">${window.t("nav.guide.noAccount")}</a>
-            <a href="${root}guides/best-offline-time-trackers/index.html">${window.t("nav.guide.offline")}</a>
-            <a href="${root}guides/why-most-time-tracking-apps-feel-overengineered/index.html">${window.t("nav.guide.overengineered")}</a>
-            <a href="${root}guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/index.html">${window.t("nav.guide.flow")}</a>
-            <a class="all-link" href="${root}guides/index.html">${window.t("nav.allGuides")}</a>
-          </div>
-        </div>
+  const headerHtml = `
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="campaign-header">
+      <div class="campaign-header-inner">
+        <a class="campaign-brand" href="/" aria-label="Flowtime home">Flowtime</a>
+        <nav class="campaign-nav" id="campaign-nav" aria-label="Main navigation">
+          <a href="/#focus-modes">Features</a>
+          <a href="/learn/">Learn</a>
+          <a href="/updates/">Follow the build</a>
+          <a href="/press/">Press</a>
+          <a href="/pricing/">Pricing</a>
+          <a class="nav-download" href="/download/">Download ↗</a>
+        </nav>
+        <button class="campaign-menu" aria-label="Open navigation" aria-expanded="false" aria-controls="campaign-nav">☰</button>
       </div>
-    </nav>
-    
-    <div class="header-actions">
-      <div class="locale-switch" role="group" aria-label="${window.t("language.label")}">
-        <button type="button" data-locale="en" aria-pressed="${window.flowtimeLocale === "en"}">EN</button>
-        <button type="button" data-locale="de" aria-pressed="${window.flowtimeLocale === "de"}">DE</button>
-        <button type="button" data-locale="fr" aria-pressed="${window.flowtimeLocale === "fr"}">FR</button>
-      </div>
-      <!-- Mobile menu hamburger toggle -->
-      <button class="mobile-menu-toggle" type="button" aria-expanded="false" data-menu-toggle aria-label="${window.t("nav.toggle")}">
-        <span class="bar bar-top"></span>
-        <span class="bar bar-middle"></span>
-        <span class="bar bar-bottom"></span>
-      </button>
-    </div>
-    
-    <!-- Mobile Navigation Drawer -->
-    <div class="mobile-menu-drawer" aria-hidden="true" id="mobile-menu">
-      <nav class="mobile-nav">
-        <a href="${root}about-flowtime/index.html">${window.t("nav.about")}</a>
-        <a href="${root}index.html#focus-modes">${window.t("nav.focus")}</a>
-        <a href="${root}index.html#simplicity">${window.t("nav.simplicity")}</a>
-        <a href="${root}index.html#app-blocking">${window.t("nav.blocking")}</a>
-        <a href="${root}index.html#reports">${window.t("nav.reports")}</a>
-        <a href="${root}index.html#pricing">${window.t("nav.pricing")}</a>
-        <a href="${root}index.html#faq">${window.t("nav.faq")}</a>
-        <a href="${root}updates/index.html">${window.t("nav.social")}</a>
-        
-        <!-- Mobile Accordion: Learn -->
-        <div class="mobile-accordion">
-          <button class="mobile-accordion-toggle" type="button" aria-expanded="false">
-            <span>${window.t("nav.learn")}</span>
-            <svg class="chevron-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-          </button>
-          <div class="mobile-accordion-panel">
-            <span class="mobile-learn-heading">${window.t("nav.compare")}</span>
-            <a href="${root}comparison/flowtime-vs-toggl/index.html">${window.t("nav.compare.toggl")}</a>
-            <a href="${root}comparison/flowtime-vs-forest/index.html">${window.t("nav.compare.forest")}</a>
-            <a href="${root}comparison/flowtime-vs-session/index.html">${window.t("nav.compare.session")}</a>
-            <a href="${root}comparison/flowtime-vs-focus-todo/index.html">${window.t("nav.compare.todo")}</a>
-            <a href="${root}comparison/flowtime-vs-be-focused/index.html">${window.t("nav.compare.focused")}</a>
-            <a class="all-link" href="${root}comparison/index.html">${window.t("nav.all")}</a>
-            <span class="mobile-learn-heading">${window.t("nav.guides")}</span>
-            <a href="${root}guides/time-tracker-without-account/index.html">${window.t("nav.guide.noAccount")}</a>
-            <a href="${root}guides/best-offline-time-trackers/index.html">${window.t("nav.guide.offline")}</a>
-            <a href="${root}guides/why-most-time-tracking-apps-feel-overengineered/index.html">${window.t("nav.guide.overengineered")}</a>
-            <a href="${root}guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/index.html">${window.t("nav.guide.flow")}</a>
-            <a class="all-link" href="${root}guides/index.html">${window.t("nav.allGuides")}</a>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </header>
-`);
+    </header>
+  `;
 
-  // Dropdown interactivity
-  var triggers = document.querySelectorAll(".nav-dropdown-trigger");
-  triggers.forEach(function (trigger) {
-    trigger.addEventListener("click", function (event) {
-      event.stopPropagation();
-      var isExpanded = trigger.getAttribute("aria-expanded") === "true";
-      
-      // Close other dropdowns
-      triggers.forEach(function (otherTrigger) {
-        if (otherTrigger !== trigger) {
-          otherTrigger.setAttribute("aria-expanded", "false");
-          var menu = document.getElementById("dropdown-" + otherTrigger.dataset.dropdown);
-          if (menu) menu.classList.remove("is-open");
-        }
-      });
+  window.renderSection('site-header', headerHtml);
 
-      trigger.setAttribute("aria-expanded", String(!isExpanded));
-      var targetMenu = document.getElementById("dropdown-" + trigger.dataset.dropdown);
-      if (targetMenu) {
-        targetMenu.classList.toggle("is-open", !isExpanded);
+  const toggle = document.querySelector('.campaign-menu');
+  const nav = document.querySelector('#campaign-nav');
+
+  if (toggle && nav) {
+    const close = () => {
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-label', 'Open navigation');
+      nav.classList.remove('is-open');
+    };
+
+    toggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const open = toggle.getAttribute('aria-expanded') !== 'true';
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+      nav.classList.toggle('is-open', open);
+    });
+
+    nav.addEventListener('click', (e) => {
+      if (e.target.closest('a')) close();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
+        close();
+        toggle.focus();
       }
     });
-  });
 
-  // Close dropdowns when clicking outside
-  document.addEventListener("click", function () {
-    triggers.forEach(function (trigger) {
-      trigger.setAttribute("aria-expanded", "false");
-      var menu = document.getElementById("dropdown-" + trigger.dataset.dropdown);
-      if (menu) menu.classList.remove("is-open");
-    });
-  });
-
-  // Mobile menu drawer toggle
-  var menuToggle = document.querySelector("[data-menu-toggle]");
-  var menuDrawer = document.querySelector(".mobile-menu-drawer");
-  if (menuToggle && menuDrawer) {
-    menuToggle.addEventListener("click", function (event) {
-      event.stopPropagation();
-      var isOpen = menuToggle.getAttribute("aria-expanded") === "true";
-      menuToggle.setAttribute("aria-expanded", String(!isOpen));
-      menuDrawer.setAttribute("aria-hidden", String(isOpen));
-      document.body.classList.toggle("has-mobile-menu", !isOpen);
-    });
-    
-    // Prevent document clicks from closing drawer inside it
-    menuDrawer.addEventListener("click", function (event) {
-      event.stopPropagation();
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.campaign-header')) close();
     });
   }
 
-  // Mobile Accordions
-  var accordionToggles = document.querySelectorAll(".mobile-accordion-toggle");
-  accordionToggles.forEach(function (accToggle) {
-    accToggle.addEventListener("click", function () {
-      var isExpanded = accToggle.getAttribute("aria-expanded") === "true";
-      accToggle.setAttribute("aria-expanded", String(!isExpanded));
-      var panel = accToggle.nextElementSibling;
-      if (panel) {
-        if (isExpanded) {
-          panel.style.maxHeight = null;
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        }
-      }
-    });
-  });
-
-  // Language buttons
-  document.querySelectorAll("[data-locale]").forEach(function (button) {
-    button.addEventListener("click", function () {
-      window.setFlowtimeLocale(button.dataset.locale);
-    });
-  });
+  const main = document.querySelector('main');
+  if (main && !main.id) {
+    main.id = 'main-content';
+  } else if (main) {
+    const skip = document.querySelector('.skip-link');
+    if (skip) skip.href = '#' + main.id;
+  }
 }());

@@ -6,89 +6,102 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data: https://flowtime-app.com https://images.weserv.nl https://*.twitter.com https://*.twimg.com https://*.threads.com https://*.threads.net https://*.instagram.com https://*.cdninstagram.com https://*.bsky.app https://*.licdn.com https://developer.apple.com https://play.google.com https://www.google-analytics.com https://*.google-analytics.com https://*.googletagmanager.com; script-src 'self' 'unsafe-inline' https://plausible.io https://analytics.ahrefs.com https://groot.mailerlite.com https://www.threads.com https://www.threads.net https://www.googletagmanager.com https://www.google-analytics.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://assets.mlcdn.com; font-src 'self' https://fonts.gstatic.com https://assets.mlcdn.com; connect-src 'self' https://plausible.io https://analytics.ahrefs.com https://assets.mailerlite.com https://www.threads.com https://www.threads.net https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://analytics.google.com https://cloudflareinsights.com https://*.cloudflareinsights.com; frame-src 'self' https://platform.twitter.com https://syndication.twitter.com https://www.instagram.com https://www.threads.com https://www.threads.net https://embed.bsky.app https://www.linkedin.com; frame-ancestors 'none'; form-action 'self' https://assets.mailerlite.com; media-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; upgrade-insecure-requests" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <meta http-equiv="Permissions-Policy" content="accelerometer=(), autoplay=(), camera=(), display-capture=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), sync-xhr=(), usb=(), screen-wake-lock=(), web-share=()" />
-  <title>Flowtime - Updates</title>
-  <link rel="icon" type="image/png" href="../assets/logo-classic.png" />
-  <link rel="apple-touch-icon" href="../assets/logo-classic.png" />
-  <meta name="description" content="Read the latest product updates, milestones, and design iterations for the Flowtime focus timer app." />
+  <title>Follow the Build — Building Flowtime, one decision at a time</title>
+  <link rel="icon" type="image/png" href="/assets/logo-classic.png" />
+  <link rel="apple-touch-icon" href="/assets/logo-classic.png" />
+  <meta name="description" content="A visual journal about the process, ideas, setbacks and progress behind Flowtime. Design, development, marketing and everything in between." />
   <link rel="canonical" href="https://flowtime-app.com/updates/" />
   
-  <link rel="stylesheet" href="../style.css" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Flowtime" />
+  <meta property="og:title" content="Follow the Build — Flowtime" />
+  <meta property="og:description" content="A visual development journal documenting Flowtime's design, development, releases and decisions." />
+  <meta property="og:url" content="https://flowtime-app.com/updates/" />
+  <meta property="og:image" content="https://flowtime-app.com/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
   
-  <script src="../scripts/attribution.js"></script>
+  <link rel="stylesheet" href="/style.css" />
+  
+  <script src="/scripts/attribution.js"></script>
   <!-- Privacy-friendly analytics by Plausible -->
   <script async src="https://plausible.io/js/pa-0aTxMuaeWykhlYbR-knZ5.js"></script>
   <script src="https://analytics.ahrefs.com/analytics.js" data-key="YYVJik2A9OcHRcIliyartg" async></script>
-  <script src="../scripts/plausible-init.js"></script>
-  <script src="../scripts/conversion-analytics.js"></script>
+  <script src="/scripts/plausible-init.js"></script>
+  <script src="/scripts/conversion-analytics.js"></script>
 </head>
-<body id="top" data-theme="mono" data-blog-category="updates">
+<body id="top" class="campaign-site" data-theme="mono" data-blog-category="updates">
   <div id="site-header"></div>
 
   <main class="blog-main" id="updates-app">
     <!-- View 1: Updates List View (renders by default) -->
     <div id="updates-list-view">
       <section class="updates-hero" aria-labelledby="updates-title">
-        <p class="eyebrow" data-i18n="updates.eyebrow">Product Updates</p>
-        <h1 id="updates-title" data-i18n="updates.title">What's new in Flowtime.</h1>
-        <p data-i18n="updates.description">A log of our latest releases, design iterations, milestones, and news curated from our social channels.</p>
+        <div class="updates-hero-copy">
+          <p class="eyebrow">FOLLOW THE BUILD</p>
+          <h1 id="updates-title">Building<br>Flowtime,</h1>
+          <p class="build-deck">one decision at a time.</p>
+          <p>A visual journal about the process, ideas, setbacks and progress behind Flowtime. Design, development, marketing and everything in between.</p>
+          <div style="margin-top: 24px;">
+            <a href="#newsletter" class="pill">Subscribe for updates →</a>
+          </div>
+        </div>
+        <div class="updates-hero-art">
+          <div class="product-visual visual-hero" role="img" aria-label="Flowtime development progress visual"></div>
+        </div>
       </section>
 
-      <section class="blog-listing" aria-label="Updates listing">
-        <div class="blog-tools">
-          <label>
-            <span class="sr-only">Search updates</span>
-            <input class="blog-search" type="search" placeholder="Search updates..." id="updates-search-input" />
-          </label>
-          <label>
-            <span class="sr-only">Sort updates</span>
-            <select class="blog-sort" id="updates-sort-select">
-              <option value="newest">Newest first</option>
-              <option value="oldest">Oldest first</option>
-            </select>
-          </label>
-          <div class="blog-tags" id="updates-tags-container" aria-label="Filter by tag"></div>
+      <section class="blog-listing" aria-label="Updates listing" style="max-width: var(--container-max); margin: 0 auto;">
+        <div class="learn-filters" id="updates-tags-container" aria-label="Filter by category" style="margin-top: 32px;">
+          <!-- Category buttons dynamically inserted -->
         </div>
 
-        <p class="blog-count" id="updates-count-display"></p>
-        <div class="blog-grid" id="updates-grid"></div>
-        <p class="blog-empty" id="updates-empty-display" data-i18n="updates.empty" hidden>No updates match your search parameters.</p>
+        <p class="quiet" id="updates-count-display" style="margin-bottom: 24px;"></p>
         
+        <div id="updates-grid">
+          <!-- Flagship visual build cards injected by updates.js -->
+        </div>
+
+        <!-- Newsletter Subscription Card -->
+        <div id="newsletter" class="build-newsletter-box">
+          <h3>Get updates in your inbox.</h3>
+          <p>New build posts, release news and behind the scenes.</p>
+          <form class="build-newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
+            <input type="email" placeholder="Your email" required aria-label="Email address" />
+            <button type="submit">→</button>
+          </form>
+        </div>
+
+        <p class="blog-empty" id="updates-empty-display" data-i18n="updates.empty" hidden>No updates match your search parameters.</p>
       </section>
     </div>
 
     <!-- View 2: Update Detail View (hidden by default) -->
     <div id="updates-detail-view" hidden>
-      <article class="blog-article">
+      <article class="blog-article" style="max-width: var(--container-max); margin: 0 auto; padding-top: 20px;">
         <header class="article-header">
-          <div class="update-detail-nav">
-            <a href="#" id="back-to-updates-btn">
-              <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="19" y1="12" x2="5" y2="12"></line>
-                <polyline points="12 19 5 12 12 5"></polyline>
-              </svg>
-              <span data-i18n="updates.back">Back to updates</span>
+          <div class="update-detail-nav" style="margin-bottom: 24px;">
+            <a href="#" id="back-to-updates-btn" class="text-link">
+              ← <span data-i18n="updates.back">Back to all updates</span>
             </a>
           </div>
           
-          <div class="updates-header-meta">
-            <span class="platform-badge" id="detail-platform-badge" data-platform="manual">Manual</span>
-            <time id="detail-date" datetime=""></time>
+          <div class="updates-header-meta" style="margin-bottom: 12px;">
+            <span class="meta" id="detail-number-badge">#42</span>
+            <span class="meta" style="margin-left: 12px;" id="detail-date">SEP 12, 2026</span>
           </div>
           
-          <h1 id="detail-title">Update Title</h1>
-          <p class="article-description" id="detail-description">Update short description.</p>
-          
-          <div class="article-tags" id="detail-tags"></div>
+          <h1 id="detail-title">Flowtime got a little louder.</h1>
+          <p class="article-description" id="detail-description">A completely new timer design, customizable type and a more playful identity. Same idea, just bolder.</p>
         </header>
 
         <div class="article-layout">
-          <aside class="article-aside" aria-label="Article author">
-            <div class="author-card">
-              <img class="author-avatar" src="../assets/ava-icon.png" alt="Ava Thalheim" width="180" height="180" loading="lazy" decoding="async" />
-              <p>
-                <strong>Ava Thalheim</strong>
-                <span>Developer of Flowtime</span>
-              </p>
+          <aside class="article-aside" aria-label="On this page">
+            <div class="article-toc">
+              <h4>On this page</h4>
+              <a href="#detail-body">The new timer</a>
+              <a href="#detail-body">Why the change?</a>
+              <a href="#detail-body">Design process</a>
+              <a href="#detail-body">What's next</a>
             </div>
           </aside>
           
@@ -96,16 +109,14 @@
             <div class="article-body" id="detail-body">
               <!-- Content gets rendered here -->
             </div>
-            
+
             <!-- Dynamic Embedded Post Frame if available -->
-            <div id="detail-embed-wrapper" class="embed-container" hidden>
-              <!-- Dynamic iframe inserted here -->
-            </div>
+            <div id="detail-embed-wrapper" class="embed-container" hidden></div>
 
             <!-- Original Post Link -->
-            <div class="update-original-link-container" id="detail-original-link-wrapper" hidden>
-              <p data-i18n="updates.curated">This update was curated from a social media post.</p>
-              <a href="#" id="detail-original-link" target="_blank" rel="noopener noreferrer">Read original post</a>
+            <div class="update-original-link-container" id="detail-original-link-wrapper" style="margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border-light);" hidden>
+              <p class="quiet" data-i18n="updates.curated">This update was curated from a development post.</p>
+              <a href="#" id="detail-original-link" target="_blank" rel="noopener noreferrer" class="text-link">Read original post ↗</a>
             </div>
           </div>
         </div>
@@ -115,14 +126,13 @@
 
   <div id="site-footer"></div>
 
-  <script src="../scripts/page-config-updates.js"></script>
-  
-  <script src="../scripts/i18n.js"></script>
-  <script src="../sections/header.js"></script>
-  <script src="../data/social-updates.js"></script>
-  <script src="../scripts/updates-db.js"></script>
-  <script src="../scripts/updates.js"></script>
-  <script src="../sections/footer.js"></script>
-  <script src="../scripts/theme.js"></script>
+  <script src="/scripts/page-config-updates.js"></script>
+  <script src="/scripts/i18n.js"></script>
+  <script src="/sections/header.js"></script>
+  <script src="/data/social-updates.js"></script>
+  <script src="/scripts/updates-db.js"></script>
+  <script src="/scripts/updates.js"></script>
+  <script src="/sections/footer.js"></script>
+  <script src="/scripts/design.js"></script>
 </body>
 </html>

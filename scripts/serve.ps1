@@ -13,13 +13,28 @@ $mimeTypes = @{
   '.svg' = 'image/svg+xml'
 }
 
-$listener = [System.Net.Sockets.TcpListener]::new([System.Net.IPAddress]::Loopback, $Port)
-Write-Host "Starting Flowtime preview..."
+$listener = $null
+$started = $false
+for ($p = $Port; $p -lt ($Port + 20); $p++) {
+  try {
+    $listener = [System.Net.Sockets.TcpListener]::new([System.Net.IPAddress]::Loopback, $p)
+    $listener.Start()
+    $Port = $p
+    $started = $true
+    break
+  } catch {
+    if ($listener) { $listener.Stop(); $listener = $null }
+  }
+}
+
+if (-not $started) {
+  Write-Error "Could not bind to any port in range $Port..$($Port + 20)"
+  exit 1
+}
+
+Write-Host "Flowtime preview ready at http://localhost:$Port/"
 
 try {
-  $listener.Start()
-  Write-Host "Flowtime preview ready at http://localhost:$Port/"
-
   while ($true) {
     $client = $null
     try {

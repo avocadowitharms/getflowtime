@@ -3,285 +3,70 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data: https://flowtime-app.com https://developer.apple.com https://play.google.com; script-src 'self' https://plausible.io 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self' https://plausible.io; form-action 'self'; upgrade-insecure-requests" />
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data: https://flowtime-app.com https://images.weserv.nl https://*.twitter.com https://*.twimg.com https://*.threads.com https://*.threads.net https://*.instagram.com https://*.cdninstagram.com https://*.bsky.app https://*.licdn.com https://developer.apple.com https://play.google.com https://www.google-analytics.com https://*.google-analytics.com https://*.googletagmanager.com; script-src 'self' 'unsafe-inline' https://plausible.io https://analytics.ahrefs.com https://sibforms.com https://challenges.cloudflare.com https://www.threads.com https://www.threads.net https://www.googletagmanager.com https://www.google-analytics.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://assets.mlcdn.com; font-src 'self' https://fonts.gstatic.com https://assets.mlcdn.com; connect-src 'self' https://plausible.io https://analytics.ahrefs.com https://*.sibforms.com https://www.threads.com https://www.threads.net https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://analytics.google.com https://cloudflareinsights.com https://*.cloudflareinsights.com; frame-src 'self' https://challenges.cloudflare.com https://platform.twitter.com https://syndication.twitter.com https://www.instagram.com https://www.threads.com https://www.threads.net https://embed.bsky.app https://www.linkedin.com; frame-ancestors 'none'; form-action 'self' https://*.sibforms.com; media-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; upgrade-insecure-requests" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
-  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()" />
-  <title>What Is Flowtime? Focus Timer for Work &amp; Study</title>
-  <meta name="description" content="Learn what Flowtime is, which focus and time-tracking features it includes, where it is available, and how it handles privacy." />
+  <meta http-equiv="Permissions-Policy"
+    content="accelerometer=(), autoplay=(), camera=(), display-capture=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), sync-xhr=(), usb=(), screen-wake-lock=(), web-share=()" />
+  <title>About Flowtime — Simple, Intentional Focus</title>
+  <link rel="icon" type="image/png" href="/assets/logo-classic.png" />
+  <link rel="apple-touch-icon" href="/assets/logo-classic.png" />
+  <meta name="description" content="Why Flowtime exists: a friction-free, local-first focus timer." />
+  <meta name="author" content="Flowtime" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://flowtime-app.com/about-flowtime/" />
-  <link rel="icon" type="image/png" href="../assets/logo-classic.png" />
-  <link rel="apple-touch-icon" href="../assets/logo-classic.png" />
+  <link rel="preconnect" href="https://developer.apple.com" />
+  <link rel="preconnect" href="https://play.google.com" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Flowtime" />
-  <meta property="og:title" content="What Is Flowtime? Focus Timer for Work &amp; Study" />
-  <meta property="og:description" content="Learn what Flowtime is, which focus and time-tracking features it includes, where it is available, and how it handles privacy." />
+  <meta property="og:title" content="About Flowtime — Simple, Intentional Focus" />
+  <meta property="og:description" content="Why Flowtime exists: a friction-free, local-first focus timer." />
   <meta property="og:url" content="https://flowtime-app.com/about-flowtime/" />
   <meta property="og:image" content="https://flowtime-app.com/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Flowtime focus timer and time tracker preview" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="What Is Flowtime? Focus Timer for Work &amp; Study" />
-  <meta name="twitter:description" content="Learn what Flowtime is, which focus and time-tracking features it includes, where it is available, and how it handles privacy." />
+  <meta name="twitter:title" content="About Flowtime — Simple, Intentional Focus" />
+  <meta name="twitter:description" content="Why Flowtime exists: a friction-free, local-first focus timer." />
   <meta name="twitter:image" content="https://flowtime-app.com/og-image.png" />
-  <meta name="twitter:image:alt" content="Flowtime focus timer and time tracker preview" />
-  <link rel="stylesheet" href="../style.css" />
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "@id": "https://flowtime-app.com/#publisher",
-          "name": "gugus. Software&Things",
-          "url": "https://gugus.software/",
-          "sameAs": [
-            "https://www.instagram.com/flowtimefocus/",
-            "https://x.com/Flowtime_app"
-          ]
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://flowtime-app.com/#website",
-          "name": "Flowtime",
-          "url": "https://flowtime-app.com/",
-          "description": "Flowtime is a flexible focus timer and personal time tracker for iPhone and Android. It combines open-ended focus sessions, Pomodoro, reminders, projects, reports, and optional app blocking. No account is required.",
-          "publisher": {
-            "@id": "https://flowtime-app.com/#publisher"
-          }
-        },
-        {
-          "@type": "SoftwareApplication",
-          "@id": "https://flowtime-app.com/#software",
-          "name": "Flowtime",
-          "alternateName": "Flowtime - Time Tracker",
-          "description": "Flowtime is a flexible focus timer and personal time tracker for iPhone and Android. It combines open-ended focus sessions, Pomodoro, reminders, projects, reports, and optional app blocking. No account is required.",
-          "url": "https://flowtime-app.com/",
-          "applicationCategory": "ProductivityApplication",
-          "operatingSystem": ["iOS", "Android"],
-          "downloadUrl": [
-            "https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969",
-            "https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"
-          ],
-          "installUrl": [
-            "https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969",
-            "https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"
-          ],
-          "image": "https://flowtime-app.com/assets/logo-classic.png",
-          "screenshot": [
-            "https://flowtime-app.com/assets/phone-mono2-opt.webp",
-            "https://flowtime-app.com/assets/classic-timer-mono-opt.webp",
-            "https://flowtime-app.com/assets/pomodoro-mono-opt.webp",
-            "https://flowtime-app.com/assets/flow-session-mono-opt.webp",
-            "https://flowtime-app.com/assets/reports-mono-opt.webp"
-          ],
-          "featureList": [
-            "Flexible focus sessions",
-            "Standard timer",
-            "Pomodoro",
-            "Focus reminders",
-            "Optional app blocking",
-            "Personal time tracking",
-            "Projects",
-            "Session history",
-            "Reports"
-          ],
-          "creator": {
-            "@id": "https://flowtime-app.com/#publisher"
-          },
-          "publisher": {
-            "@id": "https://flowtime-app.com/#publisher"
-          },
-          "sameAs": [
-            "https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969",
-            "https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime",
-            "https://www.instagram.com/flowtimefocus/",
-            "https://x.com/Flowtime_app",
-            "https://gugus.software/"
-          ]
-        },
-        {
-          "@type": "WebPage",
-          "@id": "https://flowtime-app.com/about-flowtime/#webpage",
-          "url": "https://flowtime-app.com/about-flowtime/",
-          "name": "What is Flowtime?",
-          "description": "Learn what Flowtime is, which focus and time-tracking features it includes, where it is available, and how it handles privacy.",
-          "isPartOf": {
-            "@id": "https://flowtime-app.com/#website"
-          },
-          "about": {
-            "@id": "https://flowtime-app.com/#software"
-          }
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://flowtime-app.com/about-flowtime/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What is Flowtime?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Flowtime is a flexible focus timer and personal time tracker with Pomodoro, reminders, projects, reports, and optional app blocking on iPhone and Android."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Does Flowtime require an account?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No account is required to use Flowtime."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Who is Flowtime for?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Flowtime is for anyone who wants a low-friction way to focus, notice time, and understand where their time goes."
-              }
-            }
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Flowtime", "item": "https://flowtime-app.com/" },
-            { "@type": "ListItem", "position": 2, "name": "About Flowtime", "item": "https://flowtime-app.com/about-flowtime/" }
-          ]
-        }
-      ]
-    }
-  </script>
-  <script src="../scripts/attribution.js"></script>
+  <link rel="stylesheet" href="/style.css" />
+  
+  <script src="/scripts/attribution.js"></script>
+  <!-- Privacy-friendly analytics by Plausible -->
   <script async src="https://plausible.io/js/pa-0aTxMuaeWykhlYbR-knZ5.js"></script>
   <script src="https://analytics.ahrefs.com/analytics.js" data-key="YYVJik2A9OcHRcIliyartg" async></script>
   <script>
-    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
-    plausible.init()
+    window.plausible = window.plausible || function () { (plausible.q = plausible.q || []).push(arguments) }, plausible.init = plausible.init || function (i) { plausible.o = i || {} };
+    plausible.init();
   </script>
-  <script src="../scripts/conversion-analytics.js"></script>
+  <script src="/scripts/conversion-analytics.js"></script>
 </head>
-<body id="top" data-theme="mono">
+<body id="top" class="campaign-site">
   <div id="site-header"></div>
-
-  <main class="about-flowtime-main">
-    <section class="about-hero" aria-labelledby="about-flowtime-title">
-      <p class="eyebrow">About Flowtime</p>
-      <h1 id="about-flowtime-title">What is Flowtime?</h1>
-      <p class="about-summary">Flowtime combines flexible focus sessions, Pomodoro, reminders, time tracking, and optional app blocking. It helps you notice where your time goes, stay aware during deep focus, and stop intentionally—without requiring an account.</p>
-      <div class="about-store-links" aria-label="Download Flowtime">
-        <a class="app-store-badge" href="https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969" target="_blank" rel="noopener noreferrer" data-analytics-event="app_store_click" data-analytics-platform="ios" data-platform-target="ios" data-source-page-type="about" data-content-cluster="product_facts" data-analytics-location="about_hero" aria-label="Download on the App Store">
-          <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" loading="lazy" decoding="async" width="120" height="40" />
-        </a>
-        <a class="app-store-badge google-play-badge" href="https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime" target="_blank" rel="noopener noreferrer" data-analytics-event="play_store_click" data-analytics-platform="android" data-platform-target="android" data-source-page-type="about" data-content-cluster="product_facts" data-analytics-location="about_hero" aria-label="Get it on Google Play">
-          <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" loading="lazy" decoding="async" width="646" height="250" />
-        </a>
-      </div>
-    </section>
-
-    <section class="about-facts" aria-labelledby="product-facts-title">
-      <h2 id="product-facts-title">Product facts</h2>
-      <dl>
-        <div><dt>Product</dt><dd>Flowtime</dd></div>
-        <div><dt>Category</dt><dd>Focus timer and time tracker</dd></div>
-        <div><dt>Platforms</dt><dd>iPhone and Android</dd></div>
-        <div><dt>Designed for</dt><dd>Flexible focus, time awareness, deep work, intentional breaks, work, study, and reducing digital distractions</dd></div>
-        <div><dt>Core features</dt><dd>Flexible focus sessions, standard timer, Pomodoro, reminders, optional app blocking, time tracking, projects, session history, and reports</dd></div>
-        <div><dt>Account required</dt><dd>No</dd></div>
-        <div><dt>Data storage</dt><dd>Timer and project data are stored locally on the device.</dd></div>
-        <div><dt>Medical product</dt><dd>No</dd></div>
-        <div><dt>Creator</dt><dd><a href="https://gugus.software/" target="_blank" rel="noopener noreferrer">gugus. Software&amp;Things</a></dd></div>
-      </dl>
-    </section>
-
-    <section class="about-section" aria-labelledby="what-flowtime-does">
-      <h2 id="what-flowtime-does">What Flowtime does</h2>
-      <p>Flowtime helps make focused time visible. You can start a standard timer, use Pomodoro, create a flexible Flow Session with a target duration, receive focus reminders, track time by project, and review session history and reports.</p>
-      <p>Flowtime also includes optional app blocking where available, so distracting apps can be made less available during intentional focus periods.</p>
-      <ul>
-        <li><a href="../index.html#focus-modes">Focus timer modes</a></li>
-        <li><a href="../guides/gentle-time-reminders-for-adhd-time-blindness/index.html">Time reminders</a></li>
-        <li><a href="../guides/what-is-an-app-blocker-and-when-is-it-actually-useful/index.html">App blocking guide</a></li>
-      </ul>
-    </section>
-
-    <section class="about-section" aria-labelledby="why-flowtime-exists">
-      <h2 id="why-flowtime-exists">Why Flowtime exists</h2>
-      <p>Flowtime was created by Ava Thalheim from her own experience with ADHD and hyperfocus. That experience influenced its design, but Flowtime is a flexible focus timer and time tracker for anyone. Getting focused is not always the only challenge. Noticing how long you have worked and stopping at a reasonable point matter too.</p>
-      <p>The app is designed to create visible session boundaries around focused time, without forcing every session into one rigid timer rhythm.</p>
-    </section>
-
-    <section class="about-section" aria-labelledby="platforms-availability">
-      <h2 id="platforms-availability">Platforms and availability</h2>
-      <p>Flowtime is available for iPhone and Android from the official app stores.</p>
-      <ul>
-        <li><a href="https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969" target="_blank" rel="noopener noreferrer">Download Flowtime on the App Store</a></li>
-        <li><a href="https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime" target="_blank" rel="noopener noreferrer">Get Flowtime on Google Play</a></li>
-      </ul>
-    </section>
-
-    <section class="about-section" aria-labelledby="privacy-accounts">
-      <h2 id="privacy-accounts">Privacy and accounts</h2>
-      <p>No account is required to use Flowtime. The privacy policy states that timer and project data remain on your device and are not sent to Flowtime servers.</p>
-      <p>Flowtime does not describe cloud sync on the website. Purchases are handled by the App Store or Google Play. The website uses privacy-friendly Plausible analytics, and the app privacy policy states that optional app-blocking accessibility data is only used to provide app blocking and is not used for advertising, analytics, or personal data collection.</p>
-      <p><a href="https://gugus.software/privacy/flowtime/">Read the Flowtime privacy policy</a>.</p>
-    </section>
-
-    <section class="about-section" aria-labelledby="who-created-flowtime">
-      <h2 id="who-created-flowtime">Who created Flowtime?</h2>
-      <p>Flowtime is created by <a href="https://gugus.software/" target="_blank" rel="noopener noreferrer">gugus. Software&amp;Things</a>.</p>
-    </section>
-
-    <section class="about-section about-faq" aria-labelledby="about-faq-title">
-      <h2 id="about-faq-title">Frequently asked questions</h2>
-      <h3>What is Flowtime?</h3>
-      <p>Flowtime combines flexible focus sessions, Pomodoro, reminders, time tracking, and optional app blocking. No account is required.</p>
-      <h3>Is Flowtime available on Android?</h3>
-      <p>Yes. Flowtime is available on Google Play for Android.</p>
-      <h3>Is Flowtime available on iPhone?</h3>
-      <p>Yes. Flowtime is available on the App Store for iPhone.</p>
-      <h3>Does Flowtime require an account?</h3>
-      <p>No account is required to use Flowtime.</p>
-      <h3>Is Flowtime a Pomodoro timer?</h3>
-      <p>Flowtime supports Pomodoro, but it also supports flexible focus sessions and standard timer sessions.</p>
-      <h3>Can Flowtime block distracting apps?</h3>
-      <p>Flowtime includes optional app blocking where available.</p>
-      <h3>Who is Flowtime for?</h3>
-      <p>Flowtime is for anyone who wants a low-friction way to focus, notice time, and understand where their time goes.</p>
-      <h3>Where is Flowtime data stored?</h3>
-      <p>The privacy policy states that timer and project data are stored locally on the device.</p>
-      <h3>Who created Flowtime?</h3>
-      <p>Flowtime is created by <a href="https://gugus.software/" target="_blank" rel="noopener noreferrer">gugus. Software&amp;Things</a>.</p>
-    </section>
-
-    <section class="about-section official-links" aria-labelledby="official-links-title">
-      <h2 id="official-links-title">Official links</h2>
-      <ul>
-        <li><a href="../index.html">Flowtime homepage</a></li>
-        <li><a href="https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969" target="_blank" rel="noopener noreferrer">App Store</a></li>
-        <li><a href="https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime" target="_blank" rel="noopener noreferrer">Google Play</a></li>
-        <li><a href="../guides/index.html">Flowtime guides</a></li>
-        <li><a href="https://gugus.software/privacy/flowtime/">Privacy policy</a></li>
-        <li><a href="https://gugus.software/support/flowtime/">Support</a></li>
-      </ul>
-    </section>
+  <main id="main-content">
+    <section class="editorial-hero">
+  <span class="meta">OUR PHILOSOPHY</span>
+  <h1>Made for focus.<br>Not friction.</h1>
+  <p>Flowtime was born out of a desire for a clean, privacy-respecting timer that gets out of your way.</p>
+</section>
+<div class="blog-main" style="max-width: 800px;">
+  <article class="article-body">
+    <p>Most focus and productivity apps require accounts, sync servers, notifications, and complex dashboards. Flowtime takes the opposite approach: everything stays on your device, starts immediately, and lets you focus on what matters.</p>
+    <blockquote>“The best tools are the ones that quietly assist your attention rather than demanding it.”</blockquote>
+    <h2>Intentional by design</h2>
+    <p>Whether you use Pomodoro intervals, open-ended Flow Sessions, or custom timers, Flowtime gives you the freedom to shape your focus your way.</p>
+  </article>
+</div>
   </main>
-
   <div id="site-footer"></div>
-
   <script>
-    window.flowtimeRoot = "../";
-    window.flowtimePreserveTitle = true;
-    window.flowtimeNoWaitlist = true;
-    window.renderSection = function (id, markup) {
-      document.getElementById(id).outerHTML = markup;
-    };
+    window.flowtimeRoot='/';
+    window.flowtimePreserveTitle=true;
+    window.renderSection=function(id,html){var el=document.getElementById(id);if(el)el.outerHTML=html;};
   </script>
-  <script src="../scripts/i18n.js"></script>
-  <script src="../sections/header.js"></script>
-  <script src="../sections/footer.js"></script>
-  <script src="../scripts/theme.js"></script>
+  <script src="/scripts/i18n.js"></script>
+  <script src="/sections/header.js"></script>
+  <script src="/sections/footer.js"></script>
+  <script src="/scripts/design.js"></script>
 </body>
 </html>
