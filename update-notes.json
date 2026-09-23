@@ -1,1 +1,53 @@
-{"version":"","title":"Flowtime Pro Yearly is 50% off!","subtitle":"50% off Flowtime Pro Yearly until September 30.","slides":[{"type":"feature","label":"ANNOUNCEMENT","title":"Flowtime Pro Yearly is 50% off!","description":"Until September 30, you can get Flowtime Pro Yearly for 50% off.\n\nAndroid\nThe 50% discount is automatically applied when you purchase a yearly subscription.\n\niOS\nUse code EARLYFLOW50 to get 50% off your yearly subscription.\n\nThank you for using Flowtime. ❤️"}],"entries":[{"id":"announcement_1788256800000","version":"","publishedAt":"2026-09-01T10:00:00.000Z","title":"Flowtime Pro Yearly is 50% off!","subtitle":"50% off Flowtime Pro Yearly until September 30.","showAsPopup":true,"popupType":"announcement","minAppVersion":null,"maxAppVersion":null,"slides":[{"type":"feature","label":"ANNOUNCEMENT","title":"Flowtime Pro Yearly is 50% off!","description":"Until September 30, you can get Flowtime Pro Yearly for 50% off.\n\nAndroid\nThe 50% discount is automatically applied when you purchase a yearly subscription.\n\niOS\nUse code EARLYFLOW50 to get 50% off your yearly subscription.\n\nThank you for using Flowtime. ❤️"}]}]}
+{
+  "version": "3.2.0",
+  "title": "What's new in Flowtime 3.2.0",
+  "subtitle": "New features and focus enhancements.",
+  "slides": [
+    {
+      "type": "feature",
+      "label": "NEW",
+      "title": "Flowtime 2.0 is here! ",
+      "description": "Flowtime 2.0 is out, with a completely new look and way more customization!\nThe timer circle is gone. Instead, you can now choose from 15 different timer styles, customize colors, and pick your favorite layout.\nYour Quick Starts can also remember their own design settings, so every setup can have its own look!\nHead over to settings to set your favorite styles.\nThank you for using Flowtime! "
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry_2.4.1",
+      "version": "3.2.0",
+      "publishedAt": "2026-09-23T07:16:15.694Z",
+      "title": "What's new in Flowtime 3.2.0",
+      "subtitle": "New features and focus enhancements.",
+      "showAsPopup": true,
+      "popupType": "release_notes",
+      "minAppVersion": "3.2.0",
+      "maxAppVersion": "3.2.0",
+      "slides": [
+        {
+          "type": "feature",
+          "label": "NEW",
+          "title": "Flowtime 2.0 is here! ",
+          "description": "Flowtime 2.0 is out, with a completely new look and way more customization!\nThe timer circle is gone. Instead, you can now choose from 15 different timer styles, customize colors, and pick your favorite layout.\nYour Quick Starts can also remember their own design settings, so every setup can have its own look!\nHead over to settings to set your favorite styles.\nThank you for using Flowtime! "
+        }
+      ]
+    },
+    {
+      "id": "announcement_1788256800000",
+      "version": "",
+      "publishedAt": "2026-09-01T10:00:00.000Z",
+      "title": "Flowtime Pro Yearly is 50% off!",
+      "subtitle": "50% off Flowtime Pro Yearly until September 30.",
+      "showAsPopup": false,
+      "popupType": "announcement",
+      "minAppVersion": null,
+      "maxAppVersion": null,
+      "slides": [
+        {
+          "type": "feature",
+          "label": "ANNOUNCEMENT",
+          "title": "Flowtime Pro Yearly is 50% off!",
+          "description": "Until September 30, you can get Flowtime Pro Yearly for 50% off.\n\nAndroid\nThe 50% discount is automatically applied when you purchase a yearly subscription.\n\niOS\nUse code EARLYFLOW50 to get 50% off your yearly subscription.\n\nThank you for using Flowtime. â¤ï¸"
+        }
+      ]
+    }
+  ]
+}
