@@ -428,8 +428,8 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
   <meta property="og:url" content="${canonicalUrl}" />
   <meta property="og:locale" content="${isDe ? "de_DE" : "fr_FR"}" />
   <meta property="og:image" content="${socialImage}" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+  <meta property="og:image:width" content="2416" />
+  <meta property="og:image:height" content="1276" />
   <meta property="og:image:alt" content="${escapeHtml(pageTitle)} - Flowtime article preview" />
   <meta property="article:published_time" content="${post.data.date}" />
   <meta property="article:modified_time" content="${post.data.date}" />
@@ -513,8 +513,8 @@ ${getHreflangTags(post)}
   <meta property="og:description" content="${escapeHtml(description)}" />
   <meta property="og:url" content="${url}" />
   <meta property="og:image" content="${socialImage}" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+  <meta property="og:image:width" content="2416" />
+  <meta property="og:image:height" content="1276" />
   <meta property="og:image:alt" content="${escapeHtml(post.data.title)} - Flowtime article preview" />
   <meta property="article:published_time" content="${post.data.date}" />
   <meta property="article:modified_time" content="${post.data.dateModified || post.data.updated || post.data.date}" />
