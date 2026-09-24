@@ -82,7 +82,7 @@ For example, export is worth supporting because local data should be portable. R
 The test is whether a feature helps the individual using the timer, or whether it mainly makes the product look more complete. Flowtime should stay useful on the first launch and still useful after months of ordinary use. That balance matters more than checking every possible feature box.
 
 ## Related articles
-- [Time Tracker Without an Account](../time-tracker-without-account/)
+- [Time Tracker Without an Account](../time-tracker-without-an-account/)
 - [Best Offline Time Trackers](../best-offline-time-trackers/)
 - [Why Most Time Tracking Apps Feel Overengineered](../why-most-time-tracking-apps-feel-overengineered/)
 - [Local-First Apps Explained](../local-first-apps-explained/)

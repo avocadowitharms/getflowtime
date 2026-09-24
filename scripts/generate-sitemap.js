@@ -90,15 +90,15 @@ function getUrlsFromDir(dir, category) {
 
 const urls = [
   { loc: `${siteUrl}/`, lastmod: fileLastmod("index.html", "2026-06-06"), changefreq: "weekly", priority: "1.0" },
+  ...["blog", "buy", "download", "faq", "updates"].map(route => ({loc: `${siteUrl}/${route}/`, lastmod: fileLastmod(`${route}/index.html`, "2026-09-21"), changefreq: "weekly", priority: "0.8"})),
   { loc: `${siteUrl}/about-flowtime/`, lastmod: fileLastmod("about-flowtime/index.html", "2026-07-13"), changefreq: "monthly", priority: "0.8" },
-  { loc: `${siteUrl}/press/`, lastmod: fileLastmod("press/index.html", "2026-08-07"), changefreq: "monthly", priority: "0.8" },
   { loc: `${siteUrl}/llms.txt`, lastmod: fileLastmod("llms.txt", "2026-07-13"), changefreq: "monthly", priority: "0.2" },
   { loc: `${siteUrl}/llms-full.txt`, lastmod: fileLastmod("llms-full.txt", "2026-07-21"), changefreq: "monthly", priority: "0.2" },
   { loc: `${siteUrl}/comparison/`, lastmod: fileLastmod("comparison/index.html", "2026-06-06"), changefreq: "weekly", priority: "0.8" },
   { loc: `${siteUrl}/guides/`, lastmod: fileLastmod("guides/index.html", "2026-06-06"), changefreq: "weekly", priority: "0.8" },
   ...getUrlsFromDir(comparisonDir, "comparison"),
   ...getUrlsFromDir(guidesDir, "guides"),
-  { loc: `${siteUrl}/blog/interrupting-autopilot-conscious-app-blocking/`, lastmod: "2026-07-20", changefreq: "monthly", priority: "0.7" },
+  { loc: `${siteUrl}/blog/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/`, lastmod: "2026-07-20", changefreq: "monthly", priority: "0.7" },
   { loc: `${siteUrl}/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/`, lastmod: "2026-07-20", changefreq: "monthly", priority: "0.7" },
   { loc: `${siteUrl}/fr/blog/interrompre-pilote-automatique-blocage-applications/`, lastmod: "2026-07-20", changefreq: "monthly", priority: "0.7" },
 ].sort((a, b) => a.loc.localeCompare(b.loc));

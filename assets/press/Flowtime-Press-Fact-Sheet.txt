@@ -7,7 +7,7 @@ Category: Productivity / Focus / Time Awareness
 Platforms: iOS (iPhone) and Android
 Developer: Ava Thalheim (Indie Developer)
 Location: Switzerland
-Business Model: Free + Flowtime Pro ($3.99/mo, $24.99/yr, $49.99 lifetime)
+Business Model: Free + Flowtime Pro ($2.99/mo, $24.99/yr, $49.99 lifetime)
 Privacy: No account required, local-first data storage
 Website: https://flowtime-app.com
 Press Contact: ava@flowtime-app.com

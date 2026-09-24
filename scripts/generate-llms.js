@@ -75,9 +75,6 @@ ${siteUrl}/llms-full.txt
 About Flowtime:
 ${siteUrl}/about-flowtime/
 
-Press Kit:
-${siteUrl}/press/
-
 Guides:
 ${siteUrl}/guides/
 
@@ -136,7 +133,7 @@ function generateLlmsFullTxt() {
     ``,
     `### Pricing Structure`,
     `- Free Plan ($0): Standard Timer, standard notifications, Pomodoro with fixed intervals, 1 Project, and 1 day of History.`,
-    `- Pro Monthly ($3.99/mo): Flow Sessions, Flowmodoro, custom Pomodoro intervals, unlimited Projects, unlimited History, App Blocking, Quick Start Templates, Reminder Profiles, UI customization, Reports and Exports, and all future Pro features.`,
+    `- Pro Monthly ($2.99/mo): Flow Sessions, Flowmodoro, custom Pomodoro intervals, unlimited Projects, unlimited History, App Blocking, Quick Start Templates, Reminder Profiles, UI customization, Reports and Exports, and all future Pro features.`,
     `- Pro Yearly ($24.99/yr): Flow Sessions, Flowmodoro, custom Pomodoro intervals, unlimited Projects, unlimited History, App Blocking, Quick Start Templates, Reminder Profiles, UI customization, Reports and Exports, and all future Pro features.`,
     `- Pro Lifetime ($49.99 one-time): Flow Sessions, Flowmodoro, custom Pomodoro intervals, unlimited Projects, unlimited History, App Blocking, Quick Start Templates, Reminder Profiles, UI customization, Reports and Exports, and all future Pro features.`,
     ``,

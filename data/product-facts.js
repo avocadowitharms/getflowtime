@@ -47,7 +47,7 @@
     creatorName: "gugus. Software&Things",
     creatorUrl: "https://gugus.software/",
     publisherName: "gugus. Software&Things",
-    authorName: "Ava Thalheim",
+    authorName: "Ava",
     authorUrl: "https://gugus.software/",
     officialSocialProfiles: [
       "https://www.instagram.com/flowtimefocus/",
@@ -86,7 +86,7 @@
       highPrice: "49.99",
       offerCount: "4",
       free: { price: "0", name: "Flowtime Free", description: "Standard Timer, standard notifications, Pomodoro with fixed intervals, 1 Project, and 1 day of History" },
-      monthly: { price: "3.99", name: "Flowtime Pro Monthly", description: "Monthly Pro subscription with Flow Sessions, Flowmodoro, custom Pomodoro intervals, unlimited Projects and History, App Blocking, Quick Start Templates, Reminder Profiles, UI customization, Reports and Exports, and all future Pro features" },
+      monthly: { price: "2.99", name: "Flowtime Pro Monthly", description: "Monthly Pro subscription with Flow Sessions, Flowmodoro, custom Pomodoro intervals, unlimited Projects and History, App Blocking, Quick Start Templates, Reminder Profiles, UI customization, Reports and Exports, and all future Pro features" },
       yearly: { price: "24.99", name: "Flowtime Pro Yearly", description: "Yearly Pro subscription with Flow Sessions, Flowmodoro, custom Pomodoro intervals, unlimited Projects and History, App Blocking, Quick Start Templates, Reminder Profiles, UI customization, Reports and Exports, and all future Pro features" },
       lifetime: { price: "49.99", name: "Flowtime Pro Lifetime", description: "Lifetime Pro access with Flow Sessions, Flowmodoro, custom Pomodoro intervals, unlimited Projects and History, App Blocking, Quick Start Templates, Reminder Profiles, UI customization, Reports and Exports, and all future Pro features" }
     },

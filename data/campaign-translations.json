@@ -1,0 +1,2542 @@
+{
+  "Skip to content": {
+    "de": "Zum Inhalt springen",
+    "fr": "Aller au contenu"
+  },
+  "Flowtime home": {
+    "de": "Flowtime Startseite",
+    "fr": "Accueil Flowtime"
+  },
+  "Main navigation": {
+    "de": "Hauptnavigation",
+    "fr": "Navigation principale"
+  },
+  "Open navigation": {
+    "de": "Navigation öffnen",
+    "fr": "Ouvrir le menu"
+  },
+  "Close navigation": {
+    "de": "Navigation schliessen",
+    "fr": "Fermer le menu"
+  },
+  "Features": {
+    "de": "Funktionen",
+    "fr": "Fonctionnalités"
+  },
+  "Follow the build": {
+    "de": "Entwicklung verfolgen",
+    "fr": "Suivre la création"
+  },
+  "Press": {
+    "de": "Presse",
+    "fr": "Presse"
+  },
+  "Buy": {
+    "de": "Kaufen",
+    "fr": "Acheter"
+  },
+  "Download": {
+    "de": "Herunterladen",
+    "fr": "Télécharger"
+  },
+  "Made by": {
+    "de": "Entwickelt von",
+    "fr": "Créé par"
+  },
+  "Explore Flowtime": {
+    "de": "Flowtime entdecken",
+    "fr": "Découvrir Flowtime"
+  },
+  "About Flowtime": {
+    "de": "Über Flowtime",
+    "fr": "À propos de Flowtime"
+  },
+  "Support & FAQ": {
+    "de": "Hilfe & FAQ",
+    "fr": "Assistance et FAQ"
+  },
+  "Privacy": {
+    "de": "Datenschutz",
+    "fr": "Confidentialité"
+  },
+  "Terms": {
+    "de": "Nutzungsbedingungen",
+    "fr": "Conditions"
+  },
+  "Language selector": {
+    "de": "Sprachauswahl",
+    "fr": "Choix de la langue"
+  },
+  "Back to top ↑": {
+    "de": "Nach oben ↑",
+    "fr": "Retour en haut ↑"
+  },
+  "Focus,": {
+    "de": "Fokus,",
+    "fr": "Concentrez-vous,"
+  },
+  "your way.": {
+    "de": "auf deine Art.",
+    "fr": "à votre façon."
+  },
+  "A minimal focus timer for": {
+    "de": "Ein minimalistischer Fokus-Timer für",
+    "fr": "Un minuteur minimaliste pour"
+  },
+  "a more intentional day.": {
+    "de": "einen bewussteren Tag.",
+    "fr": "une journée plus intentionnelle."
+  },
+  "No account. No cloud. Just you and your time.": {
+    "de": "Kein Konto. Keine Cloud. Nur du und deine Zeit.",
+    "fr": "Sans compte. Sans cloud. Juste vous et votre temps."
+  },
+  "FOCUS": {
+    "de": "FOKUS",
+    "fr": "CONCENTRATION"
+  },
+  "TRACK": {
+    "de": "ERFASSEN",
+    "fr": "SUIVI"
+  },
+  "STAY AWARE": {
+    "de": "BEWUSST BLEIBEN",
+    "fr": "GARDER CONSCIENCE"
+  },
+  "DO MORE": {
+    "de": "MEHR SCHAFFEN",
+    "fr": "AVANCER"
+  },
+  "Just start.": {
+    "de": "Leg einfach los.",
+    "fr": "Lancez-vous."
+  },
+  "No setup.": {
+    "de": "Keine Einrichtung.",
+    "fr": "Sans configuration."
+  },
+  "No account.": {
+    "de": "Kein Konto.",
+    "fr": "Sans compte."
+  },
+  "No distractions.": {
+    "de": "Keine Ablenkung.",
+    "fr": "Sans distractions."
+  },
+  "Open Flowtime and start.": {
+    "de": "Öffne Flowtime und leg los.",
+    "fr": "Ouvrez Flowtime et lancez-vous."
+  },
+  "Everything": {
+    "de": "Alles",
+    "fr": "Tout"
+  },
+  "stays on your device, so you can focus on what matters.": {
+    "de": "bleibt auf deinem Gerät, damit du dich auf das Wesentliche konzentrieren kannst.",
+    "fr": "reste sur votre appareil pour vous concentrer sur l’essentiel."
+  },
+  "Focus": {
+    "de": "Fokus",
+    "fr": "Concentration"
+  },
+  "however": {
+    "de": "so, wie",
+    "fr": "à votre"
+  },
+  "you want.": {
+    "de": "du möchtest.",
+    "fr": "façon."
+  },
+  "Choose a mode that fits": {
+    "de": "Wähle einen Modus, der zu",
+    "fr": "Choisissez un mode adapté à"
+  },
+  "your task and your day.": {
+    "de": "deiner Aufgabe und deinem Tag passt.",
+    "fr": "votre tâche et votre journée."
+  },
+  "Select a phone to explore →": {
+    "de": "Wähle ein Smartphone zum Entdecken →",
+    "fr": "Sélectionnez un téléphone pour découvrir →"
+  },
+  "← All focus modes": {
+    "de": "← Alle Fokus-Modi",
+    "fr": "← Tous les modes"
+  },
+  "Classic": {
+    "de": "Klassisch",
+    "fr": "Classique"
+  },
+  "02 / Classic": {
+    "de": "02 / Klassisch",
+    "fr": "02 / Classique"
+  },
+  "Free includes the classic 25 / 5 Pomodoro pattern, while Pro adds advanced Pomodoro settings.": {
+    "de": "Free enthält den klassischen 25/5-Pomodoro-Rhythmus. Pro bietet erweiterte Pomodoro-Einstellungen.",
+    "fr": "Free inclut le rythme Pomodoro classique de 25/5 minutes. Pro ajoute des réglages avancés."
+  },
+  "The standard timer is included in Free, alongside standard notifications, 1 project, and 1 day of history.": {
+    "de": "Der Standard-Timer ist in Free enthalten, zusammen mit Standard-Benachrichtigungen, einem Projekt und einem Tag Verlauf.",
+    "fr": "Free inclut le minuteur standard, les notifications de base, un projet et un jour d’historique."
+  },
+  "Flowmodoro is included in Pro. It gives you a flexible alternative to fixed focus and break intervals.": {
+    "de": "Flowmodoro ist in Pro enthalten und bietet eine flexible Alternative zu festen Fokus- und Pausenintervallen.",
+    "fr": "Flowmodoro est inclus dans Pro et offre une alternative flexible aux intervalles fixes de concentration et de pause."
+  },
+  "Set a target, get reminders, and decide when to stop.": {
+    "de": "Setze dir ein Ziel, erhalte Erinnerungen und entscheide, wann du aufhörst.",
+    "fr": "Fixez un objectif, recevez des rappels et décidez quand vous arrêter."
+  },
+  "Flow Sessions let you set a target duration without rigid intervals. They are designed for focused, flexible work sessions.": {
+    "de": "Mit Flow Sessions legst du eine Zieldauer ohne starre Intervalle fest. Für konzentriertes und flexibles Arbeiten.",
+    "fr": "Les Flow Sessions vous permettent de définir une durée cible sans intervalles rigides, pour travailler avec concentration et souplesse."
+  },
+  "Stay aware": {
+    "de": "Behalte die Zeit",
+    "fr": "Gardez conscience"
+  },
+  "without": {
+    "de": "im Blick, ohne",
+    "fr": "du temps,"
+  },
+  "watching": {
+    "de": "ständig auf die Uhr",
+    "fr": "sans regarder"
+  },
+  "the clock.": {
+    "de": "zu schauen.",
+    "fr": "l’horloge."
+  },
+  "Reminders help you notice passing time, even during deep focus.": {
+    "de": "Erinnerungen helfen dir, die vergehende Zeit wahrzunehmen – auch bei tiefer Konzentration.",
+    "fr": "Les rappels vous aident à percevoir le temps qui passe, même en pleine concentration."
+  },
+  "Keep": {
+    "de": "Halte",
+    "fr": "Écartez"
+  },
+  "distractions out.": {
+    "de": "Ablenkungen fern.",
+    "fr": "les distractions."
+  },
+  "App Shielding helps you stay focused by blocking distracting apps.": {
+    "de": "App Shielding blockiert ablenkende Apps und hilft dir, konzentriert zu bleiben.",
+    "fr": "App Shielding bloque les applications distrayantes pour vous aider à rester concentré."
+  },
+  "You’re always in control. Override when you need to, before you get pulled away.": {
+    "de": "Du behältst die Kontrolle. Hebe die Sperre bei Bedarf bewusst auf, bevor du dich ablenken lässt.",
+    "fr": "Vous gardez le contrôle. Levez le blocage si nécessaire, avant de vous laisser distraire."
+  },
+  "See where": {
+    "de": "Sieh, wo",
+    "fr": "Découvrez où"
+  },
+  "your time went.": {
+    "de": "deine Zeit bleibt.",
+    "fr": "passe votre temps."
+  },
+  "Projects, history and reports help you understand your focus and build better habits.": {
+    "de": "Projekte, Verlauf und Berichte helfen dir, deinen Fokus zu verstehen und bessere Gewohnheiten zu entwickeln.",
+    "fr": "Les projets, l’historique et les rapports vous aident à comprendre votre concentration et à développer de meilleures habitudes."
+  },
+  "Discover": {
+    "de": "Entdecke",
+    "fr": "Découvrez"
+  },
+  "achievements.": {
+    "de": "Erfolge.",
+    "fr": "les réussites."
+  },
+  "Celebrate progress with hidden achievements.": {
+    "de": "Feiere Fortschritte mit versteckten Erfolgen.",
+    "fr": "Célébrez vos progrès avec des réussites cachées."
+  },
+  "No streaks. No pressure.": {
+    "de": "Keine Serien. Kein Druck.",
+    "fr": "Sans séries à maintenir. Sans pression."
+  },
+  "Just small milestones.": {
+    "de": "Einfach kleine Meilensteine.",
+    "fr": "Juste de petites étapes."
+  },
+  "FROM THE APP STORES": {
+    "de": "AUS DEN APP STORES",
+    "fr": "AVIS DES APP STORES"
+  },
+  "Free or Pro.": {
+    "de": "Free oder Pro.",
+    "fr": "Free ou Pro."
+  },
+  "You decide.": {
+    "de": "Du entscheidest.",
+    "fr": "À vous de choisir."
+  },
+  "Start for free and upgrade when you need more.": {
+    "de": "Starte kostenlos und wechsle zu Pro, wenn du mehr brauchst.",
+    "fr": "Commencez gratuitement et passez à Pro selon vos besoins."
+  },
+  "THE ESSENTIALS": {
+    "de": "DAS WESENTLICHE",
+    "fr": "L’ESSENTIEL"
+  },
+  "Free": {
+    "de": "Free",
+    "fr": "Free"
+  },
+  "forever": {
+    "de": "dauerhaft",
+    "fr": "pour toujours"
+  },
+  "Standard timer": {
+    "de": "Standard-Timer",
+    "fr": "Minuteur standard"
+  },
+  "Basic notifications": {
+    "de": "Basis-Benachrichtigungen",
+    "fr": "Notifications de base"
+  },
+  "Pomodoro with fixed intervals": {
+    "de": "Pomodoro mit festen Intervallen",
+    "fr": "Pomodoro à intervalles fixes"
+  },
+  "1 project": {
+    "de": "1 Projekt",
+    "fr": "1 projet"
+  },
+  "1 day of history": {
+    "de": "1 Tag Verlauf",
+    "fr": "1 jour d’historique"
+  },
+  "Get started": {
+    "de": "Jetzt starten",
+    "fr": "Commencer"
+  },
+  "A LITTLE MORE POSSIBILITY": {
+    "de": "ETWAS MEHR MÖGLICHKEITEN",
+    "fr": "UN PEU PLUS DE POSSIBILITÉS"
+  },
+  "/month": {
+    "de": "/Monat",
+    "fr": "/mois"
+  },
+  "/ month": {
+    "de": "/ Monat",
+    "fr": "/ mois"
+  },
+  "/ year": {
+    "de": "/ Jahr",
+    "fr": "/ an"
+  },
+  "$24.99 / year · $49.99 lifetime": {
+    "de": "24,99 $ / Jahr · 49,99 $ dauerhaft",
+    "fr": "24,99 $ / an · 49,99 $ à vie"
+  },
+  "Custom Pomodoro intervals": {
+    "de": "Eigene Pomodoro-Intervalle",
+    "fr": "Intervalles Pomodoro personnalisés"
+  },
+  "Advanced statistics": {
+    "de": "Erweiterte Statistiken",
+    "fr": "Statistiques avancées"
+  },
+  "Multiple projects & history": {
+    "de": "Mehrere Projekte & Verlauf",
+    "fr": "Plusieurs projets et historique"
+  },
+  "Custom notification profiles": {
+    "de": "Eigene Benachrichtigungsprofile",
+    "fr": "Profils de notification personnalisés"
+  },
+  "UI accent colors": {
+    "de": "Akzentfarben der Oberfläche",
+    "fr": "Couleurs d’accent de l’interface"
+  },
+  "And more": {
+    "de": "Und mehr",
+    "fr": "Et bien plus"
+  },
+  "Find your flow": {
+    "de": "Finde deinen Flow",
+    "fr": "Trouvez votre rythme"
+  },
+  "Prices shown in USD. Local pricing is available in your app store.": {
+    "de": "Preise in USD. Lokale Preise findest du in deinem App Store.",
+    "fr": "Prix affichés en USD. Consultez votre boutique d’applications pour les prix locaux."
+  },
+  "COMMON QUESTIONS": {
+    "de": "HÄUFIGE FRAGEN",
+    "fr": "QUESTIONS FRÉQUENTES"
+  },
+  "Flowtime is a flexible focus timer and personal time tracker for iPhone and Android. No account is required.": {
+    "de": "Flowtime ist ein flexibler Fokus-Timer und persönlicher Zeittracker für iPhone und Android. Du brauchst kein Konto.",
+    "fr": "Flowtime est un minuteur de concentration flexible et un outil personnel de suivi du temps pour iPhone et Android. Aucun compte n’est requis."
+  },
+  "Explore all questions & answers →": {
+    "de": "Alle Fragen & Antworten →",
+    "fr": "Toutes les questions et réponses →"
+  },
+  "A DIFFERENT PERSPECTIVE": {
+    "de": "EINE ANDERE PERSPEKTIVE",
+    "fr": "UN AUTRE REGARD"
+  },
+  "Work with time.": {
+    "de": "Arbeite mit der Zeit.",
+    "fr": "Travaillez avec le temps."
+  },
+  "Not against it.": {
+    "de": "Nicht gegen sie.",
+    "fr": "Pas contre lui."
+  },
+  "Ideas for finding focus, noticing time, and making room for what matters.": {
+    "de": "Ideen, um Fokus zu finden, Zeit wahrzunehmen und Raum für das Wesentliche zu schaffen.",
+    "fr": "Des idées pour trouver votre concentration, percevoir le temps et faire place à l’essentiel."
+  },
+  "Explore the journal ↗": {
+    "de": "Zum Journal ↗",
+    "fr": "Découvrir le journal ↗"
+  },
+  "01 / FIND YOUR RHYTHM": {
+    "de": "01 / FINDE DEINEN RHYTHMUS",
+    "fr": "01 / TROUVEZ VOTRE RYTHME"
+  },
+  "Why Pomodoro doesn’t always work.": {
+    "de": "Warum Pomodoro nicht immer funktioniert.",
+    "fr": "Pourquoi Pomodoro ne fonctionne pas toujours."
+  },
+  "02 / MAKE ROOM FOR FOCUS": {
+    "de": "02 / RAUM FÜR FOKUS",
+    "fr": "02 / PLACE À LA CONCENTRATION"
+  },
+  "The hidden cost of context switching.": {
+    "de": "Die versteckten Kosten von Kontextwechseln.",
+    "fr": "Le coût caché des changements de contexte."
+  },
+  "YOUR TIME. YOUR WAY.": {
+    "de": "DEINE ZEIT. DEIN WEG.",
+    "fr": "VOTRE TEMPS. À VOTRE FAÇON."
+  },
+  "Ready when": {
+    "de": "Bereit, wenn",
+    "fr": "Prêt quand"
+  },
+  "you are.": {
+    "de": "du es bist.",
+    "fr": "vous l’êtes."
+  },
+  "No account. No cloud. Just focus.": {
+    "de": "Kein Konto. Keine Cloud. Einfach Fokus.",
+    "fr": "Sans compte. Sans cloud. Juste la concentration."
+  },
+  "Your focus.": {
+    "de": "Dein Fokus.",
+    "fr": "Votre concentration."
+  },
+  "Your choice.": {
+    "de": "Deine Wahl.",
+    "fr": "Votre choix."
+  },
+  "Start for free. Make room for more with Pro.": {
+    "de": "Starte kostenlos. Schaffe mehr Möglichkeiten mit Pro.",
+    "fr": "Commencez gratuitement. Ouvrez de nouvelles possibilités avec Pro."
+  },
+  "Everything you need to get started.": {
+    "de": "Alles, was du zum Starten brauchst.",
+    "fr": "Tout ce qu’il faut pour commencer."
+  },
+  "YOUR RHYTHM, WITH MORE ROOM": {
+    "de": "DEIN RHYTHMUS, MEHR FREIRAUM",
+    "fr": "VOTRE RYTHME, PLUS DE LIBERTÉ"
+  },
+  "Monthly": {
+    "de": "Monatlich",
+    "fr": "Mensuel"
+  },
+  "Yearly": {
+    "de": "Jährlich",
+    "fr": "Annuel"
+  },
+  "Lifetime": {
+    "de": "Dauerhaft",
+    "fr": "À vie"
+  },
+  "Billed monthly through your app store.": {
+    "de": "Monatliche Abrechnung über deinen App Store.",
+    "fr": "Facturation mensuelle via votre boutique d’applications."
+  },
+  "Billed yearly through your app store.": {
+    "de": "Jährliche Abrechnung über deinen App Store.",
+    "fr": "Facturation annuelle via votre boutique d’applications."
+  },
+  "one time": {
+    "de": "einmalig",
+    "fr": "paiement unique"
+  },
+  "One purchase. Lifetime Pro access.": {
+    "de": "Ein Kauf. Dauerhafter Pro-Zugang.",
+    "fr": "Un achat. Accès Pro à vie."
+  },
+  "Unlimited projects & history": {
+    "de": "Unbegrenzte Projekte & Verlauf",
+    "fr": "Projets et historique illimités"
+  },
+  "Quick Start Templates & Reminder Profiles": {
+    "de": "Schnellstart-Vorlagen & Erinnerungsprofile",
+    "fr": "Modèles de démarrage et profils de rappel"
+  },
+  "Accent colors, reports & exports": {
+    "de": "Akzentfarben, Berichte & Exporte",
+    "fr": "Couleurs d’accent, rapports et exports"
+  },
+  "All future Pro features": {
+    "de": "Alle zukünftigen Pro-Funktionen",
+    "fr": "Toutes les futures fonctionnalités Pro"
+  },
+  "Get Flowtime Pro ↗": {
+    "de": "Flowtime Pro holen ↗",
+    "fr": "Obtenir Flowtime Pro ↗"
+  },
+  "Prices shown in USD. Your app store shows local pricing and purchase terms.": {
+    "de": "Preise in USD. Dein App Store zeigt lokale Preise und Kaufbedingungen.",
+    "fr": "Prix affichés en USD. Votre boutique d’applications indique les prix locaux et les conditions d’achat."
+  },
+  "THREE SIMPLE STEPS": {
+    "de": "DREI EINFACHE SCHRITTE",
+    "fr": "TROIS ÉTAPES SIMPLES"
+  },
+  "A little more flow.": {
+    "de": "Ein bisschen mehr Flow.",
+    "fr": "Un peu plus de fluidité."
+  },
+  "Get the app.": {
+    "de": "Hol dir die App.",
+    "fr": "Téléchargez l’application."
+  },
+  "Download Flowtime for your iPhone or Android device.": {
+    "de": "Lade Flowtime für dein iPhone oder Android-Gerät herunter.",
+    "fr": "Téléchargez Flowtime pour votre iPhone ou appareil Android."
+  },
+  "Find your rhythm.": {
+    "de": "Finde deinen Rhythmus.",
+    "fr": "Trouvez votre rythme."
+  },
+  "Try the free timer and make yourself at home.": {
+    "de": "Probiere den kostenlosen Timer aus und finde dich zurecht.",
+    "fr": "Essayez le minuteur gratuit et prenez vos marques."
+  },
+  "Make it Pro.": {
+    "de": "Wechsle zu Pro.",
+    "fr": "Passez à Pro."
+  },
+  "Choose your plan inside the app. Purchases are handled by your app store.": {
+    "de": "Wähle deinen Tarif in der App. Käufe werden über deinen App Store abgewickelt.",
+    "fr": "Choisissez votre formule dans l’application. Les achats sont gérés par votre boutique d’applications."
+  },
+  "Questions about Pro? →": {
+    "de": "Fragen zu Pro? →",
+    "fr": "Des questions sur Pro ? →"
+  },
+  "HERE TO HELP": {
+    "de": "WIR HELFEN DIR",
+    "fr": "BESOIN D’AIDE ?"
+  },
+  "A little guidance.": {
+    "de": "Ein bisschen Hilfe.",
+    "fr": "Quelques conseils."
+  },
+  "Then back to it.": {
+    "de": "Dann geht’s weiter.",
+    "fr": "Puis, à vous de jouer."
+  },
+  "Answers about getting started, finding your rhythm, and making Flowtime your own.": {
+    "de": "Antworten zum Einstieg, zu deinem Rhythmus und zur Anpassung von Flowtime.",
+    "fr": "Des réponses pour bien démarrer, trouver votre rythme et personnaliser Flowtime."
+  },
+  "Getting started": {
+    "de": "Erste Schritte",
+    "fr": "Premiers pas"
+  },
+  "Timers & focus": {
+    "de": "Timer & Fokus",
+    "fr": "Minuteurs et concentration"
+  },
+  "Free & Pro": {
+    "de": "Free & Pro",
+    "fr": "Free et Pro"
+  },
+  "Privacy & support": {
+    "de": "Datenschutz & Hilfe",
+    "fr": "Confidentialité et assistance"
+  },
+  "Contact support": {
+    "de": "Support kontaktieren",
+    "fr": "Contacter l’assistance"
+  },
+  "A HUMAN ON THE OTHER SIDE": {
+    "de": "EIN MENSCH AM ANDEREN ENDE",
+    "fr": "UNE PERSONNE À VOTRE ÉCOUTE"
+  },
+  "Still wondering?": {
+    "de": "Noch Fragen?",
+    "fr": "Encore des questions ?"
+  },
+  "Send a question, report a bug, or share an idea.": {
+    "de": "Stelle eine Frage, melde einen Fehler oder teile eine Idee.",
+    "fr": "Posez une question, signalez un bug ou partagez une idée."
+  },
+  "Privacy policy": {
+    "de": "Datenschutzerklärung",
+    "fr": "Politique de confidentialité"
+  },
+  "Terms of use": {
+    "de": "Nutzungsbedingungen",
+    "fr": "Conditions d’utilisation"
+  },
+  "FOR JOURNALISTS & CREATORS": {
+    "de": "FÜR JOURNALISTEN & KREATIVE",
+    "fr": "POUR JOURNALISTES ET CRÉATEURS"
+  },
+  "A story worth": {
+    "de": "Eine Geschichte,",
+    "fr": "Une histoire qui"
+  },
+  "making time for.": {
+    "de": "die Zeit verdient.",
+    "fr": "mérite votre temps."
+  },
+  "Meet Flowtime. A minimal focus timer built around awareness, a little less friction, and your own rhythm.": {
+    "de": "Entdecke Flowtime. Ein minimalistischer Fokus-Timer für mehr Bewusstsein, weniger Hürden und deinen eigenen Rhythmus.",
+    "fr": "Découvrez Flowtime. Un minuteur minimaliste pour mieux percevoir le temps, simplifier le quotidien et suivre votre rythme."
+  },
+  "EVERYTHING IN ONE PLACE": {
+    "de": "ALLES AN EINEM ORT",
+    "fr": "TOUT AU MÊME ENDROIT"
+  },
+  "Make it": {
+    "de": "Erzähle",
+    "fr": "Racontez"
+  },
+  "your story.": {
+    "de": "deine Geschichte.",
+    "fr": "votre histoire."
+  },
+  "Official images and facts for your next article, review, or feature.": {
+    "de": "Offizielle Bilder und Fakten für deinen nächsten Artikel, Test oder Beitrag.",
+    "fr": "Images et informations officielles pour votre prochain article, test ou reportage."
+  },
+  "Press kit · ZIP ↓": {
+    "de": "Pressekit · ZIP ↓",
+    "fr": "Dossier de presse · ZIP ↓"
+  },
+  "Get in touch": {
+    "de": "Kontakt aufnehmen",
+    "fr": "Nous contacter"
+  },
+  "AT A GLANCE": {
+    "de": "AUF EINEN BLICK",
+    "fr": "EN BREF"
+  },
+  "Small app.": {
+    "de": "Kleine App.",
+    "fr": "Petite application."
+  },
+  "Clear purpose.": {
+    "de": "Klares Ziel.",
+    "fr": "Objectif clair."
+  },
+  "Product": {
+    "de": "Produkt",
+    "fr": "Produit"
+  },
+  "Category": {
+    "de": "Kategorie",
+    "fr": "Catégorie"
+  },
+  "Productivity / Focus": {
+    "de": "Produktivität / Fokus",
+    "fr": "Productivité / Concentration"
+  },
+  "Platforms": {
+    "de": "Plattformen",
+    "fr": "Plateformes"
+  },
+  "Created by": {
+    "de": "Entwickelt von",
+    "fr": "Créé par"
+  },
+  "Ava Thalheim · Switzerland": {
+    "de": "Ava Thalheim · Schweiz",
+    "fr": "Ava Thalheim · Suisse"
+  },
+  "Business model": {
+    "de": "Geschäftsmodell",
+    "fr": "Modèle économique"
+  },
+  "Free + optional Pro": {
+    "de": "Kostenlos + optionales Pro",
+    "fr": "Gratuit + Pro en option"
+  },
+  "Your data": {
+    "de": "Deine Daten",
+    "fr": "Vos données"
+  },
+  "Stored locally. No account required.": {
+    "de": "Lokal gespeichert. Kein Konto nötig.",
+    "fr": "Stockées localement. Sans compte."
+  },
+  "BEHIND THE APP": {
+    "de": "HINTER DER APP",
+    "fr": "LES COULISSES DE L’APPLICATION"
+  },
+  "Built to make": {
+    "de": "Entwickelt, um",
+    "fr": "Pour rendre"
+  },
+  "time visible.": {
+    "de": "Zeit sichtbar zu machen.",
+    "fr": "le temps visible."
+  },
+  "More about Flowtime": {
+    "de": "Mehr über Flowtime",
+    "fr": "En savoir plus sur Flowtime"
+  },
+  "READY FOR YOUR NEXT ARTICLE": {
+    "de": "BEREIT FÜR DEINEN NÄCHSTEN ARTIKEL",
+    "fr": "POUR VOTRE PROCHAIN ARTICLE"
+  },
+  "In a few words.": {
+    "de": "In wenigen Worten.",
+    "fr": "En quelques mots."
+  },
+  "One sentence": {
+    "de": "Ein Satz",
+    "fr": "Une phrase"
+  },
+  "Copy text": {
+    "de": "Text kopieren",
+    "fr": "Copier le texte"
+  },
+  "Product overview": {
+    "de": "Produktübersicht",
+    "fr": "Présentation du produit"
+  },
+  "THE APP, UP CLOSE": {
+    "de": "DIE APP IM DETAIL",
+    "fr": "L’APPLICATION EN DÉTAIL"
+  },
+  "Official screenshots.": {
+    "de": "Offizielle Screenshots.",
+    "fr": "Captures d’écran officielles."
+  },
+  "Download the original PNG files for your publication.": {
+    "de": "Lade die Original-PNG-Dateien für deine Publikation herunter.",
+    "fr": "Téléchargez les fichiers PNG originaux pour votre publication."
+  },
+  "Classic timer": {
+    "de": "Klassischer Timer",
+    "fr": "Minuteur classique"
+  },
+  "Focus reports": {
+    "de": "Fokus-Berichte",
+    "fr": "Rapports de concentration"
+  },
+  "App icon · PNG ↓": {
+    "de": "App-Symbol · PNG ↓",
+    "fr": "Icône de l’application · PNG ↓"
+  },
+  "Creator portrait · PNG ↓": {
+    "de": "Porträt der Entwicklerin · PNG ↓",
+    "fr": "Portrait de la créatrice · PNG ↓"
+  },
+  "Fact sheet · TXT ↓": {
+    "de": "Datenblatt · TXT ↓",
+    "fr": "Fiche d’information · TXT ↓"
+  },
+  "LET’S TALK": {
+    "de": "SPRECHEN WIR DARÜBER",
+    "fr": "PARLONS-EN"
+  },
+  "Need something else?": {
+    "de": "Brauchst du noch etwas?",
+    "fr": "Besoin d’autre chose ?"
+  },
+  "For interviews, questions, and additional media resources.": {
+    "de": "Für Interviews, Fragen und weiteres Pressematerial.",
+    "fr": "Pour des interviews, des questions ou des ressources supplémentaires."
+  },
+  "A little more focus.": {
+    "de": "Ein bisschen mehr Fokus.",
+    "fr": "Un peu plus de concentration."
+  },
+  "A little more room for you.": {
+    "de": "Ein bisschen mehr Raum für dich.",
+    "fr": "Un peu plus de place pour vous."
+  },
+  "Explore Free & Pro →": {
+    "de": "Free & Pro entdecken →",
+    "fr": "Découvrir Free et Pro →"
+  },
+  "OUR PHILOSOPHY": {
+    "de": "UNSERE PHILOSOPHIE",
+    "fr": "NOTRE PHILOSOPHIE"
+  },
+  "Made for focus.": {
+    "de": "Gemacht für Fokus.",
+    "fr": "Pour la concentration."
+  },
+  "Not friction.": {
+    "de": "Ohne Hürden.",
+    "fr": "Sans complications."
+  },
+  "Flowtime combines flexible focus sessions, Pomodoro, reminders, time tracking, and optional app blocking.": {
+    "de": "Flowtime verbindet flexible Fokus-Sessions, Pomodoro, Erinnerungen, Zeiterfassung und optionales App-Blocking.",
+    "fr": "Flowtime réunit sessions flexibles, Pomodoro, rappels, suivi du temps et blocage d’applications en option."
+  },
+  "Flowtime is for anyone who wants a low-friction way to focus, from studying and creative projects to everyday work.": {
+    "de": "Flowtime ist für alle, die unkompliziert konzentriert arbeiten möchten – beim Lernen, bei kreativen Projekten oder im Alltag.",
+    "fr": "Flowtime s’adresse à tous ceux qui souhaitent se concentrer simplement, pour étudier, créer ou travailler au quotidien."
+  },
+  "A little less setup.": {
+    "de": "Ein bisschen weniger Einrichtung.",
+    "fr": "Un peu moins de configuration."
+  },
+  "Made by Ava Thalheim.": {
+    "de": "Entwickelt von Ava Thalheim.",
+    "fr": "Créé par Ava Thalheim."
+  },
+  "Press & media resources →": {
+    "de": "Presse & Medienmaterial →",
+    "fr": "Ressources presse et médias →"
+  },
+  "FOLLOW THE BUILD": {
+    "de": "VERFOLGE DIE ENTWICKLUNG",
+    "fr": "SUIVEZ LA CRÉATION"
+  },
+  "Building": {
+    "de": "Wir entwickeln",
+    "fr": "Nous créons"
+  },
+  "one decision at a time.": {
+    "de": "eine Entscheidung nach der anderen.",
+    "fr": "une décision à la fois."
+  },
+  "The ideas, small wins, and lessons along the way. A journal from the person building Flowtime.": {
+    "de": "Ideen, kleine Erfolge und Erkenntnisse unterwegs. Ein Journal der Entwicklerin von Flowtime.",
+    "fr": "Des idées, de petites victoires et des leçons en chemin. Le journal de la créatrice de Flowtime."
+  },
+  "Explore the updates ↓": {
+    "de": "Updates entdecken ↓",
+    "fr": "Découvrir les nouvelles ↓"
+  },
+  "WORK IN PROGRESS. ALWAYS.": {
+    "de": "IN ENTWICKLUNG. IMMER.",
+    "fr": "EN CONSTRUCTION. TOUJOURS."
+  },
+  "Make.": {
+    "de": "Machen.",
+    "fr": "Créer."
+  },
+  "Learn.": {
+    "de": "Lernen.",
+    "fr": "Apprendre."
+  },
+  "Repeat.": {
+    "de": "Wiederholen.",
+    "fr": "Recommencer."
+  },
+  "All updates": {
+    "de": "Alle Updates",
+    "fr": "Toutes les nouvelles"
+  },
+  "Link to update": {
+    "de": "Link zum Update",
+    "fr": "Lien vers la publication"
+  },
+  "Read full update": {
+    "de": "Ganzes Update lesen",
+    "fr": "Lire la publication complète"
+  },
+  "DOWNLOADS & COUNTING": {
+    "de": "DOWNLOADS UND ES WERDEN MEHR",
+    "fr": "TÉLÉCHARGEMENTS ET ÇA CONTINUE"
+  },
+  "FLOWTIME / BUILD JOURNAL": {
+    "de": "FLOWTIME / ENTWICKLUNGSJOURNAL",
+    "fr": "FLOWTIME / JOURNAL DE CRÉATION"
+  },
+  "DESIGN IN PROGRESS": {
+    "de": "DESIGN IN ENTWICKLUNG",
+    "fr": "DESIGN EN COURS"
+  },
+  "Then.": {
+    "de": "Damals.",
+    "fr": "Avant."
+  },
+  "Now.": {
+    "de": "Heute.",
+    "fr": "Aujourd’hui."
+  },
+  "PEOPLE FINDING THEIR FLOW": {
+    "de": "MENSCHEN FINDEN IHREN FLOW",
+    "fr": "CHACUN TROUVE SON RYTHME"
+  },
+  "FROM THE COMMUNITY": {
+    "de": "AUS DER COMMUNITY",
+    "fr": "LA COMMUNAUTÉ EN PARLE"
+  },
+  "Built with": {
+    "de": "Entwickelt mit",
+    "fr": "Créé avec"
+  },
+  "you.": {
+    "de": "dir.",
+    "fr": "vous."
+  },
+  "OUT IN THE WORLD": {
+    "de": "DRAUSSEN IN DER WELT",
+    "fr": "ON EN PARLE"
+  },
+  "Word gets": {
+    "de": "Es spricht",
+    "fr": "Le mot"
+  },
+  "around.": {
+    "de": "sich herum.",
+    "fr": "circule."
+  },
+  "ONE LESS STEP": {
+    "de": "EIN SCHRITT WENIGER",
+    "fr": "UNE ÉTAPE EN MOINS"
+  },
+  "Tap. Tap.": {
+    "de": "Tipp. Tipp.",
+    "fr": "Un geste."
+  },
+  "Focus.": {
+    "de": "Fokus.",
+    "fr": "Concentrez-vous."
+  },
+  "FIND YOUR OWN RHYTHM": {
+    "de": "FINDE DEINEN EIGENEN RHYTHMUS",
+    "fr": "TROUVEZ VOTRE PROPRE RYTHME"
+  },
+  "A little": {
+    "de": "Ein bisschen",
+    "fr": "Un peu"
+  },
+  "overtime.": {
+    "de": "Zusatzzeit.",
+    "fr": "de temps en plus."
+  },
+  "A LITTLE PERSONALITY": {
+    "de": "ETWAS PERSÖNLICHKEIT",
+    "fr": "UNE TOUCHE PERSONNELLE"
+  },
+  "Your kind": {
+    "de": "Deine Art",
+    "fr": "Votre façon"
+  },
+  "of focus.": {
+    "de": "von Fokus.",
+    "fr": "de vous concentrer."
+  },
+  "NOTES FROM DEVELOPMENT": {
+    "de": "NOTIZEN AUS DER ENTWICKLUNG",
+    "fr": "NOTES DE DÉVELOPPEMENT"
+  },
+  "Try.": {
+    "de": "Testen.",
+    "fr": "Essayer."
+  },
+  "Fix.": {
+    "de": "Beheben.",
+    "fr": "Corriger."
+  },
+  "LESS SETUP. MORE FLOW.": {
+    "de": "WENIGER EINRICHTUNG. MEHR FLOW.",
+    "fr": "MOINS DE RÉGLAGES. PLUS DE FLUIDITÉ."
+  },
+  "Make room.": {
+    "de": "Schaffe Raum.",
+    "fr": "Faites de la place."
+  },
+  "Find a rhythm.": {
+    "de": "Finde einen Rhythmus.",
+    "fr": "Trouvez un rythme."
+  },
+  "Time,": {
+    "de": "Zeit,",
+    "fr": "Le temps,"
+  },
+  "A NEW RELEASE": {
+    "de": "EINE NEUE VERSION",
+    "fr": "UNE NOUVELLE VERSION"
+  },
+  "Onwards.": {
+    "de": "Weiter geht’s.",
+    "fr": "On continue."
+  },
+  "ROOM TO TAKE A BREAK": {
+    "de": "RAUM FÜR EINE PAUSE",
+    "fr": "PLACE À LA PAUSE"
+  },
+  "Step away.": {
+    "de": "Mach eine Pause.",
+    "fr": "Prenez du recul."
+  },
+  "FOLLOWING ALONG": {
+    "de": "MIT DABEI",
+    "fr": "ILS NOUS SUIVENT"
+  },
+  "No updates in this category yet.": {
+    "de": "Noch keine Updates in dieser Kategorie.",
+    "fr": "Aucune publication dans cette catégorie pour le moment."
+  },
+  "THE FLOWTIME JOURNAL": {
+    "de": "DAS FLOWTIME-JOURNAL",
+    "fr": "LE JOURNAL FLOWTIME"
+  },
+  "A little perspective.": {
+    "de": "Ein neuer Blickwinkel.",
+    "fr": "Un peu de recul."
+  },
+  "Ideas for working with your attention, noticing time, and making room for what matters.": {
+    "de": "Ideen, um mit deiner Aufmerksamkeit zu arbeiten, Zeit wahrzunehmen und Raum für das Wesentliche zu schaffen.",
+    "fr": "Des idées pour travailler avec votre attention, percevoir le temps et faire place à l’essentiel."
+  },
+  "Find an article": {
+    "de": "Artikel suchen",
+    "fr": "Rechercher un article"
+  },
+  "Try “Pomodoro” or “time”…": {
+    "de": "Zum Beispiel „Pomodoro“ oder „Zeit“…",
+    "fr": "Essayez « Pomodoro » ou « temps »…"
+  },
+  "All": {
+    "de": "Alle",
+    "fr": "Tous"
+  },
+  "Behind the app": {
+    "de": "Hinter der App",
+    "fr": "Les coulisses"
+  },
+  "Time awareness": {
+    "de": "Zeitbewusstsein",
+    "fr": "Perception du temps"
+  },
+  "ADHD": {
+    "de": "ADHS",
+    "fr": "TDAH"
+  },
+  "No articles found. Try another word or choose All.": {
+    "de": "Keine Artikel gefunden. Versuche ein anderes Wort oder wähle Alle.",
+    "fr": "Aucun article trouvé. Essayez un autre mot ou sélectionnez Tous."
+  },
+  "A different": {
+    "de": "Ein anderer",
+    "fr": "Un autre"
+  },
+  "rhythm.": {
+    "de": "Rhythmus.",
+    "fr": "rythme."
+  },
+  "Less, but": {
+    "de": "Weniger, aber",
+    "fr": "Moins, mais"
+  },
+  "better.": {
+    "de": "besser.",
+    "fr": "mieux."
+  },
+  "Make time": {
+    "de": "Mach Zeit",
+    "fr": "Rendez le temps"
+  },
+  "visible.": {
+    "de": "sichtbar.",
+    "fr": "visible."
+  },
+  "Room to": {
+    "de": "Raum für",
+    "fr": "Place à la"
+  },
+  "focus.": {
+    "de": "Fokus.",
+    "fr": "concentration."
+  },
+  "Text copied to clipboard.": {
+    "de": "Text in die Zwischenablage kopiert.",
+    "fr": "Texte copié dans le presse-papiers."
+  },
+  "Text selected. Use your device’s copy command to copy it.": {
+    "de": "Text markiert. Nutze die Kopierfunktion deines Geräts.",
+    "fr": "Texte sélectionné. Utilisez la commande de copie de votre appareil."
+  },
+  "What is Flowtime?": {
+    "de": "Was ist Flowtime?",
+    "fr": "Qu’est-ce que Flowtime ?"
+  },
+  "Flowtime is a flexible focus timer and personal time tracker for iPhone and Android. Use it for work, study, creative projects, or simply noticing where your time goes.": {
+    "de": "Flowtime ist ein flexibler Fokus-Timer und persönlicher Zeittracker für iPhone und Android. Nutze ihn für Arbeit, Studium, kreative Projekte oder um wahrzunehmen, wo deine Zeit bleibt.",
+    "fr": "Flowtime est un minuteur de concentration flexible et un outil personnel de suivi du temps pour iPhone et Android. Utilisez-le pour travailler, étudier, créer ou simplement voir où passe votre temps."
+  },
+  "Do I need an account?": {
+    "de": "Brauche ich ein Konto?",
+    "fr": "Ai-je besoin d’un compte ?"
+  },
+  "No account is required. Open the app and start a timer. Your timer and project data are stored locally on your device.": {
+    "de": "Du brauchst kein Konto. Öffne die App und starte einen Timer. Deine Timer- und Projektdaten werden lokal auf deinem Gerät gespeichert.",
+    "fr": "Aucun compte n’est nécessaire. Ouvrez l’application et lancez un minuteur. Vos données de minuteur et de projets sont stockées localement sur votre appareil."
+  },
+  "Which devices are supported?": {
+    "de": "Welche Geräte werden unterstützt?",
+    "fr": "Quels appareils sont compatibles ?"
+  },
+  "Flowtime is available for iPhone through the App Store and for Android through Google Play. Check your store listing for the current device and operating system requirements.": {
+    "de": "Flowtime ist für iPhone im App Store und für Android bei Google Play erhältlich. Die aktuellen Geräte- und Systemanforderungen findest du im jeweiligen Store.",
+    "fr": "Flowtime est disponible sur iPhone via l’App Store et sur Android via Google Play. Consultez la fiche de votre boutique pour les exigences actuelles en matière d’appareil et de système."
+  },
+  "Which timer mode should I use?": {
+    "de": "Welchen Timer-Modus soll ich nutzen?",
+    "fr": "Quel mode de minuteur choisir ?"
+  },
+  "Classic counts up without a fixed end. Pomodoro alternates focus and break intervals. Flowmodoro lets your focus session determine your break, while Custom lets you set your own rhythm. Start with the mode that feels easiest for the task in front of you.": {
+    "de": "Classic zählt ohne festes Ende hoch. Pomodoro wechselt zwischen Fokus und Pause. Bei Flowmodoro bestimmt deine Fokuszeit die Pause, während du mit Custom deinen eigenen Rhythmus festlegst. Starte mit dem Modus, der am besten zu deiner Aufgabe passt.",
+    "fr": "Classic compte le temps sans limite fixe. Pomodoro alterne concentration et pause. Flowmodoro adapte la pause à votre session, tandis que Custom vous laisse définir votre rythme. Commencez par le mode qui convient le mieux à votre tâche."
+  },
+  "Can Flowtime remind me that time is passing?": {
+    "de": "Kann Flowtime mich an die vergehende Zeit erinnern?",
+    "fr": "Flowtime peut-il me rappeler que le temps passe ?"
+  },
+  "Yes. Focus reminders help you notice passing time without constantly checking the timer. Pro adds Reminder Profiles so you can tailor reminders to different kinds of work.": {
+    "de": "Ja. Fokus-Erinnerungen helfen dir, die vergehende Zeit wahrzunehmen, ohne ständig auf den Timer zu schauen. Mit den Erinnerungsprofilen in Pro kannst du sie an verschiedene Aufgaben anpassen.",
+    "fr": "Oui. Les rappels vous aident à percevoir le temps sans vérifier constamment le minuteur. Pro ajoute des profils de rappel pour les adapter à différents types de travail."
+  },
+  "How does App Shielding work?": {
+    "de": "Wie funktioniert App Shielding?",
+    "fr": "Comment fonctionne App Shielding ?"
+  },
+  "App Shielding is an optional Pro feature that helps block distracting apps during focus. You choose whether to use it and grant the permissions it needs. An override keeps you in control when you need access.": {
+    "de": "App Shielding ist eine optionale Pro-Funktion, die ablenkende Apps während der Fokuszeit blockiert. Du entscheidest, ob du sie nutzt, und erteilst die nötigen Berechtigungen. Bei Bedarf kannst du die Sperre bewusst aufheben.",
+    "fr": "App Shielding est une fonction Pro optionnelle qui bloque les applications distrayantes pendant la concentration. Vous choisissez de l’utiliser et accordez les autorisations nécessaires. Vous pouvez lever le blocage si vous avez besoin d’un accès."
+  },
+  "What is included for free?": {
+    "de": "Was ist kostenlos enthalten?",
+    "fr": "Qu’est-ce qui est inclus gratuitement ?"
+  },
+  "Free includes the standard timer, basic notifications, Pomodoro with fixed intervals, one project, and one day of history.": {
+    "de": "Free enthält den Standard-Timer, Basis-Benachrichtigungen, Pomodoro mit festen Intervallen, ein Projekt und einen Tag Verlauf.",
+    "fr": "Free inclut le minuteur standard, les notifications de base, Pomodoro à intervalles fixes, un projet et un jour d’historique."
+  },
+  "What does Pro add?": {
+    "de": "Was bietet Pro zusätzlich?",
+    "fr": "Qu’apporte Pro ?"
+  },
+  "Pro adds Flow Sessions, Flowmodoro, custom Pomodoro intervals, unlimited projects and history, App Shielding, Quick Start Templates, Reminder Profiles, accent colors, reports, and exports.": {
+    "de": "Pro bietet Flow Sessions, Flowmodoro, eigene Pomodoro-Intervalle, unbegrenzte Projekte und Verlauf, App Shielding, Schnellstart-Vorlagen, Erinnerungsprofile, Akzentfarben, Berichte und Exporte.",
+    "fr": "Pro ajoute Flow Sessions, Flowmodoro, les intervalles Pomodoro personnalisés, les projets et l’historique illimités, App Shielding, les modèles de démarrage, les profils de rappel, les couleurs d’accent, les rapports et les exports."
+  },
+  "Where do I buy Pro?": {
+    "de": "Wo kaufe ich Pro?",
+    "fr": "Où acheter Pro ?"
+  },
+  "Download Flowtime from your app store, then choose Pro inside the app. Monthly, yearly, and lifetime options are available. Your store displays the final local price and purchase terms before you confirm.": {
+    "de": "Lade Flowtime aus deinem App Store herunter und wähle Pro in der App. Es gibt monatliche, jährliche und dauerhafte Optionen. Dein Store zeigt den endgültigen lokalen Preis und die Kaufbedingungen vor der Bestätigung.",
+    "fr": "Téléchargez Flowtime depuis votre boutique puis choisissez Pro dans l’application. Des formules mensuelle, annuelle et à vie sont disponibles. La boutique affiche le prix local définitif et les conditions avant confirmation."
+  },
+  "How do I manage my subscription?": {
+    "de": "Wie verwalte ich mein Abo?",
+    "fr": "Comment gérer mon abonnement ?"
+  },
+  "Use the subscription settings of the Apple or Google account used for your purchase. If a purchase is not showing in Flowtime, contact support with your platform and app version.": {
+    "de": "Nutze die Abo-Einstellungen des Apple- oder Google-Kontos, mit dem du gekauft hast. Wird ein Kauf in Flowtime nicht angezeigt, kontaktiere den Support mit deiner Plattform und App-Version.",
+    "fr": "Utilisez les réglages d’abonnement du compte Apple ou Google utilisé pour l’achat. Si un achat n’apparaît pas dans Flowtime, contactez l’assistance en précisant votre plateforme et la version de l’application."
+  },
+  "Does Flowtime work offline?": {
+    "de": "Funktioniert Flowtime offline?",
+    "fr": "Flowtime fonctionne-t-il hors ligne ?"
+  },
+  "The timer and locally stored project data do not require an account or cloud sync. Downloading the app, making purchases, and opening external support or store pages require an internet connection.": {
+    "de": "Der Timer und lokal gespeicherte Projektdaten benötigen weder Konto noch Cloud-Synchronisation. Zum Herunterladen der App, für Käufe und zum Öffnen externer Support- oder Store-Seiten brauchst du eine Internetverbindung.",
+    "fr": "Le minuteur et les données de projets locales ne nécessitent ni compte ni synchronisation cloud. Une connexion Internet est nécessaire pour télécharger l’application, effectuer des achats et ouvrir les pages externes d’assistance ou de boutique."
+  },
+  "Does my data sync between devices?": {
+    "de": "Werden meine Daten zwischen Geräten synchronisiert?",
+    "fr": "Mes données sont-elles synchronisées entre appareils ?"
+  },
+  "Timer and project data are stored locally on your device. Flowtime does not currently offer cloud sync. Keep this in mind before removing the app or moving to a new device.": {
+    "de": "Timer- und Projektdaten bleiben lokal auf deinem Gerät. Flowtime bietet derzeit keine Cloud-Synchronisation. Beachte das, bevor du die App entfernst oder das Gerät wechselst.",
+    "fr": "Les données de minuteur et de projets restent sur votre appareil. Flowtime ne propose pas de synchronisation cloud pour le moment. Pensez-y avant de supprimer l’application ou de changer d’appareil."
+  },
+  "How can I report a problem or suggest a feature?": {
+    "de": "Wie melde ich ein Problem oder schlage eine Funktion vor?",
+    "fr": "Comment signaler un problème ou suggérer une fonctionnalité ?"
+  },
+  "Use the support link below. Include your device, operating system, Flowtime version, and a short description of what happened or what you would like to see.": {
+    "de": "Nutze den Support-Link unten. Nenne dein Gerät, Betriebssystem, die Flowtime-Version und beschreibe kurz, was passiert ist oder was du dir wünschst.",
+    "fr": "Utilisez le lien d’assistance ci-dessous. Précisez votre appareil, votre système, la version de Flowtime et décrivez brièvement le problème ou votre suggestion."
+  },
+  "Flowtime crossed 1,000 downloads!": {
+    "de": "Flowtime hat 1.000 Downloads erreicht!",
+    "fr": "Flowtime a dépassé les 1 000 téléchargements !"
+  },
+  "Flowtime, first AI mock vs. today 👀": {
+    "de": "Flowtime: erster KI-Entwurf vs. heute 👀",
+    "fr": "Flowtime : première maquette IA et aujourd’hui 👀"
+  },
+  "500 active Flowtime users! 😍🚀": {
+    "de": "500 aktive Flowtime-Nutzer! 😍🚀",
+    "fr": "500 utilisateurs actifs sur Flowtime ! 😍🚀"
+  },
+  "Some reviews Flowtime received 💜": {
+    "de": "Einige Bewertungen für Flowtime 💜",
+    "fr": "Quelques avis reçus par Flowtime 💜"
+  },
+  "One of my favorite parts of building Flowtime is reading the reviews.": {
+    "de": "Bewertungen zu lesen gehört für mich zu den schönsten Seiten der Entwicklung von Flowtime.",
+    "fr": "Lire les avis est l’une de mes parties préférées de la création de Flowtime."
+  },
+  "The good ones are motivating.": {
+    "de": "Die positiven motivieren mich.",
+    "fr": "Les bons avis me motivent."
+  },
+  "The critical ones usually become my next task.": {
+    "de": "Die kritischen werden meist zu meiner nächsten Aufgabe.",
+    "fr": "Les critiques deviennent souvent ma prochaine tâche."
+  },
+  "Every review helps improve the app, so thank you to everyone who's taken a few minutes to leave one. It really makes a difference. 💜": {
+    "de": "Jede Bewertung hilft, die App zu verbessern. Danke an alle, die sich dafür ein paar Minuten Zeit genommen haben. Das macht wirklich einen Unterschied. 💜",
+    "fr": "Chaque avis aide à améliorer l’application. Merci à tous ceux qui ont pris quelques minutes pour en laisser un. Cela fait vraiment la différence. 💜"
+  },
+  "Flowtime got featured on Crowdstax!": {
+    "de": "Flowtime wurde auf Crowdstax vorgestellt!",
+    "fr": "Flowtime a été présenté sur Crowdstax !"
+  },
+  "Thank you so much for submitting and upgrading Flowtime to a Pro ranking!": {
+    "de": "Vielen Dank dafür, dass ihr Flowtime eingereicht und auf ein Pro-Ranking hochgestuft habt!",
+    "fr": "Merci d’avoir proposé Flowtime et de lui avoir offert un classement Pro !"
+  },
+  "It genuinely means a lot to meet people who believe in the product as much as I do. 🫶": {
+    "de": "Es bedeutet mir viel, Menschen zu treffen, die genauso an das Produkt glauben wie ich. 🫶",
+    "fr": "Rencontrer des personnes qui croient autant que moi en ce produit compte énormément. 🫶"
+  },
+  "200 people using Flowtime! 😍": {
+    "de": "200 Menschen nutzen Flowtime! 😍",
+    "fr": "200 personnes utilisent Flowtime ! 😍"
+  },
+  "iOS Double Tap automations!": {
+    "de": "Doppeltipp-Automationen für iOS!",
+    "fr": "Des automatisations par double toucher sur iOS !"
+  },
+  "Flowtime now tracks overtime. ⏱️": {
+    "de": "Flowtime erfasst jetzt Zusatzzeit. ⏱️",
+    "fr": "Flowtime suit désormais le temps supplémentaire. ⏱️"
+  },
+  "And no, I don’t mean working late.": {
+    "de": "Und nein, ich meine damit nicht, länger zu arbeiten.",
+    "fr": "Et non, je ne parle pas de travailler tard."
+  },
+  "I mean that moment when your focus timer ends…": {
+    "de": "Ich meine den Moment, in dem dein Fokus-Timer endet …",
+    "fr": "Je parle de ce moment où votre minuteur se termine…"
+  },
+  "…and you just keep going.": {
+    "de": "… und du einfach weitermachst.",
+    "fr": "…et où vous continuez tout simplement."
+  },
+  "5 minutes.": {
+    "de": "5 Minuten.",
+    "fr": "5 minutes."
+  },
+  "20 minutes.": {
+    "de": "20 Minuten.",
+    "fr": "20 minutes."
+  },
+  "An hour.": {
+    "de": "Eine Stunde.",
+    "fr": "Une heure."
+  },
+  "Because sometimes with ADHD, the hard part isn’t starting.": {
+    "de": "Denn manchmal ist bei ADHS nicht das Anfangen schwierig.",
+    "fr": "Parce qu’avec le TDAH, le plus difficile n’est pas toujours de commencer."
+  },
+  "It’s stopping.": {
+    "de": "Sondern das Aufhören.",
+    "fr": "C’est de s’arrêter."
+  },
+  "The latest Flowtime update now tracks your focus overtime alongside deeper stats, interruption patterns, project breakdowns and personal focus insights.": {
+    "de": "Das neueste Flowtime-Update erfasst deine zusätzliche Fokuszeit und bietet detailliertere Statistiken, Unterbrechungsmuster, Projektauswertungen und persönliche Einblicke in deinen Fokus.",
+    "fr": "La dernière mise à jour suit votre temps de concentration supplémentaire, avec des statistiques détaillées, les tendances d’interruption, une répartition par projet et des analyses personnelles."
+  },
+  "I built Flowtime to understand my focus better.": {
+    "de": "Ich habe Flowtime entwickelt, um meinen Fokus besser zu verstehen.",
+    "fr": "J’ai créé Flowtime pour mieux comprendre ma concentration."
+  },
+  "This update feels like a pretty big step towards that. 🧠": {
+    "de": "Dieses Update fühlt sich wie ein grosser Schritt in diese Richtung an. 🧠",
+    "fr": "Cette mise à jour me semble être un grand pas dans cette direction. 🧠"
+  },
+  "Make it yours!": {
+    "de": "Mach es zu deinem!",
+    "fr": "Personnalisez-le !"
+  },
+  "More colors are coming to Flowtime, allowing for even more customization!": {
+    "de": "Flowtime bekommt mehr Farben und damit noch mehr Möglichkeiten zur Personalisierung!",
+    "fr": "De nouvelles couleurs arrivent dans Flowtime pour encore plus de personnalisation !"
+  },
+  "The next update lets you customize the app’s accent color.": {
+    "de": "Mit dem nächsten Update kannst du die Akzentfarbe der App anpassen.",
+    "fr": "La prochaine mise à jour vous permettra de personnaliser la couleur d’accent de l’application."
+  },
+  "(Available with the Classic Theme.)": {
+    "de": "(Im Classic-Design verfügbar.)",
+    "fr": "(Disponible avec le thème Classic.)"
+  },
+  "Bugs? Bugs!": {
+    "de": "Bugs? Bugs!",
+    "fr": "Des bugs ? Des bugs !"
+  },
+  "Yesterday's bug:": {
+    "de": "Der gestrige Bug:",
+    "fr": "Le bug d’hier :"
+  },
+  "When a Flow Session finished, instead of stopping at 00:00, the timer just kept counting. Could that be a feature?": {
+    "de": "Wenn eine Flow Session endete, zählte der Timer einfach weiter, statt bei 00:00 zu stoppen. Könnte das eine Funktion sein?",
+    "fr": "À la fin d’une Flow Session, le minuteur continuait à compter au lieu de s’arrêter à 00:00. Et si cela devenait une fonctionnalité ?"
+  },
+  "Quick Templates!": {
+    "de": "Schnellstart-Vorlagen!",
+    "fr": "Des modèles rapides !"
+  },
+  "Stop setting up the same timer every day.": {
+    "de": "Richte nicht jeden Tag denselben Timer neu ein.",
+    "fr": "Ne configurez plus le même minuteur chaque jour."
+  },
+  "Save your favorite focus sessions as templates and start them with a single tap.": {
+    "de": "Speichere deine bevorzugten Fokus-Sessions als Vorlagen und starte sie mit einem Tipp.",
+    "fr": "Enregistrez vos sessions préférées comme modèles et lancez-les d’un seul geste."
+  },
+  "Your focus deserves more than just a timer.": {
+    "de": "Dein Fokus verdient mehr als nur einen Timer.",
+    "fr": "Votre concentration mérite plus qu’un simple minuteur."
+  },
+  "Flow Sessions combine customizable timers, app blocking, and reminders into a single workflow, helping you stay focused from start to finish.": {
+    "de": "Flow Sessions verbinden anpassbare Timer, App-Blocking und Erinnerungen in einem Ablauf, damit du von Anfang bis Ende konzentriert bleibst.",
+    "fr": "Les Flow Sessions réunissent minuteurs personnalisables, blocage d’applications et rappels pour vous aider à rester concentré du début à la fin."
+  },
+  "Project Groups are coming to Flowtime.": {
+    "de": "Projektgruppen kommen zu Flowtime.",
+    "fr": "Les groupes de projets arrivent dans Flowtime."
+  },
+  "Organize projects into categories and use ready-made templates to get started faster.": {
+    "de": "Ordne Projekte in Kategorien und nutze fertige Vorlagen, um schneller zu starten.",
+    "fr": "Organisez vos projets par catégories et utilisez des modèles prêts à l’emploi pour démarrer plus vite."
+  },
+  "Still in development.": {
+    "de": "Noch in Entwicklung.",
+    "fr": "Encore en développement."
+  },
+  "Flowtime Version 2.3.24 is now available!": {
+    "de": "Flowtime Version 2.3.24 ist jetzt verfügbar!",
+    "fr": "La version 2.3.24 de Flowtime est disponible !"
+  },
+  "This one is all about getting started faster.": {
+    "de": "Hier dreht sich alles darum, schneller loszulegen.",
+    "fr": "Cette version vous aide à démarrer plus vite."
+  },
+  "✨ New Quick Start Templates to help you jump into common workflows with a single tap.": {
+    "de": "✨ Neue Schnellstart-Vorlagen, mit denen du häufige Abläufe mit einem Tipp starten kannst.",
+    "fr": "✨ De nouveaux modèles de démarrage pour lancer vos tâches habituelles d’un seul geste."
+  },
+  "🔔 Notification Templates so you can reuse reminder setups instead of creating them from scratch every time.": {
+    "de": "🔔 Benachrichtigungsvorlagen, damit du Erinnerungen wiederverwenden kannst, statt sie jedes Mal neu einzurichten.",
+    "fr": "🔔 Des modèles de notification pour réutiliser vos rappels au lieu de les recréer à chaque fois."
+  },
+  "🌍 Flowtime is now available in 10 languages, making it accessible to even more people around the world.": {
+    "de": "🌍 Flowtime ist jetzt in 10 Sprachen verfügbar und damit für noch mehr Menschen weltweit zugänglich.",
+    "fr": "🌍 Flowtime est désormais disponible en 10 langues, pour être accessible à encore plus de personnes dans le monde."
+  },
+  "Small improvements, but together they remove a lot of friction.": {
+    "de": "Kleine Verbesserungen, die zusammen vieles einfacher machen.",
+    "fr": "De petites améliorations qui, ensemble, simplifient beaucoup de choses."
+  },
+  "Thanks to everyone who’s been sharing feedback and ideas. Every update is shaped by the people using the app. ❤️": {
+    "de": "Danke an alle, die Feedback und Ideen teilen. Jedes Update wird von den Menschen mitgestaltet, die die App nutzen. ❤️",
+    "fr": "Merci à tous ceux qui partagent leurs retours et leurs idées. Chaque mise à jour est façonnée par les personnes qui utilisent l’application. ❤️"
+  },
+  "Sometimes the best way to focus is to stop focusing.": {
+    "de": "Manchmal ist der beste Weg zum Fokus, damit aufzuhören.",
+    "fr": "Parfois, le meilleur moyen de se concentrer est d’arrêter de se concentrer."
+  },
+  "Set a timer, leave your desk, go for a walk.": {
+    "de": "Stelle einen Timer, verlasse deinen Schreibtisch und geh spazieren.",
+    "fr": "Lancez un minuteur, quittez votre bureau et allez marcher."
+  },
+  "Some days I need structure.": {
+    "de": "An manchen Tagen brauche ich Struktur.",
+    "fr": "Certains jours, j’ai besoin de structure."
+  },
+  "Some days I just need to know time is passing.": {
+    "de": "An anderen muss ich einfach wissen, dass Zeit vergeht.",
+    "fr": "D’autres jours, j’ai juste besoin de savoir que le temps passe."
+  },
+  "That’s why Flowtime has three timer modes instead of one.": {
+    "de": "Deshalb hat Flowtime drei Timer-Modi statt nur einem.",
+    "fr": "C’est pourquoi Flowtime propose trois modes de minuteur au lieu d’un seul."
+  },
+  "Flowtime crossed 50 followers on Instagram!": {
+    "de": "Flowtime hat 50 Follower auf Instagram erreicht!",
+    "fr": "Flowtime a dépassé les 50 abonnés sur Instagram !"
+  },
+  "50 people decided to follow this little productivity app.": {
+    "de": "50 Menschen haben beschlossen, dieser kleinen Produktivitäts-App zu folgen.",
+    "fr": "50 personnes ont décidé de suivre cette petite application de productivité."
+  },
+  "Every single follow, comment, and piece of feedback helps shape Flowtime.": {
+    "de": "Jeder Follow, jeder Kommentar und jedes Feedback gestaltet Flowtime mit.",
+    "fr": "Chaque abonnement, commentaire et retour contribue à façonner Flowtime."
+  },
+  "If you've been here since day one, thank you. ❤️": {
+    "de": "Wenn du seit dem ersten Tag dabei bist: Danke. ❤️",
+    "fr": "Si vous êtes là depuis le premier jour, merci. ❤️"
+  },
+  "If you're new: welcome! I'd love to know—what's your biggest struggle when it comes to staying focused?": {
+    "de": "Wenn du neu bist: Willkommen! Was fällt dir beim Konzentrieren am schwersten?",
+    "fr": "Si vous venez d’arriver : bienvenue ! Quelle est votre plus grande difficulté pour rester concentré ?"
+  },
+  "Keep work organized without adding complexity.": {
+    "de": "Organisiere deine Arbeit, ohne sie komplizierter zu machen.",
+    "fr": "Organisez votre travail sans le compliquer."
+  },
+  "Create projects for different clients, hobbies or goals, and keep every focus session in the right place.": {
+    "de": "Erstelle Projekte für verschiedene Kunden, Hobbys oder Ziele und ordne jede Fokus-Session richtig zu.",
+    "fr": "Créez des projets pour vos clients, loisirs ou objectifs, et gardez chaque session à sa place."
+  },
+  "Official Media Resources": {
+    "de": "Offizielle Medienressourcen",
+    "fr": "Ressources Médias Officielles"
+  },
+  "Flowtime Press Kit": {
+    "de": "Flowtime Pressekit",
+    "fr": "Kit Presse Flowtime"
+  },
+  "Flowtime is a flexible focus timer and time tracker for anyone who wants to track focused time with less friction. Gentle reminders help you stay aware of passing time, including during deep focus or hyperfocus.": {
+    "de": "Flowtime ist ein flexibler Fokus-Timer und persönlicher Time Tracker für alle, die ihre Fokuszeit unkompliziert erfassen möchten. Sanfte Erinnerungen machen vergehende Zeit sichtbar, auch bei tiefem Fokus oder Hyperfokus.",
+    "fr": "Flowtime est un minuteur de concentration flexible et un outil de suivi du temps pour toutes les personnes qui souhaitent suivre leur temps de concentration simplement. Des rappels doux rendent le temps plus visible, même en concentration profonde ou en hyperfocus."
+  },
+  "Download Press Kit (EN)": {
+    "de": "Pressekit herunterladen (DE)",
+    "fr": "Télécharger le Kit Presse (FR)"
+  },
+  "View App Store": {
+    "de": "App Store ansehen",
+    "fr": "Voir l'App Store"
+  },
+  "View Google Play": {
+    "de": "Google Play ansehen",
+    "fr": "Voir Google Play"
+  },
+  "Quick Facts": {
+    "de": "Wichtige Fakten",
+    "fr": "Fiche Technique"
+  },
+  "Key information at a glance for journalists, creators, and reviewers.": {
+    "de": "Auf einen Blick für Journalist:innen, Creator und Reviewer.",
+    "fr": "Les informations clés en un coup d'œil pour journalistes, créateurs et testeurs."
+  },
+  "Name": {
+    "de": "Name",
+    "fr": "Nom"
+  },
+  "iOS and Android": {
+    "de": "iOS und Android",
+    "fr": "iOS et Android"
+  },
+  "Developer": {
+    "de": "Entwicklerin",
+    "fr": "Développeuse"
+  },
+  "Location": {
+    "de": "Standort",
+    "fr": "Localisation"
+  },
+  "Switzerland": {
+    "de": "Schweiz",
+    "fr": "Suisse"
+  },
+  "Free + Flowtime Pro ($2.99/mo, $24.99/yr, $49.99 lifetime)": {
+    "de": "Kostenlos + Flowtime Pro (2,99 $/Monat, 24,99 $/Jahr, 49,99 $ Lebenslang)",
+    "fr": "Gratuit + Flowtime Pro (2,99 $/mois, 24,99 $/an, 49,99 $ À vie)"
+  },
+  "No account required, privacy-first (data stored locally)": {
+    "de": "Kein Konto erforderlich, lokal-first",
+    "fr": "Aucun compte requis, stockage local"
+  },
+  "Website": {
+    "de": "Website",
+    "fr": "Site web"
+  },
+  "App Store": {
+    "de": "App Store",
+    "fr": "App Store"
+  },
+  "iOS App Store": {
+    "de": "iOS App Store",
+    "fr": "App Store iOS"
+  },
+  "Google Play": {
+    "de": "Google Play",
+    "fr": "Google Play"
+  },
+  "Google Play Store": {
+    "de": "Google Play Store",
+    "fr": "Google Play Store"
+  },
+  "Press Contact": {
+    "de": "Pressekontakt",
+    "fr": "Contact presse"
+  },
+  "Editorial overview ready for quotation or background context.": {
+    "de": "Redaktioneller Überblick zum Zitieren oder als Hintergrundwissen.",
+    "fr": "Présentation éditoriale prête pour citation ou contexte."
+  },
+  "Flowtime is a minimal focus timer built around a simple idea: starting a focus session should require almost no effort.": {
+    "de": "Flowtime ist ein minimaler Fokus-Timer, der auf einer einfachen Idee basiert: Das Starten einer Fokus-Session sollte fast keinen Aufwand erfordern.",
+    "fr": "Flowtime est un minuteur de concentration minimaliste fondé sur une idée simple : démarrer une session de concentration ne devrait demander presque aucun effort."
+  },
+  "Instead of adding complicated workflows, accounts, or productivity systems, Flowtime removes friction between deciding to work and actually starting.": {
+    "de": "Anstatt komplizierte Workflows, Konten oder Produktivitätssysteme hinzuzufügen, entfernt Flowtime die Reibung zwischen dem Entschluss zu arbeiten und dem tatsächlichen Start.",
+    "fr": "Au lieu d'ajouter des flux de travail complexes, des comptes ou des systèmes de productivité lourds, Flowtime élimine les frictions entre la décision de travailler et le démarrage effectif."
+  },
+  "The app combines flexible focus timers with awareness reminders, optional app shielding, focus history, and personal time tracking for different ways of focusing.": {
+    "de": "Die App kombiniert flexible Fokus-Timer mit Aufmerksamkeitserinnerungen, optionaler App-Sperre, Fokus-Verlauf und persönlicher Zeiterfassung für unterschiedliche Arbeitsrhythmen.",
+    "fr": "L'application combine des minuteurs flexibles avec des rappels de conscience, un blocage d'applications optionnel, un historique de concentration et un suivi personnel du temps pour différentes façons de se concentrer."
+  },
+  "Why Flowtime Exists": {
+    "de": "Warum Flowtime existiert",
+    "fr": "Pourquoi Flowtime existe"
+  },
+  "The founder story behind the app.": {
+    "de": "Die Gründungsgeschichte hinter der App.",
+    "fr": "L'histoire de la fondatrice derrière l'application."
+  },
+  "Flowtime started as a personal tool.": {
+    "de": "Flowtime begann als persönliches Werkzeug.",
+    "fr": "Flowtime a débuté comme un outil personnel."
+  },
+  "Its creator, Swiss indie developer Ava Thalheim, wanted a focus timer that helped with both sides of focused work: starting when it feels difficult, and stopping when hyperfocus makes hours disappear.": {
+    "de": "Die Gründerin, die Schweizer Indie-Entwicklerin Ava Thalheim, wollte einen Fokus-Timer, der bei beiden Seiten konzentrierter Arbeit hilft: anzufangen, wenn es schwerfällt, und aufzuhören, wenn Hyperfokus Stunden vergehen lässt.",
+    "fr": "Sa créatrice, la développeuse indépendante suisse Ava Thalheim, recherchait un minuteur aidant sur les deux aspects du travail concentré : commencer lorsque cela semble difficile et s'arrêter lorsque l'hyperfocalisation fait disparaître les heures."
+  },
+  "The result became Flowtime — a deliberately simple focus timer built around awareness rather than punishment.": {
+    "de": "Das Ergebnis wurde Flowtime — ein bewusst einfacher Fokus-Timer, der auf Achtsamkeit statt auf Bestrafung setzt.",
+    "fr": "Le résultat est devenu Flowtime — un minuteur délibérément simple axé sur la prise de conscience plutôt que la punition."
+  },
+  "Ava Thalheim": {
+    "de": "Ava Thalheim",
+    "fr": "Ava Thalheim"
+  },
+  "Creator of Flowtime": {
+    "de": "Entwicklerin von Flowtime",
+    "fr": "Créatrice de Flowtime"
+  },
+  "What Makes Flowtime Different": {
+    "de": "Was Flowtime unterscheidet",
+    "fr": "Ce qui différencie Flowtime"
+  },
+  "Key design philosophy and feature principles.": {
+    "de": "Zentrale Designphilosophie und Funktionsprinzipien.",
+    "fr": "Philosophie de conception et principes clés."
+  },
+  "One-tap focus sessions": {
+    "de": "Fokus-Sessions mit einem Tipp",
+    "fr": "Sessions en un seul geste"
+  },
+  "Start tracking focused time instantly without setup wizards, onboarding surveys, or mandatory tag configurations.": {
+    "de": "Starte die Zeiterfassung sofort ohne Einrichtungssassistenten, Onboarding-Umfragen oder obligatorische Tags.",
+    "fr": "Lancez le suivi du temps immédiatement sans assistants de configuration ou étiquettes obligatoires."
+  },
+  "No account required": {
+    "de": "Kein Konto erforderlich",
+    "fr": "Aucun compte requis"
+  },
+  "Launch the app and start focusing immediately. Your session data remains strictly stored on your device.": {
+    "de": "Starte die App und konzentriere dich sofort. Deine Sitzungsdaten bleiben ausschließlich auf deinem Gerät.",
+    "fr": "Lancez l'application et concentrez-vous immédiatement. Vos données restent strictement sur votre appareil."
+  },
+  "Privacy-first design": {
+    "de": "Datenschutzfreundliches Design",
+    "fr": "Conception axée sur la confidentialité"
+  },
+  "No ad tracking, no monetization algorithms, and no personal time data stored on external servers.": {
+    "de": "Kein Werbetracking, keine Monetarisierungsalgorithmen und keine persönlichen Zeitdaten auf externen Servern.",
+    "fr": "Aucun suivi publicitaire, aucun algorithme de monétisation et aucune donnée sur des serveurs externes."
+  },
+  "Flexible timer modes": {
+    "de": "Flexible Timer-Modi",
+    "fr": "Modes de minuteur flexibles"
+  },
+  "Choose open count-up timers, classic Pomodoro, or open-ended Flow Sessions tailored to your current energy level.": {
+    "de": "Wähle zwischen vorwärtslaufenden Timern, klassischem Pomodoro oder offenen Flow-Sessions, angepasst an dein Energielevel.",
+    "fr": "Choisissez entre minuteurs chronomètres, Pomodoro classique ou Sessions Flow ouvertes selon votre niveau d'énergie."
+  },
+  "Awareness reminders for time blindness and hyperfocus": {
+    "de": "Erinnerungen für Zeitblindheit & Hyperfokus",
+    "fr": "Rappels pour cécité temporelle & hyperfocalisation"
+  },
+  "Gentle audio and visual check-in cues make time visible while working so hours don't slip away unnoticed.": {
+    "de": "Sanfte visuelle und akustische Erinnerungen machen die Zeit beim Arbeiten sichtbar, damit Stunden nicht unbemerkt vergehen.",
+    "fr": "Des rappels visuels et sonores doux rendent le temps visible pendant le travail pour éviter que les heures ne s'échappent."
+  },
+  "Optional app shielding": {
+    "de": "Optionale App-Sperre",
+    "fr": "Protection d'applications optionnelle"
+  },
+  "Interrupt attention-hijacking apps with conscious pause screens rather than aggressive, punitive lockout mechanics.": {
+    "de": "Unterbrich ablenkende Apps mit bewussten Pause-Bildschirmen statt aggressiver Komplettsperren.",
+    "fr": "Interrompez les applications distrayantes avec des écrans de pause conscients plutôt que des blocages agressifs."
+  },
+  "Story Angles": {
+    "de": "Themen & Blickwinkel",
+    "fr": "Angles d'Articles"
+  },
+  "Ideas and topics for writers, bloggers, and podcasters.": {
+    "de": "Ideen und Themen für Journalist:innen, Blogger und Podcaster.",
+    "fr": "Idées de sujets pour journalistes, blogueurs et podcasteurs."
+  },
+  "Why productivity apps often create more friction than they remove": {
+    "de": "Warum Produktivitäts-Apps oft mehr Reibung erzeugen als sie nehmen",
+    "fr": "Pourquoi les applications de productivité créent souvent plus de friction qu'elles n'en retirent"
+  },
+  "Exploring how complex task managers and habit tracker overhead can fuel procrastination instead of focus.": {
+    "de": "Wie komplexe Aufgaben-Manager und Habit-Tracker Prokrastination statt Fokus fördern können.",
+    "fr": "Comment la gestion complexe des tâches peut alimenter la procrastination au lieu de la concentration."
+  },
+  "Designing productivity tools for time awareness and hyperfocus": {
+    "de": "Produktivitäts-Tools für Zeitwahrnehmung und Hyperfokus entwickeln",
+    "fr": "Concevoir des outils de productivité pour la perception du temps et l'hyperfocalisation"
+  },
+  "How low-friction design can make it easier to start work, stay aware of time, and stop intentionally.": {
+    "de": "Wie reibungsarmes Design dabei hilft, leichter anzufangen, die Zeit im Blick zu behalten und bewusst aufzuhören.",
+    "fr": "Comment une conception fluide facilite le démarrage, la perception du temps et l'arrêt intentionnel."
+  },
+  "Why awareness can work better than aggressive app blocking": {
+    "de": "Warum Achtsamkeit besser funktionieren kann als aggressive App-Sperren",
+    "fr": "Pourquoi la prise de conscience fonctionne mieux que le blocage agressif"
+  },
+  "Replacing punitive site blockers with mindful awareness cues that build long-term digital intentionality.": {
+    "de": "Bestrafende Website-Blocker durch achtsame Impulse ersetzen, die langfristig digitale Intentionalität aufbauen.",
+    "fr": "Remplacer les bloqueurs punitifs par des rappels bienveillants qui développent une intentionnalité numérique à long terme."
+  },
+  "Building a privacy-first productivity app without accounts": {
+    "de": "Eine datenschutzfreundliche Produktivitäts-App ohne Konten bauen",
+    "fr": "Bâtir une application respectueuse de la vie privée sans compte"
+  },
+  "The technical and philosophy decisions behind building local-first software in an era of mandatory cloud logins.": {
+    "de": "Die technischen und philosophischen Entscheidungen hinter Local-First-Software in einer Ära erzwungener Cloud-Logins.",
+    "fr": "Les choix techniques et philosophiques derrière un logiciel local à une époque de connexions cloud obligatoires."
+  },
+  "What happens when a developer builds the productivity tool she personally needed": {
+    "de": "Wenn eine Entwicklerin das Produktivitäts-Tool baut, das sie selbst brauchte",
+    "fr": "Quand une développeuse crée l'outil dont elle avait personnellement besoin"
+  },
+  "The story of Ava Thalheim learning to notice passing time and building Flowtime into a polished indie app.": {
+    "de": "Die Geschichte von Ava Thalheim, die lernte, vergehende Zeit leichter zu bemerken und Flowtime zu einer polierten Indie-App entwickelte.",
+    "fr": "L'histoire d'Ava Thalheim apprenant à mieux remarquer le temps qui passe et transformant Flowtime en une application indé soignée."
+  },
+  "The problem with complicated onboarding in productivity apps": {
+    "de": "Das Problem mit kompliziertem Onboarding in Produktivitäts-Apps",
+    "fr": "Le problème des parcours d'intégration complexes"
+  },
+  "How fewer setup decisions make it easier to start a focus session.": {
+    "de": "Wie weniger Entscheidungen bei der Einrichtung den Start einer Fokus-Session erleichtern.",
+    "fr": "Comment réduire les décisions de configuration facilite le démarrage d’une session."
+  },
+  "Ready-to-Use Descriptions": {
+    "de": "Verwendungsfertige Beschreibungen",
+    "fr": "Descriptions Prêtes à l'Emploi"
+  },
+  "Copyable text blocks formatted for reviews, directories, and articles.": {
+    "de": "Kopierbare Textblöcke für Rezensionen, Verzeichnisse und Artikel.",
+    "fr": "Blocs de texte copiables pour critiques, annuaires et articles."
+  },
+  "Flowtime is a flexible, privacy-first focus timer and time tracker for iPhone and Android designed to reduce friction, track focus sessions, and make time visible without requiring an account.": {
+    "de": "Flowtime ist ein flexibler, datenschutzfreundlicher Fokus-Timer und persönlicher Time Tracker auf iPhone und Android, entwickelt um Reibung zu reduzieren, Fokus-Sessions zu erfassen und Zeit ohne Konto sichtbar zu machen.",
+    "fr": "Flowtime est un minuteur de concentration flexible et un outil de suivi du temps pour iPhone et Android conçu pour réduire les frictions et rendre le temps visible sans nécessiter de compte."
+  },
+  "Short description (~50 words)": {
+    "de": "Kurzbeschreibung (~50 Wörter)",
+    "fr": "Description courte (~50 mots)"
+  },
+  "Flowtime is a flexible focus timer and time tracker for anyone, available for iPhone and Android. With a focus on easy starting and time awareness, Flowtime combines flexible session tracking, Pomodoro, gentle focus reminders, and optional app shielding into a simple experience that requires no account or cloud setup.": {
+    "de": "Flowtime ist ein flexibler Fokus-Timer und persönlicher Time Tracker für alle, verfügbar für iPhone und Android. Für einen einfachen Start und mehr Zeitwahrnehmung kombiniert Flowtime flexible Zeiterfassung, Pomodoro, sanfte Fokus-Erinnerungen und optionale App-Sperren in einer einfachen Erfahrung ohne Konto oder Cloud-Setup.",
+    "fr": "Flowtime est un minuteur de concentration flexible et un outil de suivi du temps pour tout le monde, disponible sur iPhone et Android. Pour démarrer simplement et garder le temps visible, Flowtime combine suivi flexible, Pomodoro, rappels doux et blocage d'applications sans création de compte."
+  },
+  "Medium description (~150 words)": {
+    "de": "Mittlere Beschreibung (~150 Wörter)",
+    "fr": "Description moyenne (~150 mots)"
+  },
+  "Flowtime is a flexible, privacy-first focus timer and time tracker for anyone who wants to keep focused time visible. Unlike traditional productivity tools that add heavy workflows, accounts, and setup friction, Flowtime focuses on making focus sessions effortless to start and easy to maintain. Users can choose between standard timers, Pomodoro, and open-ended Flow Sessions with custom target durations. To help you stay aware of passing time, Flowtime provides gentle check-in reminders that keep time visible while working. For digital distractions, optional app shielding places a conscious barrier in front of attention-hijacking apps. Flowtime is built local-first: timer and project data stay on your device, no account is required, and privacy is respected by design. Available on the App Store for iPhone and Google Play for Android.": {
+    "de": "Flowtime ist ein flexibler, datenschutzfreundlicher Fokus-Timer und persönlicher Time Tracker für alle, die fokussierte Zeit sichtbar machen möchten. Anstatt traditioneller Produktivitäts-Tools mit schweren Workflows, Konten und Einrichtungsreibung konzentriert sich Flowtime darauf, Fokus-Sessions mühelos zu starten und beizubehalten. Nutzer können zwischen Standard-Timern, Pomodoro und offenen Flow-Sessions mit anpassbaren Zieldauern wählen. Damit du vergehende Zeit leichter bemerkst, bietet Flowtime sanfte Erinnerungen, die die Zeit beim Arbeiten sichtbar halten. Für digitale Ablenkungen setzt die optionale App-Sperre eine bewusste Hürde vor aufmerksamkeitsraubende Apps. Flowtime ist local-first gebaut: Timer- und Projektdaten bleiben auf Ihrem Gerät, kein Konto ist erforderlich, und Datenschutz wird von Grund auf respektiert. Verfügbar im App Store für iPhone und Google Play für Android.",
+    "fr": "Flowtime est un minuteur de concentration flexible et un outil de suivi du temps pour toutes les personnes qui souhaitent garder leur temps de concentration visible. Contrairement aux outils traditionnels qui ajoutent des flux complexes et des comptes obligatoires, Flowtime vise à rendre les sessions simples à démarrer et faciles à maintenir. Les utilisateurs peuvent choisir entre minuteurs standard, Pomodoro et Sessions Flow ouvertes. Pour mieux remarquer le temps qui passe, Flowtime propose des rappels doux qui gardent le temps visible pendant le travail. Pour les distractions numériques, le blocage optionnel ajoute une pause consciente. Flowtime est conçu localement : les données restent sur votre appareil, aucun compte n'est requis et la confidentialité est respectée. Disponible sur l'App Store pour iPhone et Google Play pour Android."
+  },
+  "Founder bio": {
+    "de": "Biografie der Gründerin",
+    "fr": "Biographie de la fondatrice"
+  },
+  "Ava Thalheim is an indie software developer based in Switzerland. Experiencing the daily challenges of time blindness and hyperfocus, she built Flowtime to create a simple, respectful focus timer that makes focused time easier to notice and manage. Learn more at avathalheim.dev.": {
+    "de": "Ava Thalheim ist eine Indie-Software-Entwicklerin aus der Schweiz. Aus eigener Erfahrung mit Zeitblindheit und Hyperfokus entwickelte sie Flowtime, um einen einfachen, respektvollen Fokus-Timer zu schaffen, der fokussierte Zeit leichter sichtbar und steuerbar macht. Mehr erfahren unter avathalheim.dev.",
+    "fr": "Ava Thalheim est une développeuse indépendante basée en Suisse. Connaissant les défis quotidiens de la cécité temporelle et de l'hyperfocalisation, elle a créé Flowtime pour offrir un minuteur simple et respectueux qui rend le temps concentré plus visible et plus facile à gérer. En savoir plus sur avathalheim.dev."
+  },
+  "Copy": {
+    "de": "Kopieren",
+    "fr": "Copier"
+  },
+  "Copied!": {
+    "de": "Kopiert!",
+    "fr": "Copié !"
+  },
+  "Official Screenshots": {
+    "de": "Offizielle Screenshots",
+    "fr": "Captures d'Écran Officielles"
+  },
+  "Click any screenshot to inspect high-resolution preview.": {
+    "de": "Klicke auf einen Screenshot, um eine hochauflösende Vorschau zu öffnen.",
+    "fr": "Cliquez sur une capture d'écran pour ouvrir un aperçu en haute résolution."
+  },
+  "Timer View (Mono)": {
+    "de": "Timer-Ansicht (Mono)",
+    "fr": "Vue Minuteur (Mono)"
+  },
+  "Interface Showcase": {
+    "de": "Interface-Vorschau",
+    "fr": "Aperçu Interface"
+  },
+  "Pomodoro Focus Mode": {
+    "de": "Pomodoro-Fokusmodus",
+    "fr": "Mode Pomodoro"
+  },
+  "Flow Session Mode": {
+    "de": "Flow-Session-Modus",
+    "fr": "Mode Session Flow"
+  },
+  "Focus Reports": {
+    "de": "Fokus-Berichte",
+    "fr": "Rapports de Concentration"
+  },
+  "App Shielding": {
+    "de": "App-Sperre",
+    "fr": "Protection d'Apps"
+  },
+  "Media Assets": {
+    "de": "Medien-Assets",
+    "fr": "Ressources Médias"
+  },
+  "Individual downloadable assets for publication use.": {
+    "de": "Einzelne herunterladbare Assets für Veröffentlichungen.",
+    "fr": "Ressources téléchargeables individuellement pour les publications."
+  },
+  "Flowtime App Icon": {
+    "de": "Flowtime App-Icon",
+    "fr": "Icône de l'App Flowtime"
+  },
+  "Flowtime Logo (Light)": {
+    "de": "Flowtime Logo (Hell)",
+    "fr": "Logo Flowtime (Clair)"
+  },
+  "Flowtime Logo (Dark)": {
+    "de": "Flowtime Logo (Dunkel)",
+    "fr": "Logo Flowtime (Sombre)"
+  },
+  "iOS Screenshots": {
+    "de": "iOS Screenshots",
+    "fr": "Captures d'Écran iOS"
+  },
+  "Android Screenshots": {
+    "de": "Android Screenshots",
+    "fr": "Captures d'Écran Android"
+  },
+  "Device Mockups": {
+    "de": "Geräte-Mockups",
+    "fr": "Maquettes d'Appareils"
+  },
+  "Press Fact Sheet (EN)": {
+    "de": "Presse-Faktenblatt (DE)",
+    "fr": "Fiche Technique Presse (FR)"
+  },
+  "Founder Photo": {
+    "de": "Gründerfoto",
+    "fr": "Photo de la Fondatrice"
+  },
+  "Product Video / B-Roll": {
+    "de": "Produkt-Video / B-Roll",
+    "fr": "Vidéo Produit / B-Roll"
+  },
+  "MP4 (1080p) • Available upon request": {
+    "de": "MP4 (1080p) • Auf Anfrage verfügbar",
+    "fr": "MP4 (1080p) • Disponible sur demande"
+  },
+  "Download ZIP (EN)": {
+    "de": "ZIP herunterladen (DE)",
+    "fr": "Télécharger le ZIP (FR)"
+  },
+  "Request Video": {
+    "de": "Video anfragen",
+    "fr": "Demander la vidéo"
+  },
+  "Download Complete Press Kit (English)": {
+    "de": "Vollständiges Pressekit herunterladen (Deutsch)",
+    "fr": "Télécharger le Kit Presse Complet (Français)"
+  },
+  "Get all official Flowtime logos, icons, screenshots, English fact sheet, and founder photos in one complete archive.": {
+    "de": "Hole dir alle offiziellen Flowtime-Logos, Icons, Screenshots, deutsches Faktenblatt und Gründerfotos in einem vollständigen Archiv.",
+    "fr": "Obtenez tous les logos, icônes, captures d'écran, fiche technique française et photos dans une seule archive."
+  },
+  "Download Flowtime-Press-Kit-EN.zip": {
+    "de": "Flowtime-Presse-Kit-DE.zip herunterladen",
+    "fr": "Télécharger Flowtime-Kit-Presse-FR.zip"
+  },
+  "In The News": {
+    "de": "In den Medien",
+    "fr": "Dans les Médias"
+  },
+  "Recent press features, articles, and reviews.": {
+    "de": "Aktuelle Presseberichte, Artikel und Rezensionen.",
+    "fr": "Articles récents, reportages et critiques."
+  },
+  "Press & Media Inquiries": {
+    "de": "Pressekontakt & Anfragen",
+    "fr": "Contact Presse & Demandes"
+  },
+  "Have questions, need interview quotes, or request review codes? Reach out directly.": {
+    "de": "Du hast Fragen, benötigst Zitate für Interviews oder Test-Zugänge? Kontaktiere uns direkt.",
+    "fr": "Des questions, besoin de citations pour une interview ou d'un accès de test ? Contactez-nous directement."
+  },
+  "Free or Pro. You decide.": {
+    "de": "Free oder Pro. Du entscheidest.",
+    "fr": "Free ou Pro. À vous de choisir."
+  },
+  "Frequently asked questions": {
+    "de": "Häufige Fragen",
+    "fr": "Questions fréquentes"
+  },
+  "Press & media": {
+    "de": "Presse & Medien",
+    "fr": "Presse et médias"
+  },
+  "Get Flowtime": {
+    "de": "Flowtime herunterladen",
+    "fr": "Télécharger Flowtime"
+  },
+  "The Flowtime journal": {
+    "de": "Das Flowtime-Journal",
+    "fr": "Le journal Flowtime"
+  },
+  "Focus guides": {
+    "de": "Fokus-Ratgeber",
+    "fr": "Guides de concentration"
+  },
+  "App comparisons": {
+    "de": "App-Vergleiche",
+    "fr": "Comparatifs d’applications"
+  },
+  "Download Flowtime on the App Store": {
+    "de": "Flowtime im App Store herunterladen",
+    "fr": "Télécharger Flowtime sur l’App Store"
+  },
+  "Get Flowtime on Google Play": {
+    "de": "Flowtime bei Google Play herunterladen",
+    "fr": "Télécharger Flowtime sur Google Play"
+  },
+  "Flowtime focus timer app interface": {
+    "de": "Oberfläche des Flowtime Fokus-Timers",
+    "fr": "Interface du minuteur Flowtime"
+  },
+  "Flowtime minimal timer interface": {
+    "de": "Minimalistische Timer-Oberfläche von Flowtime",
+    "fr": "Interface minimaliste du minuteur Flowtime"
+  },
+  "Explore Pomodoro": {
+    "de": "Pomodoro entdecken",
+    "fr": "Découvrir Pomodoro"
+  },
+  "Explore Classic": {
+    "de": "Classic entdecken",
+    "fr": "Découvrir Classic"
+  },
+  "Explore Flowmodoro": {
+    "de": "Flowmodoro entdecken",
+    "fr": "Découvrir Flowmodoro"
+  },
+  "Explore FlowSession": {
+    "de": "FlowSession entdecken",
+    "fr": "Découvrir FlowSession"
+  },
+  "Pomodoro timer mode": {
+    "de": "Pomodoro-Timer-Modus",
+    "fr": "Mode minuteur Pomodoro"
+  },
+  "Classic timer mode": {
+    "de": "Klassischer Timer-Modus",
+    "fr": "Mode minuteur classique"
+  },
+  "Flowmodoro timer mode": {
+    "de": "Flowmodoro-Timer-Modus",
+    "fr": "Mode minuteur Flowmodoro"
+  },
+  "FlowSession timer mode": {
+    "de": "FlowSession-Timer-Modus",
+    "fr": "Mode minuteur FlowSession"
+  },
+  "Flowtime timer with pink digits": {
+    "de": "Flowtime-Timer mit pinken Ziffern",
+    "fr": "Minuteur Flowtime aux chiffres roses"
+  },
+  "Flowtime App Shielding screen: Shielded during focus. Return to Flowtime to continue your focus session.": {
+    "de": "Flowtime App Shielding: Während der Fokuszeit gesperrt. Kehre zu Flowtime zurück, um deine Fokus-Session fortzusetzen.",
+    "fr": "Écran App Shielding : bloqué pendant la concentration. Revenez dans Flowtime pour poursuivre votre session."
+  },
+  "Flowtime Projects screen with project groups and quick setups": {
+    "de": "Flowtime-Projektansicht mit Projektgruppen und Schnellstart-Vorlagen",
+    "fr": "Écran Projets de Flowtime avec groupes et modèles rapides"
+  },
+  "Flowtime History screen with focus time, activity chart and top projects": {
+    "de": "Flowtime-Verlauf mit Fokuszeit, Aktivitätsdiagramm und Top-Projekten",
+    "fr": "Historique Flowtime avec temps de concentration, graphique d’activité et principaux projets"
+  },
+  "Flowtime Reports screen with time period filters and focus sessions": {
+    "de": "Flowtime-Berichte mit Zeitraumfiltern und Fokus-Sessions",
+    "fr": "Rapports Flowtime avec filtres de période et sessions de concentration"
+  },
+  "Balanced Week achievement: Focus on 3 or more days without exceeding your session threshold": {
+    "de": "Erfolg Ausgewogene Woche: Konzentriere dich an mindestens 3 Tagen, ohne dein Sitzungslimit zu überschreiten",
+    "fr": "Réussite Semaine équilibrée : concentrez-vous au moins 3 jours sans dépasser votre seuil de session"
+  },
+  "Still Flowing achievement: Continue after an awareness check-in": {
+    "de": "Erfolg Weiter im Flow: Mache nach einem Bewusstseins-Check-in weiter",
+    "fr": "Réussite Toujours dans le flow : continuez après un rappel de prise de conscience"
+  },
+  "Welcome Back achievement: Return after 3 or more days without a session": {
+    "de": "Erfolg Willkommen zurück: Kehre nach mindestens 3 Tagen ohne Session zurück",
+    "fr": "Réussite Bon retour : revenez après au moins 3 jours sans session"
+  },
+  "Reviews from Flowtime users": {
+    "de": "Bewertungen von Flowtime-Nutzern",
+    "fr": "Avis des utilisateurs de Flowtime"
+  },
+  "Compare Flowtime Free and Pro. Choose monthly, yearly or lifetime access inside the app.": {
+    "de": "Vergleiche Flowtime Free und Pro. Wähle monatlichen, jährlichen oder dauerhaften Zugang in der App.",
+    "fr": "Comparez Flowtime Free et Pro. Choisissez un accès mensuel, annuel ou à vie dans l’application."
+  },
+  "Choose your plan": {
+    "de": "Wähle deinen Tarif",
+    "fr": "Choisissez votre formule"
+  },
+  "Pro billing period": {
+    "de": "Pro-Abrechnungszeitraum",
+    "fr": "Période de facturation Pro"
+  },
+  "Help with Flowtime timers, App Shielding, Free and Pro, privacy, and support.": {
+    "de": "Hilfe zu Flowtime-Timern, App Shielding, Free und Pro, Datenschutz und Support.",
+    "fr": "Aide sur les minuteurs Flowtime, App Shielding, Free et Pro, la confidentialité et l’assistance."
+  },
+  "FAQ topics": {
+    "de": "FAQ-Themen",
+    "fr": "Thèmes de la FAQ"
+  },
+  "Official Flowtime press kits, product facts, app screenshots, and contact for journalists and creators.": {
+    "de": "Offizielle Flowtime-Pressekits, Produktinfos, Screenshots und Kontakt für Journalisten und Kreative.",
+    "fr": "Dossiers de presse officiels, informations produit, captures d’écran et contact pour journalistes et créateurs."
+  },
+  "Flowtime app icon": {
+    "de": "Flowtime-App-Symbol",
+    "fr": "Icône de Flowtime"
+  },
+  "Flowtime Classic timer": {
+    "de": "Klassischer Flowtime-Timer",
+    "fr": "Minuteur classique Flowtime"
+  },
+  "Flowtime Focus reports": {
+    "de": "Flowtime-Fokusberichte",
+    "fr": "Rapports de concentration Flowtime"
+  },
+  "Download Flowtime for iPhone and Android. No account required.": {
+    "de": "Lade Flowtime für iPhone und Android herunter. Kein Konto nötig.",
+    "fr": "Téléchargez Flowtime pour iPhone et Android. Sans compte."
+  },
+  "Flowtime timer in the light theme": {
+    "de": "Flowtime-Timer im hellen Design",
+    "fr": "Minuteur Flowtime avec le thème clair"
+  },
+  "Meet Flowtime and its creator, Swiss indie developer Ava Thalheim.": {
+    "de": "Entdecke Flowtime und seine Entwicklerin, die Schweizer Indie-Entwicklerin Ava Thalheim.",
+    "fr": "Découvrez Flowtime et sa créatrice, Ava Thalheim, développeuse indépendante suisse."
+  },
+  "Ideas, practical guides and stories about focus, time awareness and Flowtime.": {
+    "de": "Ideen, praktische Ratgeber und Geschichten über Fokus, Zeitbewusstsein und Flowtime.",
+    "fr": "Idées, guides pratiques et histoires sur la concentration, la perception du temps et Flowtime."
+  },
+  "Filter articles": {
+    "de": "Artikel filtern",
+    "fr": "Filtrer les articles"
+  },
+  "The real posts, decisions and progress behind Flowtime. Follow the development journal on Instagram and Threads.": {
+    "de": "Die echten Beiträge, Entscheidungen und Fortschritte hinter Flowtime. Verfolge die Entwicklung auf Instagram und Threads.",
+    "fr": "Les publications, décisions et progrès derrière Flowtime. Suivez le journal de développement sur Instagram et Threads."
+  },
+  "Build updates": {
+    "de": "Entwicklungs-Updates",
+    "fr": "Nouvelles du développement"
+  },
+  "Filter updates": {
+    "de": "Updates filtern",
+    "fr": "Filtrer les publications"
+  },
+  "Flowtime is a flexible focus timer and personal time tracker with Pomodoro, reminders, projects, and optional app blocking on iPhone and Android.": {
+    "de": "Flowtime ist ein flexibler Fokus-Timer und persönlicher Zeittracker mit Pomodoro, Erinnerungen, Projekten und optionalem App-Blocking für iPhone und Android.",
+    "fr": "Flowtime est un minuteur flexible et un outil personnel de suivi du temps avec Pomodoro, rappels, projets et blocage d’applications en option sur iPhone et Android."
+  },
+  "Flowtime is a flexible, friction-free focus timer and personal time tracker for iPhone and Android. It combines open-ended Flow Sessions, Pomodoro, focus reminders, projects, session history, reports, and optional app blocking. Flowtime does not require an account, and timer and project data are stored locally on the device.": {
+    "de": "Flowtime ist ein flexibler, unkomplizierter Fokus-Timer und persönlicher Zeittracker für iPhone und Android. Er verbindet offene Flow Sessions, Pomodoro, Fokus-Erinnerungen, Projekte, Sitzungsverlauf, Berichte und optionales App-Blocking. Flowtime benötigt kein Konto. Timer- und Projektdaten werden lokal auf dem Gerät gespeichert.",
+    "fr": "Flowtime est un minuteur de concentration flexible et simple, avec suivi personnel du temps pour iPhone et Android. Il réunit Flow Sessions ouvertes, Pomodoro, rappels, projets, historique, rapports et blocage d’applications en option. Aucun compte n’est requis. Les données de minuteur et de projets sont stockées localement sur l’appareil."
+  },
+  "carousel": {
+    "de": "Karussell",
+    "fr": "carrousel"
+  },
+  "slide": {
+    "de": "Folie",
+    "fr": "diapositive"
+  },
+  "Article details": {
+    "de": "Artikeldetails",
+    "fr": "Informations sur l’article"
+  },
+  "Developer of Flowtime": {
+    "de": "Entwicklerin von Flowtime",
+    "fr": "Développeuse de Flowtime"
+  },
+  "Table of contents": {
+    "de": "Inhaltsverzeichnis",
+    "fr": "Table des matières"
+  },
+  "SOUND FAMILIAR?": {
+    "de": "KOMMT DIR DAS BEKANNT VOR?",
+    "fr": "ÇA VOUS PARLE ?"
+  },
+  "Some days, getting started is hard.": {
+    "de": "An manchen Tagen ist der Anfang schwer.",
+    "fr": "Certains jours, commencer est difficile."
+  },
+  "Other days, stopping is harder.": {
+    "de": "An anderen ist Aufhören schwieriger.",
+    "fr": "D’autres jours, s’arrêter l’est encore plus."
+  },
+  "A little more": {
+    "de": "Ein bisschen mehr",
+    "fr": "Un peu plus de"
+  },
+  "awareness.": {
+    "de": "Bewusstsein.",
+    "fr": "conscience."
+  },
+  "One quick thing.": {
+    "de": "Nur kurz etwas erledigen.",
+    "fr": "Juste une petite chose."
+  },
+  "Where did the afternoon go?": {
+    "de": "Wo ist der Nachmittag geblieben?",
+    "fr": "Où est passé l’après-midi ?"
+  },
+  "WHEN HOURS DISAPPEAR": {
+    "de": "WENN STUNDEN VERSCHWINDEN",
+    "fr": "QUAND LES HEURES FILENT"
+  },
+  "Make time visible.": {
+    "de": "Mach Zeit sichtbar.",
+    "fr": "Rendez le temps visible."
+  },
+  "A visible session and reminders help you notice how long you’ve been here.": {
+    "de": "Ein sichtbarer Timer und Erinnerungen helfen dir zu bemerken, wie lange du schon dabei bist.",
+    "fr": "Un minuteur visible et des rappels vous aident à remarquer le temps passé."
+  },
+  "Just one notification.": {
+    "de": "Nur eine Benachrichtigung.",
+    "fr": "Juste une notification."
+  },
+  "Back to what matters.": {
+    "de": "Zurück zum Wesentlichen.",
+    "fr": "Revenez à l’essentiel."
+  },
+  "WHEN EVERYTHING PULLS AT YOU": {
+    "de": "WENN ALLES AN DIR ZIEHT",
+    "fr": "QUAND TOUT VOUS SOLLICITE"
+  },
+  "Keep your attention.": {
+    "de": "Bleib bei deiner Sache.",
+    "fr": "Gardez votre attention."
+  },
+  "Block distracting apps for a while. Give the thing in front of you a little more room.": {
+    "de": "Blockiere ablenkende Apps für eine Weile. Gib deiner aktuellen Aufgabe etwas mehr Raum.",
+    "fr": "Bloquez les applications distrayantes un moment. Donnez plus de place à votre tâche."
+  },
+  "Your rhythm. Your call.": {
+    "de": "Dein Rhythmus. Deine Entscheidung.",
+    "fr": "Votre rythme. Votre choix."
+  },
+  "WHEN A FIXED TIMER DOESN’T FIT": {
+    "de": "WENN EIN FESTER TIMER NICHT PASST",
+    "fr": "QUAND UN MINUTEUR FIXE NE CONVIENT PAS"
+  },
+  "Leave room for flow.": {
+    "de": "Lass Raum für Flow.",
+    "fr": "Laissez place au flow."
+  },
+  "Use structured intervals when they help. Choose a flexible session when they don’t.": {
+    "de": "Nutze feste Intervalle, wenn sie helfen. Wähle eine flexible Session, wenn sie nicht passen.",
+    "fr": "Utilisez des intervalles structurés quand ils vous aident. Sinon, choisissez une session flexible."
+  },
+  "Your routine.": {
+    "de": "Deine Routine.",
+    "fr": "Votre routine."
+  },
+  "One tap away.": {
+    "de": "Nur einen Tipp entfernt.",
+    "fr": "En un seul geste."
+  },
+  "The way you work.": {
+    "de": "So, wie du arbeitest.",
+    "fr": "Votre façon de travailler."
+  },
+  "Ready when you are.": {
+    "de": "Bereit, wenn du es bist.",
+    "fr": "Prêt quand vous l’êtes."
+  },
+  "Quick Start Templates": {
+    "de": "Schnellstart-Vorlagen",
+    "fr": "Modèles de démarrage"
+  },
+  "Save the sessions you use most. Start again without setting everything up again.": {
+    "de": "Speichere deine häufigsten Sessions. Starte erneut, ohne alles neu einzurichten.",
+    "fr": "Enregistrez vos sessions habituelles. Relancez-les sans tout reconfigurer."
+  },
+  "Reminder Profiles": {
+    "de": "Erinnerungsprofile",
+    "fr": "Profils de rappel"
+  },
+  "Different work, different reminders. Keep a setup for studying, deep work, or taking a break.": {
+    "de": "Andere Aufgaben, andere Erinnerungen. Speichere Einstellungen fürs Lernen, konzentriertes Arbeiten oder Pausen.",
+    "fr": "Des tâches différentes, des rappels différents. Gardez un profil pour étudier, travailler en profondeur ou faire une pause."
+  },
+  "Included with Pro": {
+    "de": "In Pro enthalten",
+    "fr": "Inclus dans Pro"
+  },
+  "Flowtime Projects screen with Quick Setups": {
+    "de": "Flowtime-Projekte mit Schnellstart-Vorlagen",
+    "fr": "Écran Projets de Flowtime avec modèles rapides"
+  },
+  "YOUR NEXT SESSION": {
+    "de": "DEINE NÄCHSTE SESSION",
+    "fr": "VOTRE PROCHAINE SESSION"
+  },
+  "Already set up.": {
+    "de": "Schon eingerichtet.",
+    "fr": "Déjà prête."
+  },
+  "WHY I MADE FLOWTIME": {
+    "de": "WARUM ICH FLOWTIME ENTWICKELT HABE",
+    "fr": "POURQUOI J’AI CRÉÉ FLOWTIME"
+  },
+  "Ava’s avocado avatar": {
+    "de": "Avas Avocado-Avatar",
+    "fr": "Avatar avocat d’Ava"
+  },
+  "Independent developer · Switzerland": {
+    "de": "Unabhängige Entwicklerin · Schweiz",
+    "fr": "Développeuse indépendante · Suisse"
+  },
+  "Getting into flow.": {
+    "de": "In den Flow kommen.",
+    "fr": "Entrer dans le flow."
+  },
+  "And getting": {
+    "de": "Und wieder",
+    "fr": "Et savoir"
+  },
+  "out of it.": {
+    "de": "herausfinden.",
+    "fr": "en sortir."
+  },
+  "I have ADHD. Sometimes I can focus for hours, then find it difficult to switch off—even after I’ve stopped working.": {
+    "de": "Ich habe ADHS. Manchmal kann ich mich stundenlang konzentrieren und danach nur schwer abschalten – selbst wenn ich nicht mehr arbeite.",
+    "fr": "J’ai un TDAH. Je peux parfois me concentrer pendant des heures, puis avoir du mal à décrocher, même après avoir arrêté de travailler."
+  },
+  "Flowtime started as a way to focus longer. It became a way to step away on purpose, too. Sometimes that means starting a session, blocking distracting apps, and taking my dog for a walk.": {
+    "de": "Flowtime begann als Möglichkeit, länger konzentriert zu bleiben. Daraus wurde auch ein Weg, bewusst Abstand zu nehmen. Manchmal heisst das: eine Session starten, ablenkende Apps blockieren und mit meinem Hund spazieren gehen.",
+    "fr": "Flowtime m’a d’abord permis de me concentrer plus longtemps. Puis aussi de prendre du recul volontairement. Parfois, cela signifie lancer une session, bloquer les applications distrayantes et promener mon chien."
+  },
+  "More presence.": {
+    "de": "Mehr im Moment sein.",
+    "fr": "Plus de présence."
+  },
+  "Not just more productivity.": {
+    "de": "Nicht nur mehr Produktivität.",
+    "fr": "Pas seulement plus de productivité."
+  },
+  "The story behind Flowtime": {
+    "de": "Die Geschichte hinter Flowtime",
+    "fr": "L’histoire de Flowtime"
+  },
+  "A LITTLE PERSPECTIVE": {
+    "de": "EIN NEUER BLICKWINKEL",
+    "fr": "UN PEU DE RECUL"
+  },
+  "Your time,": {
+    "de": "Deine Zeit,",
+    "fr": "Votre temps,"
+  },
+  "in context.": {
+    "de": "im Überblick.",
+    "fr": "en contexte."
+  },
+  "Less guessing.": {
+    "de": "Weniger raten.",
+    "fr": "Moins de suppositions."
+  },
+  "More understanding.": {
+    "de": "Mehr verstehen.",
+    "fr": "Plus de compréhension."
+  },
+  "By project.": {
+    "de": "Nach Projekt.",
+    "fr": "Par projet."
+  },
+  "See what’s getting your attention.": {
+    "de": "Sieh, was deine Aufmerksamkeit bekommt.",
+    "fr": "Voyez ce qui retient votre attention."
+  },
+  "By timer mode.": {
+    "de": "Nach Timer-Modus.",
+    "fr": "Par mode de minuteur."
+  },
+  "Look back at how you chose to focus.": {
+    "de": "Blicke darauf zurück, wie du dich konzentriert hast.",
+    "fr": "Observez comment vous avez choisi de vous concentrer."
+  },
+  "Over time.": {
+    "de": "Im Zeitverlauf.",
+    "fr": "Au fil du temps."
+  },
+  "Choose a date range. Notice your patterns.": {
+    "de": "Wähle einen Zeitraum. Erkenne deine Muster.",
+    "fr": "Choisissez une période. Repérez vos habitudes."
+  },
+  "Explore reports & exports": {
+    "de": "Berichte & Exporte entdecken",
+    "fr": "Découvrir les rapports et exports"
+  },
+  "YOUR FOCUS. A CLEARER PICTURE.": {
+    "de": "DEIN FOKUS. EIN KLARERES BILD.",
+    "fr": "VOTRE CONCENTRATION. PLUS CLAIREMENT."
+  },
+  "Flowtime History showing focus time, activity and top projects": {
+    "de": "Flowtime-Verlauf mit Fokuszeit, Aktivität und Top-Projekten",
+    "fr": "Historique Flowtime avec temps de concentration, activité et principaux projets"
+  },
+  "GOOD TO KNOW": {
+    "de": "GUT ZU WISSEN",
+    "fr": "BON À SAVOIR"
+  },
+  "A few things": {
+    "de": "Ein paar Dinge,",
+    "fr": "Quelques questions"
+  },
+  "you might": {
+    "de": "die du dich",
+    "fr": "que vous vous"
+  },
+  "be wondering.": {
+    "de": "vielleicht fragst.",
+    "fr": "posez peut-être."
+  },
+  "All questions & answers": {
+    "de": "Alle Fragen & Antworten",
+    "fr": "Toutes les questions et réponses"
+  },
+  "Who is Flowtime for?": {
+    "de": "Für wen ist Flowtime?",
+    "fr": "À qui s’adresse Flowtime ?"
+  },
+  "For work, study, creative projects, and anyone who wants to see where their time goes. Especially when starting, stopping, or noticing time doesn’t come easily.": {
+    "de": "Für Arbeit, Studium, kreative Projekte und alle, die sehen möchten, wo ihre Zeit bleibt. Besonders wenn Anfangen, Aufhören oder Zeitwahrnehmung schwerfallen.",
+    "fr": "Pour le travail, les études, les projets créatifs et tous ceux qui veulent savoir où passe leur temps. Surtout quand commencer, s’arrêter ou percevoir le temps n’est pas facile."
+  },
+  "Is it just a Pomodoro timer?": {
+    "de": "Ist es nur ein Pomodoro-Timer?",
+    "fr": "Est-ce simplement un minuteur Pomodoro ?"
+  },
+  "Pomodoro is one option. Classic counts up, Flowmodoro bases breaks on your focus time, and Flow Sessions let you choose a target without rigid intervals.": {
+    "de": "Pomodoro ist eine Option. Classic zählt hoch, Flowmodoro passt Pausen an deine Fokuszeit an, und Flow Sessions lassen dich ein Ziel ohne starre Intervalle wählen.",
+    "fr": "Pomodoro est une option. Classic compte le temps, Flowmodoro adapte les pauses à votre concentration et Flow Sessions permet de choisir un objectif sans intervalles rigides."
+  },
+  "Which languages does the app support?": {
+    "de": "Welche Sprachen unterstützt die App?",
+    "fr": "Quelles langues l’application prend-elle en charge ?"
+  },
+  "English, German, Spanish, French, Italian, Japanese, Korean, Dutch, Polish, and Portuguese.": {
+    "de": "Englisch, Deutsch, Spanisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Polnisch und Portugiesisch.",
+    "fr": "Anglais, allemand, espagnol, français, italien, japonais, coréen, néerlandais, polonais et portugais."
+  },
+  "No. Open Flowtime and start. Timer and project data stay on your device.": {
+    "de": "Nein. Öffne Flowtime und leg los. Timer- und Projektdaten bleiben auf deinem Gerät.",
+    "fr": "Non. Ouvrez Flowtime et lancez-vous. Les données de minuteur et de projets restent sur votre appareil."
+  },
+  "TRY IT HERE": {
+    "de": "PROBIERE ES AUS",
+    "fr": "ESSAYEZ ICI"
+  },
+  "One small": {
+    "de": "Ein kleiner",
+    "fr": "Un petit"
+  },
+  "start.": {
+    "de": "Anfang.",
+    "fr": "départ."
+  },
+  "Give it a moment.": {
+    "de": "Nimm dir einen Moment.",
+    "fr": "Accordez-vous un instant."
+  },
+  "Try a simple timer here.": {
+    "de": "Probiere hier einen einfachen Timer aus.",
+    "fr": "Essayez un minuteur simple ici."
+  },
+  "Your session stays in this page.": {
+    "de": "Deine Session bleibt auf dieser Seite.",
+    "fr": "Votre session reste sur cette page."
+  },
+  "YOUR TIME STARTS HERE": {
+    "de": "DEINE ZEIT BEGINNT HIER",
+    "fr": "VOTRE TEMPS COMMENCE ICI"
+  },
+  "Elapsed time": {
+    "de": "Vergangene Zeit",
+    "fr": "Temps écoulé"
+  },
+  "Start": {
+    "de": "Starten",
+    "fr": "Démarrer"
+  },
+  "Pause Ⅱ": {
+    "de": "Pause Ⅱ",
+    "fr": "Pause Ⅱ"
+  },
+  "Continue": {
+    "de": "Fortsetzen",
+    "fr": "Continuer"
+  },
+  "Reset timer": {
+    "de": "Timer zurücksetzen",
+    "fr": "Réinitialiser le minuteur"
+  },
+  "Whenever you’re ready.": {
+    "de": "Wenn du bereit bist.",
+    "fr": "Quand vous le souhaitez."
+  },
+  "A little time for you.": {
+    "de": "Ein bisschen Zeit für dich.",
+    "fr": "Un peu de temps pour vous."
+  },
+  "Take your time.": {
+    "de": "Nimm dir Zeit.",
+    "fr": "Prenez votre temps."
+  },
+  "LESS SETUP. MORE FOCUS.": {
+    "de": "WENIGER EINRICHTUNG. MEHR FOKUS.",
+    "fr": "MOINS DE RÉGLAGES. PLUS DE CONCENTRATION."
+  },
+  "Flowtime Quick Start template settings": {
+    "de": "Flowtime-Einstellungen für Schnellstart-Vorlagen",
+    "fr": "Réglages des modèles de démarrage rapide Flowtime"
+  },
+  "MAKE IT YOURS": {
+    "de": "GANZ DEIN STIL",
+    "fr": "À VOTRE IMAGE"
+  },
+  "Your style.": {
+    "de": "Dein Stil.",
+    "fr": "Votre style."
+  },
+  "Light or dark.": {
+    "de": "Hell oder dunkel.",
+    "fr": "Clair ou sombre."
+  },
+  "Bold or minimal.": {
+    "de": "Markant oder minimalistisch.",
+    "fr": "Affirmé ou minimaliste."
+  },
+  "A classic touch.": {
+    "de": "Ein Hauch Klassik.",
+    "fr": "Une touche classique."
+  },
+  "Bold after dark.": {
+    "de": "Markant im Dunkeln.",
+    "fr": "Du caractère dans le noir."
+  },
+  "Less on screen.": {
+    "de": "Weniger auf dem Bildschirm.",
+    "fr": "Moins à l’écran."
+  },
+  "Simply bold.": {
+    "de": "Einfach markant.",
+    "fr": "Simplement affirmé."
+  },
+  "Flowtime light timer with serif digits": {
+    "de": "Heller Flowtime-Timer mit Serifenziffern",
+    "fr": "Minuteur Flowtime clair avec chiffres à empattements"
+  },
+  "Flowtime dark timer with rounded white digits": {
+    "de": "Dunkler Flowtime-Timer mit runden weißen Ziffern",
+    "fr": "Minuteur Flowtime sombre avec chiffres blancs arrondis"
+  },
+  "Flowtime minimal timer with outlined digits": {
+    "de": "Minimalistischer Flowtime-Timer mit umrandeten Ziffern",
+    "fr": "Minuteur Flowtime minimaliste avec chiffres en contour"
+  },
+  "Flowtime minimal timer with bold black digits": {
+    "de": "Minimalistischer Flowtime-Timer mit kräftigen schwarzen Ziffern",
+    "fr": "Minuteur Flowtime minimaliste avec chiffres noirs épais"
+  },
+  "Your rhythm.": {
+    "de": "Dein Rhythmus.",
+    "fr": "Votre rythme."
+  },
+  "Your call.": {
+    "de": "Deine Entscheidung.",
+    "fr": "Votre choix."
+  },
+  "WHY FLOWTIME EXISTS": {
+    "de": "WARUM ES FLOWTIME GIBT",
+    "fr": "POURQUOI FLOWTIME EXISTE"
+  },
+  "Founder · Switzerland": {
+    "de": "Gründerin · Schweiz",
+    "fr": "Fondatrice · Suisse"
+  },
+  "Owned by gugus": {
+    "de": "Im Besitz von gugus",
+    "fr": "Propriété de gugus"
+  },
+  "Founded by Ava.": {
+    "de": "Von Ava gegründet.",
+    "fr": "Fondé par Ava."
+  },
+  "Flowtime is owned by gugus and founded by Ava.": {
+    "de": "Flowtime gehört gugus und wurde von Ava gegründet.",
+    "fr": "Flowtime appartient à gugus et a été fondé par Ava."
+  },
+  "Ava, Flowtime’s founder, has ADHD. Hyperfocus can keep her mentally caught up in work, features, or UI details for weeks—even after she has physically stopped working.": {
+    "de": "Ava, die Gründerin von Flowtime, hat ADHS. Durch Hyperfokus kann sie gedanklich wochenlang bei der Arbeit, Funktionen oder UI-Details bleiben – selbst wenn sie längst aufgehört hat zu arbeiten.",
+    "fr": "Ava, la fondatrice de Flowtime, a un TDAH. L’hyperfocus peut la garder mentalement absorbée par le travail, des fonctionnalités ou des détails d’interface pendant des semaines, même après avoir physiquement arrêté de travailler."
+  },
+  "Flowtime began as a way to focus longer. It also became a way to unfocus on purpose. Ava sometimes starts a one-hour FlowSession, blocks distracting apps, and walks her dog. With the timer running and those apps unavailable, she finds it easier to be present instead of checking her phone or thinking about work.": {
+    "de": "Flowtime begann als Möglichkeit, sich länger zu konzentrieren. Es wurde auch zu einem Weg, bewusst loszulassen. Manchmal startet Ava eine einstündige FlowSession, blockiert ablenkende Apps und geht mit ihrem Hund spazieren. Wenn der Timer läuft und diese Apps nicht verfügbar sind, fällt es ihr leichter, im Moment zu bleiben, statt aufs Handy zu schauen oder an die Arbeit zu denken.",
+    "fr": "Flowtime était au départ un moyen de se concentrer plus longtemps. Il est aussi devenu un moyen de décrocher volontairement. Ava lance parfois une FlowSession d’une heure, bloque les applications distrayantes et promène son chien. Avec le minuteur en marche et ces applications indisponibles, elle trouve plus facile d’être présente plutôt que de consulter son téléphone ou de penser au travail."
+  },
+  "Ava, the founder of Flowtime, has ADHD. During intense hyperfocus, she can spend weeks mentally stuck on work, features, UI details, or whatever her brain has decided matters. Even when she stops working physically, her brain often keeps going. That experience influenced Flowtime, a flexible focus timer and time tracker for anyone.": {
+    "de": "Ava, die Gründerin von Flowtime, hat ADHS. In intensivem Hyperfokus kann sie gedanklich wochenlang bei der Arbeit, Funktionen, UI-Details oder dem bleiben, was ihr Gehirn gerade für wichtig hält. Selbst wenn sie körperlich aufhört zu arbeiten, läuft ihr Kopf oft weiter. Diese Erfahrung hat Flowtime geprägt: einen flexiblen Fokus-Timer und eine Zeiterfassung für alle.",
+    "fr": "Ava, la fondatrice de Flowtime, a un TDAH. Pendant les périodes d’hyperfocus intense, elle peut rester mentalement absorbée pendant des semaines par le travail, des fonctionnalités, des détails d’interface ou tout ce que son cerveau a décidé de considérer comme important. Même lorsqu’elle cesse physiquement de travailler, son esprit continue souvent. Cette expérience a influencé Flowtime, un minuteur de concentration et un outil de suivi du temps flexibles, pour tout le monde."
+  },
+  "Flowtime began as a way to focus longer. Over time, it also became a way to unfocus on purpose. Sometimes Ava starts a one-hour FlowSession, blocks distracting apps, and goes for a walk with her dog. Knowing the timer is running and the usual apps are unavailable makes it easier for her to be present instead of repeatedly checking her phone or thinking about work.": {
+    "de": "Flowtime begann als Möglichkeit, sich länger zu konzentrieren. Mit der Zeit wurde es auch zu einem Weg, bewusst loszulassen. Manchmal startet Ava eine einstündige FlowSession, blockiert ablenkende Apps und geht mit ihrem Hund spazieren. Das Wissen, dass der Timer läuft und die üblichen Apps nicht verfügbar sind, hilft ihr, im Moment zu bleiben, statt immer wieder aufs Handy zu schauen oder an die Arbeit zu denken.",
+    "fr": "Flowtime était au départ un moyen de se concentrer plus longtemps. Au fil du temps, il est aussi devenu un moyen de décrocher volontairement. Parfois, Ava lance une FlowSession d’une heure, bloque les applications distrayantes et part promener son chien. Savoir que le minuteur tourne et que les applications habituelles sont indisponibles l’aide à être présente plutôt qu’à consulter sans cesse son téléphone ou à penser au travail."
+  },
+  "Why was Flowtime created?": {
+    "de": "Warum wurde Flowtime entwickelt?",
+    "fr": "Pourquoi Flowtime a-t-il été créé ?"
+  },
+  "Explore the articles": {
+    "de": "Artikel entdecken",
+    "fr": "Explorer les articles"
+  },
+  "Serif timer": {
+    "de": "Timer mit Serifenschrift",
+    "fr": "Minuteur à empattements"
+  },
+  "Flowtime Serif timer": {
+    "de": "Flowtime Timer mit Serifenschrift",
+    "fr": "Flowtime Minuteur à empattements"
+  },
+  "Dark timer": {
+    "de": "Dunkler Timer",
+    "fr": "Minuteur sombre"
+  },
+  "Flowtime Dark timer": {
+    "de": "Flowtime Dunkler Timer",
+    "fr": "Flowtime Minuteur sombre"
+  },
+  "Outline timer": {
+    "de": "Timer mit Konturschrift",
+    "fr": "Minuteur en contour"
+  },
+  "Flowtime Outline timer": {
+    "de": "Flowtime Timer mit Konturschrift",
+    "fr": "Flowtime Minuteur en contour"
+  },
+  "Bold timer": {
+    "de": "Timer mit fetter Schrift",
+    "fr": "Minuteur en gras"
+  },
+  "Flowtime Bold timer": {
+    "de": "Flowtime Timer mit fetter Schrift",
+    "fr": "Flowtime Minuteur en gras"
+  },
+  "Projects": {
+    "de": "Projekte",
+    "fr": "Projets"
+  },
+  "Flowtime Projects": {
+    "de": "Flowtime Projekte",
+    "fr": "Flowtime Projets"
+  },
+  "History": {
+    "de": "Verlauf",
+    "fr": "Historique"
+  },
+  "Flowtime History": {
+    "de": "Flowtime Verlauf",
+    "fr": "Flowtime Historique"
+  },
+  "Reports": {
+    "de": "Berichte",
+    "fr": "Rapports"
+  },
+  "Flowtime Reports": {
+    "de": "Flowtime Berichte",
+    "fr": "Flowtime Rapports"
+  },
+  "Founder": {
+    "de": "Gründerin",
+    "fr": "Fondatrice"
+  },
+  "Owner": {
+    "de": "Eigentümer",
+    "fr": "Propriétaire"
+  },
+  "Ava · Switzerland": {
+    "de": "Ava · Schweiz",
+    "fr": "Ava · Suisse"
+  },
+  "Founder avatar · PNG": {
+    "de": "Avatar der Gründerin · PNG",
+    "fr": "Avatar de la fondatrice · PNG"
+  },
+  "Official screenshots": {
+    "de": "Offizielle Screenshots",
+    "fr": "Captures d’écran officielles"
+  },
+  "Classic counts up without a fixed end. Pomodoro alternates focus and break intervals. Flowmodoro lets your focus session determine your break, while Flow Sessions let you set a target without rigid intervals. Start with the mode that feels easiest for the task in front of you.": {
+    "de": "Classic zählt ohne festes Ende hoch. Pomodoro wechselt zwischen Fokus- und Pausenintervallen. Bei Flowmodoro bestimmt die Fokuszeit die Pausenlänge, während du mit Flow Sessions ein Ziel ohne starre Intervalle setzen kannst. Beginne mit dem Modus, der sich für deine Aufgabe am einfachsten anfühlt.",
+    "fr": "Classic compte le temps sans fin prédéfinie. Pomodoro alterne concentration et pauses. Avec Flowmodoro, la durée de concentration détermine la pause, tandis que les Flow Sessions permettent de fixer un objectif sans intervalles rigides. Commencez par le mode qui vous semble le plus simple pour votre tâche."
+  }
+}

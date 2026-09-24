@@ -7,3 +7,5 @@ flowtime-mobile.png
 flowtime-classic.png
 flowtime-dark.png
 flowtime-mono.png
+__pycache__/
+*.pyc

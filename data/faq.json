@@ -1,0 +1,82 @@
+[
+  {
+    "category": "Getting started",
+    "question": "What is Flowtime?",
+    "answer": "Flowtime is a flexible focus timer and personal time tracker for iPhone and Android. Use it for work, study, creative projects, or simply noticing where your time goes."
+  },
+  {
+    "category": "Getting started",
+    "question": "Do I need an account?",
+    "answer": "No account is required. Open the app and start a timer. Your timer and project data are stored locally on your device."
+  },
+  {
+    "category": "Getting started",
+    "question": "Which devices are supported?",
+    "answer": "Flowtime is available for iPhone through the App Store and for Android through Google Play. Check your store listing for the current device and operating system requirements."
+  },
+  {
+    "category": "Timers & focus",
+    "question": "Which timer mode should I use?",
+    "answer": "Classic counts up without a fixed end. Pomodoro alternates focus and break intervals. Flowmodoro lets your focus session determine your break, while Flow Sessions let you set a target without rigid intervals. Start with the mode that feels easiest for the task in front of you."
+  },
+  {
+    "category": "Timers & focus",
+    "question": "Can Flowtime remind me that time is passing?",
+    "answer": "Yes. Focus reminders help you notice passing time without constantly checking the timer. Pro adds Reminder Profiles so you can tailor reminders to different kinds of work."
+  },
+  {
+    "category": "Timers & focus",
+    "question": "How does App Shielding work?",
+    "answer": "App Shielding is an optional Pro feature that helps block distracting apps during focus. You choose whether to use it and grant the permissions it needs. An override keeps you in control when you need access."
+  },
+  {
+    "category": "Free & Pro",
+    "question": "What is included for free?",
+    "answer": "Free includes the standard timer, basic notifications, Pomodoro with fixed intervals, one project, and one day of history."
+  },
+  {
+    "category": "Free & Pro",
+    "question": "What does Pro add?",
+    "answer": "Pro adds Flow Sessions, Flowmodoro, custom Pomodoro intervals, unlimited projects and history, App Shielding, Quick Start Templates, Reminder Profiles, accent colors, reports, and exports."
+  },
+  {
+    "category": "Free & Pro",
+    "question": "Where do I buy Pro?",
+    "answer": "Download Flowtime from your app store, then choose Pro inside the app. Monthly, yearly, and lifetime options are available. Your store displays the final local price and purchase terms before you confirm."
+  },
+  {
+    "category": "Free & Pro",
+    "question": "How do I manage my subscription?",
+    "answer": "Use the subscription settings of the Apple or Google account used for your purchase. If a purchase is not showing in Flowtime, contact support with your platform and app version."
+  },
+  {
+    "category": "Privacy & support",
+    "question": "Does Flowtime work offline?",
+    "answer": "The timer and locally stored project data do not require an account or cloud sync. Downloading the app, making purchases, and opening external support or store pages require an internet connection."
+  },
+  {
+    "category": "Privacy & support",
+    "question": "Does my data sync between devices?",
+    "answer": "Timer and project data are stored locally on your device. Flowtime does not currently offer cloud sync. Keep this in mind before removing the app or moving to a new device."
+  },
+  {
+    "category": "Privacy & support",
+    "question": "How can I report a problem or suggest a feature?",
+    "answer": "Use the support link below. Include your device, operating system, Flowtime version, and a short description of what happened or what you would like to see."
+  },
+  {
+    "category": "Getting started",
+    "question": "Who is Flowtime for?",
+    "answer": "For work, study, creative projects, and anyone who wants to see where their time goes. Especially when starting, stopping, or noticing time doesn’t come easily."
+  },
+  {
+    "category": "Timers & focus",
+    "question": "Is it just a Pomodoro timer?",
+    "answer": "Pomodoro is one option. Classic counts up, Flowmodoro bases breaks on your focus time, and Flow Sessions let you choose a target without rigid intervals."
+  },
+  {
+    "category": "Getting started",
+    "question": "Which languages does the app support?",
+    "answer": "English, German, Spanish, French, Italian, Japanese, Korean, Dutch, Polish, and Portuguese."
+  }
+]

@@ -73,6 +73,9 @@
   translations["blog.count_multiple"] = dict.labels.countMultiple;
   if (window.flowtimeAddTranslations) window.flowtimeAddTranslations(locale, translations);
 
+  if (window.flowtimeLocalizeCampaign) window.flowtimeLocalizeCampaign();
+  if (!document.querySelector("[data-blog-grid]") || document.body.dataset.blogCategory !== "adhd") return;
+
   var page = dict.page;
   document.title = page.metaTitle;
   [

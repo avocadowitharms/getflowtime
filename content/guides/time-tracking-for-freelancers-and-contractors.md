@@ -52,9 +52,9 @@ At the end of the week, review what was billable, what supported billable work, 
 
 ## Related articles
 
-- [Best App for Tracking Time Spent on Tasks and Projects](../../comparison/best-app-for-tracking-time-on-tasks-and-projects/)
-- [Flowtime vs Toggl Track](../../comparison/flowtime-vs-toggl/)
-- [Time Tracker Without an Account](../time-tracker-without-account/)
+- [Best App for Tracking Time Spent on Tasks and Projects](../../comparison/best-app-for-tracking-time-spent-on-tasks-and-projects/)
+- [Flowtime vs Toggl Track](../../comparison/flowtime-vs-toggl-track/)
+- [Time Tracker Without an Account](../time-tracker-without-an-account/)
 - [How to Find Out Where Your Time Actually Goes](../how-to-find-out-where-your-time-actually-goes/)
 
 ## FAQ

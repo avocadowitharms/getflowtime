@@ -78,8 +78,8 @@ If you spend more time configuring the system than using it, that is a sign to s
 ## Related articles
 - [The Best Productivity System Is the One You Forget About](../../guides/the-best-productivity-system-is-the-one-you-forget-about/)
 - [Why Most Time Tracking Apps Feel Overengineered](../../guides/why-most-time-tracking-apps-feel-overengineered/)
-- [Time Tracker Without an Account](../../guides/time-tracker-without-account/)
-- [Flowtime vs Focus To-Do](../flowtime-vs-focus-todo/)
+- [Time Tracker Without an Account](../../guides/time-tracker-without-an-account/)
+- [Flowtime vs Focus To-Do](../flowtime-vs-focus-to-do/)
 
 ## FAQ
 

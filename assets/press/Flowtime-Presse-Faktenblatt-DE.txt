@@ -7,7 +7,7 @@ Kategorie: Produktivität / Fokus / Zeitbewusstsein
 Plattformen: iOS (iPhone) und Android
 Entwicklerin: Ava Thalheim (Indie-Entwicklerin)
 Standort: Schweiz
-Geschäftsmodell: Kostenlos + Flowtime Pro (3,99 $/Monat, 24,99 $/Jahr, 49,99 $ Lebenslang)
+Geschäftsmodell: Kostenlos + Flowtime Pro (2,99 $/Monat, 24,99 $/Jahr, 49,99 $ Lebenslang)
 Datenschutz: Kein Konto erforderlich, lokale Datenspeicherung
 Website: https://flowtime-app.com
 Pressekontakt: ava@flowtime-app.com

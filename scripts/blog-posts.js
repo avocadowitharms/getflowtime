@@ -1,6 +1,6 @@
 window.flowtimeBlogPosts = [
   {
-    "slug": "interrupting-autopilot-conscious-app-blocking",
+    "slug": "interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps",
     "category": "guides",
     "title": "Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps",
     "description": "App blockers work best not by enforcing strict lockouts, but by interrupting automatic phone habits. Learn how conscious app blocking in Flowtime supports focus, time awareness, hyperfocus, and intentional breaks.",
@@ -33,7 +33,7 @@ window.flowtimeBlogPosts = [
     "readingTime": "6 min read"
   },
   {
-    "slug": "adhd-focus-timer-for-time-blindness",
+    "slug": "focus-timer-for-time-blindness",
     "category": "guides",
     "title": "Focus Timer for Time Blindness",
     "description": "How a flexible focus timer can make passing time easier to notice, including for some people with ADHD who experience time blindness or hyperfocus.",
@@ -49,17 +49,17 @@ window.flowtimeBlogPosts = [
     "readingTime": "4 min read"
   },
   {
-    "slug": "adhd-hyperfocus-how-to-stop-without-killing-your-focus",
+    "slug": "a-simple-focus-timer-for-work-study-and-deep-focus",
     "category": "guides",
-    "title": "Hyperfocus: How to Stop Without Killing Your Focus",
-    "description": "A practical guide to using a hyperfocus timer, focus reminders, and flexible session boundaries without relying on abrupt interruptions or rigid timer rules.",
+    "title": "A Simple Focus Timer for Work, Study, and Deep Focus",
+    "description": "A broad product-category guide to simple focus timers for work, study, deep focus, ADHD time awareness, reminders, app blocking, and low-friction time tracking.",
     "date": "2026-07-13",
     "author": "Ava Thalheim",
     "authorRole": "Developer of Flowtime",
     "tags": [
-      "adhd",
-      "hyperfocus",
-      "focus"
+      "focus",
+      "study",
+      "time tracking"
     ],
     "featuredImage": "",
     "readingTime": "4 min read"
@@ -81,23 +81,7 @@ window.flowtimeBlogPosts = [
     "readingTime": "4 min read"
   },
   {
-    "slug": "gentle-time-reminders-for-adhd-time-blindness",
-    "category": "guides",
-    "title": "Time Reminders for Time Blindness",
-    "description": "Why focus reminders can work better than aggressive alarms for time awareness, hyperfocus check-ins, and flexible focus sessions.",
-    "date": "2026-07-13",
-    "author": "Ava Thalheim",
-    "authorRole": "Developer of Flowtime",
-    "tags": [
-      "adhd",
-      "time awareness",
-      "focus"
-    ],
-    "featuredImage": "",
-    "readingTime": "4 min read"
-  },
-  {
-    "slug": "how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything",
+    "slug": "how-i-reduce-phone-distractions-when-i-want-to-check-everything",
     "category": "guides",
     "title": "How I Reduce Phone Distractions When I Want to Check Everything",
     "description": "A personal note on phone checking, Instagram, messages, weather, email, app blocking, and reducing decisions during focus time.",
@@ -129,6 +113,22 @@ window.flowtimeBlogPosts = [
     "readingTime": "4 min read"
   },
   {
+    "slug": "hyperfocus-how-to-stop-without-killing-your-focus",
+    "category": "guides",
+    "title": "Hyperfocus: How to Stop Without Killing Your Focus",
+    "description": "A practical guide to using a hyperfocus timer, focus reminders, and flexible session boundaries without relying on abrupt interruptions or rigid timer rules.",
+    "date": "2026-07-13",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "adhd",
+      "hyperfocus",
+      "focus"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
     "slug": "i-use-a-focus-timer-to-stop-focusing",
     "category": "guides",
     "title": "I Use a Focus Timer to Stop Focusing",
@@ -145,17 +145,17 @@ window.flowtimeBlogPosts = [
     "readingTime": "4 min read"
   },
   {
-    "slug": "simple-focus-timer-for-work-study-and-deep-focus",
+    "slug": "time-reminders-for-time-blindness",
     "category": "guides",
-    "title": "A Simple Focus Timer for Work, Study, and Deep Focus",
-    "description": "A broad product-category guide to simple focus timers for work, study, deep focus, ADHD time awareness, reminders, app blocking, and low-friction time tracking.",
+    "title": "Time Reminders for Time Blindness",
+    "description": "Why focus reminders can work better than aggressive alarms for time awareness, hyperfocus check-ins, and flexible focus sessions.",
     "date": "2026-07-13",
     "author": "Ava Thalheim",
     "authorRole": "Developer of Flowtime",
     "tags": [
-      "focus",
-      "study",
-      "time tracking"
+      "adhd",
+      "time awareness",
+      "focus"
     ],
     "featuredImage": "",
     "readingTime": "4 min read"
@@ -171,22 +171,6 @@ window.flowtimeBlogPosts = [
     "tags": [
       "app blocking",
       "phone distraction",
-      "focus"
-    ],
-    "featuredImage": "",
-    "readingTime": "4 min read"
-  },
-  {
-    "slug": "why-adhd-makes-you-lose-track-of-time",
-    "category": "guides",
-    "title": "Why You Lose Track of Time",
-    "description": "A practical guide to ADHD time blindness, why passing time can be hard to feel, and how external cues can support time awareness.",
-    "date": "2026-07-13",
-    "author": "Ava Thalheim",
-    "authorRole": "Developer of Flowtime",
-    "tags": [
-      "adhd",
-      "time awareness",
       "focus"
     ],
     "featuredImage": "",
@@ -209,7 +193,7 @@ window.flowtimeBlogPosts = [
     "readingTime": "4 min read"
   },
   {
-    "slug": "why-pomodoro-doesnt-always-work-for-adhd",
+    "slug": "why-pomodoro-doesnt-always-work",
     "category": "guides",
     "title": "Why Pomodoro Doesn't Always Work",
     "description": "A balanced look at Pomodoro for ADHD, why fixed 25-minute intervals can help or frustrate, and when a flexible Pomodoro alternative fits better.",
@@ -225,32 +209,16 @@ window.flowtimeBlogPosts = [
     "readingTime": "4 min read"
   },
   {
-    "slug": "adhd-focus-timer-vs-pomodoro-whats-the-difference",
-    "category": "comparison",
-    "title": "Focus Timer vs Pomodoro: What's the Difference?",
-    "description": "Compare flexible focus timers and Pomodoro for session structure, time awareness, and reminders, with considerations for ADHD and hyperfocus.",
+    "slug": "why-you-lose-track-of-time",
+    "category": "guides",
+    "title": "Why You Lose Track of Time",
+    "description": "A practical guide to ADHD time blindness, why passing time can be hard to feel, and how external cues can support time awareness.",
     "date": "2026-07-13",
     "author": "Ava Thalheim",
     "authorRole": "Developer of Flowtime",
     "tags": [
-      "comparison",
       "adhd",
-      "pomodoro"
-    ],
-    "featuredImage": "",
-    "readingTime": "4 min read"
-  },
-  {
-    "slug": "best-focus-apps-for-adhd-arent-always-planners",
-    "category": "comparison",
-    "title": "The Best Focus Apps Aren't Always Planners",
-    "description": "A balanced guide to ADHD focus apps, planners, timers, app blockers, body doubling, and tools that solve one small problem well.",
-    "date": "2026-07-13",
-    "author": "Ava Thalheim",
-    "authorRole": "Developer of Flowtime",
-    "tags": [
-      "comparison",
-      "adhd",
+      "time awareness",
       "focus"
     ],
     "featuredImage": "",
@@ -268,6 +236,38 @@ window.flowtimeBlogPosts = [
       "comparison",
       "focus",
       "time tracking"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
+    "slug": "focus-timer-vs-pomodoro-whats-the-difference",
+    "category": "comparison",
+    "title": "Focus Timer vs Pomodoro: What's the Difference?",
+    "description": "Compare flexible focus timers and Pomodoro for session structure, time awareness, and reminders, with considerations for ADHD and hyperfocus.",
+    "date": "2026-07-13",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "comparison",
+      "adhd",
+      "pomodoro"
+    ],
+    "featuredImage": "",
+    "readingTime": "4 min read"
+  },
+  {
+    "slug": "the-best-focus-apps-arent-always-planners",
+    "category": "comparison",
+    "title": "The Best Focus Apps Aren't Always Planners",
+    "description": "A balanced guide to ADHD focus apps, planners, timers, app blockers, body doubling, and tools that solve one small problem well.",
+    "date": "2026-07-13",
+    "author": "Ava Thalheim",
+    "authorRole": "Developer of Flowtime",
+    "tags": [
+      "comparison",
+      "adhd",
+      "focus"
     ],
     "featuredImage": "",
     "readingTime": "4 min read"
@@ -417,7 +417,7 @@ window.flowtimeBlogPosts = [
     "readingTime": "4 min read"
   },
   {
-    "slug": "flowtime-vs-focus-todo",
+    "slug": "flowtime-vs-focus-to-do",
     "category": "comparison",
     "title": "Flowtime vs Focus To-Do",
     "description": "Compare Flowtime and Focus To-Do for Pomodoro sessions, task lists, project tracking, reminders, and low-friction personal productivity.",
@@ -513,7 +513,7 @@ window.flowtimeBlogPosts = [
     "readingTime": "4 min read"
   },
   {
-    "slug": "time-tracker-without-account",
+    "slug": "time-tracker-without-an-account",
     "category": "guides",
     "title": "Time Tracker Without an Account",
     "description": "A practical guide to choosing a private, low-friction time tracker that works without sign-up, sync, or account setup.",
@@ -529,7 +529,7 @@ window.flowtimeBlogPosts = [
     "readingTime": "5 min read"
   },
   {
-    "slug": "best-app-for-tracking-time-on-tasks-and-projects",
+    "slug": "best-app-for-tracking-time-spent-on-tasks-and-projects",
     "category": "comparison",
     "title": "Best App for Tracking Time Spent on Tasks and Projects",
     "description": "What to look for in a time tracking app for tasks, projects, timers, reminders, reports, and focused personal productivity.",
@@ -545,7 +545,7 @@ window.flowtimeBlogPosts = [
     "readingTime": "4 min read"
   },
   {
-    "slug": "flowtime-vs-toggl",
+    "slug": "flowtime-vs-toggl-track",
     "category": "comparison",
     "title": "Flowtime vs Toggl Track",
     "description": "A practical comparison of Flowtime and Toggl Track for people choosing between simple focus tracking and team-oriented time tracking.",

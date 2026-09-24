@@ -72,9 +72,9 @@ A good system should let you return without a long cleanup ritual. If you can op
 
 ## Related articles
 - [Why Most Time Tracking Apps Feel Overengineered](../why-most-time-tracking-apps-feel-overengineered/)
-- [Time Tracker Without an Account](../time-tracker-without-account/)
+- [Time Tracker Without an Account](../time-tracker-without-an-account/)
 - [Best Offline Time Trackers](../best-offline-time-trackers/)
-- [Best App for Tracking Time Spent on Tasks and Projects](../../comparison/best-app-for-tracking-time-on-tasks-and-projects/)
+- [Best App for Tracking Time Spent on Tasks and Projects](../../comparison/best-app-for-tracking-time-spent-on-tasks-and-projects/)
 
 ## FAQ
 

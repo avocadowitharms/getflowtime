@@ -234,12 +234,12 @@ function relatedArticles(current, posts) {
 }
 
 function getHreflangTags(post) {
-  if (post.slug === "interrupting-autopilot-conscious-app-blocking") {
+  if (post.slug === "interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps") {
     return [
-      `<link rel="alternate" hreflang="en" href="${siteUrl}/guides/interrupting-autopilot-conscious-app-blocking/" />`,
+      `<link rel="alternate" hreflang="en" href="${siteUrl}/guides/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/" />`,
       `<link rel="alternate" hreflang="de" href="${siteUrl}/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/" />`,
       `<link rel="alternate" hreflang="fr" href="${siteUrl}/fr/blog/interrompre-pilote-automatique-blocage-applications/" />`,
-      `<link rel="alternate" hreflang="x-default" href="${siteUrl}/guides/interrupting-autopilot-conscious-app-blocking/" />`
+      `<link rel="alternate" hreflang="x-default" href="${siteUrl}/guides/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/" />`
     ].join("\n  ");
   }
   return "";
@@ -261,10 +261,10 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
   const readTimeLabel = isDe ? "5 Min. Lesezeit" : "5 min de lecture";
 
   const hreflangs = [
-    `<link rel="alternate" hreflang="en" href="${siteUrl}/guides/interrupting-autopilot-conscious-app-blocking/" />`,
+    `<link rel="alternate" hreflang="en" href="${siteUrl}/guides/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/" />`,
     `<link rel="alternate" hreflang="de" href="${siteUrl}/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/" />`,
     `<link rel="alternate" hreflang="fr" href="${siteUrl}/fr/blog/interrompre-pilote-automatique-blocage-applications/" />`,
-    `<link rel="alternate" hreflang="x-default" href="${siteUrl}/guides/interrupting-autopilot-conscious-app-blocking/" />`
+    `<link rel="alternate" hreflang="x-default" href="${siteUrl}/guides/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/" />`
   ].join("\n  ");
 
   const deBodyHtml = `
@@ -324,7 +324,7 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
             <ul>
               <li><a href="/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/">Was ist ein App-Blocker und wann hilft er wirklich?</a></li>
               <li><a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">Warum vergesse ich, warum ich mein Handy entsperrt habe?</a></li>
-              <li><a href="/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/">Ablenkungen reduzieren, wenn das Gehirn alles prüfen will</a></li>
+              <li><a href="/guides/how-i-reduce-phone-distractions-when-i-want-to-check-everything/">Ablenkungen reduzieren, wenn das Gehirn alles prüfen will</a></li>
               <li><a href="/guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/">Manchmal ist das Problem nicht der Flow, sondern das Herauskommen</a></li>
               <li><a href="/comparison/forest-alternatives-if-gamification-isnt-what-youre-looking-for/">Forest-Alternativen ohne Gamification</a></li>
               <li><a href="/guides/i-use-a-focus-timer-to-stop-focusing/">Ich nutze einen Fokus-Timer, um abzuschalten.</a></li>
@@ -387,9 +387,9 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
 
             <h2 id="continuer-la-lecture">Continuer la lecture</h2>
             <ul>
-              <li><a href="/guides/what-is-an-app-blocker-and-when-is-it-really-useful/">Qu'est-ce qu'un bloqueur d'applications et quand est-il vraiment utile ?</a></li>
+              <li><a href="/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/">Qu'est-ce qu'un bloqueur d'applications et quand est-il vraiment utile ?</a></li>
               <li><a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">Pourquoi est-ce que j'oublie pourquoi j'ai déverrouillé mon téléphone ?</a></li>
-              <li><a href="/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/">Réduire les distractions quand mon cerveau TDAH veut tout vérifier</a></li>
+              <li><a href="/guides/how-i-reduce-phone-distractions-when-i-want-to-check-everything/">Réduire les distractions quand mon cerveau TDAH veut tout vérifier</a></li>
               <li><a href="/guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/">Parfois le problème n'est pas d'entrer dans le flow, mais d'en sortir</a></li>
               <li><a href="/comparison/forest-alternatives-if-gamification-isnt-what-youre-looking-for/">Alternatives à Forest sans gamification</a></li>
               <li><a href="/guides/i-use-a-focus-timer-to-stop-focusing/">J'utilise un minuteur de concentration pour arrêter de me concentrer</a></li>
@@ -428,8 +428,8 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
   <meta property="og:url" content="${canonicalUrl}" />
   <meta property="og:locale" content="${isDe ? "de_DE" : "fr_FR"}" />
   <meta property="og:image" content="${socialImage}" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+  <meta property="og:image:width" content="2416" />
+  <meta property="og:image:height" content="1276" />
   <meta property="og:image:alt" content="${escapeHtml(pageTitle)} - Flowtime article preview" />
   <meta property="article:published_time" content="${post.data.date}" />
   <meta property="article:modified_time" content="${post.data.date}" />
@@ -440,7 +440,6 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
   <meta name="twitter:image" content="${socialImage}" />
   <meta name="twitter:image:alt" content="${escapeHtml(pageTitle)} - Flowtime article preview" />
   <link rel="stylesheet" href="${relDepth}style.css" />
-  <link rel="stylesheet" href="${relDepth}css/blog.css" />
   <script type="application/ld+json">
     ${safeJsonLd(articleSchema(mockPostData, canonicalUrl, description, socialImage, "BlogPosting", lang))}
   </script>
@@ -454,9 +453,9 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
   </script>
   <script src="${relDepth}scripts/conversion-analytics.js"></script>
 </head>
-<body id="top" data-theme="mono" data-blog-category="guides">
+<body id="top" class="campaign-site" data-theme="mono" data-blog-category="guides">
   <div id="site-header"></div>
-  <main class="blog-main">
+  <main id="main-content" class="blog-main">
     <article class="blog-article">
       <header class="article-header">
         <p class="eyebrow">${escapeHtml(categoryLabel)}</p>
@@ -482,7 +481,6 @@ ${bodyHtml}
   <script src="${relDepth}scripts/i18n.js"></script>
   <script src="${relDepth}sections/header.js"></script>
   <script src="${relDepth}sections/footer.js"></script>
-  <script src="${relDepth}scripts/theme.js"></script>
 </body>
 </html>
 `;
@@ -508,15 +506,15 @@ function renderPage(post, posts) {
   <link rel="apple-touch-icon" href="../../assets/logo-classic.png" />
   <meta name="description" content="${escapeHtml(description)}" />
   <link rel="canonical" href="${url}" />
-  ${getHreflangTags(post)}
+${getHreflangTags(post)}
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="Flowtime" />
   <meta property="og:title" content="${escapeHtml(post.data.title)}" />
   <meta property="og:description" content="${escapeHtml(description)}" />
   <meta property="og:url" content="${url}" />
   <meta property="og:image" content="${socialImage}" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+  <meta property="og:image:width" content="2416" />
+  <meta property="og:image:height" content="1276" />
   <meta property="og:image:alt" content="${escapeHtml(post.data.title)} - Flowtime article preview" />
   <meta property="article:published_time" content="${post.data.date}" />
   <meta property="article:modified_time" content="${post.data.dateModified || post.data.updated || post.data.date}" />
@@ -527,7 +525,6 @@ function renderPage(post, posts) {
   <meta name="twitter:image" content="${socialImage}" />
   <meta name="twitter:image:alt" content="${escapeHtml(post.data.title)} - Flowtime article preview" />
   <link rel="stylesheet" href="../../style.css" />
-  <link rel="stylesheet" href="../../css/blog.css" />
   <script type="application/ld+json">
     ${safeJsonLd(articleSchema(post, url, description, socialImage, post.category === "comparison" ? "Article" : "BlogPosting"))}
   </script>
@@ -541,9 +538,9 @@ function renderPage(post, posts) {
   </script>
   <script src="../../scripts/conversion-analytics.js"></script>
 </head>
-<body id="top" data-theme="mono" data-blog-category="${post.category}">
+<body id="top" class="campaign-site" data-theme="mono" data-blog-category="${post.category}">
   <div id="site-header"></div>
-  <main class="blog-main">
+  <main id="main-content" class="blog-main">
     <article class="blog-article">
       <header class="article-header">
         <p class="eyebrow">${escapeHtml(categoryName(post.category))}</p>
@@ -571,7 +568,6 @@ ${bodyHtml}
   <script src="../../scripts/i18n.js"></script>
   <script src="../../sections/header.js"></script>
   <script src="../../sections/footer.js"></script>
-  <script src="../../scripts/theme.js"></script>
 </body>
 </html>
 `;
@@ -638,8 +634,8 @@ function main() {
     const enHtml = renderPage(post, posts);
     fs.writeFileSync(path.join(dir, "index.html"), enHtml);
 
-    if (post.slug === "interrupting-autopilot-conscious-app-blocking") {
-      // Also write /blog/interrupting-autopilot-conscious-app-blocking/index.html
+    if (post.slug === "interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps") {
+      // Also write /blog/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/index.html
       const blogDir = path.join(root, "blog", post.slug);
       fs.mkdirSync(blogDir, { recursive: true });
       fs.writeFileSync(path.join(blogDir, "index.html"), enHtml);
@@ -669,3 +665,4 @@ function main() {
 }
 
 main();
+require('./render-article-redirects');
