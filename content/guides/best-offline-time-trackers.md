@@ -78,10 +78,10 @@ Then look at the export path. If the app is local-first, you should understand h
 Finally, notice how much setup the app expects. Offline support is helpful, but the app still needs to be easy enough to use every day. Reliability and simplicity work best together.
 
 ## Related articles
-- [Time Tracker Without an Account](../time-tracker-without-account/)
+- [Time Tracker Without an Account](../time-tracker-without-an-account/)
 - [Local-First Apps Explained](../local-first-apps-explained/)
 - [How to Find Out Where Your Time Actually Goes](../how-to-find-out-where-your-time-actually-goes/)
-- [Flowtime vs Toggl](../../comparison/flowtime-vs-toggl/)
+- [Flowtime vs Toggl](../../comparison/flowtime-vs-toggl-track/)
 
 ## FAQ
 

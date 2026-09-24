@@ -26,113 +26,57 @@ No account is required. Timer and project data are stored locally on the device.
 
 ## Guides & Articles
 
-### Focus Timer for Time Blindness
-URL: https://flowtime-app.com/guides/adhd-focus-timer-for-time-blindness/
-Description: How a flexible focus timer can make passing time easier to notice, including for some people with ADHD who experience time blindness or hyperfocus.
+### A Simple Focus Timer for Work, Study, and Deep Focus
+URL: https://flowtime-app.com/guides/a-simple-focus-timer-for-work-study-and-deep-focus/
+Description: A broad product-category guide to simple focus timers for work, study, deep focus, ADHD time awareness, reminders, app blocking, and low-friction time tracking.
 
 ## Summary
 
-For people who lose track of time, including some people with ADHD, a focus timer can offer more than a countdown. The useful part is often external awareness: seeing that time is passing, getting gentle check-ins, protecting the session from distracting apps, and choosing whether to continue, stop, or switch.
+A simple focus timer should help you start quickly, see the current session, and stay with the work without requiring a complicated productivity system. For ADHD time blindness or hyperfocus, it should also make time easier to notice.
 
-Flowtime is a flexible focus timer and time tracker for anyone who wants to keep focused time visible. It is not a medical product, diagnostic tool, or ADHD treatment. Its visible sessions and optional app blocking offer a simple way to track time with fewer distractions.
+## Start quickly
 
-## Why time blindness changes the timer problem
+The best timer is the one you actually start. If beginning a session requires too many choices, the timer becomes another task.
 
-With time blindness, a task can feel like it has taken five minutes or four hours with very little internal warning. A normal timer can help, but only if it fits the way the session actually behaves.
+For work and study, low friction matters. Open the app, choose the session style, start.
 
-Some tasks need a short Pomodoro interval. Some need a longer focus block. Some need a reminder that restores awareness without forcing a break at the worst moment.
+## Select a duration that fits the task
 
-## What to look for
+A short timer can help with admin, revision, or tasks you have been avoiding. A longer timer may fit deep work, writing, research, or study sessions.
 
-| Feature | Why it helps |
-| --- | --- |
-| Visible session time | Makes passing time easier to notice |
-| Flexible sessions | Lets the timer fit uneven attention rhythms |
-| Focus reminders | Creates check-in points during deep work |
-| Pomodoro support | Helps when fixed intervals are useful |
-| App blocking | Reduces phone checks and context switching |
-| Project history | Makes focused time easier to review later |
-| No-account setup | Removes friction before starting |
+A simple focus timer should not assume every task needs the same interval.
 
-## Pomodoro can help, but it is not the only shape
+## Track the current session
 
-Pomodoro works well when a clear interval helps you begin. For some people with ADHD, that can be useful. The challenge is that attention does not always arrive on schedule.
+Visible time helps you stay oriented. It shows how long you have been working and creates a boundary around the session.
 
-If focus finally appears near the end of a 25-minute block, a forced break can feel disruptive. A flexible Flow Session gives you a target and a reminder, then lets you decide what should happen next.
+For some people, including some people with ADHD, external time cues may be especially useful because passing time can be hard to feel while attention is absorbed. A focus timer with reminders can offer check-in points alongside elapsed time.
 
-## Hyperfocus needs exit points
+## Use optional reminders
 
-Getting into focus is not always the hardest part. Sometimes the harder part is noticing when you have gone too far into a task, skipped a break, or stayed with work after it stopped being useful.
+Reminders should be optional and useful. A reminder might tell you to stretch, check whether you are still on task, or decide whether to continue.
 
-A hyperfocus timer should create exit points. It does not need to yank you out of the work. It can simply make the current session visible enough that you can choose whether continuing still makes sense.
+The best reminder is not always the loudest one. Sometimes a visible check-in is enough.
 
-## Where Flowtime fits
+## Block distractions when needed
 
-Flowtime combines flexible Flow Sessions, Pomodoro, focus reminders, project time tracking, and optional app blocking. These modes let Flowtime adapt to time awareness, hyperfocus, structured intervals, and personal time tracking.
+A focus timer becomes more useful when it can protect the session from common exits. App blocking can reduce phone checking, social media loops, and context switching during work or study.
 
-Flowtime is available for iPhone and Android, does not require an account, and offers a flexible way to track focused time for work, study, and everyday activities.
+It should support intention, not shame.
 
-## Keep reading
+## Review time without building a system
 
-For related details, read [Time Reminders for Time Blindness](/guides/gentle-time-reminders-for-adhd-time-blindness/), [Hyperfocus: How to Stop Without Killing Your Focus](/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/), and [Focus Timer vs Pomodoro: What's the Difference?](/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/).
+Reports and history can help you see patterns: what you worked on, how long study sessions lasted, and which projects consumed the week.
 
-Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
+That review should stay simple. A focus timer should make time clearer, not turn productivity into a second job.
 
----
+## How Flowtime fits
 
-### Hyperfocus: How to Stop Without Killing Your Focus
-URL: https://flowtime-app.com/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/
-Description: A practical guide to using a hyperfocus timer, focus reminders, and flexible session boundaries without relying on abrupt interruptions or rigid timer rules.
-
-## Summary
-
-For some people with ADHD, the hard part is not always starting. It is stopping after focus finally arrives. A useful hyperfocus timer should create an exit point without treating focus like something that must be broken immediately.
-
-## Finally getting focused
-
-When focus has been hard to reach, stopping can feel unreasonable. You may have spent the morning circling the task, opening the wrong tabs, answering messages, and trying to begin.
-
-Then suddenly the work opens up.
-
-A strict alarm at that exact moment can feel less like support and more like a door slamming shut.
-
-## Why stopping can feel so difficult
-
-Hyperfocus can narrow attention. The task becomes the room. Other signals get low-frictioner: time, hunger, movement, messages, and the fact that you meant to stop thirty minutes ago.
-
-For some people, stopping also creates a fear of losing the thread. If the work is finally making sense, leaving it can feel risky.
-
-That is why abrupt interruptions often fail. They technically mark the time, but they do not help you transition.
-
-## Use reminders as check-ins
-
-A smaller reminder can ask a smaller question: are you still where you want to be?
-
-That question leaves room for judgment. Maybe you continue because you are in the middle of something important. Maybe you write down the next step and stop. Maybe you take a break before the work turns into overwork.
-
-The reminder is not a command. It is a moment of awareness.
-
-This is the difference between a hyperfocus timer and a simple alarm. The point is not only to make noise at a certain minute. The point is to make time visible enough that you can choose the next move.
-
-## Create an intentional exit point
-
-A useful exit point often has three parts:
-
-- a visible session so time is not invisible
-- a reminder before the session becomes too long
-- a small stopping ritual, such as writing the next action
-
-This works better than waiting until you are exhausted and then trying to stop by force.
-
-## How Flowtime helps
-
-Flowtime lets you start a flexible Flow Session with a target duration, use focus reminders, and decide what to do when the check-in arrives. It can work as a hyperfocus timer when you need planned exit points, and it also supports Pomodoro when fixed intervals are the right structure.
-
-The goal is not to kill focus. It is to make stopping available.
+Flowtime is a flexible focus timer and time tracker for iPhone and Android, with Pomodoro and optional app blocking. It supports work, study, deep focus, flexible Flow Sessions, reminders, and privacy-first personal tracking.
 
 ## Keep reading
 
-For a personal version of this idea, read [I Use a Focus Timer to Stop Focusing](/guides/i-use-a-focus-timer-to-stop-focusing/). For a broader timer comparison, see [Focus Timer vs Pomodoro: What's the Difference?](/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/).
+For broader comparison, read [Focus Timer, Time Tracker, or Pomodoro App: Which One Do You Need?](/comparison/focus-timer-time-tracker-or-pomodoro-app-which-one-do-you-need/) and [How to Use a Focus Timer Without Interrupting Your Best Work](/guides/how-to-use-a-focus-timer-without-interrupting-your-best-work/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
 
@@ -206,10 +150,10 @@ Then look at the export path. If the app is local-first, you should understand h
 Finally, notice how much setup the app expects. Offline support is helpful, but the app still needs to be easy enough to use every day. Reliability and simplicity work best together.
 
 ## Related articles
-- [Time Tracker Without an Account](../time-tracker-without-account/)
+- [Time Tracker Without an Account](../time-tracker-without-an-account/)
 - [Local-First Apps Explained](../local-first-apps-explained/)
 - [How to Find Out Where Your Time Actually Goes](../how-to-find-out-where-your-time-actually-goes/)
-- [Flowtime vs Toggl](../../comparison/flowtime-vs-toggl/)
+- [Flowtime vs Toggl](../../comparison/flowtime-vs-toggl-track/)
 
 ## FAQ
 
@@ -281,68 +225,68 @@ The goal is not to make every session short. The goal is to make long sessions i
 
 ## Keep reading
 
-For the ADHD-specific version, read [Why You Lose Track of Time](/guides/why-adhd-makes-you-lose-track-of-time/). For reminders, read [Time Reminders for Time Blindness](/guides/gentle-time-reminders-for-adhd-time-blindness/).
+For the ADHD-specific version, read [Why You Lose Track of Time](/guides/why-you-lose-track-of-time/). For reminders, read [Time Reminders for Time Blindness](/guides/time-reminders-for-time-blindness/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
 
 ---
 
-### Time Reminders for Time Blindness
-URL: https://flowtime-app.com/guides/gentle-time-reminders-for-adhd-time-blindness/
-Description: Why focus reminders can work better than aggressive alarms for time awareness, hyperfocus check-ins, and flexible focus sessions.
+### Focus Timer for Time Blindness
+URL: https://flowtime-app.com/guides/focus-timer-for-time-blindness/
+Description: How a flexible focus timer can make passing time easier to notice, including for some people with ADHD who experience time blindness or hyperfocus.
 
 ## Summary
 
-A reminder does not have to be an alarm that jolts you out of the room. For ADHD time blindness, a useful reminder can be a visible cue that helps you notice time and choose what happens next.
+For people who lose track of time, including some people with ADHD, a focus timer can offer more than a countdown. The useful part is often external awareness: seeing that time is passing, getting gentle check-ins, protecting the session from distracting apps, and choosing whether to continue, stop, or switch.
 
-## Why alarms can feel aggressive
+Flowtime is a flexible focus timer and time tracker for anyone who wants to keep focused time visible. It is not a medical product, diagnostic tool, or ADHD treatment. Its visible sessions and optional app blocking offer a simple way to track time with fewer distractions.
 
-Alarms are good at being noticed. That does not always make them good at helping.
+## Why time blindness changes the timer problem
 
-A loud alarm can create urgency even when nothing is urgent. It can break a fragile thread of focus. It can also become something you dismiss automatically because it feels annoying or poorly timed.
+With time blindness, a task can feel like it has taken five minutes or four hours with very little internal warning. A normal timer can help, but only if it fits the way the session actually behaves.
 
-That is alarm fatigue: the reminder technically fires, but it no longer changes awareness.
+Some tasks need a short Pomodoro interval. Some need a longer focus block. Some need a reminder that restores awareness without forcing a break at the worst moment.
 
-## Awareness cues are different
+## What to look for
 
-An awareness cue is softer. It does not say "stop now" or "you failed to move." It asks for a check-in.
+| Feature | Why it helps |
+| --- | --- |
+| Visible session time | Makes passing time easier to notice |
+| Flexible sessions | Lets the timer fit uneven attention rhythms |
+| Focus reminders | Creates check-in points during deep work |
+| Pomodoro support | Helps when fixed intervals are useful |
+| App blocking | Reduces phone checks and context switching |
+| Project history | Makes focused time easier to review later |
+| No-account setup | Removes friction before starting |
 
-Are you still doing what you meant to do?
+## Pomodoro can help, but it is not the only shape
 
-Do you need water, food, movement, or a break?
+Pomodoro works well when a clear interval helps you begin. For some people with ADHD, that can be useful. The challenge is that attention does not always arrive on schedule.
 
-Is this still the right task?
+If focus finally appears near the end of a 25-minute block, a forced break can feel disruptive. A flexible Flow Session gives you a target and a reminder, then lets you decide what should happen next.
 
-Do you want to continue intentionally?
+## Hyperfocus needs exit points
 
-That wording matters because many people do not need more shame around time. They need better visibility.
+Getting into focus is not always the hardest part. Sometimes the harder part is noticing when you have gone too far into a task, skipped a break, or stayed with work after it stopped being useful.
 
-## Configurable intervals help
+A hyperfocus timer should create exit points. It does not need to yank you out of the work. It can simply make the current session visible enough that you can choose whether continuing still makes sense.
 
-Different sessions need different reminders. A 15-minute check-in might help during admin work. A 45-minute check-in might fit writing or study. A longer session might need one focus reminder near the target duration.
+## Where Flowtime fits
 
-The useful interval is the one you will respect.
+Flowtime combines flexible Flow Sessions, Pomodoro, focus reminders, project time tracking, and optional app blocking. These modes let Flowtime adapt to time awareness, hyperfocus, structured intervals, and personal time tracking.
 
-## Use reminders to check in with yourself
-
-Try giving reminders a purpose before the session starts. For example: "When the reminder appears, I will decide whether to continue or write down the next step." That turns the reminder into a boundary instead of a random interruption.
-
-## Flowtime focus reminders
-
-Flowtime supports reminders during focus sessions so time is less likely to disappear completely. In Pro, custom reminder profiles can give more control over interval, text, and sound.
-
-The goal is not to command your attention. It is to make time visible enough that you can make a choice.
+Flowtime is available for iPhone and Android, does not require an account, and offers a flexible way to track focused time for work, study, and everyday activities.
 
 ## Keep reading
 
-Start with [Why You Lose Track of Time](/guides/why-adhd-makes-you-lose-track-of-time/) for the broader time-blindness context, then read [Hyperfocus: How to Stop Without Killing Your Focus](/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/).
+For related details, read [Time Reminders for Time Blindness](/guides/time-reminders-for-time-blindness/), [Hyperfocus: How to Stop Without Killing Your Focus](/guides/hyperfocus-how-to-stop-without-killing-your-focus/), and [Focus Timer vs Pomodoro: What's the Difference?](/comparison/focus-timer-vs-pomodoro-whats-the-difference/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
 
 ---
 
 ### How I Reduce Phone Distractions When I Want to Check Everything
-URL: https://flowtime-app.com/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/
+URL: https://flowtime-app.com/guides/how-i-reduce-phone-distractions-when-i-want-to-check-everything/
 Description: A personal note on phone checking, Instagram, messages, weather, email, app blocking, and reducing decisions during focus time.
 
 ## Summary
@@ -383,7 +327,7 @@ It is just a support. For me, fewer choices sometimes means more presence.
 
 ## Keep reading
 
-For the broader explanation, read [Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps](/guides/interrupting-autopilot-conscious-app-blocking/), [Why Do I Forget Why I Unlocked My Phone?](/guides/why-do-i-forget-why-i-unlocked-my-phone/), and [What Is an App Blocker, and When Is It Actually Useful?](/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/).
+For the broader explanation, read [Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps](/guides/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/), [Why Do I Forget Why I Unlocked My Phone?](/guides/why-do-i-forget-why-i-unlocked-my-phone/), and [What Is an App Blocker, and When Is It Actually Useful?](/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
 
@@ -541,10 +485,10 @@ If you keep tracking, pay attention to trends rather than single days. One scatt
 You may find that certain projects always expand, certain meetings always fragment the day, or certain times of day consistently support better focus. Those patterns can help you plan with less guesswork.
 
 ## Related articles
-- [Time Tracker Without an Account](../time-tracker-without-account/)
+- [Time Tracker Without an Account](../time-tracker-without-an-account/)
 - [Best Offline Time Trackers](../best-offline-time-trackers/)
 - [The Hidden Cost of Context Switching](../the-hidden-cost-of-context-switching/)
-- [Best App for Tracking Time Spent on Tasks and Projects](../../comparison/best-app-for-tracking-time-on-tasks-and-projects/)
+- [Best App for Tracking Time Spent on Tasks and Projects](../../comparison/best-app-for-tracking-time-spent-on-tasks-and-projects/)
 
 ## FAQ
 
@@ -612,7 +556,65 @@ Flowtime supports Pomodoro when you want structure and Flow Sessions when you wa
 
 ## Keep reading
 
-For session length, read [How Long Should a Focus Session Be?](/guides/how-long-should-a-focus-session-be/). For ADHD-specific hyperfocus, read [Hyperfocus: How to Stop Without Killing Your Focus](/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/).
+For session length, read [How Long Should a Focus Session Be?](/guides/how-long-should-a-focus-session-be/). For ADHD-specific hyperfocus, read [Hyperfocus: How to Stop Without Killing Your Focus](/guides/hyperfocus-how-to-stop-without-killing-your-focus/).
+
+Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
+
+---
+
+### Hyperfocus: How to Stop Without Killing Your Focus
+URL: https://flowtime-app.com/guides/hyperfocus-how-to-stop-without-killing-your-focus/
+Description: A practical guide to using a hyperfocus timer, focus reminders, and flexible session boundaries without relying on abrupt interruptions or rigid timer rules.
+
+## Summary
+
+For some people with ADHD, the hard part is not always starting. It is stopping after focus finally arrives. A useful hyperfocus timer should create an exit point without treating focus like something that must be broken immediately.
+
+## Finally getting focused
+
+When focus has been hard to reach, stopping can feel unreasonable. You may have spent the morning circling the task, opening the wrong tabs, answering messages, and trying to begin.
+
+Then suddenly the work opens up.
+
+A strict alarm at that exact moment can feel less like support and more like a door slamming shut.
+
+## Why stopping can feel so difficult
+
+Hyperfocus can narrow attention. The task becomes the room. Other signals get low-frictioner: time, hunger, movement, messages, and the fact that you meant to stop thirty minutes ago.
+
+For some people, stopping also creates a fear of losing the thread. If the work is finally making sense, leaving it can feel risky.
+
+That is why abrupt interruptions often fail. They technically mark the time, but they do not help you transition.
+
+## Use reminders as check-ins
+
+A smaller reminder can ask a smaller question: are you still where you want to be?
+
+That question leaves room for judgment. Maybe you continue because you are in the middle of something important. Maybe you write down the next step and stop. Maybe you take a break before the work turns into overwork.
+
+The reminder is not a command. It is a moment of awareness.
+
+This is the difference between a hyperfocus timer and a simple alarm. The point is not only to make noise at a certain minute. The point is to make time visible enough that you can choose the next move.
+
+## Create an intentional exit point
+
+A useful exit point often has three parts:
+
+- a visible session so time is not invisible
+- a reminder before the session becomes too long
+- a small stopping ritual, such as writing the next action
+
+This works better than waiting until you are exhausted and then trying to stop by force.
+
+## How Flowtime helps
+
+Flowtime lets you start a flexible Flow Session with a target duration, use focus reminders, and decide what to do when the check-in arrives. It can work as a hyperfocus timer when you need planned exit points, and it also supports Pomodoro when fixed intervals are the right structure.
+
+The goal is not to kill focus. It is to make stopping available.
+
+## Keep reading
+
+For a personal version of this idea, read [I Use a Focus Timer to Stop Focusing](/guides/i-use-a-focus-timer-to-stop-focusing/). For a broader timer comparison, see [Focus Timer vs Pomodoro: What's the Difference?](/comparison/focus-timer-vs-pomodoro-whats-the-difference/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
 
@@ -660,14 +662,14 @@ That is why Flow Sessions are flexible. That is why reminders matter. That is wh
 
 ## Keep reading
 
-If this sounds familiar, read [Hyperfocus: How to Stop Without Killing Your Focus](/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/) or [Why You Lose Track of Time](/guides/why-adhd-makes-you-lose-track-of-time/).
+If this sounds familiar, read [Hyperfocus: How to Stop Without Killing Your Focus](/guides/hyperfocus-how-to-stop-without-killing-your-focus/) or [Why You Lose Track of Time](/guides/why-you-lose-track-of-time/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
 
 ---
 
 ### Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps
-URL: https://flowtime-app.com/guides/interrupting-autopilot-conscious-app-blocking/
+URL: https://flowtime-app.com/guides/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/
 Description: App blockers work best not by enforcing strict lockouts, but by interrupting automatic phone habits. Learn how conscious app blocking in Flowtime supports focus, time awareness, hyperfocus, and intentional breaks.
 
 ## Summary
@@ -761,7 +763,7 @@ Either way, the decision is yours instead of the autopilot’s.
 
 * [What Is an App Blocker, and When Is It Actually Useful?](/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/)
 * [Why Do I Forget Why I Unlocked My Phone?](/guides/why-do-i-forget-why-i-unlocked-my-phone/)
-* [How I Reduce Phone Distractions When I Want to Check Everything](/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/)
+* [How I Reduce Phone Distractions When I Want to Check Everything](/guides/how-i-reduce-phone-distractions-when-i-want-to-check-everything/)
 * [Sometimes the Problem Isn't Getting Into Flow. It's Getting Out of It.](/guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/)
 * [Forest Alternatives If Gamification Isn't What You're Looking For](/comparison/forest-alternatives-if-gamification-isnt-what-youre-looking-for/)
 * [I Use a Focus Timer to Stop Focusing](/guides/i-use-a-focus-timer-to-stop-focusing/)
@@ -835,10 +837,10 @@ The longer you use a local-first app, the more backup habits matter. Local stora
 Set a simple routine for exporting or backing up data if the app supports it. You do not need a complicated process. You only need enough protection that local ownership does not become local fragility.
 
 ## Related articles
-- [Time Tracker Without an Account](../time-tracker-without-account/)
+- [Time Tracker Without an Account](../time-tracker-without-an-account/)
 - [Best Offline Time Trackers](../best-offline-time-trackers/)
 - [Why I Removed Account Creation From My Time Tracker](../why-i-removed-account-creation-from-my-time-tracker/)
-- [Flowtime vs Toggl](../../comparison/flowtime-vs-toggl/)
+- [Flowtime vs Toggl](../../comparison/flowtime-vs-toggl-track/)
 
 ## FAQ
 
@@ -859,62 +861,6 @@ Most local-first apps are designed to keep core features available offline.
 Backups, multi-device sync, and conflict handling can be more complicated than in cloud-first apps.
 
 Flowtime uses a local-first approach because personal focus history should be useful to you without requiring an account-first workflow.
-
----
-
-### A Simple Focus Timer for Work, Study, and Deep Focus
-URL: https://flowtime-app.com/guides/simple-focus-timer-for-work-study-and-deep-focus/
-Description: A broad product-category guide to simple focus timers for work, study, deep focus, ADHD time awareness, reminders, app blocking, and low-friction time tracking.
-
-## Summary
-
-A simple focus timer should help you start quickly, see the current session, and stay with the work without requiring a complicated productivity system. For ADHD time blindness or hyperfocus, it should also make time easier to notice.
-
-## Start quickly
-
-The best timer is the one you actually start. If beginning a session requires too many choices, the timer becomes another task.
-
-For work and study, low friction matters. Open the app, choose the session style, start.
-
-## Select a duration that fits the task
-
-A short timer can help with admin, revision, or tasks you have been avoiding. A longer timer may fit deep work, writing, research, or study sessions.
-
-A simple focus timer should not assume every task needs the same interval.
-
-## Track the current session
-
-Visible time helps you stay oriented. It shows how long you have been working and creates a boundary around the session.
-
-For some people, including some people with ADHD, external time cues may be especially useful because passing time can be hard to feel while attention is absorbed. A focus timer with reminders can offer check-in points alongside elapsed time.
-
-## Use optional reminders
-
-Reminders should be optional and useful. A reminder might tell you to stretch, check whether you are still on task, or decide whether to continue.
-
-The best reminder is not always the loudest one. Sometimes a visible check-in is enough.
-
-## Block distractions when needed
-
-A focus timer becomes more useful when it can protect the session from common exits. App blocking can reduce phone checking, social media loops, and context switching during work or study.
-
-It should support intention, not shame.
-
-## Review time without building a system
-
-Reports and history can help you see patterns: what you worked on, how long study sessions lasted, and which projects consumed the week.
-
-That review should stay simple. A focus timer should make time clearer, not turn productivity into a second job.
-
-## How Flowtime fits
-
-Flowtime is a flexible focus timer and time tracker for iPhone and Android, with Pomodoro and optional app blocking. It supports work, study, deep focus, flexible Flow Sessions, reminders, and privacy-first personal tracking.
-
-## Keep reading
-
-For broader comparison, read [Focus Timer, Time Tracker, or Pomodoro App: Which One Do You Need?](/comparison/focus-timer-time-tracker-or-pomodoro-app-which-one-do-you-need/) and [How to Use a Focus Timer Without Interrupting Your Best Work](/guides/how-to-use-a-focus-timer-without-interrupting-your-best-work/).
-
-Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
 
 ---
 
@@ -983,7 +929,7 @@ Sometimes the answer will be yes. That is fine. The reminder has still done its 
 Other times, the answer will be no. You may need food, water, a stretch, a note for tomorrow, or a cleaner stopping point. Over time, those small decisions can make focus feel less like disappearing and more like something you can return from.
 
 ## Related articles
-- [Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps](../interrupting-autopilot-conscious-app-blocking/)
+- [Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps](../interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/)
 - [Time Tracking for Neurodivergent Minds](../time-tracking-for-neurodivergent-minds/)
 - [How Long Should a Focus Session Be?](../how-long-should-a-focus-session-be/)
 - [The Hidden Cost of Context Switching](../the-hidden-cost-of-context-switching/)
@@ -1073,9 +1019,9 @@ A good system should let you return without a long cleanup ritual. If you can op
 
 ## Related articles
 - [Why Most Time Tracking Apps Feel Overengineered](../why-most-time-tracking-apps-feel-overengineered/)
-- [Time Tracker Without an Account](../time-tracker-without-account/)
+- [Time Tracker Without an Account](../time-tracker-without-an-account/)
 - [Best Offline Time Trackers](../best-offline-time-trackers/)
-- [Best App for Tracking Time Spent on Tasks and Projects](../../comparison/best-app-for-tracking-time-on-tasks-and-projects/)
+- [Best App for Tracking Time Spent on Tasks and Projects](../../comparison/best-app-for-tracking-time-spent-on-tasks-and-projects/)
 
 ## FAQ
 
@@ -1185,8 +1131,62 @@ Flowtime helps you create clearer focus sessions and review where your time went
 
 ---
 
+### Time Reminders for Time Blindness
+URL: https://flowtime-app.com/guides/time-reminders-for-time-blindness/
+Description: Why focus reminders can work better than aggressive alarms for time awareness, hyperfocus check-ins, and flexible focus sessions.
+
+## Summary
+
+A reminder does not have to be an alarm that jolts you out of the room. For ADHD time blindness, a useful reminder can be a visible cue that helps you notice time and choose what happens next.
+
+## Why alarms can feel aggressive
+
+Alarms are good at being noticed. That does not always make them good at helping.
+
+A loud alarm can create urgency even when nothing is urgent. It can break a fragile thread of focus. It can also become something you dismiss automatically because it feels annoying or poorly timed.
+
+That is alarm fatigue: the reminder technically fires, but it no longer changes awareness.
+
+## Awareness cues are different
+
+An awareness cue is softer. It does not say "stop now" or "you failed to move." It asks for a check-in.
+
+Are you still doing what you meant to do?
+
+Do you need water, food, movement, or a break?
+
+Is this still the right task?
+
+Do you want to continue intentionally?
+
+That wording matters because many people do not need more shame around time. They need better visibility.
+
+## Configurable intervals help
+
+Different sessions need different reminders. A 15-minute check-in might help during admin work. A 45-minute check-in might fit writing or study. A longer session might need one focus reminder near the target duration.
+
+The useful interval is the one you will respect.
+
+## Use reminders to check in with yourself
+
+Try giving reminders a purpose before the session starts. For example: "When the reminder appears, I will decide whether to continue or write down the next step." That turns the reminder into a boundary instead of a random interruption.
+
+## Flowtime focus reminders
+
+Flowtime supports reminders during focus sessions so time is less likely to disappear completely. In Pro, custom reminder profiles can give more control over interval, text, and sound.
+
+The goal is not to command your attention. It is to make time visible enough that you can make a choice.
+
+## Keep reading
+
+Start with [Why You Lose Track of Time](/guides/why-you-lose-track-of-time/) for the broader time-blindness context, then read [Hyperfocus: How to Stop Without Killing Your Focus](/guides/hyperfocus-how-to-stop-without-killing-your-focus/).
+
+Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
+
+---
+
 ### Time Tracker Without an Account
-URL: https://flowtime-app.com/guides/time-tracker-without-account/
+URL: https://flowtime-app.com/guides/time-tracker-without-an-account/
 Description: A practical guide to choosing a private, low-friction time tracker that works without sign-up, sync, or account setup.
 
 ## Summary
@@ -1382,9 +1382,9 @@ At the end of the week, review what was billable, what supported billable work, 
 
 ## Related articles
 
-- [Best App for Tracking Time Spent on Tasks and Projects](../../comparison/best-app-for-tracking-time-on-tasks-and-projects/)
-- [Flowtime vs Toggl Track](../../comparison/flowtime-vs-toggl/)
-- [Time Tracker Without an Account](../time-tracker-without-account/)
+- [Best App for Tracking Time Spent on Tasks and Projects](../../comparison/best-app-for-tracking-time-spent-on-tasks-and-projects/)
+- [Flowtime vs Toggl Track](../../comparison/flowtime-vs-toggl-track/)
+- [Time Tracker Without an Account](../time-tracker-without-an-account/)
 - [How to Find Out Where Your Time Actually Goes](../how-to-find-out-where-your-time-actually-goes/)
 
 ## FAQ
@@ -1683,55 +1683,7 @@ That makes blocking part of the session boundary rather than a separate system t
 
 ## Keep reading
 
-For phone-specific distraction, read [Why Do I Forget Why I Unlocked My Phone?](/guides/why-do-i-forget-why-i-unlocked-my-phone/), [Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps](/guides/interrupting-autopilot-conscious-app-blocking/), and [How I Reduce Phone Distractions When I Want to Check Everything](/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/).
-
-Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
-
----
-
-### Why You Lose Track of Time
-URL: https://flowtime-app.com/guides/why-adhd-makes-you-lose-track-of-time/
-Description: A practical guide to ADHD time blindness, why passing time can be hard to feel, and how external cues can support time awareness.
-
-## Summary
-
-Many people with ADHD describe a gap between knowing what time it is and feeling time pass. Time blindness is one way people talk about that gap. It can make a short task expand, a long session disappear, or a planned break arrive much later than expected.
-
-## What people mean by time blindness
-
-Time blindness is not a formal diagnosis by itself. It is a common phrase people use when time feels hard to sense, estimate, or act on.
-
-You might know that it is 2:00. You might even know that a meeting starts at 3:00. The difficult part is feeling the size of that hour while you are inside a task.
-
-A clock gives information. It does not automatically create awareness.
-
-## Knowing the time is not feeling it pass
-
-Advice like "just watch the clock" sounds simple from the outside. In real work, attention is selective. If your mind is locked onto writing, coding, studying, cleaning, or solving one small problem that became seven smaller problems, the clock can become background noise.
-
-For some people with ADHD, this can show up as chronic lateness, unfinished transitions, missed breaks, or surprise at how much time has passed. It can also show up during good work. Hyperfocus may make a task feel unusually absorbing, which can be useful until there are no checkpoints.
-
-## Why hyperfocus changes the shape of time
-
-Hyperfocus is not always a problem. Sometimes it is how a difficult thing finally gets done. The issue is that attention can become so narrow that other signals fade out: hunger, messages, daylight, or the original reason you started.
-
-That is why the question is not only "How do I focus?" It is also "How do I notice what is happening while I am focused?"
-
-## External time cues can help
-
-External cues may help some people notice passing time. They do not need to be harsh alarms. A cue can be a visible timer, a visible reminder, a planned check-in, or a session boundary that asks: are you still doing what you meant to do?
-
-The point is awareness, not punishment.
-
-## How Flowtime approaches time awareness
-
-Flowtime is built around visible focus sessions, flexible timers, reminders, and optional app blocking. You can use a Pomodoro timer when structure helps, or a Flow Session when you want a target duration without a forced interruption.
-
-For ADHD time blindness, the useful part is not that an app can solve time. It cannot. The useful part is creating external cues that make time easier to notice while you are working.
-
-## Keep reading
-
-If this connects with your experience, you may also like [Time Reminders for Time Blindness](/guides/gentle-time-reminders-for-adhd-time-blindness/), [Hyperfocus: How to Stop Without Killing Your Focus](/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/), and [How to Use a Focus Timer Without Interrupting Your Best Work](/guides/how-to-use-a-focus-timer-without-interrupting-your-best-work/).
+For phone-specific distraction, read [Why Do I Forget Why I Unlocked My Phone?](/guides/why-do-i-forget-why-i-unlocked-my-phone/), [Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps](/guides/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/), and [How I Reduce Phone Distractions When I Want to Check Everything](/guides/how-i-reduce-phone-distractions-when-i-want-to-check-everything/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
 
@@ -1783,7 +1735,7 @@ That does not solve distraction by itself. It simply removes a few easy exits.
 
 ## Keep reading
 
-Read [Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps](/guides/interrupting-autopilot-conscious-app-blocking/) for how Flowtime interrupts automatic phone habits, [How I Reduce Phone Distractions When I Want to Check Everything](/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/) for a personal version, or [What Is an App Blocker, and When Is It Actually Useful?](/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/) for a broader guide.
+Read [Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps](/guides/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/) for how Flowtime interrupts automatic phone habits, [How I Reduce Phone Distractions When I Want to Check Everything](/guides/how-i-reduce-phone-distractions-when-i-want-to-check-everything/) for a personal version, or [What Is an App Blocker, and When Is It Actually Useful?](/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/) for a broader guide.
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
 
@@ -1861,7 +1813,7 @@ For example, export is worth supporting because local data should be portable. R
 The test is whether a feature helps the individual using the timer, or whether it mainly makes the product look more complete. Flowtime should stay useful on the first launch and still useful after months of ordinary use. That balance matters more than checking every possible feature box.
 
 ## Related articles
-- [Time Tracker Without an Account](../time-tracker-without-account/)
+- [Time Tracker Without an Account](../time-tracker-without-an-account/)
 - [Best Offline Time Trackers](../best-offline-time-trackers/)
 - [Why Most Time Tracking Apps Feel Overengineered](../why-most-time-tracking-apps-feel-overengineered/)
 - [Local-First Apps Explained](../local-first-apps-explained/)
@@ -1964,10 +1916,10 @@ Project categories can help because they make review clearer. A quick export can
 But a feature that requires constant cleanup, naming, configuration, or decision-making should be treated carefully. The cost may be small each time, but repeated small costs are exactly how a simple timer becomes a tool you avoid opening.
 
 ## Related articles
-- [Time Tracker Without an Account](../time-tracker-without-account/)
+- [Time Tracker Without an Account](../time-tracker-without-an-account/)
 - [The Best Productivity System Is the One You Forget About](../the-best-productivity-system-is-the-one-you-forget-about/)
 - [The Hidden Cost of Context Switching](../the-hidden-cost-of-context-switching/)
-- [Best App for Tracking Time Spent on Tasks and Projects](../../comparison/best-app-for-tracking-time-on-tasks-and-projects/)
+- [Best App for Tracking Time Spent on Tasks and Projects](../../comparison/best-app-for-tracking-time-spent-on-tasks-and-projects/)
 
 ## FAQ
 
@@ -1992,7 +1944,7 @@ Flowtime was built for people who want time tracking to stay close to the work i
 ---
 
 ### Why Pomodoro Doesn't Always Work
-URL: https://flowtime-app.com/guides/why-pomodoro-doesnt-always-work-for-adhd/
+URL: https://flowtime-app.com/guides/why-pomodoro-doesnt-always-work/
 Description: A balanced look at Pomodoro for ADHD, why fixed 25-minute intervals can help or frustrate, and when a flexible Pomodoro alternative fits better.
 
 ## Summary
@@ -2037,7 +1989,55 @@ Pomodoro is not wrong. It is one tool. The useful question is whether it fits th
 
 ## Keep reading
 
-Compare the approaches in [Focus Timer vs Pomodoro: What's the Difference?](/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/) or read [How to Use a Focus Timer Without Interrupting Your Best Work](/guides/how-to-use-a-focus-timer-without-interrupting-your-best-work/).
+Compare the approaches in [Focus Timer vs Pomodoro: What's the Difference?](/comparison/focus-timer-vs-pomodoro-whats-the-difference/) or read [How to Use a Focus Timer Without Interrupting Your Best Work](/guides/how-to-use-a-focus-timer-without-interrupting-your-best-work/).
+
+Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
+
+---
+
+### Why You Lose Track of Time
+URL: https://flowtime-app.com/guides/why-you-lose-track-of-time/
+Description: A practical guide to ADHD time blindness, why passing time can be hard to feel, and how external cues can support time awareness.
+
+## Summary
+
+Many people with ADHD describe a gap between knowing what time it is and feeling time pass. Time blindness is one way people talk about that gap. It can make a short task expand, a long session disappear, or a planned break arrive much later than expected.
+
+## What people mean by time blindness
+
+Time blindness is not a formal diagnosis by itself. It is a common phrase people use when time feels hard to sense, estimate, or act on.
+
+You might know that it is 2:00. You might even know that a meeting starts at 3:00. The difficult part is feeling the size of that hour while you are inside a task.
+
+A clock gives information. It does not automatically create awareness.
+
+## Knowing the time is not feeling it pass
+
+Advice like "just watch the clock" sounds simple from the outside. In real work, attention is selective. If your mind is locked onto writing, coding, studying, cleaning, or solving one small problem that became seven smaller problems, the clock can become background noise.
+
+For some people with ADHD, this can show up as chronic lateness, unfinished transitions, missed breaks, or surprise at how much time has passed. It can also show up during good work. Hyperfocus may make a task feel unusually absorbing, which can be useful until there are no checkpoints.
+
+## Why hyperfocus changes the shape of time
+
+Hyperfocus is not always a problem. Sometimes it is how a difficult thing finally gets done. The issue is that attention can become so narrow that other signals fade out: hunger, messages, daylight, or the original reason you started.
+
+That is why the question is not only "How do I focus?" It is also "How do I notice what is happening while I am focused?"
+
+## External time cues can help
+
+External cues may help some people notice passing time. They do not need to be harsh alarms. A cue can be a visible timer, a visible reminder, a planned check-in, or a session boundary that asks: are you still doing what you meant to do?
+
+The point is awareness, not punishment.
+
+## How Flowtime approaches time awareness
+
+Flowtime is built around visible focus sessions, flexible timers, reminders, and optional app blocking. You can use a Pomodoro timer when structure helps, or a Flow Session when you want a target duration without a forced interruption.
+
+For ADHD time blindness, the useful part is not that an app can solve time. It cannot. The useful part is creating external cues that make time easier to notice while you are working.
+
+## Keep reading
+
+If this connects with your experience, you may also like [Time Reminders for Time Blindness](/guides/time-reminders-for-time-blindness/), [Hyperfocus: How to Stop Without Killing Your Focus](/guides/hyperfocus-how-to-stop-without-killing-your-focus/), and [How to Use a Focus Timer Without Interrupting Your Best Work](/guides/how-to-use-a-focus-timer-without-interrupting-your-best-work/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
 
@@ -2045,55 +2045,8 @@ Flowtime is a flexible focus timer designed to make time more visible and distra
 
 ## App & Method Comparisons
 
-### Focus Timer vs Pomodoro: What's the Difference?
-URL: https://flowtime-app.com/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/
-Description: Compare flexible focus timers and Pomodoro for session structure, time awareness, and reminders, with considerations for ADHD and hyperfocus.
-
-## Summary
-
-A traditional Pomodoro timer gives you fixed work and break intervals. A flexible focus timer may put more emphasis on time awareness, hyperfocus check-ins, adaptable session boundaries, and reducing distraction. Neither approach is universally better.
-
-## Quick comparison
-
-| Criteria | Traditional Pomodoro | Flexible focus timer |
-| --- | --- | --- |
-| Session structure | Usually fixed intervals, often 25 / 5 | Often flexible or configurable |
-| Main strength | Starting and building rhythm | Time awareness and adaptable boundaries |
-| Break behavior | Breaks arrive at preset times | Check-ins may ask whether to stop or continue |
-| Hyperfocus support | Can interrupt at a fixed time | Can work as a hyperfocus timer with planned exit points |
-| App blocking | Sometimes separate | May connect blocking to the session |
-| Best fit | Clear tasks, habit building, short work blocks | Variable work, time blindness, distraction-prone sessions |
-
-## What Pomodoro provides
-
-Pomodoro is popular because it is simple. You work for a set interval, take a short break, and repeat. That can be excellent when starting is the hardest part or when the work fits into smaller blocks.
-
-## What a flexible focus timer may add
-
-Many people with ADHD describe needing external time cues, flexible boundaries, and reminders that do not feel like punishment. A timer designed with that experience in mind may support longer sessions, time check-ins, and app blocking during intentional focus.
-
-That is why "ADHD timer" searches often point to something broader than a countdown. The useful feature may be a visible session, a reminder before hyperfocus becomes overwork, or a way to protect the phone while the session is active.
-
-## Different use cases
-
-Use Pomodoro when you want structure, repetition, and clear breaks. Use a flexible focus timer when your work has uneven attention rhythms or when fixed breaks tend to arrive at the wrong time.
-
-Some people use both. A short Pomodoro can help you begin. A longer Flow Session can support deep work once the task has opened up.
-
-## Where Flowtime fits
-
-Flowtime includes Pomodoro and flexible Flow Sessions. It also includes focus reminders, project history, and app blocking, so this flexible focus timer and time tracker can fit different ways of focusing, including sessions where hyperfocus makes time easy to miss.
-
-## Keep reading
-
-For more detail, read [Why Pomodoro Doesn't Always Work](/guides/why-pomodoro-doesnt-always-work-for-adhd/) and [How to Use a Focus Timer Without Interrupting Your Best Work](/guides/how-to-use-a-focus-timer-without-interrupting-your-best-work/).
-
-Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
-
----
-
 ### Best App for Tracking Time Spent on Tasks and Projects
-URL: https://flowtime-app.com/comparison/best-app-for-tracking-time-on-tasks-and-projects/
+URL: https://flowtime-app.com/comparison/best-app-for-tracking-time-spent-on-tasks-and-projects/
 Description: What to look for in a time tracking app for tasks, projects, timers, reminders, reports, and focused personal productivity.
 
 ## Summary
@@ -2167,10 +2120,10 @@ Once you pick an app, review the first week with one question: did this make tim
 If the answer is no, identify the specific failure. Maybe the timer was too hidden, the project list was too detailed, the reports were too complex, or the app required an account workflow you did not need. A clear problem is easier to fix than a vague feeling that the tool is wrong.
 
 ## Related articles
-- [Time Tracker Without an Account](../../guides/time-tracker-without-account/)
+- [Time Tracker Without an Account](../../guides/time-tracker-without-an-account/)
 - [How to Find Out Where Your Time Actually Goes](../../guides/how-to-find-out-where-your-time-actually-goes/)
 - [Why Most Time Tracking Apps Feel Overengineered](../../guides/why-most-time-tracking-apps-feel-overengineered/)
-- [Flowtime vs Toggl Track](../flowtime-vs-toggl/)
+- [Flowtime vs Toggl Track](../flowtime-vs-toggl-track/)
 
 ## FAQ
 
@@ -2191,58 +2144,6 @@ Not always. Account-based tools are useful for sync and teams. Flowtime is desig
 For focused work, a timer is usually better because it captures sessions as they happen. Manual entry is still useful when you forget to start.
 
 If your goal is personal project tracking rather than team reporting, Flowtime keeps the timer, reminders, and history close to the work itself.
-
----
-
-### The Best Focus Apps Aren't Always Planners
-URL: https://flowtime-app.com/comparison/best-focus-apps-for-adhd-arent-always-planners/
-Description: A balanced guide to ADHD focus apps, planners, timers, app blockers, body doubling, and tools that solve one small problem well.
-
-## Summary
-
-Many ADHD apps are planners: task lists, calendars, routines, and habit trackers. Those can help. But the best focus app for a specific person may be smaller: a timer, an app blocker, a body-doubling tool, or an external cue that solves one problem well.
-
-## Planning tools can require a lot of upkeep
-
-Planners are useful when the main problem is organizing tasks. They can hold lists, deadlines, recurring chores, reminders, and routines.
-
-The catch is maintenance. A complex planning system asks you to keep it updated. For some people with ADHD, that executive effort becomes another task to avoid.
-
-A tool can be well designed and still be too heavy for the moment you need help.
-
-## Look for the smaller problem
-
-Before choosing an app, name the problem as specifically as possible.
-
-Do you lose track of time? Look for visible timers and reminders.
-
-Do you keep opening distracting apps? Look for app blocking or focus modes.
-
-Do you avoid starting alone? Body doubling may help.
-
-Do you forget what you worked on? A lightweight time tracker may be enough.
-
-## Useful categories
-
-| Tool type | Useful when | Watch out for |
-| --- | --- | --- |
-| Planner | You need task organization | Too much upkeep |
-| Focus timer | You need a start point or time cue | Rigid intervals may not fit |
-| App blocker | Your phone hijacks attention | Blocking should support intention |
-| Body doubling | Starting alone is hard | Scheduling can add friction |
-| Time tracker | You want patterns and awareness | Too much categorization can become work |
-
-## Where Flowtime fits
-
-Flowtime is one relevant option if your main need is a flexible focus timer, time tracker, reminders, and app blocking in one focused app. Some people with ADHD may find that simpler approach useful when a planner feels like extra upkeep.
-
-If you need medication guidance, diagnosis, coaching, or therapy, an app is not a replacement for professional support.
-
-## Keep reading
-
-Compare timer structures in [Focus Timer vs Pomodoro: What's the Difference?](/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/) or explore phone support in [Why Do I Forget Why I Unlocked My Phone?](/guides/why-do-i-forget-why-i-unlocked-my-phone/).
-
-Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
 
 ---
 
@@ -2342,7 +2243,7 @@ If fixed intervals help sometimes but not always, Flowtime gives you a more flex
 ---
 
 ### Flowtime vs Focus To-Do
-URL: https://flowtime-app.com/comparison/flowtime-vs-focus-todo/
+URL: https://flowtime-app.com/comparison/flowtime-vs-focus-to-do/
 Description: Compare Flowtime and Focus To-Do for Pomodoro sessions, task lists, project tracking, reminders, and low-friction personal productivity.
 
 ## Summary
@@ -2599,8 +2500,8 @@ If you spend more time configuring the system than using it, that is a sign to s
 ## Related articles
 - [The Best Productivity System Is the One You Forget About](../../guides/the-best-productivity-system-is-the-one-you-forget-about/)
 - [Why Most Time Tracking Apps Feel Overengineered](../../guides/why-most-time-tracking-apps-feel-overengineered/)
-- [Time Tracker Without an Account](../../guides/time-tracker-without-account/)
-- [Flowtime vs Focus To-Do](../flowtime-vs-focus-todo/)
+- [Time Tracker Without an Account](../../guides/time-tracker-without-an-account/)
+- [Flowtime vs Focus To-Do](../flowtime-vs-focus-to-do/)
 
 ## FAQ
 
@@ -2625,7 +2526,7 @@ If you already have a planning system and only need a low-friction way to track 
 ---
 
 ### Flowtime vs Toggl Track
-URL: https://flowtime-app.com/comparison/flowtime-vs-toggl/
+URL: https://flowtime-app.com/comparison/flowtime-vs-toggl-track/
 Description: A practical comparison of Flowtime and Toggl Track for people choosing between simple focus tracking and team-oriented time tracking.
 
 ## Summary
@@ -2692,10 +2593,10 @@ After a trial week, compare the review process. Toggl Track should make it easy 
 If the reports are useful but setup feels heavy, that may still be the right tradeoff for client work. If the setup keeps you from tracking at all, the lighter tool may produce better data simply because you actually use it.
 
 ## Related articles
-- [Time Tracker Without an Account](../../guides/time-tracker-without-account/)
+- [Time Tracker Without an Account](../../guides/time-tracker-without-an-account/)
 - [Best Offline Time Trackers](../../guides/best-offline-time-trackers/)
 - [Why Most Time Tracking Apps Feel Overengineered](../../guides/why-most-time-tracking-apps-feel-overengineered/)
-- [Best App for Tracking Time Spent on Tasks and Projects](../best-app-for-tracking-time-on-tasks-and-projects/)
+- [Best App for Tracking Time Spent on Tasks and Projects](../best-app-for-tracking-time-spent-on-tasks-and-projects/)
 
 ## FAQ
 
@@ -2767,6 +2668,53 @@ That makes it useful for work and study sessions, personal time tracking, ADHD f
 ## Keep reading
 
 For flexible sessions, read [How to Use a Focus Timer Without Interrupting Your Best Work](/guides/how-to-use-a-focus-timer-without-interrupting-your-best-work/). For app blocking, read [What Is an App Blocker, and When Is It Actually Useful?](/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/).
+
+Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
+
+---
+
+### Focus Timer vs Pomodoro: What's the Difference?
+URL: https://flowtime-app.com/comparison/focus-timer-vs-pomodoro-whats-the-difference/
+Description: Compare flexible focus timers and Pomodoro for session structure, time awareness, and reminders, with considerations for ADHD and hyperfocus.
+
+## Summary
+
+A traditional Pomodoro timer gives you fixed work and break intervals. A flexible focus timer may put more emphasis on time awareness, hyperfocus check-ins, adaptable session boundaries, and reducing distraction. Neither approach is universally better.
+
+## Quick comparison
+
+| Criteria | Traditional Pomodoro | Flexible focus timer |
+| --- | --- | --- |
+| Session structure | Usually fixed intervals, often 25 / 5 | Often flexible or configurable |
+| Main strength | Starting and building rhythm | Time awareness and adaptable boundaries |
+| Break behavior | Breaks arrive at preset times | Check-ins may ask whether to stop or continue |
+| Hyperfocus support | Can interrupt at a fixed time | Can work as a hyperfocus timer with planned exit points |
+| App blocking | Sometimes separate | May connect blocking to the session |
+| Best fit | Clear tasks, habit building, short work blocks | Variable work, time blindness, distraction-prone sessions |
+
+## What Pomodoro provides
+
+Pomodoro is popular because it is simple. You work for a set interval, take a short break, and repeat. That can be excellent when starting is the hardest part or when the work fits into smaller blocks.
+
+## What a flexible focus timer may add
+
+Many people with ADHD describe needing external time cues, flexible boundaries, and reminders that do not feel like punishment. A timer designed with that experience in mind may support longer sessions, time check-ins, and app blocking during intentional focus.
+
+That is why "ADHD timer" searches often point to something broader than a countdown. The useful feature may be a visible session, a reminder before hyperfocus becomes overwork, or a way to protect the phone while the session is active.
+
+## Different use cases
+
+Use Pomodoro when you want structure, repetition, and clear breaks. Use a flexible focus timer when your work has uneven attention rhythms or when fixed breaks tend to arrive at the wrong time.
+
+Some people use both. A short Pomodoro can help you begin. A longer Flow Session can support deep work once the task has opened up.
+
+## Where Flowtime fits
+
+Flowtime includes Pomodoro and flexible Flow Sessions. It also includes focus reminders, project history, and app blocking, so this flexible focus timer and time tracker can fit different ways of focusing, including sessions where hyperfocus makes time easy to miss.
+
+## Keep reading
+
+For more detail, read [Why Pomodoro Doesn't Always Work](/guides/why-pomodoro-doesnt-always-work/) and [How to Use a Focus Timer Without Interrupting Your Best Work](/guides/how-to-use-a-focus-timer-without-interrupting-your-best-work/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
 
@@ -2978,8 +2926,8 @@ Sometimes it's simply asking yourself:
 
 ## Related articles
 - [Flowtime vs Forest](../flowtime-vs-forest/)
-- [The Best Focus Apps Aren't Always Planners](../best-focus-apps-for-adhd-arent-always-planners/)
-- [Focus Timer vs Pomodoro: What's the Difference?](../adhd-focus-timer-vs-pomodoro-whats-the-difference/)
+- [The Best Focus Apps Aren't Always Planners](../the-best-focus-apps-arent-always-planners/)
+- [Focus Timer vs Pomodoro: What's the Difference?](../focus-timer-vs-pomodoro-whats-the-difference/)
 - [Focus Timer, Time Tracker, or Pomodoro App: Which One Do You Need?](../focus-timer-time-tracker-or-pomodoro-app-which-one-do-you-need/)
 
 ## FAQ
@@ -2995,5 +2943,57 @@ Flowtime is a flexible focus timer and time tracker for anyone. Some people with
 ### Which Forest alternative is best for blocking distracting websites?
 
 Freedom is one of the best tools if device-wide website and app blocking is your main focus requirement.
+
+---
+
+### The Best Focus Apps Aren't Always Planners
+URL: https://flowtime-app.com/comparison/the-best-focus-apps-arent-always-planners/
+Description: A balanced guide to ADHD focus apps, planners, timers, app blockers, body doubling, and tools that solve one small problem well.
+
+## Summary
+
+Many ADHD apps are planners: task lists, calendars, routines, and habit trackers. Those can help. But the best focus app for a specific person may be smaller: a timer, an app blocker, a body-doubling tool, or an external cue that solves one problem well.
+
+## Planning tools can require a lot of upkeep
+
+Planners are useful when the main problem is organizing tasks. They can hold lists, deadlines, recurring chores, reminders, and routines.
+
+The catch is maintenance. A complex planning system asks you to keep it updated. For some people with ADHD, that executive effort becomes another task to avoid.
+
+A tool can be well designed and still be too heavy for the moment you need help.
+
+## Look for the smaller problem
+
+Before choosing an app, name the problem as specifically as possible.
+
+Do you lose track of time? Look for visible timers and reminders.
+
+Do you keep opening distracting apps? Look for app blocking or focus modes.
+
+Do you avoid starting alone? Body doubling may help.
+
+Do you forget what you worked on? A lightweight time tracker may be enough.
+
+## Useful categories
+
+| Tool type | Useful when | Watch out for |
+| --- | --- | --- |
+| Planner | You need task organization | Too much upkeep |
+| Focus timer | You need a start point or time cue | Rigid intervals may not fit |
+| App blocker | Your phone hijacks attention | Blocking should support intention |
+| Body doubling | Starting alone is hard | Scheduling can add friction |
+| Time tracker | You want patterns and awareness | Too much categorization can become work |
+
+## Where Flowtime fits
+
+Flowtime is one relevant option if your main need is a flexible focus timer, time tracker, reminders, and app blocking in one focused app. Some people with ADHD may find that simpler approach useful when a planner feels like extra upkeep.
+
+If you need medication guidance, diagnosis, coaching, or therapy, an app is not a replacement for professional support.
+
+## Keep reading
+
+Compare timer structures in [Focus Timer vs Pomodoro: What's the Difference?](/comparison/focus-timer-vs-pomodoro-whats-the-difference/) or explore phone support in [Why Do I Forget Why I Unlocked My Phone?](/guides/why-do-i-forget-why-i-unlocked-my-phone/).
+
+Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
 
 ---

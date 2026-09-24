@@ -234,12 +234,12 @@ function relatedArticles(current, posts) {
 }
 
 function getHreflangTags(post) {
-  if (post.slug === "interrupting-autopilot-conscious-app-blocking") {
+  if (post.slug === "interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps") {
     return [
-      `<link rel="alternate" hreflang="en" href="${siteUrl}/guides/interrupting-autopilot-conscious-app-blocking/" />`,
+      `<link rel="alternate" hreflang="en" href="${siteUrl}/guides/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/" />`,
       `<link rel="alternate" hreflang="de" href="${siteUrl}/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/" />`,
       `<link rel="alternate" hreflang="fr" href="${siteUrl}/fr/blog/interrompre-pilote-automatique-blocage-applications/" />`,
-      `<link rel="alternate" hreflang="x-default" href="${siteUrl}/guides/interrupting-autopilot-conscious-app-blocking/" />`
+      `<link rel="alternate" hreflang="x-default" href="${siteUrl}/guides/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/" />`
     ].join("\n  ");
   }
   return "";
@@ -261,10 +261,10 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
   const readTimeLabel = isDe ? "5 Min. Lesezeit" : "5 min de lecture";
 
   const hreflangs = [
-    `<link rel="alternate" hreflang="en" href="${siteUrl}/guides/interrupting-autopilot-conscious-app-blocking/" />`,
+    `<link rel="alternate" hreflang="en" href="${siteUrl}/guides/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/" />`,
     `<link rel="alternate" hreflang="de" href="${siteUrl}/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/" />`,
     `<link rel="alternate" hreflang="fr" href="${siteUrl}/fr/blog/interrompre-pilote-automatique-blocage-applications/" />`,
-    `<link rel="alternate" hreflang="x-default" href="${siteUrl}/guides/interrupting-autopilot-conscious-app-blocking/" />`
+    `<link rel="alternate" hreflang="x-default" href="${siteUrl}/guides/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/" />`
   ].join("\n  ");
 
   const deBodyHtml = `
@@ -324,7 +324,7 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
             <ul>
               <li><a href="/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/">Was ist ein App-Blocker und wann hilft er wirklich?</a></li>
               <li><a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">Warum vergesse ich, warum ich mein Handy entsperrt habe?</a></li>
-              <li><a href="/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/">Ablenkungen reduzieren, wenn das Gehirn alles prüfen will</a></li>
+              <li><a href="/guides/how-i-reduce-phone-distractions-when-i-want-to-check-everything/">Ablenkungen reduzieren, wenn das Gehirn alles prüfen will</a></li>
               <li><a href="/guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/">Manchmal ist das Problem nicht der Flow, sondern das Herauskommen</a></li>
               <li><a href="/comparison/forest-alternatives-if-gamification-isnt-what-youre-looking-for/">Forest-Alternativen ohne Gamification</a></li>
               <li><a href="/guides/i-use-a-focus-timer-to-stop-focusing/">Ich nutze einen Fokus-Timer, um abzuschalten.</a></li>
@@ -389,7 +389,7 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
             <ul>
               <li><a href="/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/">Qu'est-ce qu'un bloqueur d'applications et quand est-il vraiment utile ?</a></li>
               <li><a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">Pourquoi est-ce que j'oublie pourquoi j'ai déverrouillé mon téléphone ?</a></li>
-              <li><a href="/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/">Réduire les distractions quand mon cerveau TDAH veut tout vérifier</a></li>
+              <li><a href="/guides/how-i-reduce-phone-distractions-when-i-want-to-check-everything/">Réduire les distractions quand mon cerveau TDAH veut tout vérifier</a></li>
               <li><a href="/guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/">Parfois le problème n'est pas d'entrer dans le flow, mais d'en sortir</a></li>
               <li><a href="/comparison/forest-alternatives-if-gamification-isnt-what-youre-looking-for/">Alternatives à Forest sans gamification</a></li>
               <li><a href="/guides/i-use-a-focus-timer-to-stop-focusing/">J'utilise un minuteur de concentration pour arrêter de me concentrer</a></li>
@@ -634,8 +634,8 @@ function main() {
     const enHtml = renderPage(post, posts);
     fs.writeFileSync(path.join(dir, "index.html"), enHtml);
 
-    if (post.slug === "interrupting-autopilot-conscious-app-blocking") {
-      // Also write /blog/interrupting-autopilot-conscious-app-blocking/index.html
+    if (post.slug === "interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps") {
+      // Also write /blog/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/index.html
       const blogDir = path.join(root, "blog", post.slug);
       fs.mkdirSync(blogDir, { recursive: true });
       fs.writeFileSync(path.join(blogDir, "index.html"), enHtml);
@@ -665,3 +665,4 @@ function main() {
 }
 
 main();
+require('./render-article-redirects');

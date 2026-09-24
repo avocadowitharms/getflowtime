@@ -98,7 +98,7 @@ const urls = [
   { loc: `${siteUrl}/guides/`, lastmod: fileLastmod("guides/index.html", "2026-06-06"), changefreq: "weekly", priority: "0.8" },
   ...getUrlsFromDir(comparisonDir, "comparison"),
   ...getUrlsFromDir(guidesDir, "guides"),
-  { loc: `${siteUrl}/blog/interrupting-autopilot-conscious-app-blocking/`, lastmod: "2026-07-20", changefreq: "monthly", priority: "0.7" },
+  { loc: `${siteUrl}/blog/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/`, lastmod: "2026-07-20", changefreq: "monthly", priority: "0.7" },
   { loc: `${siteUrl}/de/blog/autopilot-unterbrechen-apps-bewusst-blockieren/`, lastmod: "2026-07-20", changefreq: "monthly", priority: "0.7" },
   { loc: `${siteUrl}/fr/blog/interrompre-pilote-automatique-blocage-applications/`, lastmod: "2026-07-20", changefreq: "monthly", priority: "0.7" },
 ].sort((a, b) => a.loc.localeCompare(b.loc));

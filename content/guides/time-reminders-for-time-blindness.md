@@ -3,7 +3,7 @@ title: "Time Reminders for Time Blindness"
 seoTitle: "Time Reminders for Time Blindness"
 description: "Why focus reminders can work better than aggressive alarms for time awareness, hyperfocus check-ins, and flexible focus sessions."
 metaDescription: "Learn how focus reminders, configurable intervals, and awareness cues can support ADHD time blindness without alarm fatigue."
-slug: "gentle-time-reminders-for-adhd-time-blindness"
+slug: "time-reminders-for-time-blindness"
 searchIntent: "Informational"
 primaryKeyword: "ADHD time reminders"
 secondaryKeywords: ["focus reminders for ADHD", "time blindness reminders", "focus reminders", "ADHD timer reminders"]
@@ -58,6 +58,6 @@ The goal is not to command your attention. It is to make time visible enough tha
 
 ## Keep reading
 
-Start with [Why You Lose Track of Time](/guides/why-adhd-makes-you-lose-track-of-time/) for the broader time-blindness context, then read [Hyperfocus: How to Stop Without Killing Your Focus](/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/).
+Start with [Why You Lose Track of Time](/guides/why-you-lose-track-of-time/) for the broader time-blindness context, then read [Hyperfocus: How to Stop Without Killing Your Focus](/guides/hyperfocus-how-to-stop-without-killing-your-focus/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.

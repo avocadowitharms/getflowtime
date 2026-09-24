@@ -82,10 +82,10 @@ If you keep tracking, pay attention to trends rather than single days. One scatt
 You may find that certain projects always expand, certain meetings always fragment the day, or certain times of day consistently support better focus. Those patterns can help you plan with less guesswork.
 
 ## Related articles
-- [Time Tracker Without an Account](../time-tracker-without-account/)
+- [Time Tracker Without an Account](../time-tracker-without-an-account/)
 - [Best Offline Time Trackers](../best-offline-time-trackers/)
 - [The Hidden Cost of Context Switching](../the-hidden-cost-of-context-switching/)
-- [Best App for Tracking Time Spent on Tasks and Projects](../../comparison/best-app-for-tracking-time-on-tasks-and-projects/)
+- [Best App for Tracking Time Spent on Tasks and Projects](../../comparison/best-app-for-tracking-time-spent-on-tasks-and-projects/)
 
 ## FAQ
 

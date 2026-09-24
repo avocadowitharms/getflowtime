@@ -3,7 +3,7 @@ title: "Flowtime vs Toggl Track"
 seoTitle: "Flowtime vs Toggl Track: Which Time Tracker Fits?"
 description: "A practical comparison of Flowtime and Toggl Track for people choosing between simple focus tracking and team-oriented time tracking."
 metaDescription: "Compare Flowtime vs Toggl Track for personal focus, client billing, team reporting, setup, privacy, and daily time tracking."
-slug: "flowtime-vs-toggl"
+slug: "flowtime-vs-toggl-track"
 searchIntent: "Comparison"
 primaryKeyword: "Flowtime vs Toggl"
 secondaryKeywords: ["Toggl Track alternative", "personal time tracker", "team time tracking", "local-first time tracker"]
@@ -78,10 +78,10 @@ After a trial week, compare the review process. Toggl Track should make it easy 
 If the reports are useful but setup feels heavy, that may still be the right tradeoff for client work. If the setup keeps you from tracking at all, the lighter tool may produce better data simply because you actually use it.
 
 ## Related articles
-- [Time Tracker Without an Account](../../guides/time-tracker-without-account/)
+- [Time Tracker Without an Account](../../guides/time-tracker-without-an-account/)
 - [Best Offline Time Trackers](../../guides/best-offline-time-trackers/)
 - [Why Most Time Tracking Apps Feel Overengineered](../../guides/why-most-time-tracking-apps-feel-overengineered/)
-- [Best App for Tracking Time Spent on Tasks and Projects](../best-app-for-tracking-time-on-tasks-and-projects/)
+- [Best App for Tracking Time Spent on Tasks and Projects](../best-app-for-tracking-time-spent-on-tasks-and-projects/)
 
 ## FAQ
 

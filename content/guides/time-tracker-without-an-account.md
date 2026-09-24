@@ -3,7 +3,7 @@ title: "Time Tracker Without an Account"
 seoTitle: "Time Tracker Without an Account: Private and Simple"
 description: "A practical guide to choosing a private, low-friction time tracker that works without sign-up, sync, or account setup."
 metaDescription: "Learn why some people prefer an account-free time tracker, what to look for, and when an account-based tool still makes sense."
-slug: "time-tracker-without-account"
+slug: "time-tracker-without-an-account"
 searchIntent: "Informational"
 primaryKeyword: "time tracker without an account"
 secondaryKeywords: ["no account time tracker", "private time tracker", "offline time tracker", "local-first time tracking"]

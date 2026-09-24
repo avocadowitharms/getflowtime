@@ -86,10 +86,10 @@ Project categories can help because they make review clearer. A quick export can
 But a feature that requires constant cleanup, naming, configuration, or decision-making should be treated carefully. The cost may be small each time, but repeated small costs are exactly how a simple timer becomes a tool you avoid opening.
 
 ## Related articles
-- [Time Tracker Without an Account](../time-tracker-without-account/)
+- [Time Tracker Without an Account](../time-tracker-without-an-account/)
 - [The Best Productivity System Is the One You Forget About](../the-best-productivity-system-is-the-one-you-forget-about/)
 - [The Hidden Cost of Context Switching](../the-hidden-cost-of-context-switching/)
-- [Best App for Tracking Time Spent on Tasks and Projects](../../comparison/best-app-for-tracking-time-on-tasks-and-projects/)
+- [Best App for Tracking Time Spent on Tasks and Projects](../../comparison/best-app-for-tracking-time-spent-on-tasks-and-projects/)
 
 ## FAQ
 

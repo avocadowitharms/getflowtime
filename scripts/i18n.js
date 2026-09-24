@@ -109,7 +109,7 @@
       "blocking.description": "Flowtime helps reduce distractions by temporarily blocking selected apps during a focus session. Instead of relying on willpower alone, you decide in advance which apps should be unavailable while you work.",
       "blocking.override": "If you genuinely need access to a blocked app, you can always choose to override the block intentionally—adding a small moment of awareness before switching tasks. This approach helps reduce impulsive distractions while keeping you in control.",
       "blocking.article.title": "Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps",
-      "blocking.article.href": "guides/interrupting-autopilot-conscious-app-blocking/index.html",
+      "blocking.article.href": "guides/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/index.html",
       "project.work": "Work",
       "project.gardening": "Gardening",
       "project.flowtime": "Flowtime",
@@ -708,7 +708,7 @@
     }
     window.localStorage.setItem(storageKey, nextLocale);
     var nextUrl = new URL(window.location.href);
-    if (/^\/(de|fr)\/(blog|guides)\//.test(nextUrl.pathname)) nextUrl.pathname = "/guides/interrupting-autopilot-conscious-app-blocking/";
+    if (/^\/(de|fr)\/(blog|guides)\//.test(nextUrl.pathname)) nextUrl.pathname = "/guides/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/";
     nextUrl.searchParams.set("lang", nextLocale);
     window.location.assign(nextUrl.toString());
   }

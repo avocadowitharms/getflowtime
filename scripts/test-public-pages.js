@@ -2,14 +2,35 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const root = path.resolve(__dirname, '..');
+const redirects = require('../data/article-redirects.json');
 const routes = ['', 'blog', 'buy', 'faq', 'press', 'learn', 'pricing', 'support', 'download', 'updates', 'about-flowtime', 'guides', 'comparison'];
 for (const category of ['guides', 'comparison']) {
   for (const entry of fs.readdirSync(path.join(root, category), { withFileTypes: true })) {
-    if (entry.isDirectory()) routes.push(`${category}/${entry.name}`);
+    if (entry.isDirectory() && !redirects[`/${category}/${entry.name}/`]) routes.push(`${category}/${entry.name}`);
   }
 }
-routes.push('blog/interrupting-autopilot-conscious-app-blocking', 'de/blog/autopilot-unterbrechen-apps-bewusst-blockieren', 'fr/blog/interrompre-pilote-automatique-blocage-applications');
+routes.push('blog/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps', 'de/blog/autopilot-unterbrechen-apps-bewusst-blockieren', 'fr/blog/interrompre-pilote-automatique-blocage-applications');
 let checked = 0;
+const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
+const redirectRules = fs.readFileSync(path.join(root, '_redirects'), 'utf8');
+for (const [from, to] of Object.entries(redirects)) {
+  assert(!redirects[to], `Redirect chain: ${from}`);
+  const html = fs.readFileSync(path.join(root, from, 'index.html'), 'utf8');
+  assert(html.includes('noindex,follow') && html.includes(`href="https://flowtime-app.com${to}"`), `Redirect canonical: ${from}`);
+  assert(html.includes('location.search + location.hash'), `Preserve locale and anchor: ${from}`);
+  assert(!sitemap.includes(`https://flowtime-app.com${from}`), `Legacy URL in sitemap: ${from}`);
+  assert(redirectRules.includes(`${from} ${to} 301!`), `Missing permanent redirect: ${from}`);
+  assert(fs.existsSync(path.join(root, to, 'index.html')), `Missing destination: ${to}`);
+}
+for (const category of ['guides', 'comparison']) {
+  for (const file of fs.readdirSync(path.join(root, 'content', category)).filter(file => file.endsWith('.md'))) {
+    const markdown = fs.readFileSync(path.join(root, 'content', category, file), 'utf8');
+    const title = markdown.match(/^title: "(.+)"/m)[1];
+    const expected = title.toLowerCase().replace(/['’"]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    assert.equal(file, `${expected}.md`, `Title and URL mismatch: ${title}`);
+    assert.equal(markdown.match(/^slug: "(.+)"/m)[1], expected, `Frontmatter slug: ${file}`);
+  }
+}
 for (const route of routes) {
   const file = route ? `${route}/index.html` : 'index.html';
   const html = fs.readFileSync(path.join(root, file), 'utf8');
@@ -19,6 +40,7 @@ for (const route of routes) {
   for (const [, raw] of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
     if (/^(https?:|mailto:|data:)/.test(raw)) continue;
     const url = new URL(raw.replaceAll('&amp;', '&'), `https://flowtime-app.com/${file}`);
+    assert(!redirects[url.pathname.replace(/index\.html$/, '')], `${file}: outdated article link ${raw}`);
     let local = path.join(root, decodeURIComponent(url.pathname));
     if (fs.existsSync(local) && fs.statSync(local).isDirectory()) local = path.join(local, 'index.html');
     assert(fs.existsSync(local), `${file}: missing resource ${raw}`);

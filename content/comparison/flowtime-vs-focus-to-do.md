@@ -3,7 +3,7 @@ title: "Flowtime vs Focus To-Do"
 seoTitle: "Flowtime vs Focus To-Do: Timer or Task System"
 description: "Compare Flowtime and Focus To-Do for Pomodoro sessions, task lists, project tracking, reminders, and low-friction personal productivity."
 metaDescription: "Compare Flowtime vs Focus To-Do to decide whether you want a flexible focus tracker or a task manager with Pomodoro built in."
-slug: "flowtime-vs-focus-todo"
+slug: "flowtime-vs-focus-to-do"
 searchIntent: "Comparison"
 primaryKeyword: "Flowtime vs Focus To-Do"
 secondaryKeywords: ["Focus To-Do alternative", "Pomodoro task app", "focus timer", "time tracking app"]

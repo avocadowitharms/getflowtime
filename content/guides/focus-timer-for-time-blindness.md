@@ -3,7 +3,7 @@ title: "Focus Timer for Time Blindness"
 seoTitle: "Focus Timer for Time Blindness"
 description: "How a flexible focus timer can make passing time easier to notice, including for some people with ADHD who experience time blindness or hyperfocus."
 metaDescription: "Choosing a focus timer for time awareness: visible sessions, gentle reminders, flexible intervals, and considerations for ADHD and hyperfocus."
-slug: "adhd-focus-timer-for-time-blindness"
+slug: "focus-timer-for-time-blindness"
 searchIntent: "Commercial Investigation"
 primaryKeyword: "ADHD focus timer for time blindness"
 secondaryKeywords: ["ADHD timer", "time blindness timer", "hyperfocus timer", "ADHD Pomodoro alternative"]
@@ -58,6 +58,6 @@ Flowtime is available for iPhone and Android, does not require an account, and o
 
 ## Keep reading
 
-For related details, read [Time Reminders for Time Blindness](/guides/gentle-time-reminders-for-adhd-time-blindness/), [Hyperfocus: How to Stop Without Killing Your Focus](/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/), and [Focus Timer vs Pomodoro: What's the Difference?](/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/).
+For related details, read [Time Reminders for Time Blindness](/guides/time-reminders-for-time-blindness/), [Hyperfocus: How to Stop Without Killing Your Focus](/guides/hyperfocus-how-to-stop-without-killing-your-focus/), and [Focus Timer vs Pomodoro: What's the Difference?](/comparison/focus-timer-vs-pomodoro-whats-the-difference/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.

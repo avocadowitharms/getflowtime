@@ -75,10 +75,10 @@ The longer you use a local-first app, the more backup habits matter. Local stora
 Set a simple routine for exporting or backing up data if the app supports it. You do not need a complicated process. You only need enough protection that local ownership does not become local fragility.
 
 ## Related articles
-- [Time Tracker Without an Account](../time-tracker-without-account/)
+- [Time Tracker Without an Account](../time-tracker-without-an-account/)
 - [Best Offline Time Trackers](../best-offline-time-trackers/)
 - [Why I Removed Account Creation From My Time Tracker](../why-i-removed-account-creation-from-my-time-tracker/)
-- [Flowtime vs Toggl](../../comparison/flowtime-vs-toggl/)
+- [Flowtime vs Toggl](../../comparison/flowtime-vs-toggl-track/)
 
 ## FAQ
 

@@ -99,7 +99,7 @@
         }
       },
       blog_metadata: {
-        "interrupting-autopilot-conscious-app-blocking": {
+        "interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps": {
           title: "Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps",
           desc: "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, Zeitwahrnehmung und bewusste Pausen unterstützt."
         },
@@ -107,11 +107,11 @@
           title: "Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps",
           desc: "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, Zeitwahrnehmung und bewusste Pausen unterstützt."
         },
-        "time-tracker-without-account": {
+        "time-tracker-without-an-account": {
           title: "Zeiterfassung ohne Account",
           desc: "Ein praktischer Leitfaden zur Auswahl einer privaten, reibungslosen Zeiterfassung, die ohne Anmeldung oder Sync funktioniert."
         },
-        "flowtime-vs-toggl": {
+        "flowtime-vs-toggl-track": {
           title: "Flowtime vs Toggl",
           desc: "Ein praktischer Vergleich von Flowtime und Toggl für die Entscheidung zwischen Fokus-Tracking und Team-Abrechnung."
         },
@@ -123,7 +123,7 @@
           title: "Warum Zeiterfassungs-Apps oft überladen wirken",
           desc: "Ein Produkt-Design-Essay darüber, warum Zeiterfassungstools zu komplex werden und wie einfachere UIs den Fokus stärken."
         },
-        "best-app-for-tracking-time-on-tasks-and-projects": {
+        "best-app-for-tracking-time-spent-on-tasks-and-projects": {
           title: "Beste App für die Zeiterfassung auf Projekten",
           desc: "Ein Vergleich darüber, was einen guten Time Tracker ausmacht. Von Timern und Erinnerungen bis hin zu flexiblen Berichten."
         },
@@ -143,7 +143,7 @@
           title: "Flowtime vs Session",
           desc: "Vergleiche Flowtime und Session: Apple-exklusive Automatisierungen oder plattformübergreifende Einfachheit."
         },
-        "flowtime-vs-focus-todo": {
+        "flowtime-vs-focus-to-do": {
           title: "Flowtime vs Focus To-Do",
           desc: "Vergleiche Flowtime und Focus To-Do: Finde heraus, ob ein reiner Timer oder eine integrierte GTD-Aufgabenliste besser für dich ist."
         },
@@ -205,7 +205,7 @@
           metaTitle: "Flowtime Ratgeber & Blog - Fokus, Zeiterfassung und Privatsphäre",
           metaDesc: "Flowtime Ratgeber und Blogartikel über einfache Zeiterfassung, fokussiertes Arbeiten, Offline-Produktivität und Datenschutz."
         },
-        "interrupting-autopilot-conscious-app-blocking": {
+        "interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps": {
           metaTitle: "Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps - Flowtime",
           metaDesc: "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, Zeitwahrnehmung und bewusste Pausen unterstützt."
         },
@@ -213,11 +213,11 @@
           metaTitle: "Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps - Flowtime",
           metaDesc: "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, Zeitwahrnehmung und bewusste Pausen unterstützt."
         },
-        "time-tracker-without-account": {
+        "time-tracker-without-an-account": {
           metaTitle: "Zeiterfassung ohne Account - Flowtime - Time Tracker",
           metaDesc: "Ein Leitfaden zur Auswahl einer privaten Zeiterfassung, die ohne Anmeldung, Sync oder Registrierung auskommt."
         },
-        "flowtime-vs-toggl": {
+        "flowtime-vs-toggl-track": {
           metaTitle: "Flowtime vs Toggl - Flowtime - Time Tracker",
           metaDesc: "Ein praktischer Vergleich von Flowtime und Toggl für alle, die sich zwischen Fokus-Tracking und Team-Abrechnung entscheiden."
         },
@@ -229,7 +229,7 @@
           metaTitle: "Warum Zeiterfassungs-Apps oft überladen wirken - Flowtime - Time Tracker",
           metaDesc: "Design-Essay darüber, warum Zeiterfassungstools zu komplex werden und wie einfachere UIs den Fokus unterstützen."
         },
-        "best-app-for-tracking-time-on-tasks-and-projects": {
+        "best-app-for-tracking-time-spent-on-tasks-and-projects": {
           metaTitle: "Beste App für die Zeiterfassung auf Projekten - Flowtime",
           metaDesc: "Ein Vergleich der wichtigsten Features von Zeiterfassungs-Apps, von Projekten und Timern bis zu Berichten."
         },
@@ -249,7 +249,7 @@
           metaTitle: "Flowtime vs Session - Flowtime - Time Tracker",
           metaDesc: "Finde heraus, was besser zu dir passt: Kalender-Integrationen auf Apple-Geräten oder plattformübergreifender Datenschutz."
         },
-        "flowtime-vs-focus-todo": {
+        "flowtime-vs-focus-to-do": {
           metaTitle: "Flowtime vs Focus To-Do - Flowtime - Time Tracker",
           metaDesc: "Vergleich zwischen Flowtime und Focus To-Do: Reiner Fokus-Timer oder integrierte GTD-Aufgabenverwaltung."
         },
@@ -373,7 +373,7 @@
             </details>
           `
         },
-        "adhd-focus-timer-for-time-blindness": {
+        "focus-timer-for-time-blindness": {
           title: "Fokus-Timer für Zeitblindheit",
           description: "Wie ein flexibler Fokus-Timer Zeit sichtbarer macht, auch für manche Menschen mit ADHS, Zeitblindheit oder Hyperfokus.",
           readingTime: "4 Min. Lesezeit",
@@ -413,11 +413,11 @@
             <p>Flowtime kombiniert flexible Flow Sessions, Pomodoro, Fokus-Erinnerungen, Projekt-Zeiterfassung und optionales App-Blocking. So lässt sich der Fokus-Timer und Time Tracker an unterschiedliche Aufgaben und Arbeitsrhythmen anpassen.</p>
             <p>Flowtime ist für iPhone und Android verfügbar, erfordert keinen Account und bietet flexible Zeiterfassung für Arbeit, Lernen und Alltag.</p>
             <h2 id="keep-reading">Weiterlesen</h2>
-            <p>Passende Artikel dazu sind <a href="/guides/gentle-time-reminders-for-adhd-time-blindness/">Flexible Zeiterinnerungen bei ADHS-Time-Blindness</a>, <a href="/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/">ADHS-Hyperfokus: Aufhören, ohne den Fokus kaputtzumachen</a> und <a href="/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/">Fokus-Timer vs. Pomodoro</a>.</p>
+            <p>Passende Artikel dazu sind <a href="/guides/time-reminders-for-time-blindness/">Flexible Zeiterinnerungen bei ADHS-Time-Blindness</a>, <a href="/guides/hyperfocus-how-to-stop-without-killing-your-focus/">ADHS-Hyperfokus: Aufhören, ohne den Fokus kaputtzumachen</a> und <a href="/comparison/focus-timer-vs-pomodoro-whats-the-difference/">Fokus-Timer vs. Pomodoro</a>.</p>
             <p>Flowtime ist ein flexibler Fokus-Timer und Time Tracker, der Zeit sichtbarer macht und es leichter macht, von Ablenkungen Abstand zu nehmen.</p>
           `
         },
-        "interrupting-autopilot-conscious-app-blocking": {
+        "interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps": {
           title: "Den Autopiloten unterbrechen: Bewusste Entscheidungen beim Blockieren von Apps",
           description: "App-Blocker helfen am besten, wenn sie automatische Gewohnheiten unterbrechen. Erfahre, wie bewusste App-Blockierung in Flowtime Fokus, Zeitwahrnehmung und bewusste Pausen unterstützt.",
           readingTime: "5 Min. Lesezeit",
@@ -492,7 +492,7 @@
             <ul>
               <li><a href="/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/">Was ist ein App-Blocker und wann hilft er wirklich?</a></li>
               <li><a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">Warum vergesse ich, warum ich mein Handy entsperrt habe?</a></li>
-              <li><a href="/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/">Ablenkungen reduzieren, wenn das Gehirn alles prüfen will</a></li>
+              <li><a href="/guides/how-i-reduce-phone-distractions-when-i-want-to-check-everything/">Ablenkungen reduzieren, wenn das Gehirn alles prüfen will</a></li>
               <li><a href="/guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/">Manchmal ist das Problem nicht der Flow, sondern das Herauskommen</a></li>
               <li><a href="/comparison/forest-alternatives-if-gamification-isnt-what-youre-looking-for/">Forest-Alternativen ohne Gamification</a></li>
               <li><a href="/guides/i-use-a-focus-timer-to-stop-focusing/">Ich nutze einen Fokus-Timer, um abzuschalten./a></li>
@@ -575,7 +575,7 @@
             <ul>
               <li><a href="/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/">Was ist ein App-Blocker und wann hilft er wirklich?</a></li>
               <li><a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">Warum vergesse ich, warum ich mein Handy entsperrt habe?</a></li>
-              <li><a href="/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/">Ablenkungen reduzieren, wenn das Gehirn alles prüfen will</a></li>
+              <li><a href="/guides/how-i-reduce-phone-distractions-when-i-want-to-check-everything/">Ablenkungen reduzieren, wenn das Gehirn alles prüfen will</a></li>
               <li><a href="/guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/">Manchmal ist das Problem nicht der Flow, sondern das Herauskommen</a></li>
               <li><a href="/comparison/forest-alternatives-if-gamification-isnt-what-youre-looking-for/">Forest-Alternativen ohne Gamification</a></li>
               <li><a href="/guides/i-use-a-focus-timer-to-stop-focusing/">Ich nutze einen Fokus-Timer, um abzuschalten.</a></li>
@@ -583,7 +583,7 @@
             <p>Flowtime ist ein flexibler Fokus-Timer, der Zeit sichtbarer macht, automatische Gewohnheiten unterbricht und dir stets die Kontrolle überlässt.</p>
           `
         },
-        "time-tracker-without-account": {
+        "time-tracker-without-an-account": {
           title: "Zeiterfassung ohne Account",
           description: "Ein praktischer Leitfaden zur Auswahl einer privaten, reibungslosen Zeiterfassung, die ohne Anmeldung, Synchronisierung oder Account-Setup funktioniert.",
           readingTime: "4 Min. Lesezeit",
@@ -638,7 +638,7 @@
             </details>
           `
         },
-        "flowtime-vs-toggl": {
+        "flowtime-vs-toggl-track": {
           title: "Flowtime vs Toggl",
           description: "Ein praktischer Vergleich von Flowtime und Toggl für die Entscheidung zwischen einfachem Fokus-Tracking und teamorientierter Zeiterfassung.",
           readingTime: "4 Min. Lesezeit",
@@ -766,7 +766,7 @@
             <p>Gutes Produkt-Design bedeutet oft zu wissen, was man weglässt. Flowtime verzichtet auf Team-Verwaltungen und konzentriert sich ganz auf den individuellen Arbeitsfluss – mit schnellen Projekt-Tags und übersichtlichen Auswertungen, die direkt auf dem Gerät bleiben.</p>
           `
         },
-        "best-app-for-tracking-time-on-tasks-and-projects": {
+        "best-app-for-tracking-time-spent-on-tasks-and-projects": {
           title: "Beste App für die Zeiterfassung auf Projekten",
           description: "Ein Produktvergleich darüber, was einen großartigen Time Tracker ausmacht – von Timern und Erinnerungen bis hin zu Berichten und ablenkungsfreiem Arbeiten.",
           readingTime: "2 Min. Lesezeit",
@@ -973,7 +973,7 @@
             </details>
           `
         },
-        "flowtime-vs-focus-todo": {
+        "flowtime-vs-focus-to-do": {
           title: "Flowtime vs Focus To-Do",
           description: "Vergleich zwischen Flowtime und Focus To-Do: Reiner Fokus-Timer oder integrierte GTD-Aufgabenverwaltung.",
           readingTime: "4 Min. Lesezeit",
@@ -1278,7 +1278,7 @@
         }
       },
       blog_metadata: {
-        "interrupting-autopilot-conscious-app-blocking": {
+        "interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps": {
           title: "Interrompre le pilote automatique : décider consciemment face au blocage des applications",
           desc: "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour la concentration et les pauses intentionnelles."
         },
@@ -1286,11 +1286,11 @@
           title: "Interrompre le pilote automatique : décider consciemment face au blocage des applications",
           desc: "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour la concentration et les pauses intentionnelles."
         },
-        "time-tracker-without-account": {
+        "time-tracker-without-an-account": {
           title: "Suivi du temps sans compte",
           desc: "Un guide pratique pour choisir un outil de suivi du temps privé et fluide qui fonctionne sans inscription ni synchronisation."
         },
-        "flowtime-vs-toggl": {
+        "flowtime-vs-toggl-track": {
           title: "Flowtime vs Toggl",
           desc: "Une comparaison pratique de Flowtime et Toggl pour choisir entre minuteur de concentration personnel et suivi d'équipe."
         },
@@ -1302,7 +1302,7 @@
           title: "Pourquoi les applications de suivi du temps semblent surchargées",
           desc: "Un essai sur le design produit : pourquoi ces outils deviennent trop complexes et comment une interface simple sert le focus."
         },
-        "best-app-for-tracking-time-on-tasks-and-projects": {
+        "best-app-for-tracking-time-spent-on-tasks-and-projects": {
           title: "Meilleure application pour le suivi par projet",
           desc: "Une comparaison des fonctionnalités essentielles, des minuteurs et rappels jusqu'aux rapports et analyses de concentration."
         },
@@ -1322,7 +1322,7 @@
           title: "Flowtime vs Session",
           desc: "Comparez Flowtime et Session : les automatisations de l'écosystème Apple contre la simplicité multiplateforme."
         },
-        "flowtime-vs-focus-todo": {
+        "flowtime-vs-focus-to-do": {
           title: "Flowtime vs Focus To-Do",
           desc: "Comparez Flowtime et Focus To-Do : déterminez si un minuteur pur ou une liste de tâches GTD intégrée convient le mieux."
         },
@@ -1384,7 +1384,7 @@
           metaTitle: "Flowtime Guides & Blog - Focus, suivi du temps et confidentialité",
           metaDesc: "Guides et articles de blog Flowtime sur le suivi simple du temps, le travail concentré, la productivité hors-ligne et la vie privée."
         },
-        "interrupting-autopilot-conscious-app-blocking": {
+        "interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps": {
           metaTitle: "Interrompre le pilote automatique : décider consciemment face au blocage des applications - Flowtime",
           metaDesc: "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour la concentration et les pauses intentionnelles."
         },
@@ -1392,11 +1392,11 @@
           metaTitle: "Interrompre le pilote automatique : décider consciemment face au blocage des applications - Flowtime",
           metaDesc: "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour la concentration et les pauses intentionnelles."
         },
-        "time-tracker-without-account": {
+        "time-tracker-without-an-account": {
           metaTitle: "Suivi du temps sans compte - Flowtime - Time Tracker",
           metaDesc: "Un guide pour choisir un outil de suivi privé et sans friction, fonctionnant sans inscription, sync ou création de compte."
         },
-        "flowtime-vs-toggl": {
+        "flowtime-vs-toggl-track": {
           metaTitle: "Flowtime vs Toggl - Flowtime - Time Tracker",
           metaDesc: "Une comparaison pratique de Flowtime et Toggl pour choisir entre suivi de concentration et facturation d'équipe."
         },
@@ -1408,7 +1408,7 @@
           metaTitle: "Pourquoi ces applications semblent surchargées - Flowtime",
           metaDesc: "Essai sur le design produit : pourquoi ces outils deviennent trop complexes et comment une interface simple sert le focus."
         },
-        "best-app-for-tracking-time-on-tasks-and-projects": {
+        "best-app-for-tracking-time-spent-on-tasks-and-projects": {
           metaTitle: "Meilleure application pour le suivi par projet - Flowtime",
           metaDesc: "Une comparaison des fonctionnalités essentielles, des minuteurs et rappels jusqu'aux rapports de concentration."
         },
@@ -1428,7 +1428,7 @@
           metaTitle: "Flowtime vs Session - Flowtime - Time Tracker",
           metaDesc: "Découvrez ce qui vous convient le mieux : automatisations Apple ou confidentialité multiplateforme."
         },
-        "flowtime-vs-focus-todo": {
+        "flowtime-vs-focus-to-do": {
           metaTitle: "Flowtime vs Focus To-Do - Flowtime - Time Tracker",
           metaDesc: "Comparaison entre Flowtime et Focus To-Do : minuteur de concentration pur ou gestionnaire de tâches GTD complet."
         },
@@ -1552,7 +1552,7 @@
             </details>
           `
         },
-        "adhd-focus-timer-for-time-blindness": {
+        "focus-timer-for-time-blindness": {
           title: "Minuteur de concentration pour la notion du temps",
           description: "Comment un minuteur flexible rend le temps plus visible, y compris pour certaines personnes avec un TDAH qui perdent la notion du temps.",
           readingTime: "4 min de lecture",
@@ -1592,11 +1592,11 @@
             <p>Flowtime combine Flow Sessions flexibles, Pomodoro, rappels de concentration, suivi du temps par projet et blocage d'apps optionnel. Ce minuteur et outil de suivi du temps peut ainsi s’adapter à différentes tâches et façons de se concentrer.</p>
             <p>Flowtime est disponible sur iPhone et Android, ne nécessite aucun compte et offre un suivi du temps flexible pour le travail, les études et le quotidien.</p>
             <h2 id="keep-reading">Continuer la lecture</h2>
-            <p>Pour aller plus loin, lisez <a href="/guides/gentle-time-reminders-for-adhd-time-blindness/">Rappels de concentration pour la time blindness liée au TDAH</a>, <a href="/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/">Hyperfocus TDAH : s'arrêter sans casser sa concentration</a> et <a href="/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/">Minuteur de concentration vs Pomodoro</a>.</p>
+            <p>Pour aller plus loin, lisez <a href="/guides/time-reminders-for-time-blindness/">Rappels de concentration pour la time blindness liée au TDAH</a>, <a href="/guides/hyperfocus-how-to-stop-without-killing-your-focus/">Hyperfocus TDAH : s'arrêter sans casser sa concentration</a> et <a href="/comparison/focus-timer-vs-pomodoro-whats-the-difference/">Minuteur de concentration vs Pomodoro</a>.</p>
             <p>Flowtime est un minuteur de concentration flexible et un outil de suivi du temps conçu pour rendre le temps plus visible et faciliter la prise de distance avec les distractions.</p>
           `
         },
-        "interrupting-autopilot-conscious-app-blocking": {
+        "interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps": {
           title: "Interrompre le pilote automatique : décider consciemment face au blocage des applications",
           description: "Les bloqueurs d'applications fonctionnent mieux en interrompant les habitudes automatiques. Découvrez le blocage conscient avec Flowtime pour la concentration et les pauses intentionnelles.",
           readingTime: "5 min de lecture",
@@ -1671,7 +1671,7 @@
             <ul>
               <li><a href="/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/">Qu'est-ce qu'un bloqueur d'applications et quand est-il vraiment utile ?</a></li>
               <li><a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">Pourquoi est-ce que j'oublie pourquoi j'ai déverrouillé mon téléphone ?</a></li>
-              <li><a href="/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/">Réduire les distractions quand mon cerveau TDAH veut tout vérifier</a></li>
+              <li><a href="/guides/how-i-reduce-phone-distractions-when-i-want-to-check-everything/">Réduire les distractions quand mon cerveau TDAH veut tout vérifier</a></li>
               <li><a href="/guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/">Parfois le problème n'est pas d'entrer dans le flow, mais d'en sortir</a></li>
               <li><a href="/comparison/forest-alternatives-if-gamification-isnt-what-youre-looking-for/">Alternatives à Forest sans gamification</a></li>
               <li><a href="/guides/i-use-a-focus-timer-to-stop-focusing/">J'utilise un minuteur de concentration pour arrêter de me concentrer</a></li>
@@ -1754,7 +1754,7 @@
             <ul>
               <li><a href="/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/">Qu'est-ce qu'un bloqueur d'applications et quand est-il vraiment utile ?</a></li>
               <li><a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">Pourquoi est-ce que j'oublie pourquoi j'ai déverrouillé mon téléphone ?</a></li>
-              <li><a href="/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/">Réduire les distractions quand mon cerveau TDAH veut tout vérifier</a></li>
+              <li><a href="/guides/how-i-reduce-phone-distractions-when-i-want-to-check-everything/">Réduire les distractions quand mon cerveau TDAH veut tout vérifier</a></li>
               <li><a href="/guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/">Parfois le problème n'est pas d'entrer dans le flow, mais d'en sortir</a></li>
               <li><a href="/comparison/forest-alternatives-if-gamification-isnt-what-youre-looking-for/">Alternatives à Forest sans gamification</a></li>
               <li><a href="/guides/i-use-a-focus-timer-to-stop-focusing/">J'utilise un minuteur de concentration pour arrêter de me concentrer</a></li>
@@ -1762,7 +1762,7 @@
             <p>Flowtime est un minuteur de concentration flexible conçu pour rendre le temps plus visible, interrompre les habitudes automatiques et vous laisser le contrôle.</p>
           `
         },
-        "time-tracker-without-account": {
+        "time-tracker-without-an-account": {
           title: "Suivi du temps sans compte",
           description: "Un guide pratique pour choisir un outil de suivi du temps privé et fluide qui fonctionne sans inscription, synchronisation ou configuration de compte.",
           readingTime: "4 min de lecture",
@@ -1817,7 +1817,7 @@
             </details>
           `
         },
-        "flowtime-vs-toggl": {
+        "flowtime-vs-toggl-track": {
           title: "Flowtime vs Toggl",
           description: "Une comparaison pratique de Flowtime et Toggl pour choisir entre minuteur de concentration personnel et suivi d'équipe.",
           readingTime: "4 min de lecture",
@@ -1945,7 +1945,7 @@
             <p>Un bon design produit consiste à savoir quoi omettre. Flowtime fait l'impasse sur la gestion d'équipe et se concentre sur le flux de travail individuel – avec des tags de projet rapides et des statistiques locales.</p>
           `
         },
-        "best-app-for-tracking-time-on-tasks-and-projects": {
+        "best-app-for-tracking-time-spent-on-tasks-and-projects": {
           title: "Meilleure application pour le suivi par projet",
           description: "Un comparatif de ce qui fait un bon outil de suivi : des minuteurs et rappels jusqu'aux rapports de concentration.",
           readingTime: "2 min de lecture",
@@ -2152,7 +2152,7 @@
             </details>
           `
         },
-        "flowtime-vs-focus-todo": {
+        "flowtime-vs-focus-to-do": {
           title: "Flowtime vs Focus To-Do",
           description: "Comparaison entre Flowtime et Focus To-Do : minuteur de concentration pur ou gestionnaire de tâches GTD complet.",
           readingTime: "4 min de lecture",
@@ -2400,15 +2400,15 @@
         }
       },
       "blog_metadata": {
-        "why-adhd-makes-you-lose-track-of-time": {
+        "why-you-lose-track-of-time": {
           "title": "Warum du die Zeit aus dem Blick verlierst",
           "desc": "Ein praktischer Guide zu ADHS-Time-Blindness, dem Unterschied zwischen Uhrzeit und gefühlter Zeit und externen Zeitreizen."
         },
-        "adhd-focus-timer-for-time-blindness": {
+        "focus-timer-for-time-blindness": {
           "title": "Fokus-Timer für Zeitblindheit",
           "desc": "Wie ein flexibler Fokus-Timer Zeit sichtbarer macht, auch für manche Menschen mit ADHS, Zeitblindheit oder Hyperfokus."
         },
-        "adhd-hyperfocus-how-to-stop-without-killing-your-focus": {
+        "hyperfocus-how-to-stop-without-killing-your-focus": {
           "title": "Hyperfokus: Aufhören, ohne den Fokus kaputtzumachen",
           "desc": "Wie flexible Grenzen, Fokus-Erinnerungen und bewusste Ausstiegspunkte beim Herauskommen aus Hyperfokus helfen können."
         },
@@ -2416,7 +2416,7 @@
           "title": "Ich nutze einen Fokus-Timer, um abzuschalten.",
           "desc": "Eine persönliche Notiz über ADHS, Hyperfokus, Hundespaziergänge, App-Blocking und absichtliches Unfokussieren."
         },
-        "why-pomodoro-doesnt-always-work-for-adhd": {
+        "why-pomodoro-doesnt-always-work": {
           "title": "Warum Pomodoro nicht immer funktioniert",
           "desc": "Ein ausgewogener Blick darauf, wann Pomodoro hilft, wann feste 25-Minuten-Intervalle stören und wann flexible Sessions besser passen."
         },
@@ -2428,11 +2428,11 @@
           "title": "Warum vergesse ich, warum ich mein Handy entsperrt habe?",
           "desc": "Wie visuelle Reize, Benachrichtigungen, Context Switching und App-Blocking mit Handy-Ablenkung zusammenhängen."
         },
-        "gentle-time-reminders-for-adhd-time-blindness": {
+        "time-reminders-for-time-blindness": {
           "title": "Flexible Zeiterinnerungen bei Time-Blindness",
           "desc": "Warum Fokus-Erinnerungen oft besser funktionieren als aggressive Alarme und wie Check-ins Zeit sichtbarer machen."
         },
-        "how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything": {
+        "how-i-reduce-phone-distractions-when-i-want-to-check-everything": {
           "title": "Wie ich Handy-Ablenkungen reduziere, wenn ich alles checken will",
           "desc": "Eine persönliche Notiz über Instagram, Nachrichten, Wetter, E-Mail, App-Blocking und weniger Entscheidungen während Fokuszeit."
         },
@@ -2444,15 +2444,15 @@
           "title": "Was ist ein App-Blocker und wann ist er wirklich nützlich?",
           "desc": "Was App-Blocker tun, wann sie beim Fokus helfen, wo ihre Grenzen liegen und warum Blocking eine Absicht unterstützen sollte."
         },
-        "simple-focus-timer-for-work-study-and-deep-focus": {
+        "a-simple-focus-timer-for-work-study-and-deep-focus": {
           "title": "Ein einfacher Fokus-Timer für Arbeit, Lernen und Deep Focus",
           "desc": "Worauf es bei einem einfachen Fokus-Timer für Arbeit, Lernen, Erinnerungen, App-Blocking und Zeiterfassung ankommt."
         },
-        "adhd-focus-timer-vs-pomodoro-whats-the-difference": {
+        "focus-timer-vs-pomodoro-whats-the-difference": {
           "title": "Fokus-Timer vs. Pomodoro: Was ist der Unterschied?",
           "desc": "Ein Vergleich flexibler Fokus-Timer und Pomodoro: feste Intervalle, Zeitwahrnehmung und Erinnerungen, auch im Kontext von ADHS."
         },
-        "best-focus-apps-for-adhd-arent-always-planners": {
+        "the-best-focus-apps-arent-always-planners": {
           "title": "Die besten Fokus-Apps sind nicht immer Planner",
           "desc": "Warum Timer, App-Blocker, Body Doubling und externe Zeitreize manchmal hilfreicher sind als komplexe Planungssysteme."
         },
@@ -2498,15 +2498,15 @@
         }
       },
       "blog_metadata": {
-        "why-adhd-makes-you-lose-track-of-time": {
+        "why-you-lose-track-of-time": {
           "title": "Pourquoi vous perdez la notion du temps",
           "desc": "Un guide cleare sur la time blindness, la différence entre connaître l'heure et sentir le temps passer, et les repères externes."
         },
-        "adhd-focus-timer-for-time-blindness": {
+        "focus-timer-for-time-blindness": {
           "title": "Minuteur de concentration pour la notion du temps",
           "desc": "Comment un minuteur flexible rend le temps plus visible, y compris pour certaines personnes avec un TDAH qui perdent la notion du temps."
         },
-        "adhd-hyperfocus-how-to-stop-without-killing-your-focus": {
+        "hyperfocus-how-to-stop-without-killing-your-focus": {
           "title": "Hyperfocus : s'arrêter sans casser sa concentration",
           "desc": "Comment des limites flexibles, des rappels de concentration et un point de sortie intentionnel peuvent aider à sortir de l'hyperfocus."
         },
@@ -2514,7 +2514,7 @@
           "title": "J'utilise un minuteur de concentration pour arrêter de me concentrer",
           "desc": "Une note personnelle sur le TDAH, l'hyperfocus, les promenades avec le chien, le blocage d'apps et le fait de décrocher intentionnellement."
         },
-        "why-pomodoro-doesnt-always-work-for-adhd": {
+        "why-pomodoro-doesnt-always-work": {
           "title": "Pourquoi Pomodoro ne fonctionne pas toujours",
           "desc": "Un regard équilibré sur Pomodoro, les interruptions fixes de 25 minutes et les sessions de concentration plus flexibles."
         },
@@ -2526,11 +2526,11 @@
           "title": "Pourquoi j'oublie pourquoi j'ai déverrouillé mon téléphone ?",
           "desc": "Comment les indices visuels, les notifications, le changement de contexte et le blocage d'apps se lient aux distractions du téléphone."
         },
-        "gentle-time-reminders-for-adhd-time-blindness": {
+        "time-reminders-for-time-blindness": {
           "title": "Rappels de concentration pour la perception du temps",
           "desc": "Pourquoi les rappels de concentration peuvent mieux soutenir la perception du temps que les alarmes agressives."
         },
-        "how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything": {
+        "how-i-reduce-phone-distractions-when-i-want-to-check-everything": {
           "title": "Comment je réduis les distractions du téléphone quand je veux tout vérifier",
           "desc": "Une note personnelle sur Instagram, les messages, la météo, l'e-mail, le blocage d'apps et la réduction des décisions."
         },
@@ -2542,15 +2542,15 @@
           "title": "Qu'est-ce qu'un bloqueur d'apps et quand est-il vraiment utile ?",
           "desc": "Ce que font les bloqueurs d'apps, quand ils aident la concentration, leurs limites et le lien avec les sessions minutées."
         },
-        "simple-focus-timer-for-work-study-and-deep-focus": {
+        "a-simple-focus-timer-for-work-study-and-deep-focus": {
           "title": "Un minuteur simple pour le travail, les Études et le deep focus",
           "desc": "Ce qu’il faut chercher dans un minuteur simple pour travailler, étudier, bloquer les distractions et rendre le temps visible."
         },
-        "adhd-focus-timer-vs-pomodoro-whats-the-difference": {
+        "focus-timer-vs-pomodoro-whats-the-difference": {
           "title": "Minuteur de concentration vs Pomodoro : quelle différence ?",
           "desc": "Une comparaison des minuteurs flexibles et de Pomodoro : intervalles fixes, perception du temps et rappels, avec des pistes pour les personnes avec un TDAH."
         },
-        "best-focus-apps-for-adhd-arent-always-planners": {
+        "the-best-focus-apps-arent-always-planners": {
           "title": "Les meilleures apps de concentration ne sont pas toujours des planners",
           "desc": "Pourquoi les minuteurs, bloqueurs d’apps, repères externes et outils ciblés peuvent parfois aider plus que les systèmes complexes."
         },
@@ -2675,19 +2675,19 @@
     var subject = fallbackTitle.replace(/^Flowtime vs\s+/i, "");
 
     var adhdLocalizedPages = [
-      "why-adhd-makes-you-lose-track-of-time",
-      "adhd-hyperfocus-how-to-stop-without-killing-your-focus",
+      "why-you-lose-track-of-time",
+      "hyperfocus-how-to-stop-without-killing-your-focus",
       "i-use-a-focus-timer-to-stop-focusing",
-      "why-pomodoro-doesnt-always-work-for-adhd",
+      "why-pomodoro-doesnt-always-work",
       "do-you-start-working-and-suddenly-its-four-hours-later",
       "why-do-i-forget-why-i-unlocked-my-phone",
-      "gentle-time-reminders-for-adhd-time-blindness",
-      "how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything",
+      "time-reminders-for-time-blindness",
+      "how-i-reduce-phone-distractions-when-i-want-to-check-everything",
       "how-to-use-a-focus-timer-without-interrupting-your-best-work",
       "what-is-an-app-blocker-and-when-is-it-actually-useful",
-      "simple-focus-timer-for-work-study-and-deep-focus",
-      "adhd-focus-timer-vs-pomodoro-whats-the-difference",
-      "best-focus-apps-for-adhd-arent-always-planners",
+      "a-simple-focus-timer-for-work-study-and-deep-focus",
+      "focus-timer-vs-pomodoro-whats-the-difference",
+      "the-best-focus-apps-arent-always-planners",
       "focus-timer-time-tracker-or-pomodoro-app-which-one-do-you-need"
     ];
 
@@ -2722,7 +2722,7 @@
           <p>Flowtime ist ein flexibler Fokus-Timer und Time Tracker für alle. Die App kombiniert sichtbare Fokus-Sessions, Pomodoro, flexible Flow Sessions, Erinnerungen, Projektzeit und optionales App-Blocking. Das ersetzt keine Diagnose, Therapie oder medizinische Unterstützung. Es kann aber helfen, äußere Hinweise zu schaffen, wenn das eigene Zeitgefühl gerade nicht zuverlässig genug ist.</p>
           <p>Die Idee ist bewusst leicht: Session starten, Zeit sichtbar halten, Ablenkungen reduzieren und später erkennen, wohin Fokus wirklich gegangen ist. Diese Sichtbarkeit kann hilfreich sein, wenn du bei tiefem Fokus oder Hyperfokus die Zeit aus dem Blick verlierst.</p>
           <h2 id="keep-reading">Weiterlesen</h2>
-          <p>Passende Artikel in dieser Serie sind <a href="/guides/why-adhd-makes-you-lose-track-of-time/">Warum ADHS dazu führen kann, dass du die Zeit aus dem Blick verlierst</a>, <a href="/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/">ADHS-Hyperfokus: Aufhören, ohne den Fokus kaputtzumachen</a> und <a href="/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/">Fokus-Timer vs. Pomodoro</a>.</p>
+          <p>Passende Artikel in dieser Serie sind <a href="/guides/why-you-lose-track-of-time/">Warum ADHS dazu führen kann, dass du die Zeit aus dem Blick verlierst</a>, <a href="/guides/hyperfocus-how-to-stop-without-killing-your-focus/">ADHS-Hyperfokus: Aufhören, ohne den Fokus kaputtzumachen</a> und <a href="/comparison/focus-timer-vs-pomodoro-whats-the-difference/">Fokus-Timer vs. Pomodoro</a>.</p>
         ` : `
           <h2 id="summary">Résumé</h2>
           <p>${fallbackDesc}</p>
@@ -2737,7 +2737,7 @@
           <p>Flowtime est un minuteur de concentration flexible et un outil de suivi du temps pour tout le monde. Il combine sessions visibles, Pomodoro, Flow Sessions flexibles, rappels, suivi par projet et blocage d'apps optionnel. Cela ne remplace pas un diagnostic, une thérapie ou un accompagnement médical. Mais cela peut créer des repères externes quand la perception interne du temps n'est pas assez fiable.</p>
           <p>L'idée reste légère : démarrer une session, garder le temps visible, réduire les distractions et comprendre ensuite où la concentration est vraiment allée. Cette visibilité peut être utile quand on perd la notion du temps pendant une concentration profonde ou un hyperfocus.</p>
           <h2 id="keep-reading">Continuer la lecture</h2>
-          <p>Dans cette série, lisez aussi <a href="/guides/why-adhd-makes-you-lose-track-of-time/">Pourquoi le TDAH peut faire perdre la notion du temps</a>, <a href="/guides/adhd-hyperfocus-how-to-stop-without-killing-your-focus/">Hyperfocus TDAH : s'arrêter sans casser sa concentration</a> et <a href="/comparison/adhd-focus-timer-vs-pomodoro-whats-the-difference/">Minuteur de concentration vs Pomodoro</a>.</p>
+          <p>Dans cette série, lisez aussi <a href="/guides/why-you-lose-track-of-time/">Pourquoi le TDAH peut faire perdre la notion du temps</a>, <a href="/guides/hyperfocus-how-to-stop-without-killing-your-focus/">Hyperfocus TDAH : s'arrêter sans casser sa concentration</a> et <a href="/comparison/focus-timer-vs-pomodoro-whats-the-difference/">Minuteur de concentration vs Pomodoro</a>.</p>
         `
       };
     }
@@ -2817,7 +2817,7 @@
   function expandLocalizedComparisonArticle(loc, pageKey, aData) {
     var isGerman = loc === "de";
     var notes = {
-      "flowtime-vs-toggl": {
+      "flowtime-vs-toggl-track": {
         tool: "Toggl Track",
         deBest: "wenn Abrechnung, Teams, Kundenberichte und Freigabeprozesse wichtiger sind als ein klarer persönlicher Timer.",
         frBest: "si la facturation, les équipes, les rapports client et les validations comptent plus qu'un minuteur personnel discret."
@@ -2832,7 +2832,7 @@
         deBest: "wenn du tief im Apple-Ökosystem arbeitest und Kalender, Shortcuts oder Status-Automationen aktiv nutzen möchtest.",
         frBest: "si vous travaillez entièrement dans l'écosystème Apple et voulez utiliser calendrier, raccourcis ou automatisations de statut."
       },
-      "flowtime-vs-focus-todo": {
+      "flowtime-vs-focus-to-do": {
         tool: "Focus To-Do",
         deBest: "wenn du Aufgabenlisten, Wiederholungen, Unteraufgaben und Pomodoro-Zyklen in derselben App verwalten möchtest.",
         frBest: "si vous voulez gérer listes de tâches, répétitions, sous-tâches et cycles Pomodoro dans la même application."
@@ -2842,7 +2842,7 @@
         deBest: "wenn du einen sehr einfachen Intervall-Timer für Apple-Geräte suchst und keine offenen Flow Sessions brauchst.",
         frBest: "si vous cherchez un minuteur par intervalles très simple sur appareils Apple et n'avez pas besoin de sessions Flow ouvertes."
       },
-      "best-app-for-tracking-time-on-tasks-and-projects": {
+      "best-app-for-tracking-time-spent-on-tasks-and-projects": {
         tool: "andere Projekt-Zeiterfassungen",
         deBest: "wenn dein Hauptproblem Team-Reporting, Rechnungsstellung oder ein vollständiges Projektmanagement-System ist.",
         frBest: "si votre problème principal est le reporting d'équipe, la facturation ou un système complet de gestion de projet."

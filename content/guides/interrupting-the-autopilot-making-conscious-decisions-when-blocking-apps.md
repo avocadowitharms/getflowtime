@@ -3,7 +3,7 @@ title: "Interrupting the Autopilot: Making Conscious Decisions When Blocking App
 seoTitle: "Interrupting the Autopilot: Conscious App Blocking in Flowtime"
 description: "App blockers work best not by enforcing strict lockouts, but by interrupting automatic phone habits. Learn how conscious app blocking in Flowtime supports focus, time awareness, hyperfocus, and intentional breaks."
 metaDescription: "Discover how conscious app blocking interrupts automatic phone habits without strict lockouts. Flowtime combines flexible focus sessions, time tracking, reminders, and optional app blocking."
-slug: "interrupting-autopilot-conscious-app-blocking"
+slug: "interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps"
 searchIntent: "Informational"
 primaryKeyword: "conscious app blocking"
 secondaryKeywords: ["app blocker with override", "app blocking for ADHD", "interrupt automatic phone habits", "mindful app blocking", "ADHD distraction blocker", "app blocker without strict lockout", "block distracting apps", "conscious phone use", "attention hijacking", "hyperfocus and app blocking", "focus timer with app blocking", "app blocker for intentional breaks"]
@@ -106,7 +106,7 @@ Either way, the decision is yours instead of the autopilot’s.
 
 * [What Is an App Blocker, and When Is It Actually Useful?](/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/)
 * [Why Do I Forget Why I Unlocked My Phone?](/guides/why-do-i-forget-why-i-unlocked-my-phone/)
-* [How I Reduce Phone Distractions When I Want to Check Everything](/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/)
+* [How I Reduce Phone Distractions When I Want to Check Everything](/guides/how-i-reduce-phone-distractions-when-i-want-to-check-everything/)
 * [Sometimes the Problem Isn't Getting Into Flow. It's Getting Out of It.](/guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/)
 * [Forest Alternatives If Gamification Isn't What You're Looking For](/comparison/forest-alternatives-if-gamification-isnt-what-youre-looking-for/)
 * [I Use a Focus Timer to Stop Focusing](/guides/i-use-a-focus-timer-to-stop-focusing/)

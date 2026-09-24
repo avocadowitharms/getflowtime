@@ -3,7 +3,7 @@ title: "Best App for Tracking Time Spent on Tasks and Projects"
 seoTitle: "Best App for Tracking Time on Tasks and Projects"
 description: "What to look for in a time tracking app for tasks, projects, timers, reminders, reports, and focused personal productivity."
 metaDescription: "Find the best app for tracking time on tasks and projects by comparing timers, reports, reminders, privacy, and team features."
-slug: "best-app-for-tracking-time-on-tasks-and-projects"
+slug: "best-app-for-tracking-time-spent-on-tasks-and-projects"
 searchIntent: "Commercial Investigation"
 primaryKeyword: "best app for tracking time spent on tasks and projects"
 secondaryKeywords: ["time tracking app", "project time tracker", "task time tracker", "personal time tracker"]
@@ -85,10 +85,10 @@ Once you pick an app, review the first week with one question: did this make tim
 If the answer is no, identify the specific failure. Maybe the timer was too hidden, the project list was too detailed, the reports were too complex, or the app required an account workflow you did not need. A clear problem is easier to fix than a vague feeling that the tool is wrong.
 
 ## Related articles
-- [Time Tracker Without an Account](../../guides/time-tracker-without-account/)
+- [Time Tracker Without an Account](../../guides/time-tracker-without-an-account/)
 - [How to Find Out Where Your Time Actually Goes](../../guides/how-to-find-out-where-your-time-actually-goes/)
 - [Why Most Time Tracking Apps Feel Overengineered](../../guides/why-most-time-tracking-apps-feel-overengineered/)
-- [Flowtime vs Toggl Track](../flowtime-vs-toggl/)
+- [Flowtime vs Toggl Track](../flowtime-vs-toggl-track/)
 
 ## FAQ
 

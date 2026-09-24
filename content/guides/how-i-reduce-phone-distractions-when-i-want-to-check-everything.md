@@ -3,7 +3,7 @@ title: "How I Reduce Phone Distractions When I Want to Check Everything"
 seoTitle: "How I Reduce Phone Distractions"
 description: "A personal note on phone checking, Instagram, messages, weather, email, app blocking, and reducing decisions during focus time."
 metaDescription: "A personal guide to reducing ADHD phone distractions with app blocking, fewer decisions, and intentional Flowtime sessions."
-slug: "how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything"
+slug: "how-i-reduce-phone-distractions-when-i-want-to-check-everything"
 searchIntent: "Informational"
 primaryKeyword: "ADHD phone distractions"
 secondaryKeywords: ["stop checking phone ADHD", "ADHD app blocker", "phone distraction focus", "attention hijacking"]
@@ -52,6 +52,6 @@ It is just a support. For me, fewer choices sometimes means more presence.
 
 ## Keep reading
 
-For the broader explanation, read [Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps](/guides/interrupting-autopilot-conscious-app-blocking/), [Why Do I Forget Why I Unlocked My Phone?](/guides/why-do-i-forget-why-i-unlocked-my-phone/), and [What Is an App Blocker, and When Is It Actually Useful?](/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/).
+For the broader explanation, read [Interrupting the Autopilot: Making Conscious Decisions When Blocking Apps](/guides/interrupting-the-autopilot-making-conscious-decisions-when-blocking-apps/), [Why Do I Forget Why I Unlocked My Phone?](/guides/why-do-i-forget-why-i-unlocked-my-phone/), and [What Is an App Blocker, and When Is It Actually Useful?](/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/).
 
 Flowtime is a flexible focus timer designed to make time more visible and distractions easier to step away from.
