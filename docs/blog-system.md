@@ -5,14 +5,14 @@ The blog is static and GitHub Pages friendly. There is no database, server-side 
 ## Routes
 
 - Blog index: `/blog/`
-- Article pages: `/blog/post-slug/`
-- Markdown source: `content/blog/post-slug.md`
+- Article pages: `/guides/post-slug/` and `/comparison/post-slug/`
+- Markdown sources: `content/guides/` and `content/comparison/`
 
 For local VS Code file preview, open `blog/index.html` or `blog.html`. Plain `file://` previews often do not resolve a folder URL like `blog/` to `blog/index.html`.
 
 ## Add a New Post
 
-1. Create a Markdown file in `content/blog/`.
+1. Create a Markdown file in `content/guides/` or `content/comparison/`.
 2. Use this frontmatter:
 
 ```md
@@ -27,11 +27,11 @@ draft: false
 ---
 ```
 
-3. Add the post metadata to `scripts/blog-posts.js` so the blog index search and filters can list it.
-4. Create `blog/post-slug/index.html` using an existing article page as the template.
-5. Include a summary section, clear H2/H3 headings, FAQ entries, and comparison tables where useful.
-6. Add previous/next links and related articles based on shared tags.
-7. Run `node scripts/generate-sitemap.js` to regenerate `sitemap.xml`.
+3. Include clear H2/H3 headings and comparison tables where useful.
+4. Run `npm run build`. This renders article pages, related articles, the searchable blog index, discovery files and sitemap. Draft articles are excluded.
+5. Run `npm test` and inspect the local preview with `npm run dev`.
+
+The build generates `scripts/blog-posts.js`; do not edit it by hand. Set `featuredImage` to a local `/assets/...` path to display an article image. Articles without a local image receive a decorative placeholder. Existing translated article URLs are preserved.
 
 ## SEO Checklist
 

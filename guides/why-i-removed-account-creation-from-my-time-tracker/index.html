@@ -3,117 +3,99 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Content-Security-Policy"
-    content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data: https://flowtime-app.com https://images.weserv.nl https://*.twitter.com https://*.twimg.com https://*.threads.com https://*.threads.net https://*.instagram.com https://*.cdninstagram.com https://*.bsky.app https://*.licdn.com https://developer.apple.com https://play.google.com https://www.google-analytics.com https://*.google-analytics.com https://*.googletagmanager.com; script-src 'self' 'unsafe-inline' https://plausible.io https://analytics.ahrefs.com https://sibforms.com https://challenges.cloudflare.com https://www.threads.com https://www.threads.net https://www.googletagmanager.com https://www.google-analytics.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://assets.mlcdn.com; font-src 'self' https://fonts.gstatic.com https://assets.mlcdn.com; connect-src 'self' https://plausible.io https://analytics.ahrefs.com https://*.sibforms.com https://www.threads.com https://www.threads.net https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://analytics.google.com https://cloudflareinsights.com https://*.cloudflareinsights.com; frame-src 'self' https://challenges.cloudflare.com https://platform.twitter.com https://syndication.twitter.com https://www.instagram.com https://www.threads.com https://www.threads.net https://embed.bsky.app https://www.linkedin.com; frame-ancestors 'none'; form-action 'self' https://*.sibforms.com; media-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; upgrade-insecure-requests" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data: https://flowtime-app.com https://images.weserv.nl https://*.twitter.com https://*.twimg.com https://*.threads.com https://*.threads.net https://*.instagram.com https://*.cdninstagram.com https://*.bsky.app https://*.licdn.com https://developer.apple.com https://play.google.com https://www.google-analytics.com https://*.google-analytics.com https://*.googletagmanager.com; script-src 'self' 'unsafe-inline' https://plausible.io https://analytics.ahrefs.com https://groot.mailerlite.com https://www.threads.com https://www.threads.net https://www.googletagmanager.com https://www.google-analytics.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://assets.mlcdn.com; font-src 'self' https://fonts.gstatic.com https://assets.mlcdn.com; connect-src 'self' https://plausible.io https://analytics.ahrefs.com https://assets.mailerlite.com https://www.threads.com https://www.threads.net https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://analytics.google.com https://cloudflareinsights.com https://*.cloudflareinsights.com; frame-src 'self' https://platform.twitter.com https://syndication.twitter.com https://www.instagram.com https://www.threads.com https://www.threads.net https://embed.bsky.app https://www.linkedin.com; frame-ancestors 'none'; form-action 'self' https://assets.mailerlite.com; media-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; upgrade-insecure-requests" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
-  <meta http-equiv="Permissions-Policy"
-    content="accelerometer=(), autoplay=(), camera=(), display-capture=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), sync-xhr=(), usb=(), screen-wake-lock=(), web-share=()" />
-  <title>Why I Removed Account Creation From My Time Tracker — Flowtime</title>
-  <link rel="icon" type="image/png" href="/assets/logo-classic.png" />
-  <link rel="apple-touch-icon" href="/assets/logo-classic.png" />
-  <meta name="description" content="The product thinking behind making Flowtime usable without account creation, and why lower friction matters for focus." />
-  <meta name="author" content="Flowtime" />
-  <meta name="robots" content="index, follow" />
+  <meta http-equiv="Permissions-Policy" content="accelerometer=(), autoplay=(), camera=(), display-capture=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), sync-xhr=(), usb=(), screen-wake-lock=(), web-share=()" />
+  <title>Why I Removed Account Creation From My Time Tracker</title>
+  <link rel="icon" type="image/png" href="../../assets/logo-classic.png" />
+  <link rel="apple-touch-icon" href="../../assets/logo-classic.png" />
+  <meta name="description" content="Why Flowtime works without account creation, and why a local-first time tracker can be better for personal focus." />
   <link rel="canonical" href="https://flowtime-app.com/guides/why-i-removed-account-creation-from-my-time-tracker/" />
+
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="Flowtime" />
-  <meta property="og:title" content="Why I Removed Account Creation From My Time Tracker — Flowtime" />
-  <meta property="og:description" content="The product thinking behind making Flowtime usable without account creation, and why lower friction matters for focus." />
+  <meta property="og:title" content="Why I Removed Account Creation From My Time Tracker" />
+  <meta property="og:description" content="Why Flowtime works without account creation, and why a local-first time tracker can be better for personal focus." />
   <meta property="og:url" content="https://flowtime-app.com/guides/why-i-removed-account-creation-from-my-time-tracker/" />
   <meta property="og:image" content="https://flowtime-app.com/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Why I Removed Account Creation From My Time Tracker - Flowtime article preview" />
+  <meta property="article:published_time" content="2026-06-04" />
+  <meta property="article:modified_time" content="2026-06-04" />
+  <meta property="article:author" content="Ava Thalheim" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Why I Removed Account Creation From My Time Tracker — Flowtime" />
-  <meta name="twitter:description" content="The product thinking behind making Flowtime usable without account creation, and why lower friction matters for focus." />
+  <meta name="twitter:title" content="Why I Removed Account Creation From My Time Tracker" />
+  <meta name="twitter:description" content="Why Flowtime works without account creation, and why a local-first time tracker can be better for personal focus." />
   <meta name="twitter:image" content="https://flowtime-app.com/og-image.png" />
-  <link rel="stylesheet" href="/style.css" />
+  <meta name="twitter:image:alt" content="Why I Removed Account Creation From My Time Tracker - Flowtime article preview" />
+  <link rel="stylesheet" href="../../style.css" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Why I Removed Account Creation From My Time Tracker",
-    "description": "The product thinking behind making Flowtime usable without account creation, and why lower friction matters for focus.",
-    "mainEntityOfPage": "https://flowtime-app.com/guides/why-i-removed-account-creation-from-my-time-tracker/",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Flowtime",
-      "url": "https://flowtime-app.com"
-    }
-  }
-</script>
-  <script src="/scripts/attribution.js"></script>
+    {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://flowtime-app.com/#publisher","name":"gugus. Software&Things","url":"https://gugus.software/","sameAs":["https://www.instagram.com/flowtimefocus/","https://x.com/Flowtime_app"]},{"@type":"Person","@id":"https://flowtime-app.com/#author","name":"Ava","url":"https://gugus.software/","jobTitle":"Founder of Flowtime"},{"@type":"WebSite","@id":"https://flowtime-app.com/#website","name":"Flowtime","url":"https://flowtime-app.com/","description":"Flowtime is a flexible, friction-free focus timer and personal time tracker for iPhone and Android. It combines open-ended focus sessions, Pomodoro, reminders, projects, reports, and optional app blocking. No account is required.","publisher":{"@id":"https://flowtime-app.com/#publisher"}},{"@type":"SoftwareApplication","@id":"https://flowtime-app.com/#software","name":"Flowtime","alternateName":"Flowtime - Time Tracker","description":"Flowtime is a flexible, friction-free focus timer and personal time tracker for iPhone and Android. It combines open-ended focus sessions, Pomodoro, reminders, projects, reports, and optional app blocking. No account is required.","url":"https://flowtime-app.com/","applicationCategory":"ProductivityApplication","operatingSystem":["iOS","Android"],"downloadUrl":["https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969","https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"],"installUrl":["https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969","https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime"],"image":"https://flowtime-app.com/assets/logo-classic.png","screenshot":["https://flowtime-app.com/assets/phone-mono2-opt.webp","https://flowtime-app.com/assets/classic-timer-mono-opt.webp","https://flowtime-app.com/assets/pomodoro-mono-opt.webp","https://flowtime-app.com/assets/flow-session-mono-opt.webp","https://flowtime-app.com/assets/reports-mono-opt.webp"],"featureList":["Flexible focus sessions","Standard timer","Pomodoro","Focus reminders","Optional app blocking","Personal time tracking","Projects","Session history","Reports"],"offers":{"@type":"AggregateOffer","priceCurrency":"USD","lowPrice":"0","highPrice":"49.99","offerCount":"4","offers":[{"@type":"Offer","name":"Flowtime Free","price":"0","priceCurrency":"USD","description":"Standard Timer, standard notifications, Pomodoro with fixed intervals, 1 Project, and 1 day of History"},{"@type":"Offer","name":"Flowtime Pro Monthly","price":"2.99","priceCurrency":"USD","description":"Monthly Pro subscription with Flow Sessions, Flowmodoro, custom Pomodoro intervals, unlimited Projects and History, App Blocking, Quick Start Templates, Reminder Profiles, UI customization, Reports and Exports, and all future Pro features"},{"@type":"Offer","name":"Flowtime Pro Yearly","price":"24.99","priceCurrency":"USD","description":"Yearly Pro subscription with Flow Sessions, Flowmodoro, custom Pomodoro intervals, unlimited Projects and History, App Blocking, Quick Start Templates, Reminder Profiles, UI customization, Reports and Exports, and all future Pro features"},{"@type":"Offer","name":"Flowtime Pro Lifetime","price":"49.99","priceCurrency":"USD","description":"Lifetime Pro access with Flow Sessions, Flowmodoro, custom Pomodoro intervals, unlimited Projects and History, App Blocking, Quick Start Templates, Reminder Profiles, UI customization, Reports and Exports, and all future Pro features"}]},"creator":{"@id":"https://flowtime-app.com/#publisher"},"publisher":{"@id":"https://flowtime-app.com/#publisher"},"sameAs":["https://apps.apple.com/ch/app/flowtime-adhs-fokus-timer/id6768056969","https://play.google.com/store/apps/details?id=com.avocadowitharms.flowtime","https://www.instagram.com/flowtimefocus/","https://x.com/Flowtime_app","https://gugus.software/"]},{"@type":"BlogPosting","headline":"Why I Removed Account Creation From My Time Tracker","description":"Why Flowtime works without account creation, and why a local-first time tracker can be better for personal focus.","datePublished":"2026-06-04","dateModified":"2026-06-04","author":{"@id":"https://flowtime-app.com/#author"},"publisher":{"@id":"https://flowtime-app.com/#publisher"},"mainEntityOfPage":"https://flowtime-app.com/guides/why-i-removed-account-creation-from-my-time-tracker/","image":"https://flowtime-app.com/og-image.png","inLanguage":"en","isPartOf":{"@id":"https://flowtime-app.com/#website"},"about":{"@id":"https://flowtime-app.com/#software"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Flowtime","item":"https://flowtime-app.com/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://flowtime-app.com/guides/"},{"@type":"ListItem","position":3,"name":"Why I Removed Account Creation From My Time Tracker","item":"https://flowtime-app.com/guides/why-i-removed-account-creation-from-my-time-tracker/"}]},{"@type":"FAQPage","@id":"https://flowtime-app.com/guides/why-i-removed-account-creation-from-my-time-tracker/#faq","mainEntity":[{"@type":"Question","name":"Does Flowtime require an account?","acceptedAnswer":{"@type":"Answer","text":"No account is required to use Flowtime. Timer and project data are stored locally on the device according to the Flowtime privacy policy."}},{"@type":"Question","name":"Does Flowtime work on iPhone and Android?","acceptedAnswer":{"@type":"Answer","text":"Yes. Flowtime is available for iPhone on the App Store and for Android on Google Play."}}]}]}
+  </script>
+  <script src="../../scripts/attribution.js"></script>
   <!-- Privacy-friendly analytics by Plausible -->
   <script async src="https://plausible.io/js/pa-0aTxMuaeWykhlYbR-knZ5.js"></script>
   <script src="https://analytics.ahrefs.com/analytics.js" data-key="YYVJik2A9OcHRcIliyartg" async></script>
-  <script src="/scripts/conversion-analytics.js"></script>
+  <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+    plausible.init()
+  </script>
+  <script src="../../scripts/conversion-analytics.js"></script>
 </head>
-<body id="top" class="campaign-site" data-theme="mono">
+<body id="top" class="campaign-site" data-theme="mono" data-blog-category="guides">
   <div id="site-header"></div>
-  <main id="main-content">
-    <div class="blog-main">
-  <header class="article-header">
-    <div style="margin-bottom: 20px;">
-      <a href="/learn/" class="text-link">← Back to Learn</a>
-    </div>
-    <span class="meta">Behind the App · 4 MIN READ</span>
-    <h1>Why I Removed Account Creation From My Time Tracker</h1>
-    <p class="article-description">The product thinking behind making Flowtime usable without account creation, and why lower friction matters for focus.</p>
-  </header>
-
-  <div class="article-layout">
-    <aside class="article-aside">
-  <div class="article-toc">
-    <h4>On this page</h4>
-    <a href="#summary">Summary</a><a href="#the-original-plan">The original plan</a><a href="#the-problem-with-starting-from-account-creation">The problem with starting from account creation</a><a href="#what-changed-when-accounts-disappeared">What changed when accounts disappeared</a><a href="#privacy-became-clearer">Privacy became clearer</a><a href="#what-this-approach-does-not-solve">What this approach does not solve</a><a href="#why-lower-friction-matters-for-focus">Why lower friction matters for focus</a><a href="#what-i-would-still-add-carefully">What I would still add carefully</a><a href="#related-articles">Related articles</a><a href="#faq">FAQ</a>
-  </div>
-</aside>
-    <article class="article-body">
-      <div style="margin-top: 48px;"><span class="chapter-number">01</span><h2 id="summary">Summary</h2></div>
+  <main id="main-content" class="blog-main">
+    <article class="blog-article">
+      <header class="article-header">
+        <p class="eyebrow">Guide</p>
+        <h1>Why I Removed Account Creation From My Time Tracker</h1>
+        <p class="article-description">The product thinking behind making Flowtime usable without account creation, and why lower friction matters for focus.</p>
+        <div class="article-meta"><span>By Ava Thalheim</span><time datetime="2026-06-04">June 4, 2026</time><span>4 min read</span></div>
+        <div class="article-tags"><span class="article-tag">privacy</span><span class="article-tag">product design</span><span class="article-tag">focus</span></div>
+      </header>
+      <div class="article-layout">
+        <aside class="article-aside" aria-label="Article details">
+          <div class="author-card"><img class="author-avatar" src="../../assets/ava-icon.png" alt="" width="180" height="180" loading="lazy" decoding="async" /><p><strong>Ava Thalheim</strong><span>Developer of Flowtime</span></p></div>
+          <nav class="article-toc" aria-label="Table of contents"><h2>Table of contents</h2><ol><li><a href="#summary">Summary</a></li><li><a href="#the-original-plan">The original plan</a></li><li><a href="#the-problem-with-starting-from-account-creation">The problem with starting from account creation</a></li><li><a href="#what-changed-when-accounts-disappeared">What changed when accounts disappeared</a></li><li><a href="#privacy-became-clearer">Privacy became clearer</a></li><li><a href="#what-this-approach-does-not-solve">What this approach does not solve</a></li><li><a href="#why-lower-friction-matters-for-focus">Why lower friction matters for focus</a></li></ol></nav>
+        </aside>
+        <div class="article-content">
+          <div class="article-body">
+<h2 id="summary">Summary</h2>
 <p>The original version of Flowtime could have become another account-based productivity app. Removing account creation made the product faster, simpler, and more aligned with the way many people actually use a personal focus timer.</p>
-<div style="margin-top: 48px;"><span class="chapter-number">02</span><h2 id="the-original-plan">The original plan</h2></div>
+<h2 id="the-original-plan">The original plan</h2>
 <p>The first version of the idea looked familiar. Users would create an account, log in, sync their data, and maybe access it from multiple devices later.</p>
 <p>That is the default path for many modern apps. It is also easy to justify. Accounts make analytics easier. They make sync easier. They make subscriptions and support workflows easier. They make the product feel more like a platform.</p>
 <p>But while building Flowtime, I kept returning to a simpler question: is an account necessary for the thing the user came here to do?</p>
 <p>For a personal time tracker, the answer was often no.</p>
-<div style="margin-top: 48px;"><span class="chapter-number">03</span><h2 id="the-problem-with-starting-from-account-creation">The problem with starting from account creation</h2></div>
+<h2 id="the-problem-with-starting-from-account-creation">The problem with starting from account creation</h2>
 <p>Account creation adds friction before the value appears. Before users can track one minute of work, they may need to choose a password, verify an email, accept terms, name a workspace, and configure settings.</p>
 <p>That might be acceptable for collaboration software. It feels strange for a timer.</p>
 <p>When someone opens a focus app, they are usually already trying to begin. The product should not create a new task before supporting the current one.</p>
-<div style="margin-top: 48px;"><span class="chapter-number">04</span><h2 id="what-changed-when-accounts-disappeared">What changed when accounts disappeared</h2></div>
+<h2 id="what-changed-when-accounts-disappeared">What changed when accounts disappeared</h2>
 <p>Removing account creation changed the shape of the app.</p>
 <p>The flow went from:</p>
-<ul>
-<li>Create account</li>
-<li>Configure workspace</li>
-<li>Start timer</li>
-</ul>
+<ul><li>Create account</li><li>Configure workspace</li><li>Start timer</li></ul>
 <p>to:</p>
-<ul>
-<li>Open app</li>
-<li>Start timer</li>
-</ul>
+<ul><li>Open app</li><li>Start timer</li></ul>
 <p>That looks like a small difference on paper. In use, it feels much larger. The app becomes less like a service you have joined and more like a tool you can pick up.</p>
-<div style="margin-top: 48px;"><span class="chapter-number">05</span><h2 id="privacy-became-clearer">Privacy became clearer</h2></div>
+<h2 id="privacy-became-clearer">Privacy became clearer</h2>
 <p>Time tracking data is personal. It shows what you worked on, when you worked, how long you stayed with something, and where your attention went. For individual productivity, there is no obvious reason that history must start in the cloud.</p>
 <p>By keeping Flowtime local-first, the privacy model becomes easier to understand. Your timer history is primarily on your device. There is no account dashboard full of your sessions waiting somewhere else.</p>
 <p>That does not remove every responsibility. Local data still needs export and backup options. But it does make the default simpler.</p>
-<div style="margin-top: 48px;"><span class="chapter-number">06</span><h2 id="what-this-approach-does-not-solve">What this approach does not solve</h2></div>
+<h2 id="what-this-approach-does-not-solve">What this approach does not solve</h2>
 <p>No-account design is not perfect for everyone. If you need automatic sync across devices, shared team reporting, manager visibility, or client billing workflows, an account-based system may be the right tool.</p>
 <p>This is one of the tradeoffs that matters. Flowtime is not trying to be a team time tracking platform. It is trying to be a personal focus tracker.</p>
-<div style="margin-top: 48px;"><span class="chapter-number">07</span><h2 id="why-lower-friction-matters-for-focus">Why lower friction matters for focus</h2></div>
+<h2 id="why-lower-friction-matters-for-focus">Why lower friction matters for focus</h2>
 <p>Focus is sensitive to interruptions. Even small setup steps can break momentum. If the app asks too much before the timer starts, it risks becoming another reason not to begin.</p>
 <p>Lower friction also helps when you are tired, distracted, or switching between tasks. The simpler the start action is, the more likely the tracking habit survives ordinary days.</p>
-<div style="margin-top: 48px;"><span class="chapter-number">08</span><h2 id="what-i-would-still-add-carefully">What I would still add carefully</h2></div>
+<h2 id="what-i-would-still-add-carefully">What I would still add carefully</h2>
 <p>Removing accounts does not mean refusing every advanced feature forever. It means being careful about what a feature costs before it earns a place in the app.</p>
 <p>For example, export is worth supporting because local data should be portable. Reminders are worth supporting because they create awareness during long sessions. Reports are worth supporting when they help users understand patterns without turning the app into a management dashboard.</p>
 <p>The test is whether a feature helps the individual using the timer, or whether it mainly makes the product look more complete. Flowtime should stay useful on the first launch and still useful after months of ordinary use. That balance matters more than checking every possible feature box.</p>
-<div style="margin-top: 48px;"><span class="chapter-number">09</span><h2 id="related-articles">Related articles</h2></div>
-<ul>
-<li><a href="../time-tracker-without-account/">Time Tracker Without an Account</a></li>
-<li><a href="../best-offline-time-trackers/">Best Offline Time Trackers</a></li>
-<li><a href="../why-most-time-tracking-apps-feel-overengineered/">Why Most Time Tracking Apps Feel Overengineered</a></li>
-<li><a href="../local-first-apps-explained/">Local-First Apps Explained</a></li>
-</ul>
-<div style="margin-top: 48px;"><span class="chapter-number">10</span><h2 id="faq">FAQ</h2></div>
+<h2 id="related-articles">Related articles</h2>
+<ul><li><a href="../time-tracker-without-account/">Time Tracker Without an Account</a></li><li><a href="../best-offline-time-trackers/">Best Offline Time Trackers</a></li><li><a href="../why-most-time-tracking-apps-feel-overengineered/">Why Most Time Tracking Apps Feel Overengineered</a></li><li><a href="../local-first-apps-explained/">Local-First Apps Explained</a></li></ul>
+<h2 id="faq">FAQ</h2>
 <h3 id="why-does-flowtime-not-require-an-account">Why does Flowtime not require an account?</h3>
 <p>Flowtime is built for personal focus tracking, so the core timer and history do not need a workspace or login before use.</p>
 <h3 id="does-no-account-mean-no-data-is-saved">Does no account mean no data is saved?</h3>
@@ -123,27 +105,16 @@
 <h3 id="can-local-first-apps-still-offer-exports">Can local-first apps still offer exports?</h3>
 <p>Yes. A local-first app can keep data on-device while still allowing manual export or backup.</p>
 <p>Flowtime keeps account creation out of the way so the first interaction can be the one that matters most: starting a focus session.</p>
-      <div class="article-breakout">
-  <div class="product-visual visual-hero" style="max-height: 240px; margin: 0 auto 24px;"></div>
-  <h3>Focus, your way.</h3>
-  <p>Available for iPhone and Android. No account required.</p>
-  <div style="margin-top: 20px; display: flex; justify-content: center;">
-    <a href="/download/" class="pill" style="background: var(--accent-green); color: #080808; border-color: var(--accent-green);">Download Flowtime ↗</a>
-  </div>
-</div>
+          </div>
+        </div>
+      </div>
     </article>
-  </div>
-</div>
+    <section class="blog-related" aria-labelledby="related-title"><h2 id="related-title">Related articles</h2><div class="related-grid"><a class="related-card" href="../../guides/local-first-apps-explained/index.html"><strong>Local-First Apps Explained</strong><span>A clear explanation of local-first apps, how they differ from cloud-first tools, and why local storage matters for personal productivity.</span></a><a class="related-card" href="../../guides/the-best-productivity-system-is-the-one-you-forget-about/index.html"><strong>The Best Productivity System Is the One You Forget About</strong><span>A practical essay on why simple productivity systems often work better than elaborate workflows that require constant maintenance.</span></a><a class="related-card" href="../../guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/index.html"><strong>Sometimes the Problem Isn't Getting Into Flow. It's Getting Out of It.</strong><span>Flowtime focus sessions are designed to create moments of awareness, helping you stay mindful of your time and avoid disappearing into hours of uninterrupted work.</span></a></div></section>
   </main>
   <div id="site-footer"></div>
-  <script>
-    window.flowtimeRoot='/';
-    window.flowtimePreserveTitle=true;
-    window.renderSection=function(id,html){var el=document.getElementById(id);if(el)el.outerHTML=html;};
-  </script>
-  <script src="/scripts/i18n.js"></script>
-  <script src="/sections/header.js"></script>
-  <script src="/sections/footer.js"></script>
-  <script src="/scripts/design.js"></script>
+  <script>window.flowtimeRoot = "../../"; window.flowtimePreserveTitle = true; window.flowtimeNoWaitlist = true; window.renderSection = function (id, markup) { document.getElementById(id).outerHTML = markup; };</script>
+  <script src="../../scripts/i18n.js"></script>
+  <script src="../../sections/header.js"></script>
+  <script src="../../sections/footer.js"></script>
 </body>
 </html>

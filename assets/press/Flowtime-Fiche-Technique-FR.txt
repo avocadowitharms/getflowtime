@@ -7,7 +7,7 @@ Catégorie : Productivité / Concentration / Attention temporelle
 Plateformes : iOS (iPhone) et Android
 Développeuse : Ava Thalheim (Développeuse indépendante)
 Localisation : Suisse
-Modèle économique : Gratuit + Flowtime Pro (3,99 $/mois, 24,99 $/an, 49,99 $ À vie)
+Modèle économique : Gratuit + Flowtime Pro (2,99 $/mois, 24,99 $/an, 49,99 $ À vie)
 Confidentialité : Aucun compte requis, stockage des données local
 Site web : https://flowtime-app.com
 Contact presse : ava@flowtime-app.com

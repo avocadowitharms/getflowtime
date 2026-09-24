@@ -387,7 +387,7 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
 
             <h2 id="continuer-la-lecture">Continuer la lecture</h2>
             <ul>
-              <li><a href="/guides/what-is-an-app-blocker-and-when-is-it-really-useful/">Qu'est-ce qu'un bloqueur d'applications et quand est-il vraiment utile ?</a></li>
+              <li><a href="/guides/what-is-an-app-blocker-and-when-is-it-actually-useful/">Qu'est-ce qu'un bloqueur d'applications et quand est-il vraiment utile ?</a></li>
               <li><a href="/guides/why-do-i-forget-why-i-unlocked-my-phone/">Pourquoi est-ce que j'oublie pourquoi j'ai déverrouillé mon téléphone ?</a></li>
               <li><a href="/guides/how-i-reduce-phone-distractions-when-my-adhd-brain-wants-to-check-everything/">Réduire les distractions quand mon cerveau TDAH veut tout vérifier</a></li>
               <li><a href="/guides/sometimes-the-problem-isnt-getting-into-flow-its-getting-out-of-it/">Parfois le problème n'est pas d'entrer dans le flow, mais d'en sortir</a></li>
@@ -440,7 +440,6 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
   <meta name="twitter:image" content="${socialImage}" />
   <meta name="twitter:image:alt" content="${escapeHtml(pageTitle)} - Flowtime article preview" />
   <link rel="stylesheet" href="${relDepth}style.css" />
-  <link rel="stylesheet" href="${relDepth}css/blog.css" />
   <script type="application/ld+json">
     ${safeJsonLd(articleSchema(mockPostData, canonicalUrl, description, socialImage, "BlogPosting", lang))}
   </script>
@@ -454,9 +453,9 @@ function renderLocalizedPage(post, lang, slug, canonicalUrl, relDepth = "../../"
   </script>
   <script src="${relDepth}scripts/conversion-analytics.js"></script>
 </head>
-<body id="top" data-theme="mono" data-blog-category="guides">
+<body id="top" class="campaign-site" data-theme="mono" data-blog-category="guides">
   <div id="site-header"></div>
-  <main class="blog-main">
+  <main id="main-content" class="blog-main">
     <article class="blog-article">
       <header class="article-header">
         <p class="eyebrow">${escapeHtml(categoryLabel)}</p>
@@ -482,7 +481,6 @@ ${bodyHtml}
   <script src="${relDepth}scripts/i18n.js"></script>
   <script src="${relDepth}sections/header.js"></script>
   <script src="${relDepth}sections/footer.js"></script>
-  <script src="${relDepth}scripts/theme.js"></script>
 </body>
 </html>
 `;
@@ -508,7 +506,7 @@ function renderPage(post, posts) {
   <link rel="apple-touch-icon" href="../../assets/logo-classic.png" />
   <meta name="description" content="${escapeHtml(description)}" />
   <link rel="canonical" href="${url}" />
-  ${getHreflangTags(post)}
+${getHreflangTags(post)}
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="Flowtime" />
   <meta property="og:title" content="${escapeHtml(post.data.title)}" />
@@ -527,7 +525,6 @@ function renderPage(post, posts) {
   <meta name="twitter:image" content="${socialImage}" />
   <meta name="twitter:image:alt" content="${escapeHtml(post.data.title)} - Flowtime article preview" />
   <link rel="stylesheet" href="../../style.css" />
-  <link rel="stylesheet" href="../../css/blog.css" />
   <script type="application/ld+json">
     ${safeJsonLd(articleSchema(post, url, description, socialImage, post.category === "comparison" ? "Article" : "BlogPosting"))}
   </script>
@@ -541,9 +538,9 @@ function renderPage(post, posts) {
   </script>
   <script src="../../scripts/conversion-analytics.js"></script>
 </head>
-<body id="top" data-theme="mono" data-blog-category="${post.category}">
+<body id="top" class="campaign-site" data-theme="mono" data-blog-category="${post.category}">
   <div id="site-header"></div>
-  <main class="blog-main">
+  <main id="main-content" class="blog-main">
     <article class="blog-article">
       <header class="article-header">
         <p class="eyebrow">${escapeHtml(categoryName(post.category))}</p>
@@ -571,7 +568,6 @@ ${bodyHtml}
   <script src="../../scripts/i18n.js"></script>
   <script src="../../sections/header.js"></script>
   <script src="../../sections/footer.js"></script>
-  <script src="../../scripts/theme.js"></script>
 </body>
 </html>
 `;

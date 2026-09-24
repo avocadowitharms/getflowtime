@@ -1,0 +1,234 @@
+.reference-home { --home-green:#59f34d; --home-pink:var(--bg-pink); }
+/* Reference composition: edge-cropped devices and compact editorial chapters. */
+.reference-home #achievements .chapter-inner { padding-bottom:60px; min-height:490px; }
+.achievement-cards { width:100%; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; align-items:center; padding:35px 0; }
+.reference-home .campaign-review { max-width:none; background:var(--home-pink); color:#160b11; text-align:left; padding:85px max(32px,calc((100vw - 1272px)/2)); position:relative; overflow:hidden; }
+.reference-home .campaign-review::before { content:'“'; position:absolute; left:5%; top:20px; font:360px/.9 Georgia,serif; color:#160b1120; }
+.reference-home .campaign-review > .meta { display:block; margin-bottom:32px; padding-left:18%; color:#462034; }
+.reference-home .campaign-review .review-slides { position:relative; margin-left:18%; max-width:900px; }
+.reference-home .campaign-review .review-slide blockquote { font-size:clamp(30px,3.5vw,48px); letter-spacing:-.045em; line-height:1.14; margin:0 0 28px; }
+.reference-home .campaign-review .quiet { color:#462034; }
+.reference-home .campaign-review .stars { color:#160b11; }
+.reference-home .campaign-pricing { max-width:none; background:#101212; color:#fff; padding:88px max(24px,calc((100vw - 1272px)/2)); display:grid; grid-template-columns:.8fr 1.6fr; gap:48px; align-items:start; }
+.reference-home .campaign-pricing .section-intro { text-align:left; margin:0; }
+.reference-home .campaign-pricing .section-intro h2 { font-size:clamp(45px,4.7vw,66px); }
+.reference-home .campaign-pricing .section-intro p { color:#aaa; }
+.reference-home .campaign-pricing .plans { gap:20px; }
+.reference-home .campaign-pricing .plan { padding:32px 26px; background:#222526; color:#fff; border-color:#454849; }
+.reference-home .campaign-pricing .plan li,.reference-home .campaign-pricing .plan p { color:#d0d2d0; }
+.reference-home .campaign-pricing .plan li::before { color:var(--home-green); }
+.reference-home .campaign-pricing .plan .pill { background:#fff; color:#111; }
+.reference-home .campaign-pricing .plan-pro { background:var(--home-green); color:#15210e; border-color:var(--home-green); transform:translateY(24px); }
+.reference-home .campaign-pricing .plan-pro h3,.reference-home .campaign-pricing .plan-pro p,.reference-home .campaign-pricing .plan-pro li,.reference-home .campaign-pricing .plan-pro .meta,.reference-home .campaign-pricing .plan-pro .plan-price span { color:#26351e; }
+.reference-home .campaign-pricing .plan-pro li::before { color:#26351e; }
+.reference-home .campaign-pricing .plan-pro .pill { background:#15210e; color:#fff; }
+.reference-home .campaign-pricing .pricing-note { grid-column:2; color:#aaa; text-align:left; font-size:12px; margin:0; }
+.reference-home .compact-faq { max-width:none; background:#ffffff; padding:64px max(24px,calc((100vw - 1272px)/2)); display:grid; grid-template-columns:1fr 1fr; column-gap:64px; text-align:left; }
+.reference-home .compact-faq .meta { grid-column:1; color:#666666; margin-bottom:20px; }
+.reference-home .compact-faq h2 { grid-column:1; grid-row:2 / 4; font-size:clamp(40px,5vw,66px); margin:0; }
+.reference-home .compact-faq p { grid-column:2; grid-row:2; margin:0 0 24px; color:#454545; }
+.reference-home .compact-faq .text-link { grid-column:2; justify-self:start; }
+.reference-home .home-journal { color:#fff; max-width:none; background:#101212; padding:88px max(24px,calc((100vw - 1272px)/2)); display:grid; grid-template-columns:1fr 1fr; column-gap:80px; text-align:left; }
+.reference-home .home-journal > .meta,.reference-home .home-journal > h2,.reference-home .home-journal > p,.reference-home .home-journal > .pill { grid-column:1; }
+.reference-home .home-journal h2 { font-size:clamp(42px,5vw,66px); margin:24px 0; }
+.reference-home .home-journal > .pill { justify-self:start; margin-top:24px; }
+.journal-teasers { grid-column:2; grid-row:1 / 6; display:grid; gap:22px; }
+.journal-teasers a { color:#101212; position:relative; display:flex; flex-direction:column; justify-content:space-between; gap:24px; padding:28px 64px 28px 28px; background:var(--home-green); border-radius:12px; transition:transform .2s; }
+.journal-teasers a:nth-child(2) { background:var(--home-pink); }
+.journal-teasers a:hover { transform:translateY(-4px); }
+.journal-teasers span { font:10px var(--font-mono); letter-spacing:.08em; }
+.journal-teasers strong { font-size:clamp(25px,2.6vw,35px); line-height:1.08; letter-spacing:-.045em; }
+.journal-teasers b { position:absolute; right:25px; bottom:25px; font-size:30px; font-weight:400; }
+.reference-home .campaign-final { background:var(--home-green); text-align:center; padding:90px 24px; position:relative; overflow:hidden; isolation:isolate; }
+.reference-home .campaign-final::before,.reference-home .campaign-final::after { content:''; position:absolute; border:1px solid #4c704733; border-radius:50%; width:550px; height:550px; left:-290px; top:50%; transform:translateY(-50%); z-index:-1; box-shadow:0 0 0 45px #4c704708,0 0 0 90px #4c704706; }
+.reference-home .campaign-final::after { left:auto; right:-290px; }
+.reference-home .campaign-final h2 { font-size:clamp(64px,9vw,124px); line-height:.88; letter-spacing:-.07em; margin:30px 0 40px; }
+.reference-home .campaign-final .meta,.reference-home .campaign-final .quiet { color:#23391c; }
+.reference-home .campaign-footer { background:#111413; color:#f4f5f1; }
+.reference-home .campaign-footer p,.reference-home .campaign-footer a,.reference-home .campaign-footer h4 { color:inherit; }
+.reference-home .campaign-footer .footer-locales button { color:#ddd; background:transparent; border-color:#555; }
+@media(max-width:1000px) {
+  .reference-home .campaign-pricing { grid-template-columns:1fr; padding-inline:32px; }
+  .reference-home .campaign-pricing .pricing-note { grid-column:1; }
+  .reference-home .home-journal { column-gap:32px; }
+}
+@media(max-width:768px) {
+  .reference-home #achievements .chapter-art { width:100%; padding-bottom:30px; }
+  .achievement-cards { gap:8px; }
+  .reference-home .campaign-review { padding:60px 24px; }
+  .reference-home .campaign-review > .meta { padding-left:0; }
+  .reference-home .campaign-review .review-slides { margin-left:0; }
+  .reference-home .campaign-pricing { padding:60px 24px; gap:32px; }
+  .reference-home .campaign-pricing .plan-pro { transform:none; }
+  .reference-home .compact-faq,.reference-home .home-journal { display:flex; flex-direction:column; padding:56px 24px; gap:24px; }
+  .reference-home .home-journal h2 { margin:0; }
+  .reference-home .compact-faq p { margin:0; }
+  .reference-home .compact-faq .text-link,.reference-home .home-journal > .pill { align-self:flex-start; }
+  .journal-teasers { margin-top:16px; }
+  .reference-home .campaign-final { padding:72px 24px; }
+  .reference-home .campaign-final::before,.reference-home .campaign-final::after { opacity:.4; }
+}
+.reference-home .campaign-header { background:#ffffffed; }
+.reference-home .campaign-header-inner { height:64px; }
+.reference-home .campaign-brand { font-size:22px; }
+.reference-home .campaign-nav { gap:24px; }
+.reference-home .campaign-nav a { font-size:12px; }
+.reference-home .campaign-nav .nav-download { padding:9px 20px; }
+.reference-home .campaign-hero { min-height:0; overflow:hidden; }
+.reference-home .hero-inner { height:636px; padding:0 64px; grid-template-columns:52% 48%; gap:0; }
+.reference-home .hero-copy { padding-bottom:30px; }
+.reference-home .campaign-hero h1 { font-size:clamp(76px,10.5vw,150px); letter-spacing:-.075em; line-height:.88; margin-bottom:36px; position:relative; white-space:nowrap; }
+.reference-home .hero-deck { font-size:30px; line-height:1.12; margin-bottom:30px; }
+.reference-home .hero-art { height:100%; align-self:stretch; }
+.reference-home .hero-flow-background { top:-80px; left:-22%; width:140%; height:calc(100% + 120px); object-fit:fill; }
+.reference-home .hero-image-wrapper { position:absolute; width:520px; max-width:none; left:38%; transform:translateX(-50%); bottom:-18px; }
+.reference-home .hero-image { width:100%; height:650px; max-height:none; object-fit:fill; filter:drop-shadow(0 5px 4px #0002); }
+.reference-home .hero-mantra { right:0; top:92px; color:#555; font-size:10px; }
+.reference-home .campaign-chapter { overflow:hidden; }
+.reference-home .chapter-inner { padding:52px 64px 0; gap:36px; grid-template-columns:minmax(0,1fr) minmax(0,1fr); min-height:430px; }
+.reference-home .chapter-copy { padding-bottom:40px; }
+.reference-home .campaign-chapter h2 { font-size:clamp(48px,5.6vw,78px); letter-spacing:-.065em; }
+.reference-home .chapter-copy p { font-size:20px; line-height:1.35; }
+.reference-home .chapter-copy .chapter-deck { font-size:29px; line-height:1.12; font-weight:400; }
+.reference-home .chapter-number { margin-bottom:26px; font-size:11px; }
+.reference-home .reverse .chapter-inner { grid-template-columns:minmax(0,1fr) minmax(0,1fr); }
+.reference-home .reverse .chapter-copy { padding-left:0; }
+.reference-home #simplicity { background:#f7f7f7; }
+.reference-home #simplicity .chapter-inner { height:530px; }
+.reference-home #simplicity .chapter-art { height:100%; align-self:end; }
+.reference-home #simplicity .chapter-phone { position:absolute; width:660px; max-width:none; top:-85px; left:50%; transform:translateX(-50%) rotate(-10deg); }
+.reference-home #focus-modes .chapter-inner { grid-template-columns:31% minmax(0,1fr); gap:24px; padding:36px 64px 30px; min-height:460px; }
+.reference-home #focus-modes .chapter-copy { padding-bottom:0; }
+.reference-home #focus-modes h2 { font-size:clamp(46px,4.8vw,66px); }
+.reference-home #focus-modes .modes-columns-row { gap:14px; }
+.reference-home #focus-modes .mode-column { gap:12px; }
+.reference-home #focus-modes .phone-item { height:345px; }
+.reference-home #focus-modes .mode-pill-label { font-size:11px; padding:8px 14px; background:#222; border:0; color:#fff; }
+.reference-home #focus-modes .mode-column:first-child .mode-pill-label { color:#a9f69c; }
+.reference-home #focus-modes .phone-item img { width:185%; max-width:none; height:130%; object-fit:contain; transform:none; }
+.reference-home #focus-modes .phone-pomodoro img { width:145%; height:102%; }
+.reference-home #focus-modes .mode-hint { font-size:12px; margin-top:20px; }
+.reference-home #focus-modes.mode-expanded .chapter-inner { grid-template-columns:45% minmax(0,1fr); min-height:620px; }
+.reference-home #focus-modes.mode-expanded .phone-item { height:500px; }
+.reference-home #focus-modes.mode-expanded .phone-item img { width:100%; height:100%; }
+.reference-home #time-awareness .chapter-inner { height:440px; padding-top:42px; grid-template-columns:44% 56%; }
+.reference-home #time-awareness h2 { font-size:clamp(48px,5vw,68px); }
+.reference-home .awareness-stage { height:100%; align-self:end; }
+.reference-home .awareness-phone { position:absolute; width:1000px; max-width:none; top:-135px; left:50%; transform:translateX(-50%); }
+.reference-home #app-blocking .chapter-inner { height:415px; }
+.reference-home #app-blocking .chapter-art { height:100%; align-self:end; }
+.reference-home #app-blocking h2 { font-size:clamp(48px,5vw,68px); }
+.reference-home #reports .chapter-inner { height:450px; grid-template-columns:44% 56% !important; }
+.reference-home #reports .chapter-art { height:100%; align-self:end; }
+.report-phones { width:100%; height:100%; position:relative; }
+.report-projects { left:0; transform:rotate(-7deg); }
+.report-history { left:28%; top:-24px; z-index:2; }
+.report-stats { left:59%; transform:rotate(6deg); }
+@media(min-width:1440px) { .reference-home .hero-inner { height:700px; } .reference-home .hero-image { height:714px; } .reference-home .hero-image-wrapper { width:570px; } }
+@media(max-width:1000px) and (min-width:769px) {
+  .reference-home .hero-inner { padding-inline:32px; height:550px; }
+  .reference-home .campaign-hero h1 { font-size:80px; }
+  .reference-home .hero-deck { font-size:24px; }
+  .reference-home .hero-image-wrapper { width:430px; }
+  .reference-home .hero-image { height:540px; }
+  .reference-home .chapter-inner { padding-inline:32px; }
+  .reference-home #focus-modes .chapter-inner { padding-inline:32px; grid-template-columns:28% minmax(0,1fr); }
+  .reference-home #focus-modes .modes-columns-row { grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; }
+  .reference-home #focus-modes .phone-item { height:250px; }
+  .reference-home #focus-modes h2 { font-size:43px; }
+  .reference-home .chapter-copy p { font-size:17px; }
+}
+@media(max-width:768px) {
+  .reference-home .campaign-header-inner { height:72px; }
+  .reference-home .campaign-nav a { font-size:15px; }
+  .reference-home .hero-inner { height:auto; padding:48px 24px 0; gap:0; }
+  .reference-home .hero-copy { padding-bottom:20px; margin-bottom:0; }
+  .reference-home .campaign-hero h1 { font-size:clamp(62px,13vw,94px); white-space:normal; }
+  .reference-home .hero-deck { font-size:24px; }
+  .reference-home .hero-art { height:500px; }
+  .reference-home .hero-image-wrapper { width:410px; left:50%; bottom:-14px; }
+  .reference-home .hero-art .hero-image { height:510px; width:100%; }
+  .reference-home .hero-flow-background { left:-24px; top:0; width:calc(100% + 48px); height:100%; }
+  .reference-home .chapter-inner, .reference-home .reverse .chapter-inner { display:flex; flex-direction:column; padding:48px 24px 0; gap:0; height:auto !important; }
+  .reference-home .chapter-copy { padding:0 0 26px; width:100%; }
+  .reference-home .campaign-chapter h2 { font-size:52px; }
+  .reference-home .chapter-copy p { font-size:18px; }
+  .reference-home #simplicity .chapter-art { height:380px; width:100%; }
+  .reference-home #simplicity .chapter-phone { width:550px; top:-90px; }
+  .reference-home #focus-modes .chapter-inner, .reference-home #focus-modes.mode-expanded .chapter-inner { display:flex; padding:48px 24px 24px; }
+  .reference-home #focus-modes .modes-columns-row { grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; }
+  .reference-home #focus-modes .phone-item { height:310px; }
+  .reference-home #focus-modes.mode-expanded .modes-columns-row { grid-template-columns:1fr; }
+  .reference-home #focus-modes.mode-expanded .phone-item { height:480px; }
+  .reference-home #time-awareness .awareness-stage { height:340px; width:100%; }
+  .reference-home .awareness-phone { width:740px; top:-115px; }
+  .reference-home #app-blocking .chapter-art { height:330px; width:100%; }
+    .reference-home #reports .chapter-art { height:330px; width:100%; margin-top:24px; }
+  .report-projects { left:-8%; } .report-history { left:23%; } .report-stats { left:55%; }
+}
+
+.reference-home .home-journal > p { color:#bfc3bf; }
+.reference-home .home-journal > .meta { color:#a1a7a1; }
+.reference-home .home-journal > .pill { background:#fff; color:#101212; }
+
+.reference-home #app-blocking .chapter-inner { height:480px; }
+.blocking-phone { position:absolute; width:520px; max-width:none; height:auto; top:-180px; left:50%; transform:translateX(-50%); }
+@media(max-width:768px) {
+  .reference-home #app-blocking .chapter-art { height:410px; }
+  .blocking-phone { width:480px; top:-160px; }
+}
+
+/* Full device exports include transparent space around the phone. */
+.report-shot { position:absolute; width:225px; height:480px; top:0; }
+.report-shot img { position:absolute; width:420px; max-width:none; height:auto; left:50%; top:-27px; transform:translateX(-50%); }
+@media(max-width:768px) {
+  .report-shot { width:170px; }
+  .report-shot img { width:317px; top:-21px; }
+}
+
+.achievement-cards > img { width:100%; height:auto; border-radius:20px; filter:drop-shadow(0 14px 12px #0002); transform:rotate(-8deg) translateY(15px); }
+.achievement-cards > img:nth-child(2) { transform:rotate(3deg) translateY(-16px); position:relative; z-index:1; }
+.achievement-cards > img:nth-child(3) { transform:rotate(9deg) translateY(16px); }
+@media(max-width:768px) {
+  .achievement-cards { grid-template-columns:repeat(3,minmax(0,1fr)); gap:0; padding:40px 0; }
+  .achievement-cards > img { width:120%; max-width:none; margin-left:-10%; border-radius:12px; }
+}
+
+.report-shot.report-history { top:-24px; }
+
+/* Allow longer translated headlines to keep clear of device artwork. */
+html:lang(fr) .reference-home .campaign-hero h1 { font-size:clamp(42px,5.4vw,78px); line-height:1; white-space:normal; overflow-wrap:normal; }
+html:lang(de) .reference-home .campaign-hero h1 { font-size:clamp(60px,8.3vw,118px); white-space:normal; }
+html:not(:lang(en)) .reference-home .campaign-chapter h2 { font-size:clamp(38px,4.5vw,62px); overflow-wrap:break-word; }
+html:not(:lang(en)) .reference-home .chapter-copy { min-width:0; }
+@media(max-width:768px) {
+ html:lang(fr) .reference-home .campaign-hero h1 { font-size:clamp(36px,9.5vw,68px); }
+ html:lang(de) .reference-home .campaign-hero h1 { font-size:clamp(48px,12vw,84px); }
+ html:not(:lang(en)) .reference-home .campaign-chapter h2 { font-size:clamp(34px,9vw,52px); }
+ html:not(:lang(en)) .reference-home .campaign-final h2 { font-size:clamp(48px,11vw,80px); }
+}
+
+/* JS only applies this to content initially below the viewport. */
+.reference-home .scroll-reveal { transition: opacity 1100ms cubic-bezier(.25,.1,.25,1); }
+.reference-home .scroll-reveal-pending { opacity: 0; }
+.reference-home .scroll-reveal:focus-within { opacity: 1; transition: none; }
+@media (prefers-reduced-motion: reduce) {
+  .reference-home .scroll-reveal { opacity: 1; transition: none; }
+}
+@media print {
+  .reference-home .scroll-reveal { opacity: 1; transition: none; }
+}
+
+.reference-home .section-eyebrow{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:26px}
+.reference-home .section-eyebrow .chapter-number{margin:0;color:inherit}
+.reference-home .intro-row .section-eyebrow,.reference-home .story-label .section-eyebrow{margin-bottom:0}
+.reference-home .campaign-review>.section-eyebrow,.reference-home .campaign-final>.section-eyebrow{justify-content:center}
+
+.reference-home #reports .light-link{display:inline-block;color:inherit;border-bottom:1px solid currentColor;padding-bottom:6px;margin-top:24px;font-size:14px}
+
+/* A true semicircle: its diameter sits on the section's bottom edge. */
+.reference-home #app-blocking .chapter-art{isolation:isolate}
+.reference-home #app-blocking .chapter-art::before{content:"";position:absolute;width:900px;aspect-ratio:2 / 1;border-radius:50% 50% 0 0 / 100% 100% 0 0;background:#ff86ca;right:0;bottom:0;z-index:-1;pointer-events:none}
+@media(max-width:768px){.reference-home #app-blocking .chapter-art::before{width:150%;right:-10%}}
+
+.reference-home #app-blocking .chapter-copy{position:relative;z-index:1}

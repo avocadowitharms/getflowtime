@@ -2918,7 +2918,7 @@
     if (!dict) return;
 
     var pageKey = getPageKey();
-    if (pageKey && dict.pages[pageKey]) {
+    if (pageKey && dict.pages[pageKey] && !document.querySelector(".journal")) {
       var pData = dict.pages[pageKey];
       if (pData.metaTitle) document.title = pData.metaTitle;
       localizeSocialMetadata(pData.metaTitle, pData.metaDesc);
@@ -3152,6 +3152,20 @@
       var artBody = document.querySelector(".article-body");
       if (artBody && aData.bodyHtml) {
         artBody.innerHTML = aData.bodyHtml;
+        // Localized articles can have different sections: derive labels and anchors together.
+        var tocList = document.querySelector(".article-toc ul, .article-toc ol");
+        if (tocList) {
+          tocList.replaceChildren();
+          artBody.querySelectorAll("h2").forEach(function (heading, index) {
+            if (!heading.id) heading.id = "article-section-" + index;
+            var item = document.createElement("li");
+            var link = document.createElement("a");
+            link.href = "#" + heading.id;
+            link.textContent = heading.textContent;
+            item.appendChild(link);
+            tocList.appendChild(item);
+          });
+        }
       }
 
       var relatedHeader = document.querySelector(".blog-related h2");
@@ -3191,6 +3205,7 @@
     }
   };
 
+  window.flowtimeBlogTranslations = blogTranslations;
   // Run automatically if the script is loaded and translations are already registered
   if (locale !== "en") {
     window.flowtimeTranslateBlog(locale);

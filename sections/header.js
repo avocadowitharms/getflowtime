@@ -3,13 +3,13 @@
     <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="campaign-header">
       <div class="campaign-header-inner">
-        <a class="campaign-brand" href="/" aria-label="Flowtime home">Flowtime</a>
+        <a class="campaign-brand" href="/" aria-label="Flowtime home"><img src="/assets/logo-classic.png" width="32" height="32" alt=""><span>Flowtime</span></a>
         <nav class="campaign-nav" id="campaign-nav" aria-label="Main navigation">
           <a href="/#focus-modes">Features</a>
-          <a href="/learn/">Learn</a>
+          <a href="/blog/">Blog</a>
           <a href="/updates/">Follow the build</a>
-          <a href="/press/">Press</a>
-          <a href="/pricing/">Pricing</a>
+          <a href="/faq/">FAQ</a>
+          <a href="/buy/">Buy</a>
           <a class="nav-download" href="/download/">Download ↗</a>
         </nav>
         <button class="campaign-menu" aria-label="Open navigation" aria-expanded="false" aria-controls="campaign-nav">☰</button>

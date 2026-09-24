@@ -94,9 +94,9 @@ validatePage("index.html", facts.canonicalUrl, [
   "No account is required"
 ]);
 validatePage("about-flowtime/index.html", facts.aboutUrl, [
-  "Flowtime combines flexible focus sessions, Pomodoro, reminders, time tracking, and optional app blocking.",
+  facts.fullDescription,
   "Flowtime is for anyone who wants a low-friction way to focus",
-  "Ava Thalheim",
+  facts.authorName,
   facts.appStoreUrl,
   facts.googlePlayUrl
 ]);

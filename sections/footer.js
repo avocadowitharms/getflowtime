@@ -8,18 +8,16 @@
         </div>
         <nav class="footer-nav" aria-label="Explore Flowtime">
           <a href="/#focus-modes">Features</a>
-          <a href="/learn/">Learn</a>
+          <a href="/blog/">Blog</a>
           <a href="/updates/">Follow the build</a>
-          <a href="/press/">Press</a>
-          <a href="/pricing/">Pricing</a>
+          <a href="/buy/">Buy</a>
           <a href="/about-flowtime/">About Flowtime</a>
-          <a href="/support/">Support</a>
+          <a href="/faq/">Support & FAQ</a>
           <a href="https://gugus.software/privacy/flowtime/">Privacy</a>
           <a href="https://gugus.software/terms/flowtime/">Terms</a>
           <a href="/download/">Download</a>
         </nav>
         <div class="footer-connect">
-          <a href="https://x.com/Flowtime_app" target="_blank" rel="noopener">X ↗</a>
           <a href="https://www.instagram.com/flowtimefocus/" target="_blank" rel="noopener">Instagram ↗</a>
           <a href="https://discord.gg/4P4QudduWm" target="_blank" rel="noopener">Discord ↗</a>
           <div class="footer-locales" aria-label="Language selector">
@@ -29,6 +27,10 @@
           </div>
           <a href="#top" style="margin-top: 8px;">Back to top ↑</a>
         </div>
+      </div>
+      <div class="footer-credits" translate="no">
+        <span>© 2026 gugus. Software&amp;Things</span>
+        <span class="footer-dedication">L ❤️</span>
       </div>
     </footer>
   `;

@@ -1316,52 +1316,6 @@ p {
   grid-row: 1;
 }
 
-.build-newsletter-box {
-  background: var(--bg-dark);
-  color: #fff;
-  border-radius: var(--radius-md);
-  padding: 48px;
-  margin: 40px 0;
-}
-
-.build-newsletter-box h3 {
-  font-size: 32px;
-  color: #fff;
-  margin-bottom: 8px;
-}
-
-.build-newsletter-box p {
-  color: var(--ink-light-muted);
-  font-size: 16px;
-  margin-bottom: 24px;
-}
-
-.build-newsletter-form {
-  display: flex;
-  gap: 12px;
-  max-width: 440px;
-}
-
-.build-newsletter-form input {
-  flex: 1;
-  background: #1c1d1e;
-  border: 1px solid #333;
-  color: #fff;
-  padding: 14px 20px;
-  border-radius: var(--radius-pill);
-  font-size: 14px;
-}
-
-.build-newsletter-form button {
-  background: #fff;
-  color: var(--ink-primary);
-  border: none;
-  border-radius: var(--radius-pill);
-  padding: 14px 24px;
-  font-weight: 700;
-  font-size: 16px;
-}
-
 /* --------------------------------------------------------------------------
    14. RESPONSIVE DESIGN (MOBILE & TABLET)
    -------------------------------------------------------------------------- */
@@ -1609,3 +1563,10 @@ p {
 @media (prefers-reduced-motion: reduce) {
   [data-mode-explorer] .mode-column, [data-mode-explorer] .mode-detail { animation: none !important; }
 }
+
+.campaign-brand { display:inline-flex; align-items:center; gap:10px; flex-shrink:0; }
+.campaign-brand img { width:32px; height:32px; border-radius:8px; object-fit:contain; }
+
+.footer-credits{max-width:var(--container-max);margin:48px auto 0;padding-top:24px;border-top:1px solid var(--border-dark);display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:14px;color:var(--ink-light-muted)}
+.footer-dedication{font-weight:700;color:var(--ink-light);white-space:nowrap}
+@media(max-width:480px){.footer-credits{font-size:12px;gap:12px}}

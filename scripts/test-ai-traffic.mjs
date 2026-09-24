@@ -82,7 +82,7 @@ assert.equal(normalizePathname("/docs/privacy-policy.html?lang=de"), "/docs/priv
 
 assert.equal(isStaticAssetPath("/assets/logo.png"), true);
 assert.equal(isStaticAssetPath("/scripts/i18n.js"), true);
-assert.equal(isStaticAssetPath("/css/base.css"), true);
+assert.equal(isStaticAssetPath("/css/design.css"), true);
 assert.equal(isStaticAssetPath("/favicon.ico"), true);
 assert.equal(isStaticAssetPath("/assets/app.js.map"), true);
 

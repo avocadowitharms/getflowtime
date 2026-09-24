@@ -2,10 +2,11 @@
   var storageKey = "flowtime-locale";
   var supported = ["en", "de", "fr"];
   var saved = window.localStorage.getItem(storageKey);
+  var routeLocale = window.location.pathname.match(/^\/(de|fr)\//);
   var requested = new URLSearchParams(window.location.search).get("lang");
   var locale = supported.indexOf(requested) >= 0
     ? requested
-    : (supported.indexOf(saved) >= 0 ? saved : "en");
+    : (routeLocale ? routeLocale[1] : (supported.indexOf(saved) >= 0 ? saved : "en"));
   window.localStorage.setItem(storageKey, locale);
   var copy = {
     en: {
@@ -83,7 +84,7 @@
       "focus.pomodoro.title": "Pomodoro",
       "focus.pomodoro.text": "Focus and break in configurable intervals.",
       "focus.flow.title": "Flow Session",
-      "focus.flow.text": "Set a target, get gentle reminders, and decide when to stop.",
+      "focus.flow.text": "Set a target, get reminders, and decide when to stop.",
       "styles.eyebrow": "Styles",
       "styles.title": "Your productivity.<br />Your style.",
       "styles.description": "Switch between Classic and Mono at any time.",
@@ -176,7 +177,7 @@
       "faq.competitors.q": "How is Flowtime different from Forest, Toggl, or Session?",
       "faq.competitors.a": "Flowtime focuses on simple personal focus tracking without account-heavy setup. It is available for iPhone and Android and is designed around flexible sessions rather than only fixed intervals.",
       "faq.free.q": "Is Flowtime free?",
-      "faq.free.a": "Yes. Free includes the standard timer, standard notifications, Pomodoro with fixed intervals, 1 project, and 1 day of history. Pro is available for $3.99/month, $24.99/year, or $49.99 lifetime.",
+      "faq.free.a": "Yes. Free includes the standard timer, standard notifications, Pomodoro with fixed intervals, 1 project, and 1 day of history. Pro is available for $2.99/month, $24.99/year, or $49.99 lifetime.",
       "faq.platform.q": "What platforms does Flowtime support?",
       "faq.platform.a": "Flowtime is available for iPhone and Android. The web experience is designed to match the app with the same simple, minimal design language.",
       "faq.languages.q": "How many languages does Flowtime support?",
@@ -188,7 +189,7 @@
       "faq.privacy.q": "Is my data private?",
       "faq.privacy.a": "No account is required. The privacy policy states that timer and project data are stored locally on your device and are not sent to Flowtime servers.",
       "faq.pro.q": "What does Flowtime Pro include?",
-      "faq.pro.a": "Flowtime Pro is available for $3.99/month, $24.99/year, or $49.99 lifetime, and unlocks:",
+      "faq.pro.a": "Flowtime Pro is available for $2.99/month, $24.99/year, or $49.99 lifetime, and unlocks:",
       "faq.pro.projects": "Unlimited projects",
       "faq.pro.templates": "Unlimited Quick Start templates",
       "faq.pro.reminders": "Custom reminder profiles",
@@ -283,7 +284,7 @@
       "focus.pomodoro.title": "Pomodoro",
       "focus.pomodoro.text": "Arbeite strukturiert in Intervallen.",
       "focus.flow.title": "Flow Session",
-      "focus.flow.text": "Setze eine Zieldauer und arbeite weiter.",
+      "focus.flow.text": "Setze dir ein Ziel, erhalte Erinnerungen und entscheide, wann du aufhörst.",
       "styles.eyebrow": "Stile",
       "styles.title": "Deine Produktivität.<br />Dein Stil.",
       "styles.description": "Wechsle jederzeit zwischen Classic und Mono.",
@@ -376,7 +377,7 @@
       "faq.competitors.q": "Wie unterscheidet sich Flowtime von Forest, Toggl oder Session?",
       "faq.competitors.a": "Flowtime ist weniger spielerisch als Forest, leichter als teamorientierte Tools wie Toggl und plattformübergreifender als Apple-zentrierte Timer wie Session. Der Fokus liegt auf einfacher persönlicher Fokuserfassung ohne accountlastige Einrichtung.",
       "faq.free.q": "Ist Flowtime kostenlos?",
-      "faq.free.a": "Ja. Free enthält den Standard-Timer, Standardbenachrichtigungen, Pomodoro mit festen Intervallen, 1 Projekt und 1 Tag Verlauf. Pro ist für 3,99 $ pro Monat, 24,99 $ pro Jahr oder einmalig 49,99 $ erhältlich.",
+      "faq.free.a": "Ja. Free enthält den Standard-Timer, Standardbenachrichtigungen, Pomodoro mit festen Intervallen, 1 Projekt und 1 Tag Verlauf. Pro ist für 2,99 $ pro Monat, 24,99 $ pro Jahr oder einmalig 49,99 $ erhältlich.",
       "faq.platform.q": "Welche Plattformen unterstützt Flowtime?",
       "faq.platform.a": "Flowtime ist für iPhone und Android verfügbar. Das Web-Erlebnis folgt derselben einfachen und direkten Designsprache wie die App.",
       "faq.languages.q": "Wie viele Sprachen unterstützt Flowtime?",
@@ -388,7 +389,7 @@
       "faq.privacy.q": "Sind meine Daten privat?",
       "faq.privacy.a": "Ja. Deine Sessions und Projekte bleiben deine. Flowtime setzt Datenschutz an erste Stelle und vermeidet unnötiges Tracking.",
       "faq.pro.q": "Was enthält Flowtime Pro?",
-      "faq.pro.a": "Flowtime Pro ist für 3,99 $ pro Monat, 24,99 $ pro Jahr oder einmalig 49,99 $ erhältlich und schaltet frei:",
+      "faq.pro.a": "Flowtime Pro ist für 2,99 $ pro Monat, 24,99 $ pro Jahr oder einmalig 49,99 $ erhältlich und schaltet frei:",
       "faq.pro.projects": "Unbegrenzte Projekte",
       "faq.pro.templates": "Unbegrenzte Quick-Start-Vorlagen",
       "faq.pro.reminders": "Eigene Erinnerungsprofile",
@@ -483,7 +484,7 @@
       "focus.pomodoro.title": "Pomodoro",
       "focus.pomodoro.text": "Structurez votre travail en intervalles.",
       "focus.flow.title": "Flow Session",
-      "focus.flow.text": "Définissez une durée cible et continuez à travailler.",
+      "focus.flow.text": "Fixez un objectif, recevez des rappels et décidez quand vous arrêter.",
       "styles.eyebrow": "Styles",
       "styles.title": "Votre productivité.<br />Votre style.",
       "styles.description": "Passez de Classic à Mono à tout moment.",
@@ -576,7 +577,7 @@
       "faq.competitors.q": "En quoi Flowtime diffère-t-il de Forest, Toggl ou Session ?",
       "faq.competitors.a": "Flowtime est moins gamifié que Forest, plus léger que les outils d'équipe comme Toggl et plus multiplateforme que les minuteurs centrés sur Apple comme Session. Il se concentre sur le suivi personnel simple, sans configuration lourde basée sur un compte.",
       "faq.free.q": "Flowtime est-il gratuit ?",
-      "faq.free.a": "Oui. Free inclut le minuteur standard, les notifications standard, Pomodoro avec des intervalles fixes, 1 projet et 1 jour d'historique. Pro est disponible à 3,99 $ par mois, 24,99 $ par an ou 49,99 $ à vie.",
+      "faq.free.a": "Oui. Free inclut le minuteur standard, les notifications standard, Pomodoro avec des intervalles fixes, 1 projet et 1 jour d'historique. Pro est disponible à 2,99 $ par mois, 24,99 $ par an ou 49,99 $ à vie.",
       "faq.platform.q": "Quelles plateformes sont compatibles avec Flowtime ?",
       "faq.platform.a": "Flowtime est disponible sur iPhone et Android. L'expérience web reprend le même langage visuel simple et minimal que l'application.",
       "faq.languages.q": "Combien de langues Flowtime prend-il en charge ?",
@@ -588,7 +589,7 @@
       "faq.privacy.q": "Mes données sont-elles privées ?",
       "faq.privacy.a": "Oui. Vos sessions et projets restent les vôtres. Flowtime place la confidentialité au premier plan et évite le suivi superflu.",
       "faq.pro.q": "Que comprend Flowtime Pro ?",
-      "faq.pro.a": "Flowtime Pro est disponible à 3,99 $ par mois, 24,99 $ par an ou 49,99 $ à vie et débloque :",
+      "faq.pro.a": "Flowtime Pro est disponible à 2,99 $ par mois, 24,99 $ par an ou 49,99 $ à vie et débloque :",
       "faq.pro.projects": "Projets illimités",
       "faq.pro.templates": "Modèles Quick Start illimités",
       "faq.pro.reminders": "Profils de rappel personnalisés",
@@ -707,6 +708,7 @@
     }
     window.localStorage.setItem(storageKey, nextLocale);
     var nextUrl = new URL(window.location.href);
+    if (/^\/(de|fr)\/(blog|guides)\//.test(nextUrl.pathname)) nextUrl.pathname = "/guides/interrupting-autopilot-conscious-app-blocking/";
     nextUrl.searchParams.set("lang", nextLocale);
     window.location.assign(nextUrl.toString());
   }
@@ -808,6 +810,10 @@
   localizeStaticText();
   window.flowtimeLocale = locale;
   window.t = t;
+  window.flowtimeTranslations = copy;
+  var campaignScript = document.createElement("script");
+  campaignScript.src = (window.flowtimeRoot || "/") + "scripts/campaign-i18n.js";
+  document.head.appendChild(campaignScript);
   window.setFlowtimeLocale = setLocale;
   window.flowtimeAddTranslations = function (loc, dict) {
     if (!copy[loc]) copy[loc] = {};
@@ -831,7 +837,7 @@
     document.head.appendChild(adhdScript);
   }
   // Dynamically load blog localization script if needed
-  var isBlogPage = !!(document.body.dataset.blogCategory || document.querySelector(".blog-article") || document.querySelector("[data-blog-grid]"));
+  var isBlogPage = !!(document.body.dataset.blogCategory || document.querySelector(".blog-article") || document.querySelector("[data-blog-grid], .journal"));
   if (isBlogPage && locale !== "en" && !window.flowtimeBlogI18nLoading && !window.flowtimeTranslateBlog) {
     window.flowtimeBlogI18nLoading = true;
     var script = document.createElement("script");
