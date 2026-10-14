@@ -77,6 +77,7 @@
 .reference-home .campaign-hero { min-height:0; overflow:hidden; }
 .reference-home .hero-inner { height:636px; padding:0 64px; grid-template-columns:52% 48%; gap:0; }
 .reference-home .hero-copy { padding-bottom:30px; }
+.hero-user-count { margin:0 0 10px; font-size:14px; font-weight:600; color:var(--ink-primary); }
 .hero-ratings { display:flex; flex-wrap:wrap; gap:12px 24px; margin:0 0 20px; }
 .hero-rating { display:inline-flex; align-items:center; gap:8px; white-space:nowrap; font-size:13px; line-height:1.4; color:var(--ink-secondary); }
 .hero-rating strong { font-size:18px; color:var(--ink-primary); }
