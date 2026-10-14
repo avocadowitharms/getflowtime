@@ -77,6 +77,11 @@
 .reference-home .campaign-hero { min-height:0; overflow:hidden; }
 .reference-home .hero-inner { height:636px; padding:0 64px; grid-template-columns:52% 48%; gap:0; }
 .reference-home .hero-copy { padding-bottom:30px; }
+.hero-ratings { display:flex; flex-wrap:wrap; gap:12px 24px; margin:0 0 20px; }
+.hero-rating { display:inline-flex; align-items:center; gap:8px; white-space:nowrap; font-size:13px; line-height:1.4; color:var(--ink-secondary); }
+.hero-rating strong { font-size:18px; color:var(--ink-primary); }
+.hero-rating .rating-stars { font-size:18px; letter-spacing:1px; color:transparent; background:linear-gradient(to right,#96f37c var(--rating-fill),#d9dedb var(--rating-fill)); background-clip:text; -webkit-background-clip:text; }
+.hero-rating:hover > span:last-child { text-decoration:underline; text-underline-offset:3px; }
 .reference-home .campaign-hero h1 { font-size:clamp(76px,10.5vw,150px); letter-spacing:-.075em; line-height:.88; margin-bottom:36px; position:relative; white-space:nowrap; }
 .reference-home .hero-deck { font-size:30px; line-height:1.12; margin-bottom:30px; }
 .reference-home .hero-art { height:100%; align-self:stretch; }
